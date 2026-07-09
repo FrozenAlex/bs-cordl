@@ -33,1782 +33,1634 @@
 #include "System/zzzz__RuntimeTypeHandle_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.get_DeserializedObjects
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::HybridObjectCache* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::get_DeserializedObjects)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::HybridObjectCache* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::get_DeserializedObjects)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6026a04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "get_DeserializedObjects",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "get_DeserializedObjects", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.get_Document
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDocument* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::get_Document)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDocument* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::get_Document)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6026a5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "get_Document",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "get_Document", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.get_IsGetOnlyCollection
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::get_IsGetOnlyCollection)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::get_IsGetOnlyCollection)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6026ac4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.set_IsGetOnlyCollection
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(bool)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::set_IsGetOnlyCollection)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(bool)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::set_IsGetOnlyCollection)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6026acc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.GetCollectionMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetCollectionMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetCollectionMember)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6026ad4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetCollectionMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "GetCollectionMember", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.StoreCollectionMemberInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Object*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::StoreCollectionMemberInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Object*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::StoreCollectionMemberInfo)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6026adc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "StoreCollectionMemberInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "StoreCollectionMemberInfo", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ThrowNullValueReturnedForGetOnlyCollectionException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowNullValueReturnedForGetOnlyCollectionException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowNullValueReturnedForGetOnlyCollectionException)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x6026aec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ThrowNullValueReturnedForGetOnlyCollectionException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "ThrowNullValueReturnedForGetOnlyCollectionException", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ThrowArrayExceededSizeException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::System::Type*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowArrayExceededSizeException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::System::Type*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowArrayExceededSizeException)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x6026b7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ThrowArrayExceededSizeException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "ThrowArrayExceededSizeException", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.CreateContext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::XmlObjectSerializerReadContext* (*)(::System::Runtime::Serialization::DataContractSerializer*, ::System::Runtime::Serialization::DataContract*, ::System::Runtime::Serialization::DataContractResolver*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateContext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Runtime::Serialization::XmlObjectSerializerReadContext* (*)(::System::Runtime::Serialization::DataContractSerializer*, ::System::Runtime::Serialization::DataContract*,
+                                                                                      ::System::Runtime::Serialization::DataContractResolver*)>(
+        &::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateContext)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x6026c48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CreateContext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractSerializer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractResolver*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                { "CreateContext",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Runtime::Serialization::DataContractSerializer*>(), ::i2c::type_of<::System::Runtime::Serialization::DataContract*>(),
+                                                    ::i2c::type_of<::System::Runtime::Serialization::DataContractResolver*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::DataContractSerializer*, ::System::Runtime::Serialization::DataContract*, ::System::Runtime::Serialization::DataContractResolver*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(
+    ::System::Runtime::Serialization::DataContractSerializer*, ::System::Runtime::Serialization::DataContract*, ::System::Runtime::Serialization::DataContractResolver*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::_ctor)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6026d20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractSerializer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractResolver*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                { ".ctor",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Runtime::Serialization::DataContractSerializer*>(), ::i2c::type_of<::System::Runtime::Serialization::DataContract*>(),
+                                                    ::i2c::type_of<::System::Runtime::Serialization::DataContractResolver*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.InternalDeserialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, int32_t, ::System::RuntimeTypeHandle, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, int32_t, ::System::RuntimeTypeHandle, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x6026e00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.InternalDeserialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*, ::StringW, ::StringW)>(
+        &::System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x60274a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.InternalDeserialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*, ::System::Runtime::Serialization::DataContract*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*, ::System::Runtime::Serialization::DataContract*,
+                                                                         ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6027508;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 15 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.TryHandleNullOrRef
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*, ::StringW, ::StringW, ::ByRef<::System::Object*>)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::TryHandleNullOrRef)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*,
+                                                                                                                                  ::System::Type*, ::StringW, ::StringW, ::by_ref<::System::Object*>)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::TryHandleNullOrRef)> {
   constexpr static std::size_t size = 0x1e0;
   constexpr static std::size_t addrs = 0x6027570;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "TryHandleNullOrRef",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "TryHandleNullOrRef",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::System::Type*>(),
+                                                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.InternalDeserialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW, ::System::Type*, ::ByRef<::System::Runtime::Serialization::DataContract*>)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW, ::System::Type*,
+                                                                                                        ::by_ref<::System::Runtime::Serialization::DataContract*>)>(
+        &::System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize)> {
   constexpr static std::size_t size = 0x618;
   constexpr static std::size_t addrs = 0x6026e90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "InternalDeserialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "InternalDeserialize",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                                                 ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::System::Runtime::Serialization::DataContract*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReplaceScopedKnownTypesTop
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*, bool)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReplaceScopedKnownTypesTop)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(
+    ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*, bool)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReplaceScopedKnownTypesTop)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x60279dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReplaceScopedKnownTypesTop",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                { "ReplaceScopedKnownTypesTop",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>(),
+                                                    ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.MoveToNextElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::MoveToNextElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::MoveToNextElement)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x6027a14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "MoveToNextElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "MoveToNextElement", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.GetMemberIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>, int32_t, ::System::Runtime::Serialization::ExtensionDataObject*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetMemberIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(
+    ::System::Runtime::Serialization::XmlReaderDelegator*, ::ArrayW<::System::Xml::XmlDictionaryString*>, ::ArrayW<::System::Xml::XmlDictionaryString*>, int32_t,
+    ::System::Runtime::Serialization::ExtensionDataObject*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetMemberIndex)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x6027a38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetMemberIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ExtensionDataObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "GetMemberIndex",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                 ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>(), ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Runtime::Serialization::ExtensionDataObject*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.GetMemberIndexWithRequiredMembers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>, int32_t, int32_t, ::System::Runtime::Serialization::ExtensionDataObject*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetMemberIndexWithRequiredMembers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(
+    ::System::Runtime::Serialization::XmlReaderDelegator*, ::ArrayW<::System::Xml::XmlDictionaryString*>, ::ArrayW<::System::Xml::XmlDictionaryString*>, int32_t, int32_t,
+    ::System::Runtime::Serialization::ExtensionDataObject*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetMemberIndexWithRequiredMembers)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x6027bc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetMemberIndexWithRequiredMembers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ExtensionDataObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "GetMemberIndexWithRequiredMembers",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                 ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>(), ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Runtime::Serialization::ExtensionDataObject*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ThrowRequiredMemberMissingException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Serialization::XmlReaderDelegator*, int32_t, int32_t, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowRequiredMemberMissingException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Serialization::XmlReaderDelegator*, int32_t, int32_t, ::ArrayW<::System::Xml::XmlDictionaryString*>)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowRequiredMemberMissingException)> {
   constexpr static std::size_t size = 0x248;
   constexpr static std::size_t addrs = 0x6027cc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ThrowRequiredMemberMissingException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "ThrowRequiredMemberMissingException",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<int32_t>(),
+                                                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.HandleMemberNotFound
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::ExtensionDataObject*, int32_t)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::HandleMemberNotFound)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*,
+                                                                                                                                  ::System::Runtime::Serialization::ExtensionDataObject*, int32_t)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::HandleMemberNotFound)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x6027b18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "HandleMemberNotFound",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ExtensionDataObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "HandleMemberNotFound",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                 ::i2c::type_of<::System::Runtime::Serialization::ExtensionDataObject*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.HandleUnknownElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::ExtensionDataObject*, int32_t)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::HandleUnknownElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*,
+                                                                                                                                  ::System::Runtime::Serialization::ExtensionDataObject*, int32_t)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::HandleUnknownElement)> {
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x60281bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "HandleUnknownElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ExtensionDataObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "HandleUnknownElement",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                 ::i2c::type_of<::System::Runtime::Serialization::ExtensionDataObject*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.SkipUnknownElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::SkipUnknownElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::SkipUnknownElement)> {
   constexpr static std::size_t size = 0x1bc;
   constexpr static std::size_t addrs = 0x6028000;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "SkipUnknownElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "SkipUnknownElement", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadIfNullOrRef
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*, bool)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIfNullOrRef)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(
+    ::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*, bool)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIfNullOrRef)> {
   constexpr static std::size_t size = 0x14c;
   constexpr static std::size_t addrs = 0x60283f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadIfNullOrRef",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                            { "ReadIfNullOrRef", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadAttributes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadAttributes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadAttributes)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6028544;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 16 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ResetAttributes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ResetAttributes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ResetAttributes)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x60285b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ResetAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "ResetAttributes", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.GetObjectId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetObjectId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetObjectId)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x6020c68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetObjectId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "GetObjectId", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.GetArraySize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetArraySize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetArraySize)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60285cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  17
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 17 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.AddNewObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Object*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNewObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Object*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNewObject)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x601a9cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "AddNewObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "AddNewObject", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.AddNewObjectWithId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW, ::System::Object*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNewObjectWithId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW, ::System::Object*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNewObjectWithId)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x60285d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "AddNewObjectWithId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "AddNewObjectWithId", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReplaceDeserializedObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW, ::System::Object*, ::System::Object*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReplaceDeserializedObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW, ::System::Object*, ::System::Object*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReplaceDeserializedObject)> {
   constexpr static std::size_t size = 0x1f4;
   constexpr static std::size_t addrs = 0x6020f30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReplaceDeserializedObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                { "ReplaceDeserializedObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.GetExistingObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW, ::System::Type*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetExistingObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW, ::System::Type*, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetExistingObject)> {
   constexpr static std::size_t size = 0x28c;
   constexpr static std::size_t addrs = 0x6027750;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetExistingObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                         { "GetExistingObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.GetExistingObjectOrExtensionData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetExistingObjectOrExtensionData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetExistingObjectOrExtensionData)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x6028840;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetExistingObjectOrExtensionData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "GetExistingObjectOrExtensionData", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.GetRealObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::IObjectReference*, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetRealObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::IObjectReference*, ::StringW)>(
+        &::System::Runtime::Serialization::XmlObjectSerializerReadContext::GetRealObject)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x60288e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetRealObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IObjectReference*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "GetRealObject", {}, { ::i2c::type_of<::System::Runtime::Serialization::IObjectReference*>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.DeserializeFromExtensionData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::IDataNode*, ::System::Type*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::DeserializeFromExtensionData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::IDataNode*, ::System::Type*, ::StringW, ::StringW)>(
+        &::System::Runtime::Serialization::XmlObjectSerializerReadContext::DeserializeFromExtensionData)> {
   constexpr static std::size_t size = 0x1a8;
   constexpr static std::size_t addrs = 0x6028698;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "DeserializeFromExtensionData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IDataNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                            { "DeserializeFromExtensionData",
+                              {},
+                              { ::i2c::type_of<::System::Runtime::Serialization::IDataNode*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.Read
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::Read)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::Read)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x60289cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "Read",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "Read", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ParseQualifiedName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Runtime::Serialization::XmlReaderDelegator*, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ParseQualifiedName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Runtime::Serialization::XmlReaderDelegator*, ::by_ref<::StringW>, ::by_ref<::StringW>, ::by_ref<::StringW>)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ParseQualifiedName)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x6028a18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ParseQualifiedName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "ParseQualifiedName",
+                                                               {},
+                                                               { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                 ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.CheckEndOfArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, int32_t, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::CheckEndOfArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(
+    ::System::Runtime::Serialization::XmlReaderDelegator*, int32_t, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::CheckEndOfArray)> {
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x6028afc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CheckEndOfArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "CheckEndOfArray",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<::System::Xml::XmlDictionaryString*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadIXmlSerializable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlDataContract*, bool)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIXmlSerializable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlDataContract*, bool)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIXmlSerializable)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x6021e20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadIXmlSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlDataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "ReadIXmlSerializable",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                                               ::i2c::type_of<::System::Runtime::Serialization::XmlDataContract*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadRootIXmlSerializable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlDataContract*, bool)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadRootIXmlSerializable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlDataContract*, bool)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadRootIXmlSerializable)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x6021da8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadRootIXmlSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlDataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "ReadRootIXmlSerializable",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                                               ::i2c::type_of<::System::Runtime::Serialization::XmlDataContract*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadIXmlSerializable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Runtime::Serialization::XmlSerializableReader*, ::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlDataContract*, bool)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIXmlSerializable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Runtime::Serialization::XmlSerializableReader*, ::System::Runtime::Serialization::XmlReaderDelegator*,
+                                                                             ::System::Runtime::Serialization::XmlDataContract*, bool)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIXmlSerializable)> {
   constexpr static std::size_t size = 0x308;
   constexpr static std::size_t addrs = 0x6028c88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadIXmlSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlSerializableReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlDataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                { "ReadIXmlSerializable",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Runtime::Serialization::XmlSerializableReader*>(), ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                    ::i2c::type_of<::System::Runtime::Serialization::XmlDataContract*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadSerializationInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::SerializationInfo* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadSerializationInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::SerializationInfo* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadSerializationInfo)> {
   constexpr static std::size_t size = 0x2b0;
   constexpr static std::size_t addrs = 0x6020c80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadSerializationInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                { "ReadSerializationInfo", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ResolveDataContractFromTypeName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ResolveDataContractFromTypeName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)()>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ResolveDataContractFromTypeName)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x6028f90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 18 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadExtensionDataMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ExtensionDataMember* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, int32_t)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::ExtensionDataMember* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, int32_t)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataMember)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x60282fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadExtensionDataMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                { "ReadExtensionDataMember", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadExtensionDataValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::IDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Runtime::Serialization::IDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(
+        &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataValue)> {
   constexpr static std::size_t size = 0x56c;
   constexpr static std::size_t addrs = 0x6028fc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadExtensionDataValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                             { "ReadExtensionDataValue", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.StartReadExtensionDataValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::StartReadExtensionDataValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::StartReadExtensionDataValue)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x602a7d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  19
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 19 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadExtensionDataValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::IDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::IDataNode* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataValue)> {
   constexpr static std::size_t size = 0x2b4;
   constexpr static std::size_t addrs = 0x6029e24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadExtensionDataValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                            { "ReadExtensionDataValue", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadPrimitiveExtensionDataValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::IDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadPrimitiveExtensionDataValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::IDataNode* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadPrimitiveExtensionDataValue)> {
   constexpr static std::size_t size = 0x1f0;
   constexpr static std::size_t addrs = 0x602afe8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  20
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 20 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.InitializeExtensionDataNode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::IDataNode*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::InitializeExtensionDataNode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::IDataNode*, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::InitializeExtensionDataNode)> {
   constexpr static std::size_t size = 0x274;
   constexpr static std::size_t addrs = 0x602a55c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "InitializeExtensionDataNode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IDataNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                            { "InitializeExtensionDataNode", {}, { ::i2c::type_of<::System::Runtime::Serialization::IDataNode*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadUnknownPrimitiveData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::IDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownPrimitiveData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::IDataNode* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Type*, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownPrimitiveData)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x602a500;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownPrimitiveData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "ReadUnknownPrimitiveData",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                                               ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadUnknownClassData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ClassDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownClassData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::ClassDataNode* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownClassData)> {
   constexpr static std::size_t size = 0x1f0;
   constexpr static std::size_t addrs = 0x6029c34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownClassData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                            { "ReadUnknownClassData", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadUnknownCollectionData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::CollectionDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownCollectionData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::CollectionDataNode* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownCollectionData)> {
   constexpr static std::size_t size = 0x4b4;
   constexpr static std::size_t addrs = 0x602952c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownCollectionData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                         { "ReadUnknownCollectionData", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadUnknownISerializableData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ISerializableDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownISerializableData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::ISerializableDataNode* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownISerializableData)> {
   constexpr static std::size_t size = 0x254;
   constexpr static std::size_t addrs = 0x60299e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownISerializableData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+            { "ReadUnknownISerializableData", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadUnknownXmlData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::IDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownXmlData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::IDataNode* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownXmlData)> {
   constexpr static std::size_t size = 0x428;
   constexpr static std::size_t addrs = 0x602a0d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownXmlData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                            { "ReadUnknownXmlData", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadAndResolveUnknownXmlData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::IDataNode* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadAndResolveUnknownXmlData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::IDataNode* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*,
+                                                                         ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadAndResolveUnknownXmlData)> {
   constexpr static std::size_t size = 0x814;
   constexpr static std::size_t addrs = 0x602a7d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadAndResolveUnknownXmlData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                         { "ReadAndResolveUnknownXmlData",
+                                           {},
+                                           { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                             ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.IsContentNode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Xml::XmlNodeType)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::IsContentNode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Xml::XmlNodeType)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::IsContentNode)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x602b2bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "IsContentNode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "IsContentNode", {}, { ::i2c::type_of<::System::Xml::XmlNodeType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.CreateReaderOverChildNodes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::XmlReaderDelegator* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*, ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateReaderOverChildNodes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::XmlReaderDelegator* (
+    ::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*,
+                                                                         ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateReaderOverChildNodes)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x602b2d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CreateReaderOverChildNodes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "CreateReaderOverChildNodes",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*>(),
+                                                                                               ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.CreateWrapperXmlElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (*)(::System::Xml::XmlDocument*, ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*, ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*, ::StringW, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateWrapperXmlElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (*)(::System::Xml::XmlDocument*, ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*,
+                                                                                   ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*, ::StringW, ::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateWrapperXmlElement)> {
   constexpr static std::size_t size = 0x300;
   constexpr static std::size_t addrs = 0x602b3a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CreateWrapperXmlElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDocument*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                { "CreateWrapperXmlElement",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Xml::XmlDocument*>(), ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*>(),
+                                                    ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                                    ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.AddNamespaceDeclaration
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlAttribute* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNamespaceDeclaration)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlAttribute* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNamespaceDeclaration)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x602b1d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "AddNamespaceDeclaration",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                           { "AddNamespaceDeclaration", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.CreateUnexpectedStateException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Xml::XmlNodeType, ::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateUnexpectedStateException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Xml::XmlNodeType, ::System::Runtime::Serialization::XmlReaderDelegator*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateUnexpectedStateException)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x6027f0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CreateUnexpectedStateException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                            { "CreateUnexpectedStateException", {}, { ::i2c::type_of<::System::Xml::XmlNodeType>(), ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.ReadDataContractValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::DataContract*, ::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadDataContractValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::DataContract*,
+                                                                                                                                               ::System::Runtime::Serialization::XmlReaderDelegator*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadDataContractValue)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x602b6a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  21
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 21 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.CreateReaderDelegatorForReader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::XmlReaderDelegator* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Xml::XmlReader*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateReaderDelegatorForReader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Runtime::Serialization::XmlReaderDelegator* (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Xml::XmlReader*)>(
+        &::System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateReaderDelegatorForReader)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x602b6cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  22
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 22 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.IsReadingCollectionExtensionData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::IsReadingCollectionExtensionData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::IsReadingCollectionExtensionData)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x602b72c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  23
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 23 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::XmlObjectSerializerReadContext.IsReadingClassExtensionData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(&::System::Runtime::Serialization::XmlObjectSerializerReadContext::IsReadingClassExtensionData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerReadContext::*)(::System::Runtime::Serialization::XmlReaderDelegator*)>(
+    &::System::Runtime::Serialization::XmlObjectSerializerReadContext::IsReadingClassExtensionData)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x602b74c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                                  24
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 24 }));
     return ___internal_method;
   }
 };
-constexpr ::System::Runtime::Serialization::Attributes*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_attributes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributes;
+constexpr ::System::Runtime::Serialization::Attributes*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_attributes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributes;
 }
 constexpr ::System::Runtime::Serialization::Attributes* const& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_attributes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributes;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributes;
 }
-constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_attributes(::System::Runtime::Serialization::Attributes*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_attributes(::System::Runtime::Serialization::Attributes* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___attributes = value;
 }
-constexpr ::System::Runtime::Serialization::HybridObjectCache*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_deserializedObjects()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___deserializedObjects;
+constexpr ::System::Runtime::Serialization::HybridObjectCache*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_deserializedObjects() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___deserializedObjects;
 }
 constexpr ::System::Runtime::Serialization::HybridObjectCache* const& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_deserializedObjects() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___deserializedObjects;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___deserializedObjects;
 }
-constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_deserializedObjects(::System::Runtime::Serialization::HybridObjectCache*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___deserializedObjects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_deserializedObjects(::System::Runtime::Serialization::HybridObjectCache* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___deserializedObjects = value;
 }
-constexpr ::System::Runtime::Serialization::XmlSerializableReader*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_xmlSerializableReader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xmlSerializableReader;
+constexpr ::System::Runtime::Serialization::XmlSerializableReader*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_xmlSerializableReader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xmlSerializableReader;
 }
 constexpr ::System::Runtime::Serialization::XmlSerializableReader* const& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_xmlSerializableReader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xmlSerializableReader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xmlSerializableReader;
 }
-constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_xmlSerializableReader(::System::Runtime::Serialization::XmlSerializableReader*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xmlSerializableReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_xmlSerializableReader(::System::Runtime::Serialization::XmlSerializableReader* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___xmlSerializableReader = value;
 }
-constexpr ::System::Xml::XmlDocument*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_xmlDocument()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xmlDocument;
+constexpr ::System::Xml::XmlDocument*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_xmlDocument() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xmlDocument;
 }
 constexpr ::System::Xml::XmlDocument* const& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_xmlDocument() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xmlDocument;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xmlDocument;
 }
-constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_xmlDocument(::System::Xml::XmlDocument*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xmlDocument)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_xmlDocument(::System::Xml::XmlDocument* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___xmlDocument = value;
 }
-constexpr ::System::Runtime::Serialization::Attributes*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_attributesInXmlData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributesInXmlData;
+constexpr ::System::Runtime::Serialization::Attributes*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_attributesInXmlData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributesInXmlData;
 }
 constexpr ::System::Runtime::Serialization::Attributes* const& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_attributesInXmlData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributesInXmlData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributesInXmlData;
 }
-constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_attributesInXmlData(::System::Runtime::Serialization::Attributes*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributesInXmlData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_attributesInXmlData(::System::Runtime::Serialization::Attributes* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___attributesInXmlData = value;
 }
-constexpr ::System::Runtime::Serialization::XmlReaderDelegator*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_extensionDataReader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___extensionDataReader;
+constexpr ::System::Runtime::Serialization::XmlReaderDelegator*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_extensionDataReader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___extensionDataReader;
 }
 constexpr ::System::Runtime::Serialization::XmlReaderDelegator* const& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_extensionDataReader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___extensionDataReader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___extensionDataReader;
 }
-constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_extensionDataReader(::System::Runtime::Serialization::XmlReaderDelegator*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___extensionDataReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_extensionDataReader(::System::Runtime::Serialization::XmlReaderDelegator* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___extensionDataReader = value;
 }
-constexpr ::System::Object*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_getOnlyCollectionValue()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___getOnlyCollectionValue;
+constexpr ::System::Object*& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_getOnlyCollectionValue() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___getOnlyCollectionValue;
 }
 constexpr ::System::Object* const& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_getOnlyCollectionValue() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___getOnlyCollectionValue;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___getOnlyCollectionValue;
 }
-constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_getOnlyCollectionValue(::System::Object*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___getOnlyCollectionValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_getOnlyCollectionValue(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___getOnlyCollectionValue = value;
 }
-constexpr bool& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_isGetOnlyCollection()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isGetOnlyCollection;
+constexpr bool& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_isGetOnlyCollection() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isGetOnlyCollection;
 }
 constexpr bool const& System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_get_isGetOnlyCollection() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isGetOnlyCollection;
-}
-constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_isGetOnlyCollection(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___isGetOnlyCollection = value;
-}
-inline ::System::Runtime::Serialization::HybridObjectCache* System::Runtime::Serialization::XmlObjectSerializerReadContext::get_DeserializedObjects()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "get_DeserializedObjects",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::HybridObjectCache*, false>(this, ___internal_method);
-}
-inline ::System::Xml::XmlDocument* System::Runtime::Serialization::XmlObjectSerializerReadContext::get_Document()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "get_Document",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDocument*, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::get_IsGetOnlyCollection()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::set_IsGetOnlyCollection(bool  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::GetCollectionMember()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetCollectionMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::StoreCollectionMemberInfo(::System::Object*  collectionMember)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "StoreCollectionMemberInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collectionMember);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowNullValueReturnedForGetOnlyCollectionException(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ThrowNullValueReturnedForGetOnlyCollectionException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowArrayExceededSizeException(int32_t  arraySize, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ThrowArrayExceededSizeException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, arraySize, type);
-}
-inline ::System::Runtime::Serialization::XmlObjectSerializerReadContext* System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateContext(::System::Runtime::Serialization::DataContractSerializer*  serializer, ::System::Runtime::Serialization::DataContract*  rootTypeDataContract, ::System::Runtime::Serialization::DataContractResolver*  dataContractResolver)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CreateContext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractSerializer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractResolver*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::XmlObjectSerializerReadContext*, false>(nullptr, ___internal_method, serializer, rootTypeDataContract, dataContractResolver);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::_ctor(::System::Runtime::Serialization::DataContractSerializer*  serializer, ::System::Runtime::Serialization::DataContract*  rootTypeDataContract, ::System::Runtime::Serialization::DataContractResolver*  dataContractResolver)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractSerializer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractResolver*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, serializer, rootTypeDataContract, dataContractResolver);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, int32_t  id, ::System::RuntimeTypeHandle  declaredTypeHandle, ::StringW  name, ::StringW  ns)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, xmlReader, id, declaredTypeHandle, name, ns);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Type*  declaredType, ::StringW  name, ::StringW  ns)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, xmlReader, declaredType, name, ns);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Type*  declaredType, ::System::Runtime::Serialization::DataContract*  dataContract, ::StringW  name, ::StringW  ns)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, xmlReader, declaredType, dataContract, name, ns);
-}
-inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::TryHandleNullOrRef(::System::Runtime::Serialization::XmlReaderDelegator*  reader, ::System::Type*  declaredType, ::StringW  name, ::StringW  ns, ::ByRef<::System::Object*>  retObj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "TryHandleNullOrRef",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, reader, declaredType, name, ns, retObj);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator*  reader, ::StringW  name, ::StringW  ns, ::System::Type*  declaredType, ::ByRef<::System::Runtime::Serialization::DataContract*>  dataContract)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "InternalDeserialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, reader, name, ns, declaredType, dataContract);
-}
-inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::ReplaceScopedKnownTypesTop(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*  knownDataContracts, bool  knownTypesAddedInCurrentScope)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReplaceScopedKnownTypesTop",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, knownDataContracts, knownTypesAddedInCurrentScope);
-}
-inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::MoveToNextElement(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "MoveToNextElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, xmlReader);
-}
-inline int32_t System::Runtime::Serialization::XmlObjectSerializerReadContext::GetMemberIndex(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  memberNames, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  memberNamespaces, int32_t  memberIndex, ::System::Runtime::Serialization::ExtensionDataObject*  extensionData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetMemberIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ExtensionDataObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, xmlReader, memberNames, memberNamespaces, memberIndex, extensionData);
-}
-inline int32_t System::Runtime::Serialization::XmlObjectSerializerReadContext::GetMemberIndexWithRequiredMembers(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  memberNames, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  memberNamespaces, int32_t  memberIndex, int32_t  requiredIndex, ::System::Runtime::Serialization::ExtensionDataObject*  extensionData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetMemberIndexWithRequiredMembers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ExtensionDataObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, xmlReader, memberNames, memberNamespaces, memberIndex, requiredIndex, extensionData);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowRequiredMemberMissingException(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, int32_t  memberIndex, int32_t  requiredIndex, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  memberNames)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ThrowRequiredMemberMissingException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, xmlReader, memberIndex, requiredIndex, memberNames);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::HandleMemberNotFound(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Runtime::Serialization::ExtensionDataObject*  extensionData, int32_t  memberIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "HandleMemberNotFound",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ExtensionDataObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmlReader, extensionData, memberIndex);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::HandleUnknownElement(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Runtime::Serialization::ExtensionDataObject*  extensionData, int32_t  memberIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "HandleUnknownElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ExtensionDataObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmlReader, extensionData, memberIndex);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::SkipUnknownElement(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "SkipUnknownElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmlReader);
-}
-inline ::StringW System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIfNullOrRef(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Type*  memberType, bool  isMemberTypeSerializable)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadIfNullOrRef",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, xmlReader, memberType, isMemberTypeSerializable);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadAttributes(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmlReader);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ResetAttributes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ResetAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::StringW System::Runtime::Serialization::XmlObjectSerializerReadContext::GetObjectId()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetObjectId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline int32_t System::Runtime::Serialization::XmlObjectSerializerReadContext::GetArraySize()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            17
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNewObject(::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "AddNewObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNewObjectWithId(::StringW  id, ::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "AddNewObjectWithId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, obj);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ReplaceDeserializedObject(::StringW  id, ::System::Object*  oldObj, ::System::Object*  newObj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReplaceDeserializedObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, oldObj, newObj);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::GetExistingObject(::StringW  id, ::System::Type*  type, ::StringW  name, ::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetExistingObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, id, type, name, ns);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::GetExistingObjectOrExtensionData(::StringW  id)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetExistingObjectOrExtensionData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, id);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::GetRealObject(::System::Runtime::Serialization::IObjectReference*  obj, ::StringW  id)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "GetRealObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IObjectReference*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, obj, id);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::DeserializeFromExtensionData(::System::Runtime::Serialization::IDataNode*  dataNode, ::System::Type*  type, ::StringW  name, ::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "DeserializeFromExtensionData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IDataNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, dataNode, type, name, ns);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::Read(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "Read",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, xmlReader);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ParseQualifiedName(::StringW  qname, ::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::ByRef<::StringW>  name, ::ByRef<::StringW>  ns, ::ByRef<::StringW>  prefix)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ParseQualifiedName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, qname, xmlReader, name, ns, prefix);
-}
-template<typename T>
-inline ::ArrayW<T,::Array<T>*> System::Runtime::Serialization::XmlObjectSerializerReadContext::EnsureArraySize(::ArrayW<T,::Array<T>*>  array, int32_t  index)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                    "EnsureArraySize",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T,::Array<T>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<T,::Array<T>*>, false>(nullptr, ___internal_method, array, index);
-}
-template<typename T>
-inline ::ArrayW<T,::Array<T>*> System::Runtime::Serialization::XmlObjectSerializerReadContext::TrimArraySize(::ArrayW<T,::Array<T>*>  array, int32_t  size)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                    "TrimArraySize",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T,::Array<T>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<T,::Array<T>*>, false>(nullptr, ___internal_method, array, size);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::CheckEndOfArray(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, int32_t  arraySize, ::System::Xml::XmlDictionaryString*  itemName, ::System::Xml::XmlDictionaryString*  itemNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CheckEndOfArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmlReader, arraySize, itemName, itemNamespace);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIXmlSerializable(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Runtime::Serialization::XmlDataContract*  xmlDataContract, bool  isMemberType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadIXmlSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlDataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, xmlReader, xmlDataContract, isMemberType);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadRootIXmlSerializable(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Runtime::Serialization::XmlDataContract*  xmlDataContract, bool  isMemberType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadRootIXmlSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlDataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, xmlReader, xmlDataContract, isMemberType);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIXmlSerializable(::System::Runtime::Serialization::XmlSerializableReader*  xmlSerializableReader, ::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Runtime::Serialization::XmlDataContract*  xmlDataContract, bool  isMemberType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadIXmlSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlSerializableReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlDataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, xmlSerializableReader, xmlReader, xmlDataContract, isMemberType);
-}
-inline ::System::Runtime::Serialization::SerializationInfo* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadSerializationInfo(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadSerializationInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::SerializationInfo*, false>(this, ___internal_method, xmlReader, type);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::XmlObjectSerializerReadContext::ResolveDataContractFromTypeName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(this, ___internal_method);
-}
-inline ::System::Runtime::Serialization::ExtensionDataMember* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataMember(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, int32_t  memberIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadExtensionDataMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ExtensionDataMember*, false>(this, ___internal_method, xmlReader, memberIndex);
-}
-inline ::System::Runtime::Serialization::IDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadExtensionDataValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*, false>(this, ___internal_method, xmlReader);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::StartReadExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            19
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmlReader);
-}
-inline ::System::Runtime::Serialization::IDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::StringW  dataContractName, ::StringW  dataContractNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadExtensionDataValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*, false>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
-}
-inline ::System::Runtime::Serialization::IDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadPrimitiveExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::StringW  dataContractName, ::StringW  dataContractNamespace)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            20
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*, false>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
-}
-inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::InitializeExtensionDataNode(::System::Runtime::Serialization::IDataNode*  dataNode, ::StringW  dataContractName, ::StringW  dataContractNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "InitializeExtensionDataNode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IDataNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dataNode, dataContractName, dataContractNamespace);
-}
-inline ::System::Runtime::Serialization::IDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownPrimitiveData(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Type*  type, ::StringW  dataContractName, ::StringW  dataContractNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownPrimitiveData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*, false>(this, ___internal_method, xmlReader, type, dataContractName, dataContractNamespace);
-}
-inline ::System::Runtime::Serialization::ClassDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownClassData(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::StringW  dataContractName, ::StringW  dataContractNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownClassData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ClassDataNode*, false>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
-}
-inline ::System::Runtime::Serialization::CollectionDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownCollectionData(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::StringW  dataContractName, ::StringW  dataContractNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownCollectionData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::CollectionDataNode*, false>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
-}
-inline ::System::Runtime::Serialization::ISerializableDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownISerializableData(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::StringW  dataContractName, ::StringW  dataContractNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownISerializableData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ISerializableDataNode*, false>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
-}
-inline ::System::Runtime::Serialization::IDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownXmlData(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::StringW  dataContractName, ::StringW  dataContractNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadUnknownXmlData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*, false>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
-}
-inline ::System::Runtime::Serialization::IDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadAndResolveUnknownXmlData(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*  namespaces, ::StringW  dataContractName, ::StringW  dataContractNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "ReadAndResolveUnknownXmlData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*, false>(this, ___internal_method, xmlReader, namespaces, dataContractName, dataContractNamespace);
-}
-inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::IsContentNode(::System::Xml::XmlNodeType  nodeType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "IsContentNode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, nodeType);
-}
-inline ::System::Runtime::Serialization::XmlReaderDelegator* System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateReaderOverChildNodes(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*  xmlAttributes, ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*  xmlChildNodes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CreateReaderOverChildNodes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::XmlReaderDelegator*, false>(this, ___internal_method, xmlAttributes, xmlChildNodes);
-}
-inline ::System::Xml::XmlNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateWrapperXmlElement(::System::Xml::XmlDocument*  document, ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*  xmlAttributes, ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*  xmlChildNodes, ::StringW  prefix, ::StringW  localName, ::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CreateWrapperXmlElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDocument*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(nullptr, ___internal_method, document, xmlAttributes, xmlChildNodes, prefix, localName, ns);
-}
-inline ::System::Xml::XmlAttribute* System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNamespaceDeclaration(::StringW  prefix, ::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "AddNamespaceDeclaration",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlAttribute*, false>(this, ___internal_method, prefix, ns);
-}
-inline ::System::Exception* System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateUnexpectedStateException(::System::Xml::XmlNodeType  expectedState, ::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                        "CreateUnexpectedStateException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::XmlReaderDelegator*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(nullptr, ___internal_method, expectedState, xmlReader);
-}
-inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadDataContractValue(::System::Runtime::Serialization::DataContract*  dataContract, ::System::Runtime::Serialization::XmlReaderDelegator*  reader)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            21
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, dataContract, reader);
-}
-inline ::System::Runtime::Serialization::XmlReaderDelegator* System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateReaderDelegatorForReader(::System::Xml::XmlReader*  xmlReader)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            22
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::XmlReaderDelegator*, false>(this, ___internal_method, xmlReader);
-}
-inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::IsReadingCollectionExtensionData(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            23
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, xmlReader);
-}
-inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::IsReadingClassExtensionData(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>::get(),
-                            24
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, xmlReader);
-}
-inline ::System::Runtime::Serialization::XmlObjectSerializerReadContext* System::Runtime::Serialization::XmlObjectSerializerReadContext::New_ctor(::System::Runtime::Serialization::DataContractSerializer*  serializer, ::System::Runtime::Serialization::DataContract*  rootTypeDataContract, ::System::Runtime::Serialization::DataContractResolver*  dataContractResolver)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(serializer, rootTypeDataContract, dataContractResolver));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isGetOnlyCollection;
+}
+constexpr void System::Runtime::Serialization::XmlObjectSerializerReadContext::__cordl_internal_set_isGetOnlyCollection(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isGetOnlyCollection = value;
+}
+inline ::System::Runtime::Serialization::HybridObjectCache* System::Runtime::Serialization::XmlObjectSerializerReadContext::get_DeserializedObjects() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "get_DeserializedObjects", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::HybridObjectCache*>(this, ___internal_method);
+}
+inline ::System::Xml::XmlDocument* System::Runtime::Serialization::XmlObjectSerializerReadContext::get_Document() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "get_Document", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDocument*>(this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::get_IsGetOnlyCollection() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::set_IsGetOnlyCollection(bool value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::GetCollectionMember() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "GetCollectionMember", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::StoreCollectionMemberInfo(::System::Object* collectionMember) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "StoreCollectionMemberInfo", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, collectionMember);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowNullValueReturnedForGetOnlyCollectionException(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "ThrowNullValueReturnedForGetOnlyCollectionException", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, type);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowArrayExceededSizeException(int32_t arraySize, ::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "ThrowArrayExceededSizeException", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, arraySize, type);
+}
+inline ::System::Runtime::Serialization::XmlObjectSerializerReadContext*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateContext(::System::Runtime::Serialization::DataContractSerializer* serializer,
+                                                                              ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
+                                                                              ::System::Runtime::Serialization::DataContractResolver* dataContractResolver) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                              { "CreateContext",
+                                                {},
+                                                { ::i2c::type_of<::System::Runtime::Serialization::DataContractSerializer*>(), ::i2c::type_of<::System::Runtime::Serialization::DataContract*>(),
+                                                  ::i2c::type_of<::System::Runtime::Serialization::DataContractResolver*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(nullptr, ___internal_method, serializer, rootTypeDataContract, dataContractResolver);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::_ctor(::System::Runtime::Serialization::DataContractSerializer* serializer,
+                                                                                  ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
+                                                                                  ::System::Runtime::Serialization::DataContractResolver* dataContractResolver) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                              { ".ctor",
+                                                {},
+                                                { ::i2c::type_of<::System::Runtime::Serialization::DataContractSerializer*>(), ::i2c::type_of<::System::Runtime::Serialization::DataContract*>(),
+                                                  ::i2c::type_of<::System::Runtime::Serialization::DataContractResolver*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializer, rootTypeDataContract, dataContractResolver);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t id,
+                                                                                                             ::System::RuntimeTypeHandle declaredTypeHandle, ::StringW name, ::StringW ns) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, xmlReader, id, declaredTypeHandle, name, ns);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                                             ::System::Type* declaredType, ::StringW name, ::StringW ns) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, xmlReader, declaredType, name, ns);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                                             ::System::Type* declaredType, ::System::Runtime::Serialization::DataContract* dataContract,
+                                                                                                             ::StringW name, ::StringW ns) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, xmlReader, declaredType, dataContract, name, ns);
+}
+inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::TryHandleNullOrRef(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Type* declaredType,
+                                                                                               ::StringW name, ::StringW ns, ::by_ref<::System::Object*> retObj) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "TryHandleNullOrRef",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::StringW>(),
+                                                               ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, reader, declaredType, name, ns, retObj);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::StringW name, ::StringW ns,
+                                                                                                             ::System::Type* declaredType,
+                                                                                                             ::by_ref<::System::Runtime::Serialization::DataContract*> dataContract) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "InternalDeserialize",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                                               ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::System::Runtime::Serialization::DataContract*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, name, ns, declaredType, dataContract);
+}
+inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::ReplaceScopedKnownTypesTop(
+    ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* knownDataContracts, bool knownTypesAddedInCurrentScope) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                              { "ReplaceScopedKnownTypesTop",
+                                                {},
+                                                { ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>(),
+                                                  ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, knownDataContracts, knownTypesAddedInCurrentScope);
+}
+inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::MoveToNextElement(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "MoveToNextElement", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, xmlReader);
+}
+inline int32_t System::Runtime::Serialization::XmlObjectSerializerReadContext::GetMemberIndex(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                              ::ArrayW<::System::Xml::XmlDictionaryString*> memberNames,
+                                                                                              ::ArrayW<::System::Xml::XmlDictionaryString*> memberNamespaces, int32_t memberIndex,
+                                                                                              ::System::Runtime::Serialization::ExtensionDataObject* extensionData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "GetMemberIndex",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>(),
+                                                               ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<::System::Runtime::Serialization::ExtensionDataObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, xmlReader, memberNames, memberNamespaces, memberIndex, extensionData);
+}
+inline int32_t System::Runtime::Serialization::XmlObjectSerializerReadContext::GetMemberIndexWithRequiredMembers(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                                                 ::ArrayW<::System::Xml::XmlDictionaryString*> memberNames,
+                                                                                                                 ::ArrayW<::System::Xml::XmlDictionaryString*> memberNamespaces, int32_t memberIndex,
+                                                                                                                 int32_t requiredIndex,
+                                                                                                                 ::System::Runtime::Serialization::ExtensionDataObject* extensionData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "GetMemberIndexWithRequiredMembers",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>(),
+                                                               ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<::System::Runtime::Serialization::ExtensionDataObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, xmlReader, memberNames, memberNamespaces, memberIndex, requiredIndex, extensionData);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ThrowRequiredMemberMissingException(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t memberIndex,
+                                                                                                                int32_t requiredIndex, ::ArrayW<::System::Xml::XmlDictionaryString*> memberNames) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "ThrowRequiredMemberMissingException",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<int32_t>(),
+                                                                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::System::Xml::XmlDictionaryString*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, xmlReader, memberIndex, requiredIndex, memberNames);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::HandleMemberNotFound(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                                 ::System::Runtime::Serialization::ExtensionDataObject* extensionData, int32_t memberIndex) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "HandleMemberNotFound",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                                             ::i2c::type_of<::System::Runtime::Serialization::ExtensionDataObject*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmlReader, extensionData, memberIndex);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::HandleUnknownElement(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                                 ::System::Runtime::Serialization::ExtensionDataObject* extensionData, int32_t memberIndex) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "HandleUnknownElement",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                                             ::i2c::type_of<::System::Runtime::Serialization::ExtensionDataObject*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmlReader, extensionData, memberIndex);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::SkipUnknownElement(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "SkipUnknownElement", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmlReader);
+}
+inline ::StringW System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIfNullOrRef(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* memberType,
+                                                                                                 bool isMemberTypeSerializable) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                          { "ReadIfNullOrRef", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, xmlReader, memberType, isMemberTypeSerializable);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadAttributes(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 16 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmlReader);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ResetAttributes() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "ResetAttributes", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::StringW System::Runtime::Serialization::XmlObjectSerializerReadContext::GetObjectId() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "GetObjectId", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline int32_t System::Runtime::Serialization::XmlObjectSerializerReadContext::GetArraySize() {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 17 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNewObject(::System::Object* obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), { "AddNewObject", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNewObjectWithId(::StringW id, ::System::Object* obj) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "AddNewObjectWithId", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, id, obj);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ReplaceDeserializedObject(::StringW id, ::System::Object* oldObj, ::System::Object* newObj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                              { "ReplaceDeserializedObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, id, oldObj, newObj);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::GetExistingObject(::StringW id, ::System::Type* type, ::StringW name, ::StringW ns) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                       { "GetExistingObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, id, type, name, ns);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::GetExistingObjectOrExtensionData(::StringW id) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "GetExistingObjectOrExtensionData", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, id);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::GetRealObject(::System::Runtime::Serialization::IObjectReference* obj, ::StringW id) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "GetRealObject", {}, { ::i2c::type_of<::System::Runtime::Serialization::IObjectReference*>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, obj, id);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::DeserializeFromExtensionData(::System::Runtime::Serialization::IDataNode* dataNode, ::System::Type* type,
+                                                                                                                      ::StringW name, ::StringW ns) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                          { "DeserializeFromExtensionData",
+                            {},
+                            { ::i2c::type_of<::System::Runtime::Serialization::IDataNode*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, dataNode, type, name, ns);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::Read(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "Read", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, xmlReader);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::ParseQualifiedName(::StringW qname, ::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                               ::by_ref<::StringW> name, ::by_ref<::StringW> ns, ::by_ref<::StringW> prefix) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "ParseQualifiedName",
+                                                             {},
+                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                               ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, qname, xmlReader, name, ns, prefix);
+}
+template <typename T> inline ::ArrayW<T> System::Runtime::Serialization::XmlObjectSerializerReadContext::EnsureArraySize(::ArrayW<T> array, int32_t index) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "EnsureArraySize", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(nullptr, ___internal_method, array, index);
+}
+template <typename T> inline ::ArrayW<T> System::Runtime::Serialization::XmlObjectSerializerReadContext::TrimArraySize(::ArrayW<T> array, int32_t size) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "TrimArraySize", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(nullptr, ___internal_method, array, size);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::CheckEndOfArray(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t arraySize,
+                                                                                            ::System::Xml::XmlDictionaryString* itemName, ::System::Xml::XmlDictionaryString* itemNamespace) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "CheckEndOfArray",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<::System::Xml::XmlDictionaryString*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmlReader, arraySize, itemName, itemNamespace);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIXmlSerializable(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                                              ::System::Runtime::Serialization::XmlDataContract* xmlDataContract, bool isMemberType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "ReadIXmlSerializable",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                                             ::i2c::type_of<::System::Runtime::Serialization::XmlDataContract*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, xmlReader, xmlDataContract, isMemberType);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadRootIXmlSerializable(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                                                  ::System::Runtime::Serialization::XmlDataContract* xmlDataContract,
+                                                                                                                  bool isMemberType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "ReadRootIXmlSerializable",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                                                             ::i2c::type_of<::System::Runtime::Serialization::XmlDataContract*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, xmlReader, xmlDataContract, isMemberType);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadIXmlSerializable(::System::Runtime::Serialization::XmlSerializableReader* xmlSerializableReader,
+                                                                                                              ::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                                              ::System::Runtime::Serialization::XmlDataContract* xmlDataContract, bool isMemberType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                              { "ReadIXmlSerializable",
+                                                {},
+                                                { ::i2c::type_of<::System::Runtime::Serialization::XmlSerializableReader*>(), ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                                  ::i2c::type_of<::System::Runtime::Serialization::XmlDataContract*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, xmlSerializableReader, xmlReader, xmlDataContract, isMemberType);
+}
+inline ::System::Runtime::Serialization::SerializationInfo*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadSerializationInfo(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                              { "ReadSerializationInfo", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::SerializationInfo*>(this, ___internal_method, xmlReader, type);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::XmlObjectSerializerReadContext::ResolveDataContractFromTypeName() {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 18 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::ExtensionDataMember*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataMember(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t memberIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "ReadExtensionDataMember", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ExtensionDataMember*>(this, ___internal_method, xmlReader, memberIndex);
+}
+inline ::System::Runtime::Serialization::IDataNode*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "ReadExtensionDataValue", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*>(this, ___internal_method, xmlReader);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::StartReadExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 19 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmlReader);
+}
+inline ::System::Runtime::Serialization::IDataNode*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
+                                                                                       ::StringW dataContractNamespace) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                          { "ReadExtensionDataValue", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
+}
+inline ::System::Runtime::Serialization::IDataNode*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadPrimitiveExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
+                                                                                                ::StringW dataContractNamespace) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 20 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
+}
+inline void System::Runtime::Serialization::XmlObjectSerializerReadContext::InitializeExtensionDataNode(::System::Runtime::Serialization::IDataNode* dataNode, ::StringW dataContractName,
+                                                                                                        ::StringW dataContractNamespace) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                          { "InitializeExtensionDataNode", {}, { ::i2c::type_of<::System::Runtime::Serialization::IDataNode*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dataNode, dataContractName, dataContractNamespace);
+}
+inline ::System::Runtime::Serialization::IDataNode*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownPrimitiveData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* type,
+                                                                                         ::StringW dataContractName, ::StringW dataContractNamespace) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "ReadUnknownPrimitiveData",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::System::Type*>(),
+                                                                                             ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*>(this, ___internal_method, xmlReader, type, dataContractName, dataContractNamespace);
+}
+inline ::System::Runtime::Serialization::ClassDataNode*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownClassData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
+                                                                                     ::StringW dataContractNamespace) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                          { "ReadUnknownClassData", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ClassDataNode*>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
+}
+inline ::System::Runtime::Serialization::CollectionDataNode*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownCollectionData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
+                                                                                          ::StringW dataContractNamespace) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                          { "ReadUnknownCollectionData", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::CollectionDataNode*>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
+}
+inline ::System::Runtime::Serialization::ISerializableDataNode*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownISerializableData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
+                                                                                             ::StringW dataContractNamespace) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                       { "ReadUnknownISerializableData", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ISerializableDataNode*>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
+}
+inline ::System::Runtime::Serialization::IDataNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadUnknownXmlData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                                                                       ::StringW dataContractName, ::StringW dataContractNamespace) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                          { "ReadUnknownXmlData", {}, { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*>(this, ___internal_method, xmlReader, dataContractName, dataContractNamespace);
+}
+inline ::System::Runtime::Serialization::IDataNode*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadAndResolveUnknownXmlData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                             ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* namespaces,
+                                                                                             ::StringW dataContractName, ::StringW dataContractNamespace) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                       { "ReadAndResolveUnknownXmlData",
+                                         {},
+                                         { ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>(),
+                                           ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IDataNode*>(this, ___internal_method, xmlReader, namespaces, dataContractName, dataContractNamespace);
+}
+inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::IsContentNode(::System::Xml::XmlNodeType nodeType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "IsContentNode", {}, { ::i2c::type_of<::System::Xml::XmlNodeType>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, nodeType);
+}
+inline ::System::Runtime::Serialization::XmlReaderDelegator*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateReaderOverChildNodes(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* xmlAttributes,
+                                                                                           ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* xmlChildNodes) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "CreateReaderOverChildNodes",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*>(),
+                                                                                             ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::XmlReaderDelegator*>(this, ___internal_method, xmlAttributes, xmlChildNodes);
+}
+inline ::System::Xml::XmlNode* System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateWrapperXmlElement(
+    ::System::Xml::XmlDocument* document, ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* xmlAttributes,
+    ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* xmlChildNodes, ::StringW prefix, ::StringW localName, ::StringW ns) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                           { "CreateWrapperXmlElement",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Xml::XmlDocument*>(), ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*>(), ::i2c::type_of<::StringW>(),
+                                                               ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*>(nullptr, ___internal_method, document, xmlAttributes, xmlChildNodes, prefix, localName, ns);
+}
+inline ::System::Xml::XmlAttribute* System::Runtime::Serialization::XmlObjectSerializerReadContext::AddNamespaceDeclaration(::StringW prefix, ::StringW ns) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                                                                                         { "AddNamespaceDeclaration", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlAttribute*>(this, ___internal_method, prefix, ns);
+}
+inline ::System::Exception* System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateUnexpectedStateException(::System::Xml::XmlNodeType expectedState,
+                                                                                                                           ::System::Runtime::Serialization::XmlReaderDelegator* xmlReader) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(),
+                          { "CreateUnexpectedStateException", {}, { ::i2c::type_of<::System::Xml::XmlNodeType>(), ::i2c::type_of<::System::Runtime::Serialization::XmlReaderDelegator*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Exception*>(nullptr, ___internal_method, expectedState, xmlReader);
+}
+inline ::System::Object* System::Runtime::Serialization::XmlObjectSerializerReadContext::ReadDataContractValue(::System::Runtime::Serialization::DataContract* dataContract,
+                                                                                                               ::System::Runtime::Serialization::XmlReaderDelegator* reader) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 21 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, dataContract, reader);
+}
+inline ::System::Runtime::Serialization::XmlReaderDelegator* System::Runtime::Serialization::XmlObjectSerializerReadContext::CreateReaderDelegatorForReader(::System::Xml::XmlReader* xmlReader) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 22 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::XmlReaderDelegator*>(this, ___internal_method, xmlReader);
+}
+inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::IsReadingCollectionExtensionData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 23 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, xmlReader);
+}
+inline bool System::Runtime::Serialization::XmlObjectSerializerReadContext::IsReadingClassExtensionData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(), 24 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, xmlReader);
+}
+inline ::System::Runtime::Serialization::XmlObjectSerializerReadContext*
+System::Runtime::Serialization::XmlObjectSerializerReadContext::New_ctor(::System::Runtime::Serialization::DataContractSerializer* serializer,
+                                                                         ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
+                                                                         ::System::Runtime::Serialization::DataContractResolver* dataContractResolver) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::XmlObjectSerializerReadContext*>(serializer, rootTypeDataContract, dataContractResolver));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Serialization::XmlObjectSerializerReadContext::XmlObjectSerializerReadContext()   {
-}
+constexpr ::System::Runtime::Serialization::XmlObjectSerializerReadContext::XmlObjectSerializerReadContext() {}

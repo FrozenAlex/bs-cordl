@@ -6,62 +6,47 @@
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshBuilderNative_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ColorPage.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ColorPage (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::ColorPage::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ColorPage (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::UIR::BMPAlloc)>(
+    &::UnityEngine::UIElements::ColorPage::Init)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6c7dab8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColorPage>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::RenderChain*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::BMPAlloc>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ColorPage>(),
+                                                { "Init", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::RenderChain*>(), ::i2c::type_of<::UnityEngine::UIElements::UIR::BMPAlloc>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ColorPage.ToNativeColorPage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage (::UnityEngine::UIElements::ColorPage::*)()>(&::UnityEngine::UIElements::ColorPage::ToNativeColorPage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage (::UnityEngine::UIElements::ColorPage::*)()>(
+    &::UnityEngine::UIElements::ColorPage::ToNativeColorPage)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6c7db54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColorPage>::get(),
-                        "ToNativeColorPage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ColorPage>(), { "ToNativeColorPage", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::ColorPage UnityEngine::UIElements::ColorPage::Init(::UnityEngine::UIElements::UIR::RenderChain*  renderChain, ::UnityEngine::UIElements::UIR::BMPAlloc  alloc)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColorPage>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::RenderChain*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::BMPAlloc>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ColorPage, false>(nullptr, ___internal_method, renderChain, alloc);
+inline ::UnityEngine::UIElements::ColorPage UnityEngine::UIElements::ColorPage::Init(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::BMPAlloc alloc) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ColorPage>(),
+                                              { "Init", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::RenderChain*>(), ::i2c::type_of<::UnityEngine::UIElements::UIR::BMPAlloc>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ColorPage>(nullptr, ___internal_method, renderChain, alloc);
 }
-inline ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage UnityEngine::UIElements::ColorPage::ToNativeColorPage()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColorPage>::get(),
-                        "ToNativeColorPage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage UnityEngine::UIElements::ColorPage::ToNativeColorPage() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ColorPage>(), { "ToNativeColorPage", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>(*this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "pageAndID", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::ColorPage::ColorPage(bool  isValid, ::UnityEngine::Color32  pageAndID) noexcept  {
-this->isValid = isValid;
-this->pageAndID = pageAndID;
+constexpr ::UnityEngine::UIElements::ColorPage::ColorPage(bool isValid, ::UnityEngine::Color32 pageAndID) noexcept {
+  this->isValid = isValid;
+  this->pageAndID = pageAndID;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::ColorPage::ColorPage()   {
-}
+constexpr ::UnityEngine::UIElements::ColorPage::ColorPage() {}

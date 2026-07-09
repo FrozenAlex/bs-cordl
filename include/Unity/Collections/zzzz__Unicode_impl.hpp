@@ -5,816 +5,619 @@
 #include "Unity/Collections/zzzz__ConversionError_def.hpp"
 #include "Unity/Collections/zzzz__Unicode_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::Unicode_Rune::*)(int32_t)>(&::Unity::Collections::Unicode_Rune::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::Unicode_Rune::*)(int32_t)>(&::Unity::Collections::Unicode_Rune::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6386ad8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.op_Implicit___Unity__Collections__Unicode_Rune
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::Unicode_Rune (*)(char16_t)>(&::Unity::Collections::Unicode_Rune::op_Implicit___Unity__Collections__Unicode_Rune)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Unicode_Rune (*)(char16_t)>(&::Unity::Collections::Unicode_Rune::op_Implicit___Unity__Collections__Unicode_Rune)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6386ae0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "op_Implicit", {}, { ::i2c::type_of<char16_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.op_Equality
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::Collections::Unicode_Rune, ::Unity::Collections::Unicode_Rune)>(&::Unity::Collections::Unicode_Rune::op_Equality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::Unicode_Rune, ::Unity::Collections::Unicode_Rune)>(&::Unity::Collections::Unicode_Rune::op_Equality)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6386ae8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(),
+                                                             { "op_Equality", {}, { ::i2c::type_of<::Unity::Collections::Unicode_Rune>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)(::System::Object*)>(&::Unity::Collections::Unicode_Rune::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)(::System::Object*)>(&::Unity::Collections::Unicode_Rune::Equals)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6386af4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { ::i2c::class_of<::Unity::Collections::Unicode_Rune>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6386b70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { ::i2c::class_of<::Unity::Collections::Unicode_Rune>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.op_Inequality
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::Collections::Unicode_Rune, ::Unity::Collections::Unicode_Rune)>(&::Unity::Collections::Unicode_Rune::op_Inequality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::Unicode_Rune, ::Unity::Collections::Unicode_Rune)>(&::Unity::Collections::Unicode_Rune::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6386b78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "op_Inequality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(),
+                                                             { "op_Inequality", {}, { ::i2c::type_of<::Unity::Collections::Unicode_Rune>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.IsDigit
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::Collections::Unicode_Rune)>(&::Unity::Collections::Unicode_Rune::IsDigit)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::Unicode_Rune)>(&::Unity::Collections::Unicode_Rune::IsDigit)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6386b84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsDigit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsDigit", {}, { ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.IsAscii
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::IsAscii)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::IsAscii)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6386ba8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsAscii",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsAscii", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.IsLatin1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::IsLatin1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::IsLatin1)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6386bb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsLatin1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsLatin1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.IsDigit
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::IsDigit)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::IsDigit)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6386b94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsDigit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsDigit", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.IsWhiteSpace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::IsWhiteSpace)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::IsWhiteSpace)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x6386bc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsWhiteSpace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsWhiteSpace", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.ToLowerAscii
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::Unicode_Rune (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::ToLowerAscii)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Unicode_Rune (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::ToLowerAscii)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x6386c58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "ToLowerAscii",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "ToLowerAscii", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.ToUpperAscii
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::Unicode_Rune (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::ToUpperAscii)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Unicode_Rune (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::ToUpperAscii)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6386c70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "ToUpperAscii",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "ToUpperAscii", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode_Rune.LengthInUtf8Bytes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::LengthInUtf8Bytes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::Unicode_Rune::*)()>(&::Unity::Collections::Unicode_Rune::LengthInUtf8Bytes)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6386c8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "LengthInUtf8Bytes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "LengthInUtf8Bytes", {}, {} })));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::Unicode_Rune::_ctor(int32_t  codepoint)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, codepoint);
+inline void Unity::Collections::Unicode_Rune::_ctor(int32_t codepoint) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, codepoint);
 }
-inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode_Rune::op_Implicit___Unity__Collections__Unicode_Rune(char16_t  codepoint)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune, false>(nullptr, ___internal_method, codepoint);
+inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode_Rune::op_Implicit___Unity__Collections__Unicode_Rune(char16_t codepoint) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "op_Implicit", {}, { ::i2c::type_of<char16_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune>(nullptr, ___internal_method, codepoint);
 }
-inline bool Unity::Collections::Unicode_Rune::op_Equality(::Unity::Collections::Unicode_Rune  lhs, ::Unity::Collections::Unicode_Rune  rhs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
+inline bool Unity::Collections::Unicode_Rune::op_Equality(::Unity::Collections::Unicode_Rune lhs, ::Unity::Collections::Unicode_Rune rhs) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(),
+                                                           { "op_Equality", {}, { ::i2c::type_of<::Unity::Collections::Unicode_Rune>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
 }
-inline bool Unity::Collections::Unicode_Rune::Equals(::System::Object*  obj)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool Unity::Collections::Unicode_Rune::Equals(::System::Object* obj) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::Unicode_Rune>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
 }
-inline int32_t Unity::Collections::Unicode_Rune::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Unity::Collections::Unicode_Rune::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::Unicode_Rune>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline bool Unity::Collections::Unicode_Rune::op_Inequality(::Unity::Collections::Unicode_Rune  lhs, ::Unity::Collections::Unicode_Rune  rhs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "op_Inequality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
+inline bool Unity::Collections::Unicode_Rune::op_Inequality(::Unity::Collections::Unicode_Rune lhs, ::Unity::Collections::Unicode_Rune rhs) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(),
+                                                           { "op_Inequality", {}, { ::i2c::type_of<::Unity::Collections::Unicode_Rune>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
 }
-inline bool Unity::Collections::Unicode_Rune::IsDigit(::Unity::Collections::Unicode_Rune  r)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsDigit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, r);
+inline bool Unity::Collections::Unicode_Rune::IsDigit(::Unity::Collections::Unicode_Rune r) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsDigit", {}, { ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, r);
 }
-inline bool Unity::Collections::Unicode_Rune::IsAscii()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsAscii",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Collections::Unicode_Rune::IsAscii() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsAscii", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline bool Unity::Collections::Unicode_Rune::IsLatin1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsLatin1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Collections::Unicode_Rune::IsLatin1() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsLatin1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline bool Unity::Collections::Unicode_Rune::IsDigit()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsDigit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Collections::Unicode_Rune::IsDigit() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsDigit", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline bool Unity::Collections::Unicode_Rune::IsWhiteSpace()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "IsWhiteSpace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Collections::Unicode_Rune::IsWhiteSpace() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "IsWhiteSpace", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode_Rune::ToLowerAscii()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "ToLowerAscii",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune, false>(this, ___internal_method);
+inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode_Rune::ToLowerAscii() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "ToLowerAscii", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune>(*this, ___internal_method);
 }
-inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode_Rune::ToUpperAscii()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "ToUpperAscii",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune, false>(this, ___internal_method);
+inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode_Rune::ToUpperAscii() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "ToUpperAscii", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune>(*this, ___internal_method);
 }
-inline int32_t Unity::Collections::Unicode_Rune::LengthInUtf8Bytes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode_Rune>::get(),
-                        "LengthInUtf8Bytes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Unity::Collections::Unicode_Rune::LengthInUtf8Bytes() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "LengthInUtf8Bytes", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Collections::Unicode_Rune::Unicode_Rune(int32_t  value) noexcept  {
-this->value = value;
+constexpr ::Unity::Collections::Unicode_Rune::Unicode_Rune(int32_t value) noexcept {
+  this->value = value;
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::Unicode_Rune::Unicode_Rune()   {
-}
+constexpr ::Unity::Collections::Unicode_Rune::Unicode_Rune() {}
 //  Writing Method size for method: ::Unity::Collections::Unicode.IsValidCodePoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::Unity::Collections::Unicode::IsValidCodePoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::Unity::Collections::Unicode::IsValidCodePoint)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6386580;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "IsValidCodePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "IsValidCodePoint", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.NotTrailer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t)>(&::Unity::Collections::Unicode::NotTrailer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t)>(&::Unity::Collections::Unicode::NotTrailer)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x638658c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "NotTrailer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "NotTrailer", {}, { ::i2c::type_of<uint8_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.get_ReplacementCharacter
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::Unicode_Rune (*)()>(&::Unity::Collections::Unicode::get_ReplacementCharacter)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Unicode_Rune (*)()>(&::Unity::Collections::Unicode::get_ReplacementCharacter)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x638659c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "get_ReplacementCharacter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "get_ReplacementCharacter", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.get_BadRune
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::Unicode_Rune (*)()>(&::Unity::Collections::Unicode::get_BadRune)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Unicode_Rune (*)()>(&::Unity::Collections::Unicode::get_BadRune)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x63865a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "get_BadRune",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "get_BadRune", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.Utf8ToUcs
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::ConversionError (*)(::ByRef<::Unity::Collections::Unicode_Rune>, uint8_t*, ::ByRef<int32_t>, int32_t)>(&::Unity::Collections::Unicode::Utf8ToUcs)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ConversionError (*)(::by_ref<::Unity::Collections::Unicode_Rune>, uint8_t*, ::by_ref<int32_t>, int32_t)>(
+    &::Unity::Collections::Unicode::Utf8ToUcs)> {
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x6383970;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf8ToUcs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::Unicode_Rune>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::Unicode>(),
+            { "Utf8ToUcs", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::Unicode_Rune>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.FindUtf8CharStartInReverse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint8_t*, ::ByRef<int32_t>)>(&::Unity::Collections::Unicode::FindUtf8CharStartInReverse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, ::by_ref<int32_t>)>(&::Unity::Collections::Unicode::FindUtf8CharStartInReverse)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x63865ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "FindUtf8CharStartInReverse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "FindUtf8CharStartInReverse", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.Utf8ToUcsReverse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::ConversionError (*)(::ByRef<::Unity::Collections::Unicode_Rune>, uint8_t*, ::ByRef<int32_t>, int32_t)>(&::Unity::Collections::Unicode::Utf8ToUcsReverse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ConversionError (*)(::by_ref<::Unity::Collections::Unicode_Rune>, uint8_t*, ::by_ref<int32_t>, int32_t)>(
+    &::Unity::Collections::Unicode::Utf8ToUcsReverse)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x63865e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf8ToUcsReverse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::Unicode_Rune>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "Utf8ToUcsReverse",
+                                                                                                    {},
+                                                                                                    { ::i2c::type_of<::by_ref<::Unity::Collections::Unicode_Rune>>(), ::i2c::type_of<uint8_t*>(),
+                                                                                                      ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.IsLeadingSurrogate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Unity::Collections::Unicode::IsLeadingSurrogate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::Unity::Collections::Unicode::IsLeadingSurrogate)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x638664c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "IsLeadingSurrogate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "IsLeadingSurrogate", {}, { ::i2c::type_of<char16_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.IsTrailingSurrogate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Unity::Collections::Unicode::IsTrailingSurrogate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::Unity::Collections::Unicode::IsTrailingSurrogate)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x638665c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "IsTrailingSurrogate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "IsTrailingSurrogate", {}, { ::i2c::type_of<char16_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.Utf16ToUcs
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::ConversionError (*)(::ByRef<::Unity::Collections::Unicode_Rune>, char16_t*, ::ByRef<int32_t>, int32_t)>(&::Unity::Collections::Unicode::Utf16ToUcs)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ConversionError (*)(::by_ref<::Unity::Collections::Unicode_Rune>, char16_t*, ::by_ref<int32_t>, int32_t)>(
+    &::Unity::Collections::Unicode::Utf16ToUcs)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x638666c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf16ToUcs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::Unicode_Rune>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::Unicode>(),
+            { "Utf16ToUcs", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::Unicode_Rune>>(), ::i2c::type_of<char16_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.UcsToUcs
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::ConversionError (*)(::ByRef<::Unity::Collections::Unicode_Rune>, ::Unity::Collections::Unicode_Rune*, ::ByRef<int32_t>, int32_t)>(&::Unity::Collections::Unicode::UcsToUcs)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ConversionError (*)(::by_ref<::Unity::Collections::Unicode_Rune>, ::Unity::Collections::Unicode_Rune*, ::by_ref<int32_t>,
+                                                                                                 int32_t)>(&::Unity::Collections::Unicode::UcsToUcs)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x63866f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "UcsToUcs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::Unicode_Rune>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "UcsToUcs",
+                                                                                {},
+                                                                                { ::i2c::type_of<::by_ref<::Unity::Collections::Unicode_Rune>>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune*>(),
+                                                                                  ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.UcsToUtf8
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::ConversionError (*)(uint8_t*, ::ByRef<int32_t>, int32_t, ::Unity::Collections::Unicode_Rune)>(&::Unity::Collections::Unicode::UcsToUtf8)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ConversionError (*)(uint8_t*, ::by_ref<int32_t>, int32_t, ::Unity::Collections::Unicode_Rune)>(
+    &::Unity::Collections::Unicode::UcsToUtf8)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x6386734;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "UcsToUtf8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::Collections::Unicode>(),
+                         { "UcsToUtf8", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.UcsToUtf16
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::ConversionError (*)(char16_t*, ::ByRef<int32_t>, int32_t, ::Unity::Collections::Unicode_Rune)>(&::Unity::Collections::Unicode::UcsToUtf16)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ConversionError (*)(char16_t*, ::by_ref<int32_t>, int32_t, ::Unity::Collections::Unicode_Rune)>(
+    &::Unity::Collections::Unicode::UcsToUtf16)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6386834;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "UcsToUtf16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::Collections::Unicode>(),
+                         { "UcsToUtf16", {}, { ::i2c::type_of<char16_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.Utf16ToUtf8
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::ConversionError (*)(char16_t*, int32_t, uint8_t*, ::ByRef<int32_t>, int32_t)>(&::Unity::Collections::Unicode::Utf16ToUtf8)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ConversionError (*)(char16_t*, int32_t, uint8_t*, ::by_ref<int32_t>, int32_t)>(
+    &::Unity::Collections::Unicode::Utf16ToUtf8)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x63868b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf16ToUtf8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::Unicode>(),
+            { "Utf16ToUtf8", {}, { ::i2c::type_of<char16_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.Utf8ToUtf8
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::ConversionError (*)(uint8_t*, int32_t, uint8_t*, ::ByRef<int32_t>, int32_t)>(&::Unity::Collections::Unicode::Utf8ToUtf8)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ConversionError (*)(uint8_t*, int32_t, uint8_t*, ::by_ref<int32_t>, int32_t)>(
+    &::Unity::Collections::Unicode::Utf8ToUtf8)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x6386934;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf8ToUtf8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::Collections::Unicode>(),
+                         { "Utf8ToUtf8", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.Utf8ToUtf16
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::ConversionError (*)(uint8_t*, int32_t, char16_t*, ::ByRef<int32_t>, int32_t)>(&::Unity::Collections::Unicode::Utf8ToUtf16)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ConversionError (*)(uint8_t*, int32_t, char16_t*, ::by_ref<int32_t>, int32_t)>(
+    &::Unity::Collections::Unicode::Utf8ToUtf16)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6386a04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf8ToUtf16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::Unicode>(),
+            { "Utf8ToUtf16", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<char16_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::Unicode.CountRunes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint8_t*, int32_t, int32_t)>(&::Unity::Collections::Unicode::CountRunes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, int32_t, int32_t)>(&::Unity::Collections::Unicode::CountRunes)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x6386a88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "CountRunes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "CountRunes", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline bool Unity::Collections::Unicode::IsValidCodePoint(int32_t  codepoint)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "IsValidCodePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, codepoint);
+inline bool Unity::Collections::Unicode::IsValidCodePoint(int32_t codepoint) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "IsValidCodePoint", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, codepoint);
 }
-inline bool Unity::Collections::Unicode::NotTrailer(uint8_t  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "NotTrailer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, b);
+inline bool Unity::Collections::Unicode::NotTrailer(uint8_t b) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "NotTrailer", {}, { ::i2c::type_of<uint8_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, b);
 }
-inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode::get_ReplacementCharacter()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "get_ReplacementCharacter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune, false>(nullptr, ___internal_method);
+inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode::get_ReplacementCharacter() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "get_ReplacementCharacter", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune>(nullptr, ___internal_method);
 }
-inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode::get_BadRune()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "get_BadRune",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune, false>(nullptr, ___internal_method);
+inline ::Unity::Collections::Unicode_Rune Unity::Collections::Unicode::get_BadRune() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "get_BadRune", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune>(nullptr, ___internal_method);
 }
-inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf8ToUcs(::ByRef<::Unity::Collections::Unicode_Rune>  rune, uint8_t*  buffer, ::ByRef<int32_t>  index, int32_t  capacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf8ToUcs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::Unicode_Rune>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError, false>(nullptr, ___internal_method, rune, buffer, index, capacity);
+inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf8ToUcs(::by_ref<::Unity::Collections::Unicode_Rune> rune, uint8_t* buffer, ::by_ref<int32_t> index, int32_t capacity) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::Unicode>(),
+          { "Utf8ToUcs", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::Unicode_Rune>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError>(nullptr, ___internal_method, rune, buffer, index, capacity);
 }
-inline int32_t Unity::Collections::Unicode::FindUtf8CharStartInReverse(uint8_t*  ptr, ::ByRef<int32_t>  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "FindUtf8CharStartInReverse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, ptr, index);
+inline int32_t Unity::Collections::Unicode::FindUtf8CharStartInReverse(uint8_t* ptr, ::by_ref<int32_t> index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "FindUtf8CharStartInReverse", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, ptr, index);
 }
-inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf8ToUcsReverse(::ByRef<::Unity::Collections::Unicode_Rune>  rune, uint8_t*  buffer, ::ByRef<int32_t>  index, int32_t  capacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf8ToUcsReverse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::Unicode_Rune>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError, false>(nullptr, ___internal_method, rune, buffer, index, capacity);
+inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf8ToUcsReverse(::by_ref<::Unity::Collections::Unicode_Rune> rune, uint8_t* buffer, ::by_ref<int32_t> index,
+                                                                                           int32_t capacity) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::Unicode>(),
+          { "Utf8ToUcsReverse", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::Unicode_Rune>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError>(nullptr, ___internal_method, rune, buffer, index, capacity);
 }
-inline bool Unity::Collections::Unicode::IsLeadingSurrogate(char16_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "IsLeadingSurrogate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
+inline bool Unity::Collections::Unicode::IsLeadingSurrogate(char16_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "IsLeadingSurrogate", {}, { ::i2c::type_of<char16_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
 }
-inline bool Unity::Collections::Unicode::IsTrailingSurrogate(char16_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "IsTrailingSurrogate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
+inline bool Unity::Collections::Unicode::IsTrailingSurrogate(char16_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "IsTrailingSurrogate", {}, { ::i2c::type_of<char16_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
 }
-inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf16ToUcs(::ByRef<::Unity::Collections::Unicode_Rune>  rune, char16_t*  buffer, ::ByRef<int32_t>  index, int32_t  capacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf16ToUcs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::Unicode_Rune>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError, false>(nullptr, ___internal_method, rune, buffer, index, capacity);
+inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf16ToUcs(::by_ref<::Unity::Collections::Unicode_Rune> rune, char16_t* buffer, ::by_ref<int32_t> index, int32_t capacity) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::Unicode>(),
+          { "Utf16ToUcs", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::Unicode_Rune>>(), ::i2c::type_of<char16_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError>(nullptr, ___internal_method, rune, buffer, index, capacity);
 }
-inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::UcsToUcs(::ByRef<::Unity::Collections::Unicode_Rune>  rune, ::Unity::Collections::Unicode_Rune*  buffer, ::ByRef<int32_t>  index, int32_t  capacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "UcsToUcs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::Unicode_Rune>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError, false>(nullptr, ___internal_method, rune, buffer, index, capacity);
+inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::UcsToUcs(::by_ref<::Unity::Collections::Unicode_Rune> rune, ::Unity::Collections::Unicode_Rune* buffer,
+                                                                                   ::by_ref<int32_t> index, int32_t capacity) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "UcsToUcs",
+                                                                              {},
+                                                                              { ::i2c::type_of<::by_ref<::Unity::Collections::Unicode_Rune>>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune*>(),
+                                                                                ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError>(nullptr, ___internal_method, rune, buffer, index, capacity);
 }
-inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::UcsToUtf8(uint8_t*  buffer, ::ByRef<int32_t>  index, int32_t  capacity, ::Unity::Collections::Unicode_Rune  rune)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "UcsToUtf8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError, false>(nullptr, ___internal_method, buffer, index, capacity, rune);
+inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::UcsToUtf8(uint8_t* buffer, ::by_ref<int32_t> index, int32_t capacity, ::Unity::Collections::Unicode_Rune rune) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(),
+                          { "UcsToUtf8", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError>(nullptr, ___internal_method, buffer, index, capacity, rune);
 }
-inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::UcsToUtf16(char16_t*  buffer, ::ByRef<int32_t>  index, int32_t  capacity, ::Unity::Collections::Unicode_Rune  rune)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "UcsToUtf16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::Unicode_Rune>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError, false>(nullptr, ___internal_method, buffer, index, capacity, rune);
+inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::UcsToUtf16(char16_t* buffer, ::by_ref<int32_t> index, int32_t capacity, ::Unity::Collections::Unicode_Rune rune) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Collections::Unicode>(),
+                       { "UcsToUtf16", {}, { ::i2c::type_of<char16_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError>(nullptr, ___internal_method, buffer, index, capacity, rune);
 }
-inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf16ToUtf8(char16_t*  utf16Buffer, int32_t  utf16Length, uint8_t*  utf8Buffer, ::ByRef<int32_t>  utf8Length, int32_t  utf8Capacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf16ToUtf8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError, false>(nullptr, ___internal_method, utf16Buffer, utf16Length, utf8Buffer, utf8Length, utf8Capacity);
+inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf16ToUtf8(char16_t* utf16Buffer, int32_t utf16Length, uint8_t* utf8Buffer, ::by_ref<int32_t> utf8Length,
+                                                                                      int32_t utf8Capacity) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Collections::Unicode>(),
+                       { "Utf16ToUtf8", {}, { ::i2c::type_of<char16_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError>(nullptr, ___internal_method, utf16Buffer, utf16Length, utf8Buffer, utf8Length, utf8Capacity);
 }
-inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf8ToUtf8(uint8_t*  srcBuffer, int32_t  srcLength, uint8_t*  destBuffer, ::ByRef<int32_t>  destLength, int32_t  destCapacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf8ToUtf8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError, false>(nullptr, ___internal_method, srcBuffer, srcLength, destBuffer, destLength, destCapacity);
+inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf8ToUtf8(uint8_t* srcBuffer, int32_t srcLength, uint8_t* destBuffer, ::by_ref<int32_t> destLength, int32_t destCapacity) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Collections::Unicode>(),
+                       { "Utf8ToUtf8", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError>(nullptr, ___internal_method, srcBuffer, srcLength, destBuffer, destLength, destCapacity);
 }
-inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf8ToUtf16(uint8_t*  utf8Buffer, int32_t  utf8Length, char16_t*  utf16Buffer, ::ByRef<int32_t>  utf16Length, int32_t  utf16Capacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "Utf8ToUtf16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError, false>(nullptr, ___internal_method, utf8Buffer, utf8Length, utf16Buffer, utf16Length, utf16Capacity);
+inline ::Unity::Collections::ConversionError Unity::Collections::Unicode::Utf8ToUtf16(uint8_t* utf8Buffer, int32_t utf8Length, char16_t* utf16Buffer, ::by_ref<int32_t> utf16Length,
+                                                                                      int32_t utf16Capacity) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Collections::Unicode>(),
+                       { "Utf8ToUtf16", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<char16_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ConversionError>(nullptr, ___internal_method, utf8Buffer, utf8Length, utf16Buffer, utf16Length, utf16Capacity);
 }
-inline int32_t Unity::Collections::Unicode::CountRunes(uint8_t*  utf8Buffer, int32_t  utf8Length, int32_t  maxRunes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Unicode>::get(),
-                        "CountRunes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, utf8Buffer, utf8Length, maxRunes);
+inline int32_t Unity::Collections::Unicode::CountRunes(uint8_t* utf8Buffer, int32_t utf8Length, int32_t maxRunes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode>(), { "CountRunes", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, utf8Buffer, utf8Length, maxRunes);
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::Unicode::Unicode()   {
-}
+constexpr ::Unity::Collections::Unicode::Unicode() {}

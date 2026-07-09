@@ -5,97 +5,77 @@
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAppendBuffer_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashSet_1_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions.AddNBC
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>, ::StringW)>(&::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::AddNBC)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>, ::StringW)>(
+    &::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::AddNBC)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x638da20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>::get(),
-                        "AddNBC",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>(),
+                                                { "AddNBC", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions.ToBytesNBC
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (*)(::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>)>(&::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToBytesNBC)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>)>(
+    &::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToBytesNBC)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x638dab0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>::get(),
-                        "ToBytesNBC",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>(),
+                                                             { "ToBytesNBC", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions.ReadNextNBC
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>, ::ByRef<::StringW>)>(&::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ReadNextNBC)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>, ::by_ref<::StringW>)>(
+    &::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ReadNextNBC)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x638db64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>::get(),
-                        "ReadNextNBC",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>(),
+                            { "ReadNextNBC", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
-template<typename T>
-inline ::ArrayW<T,::Array<T>*> Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>  set)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>::get(),
-                    "ToArray",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<T,::Array<T>*>, false>(nullptr, ___internal_method, set);
+template <typename T> inline ::ArrayW<T> Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> set) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>(),
+                                                           { "ToArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(nullptr, ___internal_method, set);
 }
-inline void Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::AddNBC(::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>  buffer, ::StringW  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>::get(),
-                        "AddNBC",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, buffer, value);
+inline void Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::AddNBC(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer, ::StringW value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>(),
+                                                           { "AddNBC", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, buffer, value);
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToBytesNBC(::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>  buffer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>::get(),
-                        "ToBytesNBC",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(nullptr, ___internal_method, buffer);
+inline ::ArrayW<uint8_t> Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToBytesNBC(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>(),
+                                                           { "ToBytesNBC", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, buffer);
 }
-inline void Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ReadNextNBC(::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>  reader, ::ByRef<::StringW>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>::get(),
-                        "ReadNextNBC",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, value);
+inline void Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ReadNextNBC(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader> reader,
+                                                                                              ::by_ref<::StringW> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>(),
+                          { "ReadNextNBC", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, value);
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::Extensions()   {
-}
+constexpr ::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::Extensions() {}

@@ -6,414 +6,291 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::BGNet::Logging::Debug_LoggerLinkedList._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_LoggerLinkedList::*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug_LoggerLinkedList::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Logging::Debug_LoggerLinkedList::*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug_LoggerLinkedList::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x32859e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_LoggerLinkedList*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Logging::Debug_ILogger*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug_LoggerLinkedList*>(), { ".ctor", {}, { ::i2c::type_of<::BGNet::Logging::Debug_ILogger*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::BGNet::Logging::Debug_ILogger*& BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_get_logger()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___logger;
+constexpr ::BGNet::Logging::Debug_ILogger*& BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_get_logger() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___logger;
 }
 constexpr ::BGNet::Logging::Debug_ILogger* const& BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_get_logger() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___logger;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___logger;
 }
-constexpr void BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_set_logger(::BGNet::Logging::Debug_ILogger*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___logger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_set_logger(::BGNet::Logging::Debug_ILogger* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___logger = value;
 }
-constexpr ::BGNet::Logging::Debug_LoggerLinkedList*& BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_get_next()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___next;
+constexpr ::BGNet::Logging::Debug_LoggerLinkedList*& BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_get_next() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___next;
 }
 constexpr ::BGNet::Logging::Debug_LoggerLinkedList* const& BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_get_next() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___next;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___next;
 }
-constexpr void BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_set_next(::BGNet::Logging::Debug_LoggerLinkedList*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BGNet::Logging::Debug_LoggerLinkedList::__cordl_internal_set_next(::BGNet::Logging::Debug_LoggerLinkedList* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___next = value;
 }
-inline void BGNet::Logging::Debug_LoggerLinkedList::_ctor(::BGNet::Logging::Debug_ILogger*  logger)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_LoggerLinkedList*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Logging::Debug_ILogger*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, logger);
+inline void BGNet::Logging::Debug_LoggerLinkedList::_ctor(::BGNet::Logging::Debug_ILogger* logger) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug_LoggerLinkedList*>(), { ".ctor", {}, { ::i2c::type_of<::BGNet::Logging::Debug_ILogger*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, logger);
 }
-inline ::BGNet::Logging::Debug_LoggerLinkedList* BGNet::Logging::Debug_LoggerLinkedList::New_ctor(::BGNet::Logging::Debug_ILogger*  logger)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGNet::Logging::Debug_LoggerLinkedList*>(logger));
+inline ::BGNet::Logging::Debug_LoggerLinkedList* BGNet::Logging::Debug_LoggerLinkedList::New_ctor(::BGNet::Logging::Debug_ILogger* logger) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGNet::Logging::Debug_LoggerLinkedList*>(logger));
 }
 // Ctor Parameters []
-constexpr ::BGNet::Logging::Debug_LoggerLinkedList::Debug_LoggerLinkedList()   {
-}
+constexpr ::BGNet::Logging::Debug_LoggerLinkedList::Debug_LoggerLinkedList() {}
 //  Writing Method size for method: ::BGNet::Logging::Debug_ILogger.LogInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::StringW)>(&::BGNet::Logging::Debug_ILogger::LogInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::StringW)>(&::BGNet::Logging::Debug_ILogger::LogInfo)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), { ::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug_ILogger.LogError
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::StringW)>(&::BGNet::Logging::Debug_ILogger::LogError)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::StringW)>(&::BGNet::Logging::Debug_ILogger::LogError)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                                  1
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), { ::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), 1 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug_ILogger.LogException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::System::Exception*, ::StringW)>(&::BGNet::Logging::Debug_ILogger::LogException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::System::Exception*, ::StringW)>(&::BGNet::Logging::Debug_ILogger::LogException)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), { ::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug_ILogger.LogWarning
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::StringW)>(&::BGNet::Logging::Debug_ILogger::LogWarning)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::StringW)>(&::BGNet::Logging::Debug_ILogger::LogWarning)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), { ::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), 3 }));
     return ___internal_method;
   }
 };
-inline void BGNet::Logging::Debug_ILogger::LogInfo(::StringW  message)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
+inline void BGNet::Logging::Debug_ILogger::LogInfo(::StringW message) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
-inline void BGNet::Logging::Debug_ILogger::LogError(::StringW  message)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                            1
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
+inline void BGNet::Logging::Debug_ILogger::LogError(::StringW message) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), 1 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
-inline void BGNet::Logging::Debug_ILogger::LogException(::System::Exception*  exception, ::StringW  message)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, exception, message);
+inline void BGNet::Logging::Debug_ILogger::LogException(::System::Exception* exception, ::StringW message) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, exception, message);
 }
-inline void BGNet::Logging::Debug_ILogger::LogWarning(::StringW  message)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
+inline void BGNet::Logging::Debug_ILogger::LogWarning(::StringW message) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
 // Ctor Parameters [CppParam { name: "logger", ty: "::BGNet::Logging::Debug_ILogger*", modifiers: "", def_value: Some("{}") }]
-constexpr ::BGNet::Logging::Debug___c__DisplayClass7_0::Debug___c__DisplayClass7_0(::BGNet::Logging::Debug_ILogger*  logger) noexcept  {
-this->logger = logger;
+constexpr ::BGNet::Logging::Debug___c__DisplayClass7_0::Debug___c__DisplayClass7_0(::BGNet::Logging::Debug_ILogger* logger) noexcept {
+  this->logger = logger;
 }
 // Ctor Parameters []
-constexpr ::BGNet::Logging::Debug___c__DisplayClass7_0::Debug___c__DisplayClass7_0()   {
-}
+constexpr ::BGNet::Logging::Debug___c__DisplayClass7_0::Debug___c__DisplayClass7_0() {}
 //  Writing Method size for method: ::BGNet::Logging::Debug.NoDomainReloadInit
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::BGNet::Logging::Debug::NoDomainReloadInit)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGNet::Logging::Debug::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x3285798;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "NoDomainReloadInit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "NoDomainReloadInit", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug.AddLogger
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug::AddLogger)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug::AddLogger)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x328581c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "AddLogger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Logging::Debug_ILogger*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "AddLogger", {}, { ::i2c::type_of<::BGNet::Logging::Debug_ILogger*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug.RemoveAndDisposeLogger
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug::RemoveAndDisposeLogger)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug::RemoveAndDisposeLogger)> {
   constexpr static std::size_t size = 0x240;
   constexpr static std::size_t addrs = 0x32859ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "RemoveAndDisposeLogger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Logging::Debug_ILogger*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "RemoveAndDisposeLogger", {}, { ::i2c::type_of<::BGNet::Logging::Debug_ILogger*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug.Log
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::Log)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::Log)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x3285ce4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "Log",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug.LogError
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::LogError)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::LogError)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x3285de0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "LogError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "LogError", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug.LogException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*, ::StringW)>(&::BGNet::Logging::Debug::LogException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Exception*, ::StringW)>(&::BGNet::Logging::Debug::LogException)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x3285ee0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "LogException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "LogException", {}, { ::i2c::type_of<::System::Exception*>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug.LogWarning
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::LogWarning)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::LogWarning)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x3285fe8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "LogWarning",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "LogWarning", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug.ClearAllLoggers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::BGNet::Logging::Debug::ClearAllLoggers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGNet::Logging::Debug::ClearAllLoggers)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x32860e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "ClearAllLoggers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "ClearAllLoggers", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGNet::Logging::Debug._RemoveAndDisposeLogger_g__DisposeLogger_7_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BGNet::Logging::Debug___c__DisplayClass7_0>)>(&::BGNet::Logging::Debug::_RemoveAndDisposeLogger_g__DisposeLogger_7_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BGNet::Logging::Debug___c__DisplayClass7_0>)>(&::BGNet::Logging::Debug::_RemoveAndDisposeLogger_g__DisposeLogger_7_0)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x3285c2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "<RemoveAndDisposeLogger>g__DisposeLogger|7_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::BGNet::Logging::Debug___c__DisplayClass7_0>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(),
+                                                             { "<RemoveAndDisposeLogger>g__DisposeLogger|7_0", {}, { ::i2c::type_of<::by_ref<::BGNet::Logging::Debug___c__DisplayClass7_0>>() } })));
     return ___internal_method;
   }
 };
-inline void BGNet::Logging::Debug::setStaticF__loggersMutex(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "_loggersMutex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get>(std::forward<::System::Object*>(value));
+inline void BGNet::Logging::Debug::setStaticF__loggersMutex(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "_loggersMutex", ::BGNet::Logging::Debug*>(std::forward<::System::Object*>(value));
 }
-inline ::System::Object* BGNet::Logging::Debug::getStaticF__loggersMutex()  {
-return ::cordl_internals::getStaticField<::System::Object*, "_loggersMutex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get>();
+inline ::System::Object* BGNet::Logging::Debug::getStaticF__loggersMutex() {
+  return ::cordl_internals::getStaticField<::System::Object*, "_loggersMutex", ::BGNet::Logging::Debug*>();
 }
-inline void BGNet::Logging::Debug::setStaticF__loggers(::BGNet::Logging::Debug_LoggerLinkedList*  value)  {
-::cordl_internals::setStaticField<::BGNet::Logging::Debug_LoggerLinkedList*, "_loggers", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get>(std::forward<::BGNet::Logging::Debug_LoggerLinkedList*>(value));
+inline void BGNet::Logging::Debug::setStaticF__loggers(::BGNet::Logging::Debug_LoggerLinkedList* value) {
+  ::cordl_internals::setStaticField<::BGNet::Logging::Debug_LoggerLinkedList*, "_loggers", ::BGNet::Logging::Debug*>(std::forward<::BGNet::Logging::Debug_LoggerLinkedList*>(value));
 }
-inline ::BGNet::Logging::Debug_LoggerLinkedList* BGNet::Logging::Debug::getStaticF__loggers()  {
-return ::cordl_internals::getStaticField<::BGNet::Logging::Debug_LoggerLinkedList*, "_loggers", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get>();
+inline ::BGNet::Logging::Debug_LoggerLinkedList* BGNet::Logging::Debug::getStaticF__loggers() {
+  return ::cordl_internals::getStaticField<::BGNet::Logging::Debug_LoggerLinkedList*, "_loggers", ::BGNet::Logging::Debug*>();
 }
-inline void BGNet::Logging::Debug::NoDomainReloadInit()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "NoDomainReloadInit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void BGNet::Logging::Debug::NoDomainReloadInit() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "NoDomainReloadInit", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline void BGNet::Logging::Debug::AddLogger(::BGNet::Logging::Debug_ILogger*  logger)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "AddLogger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Logging::Debug_ILogger*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, logger);
+inline void BGNet::Logging::Debug::AddLogger(::BGNet::Logging::Debug_ILogger* logger) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "AddLogger", {}, { ::i2c::type_of<::BGNet::Logging::Debug_ILogger*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, logger);
 }
-inline void BGNet::Logging::Debug::RemoveAndDisposeLogger(::BGNet::Logging::Debug_ILogger*  logger)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "RemoveAndDisposeLogger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Logging::Debug_ILogger*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, logger);
+inline void BGNet::Logging::Debug::RemoveAndDisposeLogger(::BGNet::Logging::Debug_ILogger* logger) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "RemoveAndDisposeLogger", {}, { ::i2c::type_of<::BGNet::Logging::Debug_ILogger*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, logger);
 }
-inline void BGNet::Logging::Debug::Log(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "Log",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
+inline void BGNet::Logging::Debug::Log(::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void BGNet::Logging::Debug::LogError(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "LogError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
+inline void BGNet::Logging::Debug::LogError(::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "LogError", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void BGNet::Logging::Debug::LogException(::System::Exception*  exception, ::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "LogException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, exception, message);
+inline void BGNet::Logging::Debug::LogException(::System::Exception* exception, ::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "LogException", {}, { ::i2c::type_of<::System::Exception*>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, exception, message);
 }
-inline void BGNet::Logging::Debug::LogWarning(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "LogWarning",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
+inline void BGNet::Logging::Debug::LogWarning(::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "LogWarning", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void BGNet::Logging::Debug::ClearAllLoggers()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "ClearAllLoggers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void BGNet::Logging::Debug::ClearAllLoggers() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "ClearAllLoggers", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline void BGNet::Logging::Debug::_RemoveAndDisposeLogger_g__DisposeLogger_7_0(::ByRef<::BGNet::Logging::Debug___c__DisplayClass7_0>  _cordl_fixed_empty_name_whitespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(),
-                        "<RemoveAndDisposeLogger>g__DisposeLogger|7_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::BGNet::Logging::Debug___c__DisplayClass7_0>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _cordl_fixed_empty_name_whitespace);
+inline void BGNet::Logging::Debug::_RemoveAndDisposeLogger_g__DisposeLogger_7_0(::by_ref<::BGNet::Logging::Debug___c__DisplayClass7_0> _cordl_fixed_empty_name_whitespace) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(),
+                                                           { "<RemoveAndDisposeLogger>g__DisposeLogger|7_0", {}, { ::i2c::type_of<::by_ref<::BGNet::Logging::Debug___c__DisplayClass7_0>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _cordl_fixed_empty_name_whitespace);
 }
 // Ctor Parameters []
-constexpr ::BGNet::Logging::Debug::Debug()   {
-}
+constexpr ::BGNet::Logging::Debug::Debug() {}

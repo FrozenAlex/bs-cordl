@@ -4,216 +4,138 @@
 #include "System/Reflection/zzzz__SignaturePointerType_def.hpp"
 #include "System/Reflection/zzzz__SignatureType_def.hpp"
 //  Writing Method size for method: ::System::Reflection::SignaturePointerType._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::SignaturePointerType::*)(::System::Reflection::SignatureType*)>(&::System::Reflection::SignaturePointerType::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::SignaturePointerType::*)(::System::Reflection::SignatureType*)>(
+    &::System::Reflection::SignaturePointerType::_ctor)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x5a45f94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::SignatureType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { ".ctor", {}, { ::i2c::type_of<::System::Reflection::SignatureType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignaturePointerType.IsArrayImpl
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::IsArrayImpl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::IsArrayImpl)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a45fcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "IsArrayImpl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "IsArrayImpl", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignaturePointerType.IsByRefImpl
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::IsByRefImpl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::IsByRefImpl)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a45fd4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "IsByRefImpl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "IsByRefImpl", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignaturePointerType.IsPointerImpl
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::IsPointerImpl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::IsPointerImpl)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a45fdc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "IsPointerImpl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "IsPointerImpl", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignaturePointerType.get_IsSZArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::get_IsSZArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::get_IsSZArray)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a45fe4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "get_IsSZArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "get_IsSZArray", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignaturePointerType.get_IsVariableBoundArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::get_IsVariableBoundArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::get_IsVariableBoundArray)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a45fec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "get_IsVariableBoundArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "get_IsVariableBoundArray", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignaturePointerType.GetArrayRank
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::GetArrayRank)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::GetArrayRank)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x5a45ff4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "GetArrayRank",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "GetArrayRank", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignaturePointerType.get_Suffix
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::get_Suffix)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::SignaturePointerType::*)()>(&::System::Reflection::SignaturePointerType::get_Suffix)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x5a46040;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "get_Suffix",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "get_Suffix", {}, {} })));
     return ___internal_method;
   }
 };
-inline void System::Reflection::SignaturePointerType::_ctor(::System::Reflection::SignatureType*  elementType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::SignatureType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, elementType);
+inline void System::Reflection::SignaturePointerType::_ctor(::System::Reflection::SignatureType* elementType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { ".ctor", {}, { ::i2c::type_of<::System::Reflection::SignatureType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, elementType);
 }
-inline bool System::Reflection::SignaturePointerType::IsArrayImpl()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "IsArrayImpl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Reflection::SignaturePointerType::IsArrayImpl() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "IsArrayImpl", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Reflection::SignaturePointerType::IsByRefImpl()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "IsByRefImpl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Reflection::SignaturePointerType::IsByRefImpl() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "IsByRefImpl", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Reflection::SignaturePointerType::IsPointerImpl()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "IsPointerImpl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Reflection::SignaturePointerType::IsPointerImpl() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "IsPointerImpl", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Reflection::SignaturePointerType::get_IsSZArray()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "get_IsSZArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Reflection::SignaturePointerType::get_IsSZArray() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "get_IsSZArray", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Reflection::SignaturePointerType::get_IsVariableBoundArray()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "get_IsVariableBoundArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Reflection::SignaturePointerType::get_IsVariableBoundArray() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "get_IsVariableBoundArray", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline int32_t System::Reflection::SignaturePointerType::GetArrayRank()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "GetArrayRank",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Reflection::SignaturePointerType::GetArrayRank() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "GetArrayRank", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::StringW System::Reflection::SignaturePointerType::get_Suffix()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignaturePointerType*>::get(),
-                        "get_Suffix",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Reflection::SignaturePointerType::get_Suffix() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignaturePointerType*>(), { "get_Suffix", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::System::Reflection::SignaturePointerType* System::Reflection::SignaturePointerType::New_ctor(::System::Reflection::SignatureType*  elementType)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::SignaturePointerType*>(elementType));
+inline ::System::Reflection::SignaturePointerType* System::Reflection::SignaturePointerType::New_ctor(::System::Reflection::SignatureType* elementType) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Reflection::SignaturePointerType*>(elementType));
 }
 // Ctor Parameters []
-constexpr ::System::Reflection::SignaturePointerType::SignaturePointerType()   {
-}
+constexpr ::System::Reflection::SignaturePointerType::SignaturePointerType() {}

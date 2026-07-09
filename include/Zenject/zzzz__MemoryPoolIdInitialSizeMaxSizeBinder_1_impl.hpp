@@ -8,31 +8,26 @@
 #include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__MemoryPoolBindInfo_def.hpp"
 #include "Zenject/zzzz__MemoryPoolInitialSizeMaxSizeBinder_1_def.hpp"
-template<typename TContract>
-inline void Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::_ctor(::Zenject::DiContainer*  bindContainer, ::Zenject::BindInfo*  bindInfo, ::Zenject::FactoryBindInfo*  factoryBindInfo, ::Zenject::MemoryPoolBindInfo*  poolBindInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::FactoryBindInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::MemoryPoolBindInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindContainer, bindInfo, factoryBindInfo, poolBindInfo);
+template <typename TContract>
+inline void Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
+                                                                              ::Zenject::MemoryPoolBindInfo* poolBindInfo) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>(),
+                                                                                         { ".ctor",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<::Zenject::BindInfo*>(),
+                                                                                             ::i2c::type_of<::Zenject::FactoryBindInfo*>(), ::i2c::type_of<::Zenject::MemoryPoolBindInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bindContainer, bindInfo, factoryBindInfo, poolBindInfo);
 }
-template<typename TContract>
-inline ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::WithId(::System::Object*  identifier)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>::get(),
-                        "WithId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*, false>(this, ___internal_method, identifier);
+template <typename TContract> inline ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::WithId(::System::Object* identifier) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>(), { "WithId", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>(this, ___internal_method, identifier);
 }
-template<typename TContract>
-inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>* Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::New_ctor(::Zenject::DiContainer*  bindContainer, ::Zenject::BindInfo*  bindInfo, ::Zenject::FactoryBindInfo*  factoryBindInfo, ::Zenject::MemoryPoolBindInfo*  poolBindInfo)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
+template <typename TContract>
+inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*
+Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
+                                                                     ::Zenject::MemoryPoolBindInfo* poolBindInfo) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
 }
 // Ctor Parameters []
-template<typename TContract>
-constexpr ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::MemoryPoolIdInitialSizeMaxSizeBinder_1()   {
-}
+template <typename TContract> constexpr ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>::MemoryPoolIdInitialSizeMaxSizeBinder_1() {}

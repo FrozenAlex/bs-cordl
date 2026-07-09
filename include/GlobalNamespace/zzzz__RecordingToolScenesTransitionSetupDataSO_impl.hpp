@@ -4,60 +4,42 @@
 #include "GlobalNamespace/zzzz__RecordingToolScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::*)(::GlobalNamespace::RecordingToolSceneSetupData*)>(&::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::*)(::GlobalNamespace::RecordingToolSceneSetupData*)>(
+    &::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x57ec5b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingToolSceneSetupData*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>(),
+                                                                                           { "Init", {}, { ::i2c::type_of<::GlobalNamespace::RecordingToolSceneSetupData*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::*)()>(&::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::*)()>(&::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x57f26d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::Init(::GlobalNamespace::RecordingToolSceneSetupData*  recordingToolSceneSetupData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingToolSceneSetupData*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, recordingToolSceneSetupData);
+inline void GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::Init(::GlobalNamespace::RecordingToolSceneSetupData* recordingToolSceneSetupData) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>(),
+                                                                                         { "Init", {}, { ::i2c::type_of<::GlobalNamespace::RecordingToolSceneSetupData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, recordingToolSceneSetupData);
 }
-inline void GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>());
+inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::RecordingToolScenesTransitionSetupDataSO()   {
-}
+constexpr ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::RecordingToolScenesTransitionSetupDataSO() {}

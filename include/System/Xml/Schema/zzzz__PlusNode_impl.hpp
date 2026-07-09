@@ -4,84 +4,58 @@
 #include "System/Xml/Schema/zzzz__PlusNode_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::PlusNode.ConstructPos
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::PlusNode::*)(::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*,::Array<::System::Xml::Schema::BitSet*>*>)>(&::System::Xml::Schema::PlusNode::ConstructPos)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::PlusNode::*)(::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*,
+                                                                                                 ::ArrayW<::System::Xml::Schema::BitSet*>)>(&::System::Xml::Schema::PlusNode::ConstructPos)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x61def94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::PlusNode*>(), { ::i2c::class_of<::System::Xml::Schema::PlusNode*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::PlusNode.get_IsNullable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::PlusNode::*)()>(&::System::Xml::Schema::PlusNode::get_IsNullable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::PlusNode::*)()>(&::System::Xml::Schema::PlusNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x61df030;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::PlusNode*>(), { ::i2c::class_of<::System::Xml::Schema::PlusNode*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::PlusNode._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::PlusNode::*)()>(&::System::Xml::Schema::PlusNode::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::PlusNode::*)()>(&::System::Xml::Schema::PlusNode::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x61df04c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::PlusNode*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void System::Xml::Schema::PlusNode::ConstructPos(::System::Xml::Schema::BitSet*  firstpos, ::System::Xml::Schema::BitSet*  lastpos, ::ArrayW<::System::Xml::Schema::BitSet*,::Array<::System::Xml::Schema::BitSet*>*>  followpos)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstpos, lastpos, followpos);
+inline void System::Xml::Schema::PlusNode::ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::PlusNode*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, firstpos, lastpos, followpos);
 }
-inline bool System::Xml::Schema::PlusNode::get_IsNullable()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Xml::Schema::PlusNode::get_IsNullable() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::PlusNode*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void System::Xml::Schema::PlusNode::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::PlusNode*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::PlusNode::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::PlusNode*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::PlusNode* System::Xml::Schema::PlusNode::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::PlusNode*>());
+inline ::System::Xml::Schema::PlusNode* System::Xml::Schema::PlusNode::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::PlusNode*>());
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::PlusNode::PlusNode()   {
-}
+constexpr ::System::Xml::Schema::PlusNode::PlusNode() {}

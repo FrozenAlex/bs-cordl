@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/IntrospectiveSortUtilities.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -14,42 +14,41 @@ namespace System::Collections::Generic {
 class IntrospectiveSortUtilities;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Collections::Generic::IntrospectiveSortUtilities);
+MARK_REF_T(::System::Collections::Generic::IntrospectiveSortUtilities*);
+DEFINE_IL2CPP_CLASS(::System::Collections::Generic::IntrospectiveSortUtilities*, "System.Collections.Generic", "IntrospectiveSortUtilities");
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // Is value type: false
 // CS Name: System.Collections.Generic.IntrospectiveSortUtilities
 class CORDL_TYPE IntrospectiveSortUtilities : public ::System::Object {
 public:
-// Declarations
-/// @brief Method FloorLog2PlusOne, addr 0x5ab7830, size 0x30, virtual false, abstract: false, final false
-static inline int32_t FloorLog2PlusOne(int32_t  n) ;
+  // Declarations
+  /// @brief Method FloorLog2PlusOne, addr 0x5ab7830, size 0x30, virtual false, abstract: false, final false
+  static inline int32_t FloorLog2PlusOne(int32_t n);
 
-/// @brief Method ThrowOrIgnoreBadComparer, addr 0x5ab7860, size 0x60, virtual false, abstract: false, final false
-static inline void ThrowOrIgnoreBadComparer(::System::Object*  comparer) ;
+  /// @brief Method ThrowOrIgnoreBadComparer, addr 0x5ab7860, size 0x60, virtual false, abstract: false, final false
+  static inline void ThrowOrIgnoreBadComparer(::System::Object* comparer);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IntrospectiveSortUtilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IntrospectiveSortUtilities();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IntrospectiveSortUtilities", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IntrospectiveSortUtilities(IntrospectiveSortUtilities&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IntrospectiveSortUtilities", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IntrospectiveSortUtilities(IntrospectiveSortUtilities && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IntrospectiveSortUtilities", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IntrospectiveSortUtilities(IntrospectiveSortUtilities const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IntrospectiveSortUtilities", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IntrospectiveSortUtilities(IntrospectiveSortUtilities const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3802 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3802};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::Generic::IntrospectiveSortUtilities, 0x10>, "Size mismatch!");
+static_assert(sizeof(::System::Collections::Generic::IntrospectiveSortUtilities) == 0x10, "Size mismatch!");
 
-} // namespace end def System::Collections::Generic
-NEED_NO_BOX(::System::Collections::Generic::IntrospectiveSortUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::IntrospectiveSortUtilities*, "System.Collections.Generic", "IntrospectiveSortUtilities");
+} // namespace System::Collections::Generic

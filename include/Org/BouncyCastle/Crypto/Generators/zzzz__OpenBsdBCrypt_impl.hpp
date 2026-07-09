@@ -4,214 +4,167 @@
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__OpenBsdBCrypt_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::*)()>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::*)()>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x33211f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt.CreateBcryptString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<uint8_t,::Array<uint8_t>*>, ::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CreateBcryptString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(
+    &::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CreateBcryptString)> {
   constexpr static std::size_t size = 0x2d0;
   constexpr static std::size_t addrs = 0x33211fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "CreateBcryptString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(),
+                            { "CreateBcryptString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt.Generate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<char16_t,::Array<char16_t>*>, ::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<char16_t>, ::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x332181c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "Generate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(),
+                                                             { "Generate", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt.Generate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<char16_t,::Array<char16_t>*>, ::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::ArrayW<char16_t>, ::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate)> {
   constexpr static std::size_t size = 0x39c;
   constexpr static std::size_t addrs = 0x3321898;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "Generate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(),
+                                         { "Generate", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt.CheckPassword
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t,::Array<char16_t>*>)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CheckPassword)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t>)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CheckPassword)> {
   constexpr static std::size_t size = 0x4d8;
   constexpr static std::size_t addrs = 0x3321c34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "CheckPassword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(),
+                                                                                           { "CheckPassword", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<char16_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt.EncodeData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::EncodeData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::EncodeData)> {
   constexpr static std::size_t size = 0x350;
   constexpr static std::size_t addrs = 0x33214cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "EncodeData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(), { "EncodeData", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt.DecodeSaltString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (*)(::StringW)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::DecodeSaltString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::DecodeSaltString)> {
   constexpr static std::size_t size = 0x3b8;
   constexpr static std::size_t addrs = 0x332210c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "DecodeSaltString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(), { "DecodeSaltString", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::setStaticF_EncodingTable(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "EncodingTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get>(std::forward<::ArrayW<uint8_t,::Array<uint8_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::setStaticF_EncodingTable(::ArrayW<uint8_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint8_t>, "EncodingTable", ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(std::forward<::ArrayW<uint8_t>>(value));
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::getStaticF_EncodingTable()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "EncodingTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get>();
+inline ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::getStaticF_EncodingTable() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "EncodingTable", ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>();
 }
-inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::setStaticF_DecodingTable(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "DecodingTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get>(std::forward<::ArrayW<uint8_t,::Array<uint8_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::setStaticF_DecodingTable(::ArrayW<uint8_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint8_t>, "DecodingTable", ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(std::forward<::ArrayW<uint8_t>>(value));
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::getStaticF_DecodingTable()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "DecodingTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get>();
+inline ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::getStaticF_DecodingTable() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "DecodingTable", ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>();
 }
-inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::setStaticF_DefaultVersion(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "DefaultVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get>(std::forward<::StringW>(value));
+inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::setStaticF_DefaultVersion(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "DefaultVersion", ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(std::forward<::StringW>(value));
 }
-inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::getStaticF_DefaultVersion()  {
-return ::cordl_internals::getStaticField<::StringW, "DefaultVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get>();
+inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::getStaticF_DefaultVersion() {
+  return ::cordl_internals::getStaticField<::StringW, "DefaultVersion", ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>();
 }
-inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::setStaticF_AllowedVersions(::Org::BouncyCastle::Utilities::Collections::ISet*  value)  {
-::cordl_internals::setStaticField<::Org::BouncyCastle::Utilities::Collections::ISet*, "AllowedVersions", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get>(std::forward<::Org::BouncyCastle::Utilities::Collections::ISet*>(value));
+inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::setStaticF_AllowedVersions(::Org::BouncyCastle::Utilities::Collections::ISet* value) {
+  ::cordl_internals::setStaticField<::Org::BouncyCastle::Utilities::Collections::ISet*, "AllowedVersions", ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(
+      std::forward<::Org::BouncyCastle::Utilities::Collections::ISet*>(value));
 }
-inline ::Org::BouncyCastle::Utilities::Collections::ISet* Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::getStaticF_AllowedVersions()  {
-return ::cordl_internals::getStaticField<::Org::BouncyCastle::Utilities::Collections::ISet*, "AllowedVersions", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get>();
+inline ::Org::BouncyCastle::Utilities::Collections::ISet* Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::getStaticF_AllowedVersions() {
+  return ::cordl_internals::getStaticField<::Org::BouncyCastle::Utilities::Collections::ISet*, "AllowedVersions", ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>();
 }
-inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CreateBcryptString(::StringW  version, ::ArrayW<uint8_t,::Array<uint8_t>*>  password, ::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  cost)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "CreateBcryptString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, version, password, salt, cost);
+inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CreateBcryptString(::StringW version, ::ArrayW<uint8_t> password, ::ArrayW<uint8_t> salt, int32_t cost) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(),
+                          { "CreateBcryptString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, version, password, salt, cost);
 }
-inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate(::ArrayW<char16_t,::Array<char16_t>*>  password, ::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  cost)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "Generate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, password, salt, cost);
+inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t cost) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(),
+                                                           { "Generate", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, password, salt, cost);
 }
-inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate(::StringW  version, ::ArrayW<char16_t,::Array<char16_t>*>  password, ::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  cost)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "Generate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, version, password, salt, cost);
+inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate(::StringW version, ::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t cost) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(),
+                                       { "Generate", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, version, password, salt, cost);
 }
-inline bool Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CheckPassword(::StringW  bcryptString, ::ArrayW<char16_t,::Array<char16_t>*>  password)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "CheckPassword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, bcryptString, password);
+inline bool Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CheckPassword(::StringW bcryptString, ::ArrayW<char16_t> password) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(),
+                                                                                         { "CheckPassword", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<char16_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, bcryptString, password);
 }
-inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::EncodeData(::ArrayW<uint8_t,::Array<uint8_t>*>  data)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "EncodeData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, data);
+inline ::StringW Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::EncodeData(::ArrayW<uint8_t> data) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(), { "EncodeData", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, data);
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::DecodeSaltString(::StringW  saltString)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
-                        "DecodeSaltString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(nullptr, ___internal_method, saltString);
+inline ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::DecodeSaltString(::StringW saltString) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>(), { "DecodeSaltString", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, saltString);
 }
-inline ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt* Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>());
+inline ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt* Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>());
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::OpenBsdBCrypt()   {
-}
+constexpr ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::OpenBsdBCrypt() {}

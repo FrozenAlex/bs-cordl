@@ -9,161 +9,132 @@
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
 //  Writing Method size for method: ::UnityEngine::GeometryUtility.CalculateFrustumPlanes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, ::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>)>(&::UnityEngine::GeometryUtility::CalculateFrustumPlanes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::ArrayW<::UnityEngine::Plane>)>(&::UnityEngine::GeometryUtility::CalculateFrustumPlanes)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x692796c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "CalculateFrustumPlanes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                                                             { "CalculateFrustumPlanes", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::ArrayW<::UnityEngine::Plane>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GeometryUtility.CalculateFrustumPlanes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Matrix4x4, ::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>)>(&::UnityEngine::GeometryUtility::CalculateFrustumPlanes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Matrix4x4, ::ArrayW<::UnityEngine::Plane>)>(&::UnityEngine::GeometryUtility::CalculateFrustumPlanes)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x69279f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "CalculateFrustumPlanes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                                                             { "CalculateFrustumPlanes", {}, { ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::ArrayW<::UnityEngine::Plane>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GeometryUtility.TestPlanesAABB
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>, ::UnityEngine::Bounds)>(&::UnityEngine::GeometryUtility::TestPlanesAABB)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::UnityEngine::Plane>, ::UnityEngine::Bounds)>(&::UnityEngine::GeometryUtility::TestPlanesAABB)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x6927bf8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "TestPlanesAABB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                                                             { "TestPlanesAABB", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Plane>>(), ::i2c::type_of<::UnityEngine::Bounds>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GeometryUtility.Internal_ExtractPlanes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>, ::UnityEngine::Matrix4x4)>(&::UnityEngine::GeometryUtility::Internal_ExtractPlanes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::ArrayW<::UnityEngine::Plane>>, ::UnityEngine::Matrix4x4)>(&::UnityEngine::GeometryUtility::Internal_ExtractPlanes)> {
   constexpr static std::size_t size = 0x128;
   constexpr static std::size_t addrs = 0x6927ad0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "Internal_ExtractPlanes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                                                { "Internal_ExtractPlanes", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Plane>>>(), ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GeometryUtility.TestPlanesAABB_Injected
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Bounds>)>(&::UnityEngine::GeometryUtility::TestPlanesAABB_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bounds>)>(
+    &::UnityEngine::GeometryUtility::TestPlanesAABB_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6927cd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "TestPlanesAABB_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bounds>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                            { "TestPlanesAABB_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GeometryUtility.Internal_ExtractPlanes_Injected
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>, ::ByRef<::UnityEngine::Matrix4x4>)>(&::UnityEngine::GeometryUtility::Internal_ExtractPlanes_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>, ::by_ref<::UnityEngine::Matrix4x4>)>(
+    &::UnityEngine::GeometryUtility::Internal_ExtractPlanes_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6927d14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "Internal_ExtractPlanes_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Matrix4x4>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+            { "Internal_ExtractPlanes_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::GeometryUtility::CalculateFrustumPlanes(::UnityEngine::Camera*  camera, ::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>  planes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "CalculateFrustumPlanes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, camera, planes);
+inline void UnityEngine::GeometryUtility::CalculateFrustumPlanes(::UnityEngine::Camera* camera, ::ArrayW<::UnityEngine::Plane> planes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                                                           { "CalculateFrustumPlanes", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::ArrayW<::UnityEngine::Plane>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, camera, planes);
 }
-inline void UnityEngine::GeometryUtility::CalculateFrustumPlanes(::UnityEngine::Matrix4x4  worldToProjectionMatrix, ::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>  planes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "CalculateFrustumPlanes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, worldToProjectionMatrix, planes);
+inline void UnityEngine::GeometryUtility::CalculateFrustumPlanes(::UnityEngine::Matrix4x4 worldToProjectionMatrix, ::ArrayW<::UnityEngine::Plane> planes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                                                           { "CalculateFrustumPlanes", {}, { ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::ArrayW<::UnityEngine::Plane>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, worldToProjectionMatrix, planes);
 }
-inline bool UnityEngine::GeometryUtility::TestPlanesAABB(::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>  planes, ::UnityEngine::Bounds  bounds)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "TestPlanesAABB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, planes, bounds);
+inline bool UnityEngine::GeometryUtility::TestPlanesAABB(::ArrayW<::UnityEngine::Plane> planes, ::UnityEngine::Bounds bounds) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                                                           { "TestPlanesAABB", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Plane>>(), ::i2c::type_of<::UnityEngine::Bounds>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, planes, bounds);
 }
-inline void UnityEngine::GeometryUtility::Internal_ExtractPlanes(::ByRef<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>  planes, ::UnityEngine::Matrix4x4  worldToProjectionMatrix)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "Internal_ExtractPlanes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, planes, worldToProjectionMatrix);
+inline void UnityEngine::GeometryUtility::Internal_ExtractPlanes(::by_ref<::ArrayW<::UnityEngine::Plane>> planes, ::UnityEngine::Matrix4x4 worldToProjectionMatrix) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                                              { "Internal_ExtractPlanes", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Plane>>>(), ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, planes, worldToProjectionMatrix);
 }
-inline bool UnityEngine::GeometryUtility::TestPlanesAABB_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  planes, ::ByRef<::UnityEngine::Bounds>  bounds)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "TestPlanesAABB_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bounds>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, planes, bounds);
+inline bool UnityEngine::GeometryUtility::TestPlanesAABB_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> planes, ::by_ref<::UnityEngine::Bounds> bounds) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+                          { "TestPlanesAABB_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, planes, bounds);
 }
-inline void UnityEngine::GeometryUtility::Internal_ExtractPlanes_Injected(::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>  planes, ::ByRef<::UnityEngine::Matrix4x4>  worldToProjectionMatrix)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GeometryUtility*>::get(),
-                        "Internal_ExtractPlanes_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Matrix4x4>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, planes, worldToProjectionMatrix);
+inline void UnityEngine::GeometryUtility::Internal_ExtractPlanes_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> planes, ::by_ref<::UnityEngine::Matrix4x4> worldToProjectionMatrix) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::GeometryUtility*>(),
+          { "Internal_ExtractPlanes_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, planes, worldToProjectionMatrix);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::GeometryUtility::GeometryUtility()   {
-}
+constexpr ::UnityEngine::GeometryUtility::GeometryUtility() {}

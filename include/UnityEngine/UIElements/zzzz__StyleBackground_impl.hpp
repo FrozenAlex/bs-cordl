@@ -12,491 +12,368 @@
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.get_value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Background (::UnityEngine::UIElements::StyleBackground::*)()>(&::UnityEngine::UIElements::StyleBackground::get_value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Background (::UnityEngine::UIElements::StyleBackground::*)()>(
+    &::UnityEngine::UIElements::StyleBackground::get_value)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x6b3ad50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "get_value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "get_value", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.set_value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::Background)>(&::UnityEngine::UIElements::StyleBackground::set_value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::Background)>(
+    &::UnityEngine::UIElements::StyleBackground::set_value)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6b3ad80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "set_value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Background>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "set_value", {}, { ::i2c::type_of<::UnityEngine::UIElements::Background>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.get_keyword
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleBackground::*)()>(&::UnityEngine::UIElements::StyleBackground::get_keyword)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleBackground::*)()>(
+    &::UnityEngine::UIElements::StyleBackground::get_keyword)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6b3ad90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "get_keyword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "get_keyword", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.set_keyword
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleBackground::set_keyword)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleBackground::set_keyword)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6b3ad98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "set_keyword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "set_keyword", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::Texture2D*)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::Texture2D*)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x6b3ada0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::Sprite*)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::Sprite*)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x6b3add4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Sprite*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::VectorImage*)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::VectorImage*)>(
+    &::UnityEngine::UIElements::StyleBackground::_ctor)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x6b3ae08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleBackground::_ctor)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6b3ae3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::Texture2D*, ::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::Texture2D*, ::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleBackground::_ctor)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x6b397d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::Sprite*, ::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::Sprite*, ::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleBackground::_ctor)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x6b39814;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Sprite*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleBackground::_ctor)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x6b39854;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                                { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::Background, ::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleBackground::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::Background, ::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleBackground::_ctor)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6b3ae4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Background>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::Background>(), ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.op_Equality
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleBackground, ::UnityEngine::UIElements::StyleBackground)>(&::UnityEngine::UIElements::StyleBackground::op_Equality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleBackground, ::UnityEngine::UIElements::StyleBackground)>(
+    &::UnityEngine::UIElements::StyleBackground::op_Equality)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x6b3ae5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleBackground>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleBackground>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                         { "op_Equality", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleBackground>(), ::i2c::type_of<::UnityEngine::UIElements::StyleBackground>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.op_Implicit___UnityEngine__UIElements__StyleBackground
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleBackground (*)(::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleBackground::op_Implicit___UnityEngine__UIElements__StyleBackground)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleBackground (*)(::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleBackground::op_Implicit___UnityEngine__UIElements__StyleBackground)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6b39894;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::StyleBackground)>(&::UnityEngine::UIElements::StyleBackground::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleBackground::*)(::UnityEngine::UIElements::StyleBackground)>(
+    &::UnityEngine::UIElements::StyleBackground::Equals)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x6b3aeac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleBackground>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleBackground>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleBackground::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleBackground::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleBackground::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleBackground::Equals)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x6b3aefc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleBackground::*)()>(&::UnityEngine::UIElements::StyleBackground::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleBackground::*)()>(&::UnityEngine::UIElements::StyleBackground::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6b3afa4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackground.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleBackground::*)()>(&::UnityEngine::UIElements::StyleBackground::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleBackground::*)()>(&::UnityEngine::UIElements::StyleBackground::ToString)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6b3afcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), 3 }));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::Background UnityEngine::UIElements::StyleBackground::get_value()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "get_value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Background, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::Background UnityEngine::UIElements::StyleBackground::get_value() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "get_value", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Background>(*this, ___internal_method);
 }
-inline void UnityEngine::UIElements::StyleBackground::set_value(::UnityEngine::UIElements::Background  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "set_value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Background>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::UIElements::StyleBackground::set_value(::UnityEngine::UIElements::Background value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "set_value", {}, { ::i2c::type_of<::UnityEngine::UIElements::Background>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::StyleBackground::get_keyword()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "get_keyword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleKeyword, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::StyleBackground::get_keyword() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "get_keyword", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleKeyword>(*this, ___internal_method);
 }
-inline void UnityEngine::UIElements::StyleBackground::set_keyword(::UnityEngine::UIElements::StyleKeyword  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "set_keyword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::UIElements::StyleBackground::set_keyword(::UnityEngine::UIElements::StyleKeyword value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "set_keyword", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::Texture2D*  v)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v);
+inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::Texture2D* v) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v);
 }
-inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::Sprite*  v)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v);
+inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::Sprite* v) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Sprite*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v);
 }
-inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::UIElements::VectorImage*  v)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v);
+inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::UIElements::VectorImage* v) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v);
 }
-inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::UIElements::StyleKeyword  keyword)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyword);
+inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, keyword);
 }
-inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::Texture2D*  v, ::UnityEngine::UIElements::StyleKeyword  keyword)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v, keyword);
+inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::Texture2D* v, ::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v, keyword);
 }
-inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::Sprite*  v, ::UnityEngine::UIElements::StyleKeyword  keyword)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v, keyword);
+inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::Sprite* v, ::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Sprite*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v, keyword);
 }
-inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::UIElements::VectorImage*  v, ::UnityEngine::UIElements::StyleKeyword  keyword)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v, keyword);
+inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::UIElements::VectorImage* v, ::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::VectorImage*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v, keyword);
 }
-inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::UIElements::Background  v, ::UnityEngine::UIElements::StyleKeyword  keyword)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Background>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v, keyword);
+inline void UnityEngine::UIElements::StyleBackground::_ctor(::UnityEngine::UIElements::Background v, ::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::Background>(), ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v, keyword);
 }
-inline bool UnityEngine::UIElements::StyleBackground::op_Equality(::UnityEngine::UIElements::StyleBackground  lhs, ::UnityEngine::UIElements::StyleBackground  rhs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleBackground>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleBackground>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
+inline bool UnityEngine::UIElements::StyleBackground::op_Equality(::UnityEngine::UIElements::StyleBackground lhs, ::UnityEngine::UIElements::StyleBackground rhs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(),
+                                              { "op_Equality", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleBackground>(), ::i2c::type_of<::UnityEngine::UIElements::StyleBackground>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
 }
-inline ::UnityEngine::UIElements::StyleBackground UnityEngine::UIElements::StyleBackground::op_Implicit___UnityEngine__UIElements__StyleBackground(::UnityEngine::UIElements::StyleKeyword  keyword)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleBackground, false>(nullptr, ___internal_method, keyword);
+inline ::UnityEngine::UIElements::StyleBackground UnityEngine::UIElements::StyleBackground::op_Implicit___UnityEngine__UIElements__StyleBackground(::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleBackground>(nullptr, ___internal_method, keyword);
 }
-inline bool UnityEngine::UIElements::StyleBackground::Equals(::UnityEngine::UIElements::StyleBackground  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleBackground>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool UnityEngine::UIElements::StyleBackground::Equals(::UnityEngine::UIElements::StyleBackground other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleBackground>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::UIElements::StyleBackground::Equals(::System::Object*  obj)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool UnityEngine::UIElements::StyleBackground::Equals(::System::Object* obj) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
 }
-inline int32_t UnityEngine::UIElements::StyleBackground::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::UIElements::StyleBackground::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline ::StringW UnityEngine::UIElements::StyleBackground::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackground>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::UIElements::StyleBackground::ToString() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleBackground>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>"
-constexpr  UnityEngine::UIElements::StyleBackground::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>*()  {
-return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr UnityEngine::UIElements::StyleBackground::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>*() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>"
-constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>* UnityEngine::UIElements::StyleBackground::i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Background_()  {
-return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>*
+UnityEngine::UIElements::StyleBackground::i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Background_() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Background>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>"
-constexpr  UnityEngine::UIElements::StyleBackground::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>*()  {
-return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr UnityEngine::UIElements::StyleBackground::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>* UnityEngine::UIElements::StyleBackground::i___System__IEquatable_1___UnityEngine__UIElements__StyleBackground_()  {
-return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>* UnityEngine::UIElements::StyleBackground::i___System__IEquatable_1___UnityEngine__UIElements__StyleBackground_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackground>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Background", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::StyleBackground::StyleBackground(::UnityEngine::UIElements::Background  m_Value, ::UnityEngine::UIElements::StyleKeyword  m_Keyword) noexcept  {
-this->m_Value = m_Value;
-this->m_Keyword = m_Keyword;
+// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Background", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Keyword", ty:
+// "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::StyleBackground::StyleBackground(::UnityEngine::UIElements::Background m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept {
+  this->m_Value = m_Value;
+  this->m_Keyword = m_Keyword;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::StyleBackground::StyleBackground()   {
-}
+constexpr ::UnityEngine::UIElements::StyleBackground::StyleBackground() {}

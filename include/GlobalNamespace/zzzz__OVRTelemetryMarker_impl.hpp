@@ -10,1022 +10,826 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState.get_Sent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)()>(&::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Sent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)()>(
+    &::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Sent)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da54d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        "get_Sent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(), { "get_Sent", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState.set_Sent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)(bool)>(&::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Sent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)(bool)>(
+    &::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Sent)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da54e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        "set_Sent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(), { "set_Sent", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState.get_Result
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Qpl_OVRPlugin_ResultType (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)()>(&::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Result)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Qpl_OVRPlugin_ResultType (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)()>(
+    &::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Result)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da54e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        "get_Result",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(), { "get_Result", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState.set_Result
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)(::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(&::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Result)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)(::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(
+    &::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Result)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da54f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        "set_Result",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Qpl_OVRPlugin_ResultType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(),
+                                                                                           { "set_Result", {}, { ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_ResultType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)(bool, ::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(&::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)(bool, ::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(
+    &::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5da4ac8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Qpl_OVRPlugin_ResultType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_ResultType>() } })));
     return ___internal_method;
   }
 };
-inline bool GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Sent()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        "get_Sent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Sent() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(), { "get_Sent", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Sent(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        "set_Sent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Sent(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(), { "set_Sent", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline ::GlobalNamespace::Qpl_OVRPlugin_ResultType GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Result()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        "get_Result",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::Qpl_OVRPlugin_ResultType, false>(this, ___internal_method);
+inline ::GlobalNamespace::Qpl_OVRPlugin_ResultType GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Result() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(), { "get_Result", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::Qpl_OVRPlugin_ResultType>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Result(::GlobalNamespace::Qpl_OVRPlugin_ResultType  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        "set_Result",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Qpl_OVRPlugin_ResultType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Result(::GlobalNamespace::Qpl_OVRPlugin_ResultType value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(),
+                                                                                         { "set_Result", {}, { ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_ResultType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline void GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::_ctor(bool  sent, ::GlobalNamespace::Qpl_OVRPlugin_ResultType  result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Qpl_OVRPlugin_ResultType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sent, result);
+inline void GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::_ctor(bool sent, ::GlobalNamespace::Qpl_OVRPlugin_ResultType result) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_ResultType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sent, result);
 }
-// Ctor Parameters [CppParam { name: "_Sent_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Result_k__BackingField", ty: "::GlobalNamespace::Qpl_OVRPlugin_ResultType", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::OVRTelemetryMarker_OVRTelemetryMarkerState(bool  _Sent_k__BackingField, ::GlobalNamespace::Qpl_OVRPlugin_ResultType  _Result_k__BackingField) noexcept  {
-this->_Sent_k__BackingField = _Sent_k__BackingField;
-this->_Result_k__BackingField = _Result_k__BackingField;
+// Ctor Parameters [CppParam { name: "_Sent_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Result_k__BackingField", ty:
+// "::GlobalNamespace::Qpl_OVRPlugin_ResultType", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::OVRTelemetryMarker_OVRTelemetryMarkerState(bool _Sent_k__BackingField,
+                                                                                                                    ::GlobalNamespace::Qpl_OVRPlugin_ResultType _Result_k__BackingField) noexcept {
+  this->_Sent_k__BackingField = _Sent_k__BackingField;
+  this->_Result_k__BackingField = _Result_k__BackingField;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::OVRTelemetryMarker_OVRTelemetryMarkerState()   {
-}
+constexpr ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::OVRTelemetryMarker_OVRTelemetryMarkerState() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.get_State
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_State)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState (::GlobalNamespace::OVRTelemetryMarker::*)()>(
+    &::GlobalNamespace::OVRTelemetryMarker::get_State)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da4a50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_State",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_State", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.set_State
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState)>(&::GlobalNamespace::OVRTelemetryMarker::set_State)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState)>(
+    &::GlobalNamespace::OVRTelemetryMarker::set_State)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da4a58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "set_State",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                                                                           { "set_State", {}, { ::i2c::type_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.get_Sent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_Sent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_Sent)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x5da4a60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_Sent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_Sent", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.get_Result
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Qpl_OVRPlugin_ResultType (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_Result)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Qpl_OVRPlugin_ResultType (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_Result)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da4a70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_Result",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_Result", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.get_MarkerId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_MarkerId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_MarkerId)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da4a78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_MarkerId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_MarkerId", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.get_InstanceKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_InstanceKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_InstanceKey)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da4a80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_InstanceKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_InstanceKey", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)(int32_t, int32_t, int64_t, ::StringW)>(&::GlobalNamespace::OVRTelemetryMarker::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)(int32_t, int32_t, int64_t, ::StringW)>(&::GlobalNamespace::OVRTelemetryMarker::_ctor)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x5da40dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::OVRTelemetry_TelemetryClient*, int32_t, int32_t, int64_t, ::StringW)>(&::GlobalNamespace::OVRTelemetryMarker::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::OVRTelemetry_TelemetryClient*, int32_t, int32_t, int64_t, ::StringW)>(
+    &::GlobalNamespace::OVRTelemetryMarker::_ctor)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x5da4a88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTelemetry_TelemetryClient*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { ".ctor",
+                                                                                                     {},
+                                                                                                     { ::i2c::type_of<::GlobalNamespace::OVRTelemetry_TelemetryClient*>(), ::i2c::type_of<int32_t>(),
+                                                                                                       ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.SetResult
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(&::GlobalNamespace::OVRTelemetryMarker::SetResult)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(
+    &::GlobalNamespace::OVRTelemetryMarker::SetResult)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5da423c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "SetResult",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Qpl_OVRPlugin_ResultType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "SetResult", {}, { ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_ResultType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::StringW, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, ::StringW, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5da43a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                         { "AddAnnotation", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, bool, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, bool, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x5da4adc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                            { "AddAnnotation", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, double_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, double_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x5da4b44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                         { "AddAnnotation", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<double_t>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, int64_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, int64_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x5da4bac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                            { "AddAnnotation", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, uint8_t*, int32_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, uint8_t*, int32_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5da4c10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                     {},
+                                                                                                     { ::i2c::type_of<::StringW>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(),
+                                                                                                       ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::System::ReadOnlySpan_1<int64_t>, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, ::System::ReadOnlySpan_1<int64_t>, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x5da4c7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<int64_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                     {},
+                                                                                                     { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::ReadOnlySpan_1<int64_t>>(),
+                                                                                                       ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, int64_t*, int32_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, int64_t*, int32_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5da4d30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                     {},
+                                                                                                     { ::i2c::type_of<::StringW>(), ::i2c::type_of<int64_t*>(), ::i2c::type_of<int32_t>(),
+                                                                                                       ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::System::ReadOnlySpan_1<double_t>, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, ::System::ReadOnlySpan_1<double_t>, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x5da4d9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<double_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                     {},
+                                                                                                     { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::ReadOnlySpan_1<double_t>>(),
+                                                                                                       ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, double_t*, int32_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, double_t*, int32_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5da4e50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                     {},
+                                                                                                     { ::i2c::type_of<::StringW>(), ::i2c::type_of<double_t*>(), ::i2c::type_of<int32_t>(),
+                                                                                                       ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::System::ReadOnlySpan_1<::GlobalNamespace::OVRPlugin_Bool>, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, ::System::ReadOnlySpan_1<::GlobalNamespace::OVRPlugin_Bool>, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(
+    &::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x5da4ebc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<::GlobalNamespace::OVRPlugin_Bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                        {},
+                                                                                        { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::ReadOnlySpan_1<::GlobalNamespace::OVRPlugin_Bool>>(),
+                                                                                          ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::GlobalNamespace::OVRPlugin_Bool*, int32_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, ::GlobalNamespace::OVRPlugin_Bool*, int32_t, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5da4f70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_Bool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                        {},
+                                                                                        { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_Bool*>(), ::i2c::type_of<int32_t>(),
+                                                                                          ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddAnnotationIfNotNullOrEmpty
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::StringW, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotationIfNotNullOrEmpty)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, ::StringW, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant)>(&::GlobalNamespace::OVRTelemetryMarker::AddAnnotationIfNotNullOrEmpty)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x5da4fdc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotationIfNotNullOrEmpty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                         { "AddAnnotationIfNotNullOrEmpty",
+                                           {},
+                                           { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.get_ApplicationIdentifier
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_ApplicationIdentifier)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_ApplicationIdentifier)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x5da5024;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_ApplicationIdentifier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_ApplicationIdentifier", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.get_UnityVersion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_UnityVersion)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_UnityVersion)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x5da50b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_UnityVersion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_UnityVersion", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.get_IsBatchMode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_IsBatchMode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_IsBatchMode)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x5da513c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_IsBatchMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_IsBatchMode", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.GetOVRTelemetryConsent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::GetOVRTelemetryConsent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::GetOVRTelemetryConsent)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5da4ad4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "GetOVRTelemetryConsent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "GetOVRTelemetryConsent", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.Send
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::Send)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::Send)> {
   constexpr static std::size_t size = 0x144;
   constexpr static std::size_t addrs = 0x5da3db8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "Send",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "Send", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.SendIf
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(bool)>(&::GlobalNamespace::OVRTelemetryMarker::SendIf)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(bool)>(&::GlobalNamespace::OVRTelemetryMarker::SendIf)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x5da5238;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "SendIf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "SendIf", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddPoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::OVRTelemetry_MarkerPoint)>(&::GlobalNamespace::OVRTelemetryMarker::AddPoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::OVRTelemetry_MarkerPoint)>(
+    &::GlobalNamespace::OVRTelemetryMarker::AddPoint)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x5da5288;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddPoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTelemetry_MarkerPoint>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddPoint", {}, { ::i2c::type_of<::GlobalNamespace::OVRTelemetry_MarkerPoint>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddPoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW)>(&::GlobalNamespace::OVRTelemetryMarker::AddPoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW)>(&::GlobalNamespace::OVRTelemetryMarker::AddPoint)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x5da52d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddPoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddPoint", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddPoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder)>(&::GlobalNamespace::OVRTelemetryMarker::AddPoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(
+    ::StringW, ::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder)>(&::GlobalNamespace::OVRTelemetryMarker::AddPoint)> {
   constexpr static std::size_t size = 0x130;
   constexpr static std::size_t addrs = 0x5da5328;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddPoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                                             { "AddPoint", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.AddPoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::GlobalNamespace::Qpl_OVRPlugin_Annotation*, int32_t)>(&::GlobalNamespace::OVRTelemetryMarker::AddPoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::GlobalNamespace::Qpl_OVRPlugin_Annotation*,
+                                                                                                                                        int32_t)>(&::GlobalNamespace::OVRTelemetryMarker::AddPoint)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x5da5458;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddPoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Qpl_OVRPlugin_Annotation*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                                { "AddPoint", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_Annotation*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRTelemetryMarker.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::Dispose)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5da54b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OVRTelemetryMarker::setStaticF__applicationIdentifier(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "_applicationIdentifier", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get>(std::forward<::StringW>(value));
+inline void GlobalNamespace::OVRTelemetryMarker::setStaticF__applicationIdentifier(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "_applicationIdentifier", ::GlobalNamespace::OVRTelemetryMarker>(std::forward<::StringW>(value));
 }
-inline ::StringW GlobalNamespace::OVRTelemetryMarker::getStaticF__applicationIdentifier()  {
-return ::cordl_internals::getStaticField<::StringW, "_applicationIdentifier", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get>();
+inline ::StringW GlobalNamespace::OVRTelemetryMarker::getStaticF__applicationIdentifier() {
+  return ::cordl_internals::getStaticField<::StringW, "_applicationIdentifier", ::GlobalNamespace::OVRTelemetryMarker>();
 }
-inline void GlobalNamespace::OVRTelemetryMarker::setStaticF__unityVersion(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "_unityVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get>(std::forward<::StringW>(value));
+inline void GlobalNamespace::OVRTelemetryMarker::setStaticF__unityVersion(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "_unityVersion", ::GlobalNamespace::OVRTelemetryMarker>(std::forward<::StringW>(value));
 }
-inline ::StringW GlobalNamespace::OVRTelemetryMarker::getStaticF__unityVersion()  {
-return ::cordl_internals::getStaticField<::StringW, "_unityVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get>();
+inline ::StringW GlobalNamespace::OVRTelemetryMarker::getStaticF__unityVersion() {
+  return ::cordl_internals::getStaticField<::StringW, "_unityVersion", ::GlobalNamespace::OVRTelemetryMarker>();
 }
-inline void GlobalNamespace::OVRTelemetryMarker::setStaticF__isBatchMode(::System::Nullable_1<bool>  value)  {
-::cordl_internals::setStaticField<::System::Nullable_1<bool>, "_isBatchMode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get>(std::forward<::System::Nullable_1<bool>>(value));
+inline void GlobalNamespace::OVRTelemetryMarker::setStaticF__isBatchMode(::System::Nullable_1<bool> value) {
+  ::cordl_internals::setStaticField<::System::Nullable_1<bool>, "_isBatchMode", ::GlobalNamespace::OVRTelemetryMarker>(std::forward<::System::Nullable_1<bool>>(value));
 }
-inline ::System::Nullable_1<bool> GlobalNamespace::OVRTelemetryMarker::getStaticF__isBatchMode()  {
-return ::cordl_internals::getStaticField<::System::Nullable_1<bool>, "_isBatchMode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get>();
+inline ::System::Nullable_1<bool> GlobalNamespace::OVRTelemetryMarker::getStaticF__isBatchMode() {
+  return ::cordl_internals::getStaticField<::System::Nullable_1<bool>, "_isBatchMode", ::GlobalNamespace::OVRTelemetryMarker>();
 }
-inline ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState GlobalNamespace::OVRTelemetryMarker::get_State()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_State",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState, false>(this, ___internal_method);
+inline ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState GlobalNamespace::OVRTelemetryMarker::get_State() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_State", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTelemetryMarker::set_State(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "set_State",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::OVRTelemetryMarker::set_State(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                                                                         { "set_State", {}, { ::i2c::type_of<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline bool GlobalNamespace::OVRTelemetryMarker::get_Sent()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_Sent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::OVRTelemetryMarker::get_Sent() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_Sent", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline ::GlobalNamespace::Qpl_OVRPlugin_ResultType GlobalNamespace::OVRTelemetryMarker::get_Result()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_Result",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::Qpl_OVRPlugin_ResultType, false>(this, ___internal_method);
+inline ::GlobalNamespace::Qpl_OVRPlugin_ResultType GlobalNamespace::OVRTelemetryMarker::get_Result() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_Result", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::Qpl_OVRPlugin_ResultType>(*this, ___internal_method);
 }
-inline int32_t GlobalNamespace::OVRTelemetryMarker::get_MarkerId()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_MarkerId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::OVRTelemetryMarker::get_MarkerId() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_MarkerId", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline int32_t GlobalNamespace::OVRTelemetryMarker::get_InstanceKey()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_InstanceKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::OVRTelemetryMarker::get_InstanceKey() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_InstanceKey", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTelemetryMarker::_ctor(int32_t  markerId, int32_t  instanceKey, int64_t  timestampMs, ::StringW  joindId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, markerId, instanceKey, timestampMs, joindId);
+inline void GlobalNamespace::OVRTelemetryMarker::_ctor(int32_t markerId, int32_t instanceKey, int64_t timestampMs, ::StringW joindId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, markerId, instanceKey, timestampMs, joindId);
 }
-inline void GlobalNamespace::OVRTelemetryMarker::_ctor(::GlobalNamespace::OVRTelemetry_TelemetryClient*  client, int32_t  markerId, int32_t  instanceKey, int64_t  timestampMs, ::StringW  joinId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTelemetry_TelemetryClient*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, client, markerId, instanceKey, timestampMs, joinId);
+inline void GlobalNamespace::OVRTelemetryMarker::_ctor(::GlobalNamespace::OVRTelemetry_TelemetryClient* client, int32_t markerId, int32_t instanceKey, int64_t timestampMs, ::StringW joinId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { ".ctor",
+                                                                                                   {},
+                                                                                                   { ::i2c::type_of<::GlobalNamespace::OVRTelemetry_TelemetryClient*>(), ::i2c::type_of<int32_t>(),
+                                                                                                     ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, client, markerId, instanceKey, timestampMs, joinId);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::SetResult(::GlobalNamespace::Qpl_OVRPlugin_ResultType  result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "SetResult",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Qpl_OVRPlugin_ResultType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, result);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::SetResult(::GlobalNamespace::Qpl_OVRPlugin_ResultType result) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "SetResult", {}, { ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_ResultType>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, result);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, ::StringW  annotationValue, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, ::StringW annotationValue,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                          { "AddAnnotation", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, bool  annotationValue, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, bool annotationValue,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                          { "AddAnnotation", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, double_t  annotationValue, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, double_t annotationValue,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                          { "AddAnnotation", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<double_t>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, int64_t  annotationValue, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, int64_t annotationValue,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                          { "AddAnnotation", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, uint8_t*  annotationValues, int32_t  count, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValues, count, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, uint8_t* annotationValues, int32_t count,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                          {},
+                                                                                                          { ::i2c::type_of<::StringW>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(),
+                                                                                                            ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValues, count, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, ::System::ReadOnlySpan_1<int64_t>  annotationValues, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<int64_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValues, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<int64_t> annotationValues,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                          {},
+                                                                                                          { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::ReadOnlySpan_1<int64_t>>(),
+                                                                                                            ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValues, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, int64_t*  annotationValues, int32_t  count, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValues, count, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, int64_t* annotationValues, int32_t count,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                          {},
+                                                                                                          { ::i2c::type_of<::StringW>(), ::i2c::type_of<int64_t*>(), ::i2c::type_of<int32_t>(),
+                                                                                                            ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValues, count, eAnnotationType);
 }
-template<typename T>
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, ::System::ReadOnlySpan_1<T>  annotationValues, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                    "AddAnnotation",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValues, eAnnotationType);
+template <typename T>
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<T> annotationValues,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                          { ::i2c::class_of<T>() },
+                                                                                                          { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::ReadOnlySpan_1<T>>(),
+                                                                                                            ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValues, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, ::System::ReadOnlySpan_1<double_t>  annotationValues, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<double_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValues, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<double_t> annotationValues,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                          {},
+                                                                                                          { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::ReadOnlySpan_1<double_t>>(),
+                                                                                                            ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValues, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, double_t*  annotationValues, int32_t  count, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValues, count, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, double_t* annotationValues, int32_t count,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                                          {},
+                                                                                                          { ::i2c::type_of<::StringW>(), ::i2c::type_of<double_t*>(), ::i2c::type_of<int32_t>(),
+                                                                                                            ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValues, count, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, ::System::ReadOnlySpan_1<::GlobalNamespace::OVRPlugin_Bool>  annotationValues, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<::GlobalNamespace::OVRPlugin_Bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValues, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<::GlobalNamespace::OVRPlugin_Bool> annotationValues,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                                                                         { "AddAnnotation",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::ReadOnlySpan_1<::GlobalNamespace::OVRPlugin_Bool>>(),
+                                                                                             ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValues, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW  annotationKey, ::GlobalNamespace::OVRPlugin_Bool*  annotationValues, int32_t  count, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_Bool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValues, count, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, ::GlobalNamespace::OVRPlugin_Bool* annotationValues, int32_t count,
+                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddAnnotation",
+                                                                                      {},
+                                                                                      { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_Bool*>(), ::i2c::type_of<int32_t>(),
+                                                                                        ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValues, count, eAnnotationType);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotationIfNotNullOrEmpty(::StringW  annotationKey, ::StringW  annotationValue, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant  eAnnotationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddAnnotationIfNotNullOrEmpty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotationIfNotNullOrEmpty(::StringW annotationKey, ::StringW annotationValue,
+                                                                                                                ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+          { "AddAnnotationIfNotNullOrEmpty", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValue, eAnnotationType);
 }
-inline ::StringW GlobalNamespace::OVRTelemetryMarker::get_ApplicationIdentifier()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_ApplicationIdentifier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
+inline ::StringW GlobalNamespace::OVRTelemetryMarker::get_ApplicationIdentifier() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_ApplicationIdentifier", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method);
 }
-inline ::StringW GlobalNamespace::OVRTelemetryMarker::get_UnityVersion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_UnityVersion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
+inline ::StringW GlobalNamespace::OVRTelemetryMarker::get_UnityVersion() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_UnityVersion", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method);
 }
-inline bool GlobalNamespace::OVRTelemetryMarker::get_IsBatchMode()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "get_IsBatchMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool GlobalNamespace::OVRTelemetryMarker::get_IsBatchMode() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "get_IsBatchMode", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-inline bool GlobalNamespace::OVRTelemetryMarker::GetOVRTelemetryConsent()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "GetOVRTelemetryConsent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::OVRTelemetryMarker::GetOVRTelemetryConsent() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "GetOVRTelemetryConsent", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::Send()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "Send",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::Send() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "Send", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::SendIf(bool  condition)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "SendIf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, condition);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::SendIf(bool condition) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "SendIf", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, condition);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddPoint(::GlobalNamespace::OVRTelemetry_MarkerPoint  point)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddPoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTelemetry_MarkerPoint>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, point);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddPoint(::GlobalNamespace::OVRTelemetry_MarkerPoint point) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddPoint", {}, { ::i2c::type_of<::GlobalNamespace::OVRTelemetry_MarkerPoint>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, point);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddPoint(::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddPoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, name);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddPoint(::StringW name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "AddPoint", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, name);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddPoint(::StringW  name, ::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder  annotationBuilder)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddPoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, name, annotationBuilder);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddPoint(::StringW name, ::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder annotationBuilder) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                                           { "AddPoint", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, name, annotationBuilder);
 }
-inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddPoint(::StringW  name, ::GlobalNamespace::Qpl_OVRPlugin_Annotation*  annotations, int32_t  annotationCount)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "AddPoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Qpl_OVRPlugin_Annotation*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker, false>(this, ___internal_method, name, annotations, annotationCount);
+inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddPoint(::StringW name, ::GlobalNamespace::Qpl_OVRPlugin_Annotation* annotations, int32_t annotationCount) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(),
+                                              { "AddPoint", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_Annotation*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, name, annotations, annotationCount);
 }
-inline void GlobalNamespace::OVRTelemetryMarker::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRTelemetryMarker::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetryMarker>(), { "Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  GlobalNamespace::OVRTelemetryMarker::operator ::System::IDisposable*()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr GlobalNamespace::OVRTelemetryMarker::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::OVRTelemetryMarker::i___System__IDisposable()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IDisposable* GlobalNamespace::OVRTelemetryMarker::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_State_k__BackingField", ty: "::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState", modifiers: "", def_value: Some("{}") }, CppParam { name: "_MarkerId_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_InstanceKey_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_client", ty: "::GlobalNamespace::OVRTelemetry_TelemetryClient*", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OVRTelemetryMarker::OVRTelemetryMarker(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState  _State_k__BackingField, int32_t  _MarkerId_k__BackingField, int32_t  _InstanceKey_k__BackingField, ::GlobalNamespace::OVRTelemetry_TelemetryClient*  _client) noexcept  {
-this->_State_k__BackingField = _State_k__BackingField;
-this->_MarkerId_k__BackingField = _MarkerId_k__BackingField;
-this->_InstanceKey_k__BackingField = _InstanceKey_k__BackingField;
-this->_client = _client;
+// Ctor Parameters [CppParam { name: "_State_k__BackingField", ty: "::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_MarkerId_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_InstanceKey_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
+// { name: "_client", ty: "::GlobalNamespace::OVRTelemetry_TelemetryClient*", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::OVRTelemetryMarker::OVRTelemetryMarker(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState _State_k__BackingField, int32_t _MarkerId_k__BackingField,
+                                                                    int32_t _InstanceKey_k__BackingField, ::GlobalNamespace::OVRTelemetry_TelemetryClient* _client) noexcept {
+  this->_State_k__BackingField = _State_k__BackingField;
+  this->_MarkerId_k__BackingField = _MarkerId_k__BackingField;
+  this->_InstanceKey_k__BackingField = _InstanceKey_k__BackingField;
+  this->_client = _client;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRTelemetryMarker::OVRTelemetryMarker()   {
-}
+constexpr ::GlobalNamespace::OVRTelemetryMarker::OVRTelemetryMarker() {}

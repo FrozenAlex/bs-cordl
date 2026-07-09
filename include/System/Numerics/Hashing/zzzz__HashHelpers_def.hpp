@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Numerics/Hashing/HashHelpers.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -11,46 +11,45 @@ namespace System::Numerics::Hashing {
 class HashHelpers;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Numerics::Hashing::HashHelpers);
+MARK_REF_T(::System::Numerics::Hashing::HashHelpers*);
+DEFINE_IL2CPP_CLASS(::System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");
 // Dependencies System.Object
 namespace System::Numerics::Hashing {
 // Is value type: false
 // CS Name: System.Numerics.Hashing.HashHelpers
 class CORDL_TYPE HashHelpers : public ::System::Object {
 public:
-// Declarations
-/// @brief Field RandomSeed, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_RandomSeed, put=setStaticF_RandomSeed)) int32_t  RandomSeed;
+  // Declarations
+  /// @brief Field RandomSeed, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_RandomSeed, put = setStaticF_RandomSeed)) int32_t RandomSeed;
 
-/// @brief Method Combine, addr 0x5a5806c, size 0x10, virtual false, abstract: false, final false
-static inline int32_t Combine(int32_t  h1, int32_t  h2) ;
+  /// @brief Method Combine, addr 0x5a5806c, size 0x10, virtual false, abstract: false, final false
+  static inline int32_t Combine(int32_t h1, int32_t h2);
 
-static inline int32_t getStaticF_RandomSeed() ;
+  static inline int32_t getStaticF_RandomSeed();
 
-static inline void setStaticF_RandomSeed(int32_t  value) ;
+  static inline void setStaticF_RandomSeed(int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HashHelpers() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HashHelpers();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HashHelpers(HashHelpers&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HashHelpers(HashHelpers && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HashHelpers(HashHelpers const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HashHelpers(HashHelpers const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3582 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3582};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Numerics::Hashing::HashHelpers, 0x10>, "Size mismatch!");
+static_assert(sizeof(::System::Numerics::Hashing::HashHelpers) == 0x10, "Size mismatch!");
 
-} // namespace end def System::Numerics::Hashing
-NEED_NO_BOX(::System::Numerics::Hashing::HashHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");
+} // namespace System::Numerics::Hashing

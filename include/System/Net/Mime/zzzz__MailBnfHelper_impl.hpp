@@ -3,331 +3,267 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Mime/zzzz__MailBnfHelper_def.hpp"
 //  Writing Method size for method: ::System::Net::Mime::MailBnfHelper.CreateCharactersAllowedInAtoms
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool,::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInAtoms)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInAtoms)> {
   constexpr static std::size_t size = 0x1e4;
   constexpr static std::size_t addrs = 0x622ccf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInAtoms",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInAtoms", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Mime::MailBnfHelper.CreateCharactersAllowedInQuotedStrings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool,::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInQuotedStrings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInQuotedStrings)> {
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x622ced4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInQuotedStrings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInQuotedStrings", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Mime::MailBnfHelper.CreateCharactersAllowedInDomainLiterals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool,::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInDomainLiterals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInDomainLiterals)> {
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x622d014;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInDomainLiterals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInDomainLiterals", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Mime::MailBnfHelper.CreateCharactersAllowedInHeaderNames
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool,::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInHeaderNames)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInHeaderNames)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x622d154;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInHeaderNames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInHeaderNames", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Mime::MailBnfHelper.CreateCharactersAllowedInTokens
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool,::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInTokens)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInTokens)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x622d218;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInTokens",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInTokens", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Mime::MailBnfHelper.CreateCharactersAllowedInComments
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool,::Array<bool>*> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInComments)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInComments)> {
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x622d314;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInComments",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInComments", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Mime::MailBnfHelper.IsAllowedWhiteSpace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Net::Mime::MailBnfHelper::IsAllowedWhiteSpace)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Net::Mime::MailBnfHelper::IsAllowedWhiteSpace)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x622d488;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "IsAllowedWhiteSpace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "IsAllowedWhiteSpace", {}, { ::i2c::type_of<char16_t>() } })));
     return ___internal_method;
   }
 };
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Atext(::ArrayW<bool,::Array<bool>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<bool,::Array<bool>*>, "Atext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<::ArrayW<bool,::Array<bool>*>>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Atext(::ArrayW<bool> value) {
+  ::cordl_internals::setStaticField<::ArrayW<bool>, "Atext", ::System::Net::Mime::MailBnfHelper*>(std::forward<::ArrayW<bool>>(value));
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::getStaticF_Atext()  {
-return ::cordl_internals::getStaticField<::ArrayW<bool,::Array<bool>*>, "Atext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::getStaticF_Atext() {
+  return ::cordl_internals::getStaticField<::ArrayW<bool>, "Atext", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Qtext(::ArrayW<bool,::Array<bool>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<bool,::Array<bool>*>, "Qtext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<::ArrayW<bool,::Array<bool>*>>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Qtext(::ArrayW<bool> value) {
+  ::cordl_internals::setStaticField<::ArrayW<bool>, "Qtext", ::System::Net::Mime::MailBnfHelper*>(std::forward<::ArrayW<bool>>(value));
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::getStaticF_Qtext()  {
-return ::cordl_internals::getStaticField<::ArrayW<bool,::Array<bool>*>, "Qtext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::getStaticF_Qtext() {
+  return ::cordl_internals::getStaticField<::ArrayW<bool>, "Qtext", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Dtext(::ArrayW<bool,::Array<bool>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<bool,::Array<bool>*>, "Dtext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<::ArrayW<bool,::Array<bool>*>>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Dtext(::ArrayW<bool> value) {
+  ::cordl_internals::setStaticField<::ArrayW<bool>, "Dtext", ::System::Net::Mime::MailBnfHelper*>(std::forward<::ArrayW<bool>>(value));
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::getStaticF_Dtext()  {
-return ::cordl_internals::getStaticField<::ArrayW<bool,::Array<bool>*>, "Dtext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::getStaticF_Dtext() {
+  return ::cordl_internals::getStaticField<::ArrayW<bool>, "Dtext", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Ftext(::ArrayW<bool,::Array<bool>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<bool,::Array<bool>*>, "Ftext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<::ArrayW<bool,::Array<bool>*>>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Ftext(::ArrayW<bool> value) {
+  ::cordl_internals::setStaticField<::ArrayW<bool>, "Ftext", ::System::Net::Mime::MailBnfHelper*>(std::forward<::ArrayW<bool>>(value));
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::getStaticF_Ftext()  {
-return ::cordl_internals::getStaticField<::ArrayW<bool,::Array<bool>*>, "Ftext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::getStaticF_Ftext() {
+  return ::cordl_internals::getStaticField<::ArrayW<bool>, "Ftext", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Ttext(::ArrayW<bool,::Array<bool>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<bool,::Array<bool>*>, "Ttext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<::ArrayW<bool,::Array<bool>*>>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Ttext(::ArrayW<bool> value) {
+  ::cordl_internals::setStaticField<::ArrayW<bool>, "Ttext", ::System::Net::Mime::MailBnfHelper*>(std::forward<::ArrayW<bool>>(value));
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::getStaticF_Ttext()  {
-return ::cordl_internals::getStaticField<::ArrayW<bool,::Array<bool>*>, "Ttext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::getStaticF_Ttext() {
+  return ::cordl_internals::getStaticField<::ArrayW<bool>, "Ttext", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Ctext(::ArrayW<bool,::Array<bool>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<bool,::Array<bool>*>, "Ctext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<::ArrayW<bool,::Array<bool>*>>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Ctext(::ArrayW<bool> value) {
+  ::cordl_internals::setStaticField<::ArrayW<bool>, "Ctext", ::System::Net::Mime::MailBnfHelper*>(std::forward<::ArrayW<bool>>(value));
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::getStaticF_Ctext()  {
-return ::cordl_internals::getStaticField<::ArrayW<bool,::Array<bool>*>, "Ctext", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::getStaticF_Ctext() {
+  return ::cordl_internals::getStaticField<::ArrayW<bool>, "Ctext", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Ascii7bitMaxValue(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "Ascii7bitMaxValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<int32_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Ascii7bitMaxValue(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "Ascii7bitMaxValue", ::System::Net::Mime::MailBnfHelper*>(std::forward<int32_t>(value));
 }
-inline int32_t System::Net::Mime::MailBnfHelper::getStaticF_Ascii7bitMaxValue()  {
-return ::cordl_internals::getStaticField<int32_t, "Ascii7bitMaxValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline int32_t System::Net::Mime::MailBnfHelper::getStaticF_Ascii7bitMaxValue() {
+  return ::cordl_internals::getStaticField<int32_t, "Ascii7bitMaxValue", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Quote(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "Quote", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Quote(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "Quote", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Quote()  {
-return ::cordl_internals::getStaticField<char16_t, "Quote", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Quote() {
+  return ::cordl_internals::getStaticField<char16_t, "Quote", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Space(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "Space", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Space(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "Space", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Space()  {
-return ::cordl_internals::getStaticField<char16_t, "Space", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Space() {
+  return ::cordl_internals::getStaticField<char16_t, "Space", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Tab(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "Tab", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Tab(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "Tab", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Tab()  {
-return ::cordl_internals::getStaticField<char16_t, "Tab", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Tab() {
+  return ::cordl_internals::getStaticField<char16_t, "Tab", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_CR(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "CR", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_CR(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "CR", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_CR()  {
-return ::cordl_internals::getStaticField<char16_t, "CR", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_CR() {
+  return ::cordl_internals::getStaticField<char16_t, "CR", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_LF(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "LF", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_LF(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "LF", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_LF()  {
-return ::cordl_internals::getStaticField<char16_t, "LF", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_LF() {
+  return ::cordl_internals::getStaticField<char16_t, "LF", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_StartComment(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "StartComment", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_StartComment(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "StartComment", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_StartComment()  {
-return ::cordl_internals::getStaticField<char16_t, "StartComment", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_StartComment() {
+  return ::cordl_internals::getStaticField<char16_t, "StartComment", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_EndComment(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "EndComment", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_EndComment(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "EndComment", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_EndComment()  {
-return ::cordl_internals::getStaticField<char16_t, "EndComment", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_EndComment() {
+  return ::cordl_internals::getStaticField<char16_t, "EndComment", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Backslash(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "Backslash", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Backslash(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "Backslash", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Backslash()  {
-return ::cordl_internals::getStaticField<char16_t, "Backslash", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Backslash() {
+  return ::cordl_internals::getStaticField<char16_t, "Backslash", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_At(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "At", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_At(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "At", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_At()  {
-return ::cordl_internals::getStaticField<char16_t, "At", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_At() {
+  return ::cordl_internals::getStaticField<char16_t, "At", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_EndAngleBracket(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "EndAngleBracket", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_EndAngleBracket(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "EndAngleBracket", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_EndAngleBracket()  {
-return ::cordl_internals::getStaticField<char16_t, "EndAngleBracket", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_EndAngleBracket() {
+  return ::cordl_internals::getStaticField<char16_t, "EndAngleBracket", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_StartAngleBracket(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "StartAngleBracket", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_StartAngleBracket(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "StartAngleBracket", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_StartAngleBracket()  {
-return ::cordl_internals::getStaticField<char16_t, "StartAngleBracket", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_StartAngleBracket() {
+  return ::cordl_internals::getStaticField<char16_t, "StartAngleBracket", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_StartSquareBracket(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "StartSquareBracket", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_StartSquareBracket(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "StartSquareBracket", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_StartSquareBracket()  {
-return ::cordl_internals::getStaticField<char16_t, "StartSquareBracket", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_StartSquareBracket() {
+  return ::cordl_internals::getStaticField<char16_t, "StartSquareBracket", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_EndSquareBracket(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "EndSquareBracket", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_EndSquareBracket(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "EndSquareBracket", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_EndSquareBracket()  {
-return ::cordl_internals::getStaticField<char16_t, "EndSquareBracket", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_EndSquareBracket() {
+  return ::cordl_internals::getStaticField<char16_t, "EndSquareBracket", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Comma(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "Comma", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Comma(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "Comma", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Comma()  {
-return ::cordl_internals::getStaticField<char16_t, "Comma", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Comma() {
+  return ::cordl_internals::getStaticField<char16_t, "Comma", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_Dot(char16_t  value)  {
-::cordl_internals::setStaticField<char16_t, "Dot", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<char16_t>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_Dot(char16_t value) {
+  ::cordl_internals::setStaticField<char16_t, "Dot", ::System::Net::Mime::MailBnfHelper*>(std::forward<char16_t>(value));
 }
-inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Dot()  {
-return ::cordl_internals::getStaticField<char16_t, "Dot", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline char16_t System::Net::Mime::MailBnfHelper::getStaticF_Dot() {
+  return ::cordl_internals::getStaticField<char16_t, "Dot", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_s_colonSeparator(::ArrayW<char16_t,::Array<char16_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<char16_t,::Array<char16_t>*>, "s_colonSeparator", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<::ArrayW<char16_t,::Array<char16_t>*>>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_s_colonSeparator(::ArrayW<char16_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<char16_t>, "s_colonSeparator", ::System::Net::Mime::MailBnfHelper*>(std::forward<::ArrayW<char16_t>>(value));
 }
-inline ::ArrayW<char16_t,::Array<char16_t>*> System::Net::Mime::MailBnfHelper::getStaticF_s_colonSeparator()  {
-return ::cordl_internals::getStaticField<::ArrayW<char16_t,::Array<char16_t>*>, "s_colonSeparator", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline ::ArrayW<char16_t> System::Net::Mime::MailBnfHelper::getStaticF_s_colonSeparator() {
+  return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "s_colonSeparator", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline void System::Net::Mime::MailBnfHelper::setStaticF_s_months(::ArrayW<::StringW,::Array<::StringW>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "s_months", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>(std::forward<::ArrayW<::StringW,::Array<::StringW>*>>(value));
+inline void System::Net::Mime::MailBnfHelper::setStaticF_s_months(::ArrayW<::StringW> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::StringW>, "s_months", ::System::Net::Mime::MailBnfHelper*>(std::forward<::ArrayW<::StringW>>(value));
 }
-inline ::ArrayW<::StringW,::Array<::StringW>*> System::Net::Mime::MailBnfHelper::getStaticF_s_months()  {
-return ::cordl_internals::getStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "s_months", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get>();
+inline ::ArrayW<::StringW> System::Net::Mime::MailBnfHelper::getStaticF_s_months() {
+  return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "s_months", ::System::Net::Mime::MailBnfHelper*>();
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInAtoms()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInAtoms",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<bool,::Array<bool>*>, false>(nullptr, ___internal_method);
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInAtoms() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInAtoms", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<bool>>(nullptr, ___internal_method);
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInQuotedStrings()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInQuotedStrings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<bool,::Array<bool>*>, false>(nullptr, ___internal_method);
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInQuotedStrings() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInQuotedStrings", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<bool>>(nullptr, ___internal_method);
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInDomainLiterals()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInDomainLiterals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<bool,::Array<bool>*>, false>(nullptr, ___internal_method);
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInDomainLiterals() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInDomainLiterals", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<bool>>(nullptr, ___internal_method);
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInHeaderNames()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInHeaderNames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<bool,::Array<bool>*>, false>(nullptr, ___internal_method);
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInHeaderNames() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInHeaderNames", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<bool>>(nullptr, ___internal_method);
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInTokens()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInTokens",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<bool,::Array<bool>*>, false>(nullptr, ___internal_method);
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInTokens() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInTokens", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<bool>>(nullptr, ___internal_method);
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInComments()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "CreateCharactersAllowedInComments",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<bool,::Array<bool>*>, false>(nullptr, ___internal_method);
+inline ::ArrayW<bool> System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInComments() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInComments", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<bool>>(nullptr, ___internal_method);
 }
-inline bool System::Net::Mime::MailBnfHelper::IsAllowedWhiteSpace(char16_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Mime::MailBnfHelper*>::get(),
-                        "IsAllowedWhiteSpace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
+inline bool System::Net::Mime::MailBnfHelper::IsAllowedWhiteSpace(char16_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "IsAllowedWhiteSpace", {}, { ::i2c::type_of<char16_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
 }
 // Ctor Parameters []
-constexpr ::System::Net::Mime::MailBnfHelper::MailBnfHelper()   {
-}
+constexpr ::System::Net::Mime::MailBnfHelper::MailBnfHelper() {}

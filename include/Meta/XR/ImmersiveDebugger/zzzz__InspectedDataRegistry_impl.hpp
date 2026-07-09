@@ -10,77 +10,63 @@
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::InspectedDataRegistry.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::Meta::XR::ImmersiveDebugger::InspectedMember*)>(&::Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::Meta::XR::ImmersiveDebugger::InspectedMember*)>(&::Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Add)> {
   constexpr static std::size_t size = 0x1c0;
   constexpr static std::size_t addrs = 0x59059a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::InspectedMember*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>(),
+                                                             { "Add", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::InspectedMember*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::InspectedDataRegistry.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Reset)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x5905be4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>(), { "Reset", {}, {} })));
     return ___internal_method;
   }
 };
-inline void Meta::XR::ImmersiveDebugger::InspectedDataRegistry::setStaticF_InspectedMembersRegistry(::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>*, "InspectedMembersRegistry", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>*>(value));
+inline void Meta::XR::ImmersiveDebugger::InspectedDataRegistry::setStaticF_InspectedMembersRegistry(
+    ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>*,
+                                    "InspectedMembersRegistry", ::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>* Meta::XR::ImmersiveDebugger::InspectedDataRegistry::getStaticF_InspectedMembersRegistry()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>*, "InspectedMembersRegistry", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>*
+Meta::XR::ImmersiveDebugger::InspectedDataRegistry::getStaticF_InspectedMembersRegistry() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*>*,
+                                           "InspectedMembersRegistry", ::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>();
 }
-inline void Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Add(::System::Type*  type, ::Meta::XR::ImmersiveDebugger::InspectedMember*  inspectedMember)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::InspectedMember*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, inspectedMember);
+inline void Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Add(::System::Type* type, ::Meta::XR::ImmersiveDebugger::InspectedMember* inspectedMember) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>(),
+                                                           { "Add", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::InspectedMember*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, type, inspectedMember);
 }
-inline void Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Reset() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>(), { "Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-template<typename T>
-inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<T,::Meta::XR::ImmersiveDebugger::DebugMember*>>* Meta::XR::ImmersiveDebugger::InspectedDataRegistry::GetMembersForType(::System::Type*  type, ::System::Func_3<T,::Meta::XR::ImmersiveDebugger::DebugMember*,bool>*  filterCallback)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>::get(),
-                    "GetMembersForType",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_3<T,::Meta::XR::ImmersiveDebugger::DebugMember*,bool>*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::System::ValueTuple_2<T,::Meta::XR::ImmersiveDebugger::DebugMember*>>*, false>(nullptr, ___internal_method, type, filterCallback);
+template <typename T>
+inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<T, ::Meta::XR::ImmersiveDebugger::DebugMember*>>*
+Meta::XR::ImmersiveDebugger::InspectedDataRegistry::GetMembersForType(::System::Type* type, ::System::Func_3<T, ::Meta::XR::ImmersiveDebugger::DebugMember*, bool>* filterCallback) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>(),
+          { "GetMembersForType", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Func_3<T, ::Meta::XR::ImmersiveDebugger::DebugMember*, bool>*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::System::ValueTuple_2<T, ::Meta::XR::ImmersiveDebugger::DebugMember*>>*>(nullptr, ___internal_method, type,
+                                                                                                                                                              filterCallback);
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::ImmersiveDebugger::InspectedDataRegistry::InspectedDataRegistry()   {
-}
+constexpr ::Meta::XR::ImmersiveDebugger::InspectedDataRegistry::InspectedDataRegistry() {}

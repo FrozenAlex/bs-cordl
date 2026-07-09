@@ -8,134 +8,103 @@
 #include "System/Runtime/Serialization/zzzz__XmlWriterDelegator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::DecimalDataContract._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DecimalDataContract::*)()>(&::System::Runtime::Serialization::DecimalDataContract::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::DecimalDataContract::*)()>(&::System::Runtime::Serialization::DecimalDataContract::_ctor)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x601c824;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DecimalDataContract.get_WriteMethodName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::DecimalDataContract::*)()>(&::System::Runtime::Serialization::DecimalDataContract::get_WriteMethodName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::DecimalDataContract::*)()>(
+    &::System::Runtime::Serialization::DecimalDataContract::get_WriteMethodName)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x601c8d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                                  20
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), 20 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DecimalDataContract.get_ReadMethodName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::DecimalDataContract::*)()>(&::System::Runtime::Serialization::DecimalDataContract::get_ReadMethodName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::DecimalDataContract::*)()>(
+    &::System::Runtime::Serialization::DecimalDataContract::get_ReadMethodName)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x601c918;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                                  21
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), 21 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DecimalDataContract.WriteXmlValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DecimalDataContract::*)(::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*)>(&::System::Runtime::Serialization::DecimalDataContract::WriteXmlValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::DecimalDataContract::*)(::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*,
+                                                                                                                       ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*)>(
+    &::System::Runtime::Serialization::DecimalDataContract::WriteXmlValue)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x601c95c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DecimalDataContract.ReadXmlValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::DecimalDataContract::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*)>(&::System::Runtime::Serialization::DecimalDataContract::ReadXmlValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::DecimalDataContract::*)(::System::Runtime::Serialization::XmlReaderDelegator*,
+                                                                                                                                    ::System::Runtime::Serialization::XmlObjectSerializerReadContext*)>(
+    &::System::Runtime::Serialization::DecimalDataContract::ReadXmlValue)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x601c9e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), 6 }));
     return ___internal_method;
   }
 };
-inline void System::Runtime::Serialization::DecimalDataContract::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Runtime::Serialization::DecimalDataContract::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW System::Runtime::Serialization::DecimalDataContract::get_WriteMethodName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                            20
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Runtime::Serialization::DecimalDataContract::get_WriteMethodName() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), 20 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW System::Runtime::Serialization::DecimalDataContract::get_ReadMethodName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                            21
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Runtime::Serialization::DecimalDataContract::get_ReadMethodName() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), 21 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void System::Runtime::Serialization::DecimalDataContract::WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator*  writer, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  context)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer, obj, context);
+inline void System::Runtime::Serialization::DecimalDataContract::WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj,
+                                                                               ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, obj, context);
 }
-inline ::System::Object* System::Runtime::Serialization::DecimalDataContract::ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator*  reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  context)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DecimalDataContract*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, reader, context);
+inline ::System::Object* System::Runtime::Serialization::DecimalDataContract::ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader,
+                                                                                           ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::DecimalDataContract*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, context);
 }
-inline ::System::Runtime::Serialization::DecimalDataContract* System::Runtime::Serialization::DecimalDataContract::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::DecimalDataContract*>());
+inline ::System::Runtime::Serialization::DecimalDataContract* System::Runtime::Serialization::DecimalDataContract::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::DecimalDataContract*>());
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Serialization::DecimalDataContract::DecimalDataContract()   {
-}
+constexpr ::System::Runtime::Serialization::DecimalDataContract::DecimalDataContract() {}

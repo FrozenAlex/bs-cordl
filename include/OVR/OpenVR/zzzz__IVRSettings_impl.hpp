@@ -10,1304 +10,1000 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::_ctor)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5d04438;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::*)(::OVR::OpenVR::EVRSettingsError)>(&::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::*)(::OVR::OpenVR::EVRSettingsError)>(
+    &::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d044a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(),
+                                                                                          { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::*)(::OVR::OpenVR::EVRSettingsError, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::*)(::OVR::OpenVR::EVRSettingsError, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::BeginInvoke)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x5d044b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(),
+                                                                                          { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5d04540;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(),
+                                                                                          { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline ::System::IntPtr OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::Invoke(::OVR::OpenVR::EVRSettingsError  eError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, eError);
+inline ::System::IntPtr OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::Invoke(::OVR::OpenVR::EVRSettingsError eError) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(this, ___internal_method, eError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::BeginInvoke(::OVR::OpenVR::EVRSettingsError  eError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, eError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::BeginInvoke(::OVR::OpenVR::EVRSettingsError eError, ::System::AsyncCallback* callback,
+                                                                                                   ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, eError, callback, object);
 }
-inline ::System::IntPtr OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, result);
+inline ::System::IntPtr OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::IVRSettings__GetSettingsErrorNameFromEnum()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum::IVRSettings__GetSettingsErrorNameFromEnum() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__Sync._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__Sync::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__Sync::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__Sync::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__Sync::_ctor)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5d04564;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__Sync.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRSettings__Sync::*)(bool, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__Sync::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRSettings__Sync::*)(bool, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__Sync::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d045d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__Sync.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__Sync::*)(bool, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__Sync::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__Sync::*)(bool, ::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*,
+                                                                                                                     ::System::Object*)>(&::OVR::OpenVR::IVRSettings__Sync::BeginInvoke)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5d045e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__Sync.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRSettings__Sync::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__Sync::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRSettings__Sync::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__Sync::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5d04690;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__Sync::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__Sync::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRSettings__Sync::Invoke(bool  bForce, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, bForce, peError);
+inline bool OVR::OpenVR::IVRSettings__Sync::Invoke(bool bForce, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, bForce, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__Sync::BeginInvoke(bool  bForce, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, bForce, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__Sync::BeginInvoke(bool bForce, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+                                                                           ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, bForce, peError, callback, object);
 }
-inline bool OVR::OpenVR::IVRSettings__Sync::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__Sync*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, peError, result);
+inline bool OVR::OpenVR::IVRSettings__Sync::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__Sync*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__Sync* OVR::OpenVR::IVRSettings__Sync::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__Sync*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__Sync* OVR::OpenVR::IVRSettings__Sync::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__Sync*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__Sync::IVRSettings__Sync()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__Sync::IVRSettings__Sync() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetBool._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetBool::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__SetBool::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetBool::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__SetBool::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d046b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetBool.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetBool::*)(::StringW, ::StringW, bool, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__SetBool::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetBool::*)(::StringW, ::StringW, bool, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(
+    &::OVR::OpenVR::IVRSettings__SetBool::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d04734;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetBool.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__SetBool::*)(::StringW, ::StringW, bool, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__SetBool::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__SetBool::*)(::StringW, ::StringW, bool, ::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRSettings__SetBool::BeginInvoke)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x5d04748;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetBool.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetBool::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__SetBool::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetBool::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__SetBool::EndInvoke)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5d04808;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__SetBool::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__SetBool::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRSettings__SetBool::Invoke(::StringW  pchSection, ::StringW  pchSettingsKey, bool  bValue, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pchSection, pchSettingsKey, bValue, peError);
+inline void OVR::OpenVR::IVRSettings__SetBool::Invoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pchSection, pchSettingsKey, bValue, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__SetBool::BeginInvoke(::StringW  pchSection, ::StringW  pchSettingsKey, bool  bValue, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, pchSettingsKey, bValue, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__SetBool::BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError,
+                                                                              ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, pchSettingsKey, bValue, peError, callback, object);
 }
-inline void OVR::OpenVR::IVRSettings__SetBool::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetBool*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peError, result);
+inline void OVR::OpenVR::IVRSettings__SetBool::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetBool*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__SetBool* OVR::OpenVR::IVRSettings__SetBool::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__SetBool*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__SetBool* OVR::OpenVR::IVRSettings__SetBool::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__SetBool*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__SetBool::IVRSettings__SetBool()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__SetBool::IVRSettings__SetBool() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetInt32._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetInt32::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__SetInt32::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetInt32::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__SetInt32::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d04820;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetInt32.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetInt32::*)(::StringW, ::StringW, int32_t, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__SetInt32::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetInt32::*)(::StringW, ::StringW, int32_t, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(
+    &::OVR::OpenVR::IVRSettings__SetInt32::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d048a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetInt32.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__SetInt32::*)(::StringW, ::StringW, int32_t, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__SetInt32::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__SetInt32::*)(::StringW, ::StringW, int32_t, ::by_ref<::OVR::OpenVR::EVRSettingsError>,
+                                                                                                                         ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRSettings__SetInt32::BeginInvoke)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x5d048b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetInt32.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetInt32::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__SetInt32::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetInt32::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__SetInt32::EndInvoke)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5d04974;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__SetInt32::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__SetInt32::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRSettings__SetInt32::Invoke(::StringW  pchSection, ::StringW  pchSettingsKey, int32_t  nValue, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pchSection, pchSettingsKey, nValue, peError);
+inline void OVR::OpenVR::IVRSettings__SetInt32::Invoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pchSection, pchSettingsKey, nValue, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__SetInt32::BeginInvoke(::StringW  pchSection, ::StringW  pchSettingsKey, int32_t  nValue, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, pchSettingsKey, nValue, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__SetInt32::BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError,
+                                                                               ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, pchSettingsKey, nValue, peError, callback, object);
 }
-inline void OVR::OpenVR::IVRSettings__SetInt32::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetInt32*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peError, result);
+inline void OVR::OpenVR::IVRSettings__SetInt32::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetInt32*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__SetInt32* OVR::OpenVR::IVRSettings__SetInt32::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__SetInt32*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__SetInt32* OVR::OpenVR::IVRSettings__SetInt32::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__SetInt32*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__SetInt32::IVRSettings__SetInt32()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__SetInt32::IVRSettings__SetInt32() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetFloat._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetFloat::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__SetFloat::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetFloat::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__SetFloat::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d0498c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetFloat.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetFloat::*)(::StringW, ::StringW, float_t, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__SetFloat::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetFloat::*)(::StringW, ::StringW, float_t, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(
+    &::OVR::OpenVR::IVRSettings__SetFloat::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d04a0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetFloat.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__SetFloat::*)(::StringW, ::StringW, float_t, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__SetFloat::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__SetFloat::*)(::StringW, ::StringW, float_t, ::by_ref<::OVR::OpenVR::EVRSettingsError>,
+                                                                                                                         ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRSettings__SetFloat::BeginInvoke)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x5d04a20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetFloat.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetFloat::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__SetFloat::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetFloat::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__SetFloat::EndInvoke)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5d04ae0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__SetFloat::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__SetFloat::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRSettings__SetFloat::Invoke(::StringW  pchSection, ::StringW  pchSettingsKey, float_t  flValue, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pchSection, pchSettingsKey, flValue, peError);
+inline void OVR::OpenVR::IVRSettings__SetFloat::Invoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pchSection, pchSettingsKey, flValue, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__SetFloat::BeginInvoke(::StringW  pchSection, ::StringW  pchSettingsKey, float_t  flValue, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, pchSettingsKey, flValue, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__SetFloat::BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError,
+                                                                               ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, pchSettingsKey, flValue, peError, callback, object);
 }
-inline void OVR::OpenVR::IVRSettings__SetFloat::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetFloat*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peError, result);
+inline void OVR::OpenVR::IVRSettings__SetFloat::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetFloat*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__SetFloat* OVR::OpenVR::IVRSettings__SetFloat::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__SetFloat*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__SetFloat* OVR::OpenVR::IVRSettings__SetFloat::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__SetFloat*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__SetFloat::IVRSettings__SetFloat()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__SetFloat::IVRSettings__SetFloat() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetString._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetString::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__SetString::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetString::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__SetString::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d04af8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetString.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetString::*)(::StringW, ::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__SetString::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetString::*)(::StringW, ::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(
+    &::OVR::OpenVR::IVRSettings__SetString::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d04b78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetString.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__SetString::*)(::StringW, ::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__SetString::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__SetString::*)(::StringW, ::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>,
+                                                                                                                          ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRSettings__SetString::BeginInvoke)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5d04b8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__SetString.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__SetString::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__SetString::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__SetString::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__SetString::EndInvoke)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5d04c38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__SetString::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__SetString::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRSettings__SetString::Invoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::StringW  pchValue, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pchSection, pchSettingsKey, pchValue, peError);
+inline void OVR::OpenVR::IVRSettings__SetString::Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pchSection, pchSettingsKey, pchValue, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__SetString::BeginInvoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::StringW  pchValue, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, pchSettingsKey, pchValue, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__SetString::BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError,
+                                                                                ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, pchSettingsKey, pchValue, peError, callback, object);
 }
-inline void OVR::OpenVR::IVRSettings__SetString::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__SetString*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peError, result);
+inline void OVR::OpenVR::IVRSettings__SetString::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__SetString*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__SetString* OVR::OpenVR::IVRSettings__SetString::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__SetString*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__SetString* OVR::OpenVR::IVRSettings__SetString::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__SetString*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__SetString::IVRSettings__SetString()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__SetString::IVRSettings__SetString() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetBool._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__GetBool::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__GetBool::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__GetBool::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__GetBool::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d04c50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetBool.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRSettings__GetBool::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__GetBool::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRSettings__GetBool::*)(::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(
+    &::OVR::OpenVR::IVRSettings__GetBool::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d04cd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetBool.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__GetBool::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__GetBool::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__GetBool::*)(::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRSettings__GetBool::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x5d04ce4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetBool.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRSettings__GetBool::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__GetBool::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRSettings__GetBool::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__GetBool::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5d04d88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__GetBool::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__GetBool::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRSettings__GetBool::Invoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pchSection, pchSettingsKey, peError);
+inline bool OVR::OpenVR::IVRSettings__GetBool::Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pchSection, pchSettingsKey, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetBool::BeginInvoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, pchSettingsKey, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetBool::BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError,
+                                                                              ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, pchSettingsKey, peError, callback, object);
 }
-inline bool OVR::OpenVR::IVRSettings__GetBool::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetBool*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, peError, result);
+inline bool OVR::OpenVR::IVRSettings__GetBool::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetBool*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__GetBool* OVR::OpenVR::IVRSettings__GetBool::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__GetBool*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__GetBool* OVR::OpenVR::IVRSettings__GetBool::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__GetBool*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__GetBool::IVRSettings__GetBool()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__GetBool::IVRSettings__GetBool() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetInt32._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__GetInt32::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__GetInt32::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__GetInt32::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__GetInt32::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d04dac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetInt32.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::OVR::OpenVR::IVRSettings__GetInt32::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__GetInt32::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::OVR::OpenVR::IVRSettings__GetInt32::*)(::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(
+    &::OVR::OpenVR::IVRSettings__GetInt32::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d04e2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetInt32.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__GetInt32::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__GetInt32::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__GetInt32::*)(::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRSettings__GetInt32::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x5d04e40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetInt32.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::OVR::OpenVR::IVRSettings__GetInt32::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__GetInt32::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::OVR::OpenVR::IVRSettings__GetInt32::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__GetInt32::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5d04ee4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__GetInt32::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__GetInt32::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline int32_t OVR::OpenVR::IVRSettings__GetInt32::Invoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, pchSection, pchSettingsKey, peError);
+inline int32_t OVR::OpenVR::IVRSettings__GetInt32::Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, pchSection, pchSettingsKey, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetInt32::BeginInvoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, pchSettingsKey, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetInt32::BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError,
+                                                                               ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, pchSettingsKey, peError, callback, object);
 }
-inline int32_t OVR::OpenVR::IVRSettings__GetInt32::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetInt32*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, peError, result);
+inline int32_t OVR::OpenVR::IVRSettings__GetInt32::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetInt32*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__GetInt32* OVR::OpenVR::IVRSettings__GetInt32::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__GetInt32*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__GetInt32* OVR::OpenVR::IVRSettings__GetInt32::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__GetInt32*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__GetInt32::IVRSettings__GetInt32()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__GetInt32::IVRSettings__GetInt32() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetFloat._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__GetFloat::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__GetFloat::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__GetFloat::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__GetFloat::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d04f08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetFloat.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::OVR::OpenVR::IVRSettings__GetFloat::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__GetFloat::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::OVR::OpenVR::IVRSettings__GetFloat::*)(::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(
+    &::OVR::OpenVR::IVRSettings__GetFloat::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d04f88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetFloat.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__GetFloat::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__GetFloat::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__GetFloat::*)(::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRSettings__GetFloat::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x5d04f9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetFloat.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::OVR::OpenVR::IVRSettings__GetFloat::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__GetFloat::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::OVR::OpenVR::IVRSettings__GetFloat::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__GetFloat::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5d05040;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__GetFloat::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__GetFloat::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline float_t OVR::OpenVR::IVRSettings__GetFloat::Invoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, pchSection, pchSettingsKey, peError);
+inline float_t OVR::OpenVR::IVRSettings__GetFloat::Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, pchSection, pchSettingsKey, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetFloat::BeginInvoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, pchSettingsKey, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetFloat::BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError,
+                                                                               ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, pchSettingsKey, peError, callback, object);
 }
-inline float_t OVR::OpenVR::IVRSettings__GetFloat::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetFloat*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, peError, result);
+inline float_t OVR::OpenVR::IVRSettings__GetFloat::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetFloat*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__GetFloat* OVR::OpenVR::IVRSettings__GetFloat::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__GetFloat*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__GetFloat* OVR::OpenVR::IVRSettings__GetFloat::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__GetFloat*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__GetFloat::IVRSettings__GetFloat()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__GetFloat::IVRSettings__GetFloat() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetString._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__GetString::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__GetString::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__GetString::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__GetString::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d05064;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetString.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__GetString::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__GetString::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__GetString::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t,
+                                                                                                       ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__GetString::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d050e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetString.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__GetString::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__GetString::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRSettings__GetString::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t, ::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRSettings__GetString::BeginInvoke)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x5d050f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__GetString.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__GetString::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__GetString::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__GetString::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__GetString::EndInvoke)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5d051c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__GetString::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__GetString::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRSettings__GetString::Invoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::System::Text::StringBuilder*  pchValue, uint32_t  unValueLen, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pchSection, pchSettingsKey, pchValue, unValueLen, peError);
+inline void OVR::OpenVR::IVRSettings__GetString::Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen,
+                                                        ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pchSection, pchSettingsKey, pchValue, unValueLen, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetString::BeginInvoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::System::Text::StringBuilder*  pchValue, uint32_t  unValueLen, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, pchSettingsKey, pchValue, unValueLen, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__GetString::BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen,
+                                                                                ::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, pchSettingsKey, pchValue, unValueLen, peError, callback, object);
 }
-inline void OVR::OpenVR::IVRSettings__GetString::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__GetString*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peError, result);
+inline void OVR::OpenVR::IVRSettings__GetString::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__GetString*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__GetString* OVR::OpenVR::IVRSettings__GetString::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__GetString*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__GetString* OVR::OpenVR::IVRSettings__GetString::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__GetString*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__GetString::IVRSettings__GetString()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__GetString::IVRSettings__GetString() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__RemoveSection._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveSection::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__RemoveSection::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveSection::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__RemoveSection::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d051d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__RemoveSection.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveSection::*)(::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__RemoveSection::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveSection::*)(::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(
+    &::OVR::OpenVR::IVRSettings__RemoveSection::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d05258;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__RemoveSection.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__RemoveSection::*)(::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__RemoveSection::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__RemoveSection::*)(::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRSettings__RemoveSection::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5d0526c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__RemoveSection.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveSection::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__RemoveSection::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveSection::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__RemoveSection::EndInvoke)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5d05304;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__RemoveSection::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__RemoveSection::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRSettings__RemoveSection::Invoke(::StringW  pchSection, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pchSection, peError);
+inline void OVR::OpenVR::IVRSettings__RemoveSection::Invoke(::StringW pchSection, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pchSection, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__RemoveSection::BeginInvoke(::StringW  pchSection, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__RemoveSection::BeginInvoke(::StringW pchSection, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
+                                                                                    ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, peError, callback, object);
 }
-inline void OVR::OpenVR::IVRSettings__RemoveSection::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveSection*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peError, result);
+inline void OVR::OpenVR::IVRSettings__RemoveSection::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveSection*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__RemoveSection* OVR::OpenVR::IVRSettings__RemoveSection::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__RemoveSection*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__RemoveSection* OVR::OpenVR::IVRSettings__RemoveSection::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__RemoveSection*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__RemoveSection::IVRSettings__RemoveSection()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings__RemoveSection::IVRSettings__RemoveSection() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__RemoveKeyInSection._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveKeyInSection::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRSettings__RemoveKeyInSection::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveKeyInSection::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRSettings__RemoveKeyInSection::_ctor)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5d0531c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__RemoveKeyInSection.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveKeyInSection::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>)>(&::OVR::OpenVR::IVRSettings__RemoveKeyInSection::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveKeyInSection::*)(::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>)>(
+    &::OVR::OpenVR::IVRSettings__RemoveKeyInSection::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d0539c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__RemoveKeyInSection.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__RemoveKeyInSection::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSettings__RemoveKeyInSection::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSettings__RemoveKeyInSection::*)(::StringW, ::StringW, ::by_ref<::OVR::OpenVR::EVRSettingsError>,
+                                                                                                                                   ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRSettings__RemoveKeyInSection::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x5d053b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRSettings__RemoveKeyInSection.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveKeyInSection::*)(::ByRef<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSettings__RemoveKeyInSection::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSettings__RemoveKeyInSection::*)(::by_ref<::OVR::OpenVR::EVRSettingsError>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRSettings__RemoveKeyInSection::EndInvoke)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5d05454;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(), { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRSettings__RemoveKeyInSection::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRSettings__RemoveKeyInSection::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRSettings__RemoveKeyInSection::Invoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pchSection, pchSettingsKey, peError);
+inline void OVR::OpenVR::IVRSettings__RemoveKeyInSection::Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pchSection, pchSettingsKey, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__RemoveKeyInSection::BeginInvoke(::StringW  pchSection, ::StringW  pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchSection, pchSettingsKey, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRSettings__RemoveKeyInSection::BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::by_ref<::OVR::OpenVR::EVRSettingsError> peError,
+                                                                                         ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pchSection, pchSettingsKey, peError, callback, object);
 }
-inline void OVR::OpenVR::IVRSettings__RemoveKeyInSection::EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peError, result);
+inline void OVR::OpenVR::IVRSettings__RemoveKeyInSection::EndInvoke(::by_ref<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* OVR::OpenVR::IVRSettings__RemoveKeyInSection::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(object, method));
+inline ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* OVR::OpenVR::IVRSettings__RemoveKeyInSection::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::IVRSettings__RemoveKeyInSection*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings__RemoveKeyInSection::IVRSettings__RemoveKeyInSection()   {
-}
-// Ctor Parameters [CppParam { name: "GetSettingsErrorNameFromEnum", ty: "::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Sync", ty: "::OVR::OpenVR::IVRSettings__Sync*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetBool", ty: "::OVR::OpenVR::IVRSettings__SetBool*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetInt32", ty: "::OVR::OpenVR::IVRSettings__SetInt32*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetFloat", ty: "::OVR::OpenVR::IVRSettings__SetFloat*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetString", ty: "::OVR::OpenVR::IVRSettings__SetString*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetBool", ty: "::OVR::OpenVR::IVRSettings__GetBool*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetInt32", ty: "::OVR::OpenVR::IVRSettings__GetInt32*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetFloat", ty: "::OVR::OpenVR::IVRSettings__GetFloat*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetString", ty: "::OVR::OpenVR::IVRSettings__GetString*", modifiers: "", def_value: Some("{}") }, CppParam { name: "RemoveSection", ty: "::OVR::OpenVR::IVRSettings__RemoveSection*", modifiers: "", def_value: Some("{}") }, CppParam { name: "RemoveKeyInSection", ty: "::OVR::OpenVR::IVRSettings__RemoveKeyInSection*", modifiers: "", def_value: Some("{}") }]
-constexpr ::OVR::OpenVR::IVRSettings::IVRSettings(::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*  GetSettingsErrorNameFromEnum, ::OVR::OpenVR::IVRSettings__Sync*  Sync, ::OVR::OpenVR::IVRSettings__SetBool*  SetBool, ::OVR::OpenVR::IVRSettings__SetInt32*  SetInt32, ::OVR::OpenVR::IVRSettings__SetFloat*  SetFloat, ::OVR::OpenVR::IVRSettings__SetString*  SetString, ::OVR::OpenVR::IVRSettings__GetBool*  GetBool, ::OVR::OpenVR::IVRSettings__GetInt32*  GetInt32, ::OVR::OpenVR::IVRSettings__GetFloat*  GetFloat, ::OVR::OpenVR::IVRSettings__GetString*  GetString, ::OVR::OpenVR::IVRSettings__RemoveSection*  RemoveSection, ::OVR::OpenVR::IVRSettings__RemoveKeyInSection*  RemoveKeyInSection) noexcept  {
-this->GetSettingsErrorNameFromEnum = GetSettingsErrorNameFromEnum;
-this->Sync = Sync;
-this->SetBool = SetBool;
-this->SetInt32 = SetInt32;
-this->SetFloat = SetFloat;
-this->SetString = SetString;
-this->GetBool = GetBool;
-this->GetInt32 = GetInt32;
-this->GetFloat = GetFloat;
-this->GetString = GetString;
-this->RemoveSection = RemoveSection;
-this->RemoveKeyInSection = RemoveKeyInSection;
+constexpr ::OVR::OpenVR::IVRSettings__RemoveKeyInSection::IVRSettings__RemoveKeyInSection() {}
+// Ctor Parameters [CppParam { name: "GetSettingsErrorNameFromEnum", ty: "::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Sync",
+// ty: "::OVR::OpenVR::IVRSettings__Sync*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetBool", ty: "::OVR::OpenVR::IVRSettings__SetBool*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "SetInt32", ty: "::OVR::OpenVR::IVRSettings__SetInt32*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetFloat", ty: "::OVR::OpenVR::IVRSettings__SetFloat*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "SetString", ty: "::OVR::OpenVR::IVRSettings__SetString*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetBool", ty:
+// "::OVR::OpenVR::IVRSettings__GetBool*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetInt32", ty: "::OVR::OpenVR::IVRSettings__GetInt32*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "GetFloat", ty: "::OVR::OpenVR::IVRSettings__GetFloat*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetString", ty: "::OVR::OpenVR::IVRSettings__GetString*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "RemoveSection", ty: "::OVR::OpenVR::IVRSettings__RemoveSection*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "RemoveKeyInSection", ty: "::OVR::OpenVR::IVRSettings__RemoveKeyInSection*", modifiers: "", def_value: Some("{}") }]
+constexpr ::OVR::OpenVR::IVRSettings::IVRSettings(::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum, ::OVR::OpenVR::IVRSettings__Sync* Sync,
+                                                  ::OVR::OpenVR::IVRSettings__SetBool* SetBool, ::OVR::OpenVR::IVRSettings__SetInt32* SetInt32, ::OVR::OpenVR::IVRSettings__SetFloat* SetFloat,
+                                                  ::OVR::OpenVR::IVRSettings__SetString* SetString, ::OVR::OpenVR::IVRSettings__GetBool* GetBool, ::OVR::OpenVR::IVRSettings__GetInt32* GetInt32,
+                                                  ::OVR::OpenVR::IVRSettings__GetFloat* GetFloat, ::OVR::OpenVR::IVRSettings__GetString* GetString,
+                                                  ::OVR::OpenVR::IVRSettings__RemoveSection* RemoveSection, ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* RemoveKeyInSection) noexcept {
+  this->GetSettingsErrorNameFromEnum = GetSettingsErrorNameFromEnum;
+  this->Sync = Sync;
+  this->SetBool = SetBool;
+  this->SetInt32 = SetInt32;
+  this->SetFloat = SetFloat;
+  this->SetString = SetString;
+  this->GetBool = GetBool;
+  this->GetInt32 = GetInt32;
+  this->GetFloat = GetFloat;
+  this->GetString = GetString;
+  this->RemoveSection = RemoveSection;
+  this->RemoveKeyInSection = RemoveKeyInSection;
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRSettings::IVRSettings()   {
-}
+constexpr ::OVR::OpenVR::IVRSettings::IVRSettings() {}

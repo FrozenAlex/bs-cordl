@@ -4,196 +4,133 @@
 #include "UnityEngine/Rendering/zzzz__MousePositionDebug_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::MousePositionDebug.get_instance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::MousePositionDebug* (*)()>(&::UnityEngine::Rendering::MousePositionDebug::get_instance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::MousePositionDebug* (*)()>(&::UnityEngine::Rendering::MousePositionDebug::get_instance)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x662a920;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "get_instance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "get_instance", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::MousePositionDebug.Build
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::Build)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::Build)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x662a994;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "Build",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "Build", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::MousePositionDebug.Cleanup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::Cleanup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::Cleanup)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x662a998;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "Cleanup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "Cleanup", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::MousePositionDebug.GetMousePosition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::MousePositionDebug::*)(float_t, bool)>(&::UnityEngine::Rendering::MousePositionDebug::GetMousePosition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::MousePositionDebug::*)(float_t, bool)>(
+    &::UnityEngine::Rendering::MousePositionDebug::GetMousePosition)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x662a99c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "GetMousePosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "GetMousePosition", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::MousePositionDebug.GetInputMousePosition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::GetInputMousePosition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::MousePositionDebug::*)()>(
+    &::UnityEngine::Rendering::MousePositionDebug::GetInputMousePosition)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x662a9a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "GetInputMousePosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "GetInputMousePosition", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::MousePositionDebug.GetMouseClickPosition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::MousePositionDebug::*)(float_t)>(&::UnityEngine::Rendering::MousePositionDebug::GetMouseClickPosition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::MousePositionDebug::*)(float_t)>(
+    &::UnityEngine::Rendering::MousePositionDebug::GetMouseClickPosition)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x662aa4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "GetMouseClickPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "GetMouseClickPosition", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::MousePositionDebug._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MousePositionDebug::*)()>(&::UnityEngine::Rendering::MousePositionDebug::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x662a990;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::MousePositionDebug::setStaticF_s_Instance(::UnityEngine::Rendering::MousePositionDebug*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::MousePositionDebug*, "s_Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get>(std::forward<::UnityEngine::Rendering::MousePositionDebug*>(value));
+inline void UnityEngine::Rendering::MousePositionDebug::setStaticF_s_Instance(::UnityEngine::Rendering::MousePositionDebug* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::MousePositionDebug*, "s_Instance", ::UnityEngine::Rendering::MousePositionDebug*>(
+      std::forward<::UnityEngine::Rendering::MousePositionDebug*>(value));
 }
-inline ::UnityEngine::Rendering::MousePositionDebug* UnityEngine::Rendering::MousePositionDebug::getStaticF_s_Instance()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::MousePositionDebug*, "s_Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get>();
+inline ::UnityEngine::Rendering::MousePositionDebug* UnityEngine::Rendering::MousePositionDebug::getStaticF_s_Instance() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::MousePositionDebug*, "s_Instance", ::UnityEngine::Rendering::MousePositionDebug*>();
 }
-inline ::UnityEngine::Rendering::MousePositionDebug* UnityEngine::Rendering::MousePositionDebug::get_instance()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "get_instance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::MousePositionDebug*, false>(nullptr, ___internal_method);
+inline ::UnityEngine::Rendering::MousePositionDebug* UnityEngine::Rendering::MousePositionDebug::get_instance() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "get_instance", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::MousePositionDebug*>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Rendering::MousePositionDebug::Build()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "Build",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::MousePositionDebug::Build() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "Build", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::MousePositionDebug::Cleanup()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "Cleanup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::MousePositionDebug::Cleanup() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "Cleanup", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::MousePositionDebug::GetMousePosition(float_t  ScreenHeight, bool  sceneView)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "GetMousePosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, ScreenHeight, sceneView);
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::MousePositionDebug::GetMousePosition(float_t ScreenHeight, bool sceneView) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "GetMousePosition", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, ScreenHeight, sceneView);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::MousePositionDebug::GetInputMousePosition()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "GetInputMousePosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::MousePositionDebug::GetInputMousePosition() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "GetInputMousePosition", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::MousePositionDebug::GetMouseClickPosition(float_t  ScreenHeight)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        "GetMouseClickPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, ScreenHeight);
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::MousePositionDebug::GetMouseClickPosition(float_t ScreenHeight) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { "GetMouseClickPosition", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, ScreenHeight);
 }
-inline void UnityEngine::Rendering::MousePositionDebug::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MousePositionDebug*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::MousePositionDebug::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MousePositionDebug*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::MousePositionDebug* UnityEngine::Rendering::MousePositionDebug::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::MousePositionDebug*>());
+inline ::UnityEngine::Rendering::MousePositionDebug* UnityEngine::Rendering::MousePositionDebug::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::MousePositionDebug*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::MousePositionDebug::MousePositionDebug()   {
-}
+constexpr ::UnityEngine::Rendering::MousePositionDebug::MousePositionDebug() {}

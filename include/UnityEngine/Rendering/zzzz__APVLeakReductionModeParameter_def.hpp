@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/APVLeakReductionModeParameter.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__APVLeakReductionMode_def.hpp"
@@ -14,41 +14,40 @@ namespace UnityEngine::Rendering {
 class APVLeakReductionModeParameter;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::Rendering::APVLeakReductionModeParameter);
+MARK_REF_T(::UnityEngine::Rendering::APVLeakReductionModeParameter*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::APVLeakReductionModeParameter*, "UnityEngine.Rendering", "APVLeakReductionModeParameter");
 // Dependencies UnityEngine.Rendering.APVLeakReductionMode, UnityEngine.Rendering.VolumeParameter`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.APVLeakReductionModeParameter
 class CORDL_TYPE APVLeakReductionModeParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Rendering::APVLeakReductionMode> {
 public:
-// Declarations
-static inline ::UnityEngine::Rendering::APVLeakReductionModeParameter* New_ctor(::UnityEngine::Rendering::APVLeakReductionMode  value, bool  overrideState) ;
+  // Declarations
+  static inline ::UnityEngine::Rendering::APVLeakReductionModeParameter* New_ctor(::UnityEngine::Rendering::APVLeakReductionMode value, bool overrideState);
 
-/// @brief Method .ctor, addr 0x6655d00, size 0x64, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::APVLeakReductionMode  value, bool  overrideState) ;
+  /// @brief Method .ctor, addr 0x6655d00, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::APVLeakReductionMode value, bool overrideState);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr APVLeakReductionModeParameter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr APVLeakReductionModeParameter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "APVLeakReductionModeParameter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  APVLeakReductionModeParameter(APVLeakReductionModeParameter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "APVLeakReductionModeParameter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-APVLeakReductionModeParameter(APVLeakReductionModeParameter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "APVLeakReductionModeParameter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  APVLeakReductionModeParameter(APVLeakReductionModeParameter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "APVLeakReductionModeParameter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-APVLeakReductionModeParameter(APVLeakReductionModeParameter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12140 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12140};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::APVLeakReductionModeParameter, 0x18>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::APVLeakReductionModeParameter) == 0x18, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
-NEED_NO_BOX(::UnityEngine::Rendering::APVLeakReductionModeParameter);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::APVLeakReductionModeParameter*, "UnityEngine.Rendering", "APVLeakReductionModeParameter");
+} // namespace UnityEngine::Rendering

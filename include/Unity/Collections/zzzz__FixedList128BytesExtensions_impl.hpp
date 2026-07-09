@@ -3,62 +3,37 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__FixedList128BytesExtensions_def.hpp"
 #include "Unity/Collections/zzzz__FixedList128Bytes_1_def.hpp"
-template<typename T,typename U>
-inline int32_t Unity::Collections::FixedList128BytesExtensions::IndexOf(::ByRef<::Unity::Collections::FixedList128Bytes_1<T>>  list, U  value)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::FixedList128BytesExtensions*>::get(),
-                    "IndexOf",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::FixedList128Bytes_1<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<U>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, list, value);
+template <typename T, typename U> inline int32_t Unity::Collections::FixedList128BytesExtensions::IndexOf(::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> list, U value) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList128BytesExtensions*>(),
+                          { "IndexOf", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T>>>(), ::i2c::type_of<U>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, list, value);
 }
-template<typename T,typename U>
-inline bool Unity::Collections::FixedList128BytesExtensions::Contains(::ByRef<::Unity::Collections::FixedList128Bytes_1<T>>  list, U  value)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::FixedList128BytesExtensions*>::get(),
-                    "Contains",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::FixedList128Bytes_1<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<U>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, list, value);
+template <typename T, typename U> inline bool Unity::Collections::FixedList128BytesExtensions::Contains(::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> list, U value) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList128BytesExtensions*>(),
+                          { "Contains", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T>>>(), ::i2c::type_of<U>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, list, value);
 }
-template<typename T,typename U>
-inline bool Unity::Collections::FixedList128BytesExtensions::Remove(::ByRef<::Unity::Collections::FixedList128Bytes_1<T>>  list, U  value)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::FixedList128BytesExtensions*>::get(),
-                    "Remove",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::FixedList128Bytes_1<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<U>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, list, value);
+template <typename T, typename U> inline bool Unity::Collections::FixedList128BytesExtensions::Remove(::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> list, U value) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList128BytesExtensions*>(),
+                          { "Remove", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T>>>(), ::i2c::type_of<U>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, list, value);
 }
-template<typename T,typename U>
-inline bool Unity::Collections::FixedList128BytesExtensions::RemoveSwapBack(::ByRef<::Unity::Collections::FixedList128Bytes_1<T>>  list, U  value)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::FixedList128BytesExtensions*>::get(),
-                    "RemoveSwapBack",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::FixedList128Bytes_1<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<U>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, list, value);
+template <typename T, typename U> inline bool Unity::Collections::FixedList128BytesExtensions::RemoveSwapBack(::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> list, U value) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList128BytesExtensions*>(),
+                          { "RemoveSwapBack", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T>>>(), ::i2c::type_of<U>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, list, value);
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::FixedList128BytesExtensions::FixedList128BytesExtensions()   {
-}
+constexpr ::Unity::Collections::FixedList128BytesExtensions::FixedList128BytesExtensions() {}

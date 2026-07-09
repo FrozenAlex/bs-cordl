@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "GlobalNamespace/$BurstDirectCallInitializer.hpp"
 #include "GlobalNamespace/AOTEnforcer.hpp"
@@ -2315,6 +2315,5 @@
 #include "GlobalNamespace/ZenjectExtensions.hpp"
 #include "GlobalNamespace/ZenjectSafeBehaviour.hpp"
 #ifdef __cpp_modules
-                    export module GlobalNamespace;
-                    #endif
-                
+export module GlobalNamespace;
+#endif

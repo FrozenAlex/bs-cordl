@@ -4,57 +4,42 @@
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__GraphErrorCodeExtensions_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__GraphErrorCode_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions.IsGraphQLErrorCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::IsGraphQLErrorCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::IsGraphQLErrorCode)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x5df2128;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions*>::get(),
-                        "IsGraphQLErrorCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions*>(), { "IsGraphQLErrorCode", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions.GetGraphQLErrorCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OculusStudios::GraphQL::ClientInterface::GraphErrorCode (*)(int32_t)>(&::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::GetGraphQLErrorCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::ClientInterface::GraphErrorCode (*)(int32_t)>(
+    &::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::GetGraphQLErrorCode)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x5df21d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions*>::get(),
-                        "GetGraphQLErrorCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions*>(), { "GetGraphQLErrorCode", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline bool OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::IsGraphQLErrorCode(int32_t  code)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions*>::get(),
-                        "IsGraphQLErrorCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, code);
+inline bool OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::IsGraphQLErrorCode(int32_t code) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions*>(), { "IsGraphQLErrorCode", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, code);
 }
-inline ::OculusStudios::GraphQL::ClientInterface::GraphErrorCode OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::GetGraphQLErrorCode(int32_t  code)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions*>::get(),
-                        "GetGraphQLErrorCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OculusStudios::GraphQL::ClientInterface::GraphErrorCode, false>(nullptr, ___internal_method, code);
+inline ::OculusStudios::GraphQL::ClientInterface::GraphErrorCode OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::GetGraphQLErrorCode(int32_t code) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions*>(), { "GetGraphQLErrorCode", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OculusStudios::GraphQL::ClientInterface::GraphErrorCode>(nullptr, ___internal_method, code);
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::GraphErrorCodeExtensions()   {
-}
+constexpr ::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::GraphErrorCodeExtensions() {}

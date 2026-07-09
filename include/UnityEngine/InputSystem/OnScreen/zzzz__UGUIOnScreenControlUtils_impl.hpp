@@ -5,31 +5,23 @@
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils.GetCanvasRectTransform
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (*)(::UnityEngine::Transform*)>(&::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils::GetCanvasRectTransform)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (*)(::UnityEngine::Transform*)>(
+    &::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils::GetCanvasRectTransform)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x645b560;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils*>::get(),
-                        "GetCanvasRectTransform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils*>(),
+                                                                                           { "GetCanvasRectTransform", {}, { ::i2c::type_of<::UnityEngine::Transform*>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityW<::UnityEngine::RectTransform> UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils::GetCanvasRectTransform(::UnityEngine::Transform*  transform)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils*>::get(),
-                        "GetCanvasRectTransform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RectTransform>, false>(nullptr, ___internal_method, transform);
+inline ::UnityW<::UnityEngine::RectTransform> UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils::GetCanvasRectTransform(::UnityEngine::Transform* transform) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils*>(),
+                                                                                         { "GetCanvasRectTransform", {}, { ::i2c::type_of<::UnityEngine::Transform*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RectTransform>>(nullptr, ___internal_method, transform);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils::UGUIOnScreenControlUtils()   {
-}
+constexpr ::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils::UGUIOnScreenControlUtils() {}

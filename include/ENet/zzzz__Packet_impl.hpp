@@ -7,563 +7,378 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::ENet::Packet.get_NativeData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::ENet::Packet::*)()>(&::ENet::Packet::get_NativeData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::ENet::Packet::*)()>(&::ENet::Packet::get_NativeData)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x574ccf4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_NativeData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_NativeData", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.set_NativeData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::set_NativeData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::set_NativeData)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x574ccfc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "set_NativeData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "set_NativeData", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x574cd04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)()>(&::ENet::Packet::Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)()>(&::ENet::Packet::Dispose)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x574cd0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.get_IsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ENet::Packet::*)()>(&::ENet::Packet::get_IsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ENet::Packet::*)()>(&::ENet::Packet::get_IsSet)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x574cda8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_IsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_IsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.get_Data
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::ENet::Packet::*)()>(&::ENet::Packet::get_Data)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::ENet::Packet::*)()>(&::ENet::Packet::get_Data)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x574cdb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_Data",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_Data", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.get_UserData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::ENet::Packet::*)()>(&::ENet::Packet::get_UserData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::ENet::Packet::*)()>(&::ENet::Packet::get_UserData)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x574cea4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_UserData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_UserData", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.set_UserData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::set_UserData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::set_UserData)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x574cf38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "set_UserData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "set_UserData", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.get_Length
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ENet::Packet::*)()>(&::ENet::Packet::get_Length)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::ENet::Packet::*)()>(&::ENet::Packet::get_Length)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x574cfe4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_Length",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_Length", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.get_HasReferences
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ENet::Packet::*)()>(&::ENet::Packet::get_HasReferences)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ENet::Packet::*)()>(&::ENet::Packet::get_HasReferences)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x574d078;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_HasReferences",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_HasReferences", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.ThrowIfNotCreated
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)()>(&::ENet::Packet::ThrowIfNotCreated)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)()>(&::ENet::Packet::ThrowIfNotCreated)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x574cdd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "ThrowIfNotCreated",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "ThrowIfNotCreated", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.SetFreeCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::SetFreeCallback)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::SetFreeCallback)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x574d118;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "SetFreeCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "SetFreeCallback", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.SetFreeCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ENet::PacketFreeCallback*)>(&::ENet::Packet::SetFreeCallback)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::ENet::PacketFreeCallback*)>(&::ENet::Packet::SetFreeCallback)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x574d1c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "SetFreeCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFreeCallback*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "SetFreeCallback", {}, { ::i2c::type_of<::ENet::PacketFreeCallback*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::ENet::Packet::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t>)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x574d25c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::ENet::Packet::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t>, int32_t)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x574d2b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t>, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x574d378;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t>, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x574d2c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::System::IntPtr, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x574d42c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x574d56c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::ENet::Packet>(),
+                                         { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr, int32_t, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::System::IntPtr, int32_t, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x574d6f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::ENet::Packet>(),
+                                         { "Create", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ENet::Packet.CopyTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::ENet::Packet::CopyTo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t>, int32_t)>(&::ENet::Packet::CopyTo)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x574d860;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "CopyTo", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline ::System::IntPtr ENet::Packet::get_NativeData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_NativeData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method);
+inline ::System::IntPtr ENet::Packet::get_NativeData() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_NativeData", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(*this, ___internal_method);
 }
-inline void ENet::Packet::set_NativeData(::System::IntPtr  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "set_NativeData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void ENet::Packet::set_NativeData(::System::IntPtr value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "set_NativeData", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline void ENet::Packet::_ctor(::System::IntPtr  packet)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, packet);
+inline void ENet::Packet::_ctor(::System::IntPtr packet) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, packet);
 }
-inline void ENet::Packet::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void ENet::Packet::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline bool ENet::Packet::get_IsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_IsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool ENet::Packet::get_IsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_IsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline ::System::IntPtr ENet::Packet::get_Data()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_Data",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method);
+inline ::System::IntPtr ENet::Packet::get_Data() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_Data", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(*this, ___internal_method);
 }
-inline ::System::IntPtr ENet::Packet::get_UserData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_UserData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method);
+inline ::System::IntPtr ENet::Packet::get_UserData() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_UserData", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(*this, ___internal_method);
 }
-inline void ENet::Packet::set_UserData(::System::IntPtr  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "set_UserData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void ENet::Packet::set_UserData(::System::IntPtr value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "set_UserData", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline int32_t ENet::Packet::get_Length()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_Length",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t ENet::Packet::get_Length() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_Length", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline bool ENet::Packet::get_HasReferences()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "get_HasReferences",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool ENet::Packet::get_HasReferences() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "get_HasReferences", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline void ENet::Packet::ThrowIfNotCreated()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "ThrowIfNotCreated",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void ENet::Packet::ThrowIfNotCreated() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "ThrowIfNotCreated", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void ENet::Packet::SetFreeCallback(::System::IntPtr  callback)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "SetFreeCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
+inline void ENet::Packet::SetFreeCallback(::System::IntPtr callback) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "SetFreeCallback", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, callback);
 }
-inline void ENet::Packet::SetFreeCallback(::ENet::PacketFreeCallback*  callback)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "SetFreeCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFreeCallback*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
+inline void ENet::Packet::SetFreeCallback(::ENet::PacketFreeCallback* callback) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "SetFreeCallback", {}, { ::i2c::type_of<::ENet::PacketFreeCallback*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, callback);
 }
-inline void ENet::Packet::Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+inline void ENet::Packet::Create(::ArrayW<uint8_t> data) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, data);
 }
-inline void ENet::Packet::Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, length);
+inline void ENet::Packet::Create(::ArrayW<uint8_t> data, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, data, length);
 }
-inline void ENet::Packet::Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ENet::PacketFlags  flags)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, flags);
+inline void ENet::Packet::Create(::ArrayW<uint8_t> data, ::ENet::PacketFlags flags) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, data, flags);
 }
-inline void ENet::Packet::Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  length, ::ENet::PacketFlags  flags)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, length, flags);
+inline void ENet::Packet::Create(::ArrayW<uint8_t> data, int32_t length, ::ENet::PacketFlags flags) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, data, length, flags);
 }
-inline void ENet::Packet::Create(::System::IntPtr  data, int32_t  length, ::ENet::PacketFlags  flags)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, length, flags);
+inline void ENet::Packet::Create(::System::IntPtr data, int32_t length, ::ENet::PacketFlags flags) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "Create", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, data, length, flags);
 }
-inline void ENet::Packet::Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  offset, int32_t  length, ::ENet::PacketFlags  flags)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, offset, length, flags);
+inline void ENet::Packet::Create(::ArrayW<uint8_t> data, int32_t offset, int32_t length, ::ENet::PacketFlags flags) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(),
+                                              { "Create", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, data, offset, length, flags);
 }
-inline void ENet::Packet::Create(::System::IntPtr  data, int32_t  offset, int32_t  length, ::ENet::PacketFlags  flags)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ENet::PacketFlags>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, offset, length, flags);
+inline void ENet::Packet::Create(::System::IntPtr data, int32_t offset, int32_t length, ::ENet::PacketFlags flags) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(),
+                                              { "Create", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ENet::PacketFlags>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, data, offset, length, flags);
 }
-inline void ENet::Packet::CopyTo(::ArrayW<uint8_t,::Array<uint8_t>*>  destination, int32_t  startPos)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(),
-                        "CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, destination, startPos);
+inline void ENet::Packet::CopyTo(::ArrayW<uint8_t> destination, int32_t startPos) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Packet>(), { "CopyTo", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, destination, startPos);
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  ENet::Packet::operator ::System::IDisposable*()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ENet::Packet::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* ENet::Packet::i___System__IDisposable()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IDisposable* ENet::Packet::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "nativePacket", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
-constexpr ::ENet::Packet::Packet(::System::IntPtr  nativePacket) noexcept  {
-this->nativePacket = nativePacket;
+constexpr ::ENet::Packet::Packet(::System::IntPtr nativePacket) noexcept {
+  this->nativePacket = nativePacket;
 }
 // Ctor Parameters []
-constexpr ::ENet::Packet::Packet()   {
-}
+constexpr ::ENet::Packet::Packet() {}

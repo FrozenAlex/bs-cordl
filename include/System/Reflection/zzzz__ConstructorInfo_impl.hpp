@@ -8,224 +8,165 @@
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Reflection::ConstructorInfo._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::ConstructorInfo::*)()>(&::System::Reflection::ConstructorInfo::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::ConstructorInfo::*)()>(&::System::Reflection::ConstructorInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5a419e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::ConstructorInfo.get_MemberType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberTypes (::System::Reflection::ConstructorInfo::*)()>(&::System::Reflection::ConstructorInfo::get_MemberType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MemberTypes (::System::Reflection::ConstructorInfo::*)()>(&::System::Reflection::ConstructorInfo::get_MemberType)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a419f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(), { ::i2c::class_of<::System::Reflection::ConstructorInfo*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::ConstructorInfo.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Reflection::ConstructorInfo::*)(::ArrayW<::System::Object*,::Array<::System::Object*>*>)>(&::System::Reflection::ConstructorInfo::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Reflection::ConstructorInfo::*)(::ArrayW<::System::Object*>)>(&::System::Reflection::ConstructorInfo::Invoke)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5a419f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                        "Invoke",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(), { "Invoke", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::ConstructorInfo.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Reflection::ConstructorInfo::*)(::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::ArrayW<::System::Object*,::Array<::System::Object*>*>, ::System::Globalization::CultureInfo*)>(&::System::Reflection::ConstructorInfo::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Reflection::ConstructorInfo::*)(::System::Reflection::BindingFlags, ::System::Reflection::Binder*,
+                                                                                                                    ::ArrayW<::System::Object*>, ::System::Globalization::CultureInfo*)>(
+    &::System::Reflection::ConstructorInfo::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                                  41
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(), { ::i2c::class_of<::System::Reflection::ConstructorInfo*>(), 41 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::ConstructorInfo.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::ConstructorInfo::*)(::System::Object*)>(&::System::Reflection::ConstructorInfo::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::ConstructorInfo::*)(::System::Object*)>(&::System::Reflection::ConstructorInfo::Equals)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5a41a18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(), { ::i2c::class_of<::System::Reflection::ConstructorInfo*>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::ConstructorInfo.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::ConstructorInfo::*)()>(&::System::Reflection::ConstructorInfo::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Reflection::ConstructorInfo::*)()>(&::System::Reflection::ConstructorInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5a41a30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(), { ::i2c::class_of<::System::Reflection::ConstructorInfo*>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::ConstructorInfo.op_Equality
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::ConstructorInfo*, ::System::Reflection::ConstructorInfo*)>(&::System::Reflection::ConstructorInfo::op_Equality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::ConstructorInfo*, ::System::Reflection::ConstructorInfo*)>(&::System::Reflection::ConstructorInfo::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x5a41a58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(),
+                                                { "op_Equality", {}, { ::i2c::type_of<::System::Reflection::ConstructorInfo*>(), ::i2c::type_of<::System::Reflection::ConstructorInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::ConstructorInfo.op_Inequality
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::ConstructorInfo*, ::System::Reflection::ConstructorInfo*)>(&::System::Reflection::ConstructorInfo::op_Inequality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::ConstructorInfo*, ::System::Reflection::ConstructorInfo*)>(
+    &::System::Reflection::ConstructorInfo::op_Inequality)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5a41a84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                        "op_Inequality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(),
+                                                { "op_Inequality", {}, { ::i2c::type_of<::System::Reflection::ConstructorInfo*>(), ::i2c::type_of<::System::Reflection::ConstructorInfo*>() } })));
     return ___internal_method;
   }
 };
-inline void System::Reflection::ConstructorInfo::setStaticF_ConstructorName(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "ConstructorName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get>(std::forward<::StringW>(value));
+inline void System::Reflection::ConstructorInfo::setStaticF_ConstructorName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "ConstructorName", ::System::Reflection::ConstructorInfo*>(std::forward<::StringW>(value));
 }
-inline ::StringW System::Reflection::ConstructorInfo::getStaticF_ConstructorName()  {
-return ::cordl_internals::getStaticField<::StringW, "ConstructorName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get>();
+inline ::StringW System::Reflection::ConstructorInfo::getStaticF_ConstructorName() {
+  return ::cordl_internals::getStaticField<::StringW, "ConstructorName", ::System::Reflection::ConstructorInfo*>();
 }
-inline void System::Reflection::ConstructorInfo::setStaticF_TypeConstructorName(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "TypeConstructorName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get>(std::forward<::StringW>(value));
+inline void System::Reflection::ConstructorInfo::setStaticF_TypeConstructorName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "TypeConstructorName", ::System::Reflection::ConstructorInfo*>(std::forward<::StringW>(value));
 }
-inline ::StringW System::Reflection::ConstructorInfo::getStaticF_TypeConstructorName()  {
-return ::cordl_internals::getStaticField<::StringW, "TypeConstructorName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get>();
+inline ::StringW System::Reflection::ConstructorInfo::getStaticF_TypeConstructorName() {
+  return ::cordl_internals::getStaticField<::StringW, "TypeConstructorName", ::System::Reflection::ConstructorInfo*>();
 }
-inline void System::Reflection::ConstructorInfo::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Reflection::ConstructorInfo::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Reflection::MemberTypes System::Reflection::ConstructorInfo::get_MemberType()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MemberTypes, false>(this, ___internal_method);
+inline ::System::Reflection::MemberTypes System::Reflection::ConstructorInfo::get_MemberType() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::ConstructorInfo*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::MemberTypes>(this, ___internal_method);
 }
-inline ::System::Object* System::Reflection::ConstructorInfo::Invoke(::ArrayW<::System::Object*,::Array<::System::Object*>*>  parameters)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                        "Invoke",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, parameters);
+inline ::System::Object* System::Reflection::ConstructorInfo::Invoke(::ArrayW<::System::Object*> parameters) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(), { "Invoke", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, parameters);
 }
-inline ::System::Object* System::Reflection::ConstructorInfo::Invoke(::System::Reflection::BindingFlags  invokeAttr, ::System::Reflection::Binder*  binder, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  parameters, ::System::Globalization::CultureInfo*  culture)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                            41
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, invokeAttr, binder, parameters, culture);
+inline ::System::Object* System::Reflection::ConstructorInfo::Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> parameters,
+                                                                     ::System::Globalization::CultureInfo* culture) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::ConstructorInfo*>(), 41 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, invokeAttr, binder, parameters, culture);
 }
-inline bool System::Reflection::ConstructorInfo::Equals(::System::Object*  obj)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool System::Reflection::ConstructorInfo::Equals(::System::Object* obj) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::ConstructorInfo*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, obj);
 }
-inline int32_t System::Reflection::ConstructorInfo::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Reflection::ConstructorInfo::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::ConstructorInfo*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool System::Reflection::ConstructorInfo::op_Equality(::System::Reflection::ConstructorInfo*  left, ::System::Reflection::ConstructorInfo*  right)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
+inline bool System::Reflection::ConstructorInfo::op_Equality(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo* right) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(),
+                                              { "op_Equality", {}, { ::i2c::type_of<::System::Reflection::ConstructorInfo*>(), ::i2c::type_of<::System::Reflection::ConstructorInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, left, right);
 }
-inline bool System::Reflection::ConstructorInfo::op_Inequality(::System::Reflection::ConstructorInfo*  left, ::System::Reflection::ConstructorInfo*  right)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ConstructorInfo*>::get(),
-                        "op_Inequality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ConstructorInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
+inline bool System::Reflection::ConstructorInfo::op_Inequality(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo* right) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ConstructorInfo*>(),
+                                              { "op_Inequality", {}, { ::i2c::type_of<::System::Reflection::ConstructorInfo*>(), ::i2c::type_of<::System::Reflection::ConstructorInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, left, right);
 }
-inline ::System::Reflection::ConstructorInfo* System::Reflection::ConstructorInfo::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::ConstructorInfo*>());
+inline ::System::Reflection::ConstructorInfo* System::Reflection::ConstructorInfo::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Reflection::ConstructorInfo*>());
 }
 // Ctor Parameters []
-constexpr ::System::Reflection::ConstructorInfo::ConstructorInfo()   {
-}
+constexpr ::System::Reflection::ConstructorInfo::ConstructorInfo() {}

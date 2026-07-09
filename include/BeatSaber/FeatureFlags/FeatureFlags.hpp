@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BeatSaber/FeatureFlags/Feature.hpp"
 #include "BeatSaber/FeatureFlags/FeatureConfiguration.hpp"
@@ -16,6 +16,5 @@
 #include "BeatSaber/FeatureFlags/MissingFeatureFlagException.hpp"
 #include "BeatSaber/FeatureFlags/MockFeatureFlagService.hpp"
 #ifdef __cpp_modules
-                    export module FeatureFlags;
-                    #endif
-                
+export module FeatureFlags;
+#endif

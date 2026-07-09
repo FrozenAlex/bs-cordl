@@ -10,351 +10,266 @@
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 //  Writing Method size for method: ::HMUI::ToggleBinder___c__DisplayClass7_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder___c__DisplayClass7_0::*)()>(&::HMUI::ToggleBinder___c__DisplayClass7_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder___c__DisplayClass7_0::*)()>(&::HMUI::ToggleBinder___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5733828;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder___c__DisplayClass7_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ToggleBinder___c__DisplayClass7_0._AddBinding_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder___c__DisplayClass7_0::*)(bool)>(&::HMUI::ToggleBinder___c__DisplayClass7_0::_AddBinding_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder___c__DisplayClass7_0::*)(bool)>(&::HMUI::ToggleBinder___c__DisplayClass7_0::_AddBinding_b__0)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x5733dc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder___c__DisplayClass7_0*>::get(),
-                        "<AddBinding>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder___c__DisplayClass7_0*>(), { "<AddBinding>b__0", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-constexpr bool& HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_get_enabled()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___enabled;
+constexpr bool& HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_get_enabled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___enabled;
 }
 constexpr bool const& HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_get_enabled() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___enabled;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___enabled;
 }
-constexpr void HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_set_enabled(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___enabled = value;
+constexpr void HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_set_enabled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___enabled = value;
 }
-constexpr ::System::Action*& HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_get_action()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___action;
+constexpr ::System::Action*& HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_get_action() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___action;
 }
 constexpr ::System::Action* const& HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_get_action() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___action;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___action;
 }
-constexpr void HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_set_action(::System::Action*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___action)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ToggleBinder___c__DisplayClass7_0::__cordl_internal_set_action(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___action = value;
 }
-inline void HMUI::ToggleBinder___c__DisplayClass7_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder___c__DisplayClass7_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ToggleBinder___c__DisplayClass7_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::ToggleBinder___c__DisplayClass7_0::_AddBinding_b__0(bool  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder___c__DisplayClass7_0*>::get(),
-                        "<AddBinding>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, b);
+inline void HMUI::ToggleBinder___c__DisplayClass7_0::_AddBinding_b__0(bool b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder___c__DisplayClass7_0*>(), { "<AddBinding>b__0", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, b);
 }
-inline ::HMUI::ToggleBinder___c__DisplayClass7_0* HMUI::ToggleBinder___c__DisplayClass7_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ToggleBinder___c__DisplayClass7_0*>());
+inline ::HMUI::ToggleBinder___c__DisplayClass7_0* HMUI::ToggleBinder___c__DisplayClass7_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ToggleBinder___c__DisplayClass7_0*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::ToggleBinder___c__DisplayClass7_0::ToggleBinder___c__DisplayClass7_0()   {
-}
+constexpr ::HMUI::ToggleBinder___c__DisplayClass7_0::ToggleBinder___c__DisplayClass7_0() {}
 //  Writing Method size for method: ::HMUI::ToggleBinder._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x57333f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ToggleBinder._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)(
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::_ctor)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x5733478;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::System::Action_1<bool>*>*>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(),
+                            { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ToggleBinder.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Init)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x5733404;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "Init", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ToggleBinder.AddBindings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::AddBindings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)(
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::AddBindings)> {
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x57334a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "AddBindings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::System::Action_1<bool>*>*>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(),
+                            { "AddBindings", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ToggleBinder.AddBinding
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*)>(&::HMUI::ToggleBinder::AddBinding)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)(::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*)>(&::HMUI::ToggleBinder::AddBinding)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x57335e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "AddBinding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::Toggle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "AddBinding", {}, { ::i2c::type_of<::UnityEngine::UI::Toggle*>(), ::i2c::type_of<::System::Action_1<bool>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ToggleBinder.AddBinding
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(::UnityEngine::UI::Toggle*, bool, ::System::Action*)>(&::HMUI::ToggleBinder::AddBinding)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)(::UnityEngine::UI::Toggle*, bool, ::System::Action*)>(&::HMUI::ToggleBinder::AddBinding)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x57336c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "AddBinding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::Toggle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(),
+                                                             { "AddBinding", {}, { ::i2c::type_of<::UnityEngine::UI::Toggle*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Action*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ToggleBinder.ClearBindings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::ClearBindings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x214;
   constexpr static std::size_t addrs = 0x573382c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "ClearBindings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "ClearBindings", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ToggleBinder.Disable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Disable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Disable)> {
   constexpr static std::size_t size = 0x1c0;
   constexpr static std::size_t addrs = 0x5733a40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "Disable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "Disable", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ToggleBinder.Enable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Enable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Enable)> {
   constexpr static std::size_t size = 0x1c4;
   constexpr static std::size_t addrs = 0x5733c00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "Enable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "Enable", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::UnityEngine::Events::UnityAction_1<bool>*>*>*& HMUI::ToggleBinder::__cordl_internal_get__bindings()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bindings;
+constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::UnityEngine::Events::UnityAction_1<bool>*>*>*&
+HMUI::ToggleBinder::__cordl_internal_get__bindings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bindings;
 }
-constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::UnityEngine::Events::UnityAction_1<bool>*>*>* const& HMUI::ToggleBinder::__cordl_internal_get__bindings() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bindings;
+constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::UnityEngine::Events::UnityAction_1<bool>*>*>* const&
+HMUI::ToggleBinder::__cordl_internal_get__bindings() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bindings;
 }
-constexpr void HMUI::ToggleBinder::__cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::UnityEngine::Events::UnityAction_1<bool>*>*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ToggleBinder::__cordl_internal_set__bindings(
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::UnityEngine::Events::UnityAction_1<bool>*>*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____bindings = value;
 }
-constexpr bool& HMUI::ToggleBinder::__cordl_internal_get__enabled()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____enabled;
+constexpr bool& HMUI::ToggleBinder::__cordl_internal_get__enabled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enabled;
 }
 constexpr bool const& HMUI::ToggleBinder::__cordl_internal_get__enabled() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____enabled;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enabled;
 }
-constexpr void HMUI::ToggleBinder::__cordl_internal_set__enabled(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____enabled = value;
+constexpr void HMUI::ToggleBinder::__cordl_internal_set__enabled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____enabled = value;
 }
-inline void HMUI::ToggleBinder::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ToggleBinder::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::ToggleBinder::_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::System::Action_1<bool>*>*>*  bindingData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::System::Action_1<bool>*>*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindingData);
+inline void HMUI::ToggleBinder::_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(),
+                          { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bindingData);
 }
-inline void HMUI::ToggleBinder::Init()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ToggleBinder::Init() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "Init", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::ToggleBinder::AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::System::Action_1<bool>*>*>*  bindingData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "AddBindings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::System::Action_1<bool>*>*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindingData);
+inline void HMUI::ToggleBinder::AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(),
+                          { "AddBindings", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bindingData);
 }
-inline void HMUI::ToggleBinder::AddBinding(::UnityEngine::UI::Toggle*  toggle, ::System::Action_1<bool>*  action)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "AddBinding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::Toggle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, toggle, action);
+inline void HMUI::ToggleBinder::AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "AddBinding", {}, { ::i2c::type_of<::UnityEngine::UI::Toggle*>(), ::i2c::type_of<::System::Action_1<bool>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, toggle, action);
 }
-inline void HMUI::ToggleBinder::AddBinding(::UnityEngine::UI::Toggle*  toggle, bool  enabled, ::System::Action*  action)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "AddBinding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::Toggle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, toggle, enabled, action);
+inline void HMUI::ToggleBinder::AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(),
+                                                           { "AddBinding", {}, { ::i2c::type_of<::UnityEngine::UI::Toggle*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, toggle, enabled, action);
 }
-inline void HMUI::ToggleBinder::ClearBindings()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "ClearBindings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ToggleBinder::ClearBindings() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "ClearBindings", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::ToggleBinder::Disable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "Disable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ToggleBinder::Disable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "Disable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::ToggleBinder::Enable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(),
-                        "Enable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ToggleBinder::Enable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleBinder*>(), { "Enable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::HMUI::ToggleBinder* HMUI::ToggleBinder::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ToggleBinder*>());
+inline ::HMUI::ToggleBinder* HMUI::ToggleBinder::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ToggleBinder*>());
 }
-inline ::HMUI::ToggleBinder* HMUI::ToggleBinder::New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>,::System::Action_1<bool>*>*>*  bindingData)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ToggleBinder*>(bindingData));
+inline ::HMUI::ToggleBinder* HMUI::ToggleBinder::New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ToggleBinder*>(bindingData));
 }
 // Ctor Parameters []
-constexpr ::HMUI::ToggleBinder::ToggleBinder()   {
-}
+constexpr ::HMUI::ToggleBinder::ToggleBinder() {}

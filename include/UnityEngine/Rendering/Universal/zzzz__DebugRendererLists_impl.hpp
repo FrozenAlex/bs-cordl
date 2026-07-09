@@ -17,250 +17,248 @@
 #include "UnityEngine/Rendering/zzzz__RendererList_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DebugRendererLists._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::Universal::DebugHandler*, ::UnityEngine::Rendering::FilteringSettings)>(&::UnityEngine::Rendering::Universal::DebugRendererLists::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(
+    ::UnityEngine::Rendering::Universal::DebugHandler*, ::UnityEngine::Rendering::FilteringSettings)>(&::UnityEngine::Rendering::Universal::DebugRendererLists::_ctor)> {
   constexpr static std::size_t size = 0x130;
   constexpr static std::size_t addrs = 0x670bdb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::DebugHandler*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::FilteringSettings>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                         { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::DebugHandler*>(), ::i2c::type_of<::UnityEngine::Rendering::FilteringSettings>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DebugRendererLists.CreateDebugRenderSetups
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::FilteringSettings)>(&::UnityEngine::Rendering::Universal::DebugRendererLists::CreateDebugRenderSetups)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::FilteringSettings)>(
+    &::UnityEngine::Rendering::Universal::DebugRendererLists::CreateDebugRenderSetups)> {
   constexpr static std::size_t size = 0x148;
   constexpr static std::size_t addrs = 0x670cfb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "CreateDebugRenderSetups",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::FilteringSettings>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                                                                           { "CreateDebugRenderSetups", {}, { ::i2c::type_of<::UnityEngine::Rendering::FilteringSettings>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DebugRendererLists.DisposeDebugRenderLists
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)()>(&::UnityEngine::Rendering::Universal::DebugRendererLists::DisposeDebugRenderLists)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)()>(
+    &::UnityEngine::Rendering::Universal::DebugRendererLists::DisposeDebugRenderLists)> {
   constexpr static std::size_t size = 0x188;
   constexpr static std::size_t addrs = 0x670d118;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "DisposeDebugRenderLists",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(), { "DisposeDebugRenderLists", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DebugRendererLists.CreateRendererListsWithDebugRenderState
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::ByRef<::UnityEngine::Rendering::CullingResults>, ::ByRef<::UnityEngine::Rendering::DrawingSettings>, ::ByRef<::UnityEngine::Rendering::FilteringSettings>, ::ByRef<::UnityEngine::Rendering::RenderStateBlock>)>(&::UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(
+    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::CullingResults>, ::by_ref<::UnityEngine::Rendering::DrawingSettings>,
+    ::by_ref<::UnityEngine::Rendering::FilteringSettings>, ::by_ref<::UnityEngine::Rendering::RenderStateBlock>)>(
+    &::UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState)> {
   constexpr static std::size_t size = 0x3a4;
   constexpr static std::size_t addrs = 0x670bee4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "CreateRendererListsWithDebugRenderState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ScriptableRenderContext>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CullingResults>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::DrawingSettings>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::FilteringSettings>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderStateBlock>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                                { "CreateRendererListsWithDebugRenderState",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CullingResults>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawingSettings>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::FilteringSettings>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderStateBlock>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DebugRendererLists.CreateRendererListsWithDebugRenderState
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::ByRef<::UnityEngine::Rendering::CullingResults>, ::ByRef<::UnityEngine::Rendering::DrawingSettings>, ::ByRef<::UnityEngine::Rendering::FilteringSettings>, ::ByRef<::UnityEngine::Rendering::RenderStateBlock>)>(&::UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::CullingResults>, ::by_ref<::UnityEngine::Rendering::DrawingSettings>,
+    ::by_ref<::UnityEngine::Rendering::FilteringSettings>, ::by_ref<::UnityEngine::Rendering::RenderStateBlock>)>(
+    &::UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState)> {
   constexpr static std::size_t size = 0x38c;
   constexpr static std::size_t addrs = 0x670c348;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "CreateRendererListsWithDebugRenderState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CullingResults>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::DrawingSettings>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::FilteringSettings>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderStateBlock>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                                { "CreateRendererListsWithDebugRenderState",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CullingResults>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawingSettings>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::FilteringSettings>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderStateBlock>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DebugRendererLists.PrepareRendererListForRasterPass
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*)>(&::UnityEngine::Rendering::Universal::DebugRendererLists::PrepareRendererListForRasterPass)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*)>(
+    &::UnityEngine::Rendering::Universal::DebugRendererLists::PrepareRendererListForRasterPass)> {
   constexpr static std::size_t size = 0x19c;
   constexpr static std::size_t addrs = 0x670d61c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "PrepareRendererListForRasterPass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                                { "PrepareRendererListForRasterPass", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DebugRendererLists.DrawWithRendererList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(&::UnityEngine::Rendering::Universal::DebugRendererLists::DrawWithRendererList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(
+    &::UnityEngine::Rendering::Universal::DebugRendererLists::DrawWithRendererList)> {
   constexpr static std::size_t size = 0x238;
   constexpr static std::size_t addrs = 0x670d7b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "DrawWithRendererList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RasterCommandBuffer*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                                                                           { "DrawWithRendererList", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::Universal::DebugHandler*& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_DebugHandler()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DebugHandler;
+constexpr ::UnityEngine::Rendering::Universal::DebugHandler*& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_DebugHandler() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DebugHandler;
 }
 constexpr ::UnityEngine::Rendering::Universal::DebugHandler* const& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_DebugHandler() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DebugHandler;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DebugHandler;
 }
-constexpr void UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_DebugHandler(::UnityEngine::Rendering::Universal::DebugHandler*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DebugHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_DebugHandler(::UnityEngine::Rendering::Universal::DebugHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DebugHandler = value;
 }
-constexpr ::UnityEngine::Rendering::FilteringSettings& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_FilteringSettings()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_FilteringSettings;
+constexpr ::UnityEngine::Rendering::FilteringSettings& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_FilteringSettings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FilteringSettings;
 }
 constexpr ::UnityEngine::Rendering::FilteringSettings const& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_FilteringSettings() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_FilteringSettings;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FilteringSettings;
 }
-constexpr void UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_FilteringSettings = value;
+constexpr void UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FilteringSettings = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DebugRenderSetup*>*& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_DebugRenderSetups()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DebugRenderSetups;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DebugRenderSetup*>*&
+UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_DebugRenderSetups() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DebugRenderSetups;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DebugRenderSetup*>* const& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_DebugRenderSetups() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DebugRenderSetups;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DebugRenderSetup*>* const&
+UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_DebugRenderSetups() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DebugRenderSetups;
 }
-constexpr void UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_DebugRenderSetups(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DebugRenderSetup*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DebugRenderSetups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_DebugRenderSetups(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DebugRenderSetup*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DebugRenderSetups = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RendererList>*& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_ActiveDebugRendererList()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ActiveDebugRendererList;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RendererList>*& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_ActiveDebugRendererList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ActiveDebugRendererList;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RendererList>* const& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_ActiveDebugRendererList() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ActiveDebugRendererList;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RendererList>* const&
+UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_ActiveDebugRendererList() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ActiveDebugRendererList;
 }
-constexpr void UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_ActiveDebugRendererList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::RendererList>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActiveDebugRendererList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_ActiveDebugRendererList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::RendererList>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ActiveDebugRendererList = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>*& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_ActiveDebugRendererListHdl()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ActiveDebugRendererListHdl;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>*&
+UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_ActiveDebugRendererListHdl() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ActiveDebugRendererListHdl;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>* const& UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_ActiveDebugRendererListHdl() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ActiveDebugRendererListHdl;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>* const&
+UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_get_m_ActiveDebugRendererListHdl() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ActiveDebugRendererListHdl;
 }
-constexpr void UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_ActiveDebugRendererListHdl(::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActiveDebugRendererListHdl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::DebugRendererLists::__cordl_internal_set_m_ActiveDebugRendererListHdl(
+    ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ActiveDebugRendererListHdl = value;
 }
-inline void UnityEngine::Rendering::Universal::DebugRendererLists::_ctor(::UnityEngine::Rendering::Universal::DebugHandler*  debugHandler, ::UnityEngine::Rendering::FilteringSettings  filteringSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::DebugHandler*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::FilteringSettings>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, debugHandler, filteringSettings);
+inline void UnityEngine::Rendering::Universal::DebugRendererLists::_ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler,
+                                                                         ::UnityEngine::Rendering::FilteringSettings filteringSettings) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                       { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::DebugHandler*>(), ::i2c::type_of<::UnityEngine::Rendering::FilteringSettings>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, debugHandler, filteringSettings);
 }
-inline void UnityEngine::Rendering::Universal::DebugRendererLists::CreateDebugRenderSetups(::UnityEngine::Rendering::FilteringSettings  filteringSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "CreateDebugRenderSetups",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::FilteringSettings>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, filteringSettings);
+inline void UnityEngine::Rendering::Universal::DebugRendererLists::CreateDebugRenderSetups(::UnityEngine::Rendering::FilteringSettings filteringSettings) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                                                                         { "CreateDebugRenderSetups", {}, { ::i2c::type_of<::UnityEngine::Rendering::FilteringSettings>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, filteringSettings);
 }
-inline void UnityEngine::Rendering::Universal::DebugRendererLists::DisposeDebugRenderLists()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "DisposeDebugRenderLists",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::Universal::DebugRendererLists::DisposeDebugRenderLists() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(), { "DisposeDebugRenderLists", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::ScriptableRenderContext  context, ::ByRef<::UnityEngine::Rendering::CullingResults>  cullResults, ::ByRef<::UnityEngine::Rendering::DrawingSettings>  drawingSettings, ::ByRef<::UnityEngine::Rendering::FilteringSettings>  filteringSettings, ::ByRef<::UnityEngine::Rendering::RenderStateBlock>  renderStateBlock)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "CreateRendererListsWithDebugRenderState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ScriptableRenderContext>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CullingResults>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::DrawingSettings>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::FilteringSettings>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderStateBlock>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, cullResults, drawingSettings, filteringSettings, renderStateBlock);
+inline void UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::ScriptableRenderContext context,
+                                                                                                           ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
+                                                                                                           ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings,
+                                                                                                           ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
+                                                                                                           ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                              { "CreateRendererListsWithDebugRenderState",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CullingResults>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawingSettings>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::FilteringSettings>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderStateBlock>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, cullResults, drawingSettings, filteringSettings, renderStateBlock);
 }
-inline void UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::ByRef<::UnityEngine::Rendering::CullingResults>  cullResults, ::ByRef<::UnityEngine::Rendering::DrawingSettings>  drawingSettings, ::ByRef<::UnityEngine::Rendering::FilteringSettings>  filteringSettings, ::ByRef<::UnityEngine::Rendering::RenderStateBlock>  renderStateBlock)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "CreateRendererListsWithDebugRenderState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CullingResults>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::DrawingSettings>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::FilteringSettings>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderStateBlock>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, renderGraph, cullResults, drawingSettings, filteringSettings, renderStateBlock);
+inline void UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                                                                           ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
+                                                                                                           ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings,
+                                                                                                           ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
+                                                                                                           ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                              { "CreateRendererListsWithDebugRenderState",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CullingResults>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawingSettings>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::FilteringSettings>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderStateBlock>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, cullResults, drawingSettings, filteringSettings, renderStateBlock);
 }
-inline void UnityEngine::Rendering::Universal::DebugRendererLists::PrepareRendererListForRasterPass(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*  builder)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "PrepareRendererListForRasterPass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, builder);
+inline void UnityEngine::Rendering::Universal::DebugRendererLists::PrepareRendererListForRasterPass(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder* builder) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                                           { "PrepareRendererListForRasterPass", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, builder);
 }
-inline void UnityEngine::Rendering::Universal::DebugRendererLists::DrawWithRendererList(::UnityEngine::Rendering::RasterCommandBuffer*  cmd)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DebugRendererLists*>::get(),
-                        "DrawWithRendererList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RasterCommandBuffer*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cmd);
+inline void UnityEngine::Rendering::Universal::DebugRendererLists::DrawWithRendererList(::UnityEngine::Rendering::RasterCommandBuffer* cmd) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
+                                                                                         { "DrawWithRendererList", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd);
 }
-inline ::UnityEngine::Rendering::Universal::DebugRendererLists* UnityEngine::Rendering::Universal::DebugRendererLists::New_ctor(::UnityEngine::Rendering::Universal::DebugHandler*  debugHandler, ::UnityEngine::Rendering::FilteringSettings  filteringSettings)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::Universal::DebugRendererLists*>(debugHandler, filteringSettings));
+inline ::UnityEngine::Rendering::Universal::DebugRendererLists* UnityEngine::Rendering::Universal::DebugRendererLists::New_ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler,
+                                                                                                                                ::UnityEngine::Rendering::FilteringSettings filteringSettings) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::DebugRendererLists*>(debugHandler, filteringSettings));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::DebugRendererLists::DebugRendererLists()   {
-}
+constexpr ::UnityEngine::Rendering::Universal::DebugRendererLists::DebugRendererLists() {}

@@ -5,31 +5,24 @@
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
 //  Writing Method size for method: ::Zenject::SubContainerCreatorUtil.ApplyBindSettings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::SubContainerCreatorBindInfo*, ::Zenject::DiContainer*)>(&::Zenject::SubContainerCreatorUtil::ApplyBindSettings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::SubContainerCreatorBindInfo*, ::Zenject::DiContainer*)>(&::Zenject::SubContainerCreatorUtil::ApplyBindSettings)> {
   constexpr static std::size_t size = 0x320;
   constexpr static std::size_t addrs = 0x6d3255c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorUtil*>::get(),
-                        "ApplyBindSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SubContainerCreatorBindInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorUtil*>(),
+                                                             { "ApplyBindSettings", {}, { ::i2c::type_of<::Zenject::SubContainerCreatorBindInfo*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
-inline void Zenject::SubContainerCreatorUtil::ApplyBindSettings(::Zenject::SubContainerCreatorBindInfo*  subContainerBindInfo, ::Zenject::DiContainer*  subContainer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorUtil*>::get(),
-                        "ApplyBindSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SubContainerCreatorBindInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, subContainerBindInfo, subContainer);
+inline void Zenject::SubContainerCreatorUtil::ApplyBindSettings(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::DiContainer* subContainer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorUtil*>(),
+                                                           { "ApplyBindSettings", {}, { ::i2c::type_of<::Zenject::SubContainerCreatorBindInfo*>(), ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, subContainerBindInfo, subContainer);
 }
 // Ctor Parameters []
-constexpr ::Zenject::SubContainerCreatorUtil::SubContainerCreatorUtil()   {
-}
+constexpr ::Zenject::SubContainerCreatorUtil::SubContainerCreatorUtil() {}

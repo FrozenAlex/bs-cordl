@@ -8,233 +8,204 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Torus.CopyShape
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Torus::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(&::UnityEngine::ProBuilder::Shapes::Torus::CopyShape)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Torus::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
+    &::UnityEngine::ProBuilder::Shapes::Torus::CopyShape)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x65c9284;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Torus.UpdateBounds
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Torus::*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Torus::UpdateBounds)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Torus::*)(
+    ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Torus::UpdateBounds)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x65c9320;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Torus.RebuildMesh
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Torus::*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Torus::RebuildMesh)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Torus::*)(
+    ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Torus::RebuildMesh)> {
   constexpr static std::size_t size = 0xa00;
   constexpr static std::size_t addrs = 0x65c93a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Torus.GetCirclePoints
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> (*)(int32_t, float_t, float_t, ::UnityEngine::Quaternion, float_t)>(&::UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(int32_t, float_t, float_t, ::UnityEngine::Quaternion, float_t)>(
+    &::UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints)> {
   constexpr static std::size_t size = 0x31c;
   constexpr static std::size_t addrs = 0x65c9da0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                        "GetCirclePoints",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(),
+            { "GetCirclePoints", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Torus.GetCirclePoints
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> (*)(int32_t, float_t, float_t, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(int32_t, float_t, float_t, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
+    &::UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints)> {
   constexpr static std::size_t size = 0x294;
   constexpr static std::size_t addrs = 0x65ca0bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                        "GetCirclePoints",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), { "GetCirclePoints",
+                                                                                                         {},
+                                                                                                         { ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
+                                                                                                           ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Torus._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Torus::*)()>(&::UnityEngine::ProBuilder::Shapes::Torus::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Torus::*)()>(&::UnityEngine::ProBuilder::Shapes::Torus::_ctor)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x65ca350;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_Rows()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Rows;
+constexpr int32_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_Rows() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Rows;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_Rows() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Rows;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Rows;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_Rows(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Rows = value;
+constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_Rows(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Rows = value;
 }
-constexpr int32_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_Columns()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Columns;
+constexpr int32_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_Columns() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Columns;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_Columns() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Columns;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Columns;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_Columns(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Columns = value;
+constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_Columns(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Columns = value;
 }
-constexpr float_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_TubeRadius()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_TubeRadius;
+constexpr float_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_TubeRadius() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TubeRadius;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_TubeRadius() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_TubeRadius;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TubeRadius;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_TubeRadius(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_TubeRadius = value;
+constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_TubeRadius(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TubeRadius = value;
 }
-constexpr float_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_HorizontalCircumference()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_HorizontalCircumference;
+constexpr float_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_HorizontalCircumference() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HorizontalCircumference;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_HorizontalCircumference() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_HorizontalCircumference;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HorizontalCircumference;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_HorizontalCircumference(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_HorizontalCircumference = value;
+constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_HorizontalCircumference(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_HorizontalCircumference = value;
 }
-constexpr float_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_VerticalCircumference()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VerticalCircumference;
+constexpr float_t& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_VerticalCircumference() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VerticalCircumference;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_VerticalCircumference() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VerticalCircumference;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VerticalCircumference;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_VerticalCircumference(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_VerticalCircumference = value;
+constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_VerticalCircumference(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_VerticalCircumference = value;
 }
-constexpr bool& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_Smooth()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Smooth;
+constexpr bool& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_Smooth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Smooth;
 }
 constexpr bool const& UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_get_m_Smooth() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Smooth;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Smooth;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_Smooth(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Smooth = value;
+constexpr void UnityEngine::ProBuilder::Shapes::Torus::__cordl_internal_set_m_Smooth(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Smooth = value;
 }
-inline void UnityEngine::ProBuilder::Shapes::Torus::CopyShape(::UnityEngine::ProBuilder::Shapes::Shape*  shape)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, shape);
+inline void UnityEngine::ProBuilder::Shapes::Torus::CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, shape);
 }
-inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::Torus::UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::UnityEngine::Vector3  size, ::UnityEngine::Quaternion  rotation, ::UnityEngine::Bounds  bounds)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method, mesh, size, rotation, bounds);
+inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::Torus::UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation,
+                                                                                  ::UnityEngine::Bounds bounds) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds>(this, ___internal_method, mesh, size, rotation, bounds);
 }
-inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::Torus::RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::UnityEngine::Vector3  size, ::UnityEngine::Quaternion  rotation)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method, mesh, size, rotation);
+inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::Torus::RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds>(this, ___internal_method, mesh, size, rotation);
 }
-inline ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints(int32_t  segments, float_t  radius, float_t  circumference, ::UnityEngine::Quaternion  rotation, float_t  offset)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                        "GetCirclePoints",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>, false>(nullptr, ___internal_method, segments, radius, circumference, rotation, offset);
+inline ::ArrayW<::UnityEngine::Vector3> UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation,
+                                                                                                float_t offset) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(),
+          { "GetCirclePoints", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector3>>(nullptr, ___internal_method, segments, radius, circumference, rotation, offset);
 }
-inline ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints(int32_t  segments, float_t  radius, float_t  circumference, ::UnityEngine::Quaternion  rotation, ::UnityEngine::Vector3  offset)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                        "GetCirclePoints",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>, false>(nullptr, ___internal_method, segments, radius, circumference, rotation, offset);
+inline ::ArrayW<::UnityEngine::Vector3> UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation,
+                                                                                                ::UnityEngine::Vector3 offset) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), { "GetCirclePoints",
+                                                                                                       {},
+                                                                                                       { ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
+                                                                                                         ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector3>>(nullptr, ___internal_method, segments, radius, circumference, rotation, offset);
 }
-inline void UnityEngine::ProBuilder::Shapes::Torus::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ProBuilder::Shapes::Torus::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::ProBuilder::Shapes::Torus* UnityEngine::ProBuilder::Shapes::Torus::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Shapes::Torus*>());
+inline ::UnityEngine::ProBuilder::Shapes::Torus* UnityEngine::ProBuilder::Shapes::Torus::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::Shapes::Torus*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::Shapes::Torus::Torus()   {
-}
+constexpr ::UnityEngine::ProBuilder::Shapes::Torus::Torus() {}

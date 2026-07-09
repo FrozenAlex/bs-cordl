@@ -6,57 +6,60 @@
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SpeedTreeWindParamsBufferIterator_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::SpeedTreeWindManager.UpdateWindAndWriteBufferWindParams
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ReadOnlySpan_1<int32_t>, ::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator, bool)>(&::UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ReadOnlySpan_1<int32_t>, ::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator, bool)>(
+    &::UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x6a64adc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SpeedTreeWindManager*>::get(),
-                        "UpdateWindAndWriteBufferWindParams",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SpeedTreeWindManager*>(),
+                            { "UpdateWindAndWriteBufferWindParams",
+                              {},
+                              { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>(), ::i2c::type_of<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SpeedTreeWindManager.UpdateWindAndWriteBufferWindParams_Injected
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>, bool)>(&::UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>, bool)>(
+    &::UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6a64b94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SpeedTreeWindManager*>::get(),
-                        "UpdateWindAndWriteBufferWindParams_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SpeedTreeWindManager*>(),
+                                                             { "UpdateWindAndWriteBufferWindParams_Injected",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams(::System::ReadOnlySpan_1<int32_t>  renderersID, ::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator  windParams, bool  history)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SpeedTreeWindManager*>::get(),
-                        "UpdateWindAndWriteBufferWindParams",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, renderersID, windParams, history);
+inline void UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams(::System::ReadOnlySpan_1<int32_t> renderersID,
+                                                                                             ::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator windParams, bool history) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SpeedTreeWindManager*>(),
+                          { "UpdateWindAndWriteBufferWindParams",
+                            {},
+                            { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>(), ::i2c::type_of<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderersID, windParams, history);
 }
-inline void UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  renderersID, ::ByRef<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>  windParams, bool  history)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SpeedTreeWindManager*>::get(),
-                        "UpdateWindAndWriteBufferWindParams_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, renderersID, windParams, history);
+inline void UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> renderersID,
+                                                                                                      ::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator> windParams, bool history) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SpeedTreeWindManager*>(),
+                                                           { "UpdateWindAndWriteBufferWindParams_Injected",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator>>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderersID, windParams, history);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::SpeedTreeWindManager::SpeedTreeWindManager()   {
-}
+constexpr ::UnityEngine::Rendering::SpeedTreeWindManager::SpeedTreeWindManager() {}

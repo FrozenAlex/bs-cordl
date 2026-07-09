@@ -8,573 +8,415 @@
 #include "System/Linq/Expressions/zzzz__LambdaExpression_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::BinaryExpression::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::BinaryExpression::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BinaryExpression::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
+    &::System::Linq::Expressions::BinaryExpression::_ctor)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x5e1eef8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(),
+                                                { ".ctor", {}, { ::i2c::type_of<::System::Linq::Expressions::Expression*>(), ::i2c::type_of<::System::Linq::Expressions::Expression*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.get_CanReduce
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_CanReduce)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_CanReduce)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5e1ef64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.IsOpAssignment
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Linq::Expressions::ExpressionType)>(&::System::Linq::Expressions::BinaryExpression::IsOpAssignment)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Linq::Expressions::ExpressionType)>(&::System::Linq::Expressions::BinaryExpression::IsOpAssignment)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x5e1ef88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "IsOpAssignment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ExpressionType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(),
+                                                                                           { "IsOpAssignment", {}, { ::i2c::type_of<::System::Linq::Expressions::ExpressionType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.get_Right
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_Right)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::get_Right)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e1ef98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_Right",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_Right", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.get_Left
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_Left)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::get_Left)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e1efa0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_Left",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_Left", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.get_Method
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_Method)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::get_Method)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5e1efa8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_Method",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_Method", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.GetMethod
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::GetMethod)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::GetMethod)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e1efb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 10 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.Update
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::BinaryExpression* (::System::Linq::Expressions::BinaryExpression::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::LambdaExpression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::BinaryExpression::Update)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::BinaryExpression* (
+    ::System::Linq::Expressions::BinaryExpression::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::LambdaExpression*, ::System::Linq::Expressions::Expression*)>(
+    &::System::Linq::Expressions::BinaryExpression::Update)> {
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x5e1efbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::LambdaExpression*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(),
+                                                             { "Update",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Linq::Expressions::Expression*>(), ::i2c::type_of<::System::Linq::Expressions::LambdaExpression*>(),
+                                                                 ::i2c::type_of<::System::Linq::Expressions::Expression*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.Reduce
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::Reduce)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::Reduce)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x5e1ff4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.GetBinaryOpFromAssignmentOp
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (*)(::System::Linq::Expressions::ExpressionType)>(&::System::Linq::Expressions::BinaryExpression::GetBinaryOpFromAssignmentOp)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ExpressionType (*)(::System::Linq::Expressions::ExpressionType)>(
+    &::System::Linq::Expressions::BinaryExpression::GetBinaryOpFromAssignmentOp)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x5e20980;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "GetBinaryOpFromAssignmentOp",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ExpressionType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(),
+                                                                                           { "GetBinaryOpFromAssignmentOp", {}, { ::i2c::type_of<::System::Linq::Expressions::ExpressionType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.ReduceVariable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::ReduceVariable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::ReduceVariable)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x5e20878;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "ReduceVariable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "ReduceVariable", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.ReduceMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::ReduceMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::ReduceMember)> {
   constexpr static std::size_t size = 0x428;
   constexpr static std::size_t addrs = 0x5e1ffc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "ReduceMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "ReduceMember", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.ReduceIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::ReduceIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::ReduceIndex)> {
   constexpr static std::size_t size = 0x48c;
   constexpr static std::size_t addrs = 0x5e203ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "ReduceIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "ReduceIndex", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.get_Conversion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LambdaExpression* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_Conversion)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::LambdaExpression* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::get_Conversion)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5e1f130;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_Conversion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_Conversion", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.GetConversion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LambdaExpression* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::GetConversion)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::LambdaExpression* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::GetConversion)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e211c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 11 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.get_IsLifted
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_IsLifted)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_IsLifted)> {
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x5e211cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_IsLifted",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_IsLifted", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.get_IsLiftedToNull
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_IsLiftedToNull)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_IsLiftedToNull)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x5e1f520;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_IsLiftedToNull",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_IsLiftedToNull", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.Accept
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::BinaryExpression::Accept)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(
+    &::System::Linq::Expressions::BinaryExpression::Accept)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5e21358;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 9 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.get_IsLiftedLogical
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_IsLiftedLogical)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_IsLiftedLogical)> {
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x5e2137c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_IsLiftedLogical",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_IsLiftedLogical", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.get_IsReferenceComparison
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_IsReferenceComparison)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::get_IsReferenceComparison)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x5e1f13c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_IsReferenceComparison",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_IsReferenceComparison", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::BinaryExpression.ReduceUserdefinedLifted
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(&::System::Linq::Expressions::BinaryExpression::ReduceUserdefinedLifted)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BinaryExpression::*)()>(
+    &::System::Linq::Expressions::BinaryExpression::ReduceUserdefinedLifted)> {
   constexpr static std::size_t size = 0x688;
   constexpr static std::size_t addrs = 0x5e214d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "ReduceUserdefinedLifted",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "ReduceUserdefinedLifted", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::BinaryExpression::__cordl_internal_get__Right_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Right_k__BackingField;
+constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::BinaryExpression::__cordl_internal_get__Right_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Right_k__BackingField;
 }
 constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::BinaryExpression::__cordl_internal_get__Right_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Right_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Right_k__BackingField;
 }
-constexpr void System::Linq::Expressions::BinaryExpression::__cordl_internal_set__Right_k__BackingField(::System::Linq::Expressions::Expression*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Right_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Linq::Expressions::BinaryExpression::__cordl_internal_set__Right_k__BackingField(::System::Linq::Expressions::Expression* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____Right_k__BackingField = value;
 }
-constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::BinaryExpression::__cordl_internal_get__Left_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Left_k__BackingField;
+constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::BinaryExpression::__cordl_internal_get__Left_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Left_k__BackingField;
 }
 constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::BinaryExpression::__cordl_internal_get__Left_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Left_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Left_k__BackingField;
 }
-constexpr void System::Linq::Expressions::BinaryExpression::__cordl_internal_set__Left_k__BackingField(::System::Linq::Expressions::Expression*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Left_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Linq::Expressions::BinaryExpression::__cordl_internal_set__Left_k__BackingField(::System::Linq::Expressions::Expression* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____Left_k__BackingField = value;
 }
-inline void System::Linq::Expressions::BinaryExpression::_ctor(::System::Linq::Expressions::Expression*  left, ::System::Linq::Expressions::Expression*  right)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, left, right);
+inline void System::Linq::Expressions::BinaryExpression::_ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(),
+                                              { ".ctor", {}, { ::i2c::type_of<::System::Linq::Expressions::Expression*>(), ::i2c::type_of<::System::Linq::Expressions::Expression*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, left, right);
 }
-inline bool System::Linq::Expressions::BinaryExpression::get_CanReduce()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Linq::Expressions::BinaryExpression::get_CanReduce() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Linq::Expressions::BinaryExpression::IsOpAssignment(::System::Linq::Expressions::ExpressionType  op)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "IsOpAssignment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ExpressionType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, op);
+inline bool System::Linq::Expressions::BinaryExpression::IsOpAssignment(::System::Linq::Expressions::ExpressionType op) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(),
+                                                                                         { "IsOpAssignment", {}, { ::i2c::type_of<::System::Linq::Expressions::ExpressionType>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, op);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::get_Right()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_Right",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::get_Right() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_Right", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::get_Left()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_Left",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::get_Left() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_Left", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Reflection::MethodInfo* System::Linq::Expressions::BinaryExpression::get_Method()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_Method",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(this, ___internal_method);
+inline ::System::Reflection::MethodInfo* System::Linq::Expressions::BinaryExpression::get_Method() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_Method", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method);
 }
-inline ::System::Reflection::MethodInfo* System::Linq::Expressions::BinaryExpression::GetMethod()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(this, ___internal_method);
+inline ::System::Reflection::MethodInfo* System::Linq::Expressions::BinaryExpression::GetMethod() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::BinaryExpression* System::Linq::Expressions::BinaryExpression::Update(::System::Linq::Expressions::Expression*  left, ::System::Linq::Expressions::LambdaExpression*  conversion, ::System::Linq::Expressions::Expression*  right)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::LambdaExpression*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::BinaryExpression*, false>(this, ___internal_method, left, conversion, right);
+inline ::System::Linq::Expressions::BinaryExpression* System::Linq::Expressions::BinaryExpression::Update(::System::Linq::Expressions::Expression* left,
+                                                                                                          ::System::Linq::Expressions::LambdaExpression* conversion,
+                                                                                                          ::System::Linq::Expressions::Expression* right) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(),
+                                                           { "Update",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Linq::Expressions::Expression*>(), ::i2c::type_of<::System::Linq::Expressions::LambdaExpression*>(),
+                                                               ::i2c::type_of<::System::Linq::Expressions::Expression*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::BinaryExpression*>(this, ___internal_method, left, conversion, right);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::Reduce()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::Reduce() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::ExpressionType System::Linq::Expressions::BinaryExpression::GetBinaryOpFromAssignmentOp(::System::Linq::Expressions::ExpressionType  op)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "GetBinaryOpFromAssignmentOp",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ExpressionType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::ExpressionType, false>(nullptr, ___internal_method, op);
+inline ::System::Linq::Expressions::ExpressionType System::Linq::Expressions::BinaryExpression::GetBinaryOpFromAssignmentOp(::System::Linq::Expressions::ExpressionType op) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(),
+                                                                                         { "GetBinaryOpFromAssignmentOp", {}, { ::i2c::type_of<::System::Linq::Expressions::ExpressionType>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::ExpressionType>(nullptr, ___internal_method, op);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::ReduceVariable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "ReduceVariable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::ReduceVariable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "ReduceVariable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::ReduceMember()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "ReduceMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::ReduceMember() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "ReduceMember", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::ReduceIndex()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "ReduceIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::ReduceIndex() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "ReduceIndex", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::LambdaExpression* System::Linq::Expressions::BinaryExpression::get_Conversion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_Conversion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::LambdaExpression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::LambdaExpression* System::Linq::Expressions::BinaryExpression::get_Conversion() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_Conversion", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::LambdaExpression*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::LambdaExpression* System::Linq::Expressions::BinaryExpression::GetConversion()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::LambdaExpression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::LambdaExpression* System::Linq::Expressions::BinaryExpression::GetConversion() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::LambdaExpression*>(this, ___internal_method);
 }
-inline bool System::Linq::Expressions::BinaryExpression::get_IsLifted()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_IsLifted",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Linq::Expressions::BinaryExpression::get_IsLifted() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_IsLifted", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Linq::Expressions::BinaryExpression::get_IsLiftedToNull()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_IsLiftedToNull",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Linq::Expressions::BinaryExpression::get_IsLiftedToNull() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_IsLiftedToNull", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::Accept(::System::Linq::Expressions::ExpressionVisitor*  visitor)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method, visitor);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::Accept(::System::Linq::Expressions::ExpressionVisitor* visitor) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, visitor);
 }
-inline bool System::Linq::Expressions::BinaryExpression::get_IsLiftedLogical()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_IsLiftedLogical",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Linq::Expressions::BinaryExpression::get_IsLiftedLogical() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_IsLiftedLogical", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Linq::Expressions::BinaryExpression::get_IsReferenceComparison()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "get_IsReferenceComparison",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Linq::Expressions::BinaryExpression::get_IsReferenceComparison() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "get_IsReferenceComparison", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::ReduceUserdefinedLifted()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::BinaryExpression*>::get(),
-                        "ReduceUserdefinedLifted",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::BinaryExpression::ReduceUserdefinedLifted() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BinaryExpression*>(), { "ReduceUserdefinedLifted", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::BinaryExpression* System::Linq::Expressions::BinaryExpression::New_ctor(::System::Linq::Expressions::Expression*  left, ::System::Linq::Expressions::Expression*  right)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::BinaryExpression*>(left, right));
+inline ::System::Linq::Expressions::BinaryExpression* System::Linq::Expressions::BinaryExpression::New_ctor(::System::Linq::Expressions::Expression* left,
+                                                                                                            ::System::Linq::Expressions::Expression* right) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Expressions::BinaryExpression*>(left, right));
 }
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::BinaryExpression::BinaryExpression()   {
-}
+constexpr ::System::Linq::Expressions::BinaryExpression::BinaryExpression() {}

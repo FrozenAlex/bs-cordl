@@ -4,105 +4,78 @@
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
 //  Writing Method size for method: ::System::Configuration::ConfigurationElement.get_Properties
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Configuration::ConfigurationElement::*)()>(&::System::Configuration::ConfigurationElement::get_Properties)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Configuration::ConfigurationElement::*)()>(
+    &::System::Configuration::ConfigurationElement::get_Properties)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x5e16ef4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Configuration::ConfigurationElement*>(), { ::i2c::class_of<::System::Configuration::ConfigurationElement*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Configuration::ConfigurationElement.IsModified
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Configuration::ConfigurationElement::*)()>(&::System::Configuration::ConfigurationElement::IsModified)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Configuration::ConfigurationElement::*)()>(&::System::Configuration::ConfigurationElement::IsModified)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x5e16f30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Configuration::ConfigurationElement*>(), { ::i2c::class_of<::System::Configuration::ConfigurationElement*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Configuration::ConfigurationElement.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::ConfigurationElement::*)(::System::Configuration::ConfigurationElement*)>(&::System::Configuration::ConfigurationElement::Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::ConfigurationElement::*)(::System::Configuration::ConfigurationElement*)>(
+    &::System::Configuration::ConfigurationElement::Reset)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x5e16f6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Configuration::ConfigurationElement*>(), { ::i2c::class_of<::System::Configuration::ConfigurationElement*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Configuration::ConfigurationElement.ResetModified
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::ConfigurationElement::*)()>(&::System::Configuration::ConfigurationElement::ResetModified)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::ConfigurationElement::*)()>(&::System::Configuration::ConfigurationElement::ResetModified)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x5e16fa8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Configuration::ConfigurationElement*>(), { ::i2c::class_of<::System::Configuration::ConfigurationElement*>(), 7 }));
     return ___internal_method;
   }
 };
-inline ::System::Configuration::ConfigurationPropertyCollection* System::Configuration::ConfigurationElement::get_Properties()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Configuration::ConfigurationPropertyCollection*, false>(this, ___internal_method);
+inline ::System::Configuration::ConfigurationPropertyCollection* System::Configuration::ConfigurationElement::get_Properties() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Configuration::ConfigurationElement*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Configuration::ConfigurationPropertyCollection*>(this, ___internal_method);
 }
-inline bool System::Configuration::ConfigurationElement::IsModified()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Configuration::ConfigurationElement::IsModified() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Configuration::ConfigurationElement*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void System::Configuration::ConfigurationElement::Reset(::System::Configuration::ConfigurationElement*  parentElement)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parentElement);
+inline void System::Configuration::ConfigurationElement::Reset(::System::Configuration::ConfigurationElement* parentElement) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Configuration::ConfigurationElement*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentElement);
 }
-inline void System::Configuration::ConfigurationElement::ResetModified()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::ConfigurationElement*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Configuration::ConfigurationElement::ResetModified() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Configuration::ConfigurationElement*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Configuration::ConfigurationElement::ConfigurationElement()   {
-}
+constexpr ::System::Configuration::ConfigurationElement::ConfigurationElement() {}

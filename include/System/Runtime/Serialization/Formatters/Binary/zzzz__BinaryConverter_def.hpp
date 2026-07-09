@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryConverter.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryConverter)
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -42,51 +42,58 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryConverter;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryConverter);
+MARK_REF_T(::System::Runtime::Serialization::Formatters::Binary::BinaryConverter*);
+DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::Formatters::Binary::BinaryConverter*, "System.Runtime.Serialization.Formatters.Binary", "BinaryConverter");
 // Dependencies System.Object
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryConverter
 class CORDL_TYPE BinaryConverter : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetBinaryTypeInfo, addr 0x5a1a554, size 0x2f0, virtual false, abstract: false, final false
-static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetBinaryTypeInfo(::System::Type*  type, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*  objectInfo, ::StringW  typeName, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*  objectWriter, ::ByRef<::System::Object*>  typeInformation, ::ByRef<int32_t>  assemId) ;
+  // Declarations
+  /// @brief Method GetBinaryTypeInfo, addr 0x5a1a554, size 0x2f0, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum
+  GetBinaryTypeInfo(::System::Type* type, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::StringW typeName,
+                    ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, ::by_ref<::System::Object*> typeInformation, ::by_ref<int32_t> assemId);
 
-/// @brief Method GetParserBinaryTypeInfo, addr 0x5a1aaf0, size 0x1d8, virtual false, abstract: false, final false
-static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(::System::Type*  type, ::ByRef<::System::Object*>  typeInformation) ;
+  /// @brief Method GetParserBinaryTypeInfo, addr 0x5a1aaf0, size 0x1d8, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(::System::Type* type, ::by_ref<::System::Object*> typeInformation);
 
-/// @brief Method ReadTypeInfo, addr 0x5a1b07c, size 0x1f4, virtual false, abstract: false, final false
-static inline ::System::Object* ReadTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum  binaryTypeEnum, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*  input, ::ByRef<int32_t>  assemId) ;
+  /// @brief Method ReadTypeInfo, addr 0x5a1b07c, size 0x1f4, virtual false, abstract: false, final false
+  static inline ::System::Object* ReadTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum,
+                                               ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ::by_ref<int32_t> assemId);
 
-/// @brief Method TypeFromInfo, addr 0x5a1b270, size 0x350, virtual false, abstract: false, final false
-static inline void TypeFromInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum  binaryTypeEnum, ::System::Object*  typeInformation, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*  objectReader, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*  assemblyInfo, ::ByRef<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>  primitiveTypeEnum, ::ByRef<::StringW>  typeString, ::ByRef<::System::Type*>  type, ::ByRef<bool>  isVariant) ;
+  /// @brief Method TypeFromInfo, addr 0x5a1b270, size 0x350, virtual false, abstract: false, final false
+  static inline void TypeFromInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation,
+                                  ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader,
+                                  ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo,
+                                  ::by_ref<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> primitiveTypeEnum, ::by_ref<::StringW> typeString,
+                                  ::by_ref<::System::Type*> type, ::by_ref<bool> isVariant);
 
-/// @brief Method WriteTypeInfo, addr 0x5a1adec, size 0x234, virtual false, abstract: false, final false
-static inline void WriteTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum  binaryTypeEnum, ::System::Object*  typeInformation, int32_t  assemId, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*  sout) ;
+  /// @brief Method WriteTypeInfo, addr 0x5a1adec, size 0x234, virtual false, abstract: false, final false
+  static inline void WriteTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation, int32_t assemId,
+                                   ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BinaryConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinaryConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BinaryConverter(BinaryConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BinaryConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BinaryConverter(BinaryConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BinaryConverter(BinaryConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BinaryConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BinaryConverter(BinaryConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3268 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3268};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryConverter, 0x10>, "Size mismatch!");
+static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::BinaryConverter) == 0x10, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization::Formatters::Binary
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryConverter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryConverter*, "System.Runtime.Serialization.Formatters.Binary", "BinaryConverter");
+} // namespace System::Runtime::Serialization::Formatters::Binary

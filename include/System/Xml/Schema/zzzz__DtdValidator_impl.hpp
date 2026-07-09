@@ -17,763 +17,558 @@
 #include "System/Xml/zzzz__XmlValidatingReaderImpl_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator_NamespaceManager.LookupNamespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::DtdValidator_NamespaceManager::*)(::StringW)>(&::System::Xml::Schema::DtdValidator_NamespaceManager::LookupNamespace)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::DtdValidator_NamespaceManager::*)(::StringW)>(
+    &::System::Xml::Schema::DtdValidator_NamespaceManager::LookupNamespace)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x608d9b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator_NamespaceManager*>(),
+                                                                                          { ::i2c::class_of<::System::Xml::Schema::DtdValidator_NamespaceManager*>(), 16 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator_NamespaceManager._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator_NamespaceManager::*)()>(&::System::Xml::Schema::DtdValidator_NamespaceManager::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator_NamespaceManager::*)()>(&::System::Xml::Schema::DtdValidator_NamespaceManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x608d9b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator_NamespaceManager*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::StringW System::Xml::Schema::DtdValidator_NamespaceManager::LookupNamespace(::StringW  prefix)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, prefix);
+inline ::StringW System::Xml::Schema::DtdValidator_NamespaceManager::LookupNamespace(::StringW prefix) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::DtdValidator_NamespaceManager*>(), 16 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, prefix);
 }
-inline void System::Xml::Schema::DtdValidator_NamespaceManager::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator_NamespaceManager*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator_NamespaceManager::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator_NamespaceManager*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::DtdValidator_NamespaceManager* System::Xml::Schema::DtdValidator_NamespaceManager::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::DtdValidator_NamespaceManager*>());
+inline ::System::Xml::Schema::DtdValidator_NamespaceManager* System::Xml::Schema::DtdValidator_NamespaceManager::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::DtdValidator_NamespaceManager*>());
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::DtdValidator_NamespaceManager::DtdValidator_NamespaceManager()   {
-}
+constexpr ::System::Xml::Schema::DtdValidator_NamespaceManager::DtdValidator_NamespaceManager() {}
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlValidatingReaderImpl*, ::System::Xml::IValidationEventHandling*, bool)>(&::System::Xml::Schema::DtdValidator::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlValidatingReaderImpl*, ::System::Xml::IValidationEventHandling*, bool)>(
+    &::System::Xml::Schema::DtdValidator::_ctor)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x608b480;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlValidatingReaderImpl*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IValidationEventHandling*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(),
+                            { ".ctor", {}, { ::i2c::type_of<::System::Xml::XmlValidatingReaderImpl*>(), ::i2c::type_of<::System::Xml::IValidationEventHandling*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::Init)> {
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x608b524;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "Init", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.Validate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::Validate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::Validate)> {
   constexpr static std::size_t size = 0x228;
   constexpr static std::size_t addrs = 0x608b740;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { ::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.MeetsStandAloneConstraint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::MeetsStandAloneConstraint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::MeetsStandAloneConstraint)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x608ba78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "MeetsStandAloneConstraint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "MeetsStandAloneConstraint", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.ValidatePIComment
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidatePIComment)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidatePIComment)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x608bb2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidatePIComment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidatePIComment", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.ValidateElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x608b968;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateElement", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.ValidateChildElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateChildElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateChildElement)> {
   constexpr static std::size_t size = 0x148;
   constexpr static std::size_t addrs = 0x608bef8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateChildElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateChildElement", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.ValidateStartElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateStartElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateStartElement)> {
   constexpr static std::size_t size = 0x458;
   constexpr static std::size_t addrs = 0x608c158;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateStartElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateStartElement", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.ValidateEndStartElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateEndStartElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateEndStartElement)> {
   constexpr static std::size_t size = 0x1a0;
   constexpr static std::size_t addrs = 0x608cb2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateEndStartElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateEndStartElement", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.ProcessElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ProcessElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ProcessElement)> {
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x608c040;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ProcessElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ProcessElement", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.CompleteValidation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::CompleteValidation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x608cccc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { ::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.ValidateEndElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateEndElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::ValidateEndElement)> {
   constexpr static std::size_t size = 0x198;
   constexpr static std::size_t addrs = 0x608bd60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateEndElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateEndElement", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.get_PreserveWhitespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::get_PreserveWhitespace)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::get_PreserveWhitespace)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x608cec8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { ::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.ProcessTokenizedType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlTokenizedType, ::StringW)>(&::System::Xml::Schema::DtdValidator::ProcessTokenizedType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlTokenizedType, ::StringW)>(
+    &::System::Xml::Schema::DtdValidator::ProcessTokenizedType)> {
   constexpr static std::size_t size = 0x20c;
   constexpr static std::size_t addrs = 0x608cf08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ProcessTokenizedType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlTokenizedType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(),
+                                                             { "ProcessTokenizedType", {}, { ::i2c::type_of<::System::Xml::XmlTokenizedType>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.CheckValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::StringW, ::System::Xml::Schema::SchemaAttDef*)>(&::System::Xml::Schema::DtdValidator::CheckValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::StringW, ::System::Xml::Schema::SchemaAttDef*)>(
+    &::System::Xml::Schema::DtdValidator::CheckValue)> {
   constexpr static std::size_t size = 0x57c;
   constexpr static std::size_t addrs = 0x608c5b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "CheckValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "CheckValue", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.AddID
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::StringW, ::System::Object*)>(&::System::Xml::Schema::DtdValidator::AddID)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::StringW, ::System::Object*)>(&::System::Xml::Schema::DtdValidator::AddID)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x608d114;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "AddID",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "AddID", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.FindId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::DtdValidator::*)(::StringW)>(&::System::Xml::Schema::DtdValidator::FindId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::DtdValidator::*)(::StringW)>(&::System::Xml::Schema::DtdValidator::FindId)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x608d1ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { ::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.GenEntity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::DtdValidator::GenEntity)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::DtdValidator::GenEntity)> {
   constexpr static std::size_t size = 0x170;
   constexpr static std::size_t addrs = 0x608bbf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "GenEntity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "GenEntity", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.GetEntity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaEntity* (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlQualifiedName*, bool)>(&::System::Xml::Schema::DtdValidator::GetEntity)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::SchemaEntity* (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlQualifiedName*, bool)>(
+    &::System::Xml::Schema::DtdValidator::GetEntity)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x608d1c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "GetEntity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(),
+                                                                                           { "GetEntity", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.CheckForwardRefs
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::CheckForwardRefs)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::CheckForwardRefs)> {
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x608cdbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "CheckForwardRefs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "CheckForwardRefs", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.Push
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::DtdValidator::Push)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DtdValidator::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::DtdValidator::Push)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x608b65c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "Push",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "Push", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.Pop
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::Pop)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::DtdValidator::*)()>(&::System::Xml::Schema::DtdValidator::Pop)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x608cd14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "Pop",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "Pop", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.SetDefaultTypedValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::SchemaAttDef*, ::System::Xml::IDtdParserAdapter*)>(&::System::Xml::Schema::DtdValidator::SetDefaultTypedValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::Schema::SchemaAttDef*, ::System::Xml::IDtdParserAdapter*)>(&::System::Xml::Schema::DtdValidator::SetDefaultTypedValue)> {
   constexpr static std::size_t size = 0x308;
   constexpr static std::size_t addrs = 0x608d274;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "SetDefaultTypedValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(),
+                                                { "SetDefaultTypedValue", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>(), ::i2c::type_of<::System::Xml::IDtdParserAdapter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::DtdValidator.CheckDefaultValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::SchemaAttDef*, ::System::Xml::Schema::SchemaInfo*, ::System::Xml::IValidationEventHandling*, ::StringW)>(&::System::Xml::Schema::DtdValidator::CheckDefaultValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::Schema::SchemaAttDef*, ::System::Xml::Schema::SchemaInfo*, ::System::Xml::IValidationEventHandling*, ::StringW)>(
+    &::System::Xml::Schema::DtdValidator::CheckDefaultValue)> {
   constexpr static std::size_t size = 0x3c8;
   constexpr static std::size_t addrs = 0x608d57c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "CheckDefaultValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IValidationEventHandling*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "CheckDefaultValue",
+                                                                                       {},
+                                                                                       { ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>(), ::i2c::type_of<::System::Xml::Schema::SchemaInfo*>(),
+                                                                                         ::i2c::type_of<::System::Xml::IValidationEventHandling*>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::HWStack*& System::Xml::Schema::DtdValidator::__cordl_internal_get_validationStack()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___validationStack;
+constexpr ::System::Xml::HWStack*& System::Xml::Schema::DtdValidator::__cordl_internal_get_validationStack() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___validationStack;
 }
 constexpr ::System::Xml::HWStack* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_validationStack() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___validationStack;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___validationStack;
 }
-constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_validationStack(::System::Xml::HWStack*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___validationStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_validationStack(::System::Xml::HWStack* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___validationStack = value;
 }
-constexpr ::System::Collections::Hashtable*& System::Xml::Schema::DtdValidator::__cordl_internal_get_attPresence()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attPresence;
+constexpr ::System::Collections::Hashtable*& System::Xml::Schema::DtdValidator::__cordl_internal_get_attPresence() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attPresence;
 }
 constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_attPresence() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attPresence;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attPresence;
 }
-constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_attPresence(::System::Collections::Hashtable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attPresence)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_attPresence(::System::Collections::Hashtable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___attPresence = value;
 }
-constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::DtdValidator::__cordl_internal_get_name()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::DtdValidator::__cordl_internal_get_name() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
 constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_name() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
-constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_name(::System::Xml::XmlQualifiedName*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_name(::System::Xml::XmlQualifiedName* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___name = value;
 }
-constexpr ::System::Collections::Hashtable*& System::Xml::Schema::DtdValidator::__cordl_internal_get_IDs()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___IDs;
+constexpr ::System::Collections::Hashtable*& System::Xml::Schema::DtdValidator::__cordl_internal_get_IDs() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___IDs;
 }
 constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_IDs() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___IDs;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___IDs;
 }
-constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_IDs(::System::Collections::Hashtable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___IDs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_IDs(::System::Collections::Hashtable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___IDs = value;
 }
-constexpr ::System::Xml::Schema::IdRefNode*& System::Xml::Schema::DtdValidator::__cordl_internal_get_idRefListHead()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___idRefListHead;
+constexpr ::System::Xml::Schema::IdRefNode*& System::Xml::Schema::DtdValidator::__cordl_internal_get_idRefListHead() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___idRefListHead;
 }
 constexpr ::System::Xml::Schema::IdRefNode* const& System::Xml::Schema::DtdValidator::__cordl_internal_get_idRefListHead() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___idRefListHead;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___idRefListHead;
 }
-constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_idRefListHead(::System::Xml::Schema::IdRefNode*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___idRefListHead)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_idRefListHead(::System::Xml::Schema::IdRefNode* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___idRefListHead = value;
 }
-constexpr bool& System::Xml::Schema::DtdValidator::__cordl_internal_get_processIdentityConstraints()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___processIdentityConstraints;
+constexpr bool& System::Xml::Schema::DtdValidator::__cordl_internal_get_processIdentityConstraints() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___processIdentityConstraints;
 }
 constexpr bool const& System::Xml::Schema::DtdValidator::__cordl_internal_get_processIdentityConstraints() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___processIdentityConstraints;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___processIdentityConstraints;
 }
-constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_processIdentityConstraints(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___processIdentityConstraints = value;
+constexpr void System::Xml::Schema::DtdValidator::__cordl_internal_set_processIdentityConstraints(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___processIdentityConstraints = value;
 }
-inline void System::Xml::Schema::DtdValidator::setStaticF_namespaceManager(::System::Xml::Schema::DtdValidator_NamespaceManager*  value)  {
-::cordl_internals::setStaticField<::System::Xml::Schema::DtdValidator_NamespaceManager*, "namespaceManager", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get>(std::forward<::System::Xml::Schema::DtdValidator_NamespaceManager*>(value));
+inline void System::Xml::Schema::DtdValidator::setStaticF_namespaceManager(::System::Xml::Schema::DtdValidator_NamespaceManager* value) {
+  ::cordl_internals::setStaticField<::System::Xml::Schema::DtdValidator_NamespaceManager*, "namespaceManager", ::System::Xml::Schema::DtdValidator*>(
+      std::forward<::System::Xml::Schema::DtdValidator_NamespaceManager*>(value));
 }
-inline ::System::Xml::Schema::DtdValidator_NamespaceManager* System::Xml::Schema::DtdValidator::getStaticF_namespaceManager()  {
-return ::cordl_internals::getStaticField<::System::Xml::Schema::DtdValidator_NamespaceManager*, "namespaceManager", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get>();
+inline ::System::Xml::Schema::DtdValidator_NamespaceManager* System::Xml::Schema::DtdValidator::getStaticF_namespaceManager() {
+  return ::cordl_internals::getStaticField<::System::Xml::Schema::DtdValidator_NamespaceManager*, "namespaceManager", ::System::Xml::Schema::DtdValidator*>();
 }
-inline void System::Xml::Schema::DtdValidator::_ctor(::System::Xml::XmlValidatingReaderImpl*  reader, ::System::Xml::IValidationEventHandling*  eventHandling, bool  processIdentityConstraints)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlValidatingReaderImpl*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IValidationEventHandling*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, eventHandling, processIdentityConstraints);
+inline void System::Xml::Schema::DtdValidator::_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::IValidationEventHandling* eventHandling, bool processIdentityConstraints) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(),
+                          { ".ctor", {}, { ::i2c::type_of<::System::Xml::XmlValidatingReaderImpl*>(), ::i2c::type_of<::System::Xml::IValidationEventHandling*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, eventHandling, processIdentityConstraints);
 }
-inline void System::Xml::Schema::DtdValidator::Init()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::Init() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "Init", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::Validate()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::Validate() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Xml::Schema::DtdValidator::MeetsStandAloneConstraint()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "MeetsStandAloneConstraint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Xml::Schema::DtdValidator::MeetsStandAloneConstraint() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "MeetsStandAloneConstraint", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::ValidatePIComment()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidatePIComment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::ValidatePIComment() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidatePIComment", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::ValidateElement()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::ValidateElement() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateElement", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::ValidateChildElement()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateChildElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::ValidateChildElement() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateChildElement", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::ValidateStartElement()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateStartElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::ValidateStartElement() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateStartElement", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::ValidateEndStartElement()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateEndStartElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::ValidateEndStartElement() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateEndStartElement", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::ProcessElement()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ProcessElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::ProcessElement() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ProcessElement", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::CompleteValidation()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::CompleteValidation() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::ValidateEndElement()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ValidateEndElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::ValidateEndElement() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "ValidateEndElement", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Xml::Schema::DtdValidator::get_PreserveWhitespace()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Xml::Schema::DtdValidator::get_PreserveWhitespace() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::ProcessTokenizedType(::System::Xml::XmlTokenizedType  ttype, ::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "ProcessTokenizedType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlTokenizedType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ttype, name);
+inline void System::Xml::Schema::DtdValidator::ProcessTokenizedType(::System::Xml::XmlTokenizedType ttype, ::StringW name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(),
+                                                           { "ProcessTokenizedType", {}, { ::i2c::type_of<::System::Xml::XmlTokenizedType>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ttype, name);
 }
-inline void System::Xml::Schema::DtdValidator::CheckValue(::StringW  value, ::System::Xml::Schema::SchemaAttDef*  attdef)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "CheckValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, attdef);
+inline void System::Xml::Schema::DtdValidator::CheckValue(::StringW value, ::System::Xml::Schema::SchemaAttDef* attdef) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "CheckValue", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, attdef);
 }
-inline void System::Xml::Schema::DtdValidator::AddID(::StringW  name, ::System::Object*  node)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "AddID",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, node);
+inline void System::Xml::Schema::DtdValidator::AddID(::StringW name, ::System::Object* node) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "AddID", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, node);
 }
-inline ::System::Object* System::Xml::Schema::DtdValidator::FindId(::StringW  name)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, name);
+inline ::System::Object* System::Xml::Schema::DtdValidator::FindId(::StringW name) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, name);
 }
-inline bool System::Xml::Schema::DtdValidator::GenEntity(::System::Xml::XmlQualifiedName*  qname)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "GenEntity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, qname);
+inline bool System::Xml::Schema::DtdValidator::GenEntity(::System::Xml::XmlQualifiedName* qname) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "GenEntity", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, qname);
 }
-inline ::System::Xml::Schema::SchemaEntity* System::Xml::Schema::DtdValidator::GetEntity(::System::Xml::XmlQualifiedName*  qname, bool  fParameterEntity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "GetEntity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SchemaEntity*, false>(this, ___internal_method, qname, fParameterEntity);
+inline ::System::Xml::Schema::SchemaEntity* System::Xml::Schema::DtdValidator::GetEntity(::System::Xml::XmlQualifiedName* qname, bool fParameterEntity) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "GetEntity", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SchemaEntity*>(this, ___internal_method, qname, fParameterEntity);
 }
-inline void System::Xml::Schema::DtdValidator::CheckForwardRefs()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "CheckForwardRefs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::DtdValidator::CheckForwardRefs() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "CheckForwardRefs", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::Push(::System::Xml::XmlQualifiedName*  elementName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "Push",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, elementName);
+inline void System::Xml::Schema::DtdValidator::Push(::System::Xml::XmlQualifiedName* elementName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "Push", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, elementName);
 }
-inline bool System::Xml::Schema::DtdValidator::Pop()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "Pop",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Xml::Schema::DtdValidator::Pop() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "Pop", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void System::Xml::Schema::DtdValidator::SetDefaultTypedValue(::System::Xml::Schema::SchemaAttDef*  attdef, ::System::Xml::IDtdParserAdapter*  readerAdapter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "SetDefaultTypedValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, attdef, readerAdapter);
+inline void System::Xml::Schema::DtdValidator::SetDefaultTypedValue(::System::Xml::Schema::SchemaAttDef* attdef, ::System::Xml::IDtdParserAdapter* readerAdapter) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(),
+                                              { "SetDefaultTypedValue", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>(), ::i2c::type_of<::System::Xml::IDtdParserAdapter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, attdef, readerAdapter);
 }
-inline void System::Xml::Schema::DtdValidator::CheckDefaultValue(::System::Xml::Schema::SchemaAttDef*  attdef, ::System::Xml::Schema::SchemaInfo*  sinfo, ::System::Xml::IValidationEventHandling*  eventHandling, ::StringW  baseUriStr)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DtdValidator*>::get(),
-                        "CheckDefaultValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IValidationEventHandling*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, attdef, sinfo, eventHandling, baseUriStr);
+inline void System::Xml::Schema::DtdValidator::CheckDefaultValue(::System::Xml::Schema::SchemaAttDef* attdef, ::System::Xml::Schema::SchemaInfo* sinfo,
+                                                                 ::System::Xml::IValidationEventHandling* eventHandling, ::StringW baseUriStr) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DtdValidator*>(), { "CheckDefaultValue",
+                                                                                     {},
+                                                                                     { ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>(), ::i2c::type_of<::System::Xml::Schema::SchemaInfo*>(),
+                                                                                       ::i2c::type_of<::System::Xml::IValidationEventHandling*>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, attdef, sinfo, eventHandling, baseUriStr);
 }
-inline ::System::Xml::Schema::DtdValidator* System::Xml::Schema::DtdValidator::New_ctor(::System::Xml::XmlValidatingReaderImpl*  reader, ::System::Xml::IValidationEventHandling*  eventHandling, bool  processIdentityConstraints)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::DtdValidator*>(reader, eventHandling, processIdentityConstraints));
+inline ::System::Xml::Schema::DtdValidator* System::Xml::Schema::DtdValidator::New_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::IValidationEventHandling* eventHandling,
+                                                                                        bool processIdentityConstraints) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::DtdValidator*>(reader, eventHandling, processIdentityConstraints));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::DtdValidator::DtdValidator()   {
-}
+constexpr ::System::Xml::Schema::DtdValidator::DtdValidator() {}

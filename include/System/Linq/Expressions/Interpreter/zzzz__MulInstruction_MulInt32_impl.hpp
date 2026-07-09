@@ -4,59 +4,42 @@
 #include "System/Linq/Expressions/Interpreter/zzzz__MulInstruction_MulInt32_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MulInstruction_MulInt32.Run
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MulInstruction_MulInt32::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::MulInstruction_MulInt32::Run)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MulInstruction_MulInt32::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
+    &::GlobalNamespace::MulInstruction_MulInt32::Run)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x5e74bd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MulInstruction_MulInt32*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MulInstruction_MulInt32*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MulInstruction_MulInt32*>(), { ::i2c::class_of<::GlobalNamespace::MulInstruction_MulInt32*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MulInstruction_MulInt32._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MulInstruction_MulInt32::*)()>(&::GlobalNamespace::MulInstruction_MulInt32::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MulInstruction_MulInt32::*)()>(&::GlobalNamespace::MulInstruction_MulInt32::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e74aa8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MulInstruction_MulInt32*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MulInstruction_MulInt32*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline int32_t GlobalNamespace::MulInstruction_MulInt32::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MulInstruction_MulInt32*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+inline int32_t GlobalNamespace::MulInstruction_MulInt32::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MulInstruction_MulInt32*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
 }
-inline void GlobalNamespace::MulInstruction_MulInt32::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MulInstruction_MulInt32*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MulInstruction_MulInt32::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MulInstruction_MulInt32*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MulInstruction_MulInt32* GlobalNamespace::MulInstruction_MulInt32::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MulInstruction_MulInt32*>());
+inline ::GlobalNamespace::MulInstruction_MulInt32* GlobalNamespace::MulInstruction_MulInt32::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MulInstruction_MulInt32*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MulInstruction_MulInt32::MulInstruction_MulInt32()   {
-}
+constexpr ::GlobalNamespace::MulInstruction_MulInt32::MulInstruction_MulInt32() {}

@@ -6,92 +6,81 @@
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)()>(&::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)()>(
+    &::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x331744c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper.CalculatePrivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
+    ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*, ::Org::BouncyCastle::Security::SecureRandom*)>(
+    &::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate)> {
   constexpr static std::size_t size = 0x1d4;
   constexpr static std::size_t addrs = 0x3317248;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>::get(),
-                        "CalculatePrivate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>(),
+                            { "CalculatePrivate", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>(), ::i2c::type_of<::Org::BouncyCastle::Security::SecureRandom*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper.CalculatePublic
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
+    ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*, ::Org::BouncyCastle::Math::BigInteger*)>(
+    &::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x331741c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>::get(),
-                        "CalculatePublic",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>(),
+                            { "CalculatePublic", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>(), ::i2c::type_of<::Org::BouncyCastle::Math::BigInteger*>() } })));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::setStaticF_Instance(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*  value)  {
-::cordl_internals::setStaticField<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>::get>(std::forward<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>(value));
+inline void Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::setStaticF_Instance(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* value) {
+  ::cordl_internals::setStaticField<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*, "Instance", ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>(
+      std::forward<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>(value));
 }
-inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::getStaticF_Instance()  {
-return ::cordl_internals::getStaticField<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>::get>();
+inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::getStaticF_Instance() {
+  return ::cordl_internals::getStaticField<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*, "Instance", ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>();
 }
-inline void Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters*  dhParams, ::Org::BouncyCastle::Security::SecureRandom*  random)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>::get(),
-                        "CalculatePrivate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method, dhParams, random);
+inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams,
+                                                                                                                            ::Org::BouncyCastle::Security::SecureRandom* random) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>(),
+                          { "CalculatePrivate", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>(), ::i2c::type_of<::Org::BouncyCastle::Security::SecureRandom*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*>(this, ___internal_method, dhParams, random);
 }
-inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters*  dhParams, ::Org::BouncyCastle::Math::BigInteger*  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>::get(),
-                        "CalculatePublic",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method, dhParams, x);
+inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams,
+                                                                                                                           ::Org::BouncyCastle::Math::BigInteger* x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>(),
+                          { "CalculatePublic", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>(), ::i2c::type_of<::Org::BouncyCastle::Math::BigInteger*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*>(this, ___internal_method, dhParams, x);
 }
-inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>());
+inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*>());
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::DHKeyGeneratorHelper()   {
-}
+constexpr ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::DHKeyGeneratorHelper() {}

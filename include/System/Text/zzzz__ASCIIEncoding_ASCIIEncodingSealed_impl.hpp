@@ -3,34 +3,23 @@
 #include "System/Text/zzzz__ASCIIEncoding_impl.hpp"
 #include "System/Text/zzzz__ASCIIEncoding_ASCIIEncodingSealed_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::*)()>(&::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::*)()>(&::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::_ctor)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x5b8e914;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed* GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed*>());
+inline ::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed* GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::ASCIIEncoding_ASCIIEncodingSealed()   {
-}
+constexpr ::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed::ASCIIEncoding_ASCIIEncodingSealed() {}

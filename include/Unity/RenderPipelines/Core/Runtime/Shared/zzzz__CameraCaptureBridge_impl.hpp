@@ -8,31 +8,27 @@
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 //  Writing Method size for method: ::Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge.GetCachedCaptureActionsEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier,::UnityEngine::Rendering::CommandBuffer*>*>* (*)(::UnityEngine::Camera*)>(&::Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge::GetCachedCaptureActionsEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
+    ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>* (*)(::UnityEngine::Camera*)>(
+    &::Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge::GetCachedCaptureActionsEnumerator)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6617d94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge*>::get(),
-                        "GetCachedCaptureActionsEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge*>(),
+                                                                                           { "GetCachedCaptureActionsEnumerator", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
     return ___internal_method;
   }
 };
-inline ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier,::UnityEngine::Rendering::CommandBuffer*>*>* Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge::GetCachedCaptureActionsEnumerator(::UnityEngine::Camera*  camera)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge*>::get(),
-                        "GetCachedCaptureActionsEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier,::UnityEngine::Rendering::CommandBuffer*>*>*, false>(nullptr, ___internal_method, camera);
+inline ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>*
+Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge::GetCachedCaptureActionsEnumerator(::UnityEngine::Camera* camera) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge*>(),
+                                                                                         { "GetCachedCaptureActionsEnumerator", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
+  return ::cordl_internals::RunMethodRethrow<
+      ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>*>(nullptr, ___internal_method,
+                                                                                                                                                                       camera);
 }
 // Ctor Parameters []
-constexpr ::Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge::CameraCaptureBridge()   {
-}
+constexpr ::Unity::RenderPipelines::Core::Runtime::Shared::CameraCaptureBridge::CameraCaptureBridge() {}

@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/TimeStampTokenEvidence.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__TimeStampAndCrl_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__TimeStampTokenEvidence_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__TimeStampAndCrl_def.hpp"
@@ -8,206 +9,163 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>)>(&::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>)>(
+    &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x32a5a0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*)>(&::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*)>(
+    &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x32a5a14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
+    &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor)> {
   constexpr static std::size_t size = 0x378;
   constexpr static std::size_t addrs = 0x32a5ab4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence.GetInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
+    &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x32a5e2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(),
+                                                             { "GetInstance", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence.GetInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* (*)(::System::Object*)>(
+    &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x32a5e40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence.ToTimeStampAndCrlArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)()>(&::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToTimeStampAndCrlArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*> (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)()>(
+    &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToTimeStampAndCrlArray)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x32a5ee0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(),
+                                                                                          { ::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence.ToAsn1Object
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)()>(&::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToAsn1Object)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)()>(
+    &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToAsn1Object)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x32a5f58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(),
+                                                                                          { ::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(), 5 }));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>& Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::__cordl_internal_get_timeStampAndCrls()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___timeStampAndCrls;
+constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>& Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::__cordl_internal_get_timeStampAndCrls() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___timeStampAndCrls;
 }
-constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> const& Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::__cordl_internal_get_timeStampAndCrls() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___timeStampAndCrls;
+constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*> const& Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::__cordl_internal_get_timeStampAndCrls() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___timeStampAndCrls;
 }
-constexpr void Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::__cordl_internal_set_timeStampAndCrls(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___timeStampAndCrls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::__cordl_internal_set_timeStampAndCrls(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___timeStampAndCrls = value;
 }
-inline void Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>  timeStampAndCrls)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, timeStampAndCrls);
+inline void Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*> timeStampAndCrls) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, timeStampAndCrls);
 }
-inline void Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*  timeStampAndCrl)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, timeStampAndCrl);
+inline void Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* timeStampAndCrl) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, timeStampAndCrl);
 }
-inline void Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
+inline void Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, seq);
 }
-inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  tagged, bool  isExplicit)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*, false>(nullptr, ___internal_method, tagged, isExplicit);
+inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged, bool isExplicit) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(),
+                                                           { "GetInstance", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(nullptr, ___internal_method, tagged, isExplicit);
 }
-inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance(::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*, false>(nullptr, ___internal_method, obj);
+inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance(::System::Object* obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(nullptr, ___internal_method, obj);
 }
-inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToTimeStampAndCrlArray()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*> Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToTimeStampAndCrlArray() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToAsn1Object()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToAsn1Object() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>  timeStampAndCrls)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(timeStampAndCrls));
+inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*
+Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*> timeStampAndCrls) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(timeStampAndCrls));
 }
-inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::New_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*  timeStampAndCrl)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(timeStampAndCrl));
+inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::New_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* timeStampAndCrl) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(timeStampAndCrl));
 }
-inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(seq));
+inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*>(seq));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::TimeStampTokenEvidence()   {
-}
+constexpr ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::TimeStampTokenEvidence() {}

@@ -14,433 +14,357 @@
 #include "System/zzzz__Func_4_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5929fdc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c.__cctor_b__4_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(float_t)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(float_t)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_0)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5929fe0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(), { "<.cctor>b__4_0", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c.__cctor_b__4_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(int32_t, int32_t, int32_t)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(int32_t, int32_t, int32_t)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_1)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x5929fe4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(),
+                                                             { "<.cctor>b__4_1", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c.__cctor_b__4_2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(int32_t, int32_t, float_t)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(int32_t, int32_t, float_t)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_2)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x592a028;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(),
+                                                             { "<.cctor>b__4_2", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c.__cctor_b__4_3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(float_t)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_3)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(float_t)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_3)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x592a130;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(), { "<.cctor>b__4_3", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c.__cctor_b__4_4
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(bool, bool, bool)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_4)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(bool, bool, bool)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_4)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x592a14c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(),
+                                                                                           { "<.cctor>b__4_4", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c.__cctor_b__4_5
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(bool, bool, float_t)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_5)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(bool, bool, float_t)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_5)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x592a160;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(),
+                                                                                           { "<.cctor>b__4_5", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c.__cctor_b__4_6
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(float_t)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_6)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(float_t)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_6)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x592a16c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(), { "<.cctor>b__4_6", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
-inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::setStaticF___9(::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*  value)  {
-::cordl_internals::setStaticField<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get>(std::forward<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(value));
+inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::setStaticF___9(::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c* value) {
+  ::cordl_internals::setStaticField<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*, "<>9", ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(
+      std::forward<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(value));
 }
-inline ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c* Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::getStaticF___9()  {
-return ::cordl_internals::getStaticField<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get>();
+inline ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c* Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*, "<>9", ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>();
 }
-inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_0(float_t  f)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, f);
+inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_0(float_t f) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(), { "<.cctor>b__4_0", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, f);
 }
-inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_1(int32_t  start, int32_t  end, int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, start, end, value);
+inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_1(int32_t start, int32_t end, int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(),
+                                                           { "<.cctor>b__4_1", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, start, end, value);
 }
-inline int32_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_2(int32_t  start, int32_t  end, float_t  tween)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, start, end, tween);
+inline int32_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_2(int32_t start, int32_t end, float_t tween) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(),
+                                                           { "<.cctor>b__4_2", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, start, end, tween);
 }
-inline int32_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_3(float_t  f)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, f);
+inline int32_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_3(float_t f) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(), { "<.cctor>b__4_3", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, f);
 }
-inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_4(bool  _, bool  __param_1, bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, _, __param_1, value);
+inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_4(bool _, bool __param_1, bool value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(),
+                                                                                         { "<.cctor>b__4_4", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, _, __param_1, value);
 }
-inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_5(bool  _, bool  __param_1, float_t  tween)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, _, __param_1, tween);
+inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_5(bool _, bool __param_1, float_t tween) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(),
+                                                                                         { "<.cctor>b__4_5", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, _, __param_1, tween);
 }
-inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_6(float_t  f)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
-                        "<.cctor>b__4_6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, f);
+inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_6(float_t f) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>(), { "<.cctor>b__4_6", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, f);
 }
-inline ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c* Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>());
+inline ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c* Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>());
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::TweakUtils___c()   {
-}
+constexpr ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::TweakUtils___c() {}
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils.IsTypeSupported
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupported)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupported)> {
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x5929398;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "IsTypeSupported",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(), { "IsTypeSupported", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils.IsTypeSupportsValueRange
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupportsValueRange)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupportsValueRange)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x59294a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "IsTypeSupportsValueRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(), { "IsTypeSupportsValueRange", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::Tweak* (*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::Tweak* (*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*,
+                                                                                                          ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create)> {
   constexpr static std::size_t size = 0x21c;
   constexpr static std::size_t addrs = 0x5929558;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::DebugMember*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                                                             { "Create",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::DebugMember*>(),
+                                                                 ::i2c::type_of<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* (*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* (*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*,
+                                                                                                              ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::System::Type*)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create)> {
   constexpr static std::size_t size = 0x284;
   constexpr static std::size_t addrs = 0x5929774;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::DebugMember*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                                                             { "Create",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::DebugMember*>(),
+                                                                 ::i2c::type_of<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils.IsMemberValidForTweak
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsMemberValidForTweak)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MemberInfo*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsMemberValidForTweak)> {
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x59299f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "IsMemberValidForTweak",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                                                                                           { "IsMemberValidForTweak", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils.ProcessMinMaxRange
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::ProcessMinMaxRange)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::ProcessMinMaxRange)> {
   constexpr static std::size_t size = 0x260;
   constexpr static std::size_t addrs = 0x5929b7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "ProcessMinMaxRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::DebugMember*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                                                             { "ProcessMinMaxRange",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::DebugMember*>(),
+                                                                 ::i2c::type_of<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils.RoundToNearest
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, ::StringW)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::RoundToNearest)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, ::StringW)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::RoundToNearest)> {
   constexpr static std::size_t size = 0x1ac;
   constexpr static std::size_t addrs = 0x5929ddc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "RoundToNearest",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                                                                                           { "RoundToNearest", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils::setStaticF__types(::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*, "_types", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*>(value));
+inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils::setStaticF__types(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*, "_types", ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>* Meta::XR::ImmersiveDebugger::Manager::TweakUtils::getStaticF__types()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*, "_types", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* Meta::XR::ImmersiveDebugger::Manager::TweakUtils::getStaticF__types() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*, "_types", ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>();
 }
-inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils::setStaticF__supportsValueRange(::System::Collections::Generic::HashSet_1<::System::Type*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<::System::Type*>*, "_supportsValueRange", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get>(std::forward<::System::Collections::Generic::HashSet_1<::System::Type*>*>(value));
+inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils::setStaticF__supportsValueRange(::System::Collections::Generic::HashSet_1<::System::Type*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<::System::Type*>*, "_supportsValueRange", ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(
+      std::forward<::System::Collections::Generic::HashSet_1<::System::Type*>*>(value));
 }
-inline ::System::Collections::Generic::HashSet_1<::System::Type*>* Meta::XR::ImmersiveDebugger::Manager::TweakUtils::getStaticF__supportsValueRange()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<::System::Type*>*, "_supportsValueRange", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get>();
+inline ::System::Collections::Generic::HashSet_1<::System::Type*>* Meta::XR::ImmersiveDebugger::Manager::TweakUtils::getStaticF__supportsValueRange() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<::System::Type*>*, "_supportsValueRange", ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>();
 }
-inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupported(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "IsTypeSupported",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupported(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(), { "IsTypeSupported", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupportsValueRange(::System::Type*  t)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "IsTypeSupportsValueRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, t);
+inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupportsValueRange(::System::Type* t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(), { "IsTypeSupportsValueRange", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, t);
 }
-inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create(::System::Reflection::MemberInfo*  memberInfo, ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  instanceHandle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::DebugMember*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Meta::XR::ImmersiveDebugger::Manager::Tweak*, false>(nullptr, ___internal_method, memberInfo, attribute, instanceHandle);
+inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create(::System::Reflection::MemberInfo* memberInfo,
+                                                                                                               ::Meta::XR::ImmersiveDebugger::DebugMember* attribute,
+                                                                                                               ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                                                           { "Create",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::DebugMember*>(),
+                                                               ::i2c::type_of<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Meta::XR::ImmersiveDebugger::Manager::Tweak*>(nullptr, ___internal_method, memberInfo, attribute, instanceHandle);
 }
-inline ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create(::System::Reflection::MemberInfo*  memberInfo, ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  instanceHandle, ::System::Type*  enumType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::DebugMember*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*, false>(nullptr, ___internal_method, memberInfo, attribute, instanceHandle, enumType);
+inline ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create(::System::Reflection::MemberInfo* memberInfo,
+                                                                                                                   ::Meta::XR::ImmersiveDebugger::DebugMember* attribute,
+                                                                                                                   ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
+                                                                                                                   ::System::Type* enumType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                                                           { "Create",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::DebugMember*>(),
+                                                               ::i2c::type_of<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(nullptr, ___internal_method, memberInfo, attribute, instanceHandle, enumType);
 }
-template<typename T>
-inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Register(::System::Func_4<T,T,T,float_t>*  inverseLerp, ::System::Func_4<T,T,float_t,T>*  lerp, ::System::Func_2<float_t,T>*  fromFloat)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                    "Register",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_4<T,T,T,float_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_4<T,T,float_t,T>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<float_t,T>*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, inverseLerp, lerp, fromFloat);
+template <typename T>
+inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Register(::System::Func_4<T, T, T, float_t>* inverseLerp, ::System::Func_4<T, T, float_t, T>* lerp,
+                                                                       ::System::Func_2<float_t, T>* fromFloat) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                          { "Register",
+                            { ::i2c::class_of<T>() },
+                            { ::i2c::type_of<::System::Func_4<T, T, T, float_t>*>(), ::i2c::type_of<::System::Func_4<T, T, float_t, T>*>(), ::i2c::type_of<::System::Func_2<float_t, T>*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, inverseLerp, lerp, fromFloat);
 }
-inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsMemberValidForTweak(::System::Reflection::MemberInfo*  member)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "IsMemberValidForTweak",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, member);
+inline bool Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsMemberValidForTweak(::System::Reflection::MemberInfo* member) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                                                                                         { "IsMemberValidForTweak", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, member);
 }
-inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils::ProcessMinMaxRange(::System::Reflection::MemberInfo*  member, ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "ProcessMinMaxRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::DebugMember*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, member, attribute, instance);
+inline void Meta::XR::ImmersiveDebugger::Manager::TweakUtils::ProcessMinMaxRange(::System::Reflection::MemberInfo* member, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute,
+                                                                                 ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instance) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(),
+                                                           { "ProcessMinMaxRange",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::DebugMember*>(),
+                                                               ::i2c::type_of<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, member, attribute, instance);
 }
-inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils::RoundToNearest(float_t  value, ::StringW  op)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>::get(),
-                        "RoundToNearest",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, value, op);
+inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakUtils::RoundToNearest(float_t value, ::StringW op) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*>(), { "RoundToNearest", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, value, op);
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::TweakUtils()   {
-}
+constexpr ::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::TweakUtils() {}

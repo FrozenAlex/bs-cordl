@@ -6,213 +6,163 @@
 #include "UnityEngine/zzzz__LODGroup_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupRenderingUtils.CalculateFOVHalfAngle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateFOVHalfAngle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateFOVHalfAngle)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x66ef24c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculateFOVHalfAngle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(), { "CalculateFOVHalfAngle", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupRenderingUtils.CalculateScreenRelativeMetric
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Rendering::LODParameters, float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateScreenRelativeMetric)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Rendering::LODParameters, float_t)>(
+    &::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateScreenRelativeMetric)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x66ef264;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculateScreenRelativeMetric",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::LODParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(),
+                                                             { "CalculateScreenRelativeMetric", {}, { ::i2c::type_of<::UnityEngine::Rendering::LODParameters>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupRenderingUtils.CalculatePerspectiveDistance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculatePerspectiveDistance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
+    &::UnityEngine::Rendering::LODGroupRenderingUtils::CalculatePerspectiveDistance)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x66ef2b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculatePerspectiveDistance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(),
+                                         { "CalculatePerspectiveDistance", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupRenderingUtils.CalculateSqrPerspectiveDistance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateSqrPerspectiveDistance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
+    &::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateSqrPerspectiveDistance)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x66ef2e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculateSqrPerspectiveDistance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(),
+                            { "CalculateSqrPerspectiveDistance", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupRenderingUtils.GetWorldReferencePoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldReferencePoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldReferencePoint)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x66ef30c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "GetWorldReferencePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LODGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(), { "GetWorldReferencePoint", {}, { ::i2c::type_of<::UnityEngine::LODGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupRenderingUtils.GetWorldSpaceScale
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceScale)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceScale)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x66ef350;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "GetWorldSpaceScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LODGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(), { "GetWorldSpaceScale", {}, { ::i2c::type_of<::UnityEngine::LODGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupRenderingUtils.GetWorldSpaceSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceSize)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x66ef394;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "GetWorldSpaceSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LODGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(), { "GetWorldSpaceSize", {}, { ::i2c::type_of<::UnityEngine::LODGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::LODGroupRenderingUtils.CalculateLODDistance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateLODDistance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateLODDistance)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x66ee188;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculateLODDistance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(),
+                                                                                           { "CalculateLODDistance", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
-inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculateFOVHalfAngle(float_t  fieldOfView)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculateFOVHalfAngle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, fieldOfView);
+inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculateFOVHalfAngle(float_t fieldOfView) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(), { "CalculateFOVHalfAngle", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, fieldOfView);
 }
-inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculateScreenRelativeMetric(::UnityEngine::Rendering::LODParameters  lodParams, float_t  lodBias)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculateScreenRelativeMetric",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::LODParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, lodParams, lodBias);
+inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculateScreenRelativeMetric(::UnityEngine::Rendering::LODParameters lodParams, float_t lodBias) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(),
+                                                           { "CalculateScreenRelativeMetric", {}, { ::i2c::type_of<::UnityEngine::Rendering::LODParameters>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, lodParams, lodBias);
 }
-inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculatePerspectiveDistance(::UnityEngine::Vector3  objPosition, ::UnityEngine::Vector3  camPosition, float_t  sqrScreenRelativeMetric)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculatePerspectiveDistance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, objPosition, camPosition, sqrScreenRelativeMetric);
+inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculatePerspectiveDistance(::UnityEngine::Vector3 objPosition, ::UnityEngine::Vector3 camPosition, float_t sqrScreenRelativeMetric) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(),
+                                       { "CalculatePerspectiveDistance", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, objPosition, camPosition, sqrScreenRelativeMetric);
 }
-inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculateSqrPerspectiveDistance(::UnityEngine::Vector3  objPosition, ::UnityEngine::Vector3  camPosition, float_t  sqrScreenRelativeMetric)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculateSqrPerspectiveDistance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, objPosition, camPosition, sqrScreenRelativeMetric);
+inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculateSqrPerspectiveDistance(::UnityEngine::Vector3 objPosition, ::UnityEngine::Vector3 camPosition,
+                                                                                               float_t sqrScreenRelativeMetric) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(),
+                                       { "CalculateSqrPerspectiveDistance", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, objPosition, camPosition, sqrScreenRelativeMetric);
 }
-inline ::UnityEngine::Vector3 UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldReferencePoint(::UnityEngine::LODGroup*  lodGroup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "GetWorldReferencePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LODGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, lodGroup);
+inline ::UnityEngine::Vector3 UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldReferencePoint(::UnityEngine::LODGroup* lodGroup) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(), { "GetWorldReferencePoint", {}, { ::i2c::type_of<::UnityEngine::LODGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, lodGroup);
 }
-inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceScale(::UnityEngine::LODGroup*  lodGroup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "GetWorldSpaceScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LODGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, lodGroup);
+inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceScale(::UnityEngine::LODGroup* lodGroup) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(), { "GetWorldSpaceScale", {}, { ::i2c::type_of<::UnityEngine::LODGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, lodGroup);
 }
-inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceSize(::UnityEngine::LODGroup*  lodGroup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "GetWorldSpaceSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LODGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, lodGroup);
+inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceSize(::UnityEngine::LODGroup* lodGroup) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(), { "GetWorldSpaceSize", {}, { ::i2c::type_of<::UnityEngine::LODGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, lodGroup);
 }
-inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculateLODDistance(float_t  relativeScreenHeight, float_t  size)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
-                        "CalculateLODDistance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, relativeScreenHeight, size);
+inline float_t UnityEngine::Rendering::LODGroupRenderingUtils::CalculateLODDistance(float_t relativeScreenHeight, float_t size) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(),
+                                                                                         { "CalculateLODDistance", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, relativeScreenHeight, size);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::LODGroupRenderingUtils::LODGroupRenderingUtils()   {
-}
+constexpr ::UnityEngine::Rendering::LODGroupRenderingUtils::LODGroupRenderingUtils() {}

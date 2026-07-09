@@ -7,570 +7,421 @@
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::Lexer::*)(::StringW)>(&::System::Net::Http::Headers::Lexer::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::Lexer::*)(::StringW)>(&::System::Net::Http::Headers::Lexer::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5fa1c28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.get_Position
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::Lexer::*)()>(&::System::Net::Http::Headers::Lexer::get_Position)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Http::Headers::Lexer::*)()>(&::System::Net::Http::Headers::Lexer::get_Position)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5faa49c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "get_Position",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "get_Position", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.set_Position
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::Lexer::*)(int32_t)>(&::System::Net::Http::Headers::Lexer::set_Position)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::Lexer::*)(int32_t)>(&::System::Net::Http::Headers::Lexer::set_Position)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5faa4a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "set_Position",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "set_Position", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.GetStringValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token)>(&::System::Net::Http::Headers::Lexer::GetStringValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token)>(&::System::Net::Http::Headers::Lexer::GetStringValue)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5fa2184;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "GetStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "GetStringValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.GetStringValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::System::Net::Http::Headers::Token)>(&::System::Net::Http::Headers::Lexer::GetStringValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::System::Net::Http::Headers::Token)>(
+    &::System::Net::Http::Headers::Lexer::GetStringValue)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5faa4ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "GetStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                { "GetStringValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.GetQuotedStringValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token)>(&::System::Net::Http::Headers::Lexer::GetQuotedStringValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token)>(
+    &::System::Net::Http::Headers::Lexer::GetQuotedStringValue)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x5fa398c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "GetQuotedStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "GetQuotedStringValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.GetRemainingStringValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::Lexer::*)(int32_t)>(&::System::Net::Http::Headers::Lexer::GetRemainingStringValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::Lexer::*)(int32_t)>(&::System::Net::Http::Headers::Lexer::GetRemainingStringValue)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5fa2204;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "GetRemainingStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "GetRemainingStringValue", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.IsStarStringValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token)>(&::System::Net::Http::Headers::Lexer::IsStarStringValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token)>(&::System::Net::Http::Headers::Lexer::IsStarStringValue)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x5fa5cf8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "IsStarStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "IsStarStringValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.TryGetNumericValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::ByRef<int32_t>)>(&::System::Net::Http::Headers::Lexer::TryGetNumericValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::by_ref<int32_t>)>(
+    &::System::Net::Http::Headers::Lexer::TryGetNumericValue)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x5faa52c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetNumericValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                             { "TryGetNumericValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.TryGetNumericValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::ByRef<int64_t>)>(&::System::Net::Http::Headers::Lexer::TryGetNumericValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::by_ref<int64_t>)>(
+    &::System::Net::Http::Headers::Lexer::TryGetNumericValue)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x5fa5dc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetNumericValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int64_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                             { "TryGetNumericValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::by_ref<int64_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.TryGetTimeSpanValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token)>(&::System::Net::Http::Headers::Lexer::TryGetTimeSpanValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token)>(
+    &::System::Net::Http::Headers::Lexer::TryGetTimeSpanValue)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x5fa38cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetTimeSpanValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "TryGetTimeSpanValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.TryGetDateValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::ByRef<::System::DateTimeOffset>)>(&::System::Net::Http::Headers::Lexer::TryGetDateValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::by_ref<::System::DateTimeOffset>)>(
+    &::System::Net::Http::Headers::Lexer::TryGetDateValue)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x5faa5d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetDateValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::DateTimeOffset>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                { "TryGetDateValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::by_ref<::System::DateTimeOffset>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.TryGetDateValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::DateTimeOffset>)>(&::System::Net::Http::Headers::Lexer::TryGetDateValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::DateTimeOffset>)>(&::System::Net::Http::Headers::Lexer::TryGetDateValue)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x5faa6c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetDateValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::DateTimeOffset>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                             { "TryGetDateValue", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::DateTimeOffset>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.TryGetDoubleValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::ByRef<double_t>)>(&::System::Net::Http::Headers::Lexer::TryGetDoubleValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::System::Net::Http::Headers::Token, ::by_ref<double_t>)>(
+    &::System::Net::Http::Headers::Lexer::TryGetDoubleValue)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x5faa7b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetDoubleValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<double_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                             { "TryGetDoubleValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::by_ref<double_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.IsValidToken
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::Headers::Lexer::IsValidToken)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::Headers::Lexer::IsValidToken)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x5fa4f98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "IsValidToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "IsValidToken", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.IsValidCharacter
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Net::Http::Headers::Lexer::IsValidCharacter)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Net::Http::Headers::Lexer::IsValidCharacter)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x5fa504c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "IsValidCharacter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "IsValidCharacter", {}, { ::i2c::type_of<char16_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.EatChar
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::Lexer::*)()>(&::System::Net::Http::Headers::Lexer::EatChar)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::Lexer::*)()>(&::System::Net::Http::Headers::Lexer::EatChar)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x5fa64f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "EatChar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "EatChar", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.PeekChar
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::Lexer::*)()>(&::System::Net::Http::Headers::Lexer::PeekChar)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Http::Headers::Lexer::*)()>(&::System::Net::Http::Headers::Lexer::PeekChar)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x5fa64ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "PeekChar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "PeekChar", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.ScanCommentOptional
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::ByRef<::StringW>, ::ByRef<::System::Net::Http::Headers::Token>)>(&::System::Net::Http::Headers::Lexer::ScanCommentOptional)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::Lexer::*)(::by_ref<::StringW>, ::by_ref<::System::Net::Http::Headers::Token>)>(
+    &::System::Net::Http::Headers::Lexer::ScanCommentOptional)> {
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x5faa854;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "ScanCommentOptional",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::Token>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                { "ScanCommentOptional", {}, { ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::System::Net::Http::Headers::Token>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer.Scan
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::Headers::Token (::System::Net::Http::Headers::Lexer::*)(bool)>(&::System::Net::Http::Headers::Lexer::Scan)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::Headers::Token (::System::Net::Http::Headers::Lexer::*)(bool)>(&::System::Net::Http::Headers::Lexer::Scan)> {
   constexpr static std::size_t size = 0x32c;
   constexpr static std::size_t addrs = 0x5fa1e58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "Scan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "Scan", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Net::Http::Headers::Lexer::__cordl_internal_get_s()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___s;
+constexpr ::StringW& System::Net::Http::Headers::Lexer::__cordl_internal_get_s() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___s;
 }
 constexpr ::StringW const& System::Net::Http::Headers::Lexer::__cordl_internal_get_s() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___s;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___s;
 }
-constexpr void System::Net::Http::Headers::Lexer::__cordl_internal_set_s(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___s)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::Http::Headers::Lexer::__cordl_internal_set_s(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___s = value;
 }
-constexpr int32_t& System::Net::Http::Headers::Lexer::__cordl_internal_get_pos()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___pos;
+constexpr int32_t& System::Net::Http::Headers::Lexer::__cordl_internal_get_pos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pos;
 }
 constexpr int32_t const& System::Net::Http::Headers::Lexer::__cordl_internal_get_pos() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___pos;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pos;
 }
-constexpr void System::Net::Http::Headers::Lexer::__cordl_internal_set_pos(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___pos = value;
+constexpr void System::Net::Http::Headers::Lexer::__cordl_internal_set_pos(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___pos = value;
 }
-inline void System::Net::Http::Headers::Lexer::setStaticF_token_chars(::ArrayW<bool,::Array<bool>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<bool,::Array<bool>*>, "token_chars", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get>(std::forward<::ArrayW<bool,::Array<bool>*>>(value));
+inline void System::Net::Http::Headers::Lexer::setStaticF_token_chars(::ArrayW<bool> value) {
+  ::cordl_internals::setStaticField<::ArrayW<bool>, "token_chars", ::System::Net::Http::Headers::Lexer*>(std::forward<::ArrayW<bool>>(value));
 }
-inline ::ArrayW<bool,::Array<bool>*> System::Net::Http::Headers::Lexer::getStaticF_token_chars()  {
-return ::cordl_internals::getStaticField<::ArrayW<bool,::Array<bool>*>, "token_chars", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get>();
+inline ::ArrayW<bool> System::Net::Http::Headers::Lexer::getStaticF_token_chars() {
+  return ::cordl_internals::getStaticField<::ArrayW<bool>, "token_chars", ::System::Net::Http::Headers::Lexer*>();
 }
-inline void System::Net::Http::Headers::Lexer::setStaticF_last_token_char(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "last_token_char", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get>(std::forward<int32_t>(value));
+inline void System::Net::Http::Headers::Lexer::setStaticF_last_token_char(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "last_token_char", ::System::Net::Http::Headers::Lexer*>(std::forward<int32_t>(value));
 }
-inline int32_t System::Net::Http::Headers::Lexer::getStaticF_last_token_char()  {
-return ::cordl_internals::getStaticField<int32_t, "last_token_char", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get>();
+inline int32_t System::Net::Http::Headers::Lexer::getStaticF_last_token_char() {
+  return ::cordl_internals::getStaticField<int32_t, "last_token_char", ::System::Net::Http::Headers::Lexer*>();
 }
-inline void System::Net::Http::Headers::Lexer::setStaticF_dt_formats(::ArrayW<::StringW,::Array<::StringW>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "dt_formats", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get>(std::forward<::ArrayW<::StringW,::Array<::StringW>*>>(value));
+inline void System::Net::Http::Headers::Lexer::setStaticF_dt_formats(::ArrayW<::StringW> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::StringW>, "dt_formats", ::System::Net::Http::Headers::Lexer*>(std::forward<::ArrayW<::StringW>>(value));
 }
-inline ::ArrayW<::StringW,::Array<::StringW>*> System::Net::Http::Headers::Lexer::getStaticF_dt_formats()  {
-return ::cordl_internals::getStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "dt_formats", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get>();
+inline ::ArrayW<::StringW> System::Net::Http::Headers::Lexer::getStaticF_dt_formats() {
+  return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "dt_formats", ::System::Net::Http::Headers::Lexer*>();
 }
-inline void System::Net::Http::Headers::Lexer::_ctor(::StringW  stream)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stream);
+inline void System::Net::Http::Headers::Lexer::_ctor(::StringW stream) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stream);
 }
-inline int32_t System::Net::Http::Headers::Lexer::get_Position()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "get_Position",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Net::Http::Headers::Lexer::get_Position() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "get_Position", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void System::Net::Http::Headers::Lexer::set_Position(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "set_Position",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Net::Http::Headers::Lexer::set_Position(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "set_Position", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::StringW System::Net::Http::Headers::Lexer::GetStringValue(::System::Net::Http::Headers::Token  token)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "GetStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, token);
+inline ::StringW System::Net::Http::Headers::Lexer::GetStringValue(::System::Net::Http::Headers::Token token) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "GetStringValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, token);
 }
-inline ::StringW System::Net::Http::Headers::Lexer::GetStringValue(::System::Net::Http::Headers::Token  start, ::System::Net::Http::Headers::Token  end)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "GetStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, start, end);
+inline ::StringW System::Net::Http::Headers::Lexer::GetStringValue(::System::Net::Http::Headers::Token start, ::System::Net::Http::Headers::Token end) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                              { "GetStringValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, start, end);
 }
-inline ::StringW System::Net::Http::Headers::Lexer::GetQuotedStringValue(::System::Net::Http::Headers::Token  start)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "GetQuotedStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, start);
+inline ::StringW System::Net::Http::Headers::Lexer::GetQuotedStringValue(::System::Net::Http::Headers::Token start) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "GetQuotedStringValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, start);
 }
-inline ::StringW System::Net::Http::Headers::Lexer::GetRemainingStringValue(int32_t  position)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "GetRemainingStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, position);
+inline ::StringW System::Net::Http::Headers::Lexer::GetRemainingStringValue(int32_t position) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "GetRemainingStringValue", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, position);
 }
-inline bool System::Net::Http::Headers::Lexer::IsStarStringValue(::System::Net::Http::Headers::Token  token)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "IsStarStringValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, token);
+inline bool System::Net::Http::Headers::Lexer::IsStarStringValue(::System::Net::Http::Headers::Token token) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "IsStarStringValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, token);
 }
-inline bool System::Net::Http::Headers::Lexer::TryGetNumericValue(::System::Net::Http::Headers::Token  token, ::ByRef<int32_t>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetNumericValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, token, value);
+inline bool System::Net::Http::Headers::Lexer::TryGetNumericValue(::System::Net::Http::Headers::Token token, ::by_ref<int32_t> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                           { "TryGetNumericValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, token, value);
 }
-inline bool System::Net::Http::Headers::Lexer::TryGetNumericValue(::System::Net::Http::Headers::Token  token, ::ByRef<int64_t>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetNumericValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int64_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, token, value);
+inline bool System::Net::Http::Headers::Lexer::TryGetNumericValue(::System::Net::Http::Headers::Token token, ::by_ref<int64_t> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                           { "TryGetNumericValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::by_ref<int64_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, token, value);
 }
-inline ::System::Nullable_1<::System::TimeSpan> System::Net::Http::Headers::Lexer::TryGetTimeSpanValue(::System::Net::Http::Headers::Token  token)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetTimeSpanValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::System::TimeSpan>, false>(this, ___internal_method, token);
+inline ::System::Nullable_1<::System::TimeSpan> System::Net::Http::Headers::Lexer::TryGetTimeSpanValue(::System::Net::Http::Headers::Token token) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "TryGetTimeSpanValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::System::TimeSpan>>(this, ___internal_method, token);
 }
-inline bool System::Net::Http::Headers::Lexer::TryGetDateValue(::System::Net::Http::Headers::Token  token, ::ByRef<::System::DateTimeOffset>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetDateValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::DateTimeOffset>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, token, value);
+inline bool System::Net::Http::Headers::Lexer::TryGetDateValue(::System::Net::Http::Headers::Token token, ::by_ref<::System::DateTimeOffset> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                              { "TryGetDateValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::by_ref<::System::DateTimeOffset>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, token, value);
 }
-inline bool System::Net::Http::Headers::Lexer::TryGetDateValue(::StringW  text, ::ByRef<::System::DateTimeOffset>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetDateValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::DateTimeOffset>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, text, value);
+inline bool System::Net::Http::Headers::Lexer::TryGetDateValue(::StringW text, ::by_ref<::System::DateTimeOffset> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "TryGetDateValue", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::DateTimeOffset>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, text, value);
 }
-inline bool System::Net::Http::Headers::Lexer::TryGetDoubleValue(::System::Net::Http::Headers::Token  token, ::ByRef<double_t>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "TryGetDoubleValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<double_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, token, value);
+inline bool System::Net::Http::Headers::Lexer::TryGetDoubleValue(::System::Net::Http::Headers::Token token, ::by_ref<double_t> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                           { "TryGetDoubleValue", {}, { ::i2c::type_of<::System::Net::Http::Headers::Token>(), ::i2c::type_of<::by_ref<double_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, token, value);
 }
-inline bool System::Net::Http::Headers::Lexer::IsValidToken(::StringW  input)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "IsValidToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, input);
+inline bool System::Net::Http::Headers::Lexer::IsValidToken(::StringW input) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "IsValidToken", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, input);
 }
-inline bool System::Net::Http::Headers::Lexer::IsValidCharacter(char16_t  input)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "IsValidCharacter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, input);
+inline bool System::Net::Http::Headers::Lexer::IsValidCharacter(char16_t input) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "IsValidCharacter", {}, { ::i2c::type_of<char16_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, input);
 }
-inline void System::Net::Http::Headers::Lexer::EatChar()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "EatChar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Net::Http::Headers::Lexer::EatChar() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "EatChar", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline int32_t System::Net::Http::Headers::Lexer::PeekChar()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "PeekChar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Net::Http::Headers::Lexer::PeekChar() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "PeekChar", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool System::Net::Http::Headers::Lexer::ScanCommentOptional(::ByRef<::StringW>  value, ::ByRef<::System::Net::Http::Headers::Token>  readToken)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "ScanCommentOptional",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::Token>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value, readToken);
+inline bool System::Net::Http::Headers::Lexer::ScanCommentOptional(::by_ref<::StringW> value, ::by_ref<::System::Net::Http::Headers::Token> readToken) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(),
+                                                           { "ScanCommentOptional", {}, { ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::System::Net::Http::Headers::Token>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value, readToken);
 }
-inline ::System::Net::Http::Headers::Token System::Net::Http::Headers::Lexer::Scan(bool  recognizeDash)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::Lexer*>::get(),
-                        "Scan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::Http::Headers::Token, false>(this, ___internal_method, recognizeDash);
+inline ::System::Net::Http::Headers::Token System::Net::Http::Headers::Lexer::Scan(bool recognizeDash) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Lexer*>(), { "Scan", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::Http::Headers::Token>(this, ___internal_method, recognizeDash);
 }
-inline ::System::Net::Http::Headers::Lexer* System::Net::Http::Headers::Lexer::New_ctor(::StringW  stream)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::Lexer*>(stream));
+inline ::System::Net::Http::Headers::Lexer* System::Net::Http::Headers::Lexer::New_ctor(::StringW stream) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Http::Headers::Lexer*>(stream));
 }
 // Ctor Parameters []
-constexpr ::System::Net::Http::Headers::Lexer::Lexer()   {
-}
+constexpr ::System::Net::Http::Headers::Lexer::Lexer() {}

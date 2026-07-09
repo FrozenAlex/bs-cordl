@@ -4,84 +4,67 @@
 #include "System/Runtime/CompilerServices/zzzz__CallSite_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__CallSiteBinder_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::CallSite._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::CallSite::*)(::System::Runtime::CompilerServices::CallSiteBinder*)>(&::System::Runtime::CompilerServices::CallSite::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::CallSite::*)(::System::Runtime::CompilerServices::CallSiteBinder*)>(
+    &::System::Runtime::CompilerServices::CallSite::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e80e24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSite*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::CallSiteBinder*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CallSite*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::CallSiteBinder*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::CompilerServices::CallSite.get_Binder
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (::System::Runtime::CompilerServices::CallSite::*)()>(&::System::Runtime::CompilerServices::CallSite::get_Binder)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (::System::Runtime::CompilerServices::CallSite::*)()>(
+    &::System::Runtime::CompilerServices::CallSite::get_Binder)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e80e2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSite*>::get(),
-                        "get_Binder",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CallSite*>(), { "get_Binder", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Runtime::CompilerServices::CallSiteBinder*& System::Runtime::CompilerServices::CallSite::__cordl_internal_get__binder()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____binder;
+constexpr ::System::Runtime::CompilerServices::CallSiteBinder*& System::Runtime::CompilerServices::CallSite::__cordl_internal_get__binder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____binder;
 }
 constexpr ::System::Runtime::CompilerServices::CallSiteBinder* const& System::Runtime::CompilerServices::CallSite::__cordl_internal_get__binder() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____binder;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____binder;
 }
-constexpr void System::Runtime::CompilerServices::CallSite::__cordl_internal_set__binder(::System::Runtime::CompilerServices::CallSiteBinder*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::CompilerServices::CallSite::__cordl_internal_set__binder(::System::Runtime::CompilerServices::CallSiteBinder* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____binder = value;
 }
-constexpr bool& System::Runtime::CompilerServices::CallSite::__cordl_internal_get__match()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____match;
+constexpr bool& System::Runtime::CompilerServices::CallSite::__cordl_internal_get__match() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____match;
 }
 constexpr bool const& System::Runtime::CompilerServices::CallSite::__cordl_internal_get__match() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____match;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____match;
 }
-constexpr void System::Runtime::CompilerServices::CallSite::__cordl_internal_set__match(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____match = value;
+constexpr void System::Runtime::CompilerServices::CallSite::__cordl_internal_set__match(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____match = value;
 }
-inline void System::Runtime::CompilerServices::CallSite::_ctor(::System::Runtime::CompilerServices::CallSiteBinder*  binder)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSite*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::CallSiteBinder*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, binder);
+inline void System::Runtime::CompilerServices::CallSite::_ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CallSite*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::CallSiteBinder*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, binder);
 }
-inline ::System::Runtime::CompilerServices::CallSiteBinder* System::Runtime::CompilerServices::CallSite::get_Binder()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSite*>::get(),
-                        "get_Binder",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::CallSiteBinder*, false>(this, ___internal_method);
+inline ::System::Runtime::CompilerServices::CallSiteBinder* System::Runtime::CompilerServices::CallSite::get_Binder() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CallSite*>(), { "get_Binder", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::CallSiteBinder*>(this, ___internal_method);
 }
-inline ::System::Runtime::CompilerServices::CallSite* System::Runtime::CompilerServices::CallSite::New_ctor(::System::Runtime::CompilerServices::CallSiteBinder*  binder)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::CallSite*>(binder));
+inline ::System::Runtime::CompilerServices::CallSite* System::Runtime::CompilerServices::CallSite::New_ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::CompilerServices::CallSite*>(binder));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::CompilerServices::CallSite::CallSite()   {
-}
+constexpr ::System::Runtime::CompilerServices::CallSite::CallSite() {}

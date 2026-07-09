@@ -4,186 +4,143 @@
 #include "GlobalNamespace/zzzz__LevelParamsPanel_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LevelParamsPanel.set_notesPerSecond
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(float_t)>(&::GlobalNamespace::LevelParamsPanel::set_notesPerSecond)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(float_t)>(&::GlobalNamespace::LevelParamsPanel::set_notesPerSecond)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x57b5aec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        "set_notesPerSecond",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { "set_notesPerSecond", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelParamsPanel.set_notesCount
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_notesCount)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_notesCount)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x57b5b6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        "set_notesCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { "set_notesCount", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelParamsPanel.set_obstaclesCount
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_obstaclesCount)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_obstaclesCount)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x57b5bb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        "set_obstaclesCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { "set_obstaclesCount", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelParamsPanel.set_bombsCount
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_bombsCount)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_bombsCount)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x57b5bf4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        "set_bombsCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { "set_bombsCount", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelParamsPanel._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)()>(&::GlobalNamespace::LevelParamsPanel::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)()>(&::GlobalNamespace::LevelParamsPanel::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x57b5c38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__notesPerSecondText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____notesPerSecondText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__notesPerSecondText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____notesPerSecondText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__notesPerSecondText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____notesPerSecondText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____notesPerSecondText;
 }
-constexpr void GlobalNamespace::LevelParamsPanel::__cordl_internal_set__notesPerSecondText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____notesPerSecondText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelParamsPanel::__cordl_internal_set__notesPerSecondText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____notesPerSecondText = value;
 }
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__notesCountText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____notesCountText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__notesCountText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____notesCountText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__notesCountText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____notesCountText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____notesCountText;
 }
-constexpr void GlobalNamespace::LevelParamsPanel::__cordl_internal_set__notesCountText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____notesCountText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelParamsPanel::__cordl_internal_set__notesCountText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____notesCountText = value;
 }
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__obstaclesCountText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____obstaclesCountText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__obstaclesCountText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____obstaclesCountText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__obstaclesCountText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____obstaclesCountText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____obstaclesCountText;
 }
-constexpr void GlobalNamespace::LevelParamsPanel::__cordl_internal_set__obstaclesCountText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstaclesCountText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelParamsPanel::__cordl_internal_set__obstaclesCountText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____obstaclesCountText = value;
 }
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__bombsCountText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bombsCountText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__bombsCountText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bombsCountText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::LevelParamsPanel::__cordl_internal_get__bombsCountText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bombsCountText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bombsCountText;
 }
-constexpr void GlobalNamespace::LevelParamsPanel::__cordl_internal_set__bombsCountText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bombsCountText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelParamsPanel::__cordl_internal_set__bombsCountText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____bombsCountText = value;
 }
-inline void GlobalNamespace::LevelParamsPanel::set_notesPerSecond(float_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        "set_notesPerSecond",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LevelParamsPanel::set_notesPerSecond(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { "set_notesPerSecond", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelParamsPanel::set_notesCount(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        "set_notesCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LevelParamsPanel::set_notesCount(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { "set_notesCount", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelParamsPanel::set_obstaclesCount(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        "set_obstaclesCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LevelParamsPanel::set_obstaclesCount(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { "set_obstaclesCount", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelParamsPanel::set_bombsCount(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        "set_bombsCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LevelParamsPanel::set_bombsCount(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { "set_bombsCount", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelParamsPanel::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelParamsPanel*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelParamsPanel::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LevelParamsPanel* GlobalNamespace::LevelParamsPanel::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelParamsPanel*>());
+inline ::GlobalNamespace::LevelParamsPanel* GlobalNamespace::LevelParamsPanel::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LevelParamsPanel*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LevelParamsPanel::LevelParamsPanel()   {
-}
+constexpr ::GlobalNamespace::LevelParamsPanel::LevelParamsPanel() {}

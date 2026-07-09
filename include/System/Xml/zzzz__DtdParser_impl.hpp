@@ -21,3358 +21,2435 @@
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::DtdParser_Token::DtdParser_Token(int32_t  value__) noexcept  {
-this->value__ = value__;
+constexpr ::System::Xml::DtdParser_Token::DtdParser_Token(int32_t value__) noexcept {
+  this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::DtdParser_Token::DtdParser_Token()   {
-}
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::CDATA{static_cast<int32_t>(0x0)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::_cordl_ID{static_cast<int32_t>(0x1)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::IDREF{static_cast<int32_t>(0x2)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::IDREFS{static_cast<int32_t>(0x3)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::ENTITY{static_cast<int32_t>(0x4)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::ENTITIES{static_cast<int32_t>(0x5)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::NMTOKEN{static_cast<int32_t>(0x6)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::NMTOKENS{static_cast<int32_t>(0x7)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::NOTATION{static_cast<int32_t>(0x8)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::None{static_cast<int32_t>(0x9)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::PERef{static_cast<int32_t>(0xa)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::AttlistDecl{static_cast<int32_t>(0xb)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::ElementDecl{static_cast<int32_t>(0xc)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::EntityDecl{static_cast<int32_t>(0xd)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::NotationDecl{static_cast<int32_t>(0xe)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Comment{static_cast<int32_t>(0xf)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::PI{static_cast<int32_t>(0x10)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::CondSectionStart{static_cast<int32_t>(0x11)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::CondSectionEnd{static_cast<int32_t>(0x12)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Eof{static_cast<int32_t>(0x13)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::REQUIRED{static_cast<int32_t>(0x14)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::IMPLIED{static_cast<int32_t>(0x15)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::FIXED{static_cast<int32_t>(0x16)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::QName{static_cast<int32_t>(0x17)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Name{static_cast<int32_t>(0x18)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Nmtoken{static_cast<int32_t>(0x19)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Quote{static_cast<int32_t>(0x1a)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::LeftParen{static_cast<int32_t>(0x1b)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::RightParen{static_cast<int32_t>(0x1c)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::GreaterThan{static_cast<int32_t>(0x1d)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Or{static_cast<int32_t>(0x1e)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::LeftBracket{static_cast<int32_t>(0x1f)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::RightBracket{static_cast<int32_t>(0x20)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::PUBLIC{static_cast<int32_t>(0x21)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::SYSTEM{static_cast<int32_t>(0x22)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Literal{static_cast<int32_t>(0x23)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::DOCTYPE{static_cast<int32_t>(0x24)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::NData{static_cast<int32_t>(0x25)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Percent{static_cast<int32_t>(0x26)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Star{static_cast<int32_t>(0x27)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::QMark{static_cast<int32_t>(0x28)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Plus{static_cast<int32_t>(0x29)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::PCDATA{static_cast<int32_t>(0x2a)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::Comma{static_cast<int32_t>(0x2b)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::ANY{static_cast<int32_t>(0x2c)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::EMPTY{static_cast<int32_t>(0x2d)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::IGNORE{static_cast<int32_t>(0x2e)};
-constexpr ::System::Xml::DtdParser_Token  System::Xml::DtdParser_Token::INCLUDE{static_cast<int32_t>(0x2f)};
+constexpr ::System::Xml::DtdParser_Token::DtdParser_Token() {}
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::CDATA{ static_cast<int32_t>(0x0) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::_cordl_ID{ static_cast<int32_t>(0x1) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::IDREF{ static_cast<int32_t>(0x2) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::IDREFS{ static_cast<int32_t>(0x3) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::ENTITY{ static_cast<int32_t>(0x4) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::ENTITIES{ static_cast<int32_t>(0x5) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::NMTOKEN{ static_cast<int32_t>(0x6) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::NMTOKENS{ static_cast<int32_t>(0x7) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::NOTATION{ static_cast<int32_t>(0x8) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::None{ static_cast<int32_t>(0x9) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::PERef{ static_cast<int32_t>(0xa) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::AttlistDecl{ static_cast<int32_t>(0xb) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::ElementDecl{ static_cast<int32_t>(0xc) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::EntityDecl{ static_cast<int32_t>(0xd) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::NotationDecl{ static_cast<int32_t>(0xe) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Comment{ static_cast<int32_t>(0xf) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::PI{ static_cast<int32_t>(0x10) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::CondSectionStart{ static_cast<int32_t>(0x11) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::CondSectionEnd{ static_cast<int32_t>(0x12) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Eof{ static_cast<int32_t>(0x13) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::REQUIRED{ static_cast<int32_t>(0x14) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::IMPLIED{ static_cast<int32_t>(0x15) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::FIXED{ static_cast<int32_t>(0x16) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::QName{ static_cast<int32_t>(0x17) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Name{ static_cast<int32_t>(0x18) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Nmtoken{ static_cast<int32_t>(0x19) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Quote{ static_cast<int32_t>(0x1a) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::LeftParen{ static_cast<int32_t>(0x1b) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::RightParen{ static_cast<int32_t>(0x1c) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::GreaterThan{ static_cast<int32_t>(0x1d) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Or{ static_cast<int32_t>(0x1e) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::LeftBracket{ static_cast<int32_t>(0x1f) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::RightBracket{ static_cast<int32_t>(0x20) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::PUBLIC{ static_cast<int32_t>(0x21) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::SYSTEM{ static_cast<int32_t>(0x22) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Literal{ static_cast<int32_t>(0x23) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::DOCTYPE{ static_cast<int32_t>(0x24) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::NData{ static_cast<int32_t>(0x25) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Percent{ static_cast<int32_t>(0x26) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Star{ static_cast<int32_t>(0x27) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::QMark{ static_cast<int32_t>(0x28) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Plus{ static_cast<int32_t>(0x29) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::PCDATA{ static_cast<int32_t>(0x2a) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::Comma{ static_cast<int32_t>(0x2b) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::ANY{ static_cast<int32_t>(0x2c) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::EMPTY{ static_cast<int32_t>(0x2d) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::IGNORE{ static_cast<int32_t>(0x2e) };
+constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::INCLUDE{ static_cast<int32_t>(0x2f) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::DtdParser_ScanningFunction::DtdParser_ScanningFunction(int32_t  value__) noexcept  {
-this->value__ = value__;
+constexpr ::System::Xml::DtdParser_ScanningFunction::DtdParser_ScanningFunction(int32_t value__) noexcept {
+  this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::DtdParser_ScanningFunction::DtdParser_ScanningFunction()   {
-}
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::SubsetContent{static_cast<int32_t>(0x0)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Name{static_cast<int32_t>(0x1)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::QName{static_cast<int32_t>(0x2)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Nmtoken{static_cast<int32_t>(0x3)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Doctype1{static_cast<int32_t>(0x4)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Doctype2{static_cast<int32_t>(0x5)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Element1{static_cast<int32_t>(0x6)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Element2{static_cast<int32_t>(0x7)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Element3{static_cast<int32_t>(0x8)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Element4{static_cast<int32_t>(0x9)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Element5{static_cast<int32_t>(0xa)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Element6{static_cast<int32_t>(0xb)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Element7{static_cast<int32_t>(0xc)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Attlist1{static_cast<int32_t>(0xd)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Attlist2{static_cast<int32_t>(0xe)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Attlist3{static_cast<int32_t>(0xf)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Attlist4{static_cast<int32_t>(0x10)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Attlist5{static_cast<int32_t>(0x11)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Attlist6{static_cast<int32_t>(0x12)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Attlist7{static_cast<int32_t>(0x13)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Entity1{static_cast<int32_t>(0x14)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Entity2{static_cast<int32_t>(0x15)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Entity3{static_cast<int32_t>(0x16)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Notation1{static_cast<int32_t>(0x17)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::CondSection1{static_cast<int32_t>(0x18)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::CondSection2{static_cast<int32_t>(0x19)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::CondSection3{static_cast<int32_t>(0x1a)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::Literal{static_cast<int32_t>(0x1b)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::SystemId{static_cast<int32_t>(0x1c)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::PublicId1{static_cast<int32_t>(0x1d)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::PublicId2{static_cast<int32_t>(0x1e)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::ClosingTag{static_cast<int32_t>(0x1f)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::ParamEntitySpace{static_cast<int32_t>(0x20)};
-constexpr ::System::Xml::DtdParser_ScanningFunction  System::Xml::DtdParser_ScanningFunction::None{static_cast<int32_t>(0x21)};
+constexpr ::System::Xml::DtdParser_ScanningFunction::DtdParser_ScanningFunction() {}
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::SubsetContent{ static_cast<int32_t>(0x0) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Name{ static_cast<int32_t>(0x1) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::QName{ static_cast<int32_t>(0x2) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Nmtoken{ static_cast<int32_t>(0x3) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Doctype1{ static_cast<int32_t>(0x4) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Doctype2{ static_cast<int32_t>(0x5) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Element1{ static_cast<int32_t>(0x6) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Element2{ static_cast<int32_t>(0x7) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Element3{ static_cast<int32_t>(0x8) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Element4{ static_cast<int32_t>(0x9) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Element5{ static_cast<int32_t>(0xa) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Element6{ static_cast<int32_t>(0xb) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Element7{ static_cast<int32_t>(0xc) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Attlist1{ static_cast<int32_t>(0xd) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Attlist2{ static_cast<int32_t>(0xe) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Attlist3{ static_cast<int32_t>(0xf) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Attlist4{ static_cast<int32_t>(0x10) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Attlist5{ static_cast<int32_t>(0x11) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Attlist6{ static_cast<int32_t>(0x12) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Attlist7{ static_cast<int32_t>(0x13) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Entity1{ static_cast<int32_t>(0x14) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Entity2{ static_cast<int32_t>(0x15) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Entity3{ static_cast<int32_t>(0x16) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Notation1{ static_cast<int32_t>(0x17) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::CondSection1{ static_cast<int32_t>(0x18) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::CondSection2{ static_cast<int32_t>(0x19) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::CondSection3{ static_cast<int32_t>(0x1a) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::Literal{ static_cast<int32_t>(0x1b) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::SystemId{ static_cast<int32_t>(0x1c) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::PublicId1{ static_cast<int32_t>(0x1d) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::PublicId2{ static_cast<int32_t>(0x1e) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::ClosingTag{ static_cast<int32_t>(0x1f) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::ParamEntitySpace{ static_cast<int32_t>(0x20) };
+constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::None{ static_cast<int32_t>(0x21) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::DtdParser_LiteralType::DtdParser_LiteralType(int32_t  value__) noexcept  {
-this->value__ = value__;
+constexpr ::System::Xml::DtdParser_LiteralType::DtdParser_LiteralType(int32_t value__) noexcept {
+  this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::DtdParser_LiteralType::DtdParser_LiteralType()   {
-}
-constexpr ::System::Xml::DtdParser_LiteralType  System::Xml::DtdParser_LiteralType::AttributeValue{static_cast<int32_t>(0x0)};
-constexpr ::System::Xml::DtdParser_LiteralType  System::Xml::DtdParser_LiteralType::EntityReplText{static_cast<int32_t>(0x1)};
-constexpr ::System::Xml::DtdParser_LiteralType  System::Xml::DtdParser_LiteralType::SystemOrPublicID{static_cast<int32_t>(0x2)};
+constexpr ::System::Xml::DtdParser_LiteralType::DtdParser_LiteralType() {}
+constexpr ::System::Xml::DtdParser_LiteralType System::Xml::DtdParser_LiteralType::AttributeValue{ static_cast<int32_t>(0x0) };
+constexpr ::System::Xml::DtdParser_LiteralType System::Xml::DtdParser_LiteralType::EntityReplText{ static_cast<int32_t>(0x1) };
+constexpr ::System::Xml::DtdParser_LiteralType System::Xml::DtdParser_LiteralType::SystemOrPublicID{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::System::Xml::DtdParser_UndeclaredNotation._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser_UndeclaredNotation::*)(::StringW, int32_t, int32_t)>(&::System::Xml::DtdParser_UndeclaredNotation::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser_UndeclaredNotation::*)(::StringW, int32_t, int32_t)>(&::System::Xml::DtdParser_UndeclaredNotation::_ctor)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x61934d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser_UndeclaredNotation*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser_UndeclaredNotation*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_name()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+constexpr ::StringW& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_name() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
 constexpr ::StringW const& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_name() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
-constexpr void System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_set_name(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_set_name(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___name = value;
 }
-constexpr int32_t& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_lineNo()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lineNo;
+constexpr int32_t& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_lineNo() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lineNo;
 }
 constexpr int32_t const& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_lineNo() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lineNo;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lineNo;
 }
-constexpr void System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_set_lineNo(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___lineNo = value;
+constexpr void System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_set_lineNo(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___lineNo = value;
 }
-constexpr int32_t& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_linePos()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___linePos;
+constexpr int32_t& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_linePos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___linePos;
 }
 constexpr int32_t const& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_linePos() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___linePos;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___linePos;
 }
-constexpr void System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_set_linePos(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___linePos = value;
+constexpr void System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_set_linePos(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___linePos = value;
 }
-constexpr ::System::Xml::DtdParser_UndeclaredNotation*& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_next()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___next;
+constexpr ::System::Xml::DtdParser_UndeclaredNotation*& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_next() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___next;
 }
 constexpr ::System::Xml::DtdParser_UndeclaredNotation* const& System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_get_next() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___next;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___next;
 }
-constexpr void System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_set_next(::System::Xml::DtdParser_UndeclaredNotation*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser_UndeclaredNotation::__cordl_internal_set_next(::System::Xml::DtdParser_UndeclaredNotation* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___next = value;
 }
-inline void System::Xml::DtdParser_UndeclaredNotation::_ctor(::StringW  name, int32_t  lineNo, int32_t  linePos)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser_UndeclaredNotation*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, lineNo, linePos);
+inline void System::Xml::DtdParser_UndeclaredNotation::_ctor(::StringW name, int32_t lineNo, int32_t linePos) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser_UndeclaredNotation*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, lineNo, linePos);
 }
-inline ::System::Xml::DtdParser_UndeclaredNotation* System::Xml::DtdParser_UndeclaredNotation::New_ctor(::StringW  name, int32_t  lineNo, int32_t  linePos)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::DtdParser_UndeclaredNotation*>(name, lineNo, linePos));
+inline ::System::Xml::DtdParser_UndeclaredNotation* System::Xml::DtdParser_UndeclaredNotation::New_ctor(::StringW name, int32_t lineNo, int32_t linePos) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::DtdParser_UndeclaredNotation*>(name, lineNo, linePos));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::DtdParser_UndeclaredNotation::DtdParser_UndeclaredNotation()   {
-}
+constexpr ::System::Xml::DtdParser_UndeclaredNotation::DtdParser_UndeclaredNotation() {}
 //  Writing Method size for method: ::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::*)(int32_t)>(&::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::*)(int32_t)>(
+    &::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6193284;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-constexpr int32_t& System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_get_startParenEntityId()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___startParenEntityId;
+constexpr int32_t& System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_get_startParenEntityId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startParenEntityId;
 }
 constexpr int32_t const& System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_get_startParenEntityId() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___startParenEntityId;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startParenEntityId;
 }
-constexpr void System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_set_startParenEntityId(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___startParenEntityId = value;
+constexpr void System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_set_startParenEntityId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___startParenEntityId = value;
 }
-constexpr ::System::Xml::DtdParser_Token& System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_get_parsingSchema()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___parsingSchema;
+constexpr ::System::Xml::DtdParser_Token& System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_get_parsingSchema() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___parsingSchema;
 }
 constexpr ::System::Xml::DtdParser_Token const& System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_get_parsingSchema() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___parsingSchema;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___parsingSchema;
 }
-constexpr void System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_set_parsingSchema(::System::Xml::DtdParser_Token  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___parsingSchema = value;
+constexpr void System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::__cordl_internal_set_parsingSchema(::System::Xml::DtdParser_Token value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___parsingSchema = value;
 }
-inline void System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::_ctor(int32_t  startParentEntityIdParam)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, startParentEntityIdParam);
+inline void System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::_ctor(int32_t startParentEntityIdParam) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, startParentEntityIdParam);
 }
-inline ::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame* System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::New_ctor(int32_t  startParentEntityIdParam)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame*>(startParentEntityIdParam));
+inline ::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame* System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::New_ctor(int32_t startParentEntityIdParam) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame*>(startParentEntityIdParam));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::DtdParser_ParseElementOnlyContent_LocalFrame()   {
-}
+constexpr ::System::Xml::DtdParser_ParseElementOnlyContent_LocalFrame::DtdParser_ParseElementOnlyContent_LocalFrame() {}
 //  Writing Method size for method: ::System::Xml::DtdParser._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::_ctor)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x618df4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdParser* (*)()>(&::System::Xml::DtdParser::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::IDtdParser* (*)()>(&::System::Xml::DtdParser::Create)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x618e004;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Create", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::IDtdParserAdapter*)>(&::System::Xml::DtdParser::Initialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::IDtdParserAdapter*)>(&::System::Xml::DtdParser::Initialize)> {
   constexpr static std::size_t size = 0x3c8;
   constexpr static std::size_t addrs = 0x618e094;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Initialize", {}, { ::i2c::type_of<::System::Xml::IDtdParserAdapter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.InitializeFreeFloatingDtd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Xml::IDtdParserAdapter*)>(&::System::Xml::DtdParser::InitializeFreeFloatingDtd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Xml::IDtdParserAdapter*)>(
+    &::System::Xml::DtdParser::InitializeFreeFloatingDtd)> {
   constexpr static std::size_t size = 0x3c8;
   constexpr static std::size_t addrs = 0x618e45c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "InitializeFreeFloatingDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "InitializeFreeFloatingDtd",
+                                                                            {},
+                                                                            { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                                                              ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::IDtdParserAdapter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.System_Xml_IDtdParser_ParseInternalDtd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdInfo* (::System::Xml::DtdParser::*)(::System::Xml::IDtdParserAdapter*, bool)>(&::System::Xml::DtdParser::System_Xml_IDtdParser_ParseInternalDtd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::IDtdInfo* (::System::Xml::DtdParser::*)(::System::Xml::IDtdParserAdapter*, bool)>(
+    &::System::Xml::DtdParser::System_Xml_IDtdParser_ParseInternalDtd)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x618e9b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "System.Xml.IDtdParser.ParseInternalDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                                             { "System.Xml.IDtdParser.ParseInternalDtd", {}, { ::i2c::type_of<::System::Xml::IDtdParserAdapter*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.System_Xml_IDtdParser_ParseFreeFloatingDtd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdInfo* (::System::Xml::DtdParser::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Xml::IDtdParserAdapter*)>(&::System::Xml::DtdParser::System_Xml_IDtdParser_ParseFreeFloatingDtd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::IDtdInfo* (
+    ::System::Xml::DtdParser::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Xml::IDtdParserAdapter*)>(&::System::Xml::DtdParser::System_Xml_IDtdParser_ParseFreeFloatingDtd)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x618ebf4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "System.Xml.IDtdParser.ParseFreeFloatingDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "System.Xml.IDtdParser.ParseFreeFloatingDtd",
+                                                                            {},
+                                                                            { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                                                              ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::IDtdParserAdapter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.get_ParsingInternalSubset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_ParsingInternalSubset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_ParsingInternalSubset)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x618ec18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_ParsingInternalSubset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_ParsingInternalSubset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.get_IgnoreEntityReferences
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_IgnoreEntityReferences)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_IgnoreEntityReferences)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x618ec28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_IgnoreEntityReferences",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_IgnoreEntityReferences", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.get_SaveInternalSubsetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_SaveInternalSubsetValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_SaveInternalSubsetValue)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x618ec38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_SaveInternalSubsetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_SaveInternalSubsetValue", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.get_ParsingTopLevelMarkup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_ParsingTopLevelMarkup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_ParsingTopLevelMarkup)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x618ecfc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_ParsingTopLevelMarkup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_ParsingTopLevelMarkup", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.get_SupportNamespaces
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_SupportNamespaces)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_SupportNamespaces)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x618ed2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_SupportNamespaces",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_SupportNamespaces", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.get_Normalize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_Normalize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_Normalize)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x618ed34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_Normalize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_Normalize", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.Parse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::Parse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::Parse)> {
   constexpr static std::size_t size = 0x20c;
   constexpr static std::size_t addrs = 0x618e9e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Parse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Parse", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseInDocumentDtd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::ParseInDocumentDtd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::ParseInDocumentDtd)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x618ed90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseInDocumentDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseInDocumentDtd", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseFreeFloatingDtd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseFreeFloatingDtd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseFreeFloatingDtd)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x618ed3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseFreeFloatingDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseFreeFloatingDtd", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseInternalSubset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseInternalSubset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseInternalSubset)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x61901f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseInternalSubset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseInternalSubset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseExternalSubset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseExternalSubset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseExternalSubset)> {
   constexpr static std::size_t size = 0x198;
   constexpr static std::size_t addrs = 0x61901f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseExternalSubset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseExternalSubset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseSubset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseSubset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseSubset)> {
   constexpr static std::size_t size = 0x3dc;
   constexpr static std::size_t addrs = 0x6190390;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseSubset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseSubset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseAttlistDecl
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseAttlistDecl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseAttlistDecl)> {
   constexpr static std::size_t size = 0x5c0;
   constexpr static std::size_t addrs = 0x619076c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseAttlistDecl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseAttlistDecl", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseAttlistType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::SchemaAttDef*, ::System::Xml::Schema::SchemaElementDecl*, bool)>(&::System::Xml::DtdParser::ParseAttlistType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::SchemaAttDef*, ::System::Xml::Schema::SchemaElementDecl*, bool)>(
+    &::System::Xml::DtdParser::ParseAttlistType)> {
   constexpr static std::size_t size = 0x574;
   constexpr static std::size_t addrs = 0x6192214;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseAttlistType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaElementDecl*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::System::Xml::DtdParser*>(),
+                         { "ParseAttlistType", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>(), ::i2c::type_of<::System::Xml::Schema::SchemaElementDecl*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseAttlistDefault
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::SchemaAttDef*, bool)>(&::System::Xml::DtdParser::ParseAttlistDefault)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::SchemaAttDef*, bool)>(&::System::Xml::DtdParser::ParseAttlistDefault)> {
   constexpr static std::size_t size = 0x1ac;
   constexpr static std::size_t addrs = 0x6192788;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseAttlistDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseAttlistDefault", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseElementDecl
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseElementDecl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseElementDecl)> {
   constexpr static std::size_t size = 0x3d4;
   constexpr static std::size_t addrs = 0x6190d2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseElementDecl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseElementDecl", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseElementOnlyContent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::ParticleContentValidator*, int32_t)>(&::System::Xml::DtdParser::ParseElementOnlyContent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::ParticleContentValidator*, int32_t)>(
+    &::System::Xml::DtdParser::ParseElementOnlyContent)> {
   constexpr static std::size_t size = 0x38c;
   constexpr static std::size_t addrs = 0x6192ef8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseElementOnlyContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ParticleContentValidator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                                             { "ParseElementOnlyContent", {}, { ::i2c::type_of<::System::Xml::Schema::ParticleContentValidator*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseHowMany
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::ParticleContentValidator*)>(&::System::Xml::DtdParser::ParseHowMany)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::ParticleContentValidator*)>(&::System::Xml::DtdParser::ParseHowMany)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6193290;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseHowMany",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ParticleContentValidator*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseHowMany", {}, { ::i2c::type_of<::System::Xml::Schema::ParticleContentValidator*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseElementMixedContent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::ParticleContentValidator*, int32_t)>(&::System::Xml::DtdParser::ParseElementMixedContent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::ParticleContentValidator*, int32_t)>(
+    &::System::Xml::DtdParser::ParseElementMixedContent)> {
   constexpr static std::size_t size = 0x28c;
   constexpr static std::size_t addrs = 0x6192c6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseElementMixedContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ParticleContentValidator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                                             { "ParseElementMixedContent", {}, { ::i2c::type_of<::System::Xml::Schema::ParticleContentValidator*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseEntityDecl
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseEntityDecl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseEntityDecl)> {
   constexpr static std::size_t size = 0x3a8;
   constexpr static std::size_t addrs = 0x6191100;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseEntityDecl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseEntityDecl", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseNotationDecl
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseNotationDecl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseNotationDecl)> {
   constexpr static std::size_t size = 0x220;
   constexpr static std::size_t addrs = 0x61914a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseNotationDecl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseNotationDecl", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.AddUndeclaredNotation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::StringW)>(&::System::Xml::DtdParser::AddUndeclaredNotation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::StringW)>(&::System::Xml::DtdParser::AddUndeclaredNotation)> {
   constexpr static std::size_t size = 0x1a8;
   constexpr static std::size_t addrs = 0x6192a18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "AddUndeclaredNotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "AddUndeclaredNotation", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseComment
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseComment)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseComment)> {
   constexpr static std::size_t size = 0x258;
   constexpr static std::size_t addrs = 0x61916c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseComment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseComment", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParsePI
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParsePI)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParsePI)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x6191920;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParsePI",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParsePI", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseCondSection
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseCondSection)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ParseCondSection)> {
   constexpr static std::size_t size = 0x220;
   constexpr static std::size_t addrs = 0x6191a9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseCondSection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseCondSection", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseExternalId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::DtdParser_Token, ::System::Xml::DtdParser_Token, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Xml::DtdParser::ParseExternalId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::DtdParser_Token, ::System::Xml::DtdParser_Token, ::by_ref<::StringW>, ::by_ref<::StringW>)>(
+    &::System::Xml::DtdParser::ParseExternalId)> {
   constexpr static std::size_t size = 0x4e0;
   constexpr static std::size_t addrs = 0x618fd0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseExternalId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DtdParser_Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DtdParser_Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseExternalId",
+                                                                                                {},
+                                                                                                { ::i2c::type_of<::System::Xml::DtdParser_Token>(), ::i2c::type_of<::System::Xml::DtdParser_Token>(),
+                                                                                                  ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.GetToken
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::GetToken)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::GetToken)> {
   constexpr static std::size_t size = 0x86c;
   constexpr static std::size_t addrs = 0x618f2c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetToken", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanSubsetContent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanSubsetContent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanSubsetContent)> {
   constexpr static std::size_t size = 0x74c;
   constexpr static std::size_t addrs = 0x6193a28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanSubsetContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanSubsetContent", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanNameExpected
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanNameExpected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanNameExpected)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x61939c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanNameExpected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanNameExpected", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanQNameExpected
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanQNameExpected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanQNameExpected)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x61939e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanQNameExpected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanQNameExpected", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanNmtokenExpected
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanNmtokenExpected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanNmtokenExpected)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6193a08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanNmtokenExpected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanNmtokenExpected", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanDoctype1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanDoctype1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanDoctype1)> {
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x6194174;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanDoctype1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanDoctype1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanDoctype2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanDoctype2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanDoctype2)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x61942c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanDoctype2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanDoctype2", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanClosingTag
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanClosingTag)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanClosingTag)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x6196730;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanClosingTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanClosingTag", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanElement1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement1)> {
   constexpr static std::size_t size = 0x1f8;
   constexpr static std::size_t addrs = 0x6194380;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanElement2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement2)> {
   constexpr static std::size_t size = 0x1c8;
   constexpr static std::size_t addrs = 0x6194578;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement2", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanElement3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement3)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement3)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6194740;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement3", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanElement4
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement4)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement4)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x61947c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement4", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanElement5
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement5)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement5)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x61948a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement5", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanElement6
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement6)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement6)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x6194998;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement6", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanElement7
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement7)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanElement7)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x6194a70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement7", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanAttlist1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist1)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x6194ad0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanAttlist2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist2)> {
   constexpr static std::size_t size = 0x6f0;
   constexpr static std::size_t addrs = 0x6194b98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist2", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanAttlist3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist3)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist3)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6195288;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist3", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanAttlist4
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist4)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist4)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x619532c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist4", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanAttlist5
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist5)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist5)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x6195404;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist5", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanAttlist6
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist6)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist6)> {
   constexpr static std::size_t size = 0x3c4;
   constexpr static std::size_t addrs = 0x61954dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist6", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanAttlist7
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist7)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanAttlist7)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x61958a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist7", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanLiteral
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)(::System::Xml::DtdParser_LiteralType)>(&::System::Xml::DtdParser::ScanLiteral)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)(::System::Xml::DtdParser_LiteralType)>(&::System::Xml::DtdParser::ScanLiteral)> {
   constexpr static std::size_t size = 0xb04;
   constexpr static std::size_t addrs = 0x6196d84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanLiteral",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DtdParser_LiteralType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanLiteral", {}, { ::i2c::type_of<::System::Xml::DtdParser_LiteralType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanEntityName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanEntityName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanEntityName)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x6197888;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanEntityName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanEntityName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanNotation1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanNotation1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanNotation1)> {
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x6195964;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanNotation1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanNotation1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanSystemId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanSystemId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanSystemId)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x6195a98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanSystemId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanSystemId", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanEntity1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanEntity1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanEntity1)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6195c78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanEntity1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanEntity1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanEntity2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanEntity2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanEntity2)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x6195cec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanEntity2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanEntity2", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanEntity3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanEntity3)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanEntity3)> {
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x6195e54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanEntity3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanEntity3", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanPublicId1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanPublicId1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanPublicId1)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x6195b54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanPublicId1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanPublicId1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanPublicId2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanPublicId2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanPublicId2)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6195c10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanPublicId2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanPublicId2", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanCondSection1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanCondSection1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanCondSection1)> {
   constexpr static std::size_t size = 0x2e0;
   constexpr static std::size_t addrs = 0x6195f58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanCondSection1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanCondSection1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanCondSection2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanCondSection2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanCondSection2)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6196238;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanCondSection2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanCondSection2", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanCondSection3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanCondSection3)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::DtdParser_Token (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanCondSection3)> {
   constexpr static std::size_t size = 0x45c;
   constexpr static std::size_t addrs = 0x61962d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanCondSection3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanCondSection3", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanName)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6196a3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanQName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanQName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanQName)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6196a44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanQName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanQName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanQName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::ScanQName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::ScanQName)> {
   constexpr static std::size_t size = 0x298;
   constexpr static std::size_t addrs = 0x6197c74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanQName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanQName", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ReadDataInName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ReadDataInName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ReadDataInName)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6197f0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ReadDataInName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ReadDataInName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ScanNmtoken
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanNmtoken)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ScanNmtoken)> {
   constexpr static std::size_t size = 0x170;
   constexpr static std::size_t addrs = 0x6196a4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanNmtoken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanNmtoken", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.EatPublicKeyword
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::EatPublicKeyword)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::EatPublicKeyword)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x6196bbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "EatPublicKeyword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "EatPublicKeyword", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.EatSystemKeyword
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::EatSystemKeyword)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::EatSystemKeyword)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x6196ca0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "EatSystemKeyword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "EatSystemKeyword", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.GetNameQualified
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::GetNameQualified)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::GetNameQualified)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x618fb90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetNameQualified",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetNameQualified", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.GetNameString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::GetNameString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::GetNameString)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6192a04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetNameString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetNameString", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.GetNmtokenString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::GetNmtokenString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::GetNmtokenString)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6192bc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetNmtokenString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetNmtokenString", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.GetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::GetValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::GetValue)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6192c28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetValue", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.GetValueWithStrippedSpaces
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::GetValueWithStrippedSpaces)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::GetValueWithStrippedSpaces)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6192bd4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetValueWithStrippedSpaces",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetValueWithStrippedSpaces", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ReadData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ReadData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::ReadData)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x61967c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ReadData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ReadData", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.LoadParsingBuffer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::LoadParsingBuffer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::LoadParsingBuffer)> {
   constexpr static std::size_t size = 0x180;
   constexpr static std::size_t addrs = 0x618f144;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "LoadParsingBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "LoadParsingBuffer", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.SaveParsingBuffer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::SaveParsingBuffer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::SaveParsingBuffer)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61901ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SaveParsingBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "SaveParsingBuffer", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.SaveParsingBuffer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(int32_t)>(&::System::Xml::DtdParser::SaveParsingBuffer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(int32_t)>(&::System::Xml::DtdParser::SaveParsingBuffer)> {
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x6191d94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SaveParsingBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "SaveParsingBuffer", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.HandleEntityReference
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)(bool, bool, bool)>(&::System::Xml::DtdParser::HandleEntityReference)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)(bool, bool, bool)>(&::System::Xml::DtdParser::HandleEntityReference)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x61938c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "HandleEntityReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "HandleEntityReference", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.HandleEntityReference
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)(::System::Xml::XmlQualifiedName*, bool, bool, bool)>(&::System::Xml::DtdParser::HandleEntityReference)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)(::System::Xml::XmlQualifiedName*, bool, bool, bool)>(&::System::Xml::DtdParser::HandleEntityReference)> {
   constexpr static std::size_t size = 0x2cc;
   constexpr static std::size_t addrs = 0x6198190;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "HandleEntityReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                            { "HandleEntityReference", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.HandleEntityEnd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::HandleEntityEnd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)(bool)>(&::System::Xml::DtdParser::HandleEntityEnd)> {
   constexpr static std::size_t size = 0x1ac;
   constexpr static std::size_t addrs = 0x6196890;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "HandleEntityEnd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "HandleEntityEnd", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.VerifyEntityReference
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaEntity* (::System::Xml::DtdParser::*)(::System::Xml::XmlQualifiedName*, bool, bool, bool)>(&::System::Xml::DtdParser::VerifyEntityReference)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::SchemaEntity* (::System::Xml::DtdParser::*)(::System::Xml::XmlQualifiedName*, bool, bool, bool)>(
+    &::System::Xml::DtdParser::VerifyEntityReference)> {
   constexpr static std::size_t size = 0x240;
   constexpr static std::size_t addrs = 0x61979f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "VerifyEntityReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                            { "VerifyEntityReference", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.SendValidationEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::System::Xml::Schema::XmlSeverityType, ::StringW, ::StringW)>(&::System::Xml::DtdParser::SendValidationEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::System::Xml::Schema::XmlSeverityType, ::StringW, ::StringW)>(
+    &::System::Xml::DtdParser::SendValidationEvent)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x6191cbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SendValidationEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSeverityType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::Xml::DtdParser*>(),
+            { "SendValidationEvent", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Xml::Schema::XmlSeverityType>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.SendValidationEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::XmlSeverityType, ::StringW, ::StringW)>(&::System::Xml::DtdParser::SendValidationEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::XmlSeverityType, ::StringW, ::StringW)>(
+    &::System::Xml::DtdParser::SendValidationEvent)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x6192940;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SendValidationEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSeverityType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                         { "SendValidationEvent", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSeverityType>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.SendValidationEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::XmlSeverityType, ::System::Xml::Schema::XmlSchemaException*)>(&::System::Xml::DtdParser::SendValidationEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::System::Xml::Schema::XmlSeverityType, ::System::Xml::Schema::XmlSchemaException*)>(
+    &::System::Xml::DtdParser::SendValidationEvent)> {
   constexpr static std::size_t size = 0x14c;
   constexpr static std::size_t addrs = 0x618eff8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SendValidationEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSeverityType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaException*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                         { "SendValidationEvent", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSeverityType>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaException*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.IsAttributeValueType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DtdParser::*)(::System::Xml::DtdParser_Token)>(&::System::Xml::DtdParser::IsAttributeValueType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DtdParser::*)(::System::Xml::DtdParser_Token)>(&::System::Xml::DtdParser::IsAttributeValueType)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6192934;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "IsAttributeValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DtdParser_Token>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "IsAttributeValueType", {}, { ::i2c::type_of<::System::Xml::DtdParser_Token>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.get_LineNo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_LineNo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_LineNo)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x6191eec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_LineNo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_LineNo", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.get_LinePos
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_LinePos)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_LinePos)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x6191f94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_LinePos",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_LinePos", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.get_BaseUriStr
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_BaseUriStr)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::get_BaseUriStr)> {
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x618eeec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_BaseUriStr",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_BaseUriStr", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.OnUnexpectedError
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::OnUnexpectedError)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)()>(&::System::Xml::DtdParser::OnUnexpectedError)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x618fb30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "OnUnexpectedError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "OnUnexpectedError", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.Throw
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW)>(&::System::Xml::DtdParser::Throw)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW)>(&::System::Xml::DtdParser::Throw)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6191a88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Throw",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Throw", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.Throw
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW, ::StringW)>(&::System::Xml::DtdParser::Throw)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW, ::StringW)>(&::System::Xml::DtdParser::Throw)> {
   constexpr static std::size_t size = 0x1d8;
   constexpr static std::size_t addrs = 0x6193300;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Throw",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Throw", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.Throw
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW, ::ArrayW<::StringW,::Array<::StringW>*>)>(&::System::Xml::DtdParser::Throw)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW, ::ArrayW<::StringW>)>(&::System::Xml::DtdParser::Throw)> {
   constexpr static std::size_t size = 0x1fc;
   constexpr static std::size_t addrs = 0x6193614;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Throw",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW,::Array<::StringW>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Throw", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.Throw
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::StringW, ::StringW, int32_t, int32_t)>(&::System::Xml::DtdParser::Throw)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::StringW, ::StringW, int32_t, int32_t)>(&::System::Xml::DtdParser::Throw)> {
   constexpr static std::size_t size = 0x1cc;
   constexpr static std::size_t addrs = 0x6192048;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Throw",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                                             { "Throw", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ThrowInvalidChar
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW, int32_t)>(&::System::Xml::DtdParser::ThrowInvalidChar)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW, int32_t)>(&::System::Xml::DtdParser::ThrowInvalidChar)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x618e8d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ThrowInvalidChar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ThrowInvalidChar", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ThrowInvalidChar
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(::ArrayW<char16_t,::Array<char16_t>*>, int32_t, int32_t)>(&::System::Xml::DtdParser::ThrowInvalidChar)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::DtdParser::ThrowInvalidChar)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6193810;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ThrowInvalidChar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ThrowInvalidChar", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ThrowUnexpectedToken
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW)>(&::System::Xml::DtdParser::ThrowUnexpectedToken)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW)>(&::System::Xml::DtdParser::ThrowUnexpectedToken)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6191ee4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ThrowUnexpectedToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ThrowUnexpectedToken", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ThrowUnexpectedToken
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW, ::StringW)>(&::System::Xml::DtdParser::ThrowUnexpectedToken)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DtdParser::*)(int32_t, ::StringW, ::StringW)>(&::System::Xml::DtdParser::ThrowUnexpectedToken)> {
   constexpr static std::size_t size = 0x12c;
   constexpr static std::size_t addrs = 0x61934e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ThrowUnexpectedToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ThrowUnexpectedToken", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.ParseUnexpectedToken
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DtdParser::*)(int32_t)>(&::System::Xml::DtdParser::ParseUnexpectedToken)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DtdParser::*)(int32_t)>(&::System::Xml::DtdParser::ParseUnexpectedToken)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x6193918;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseUnexpectedToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseUnexpectedToken", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DtdParser.StripSpaces
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::DtdParser::StripSpaces)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::DtdParser::StripSpaces)> {
   constexpr static std::size_t size = 0x240;
   constexpr static std::size_t addrs = 0x6197f50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "StripSpaces",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "StripSpaces", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::IDtdParserAdapter*& System::Xml::DtdParser::__cordl_internal_get_readerAdapter()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___readerAdapter;
+constexpr ::System::Xml::IDtdParserAdapter*& System::Xml::DtdParser::__cordl_internal_get_readerAdapter() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___readerAdapter;
 }
 constexpr ::System::Xml::IDtdParserAdapter* const& System::Xml::DtdParser::__cordl_internal_get_readerAdapter() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___readerAdapter;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___readerAdapter;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_readerAdapter(::System::Xml::IDtdParserAdapter*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readerAdapter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_readerAdapter(::System::Xml::IDtdParserAdapter* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___readerAdapter = value;
 }
-constexpr ::System::Xml::IDtdParserAdapterWithValidation*& System::Xml::DtdParser::__cordl_internal_get_readerAdapterWithValidation()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___readerAdapterWithValidation;
+constexpr ::System::Xml::IDtdParserAdapterWithValidation*& System::Xml::DtdParser::__cordl_internal_get_readerAdapterWithValidation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___readerAdapterWithValidation;
 }
 constexpr ::System::Xml::IDtdParserAdapterWithValidation* const& System::Xml::DtdParser::__cordl_internal_get_readerAdapterWithValidation() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___readerAdapterWithValidation;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___readerAdapterWithValidation;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_readerAdapterWithValidation(::System::Xml::IDtdParserAdapterWithValidation*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readerAdapterWithValidation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_readerAdapterWithValidation(::System::Xml::IDtdParserAdapterWithValidation* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___readerAdapterWithValidation = value;
 }
-constexpr ::System::Xml::XmlNameTable*& System::Xml::DtdParser::__cordl_internal_get_nameTable()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___nameTable;
+constexpr ::System::Xml::XmlNameTable*& System::Xml::DtdParser::__cordl_internal_get_nameTable() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___nameTable;
 }
 constexpr ::System::Xml::XmlNameTable* const& System::Xml::DtdParser::__cordl_internal_get_nameTable() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___nameTable;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___nameTable;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_nameTable(::System::Xml::XmlNameTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nameTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___nameTable = value;
 }
-constexpr ::System::Xml::Schema::SchemaInfo*& System::Xml::DtdParser::__cordl_internal_get_schemaInfo()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemaInfo;
+constexpr ::System::Xml::Schema::SchemaInfo*& System::Xml::DtdParser::__cordl_internal_get_schemaInfo() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemaInfo;
 }
 constexpr ::System::Xml::Schema::SchemaInfo* const& System::Xml::DtdParser::__cordl_internal_get_schemaInfo() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemaInfo;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemaInfo;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_schemaInfo(::System::Xml::Schema::SchemaInfo*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_schemaInfo(::System::Xml::Schema::SchemaInfo* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___schemaInfo = value;
 }
-constexpr ::System::Xml::XmlCharType& System::Xml::DtdParser::__cordl_internal_get_xmlCharType()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xmlCharType;
+constexpr ::System::Xml::XmlCharType& System::Xml::DtdParser::__cordl_internal_get_xmlCharType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xmlCharType;
 }
 constexpr ::System::Xml::XmlCharType const& System::Xml::DtdParser::__cordl_internal_get_xmlCharType() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xmlCharType;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xmlCharType;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_xmlCharType(::System::Xml::XmlCharType  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___xmlCharType = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_xmlCharType(::System::Xml::XmlCharType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___xmlCharType = value;
 }
-constexpr ::StringW& System::Xml::DtdParser::__cordl_internal_get_systemId()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___systemId;
+constexpr ::StringW& System::Xml::DtdParser::__cordl_internal_get_systemId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___systemId;
 }
 constexpr ::StringW const& System::Xml::DtdParser::__cordl_internal_get_systemId() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___systemId;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___systemId;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_systemId(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___systemId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_systemId(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___systemId = value;
 }
-constexpr ::StringW& System::Xml::DtdParser::__cordl_internal_get_publicId()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___publicId;
+constexpr ::StringW& System::Xml::DtdParser::__cordl_internal_get_publicId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___publicId;
 }
 constexpr ::StringW const& System::Xml::DtdParser::__cordl_internal_get_publicId() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___publicId;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___publicId;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_publicId(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_publicId(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___publicId = value;
 }
-constexpr bool& System::Xml::DtdParser::__cordl_internal_get_normalize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___normalize;
+constexpr bool& System::Xml::DtdParser::__cordl_internal_get_normalize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___normalize;
 }
 constexpr bool const& System::Xml::DtdParser::__cordl_internal_get_normalize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___normalize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___normalize;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_normalize(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___normalize = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_normalize(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___normalize = value;
 }
-constexpr bool& System::Xml::DtdParser::__cordl_internal_get_validate()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___validate;
+constexpr bool& System::Xml::DtdParser::__cordl_internal_get_validate() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___validate;
 }
 constexpr bool const& System::Xml::DtdParser::__cordl_internal_get_validate() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___validate;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___validate;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_validate(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___validate = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_validate(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___validate = value;
 }
-constexpr bool& System::Xml::DtdParser::__cordl_internal_get_supportNamespaces()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportNamespaces;
+constexpr bool& System::Xml::DtdParser::__cordl_internal_get_supportNamespaces() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportNamespaces;
 }
 constexpr bool const& System::Xml::DtdParser::__cordl_internal_get_supportNamespaces() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportNamespaces;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportNamespaces;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_supportNamespaces(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___supportNamespaces = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_supportNamespaces(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___supportNamespaces = value;
 }
-constexpr bool& System::Xml::DtdParser::__cordl_internal_get_v1Compat()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___v1Compat;
+constexpr bool& System::Xml::DtdParser::__cordl_internal_get_v1Compat() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___v1Compat;
 }
 constexpr bool const& System::Xml::DtdParser::__cordl_internal_get_v1Compat() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___v1Compat;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___v1Compat;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_v1Compat(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___v1Compat = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_v1Compat(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___v1Compat = value;
 }
-constexpr ::ArrayW<char16_t,::Array<char16_t>*>& System::Xml::DtdParser::__cordl_internal_get_chars()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___chars;
+constexpr ::ArrayW<char16_t>& System::Xml::DtdParser::__cordl_internal_get_chars() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___chars;
 }
-constexpr ::ArrayW<char16_t,::Array<char16_t>*> const& System::Xml::DtdParser::__cordl_internal_get_chars() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___chars;
+constexpr ::ArrayW<char16_t> const& System::Xml::DtdParser::__cordl_internal_get_chars() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___chars;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_chars(::ArrayW<char16_t,::Array<char16_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___chars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_chars(::ArrayW<char16_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___chars = value;
 }
-constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_charsUsed()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___charsUsed;
+constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_charsUsed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___charsUsed;
 }
 constexpr int32_t const& System::Xml::DtdParser::__cordl_internal_get_charsUsed() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___charsUsed;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___charsUsed;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_charsUsed(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___charsUsed = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_charsUsed(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___charsUsed = value;
 }
-constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_curPos()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___curPos;
+constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_curPos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___curPos;
 }
 constexpr int32_t const& System::Xml::DtdParser::__cordl_internal_get_curPos() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___curPos;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___curPos;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_curPos(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___curPos = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_curPos(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___curPos = value;
 }
-constexpr ::System::Xml::DtdParser_ScanningFunction& System::Xml::DtdParser::__cordl_internal_get_scanningFunction()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___scanningFunction;
+constexpr ::System::Xml::DtdParser_ScanningFunction& System::Xml::DtdParser::__cordl_internal_get_scanningFunction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scanningFunction;
 }
 constexpr ::System::Xml::DtdParser_ScanningFunction const& System::Xml::DtdParser::__cordl_internal_get_scanningFunction() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___scanningFunction;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scanningFunction;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_scanningFunction(::System::Xml::DtdParser_ScanningFunction  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___scanningFunction = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_scanningFunction(::System::Xml::DtdParser_ScanningFunction value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___scanningFunction = value;
 }
-constexpr ::System::Xml::DtdParser_ScanningFunction& System::Xml::DtdParser::__cordl_internal_get_nextScaningFunction()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___nextScaningFunction;
+constexpr ::System::Xml::DtdParser_ScanningFunction& System::Xml::DtdParser::__cordl_internal_get_nextScaningFunction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___nextScaningFunction;
 }
 constexpr ::System::Xml::DtdParser_ScanningFunction const& System::Xml::DtdParser::__cordl_internal_get_nextScaningFunction() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___nextScaningFunction;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___nextScaningFunction;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_nextScaningFunction(::System::Xml::DtdParser_ScanningFunction  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___nextScaningFunction = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_nextScaningFunction(::System::Xml::DtdParser_ScanningFunction value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___nextScaningFunction = value;
 }
-constexpr ::System::Xml::DtdParser_ScanningFunction& System::Xml::DtdParser::__cordl_internal_get_savedScanningFunction()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___savedScanningFunction;
+constexpr ::System::Xml::DtdParser_ScanningFunction& System::Xml::DtdParser::__cordl_internal_get_savedScanningFunction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___savedScanningFunction;
 }
 constexpr ::System::Xml::DtdParser_ScanningFunction const& System::Xml::DtdParser::__cordl_internal_get_savedScanningFunction() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___savedScanningFunction;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___savedScanningFunction;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_savedScanningFunction(::System::Xml::DtdParser_ScanningFunction  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___savedScanningFunction = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_savedScanningFunction(::System::Xml::DtdParser_ScanningFunction value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___savedScanningFunction = value;
 }
-constexpr bool& System::Xml::DtdParser::__cordl_internal_get_whitespaceSeen()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___whitespaceSeen;
+constexpr bool& System::Xml::DtdParser::__cordl_internal_get_whitespaceSeen() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___whitespaceSeen;
 }
 constexpr bool const& System::Xml::DtdParser::__cordl_internal_get_whitespaceSeen() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___whitespaceSeen;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___whitespaceSeen;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_whitespaceSeen(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___whitespaceSeen = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_whitespaceSeen(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___whitespaceSeen = value;
 }
-constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_tokenStartPos()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___tokenStartPos;
+constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_tokenStartPos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tokenStartPos;
 }
 constexpr int32_t const& System::Xml::DtdParser::__cordl_internal_get_tokenStartPos() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___tokenStartPos;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tokenStartPos;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_tokenStartPos(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___tokenStartPos = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_tokenStartPos(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___tokenStartPos = value;
 }
-constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_colonPos()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___colonPos;
+constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_colonPos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___colonPos;
 }
 constexpr int32_t const& System::Xml::DtdParser::__cordl_internal_get_colonPos() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___colonPos;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___colonPos;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_colonPos(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___colonPos = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_colonPos(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___colonPos = value;
 }
-constexpr ::System::Text::StringBuilder*& System::Xml::DtdParser::__cordl_internal_get_internalSubsetValueSb()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___internalSubsetValueSb;
+constexpr ::System::Text::StringBuilder*& System::Xml::DtdParser::__cordl_internal_get_internalSubsetValueSb() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___internalSubsetValueSb;
 }
 constexpr ::System::Text::StringBuilder* const& System::Xml::DtdParser::__cordl_internal_get_internalSubsetValueSb() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___internalSubsetValueSb;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___internalSubsetValueSb;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_internalSubsetValueSb(::System::Text::StringBuilder*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___internalSubsetValueSb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_internalSubsetValueSb(::System::Text::StringBuilder* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___internalSubsetValueSb = value;
 }
-constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_externalEntitiesDepth()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___externalEntitiesDepth;
+constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_externalEntitiesDepth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___externalEntitiesDepth;
 }
 constexpr int32_t const& System::Xml::DtdParser::__cordl_internal_get_externalEntitiesDepth() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___externalEntitiesDepth;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___externalEntitiesDepth;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_externalEntitiesDepth(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___externalEntitiesDepth = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_externalEntitiesDepth(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___externalEntitiesDepth = value;
 }
-constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_currentEntityId()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___currentEntityId;
+constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_currentEntityId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___currentEntityId;
 }
 constexpr int32_t const& System::Xml::DtdParser::__cordl_internal_get_currentEntityId() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___currentEntityId;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___currentEntityId;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_currentEntityId(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___currentEntityId = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_currentEntityId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___currentEntityId = value;
 }
-constexpr bool& System::Xml::DtdParser::__cordl_internal_get_freeFloatingDtd()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___freeFloatingDtd;
+constexpr bool& System::Xml::DtdParser::__cordl_internal_get_freeFloatingDtd() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___freeFloatingDtd;
 }
 constexpr bool const& System::Xml::DtdParser::__cordl_internal_get_freeFloatingDtd() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___freeFloatingDtd;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___freeFloatingDtd;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_freeFloatingDtd(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___freeFloatingDtd = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_freeFloatingDtd(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___freeFloatingDtd = value;
 }
-constexpr bool& System::Xml::DtdParser::__cordl_internal_get_hasFreeFloatingInternalSubset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hasFreeFloatingInternalSubset;
+constexpr bool& System::Xml::DtdParser::__cordl_internal_get_hasFreeFloatingInternalSubset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hasFreeFloatingInternalSubset;
 }
 constexpr bool const& System::Xml::DtdParser::__cordl_internal_get_hasFreeFloatingInternalSubset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hasFreeFloatingInternalSubset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hasFreeFloatingInternalSubset;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_hasFreeFloatingInternalSubset(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___hasFreeFloatingInternalSubset = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_hasFreeFloatingInternalSubset(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___hasFreeFloatingInternalSubset = value;
 }
-constexpr ::System::Text::StringBuilder*& System::Xml::DtdParser::__cordl_internal_get_stringBuilder()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___stringBuilder;
+constexpr ::System::Text::StringBuilder*& System::Xml::DtdParser::__cordl_internal_get_stringBuilder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stringBuilder;
 }
 constexpr ::System::Text::StringBuilder* const& System::Xml::DtdParser::__cordl_internal_get_stringBuilder() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___stringBuilder;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stringBuilder;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_stringBuilder(::System::Text::StringBuilder*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stringBuilder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_stringBuilder(::System::Text::StringBuilder* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___stringBuilder = value;
 }
-constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_condSectionDepth()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___condSectionDepth;
+constexpr int32_t& System::Xml::DtdParser::__cordl_internal_get_condSectionDepth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___condSectionDepth;
 }
 constexpr int32_t const& System::Xml::DtdParser::__cordl_internal_get_condSectionDepth() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___condSectionDepth;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___condSectionDepth;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_condSectionDepth(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___condSectionDepth = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_condSectionDepth(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___condSectionDepth = value;
 }
-constexpr ::System::Xml::LineInfo& System::Xml::DtdParser::__cordl_internal_get_literalLineInfo()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___literalLineInfo;
+constexpr ::System::Xml::LineInfo& System::Xml::DtdParser::__cordl_internal_get_literalLineInfo() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___literalLineInfo;
 }
 constexpr ::System::Xml::LineInfo const& System::Xml::DtdParser::__cordl_internal_get_literalLineInfo() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___literalLineInfo;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___literalLineInfo;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_literalLineInfo(::System::Xml::LineInfo  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___literalLineInfo = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_literalLineInfo(::System::Xml::LineInfo value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___literalLineInfo = value;
 }
-constexpr char16_t& System::Xml::DtdParser::__cordl_internal_get_literalQuoteChar()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___literalQuoteChar;
+constexpr char16_t& System::Xml::DtdParser::__cordl_internal_get_literalQuoteChar() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___literalQuoteChar;
 }
 constexpr char16_t const& System::Xml::DtdParser::__cordl_internal_get_literalQuoteChar() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___literalQuoteChar;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___literalQuoteChar;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_literalQuoteChar(char16_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___literalQuoteChar = value;
+constexpr void System::Xml::DtdParser::__cordl_internal_set_literalQuoteChar(char16_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___literalQuoteChar = value;
 }
-constexpr ::StringW& System::Xml::DtdParser::__cordl_internal_get_documentBaseUri()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___documentBaseUri;
+constexpr ::StringW& System::Xml::DtdParser::__cordl_internal_get_documentBaseUri() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___documentBaseUri;
 }
 constexpr ::StringW const& System::Xml::DtdParser::__cordl_internal_get_documentBaseUri() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___documentBaseUri;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___documentBaseUri;
 }
-constexpr void System::Xml::DtdParser::__cordl_internal_set_documentBaseUri(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___documentBaseUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DtdParser::__cordl_internal_set_documentBaseUri(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___documentBaseUri = value;
 }
-constexpr ::StringW& System::Xml::DtdParser::__cordl_internal_get_externalDtdBaseUri()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___externalDtdBaseUri;
+constexpr ::StringW& System::Xml::DtdParser::__cordl_internal_get_externalDtdBaseUri() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___externalDtdBaseUri;
 }
 constexpr ::StringW const& System::Xml::DtdParser::__cordl_internal_get_externalDtdBaseUri() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___externalDtdBaseUri;
-}
-constexpr void System::Xml::DtdParser::__cordl_internal_set_externalDtdBaseUri(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___externalDtdBaseUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::DtdParser_UndeclaredNotation*>*& System::Xml::DtdParser::__cordl_internal_get_undeclaredNotations()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___undeclaredNotations;
-}
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::DtdParser_UndeclaredNotation*>* const& System::Xml::DtdParser::__cordl_internal_get_undeclaredNotations() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___undeclaredNotations;
-}
-constexpr void System::Xml::DtdParser::__cordl_internal_set_undeclaredNotations(::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::DtdParser_UndeclaredNotation*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___undeclaredNotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<int32_t,::Array<int32_t>*>& System::Xml::DtdParser::__cordl_internal_get_condSectionEntityIds()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___condSectionEntityIds;
-}
-constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& System::Xml::DtdParser::__cordl_internal_get_condSectionEntityIds() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___condSectionEntityIds;
-}
-constexpr void System::Xml::DtdParser::__cordl_internal_set_condSectionEntityIds(::ArrayW<int32_t,::Array<int32_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___condSectionEntityIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void System::Xml::DtdParser::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Xml::IDtdParser* System::Xml::DtdParser::Create()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdParser*, false>(nullptr, ___internal_method);
-}
-inline void System::Xml::DtdParser::Initialize(::System::Xml::IDtdParserAdapter*  readerAdapter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, readerAdapter);
-}
-inline void System::Xml::DtdParser::InitializeFreeFloatingDtd(::StringW  baseUri, ::StringW  docTypeName, ::StringW  publicId, ::StringW  systemId, ::StringW  internalSubset, ::System::Xml::IDtdParserAdapter*  adapter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "InitializeFreeFloatingDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, baseUri, docTypeName, publicId, systemId, internalSubset, adapter);
-}
-inline ::System::Xml::IDtdInfo* System::Xml::DtdParser::System_Xml_IDtdParser_ParseInternalDtd(::System::Xml::IDtdParserAdapter*  adapter, bool  saveInternalSubset)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "System.Xml.IDtdParser.ParseInternalDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdInfo*, false>(this, ___internal_method, adapter, saveInternalSubset);
-}
-inline ::System::Xml::IDtdInfo* System::Xml::DtdParser::System_Xml_IDtdParser_ParseFreeFloatingDtd(::StringW  baseUri, ::StringW  docTypeName, ::StringW  publicId, ::StringW  systemId, ::StringW  internalSubset, ::System::Xml::IDtdParserAdapter*  adapter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "System.Xml.IDtdParser.ParseFreeFloatingDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IDtdParserAdapter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdInfo*, false>(this, ___internal_method, baseUri, docTypeName, publicId, systemId, internalSubset, adapter);
-}
-inline bool System::Xml::DtdParser::get_ParsingInternalSubset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_ParsingInternalSubset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Xml::DtdParser::get_IgnoreEntityReferences()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_IgnoreEntityReferences",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Xml::DtdParser::get_SaveInternalSubsetValue()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_SaveInternalSubsetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Xml::DtdParser::get_ParsingTopLevelMarkup()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_ParsingTopLevelMarkup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Xml::DtdParser::get_SupportNamespaces()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_SupportNamespaces",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Xml::DtdParser::get_Normalize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_Normalize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::Parse(bool  saveInternalSubset)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Parse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saveInternalSubset);
-}
-inline void System::Xml::DtdParser::ParseInDocumentDtd(bool  saveInternalSubset)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseInDocumentDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saveInternalSubset);
-}
-inline void System::Xml::DtdParser::ParseFreeFloatingDtd()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseFreeFloatingDtd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParseInternalSubset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseInternalSubset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParseExternalSubset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseExternalSubset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParseSubset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseSubset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParseAttlistDecl()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseAttlistDecl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParseAttlistType(::System::Xml::Schema::SchemaAttDef*  attrDef, ::System::Xml::Schema::SchemaElementDecl*  elementDecl, bool  ignoreErrors)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseAttlistType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaElementDecl*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attrDef, elementDecl, ignoreErrors);
-}
-inline void System::Xml::DtdParser::ParseAttlistDefault(::System::Xml::Schema::SchemaAttDef*  attrDef, bool  ignoreErrors)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseAttlistDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attrDef, ignoreErrors);
-}
-inline void System::Xml::DtdParser::ParseElementDecl()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseElementDecl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParseElementOnlyContent(::System::Xml::Schema::ParticleContentValidator*  pcv, int32_t  startParenEntityId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseElementOnlyContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ParticleContentValidator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pcv, startParenEntityId);
-}
-inline void System::Xml::DtdParser::ParseHowMany(::System::Xml::Schema::ParticleContentValidator*  pcv)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseHowMany",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ParticleContentValidator*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pcv);
-}
-inline void System::Xml::DtdParser::ParseElementMixedContent(::System::Xml::Schema::ParticleContentValidator*  pcv, int32_t  startParenEntityId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseElementMixedContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ParticleContentValidator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pcv, startParenEntityId);
-}
-inline void System::Xml::DtdParser::ParseEntityDecl()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseEntityDecl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParseNotationDecl()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseNotationDecl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::AddUndeclaredNotation(::StringW  notationName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "AddUndeclaredNotation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, notationName);
-}
-inline void System::Xml::DtdParser::ParseComment()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseComment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParsePI()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParsePI",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParseCondSection()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseCondSection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ParseExternalId(::System::Xml::DtdParser_Token  idTokenType, ::System::Xml::DtdParser_Token  declType, ::ByRef<::StringW>  publicId, ::ByRef<::StringW>  systemId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseExternalId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DtdParser_Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DtdParser_Token>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, idTokenType, declType, publicId, systemId);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::GetToken(bool  needWhiteSpace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method, needWhiteSpace);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanSubsetContent()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanSubsetContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanNameExpected()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanNameExpected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanQNameExpected()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanQNameExpected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanNmtokenExpected()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanNmtokenExpected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanDoctype1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanDoctype1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanDoctype2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanDoctype2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanClosingTag()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanClosingTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement4()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement5()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement6()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement7()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanElement7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist4()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist5()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist6()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist7()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanAttlist7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanLiteral(::System::Xml::DtdParser_LiteralType  literalType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanLiteral",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DtdParser_LiteralType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method, literalType);
-}
-inline ::System::Xml::XmlQualifiedName* System::Xml::DtdParser::ScanEntityName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanEntityName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanNotation1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanNotation1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanSystemId()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanSystemId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanEntity1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanEntity1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanEntity2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanEntity2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanEntity3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanEntity3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanPublicId1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanPublicId1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanPublicId2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanPublicId2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanCondSection1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanCondSection1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanCondSection2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanCondSection2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanCondSection3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanCondSection3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ScanName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ScanQName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanQName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ScanQName(bool  isQName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanQName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isQName);
-}
-inline bool System::Xml::DtdParser::ReadDataInName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ReadDataInName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::ScanNmtoken()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ScanNmtoken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool System::Xml::DtdParser::EatPublicKeyword()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "EatPublicKeyword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Xml::DtdParser::EatSystemKeyword()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "EatSystemKeyword",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Xml::XmlQualifiedName* System::Xml::DtdParser::GetNameQualified(bool  canHavePrefix)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetNameQualified",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(this, ___internal_method, canHavePrefix);
-}
-inline ::StringW System::Xml::DtdParser::GetNameString()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetNameString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::StringW System::Xml::DtdParser::GetNmtokenString()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetNmtokenString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::StringW System::Xml::DtdParser::GetValue()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::StringW System::Xml::DtdParser::GetValueWithStrippedSpaces()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "GetValueWithStrippedSpaces",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline int32_t System::Xml::DtdParser::ReadData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ReadData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::LoadParsingBuffer()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "LoadParsingBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::SaveParsingBuffer()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SaveParsingBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::SaveParsingBuffer(int32_t  internalSubsetValueEndPos)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SaveParsingBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, internalSubsetValueEndPos);
-}
-inline bool System::Xml::DtdParser::HandleEntityReference(bool  paramEntity, bool  inLiteral, bool  inAttribute)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "HandleEntityReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, paramEntity, inLiteral, inAttribute);
-}
-inline bool System::Xml::DtdParser::HandleEntityReference(::System::Xml::XmlQualifiedName*  entityName, bool  paramEntity, bool  inLiteral, bool  inAttribute)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "HandleEntityReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, entityName, paramEntity, inLiteral, inAttribute);
-}
-inline bool System::Xml::DtdParser::HandleEntityEnd(bool  inLiteral)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "HandleEntityEnd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, inLiteral);
-}
-inline ::System::Xml::Schema::SchemaEntity* System::Xml::DtdParser::VerifyEntityReference(::System::Xml::XmlQualifiedName*  entityName, bool  paramEntity, bool  mustBeDeclared, bool  inAttribute)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "VerifyEntityReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SchemaEntity*, false>(this, ___internal_method, entityName, paramEntity, mustBeDeclared, inAttribute);
-}
-inline void System::Xml::DtdParser::SendValidationEvent(int32_t  pos, ::System::Xml::Schema::XmlSeverityType  severity, ::StringW  code, ::StringW  arg)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SendValidationEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSeverityType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos, severity, code, arg);
-}
-inline void System::Xml::DtdParser::SendValidationEvent(::System::Xml::Schema::XmlSeverityType  severity, ::StringW  code, ::StringW  arg)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SendValidationEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSeverityType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, severity, code, arg);
-}
-inline void System::Xml::DtdParser::SendValidationEvent(::System::Xml::Schema::XmlSeverityType  severity, ::System::Xml::Schema::XmlSchemaException*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "SendValidationEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSeverityType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaException*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, severity, e);
-}
-inline bool System::Xml::DtdParser::IsAttributeValueType(::System::Xml::DtdParser_Token  token)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "IsAttributeValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DtdParser_Token>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, token);
-}
-inline int32_t System::Xml::DtdParser::get_LineNo()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_LineNo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline int32_t System::Xml::DtdParser::get_LinePos()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_LinePos",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline ::StringW System::Xml::DtdParser::get_BaseUriStr()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "get_BaseUriStr",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::OnUnexpectedError()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "OnUnexpectedError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::DtdParser::Throw(int32_t  curPos, ::StringW  res)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Throw",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, curPos, res);
-}
-inline void System::Xml::DtdParser::Throw(int32_t  curPos, ::StringW  res, ::StringW  arg)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Throw",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, curPos, res, arg);
-}
-inline void System::Xml::DtdParser::Throw(int32_t  curPos, ::StringW  res, ::ArrayW<::StringW,::Array<::StringW>*>  args)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Throw",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW,::Array<::StringW>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, curPos, res, args);
-}
-inline void System::Xml::DtdParser::Throw(::StringW  res, ::StringW  arg, int32_t  lineNo, int32_t  linePos)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "Throw",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, res, arg, lineNo, linePos);
-}
-inline void System::Xml::DtdParser::ThrowInvalidChar(int32_t  pos, ::StringW  data, int32_t  invCharPos)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ThrowInvalidChar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos, data, invCharPos);
-}
-inline void System::Xml::DtdParser::ThrowInvalidChar(::ArrayW<char16_t,::Array<char16_t>*>  data, int32_t  length, int32_t  invCharPos)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ThrowInvalidChar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, length, invCharPos);
-}
-inline void System::Xml::DtdParser::ThrowUnexpectedToken(int32_t  pos, ::StringW  expectedToken)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ThrowUnexpectedToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos, expectedToken);
-}
-inline void System::Xml::DtdParser::ThrowUnexpectedToken(int32_t  pos, ::StringW  expectedToken1, ::StringW  expectedToken2)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ThrowUnexpectedToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos, expectedToken1, expectedToken2);
-}
-inline ::StringW System::Xml::DtdParser::ParseUnexpectedToken(int32_t  startPos)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "ParseUnexpectedToken",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, startPos);
-}
-inline ::StringW System::Xml::DtdParser::StripSpaces(::StringW  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DtdParser*>::get(),
-                        "StripSpaces",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, value);
-}
-inline ::System::Xml::DtdParser* System::Xml::DtdParser::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::DtdParser*>());
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___externalDtdBaseUri;
+}
+constexpr void System::Xml::DtdParser::__cordl_internal_set_externalDtdBaseUri(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___externalDtdBaseUri = value;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::DtdParser_UndeclaredNotation*>*& System::Xml::DtdParser::__cordl_internal_get_undeclaredNotations() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___undeclaredNotations;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::DtdParser_UndeclaredNotation*>* const& System::Xml::DtdParser::__cordl_internal_get_undeclaredNotations() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___undeclaredNotations;
+}
+constexpr void System::Xml::DtdParser::__cordl_internal_set_undeclaredNotations(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::DtdParser_UndeclaredNotation*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___undeclaredNotations = value;
+}
+constexpr ::ArrayW<int32_t>& System::Xml::DtdParser::__cordl_internal_get_condSectionEntityIds() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___condSectionEntityIds;
+}
+constexpr ::ArrayW<int32_t> const& System::Xml::DtdParser::__cordl_internal_get_condSectionEntityIds() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___condSectionEntityIds;
+}
+constexpr void System::Xml::DtdParser::__cordl_internal_set_condSectionEntityIds(::ArrayW<int32_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___condSectionEntityIds = value;
+}
+inline void System::Xml::DtdParser::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Xml::IDtdParser* System::Xml::DtdParser::Create() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Create", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdParser*>(nullptr, ___internal_method);
+}
+inline void System::Xml::DtdParser::Initialize(::System::Xml::IDtdParserAdapter* readerAdapter) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Initialize", {}, { ::i2c::type_of<::System::Xml::IDtdParserAdapter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, readerAdapter);
+}
+inline void System::Xml::DtdParser::InitializeFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId, ::StringW internalSubset,
+                                                              ::System::Xml::IDtdParserAdapter* adapter) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "InitializeFreeFloatingDtd",
+                                                                          {},
+                                                                          { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                                                            ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::IDtdParserAdapter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, baseUri, docTypeName, publicId, systemId, internalSubset, adapter);
+}
+inline ::System::Xml::IDtdInfo* System::Xml::DtdParser::System_Xml_IDtdParser_ParseInternalDtd(::System::Xml::IDtdParserAdapter* adapter, bool saveInternalSubset) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                                           { "System.Xml.IDtdParser.ParseInternalDtd", {}, { ::i2c::type_of<::System::Xml::IDtdParserAdapter*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdInfo*>(this, ___internal_method, adapter, saveInternalSubset);
+}
+inline ::System::Xml::IDtdInfo* System::Xml::DtdParser::System_Xml_IDtdParser_ParseFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId,
+                                                                                                   ::StringW internalSubset, ::System::Xml::IDtdParserAdapter* adapter) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "System.Xml.IDtdParser.ParseFreeFloatingDtd",
+                                                                          {},
+                                                                          { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                                                            ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::IDtdParserAdapter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdInfo*>(this, ___internal_method, baseUri, docTypeName, publicId, systemId, internalSubset, adapter);
+}
+inline bool System::Xml::DtdParser::get_ParsingInternalSubset() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_ParsingInternalSubset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::DtdParser::get_IgnoreEntityReferences() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_IgnoreEntityReferences", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::DtdParser::get_SaveInternalSubsetValue() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_SaveInternalSubsetValue", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::DtdParser::get_ParsingTopLevelMarkup() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_ParsingTopLevelMarkup", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::DtdParser::get_SupportNamespaces() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_SupportNamespaces", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::DtdParser::get_Normalize() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_Normalize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::Parse(bool saveInternalSubset) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Parse", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, saveInternalSubset);
+}
+inline void System::Xml::DtdParser::ParseInDocumentDtd(bool saveInternalSubset) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseInDocumentDtd", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, saveInternalSubset);
+}
+inline void System::Xml::DtdParser::ParseFreeFloatingDtd() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseFreeFloatingDtd", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParseInternalSubset() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseInternalSubset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParseExternalSubset() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseExternalSubset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParseSubset() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseSubset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParseAttlistDecl() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseAttlistDecl", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParseAttlistType(::System::Xml::Schema::SchemaAttDef* attrDef, ::System::Xml::Schema::SchemaElementDecl* elementDecl, bool ignoreErrors) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::System::Xml::DtdParser*>(),
+                       { "ParseAttlistType", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>(), ::i2c::type_of<::System::Xml::Schema::SchemaElementDecl*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attrDef, elementDecl, ignoreErrors);
+}
+inline void System::Xml::DtdParser::ParseAttlistDefault(::System::Xml::Schema::SchemaAttDef* attrDef, bool ignoreErrors) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseAttlistDefault", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attrDef, ignoreErrors);
+}
+inline void System::Xml::DtdParser::ParseElementDecl() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseElementDecl", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParseElementOnlyContent(::System::Xml::Schema::ParticleContentValidator* pcv, int32_t startParenEntityId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                                           { "ParseElementOnlyContent", {}, { ::i2c::type_of<::System::Xml::Schema::ParticleContentValidator*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pcv, startParenEntityId);
+}
+inline void System::Xml::DtdParser::ParseHowMany(::System::Xml::Schema::ParticleContentValidator* pcv) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseHowMany", {}, { ::i2c::type_of<::System::Xml::Schema::ParticleContentValidator*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pcv);
+}
+inline void System::Xml::DtdParser::ParseElementMixedContent(::System::Xml::Schema::ParticleContentValidator* pcv, int32_t startParenEntityId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                                           { "ParseElementMixedContent", {}, { ::i2c::type_of<::System::Xml::Schema::ParticleContentValidator*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pcv, startParenEntityId);
+}
+inline void System::Xml::DtdParser::ParseEntityDecl() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseEntityDecl", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParseNotationDecl() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseNotationDecl", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::AddUndeclaredNotation(::StringW notationName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "AddUndeclaredNotation", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, notationName);
+}
+inline void System::Xml::DtdParser::ParseComment() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseComment", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParsePI() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParsePI", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParseCondSection() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseCondSection", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ParseExternalId(::System::Xml::DtdParser_Token idTokenType, ::System::Xml::DtdParser_Token declType, ::by_ref<::StringW> publicId, ::by_ref<::StringW> systemId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseExternalId",
+                                                                                              {},
+                                                                                              { ::i2c::type_of<::System::Xml::DtdParser_Token>(), ::i2c::type_of<::System::Xml::DtdParser_Token>(),
+                                                                                                ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, idTokenType, declType, publicId, systemId);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::GetToken(bool needWhiteSpace) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetToken", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method, needWhiteSpace);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanSubsetContent() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanSubsetContent", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanNameExpected() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanNameExpected", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanQNameExpected() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanQNameExpected", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanNmtokenExpected() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanNmtokenExpected", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanDoctype1() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanDoctype1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanDoctype2() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanDoctype2", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanClosingTag() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanClosingTag", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement1() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement2() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement2", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement3() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement3", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement4() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement4", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement5() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement5", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement6() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement6", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanElement7() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanElement7", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist1() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist2() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist2", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist3() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist3", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist4() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist4", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist5() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist5", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist6() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist6", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanAttlist7() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanAttlist7", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanLiteral(::System::Xml::DtdParser_LiteralType literalType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanLiteral", {}, { ::i2c::type_of<::System::Xml::DtdParser_LiteralType>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method, literalType);
+}
+inline ::System::Xml::XmlQualifiedName* System::Xml::DtdParser::ScanEntityName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanEntityName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanNotation1() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanNotation1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanSystemId() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanSystemId", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanEntity1() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanEntity1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanEntity2() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanEntity2", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanEntity3() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanEntity3", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanPublicId1() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanPublicId1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanPublicId2() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanPublicId2", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanCondSection1() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanCondSection1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanCondSection2() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanCondSection2", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline ::System::Xml::DtdParser_Token System::Xml::DtdParser::ScanCondSection3() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanCondSection3", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::DtdParser_Token>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ScanName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ScanQName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanQName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ScanQName(bool isQName) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanQName", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isQName);
+}
+inline bool System::Xml::DtdParser::ReadDataInName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ReadDataInName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::ScanNmtoken() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ScanNmtoken", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool System::Xml::DtdParser::EatPublicKeyword() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "EatPublicKeyword", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::DtdParser::EatSystemKeyword() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "EatSystemKeyword", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::System::Xml::XmlQualifiedName* System::Xml::DtdParser::GetNameQualified(bool canHavePrefix) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetNameQualified", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*>(this, ___internal_method, canHavePrefix);
+}
+inline ::StringW System::Xml::DtdParser::GetNameString() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetNameString", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Xml::DtdParser::GetNmtokenString() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetNmtokenString", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Xml::DtdParser::GetValue() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetValue", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Xml::DtdParser::GetValueWithStrippedSpaces() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "GetValueWithStrippedSpaces", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline int32_t System::Xml::DtdParser::ReadData() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ReadData", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::LoadParsingBuffer() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "LoadParsingBuffer", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::SaveParsingBuffer() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "SaveParsingBuffer", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::SaveParsingBuffer(int32_t internalSubsetValueEndPos) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "SaveParsingBuffer", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, internalSubsetValueEndPos);
+}
+inline bool System::Xml::DtdParser::HandleEntityReference(bool paramEntity, bool inLiteral, bool inAttribute) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "HandleEntityReference", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, paramEntity, inLiteral, inAttribute);
+}
+inline bool System::Xml::DtdParser::HandleEntityReference(::System::Xml::XmlQualifiedName* entityName, bool paramEntity, bool inLiteral, bool inAttribute) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                          { "HandleEntityReference", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, entityName, paramEntity, inLiteral, inAttribute);
+}
+inline bool System::Xml::DtdParser::HandleEntityEnd(bool inLiteral) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "HandleEntityEnd", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, inLiteral);
+}
+inline ::System::Xml::Schema::SchemaEntity* System::Xml::DtdParser::VerifyEntityReference(::System::Xml::XmlQualifiedName* entityName, bool paramEntity, bool mustBeDeclared, bool inAttribute) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                          { "VerifyEntityReference", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SchemaEntity*>(this, ___internal_method, entityName, paramEntity, mustBeDeclared, inAttribute);
+}
+inline void System::Xml::DtdParser::SendValidationEvent(int32_t pos, ::System::Xml::Schema::XmlSeverityType severity, ::StringW code, ::StringW arg) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::Xml::DtdParser*>(),
+          { "SendValidationEvent", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Xml::Schema::XmlSeverityType>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pos, severity, code, arg);
+}
+inline void System::Xml::DtdParser::SendValidationEvent(::System::Xml::Schema::XmlSeverityType severity, ::StringW code, ::StringW arg) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                              { "SendValidationEvent", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSeverityType>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, severity, code, arg);
+}
+inline void System::Xml::DtdParser::SendValidationEvent(::System::Xml::Schema::XmlSeverityType severity, ::System::Xml::Schema::XmlSchemaException* e) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                       { "SendValidationEvent", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSeverityType>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaException*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, severity, e);
+}
+inline bool System::Xml::DtdParser::IsAttributeValueType(::System::Xml::DtdParser_Token token) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "IsAttributeValueType", {}, { ::i2c::type_of<::System::Xml::DtdParser_Token>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, token);
+}
+inline int32_t System::Xml::DtdParser::get_LineNo() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_LineNo", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline int32_t System::Xml::DtdParser::get_LinePos() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_LinePos", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::StringW System::Xml::DtdParser::get_BaseUriStr() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "get_BaseUriStr", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::OnUnexpectedError() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "OnUnexpectedError", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::DtdParser::Throw(int32_t curPos, ::StringW res) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Throw", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, curPos, res);
+}
+inline void System::Xml::DtdParser::Throw(int32_t curPos, ::StringW res, ::StringW arg) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Throw", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, curPos, res, arg);
+}
+inline void System::Xml::DtdParser::Throw(int32_t curPos, ::StringW res, ::ArrayW<::StringW> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "Throw", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, curPos, res, args);
+}
+inline void System::Xml::DtdParser::Throw(::StringW res, ::StringW arg, int32_t lineNo, int32_t linePos) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(),
+                                                           { "Throw", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, res, arg, lineNo, linePos);
+}
+inline void System::Xml::DtdParser::ThrowInvalidChar(int32_t pos, ::StringW data, int32_t invCharPos) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ThrowInvalidChar", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pos, data, invCharPos);
+}
+inline void System::Xml::DtdParser::ThrowInvalidChar(::ArrayW<char16_t> data, int32_t length, int32_t invCharPos) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ThrowInvalidChar", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, length, invCharPos);
+}
+inline void System::Xml::DtdParser::ThrowUnexpectedToken(int32_t pos, ::StringW expectedToken) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ThrowUnexpectedToken", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pos, expectedToken);
+}
+inline void System::Xml::DtdParser::ThrowUnexpectedToken(int32_t pos, ::StringW expectedToken1, ::StringW expectedToken2) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ThrowUnexpectedToken", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pos, expectedToken1, expectedToken2);
+}
+inline ::StringW System::Xml::DtdParser::ParseUnexpectedToken(int32_t startPos) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "ParseUnexpectedToken", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, startPos);
+}
+inline ::StringW System::Xml::DtdParser::StripSpaces(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DtdParser*>(), { "StripSpaces", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value);
+}
+inline ::System::Xml::DtdParser* System::Xml::DtdParser::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::DtdParser*>());
 }
 /// @brief Convert operator to "::System::Xml::IDtdParser"
-constexpr  System::Xml::DtdParser::operator ::System::Xml::IDtdParser*() noexcept {
-return static_cast<::System::Xml::IDtdParser*>(static_cast<void*>(this));
+constexpr System::Xml::DtdParser::operator ::System::Xml::IDtdParser*() noexcept {
+  return static_cast<::System::Xml::IDtdParser*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Xml::IDtdParser"
 constexpr ::System::Xml::IDtdParser* System::Xml::DtdParser::i___System__Xml__IDtdParser() noexcept {
-return static_cast<::System::Xml::IDtdParser*>(static_cast<void*>(this));
+  return static_cast<::System::Xml::IDtdParser*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::DtdParser::DtdParser()   {
-}
+constexpr ::System::Xml::DtdParser::DtdParser() {}

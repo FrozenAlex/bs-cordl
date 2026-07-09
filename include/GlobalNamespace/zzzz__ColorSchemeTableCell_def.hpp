@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ColorSchemeTableCell.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeTableCell)
 namespace GlobalNamespace {
 class ColorSchemeView;
@@ -23,89 +23,91 @@ namespace GlobalNamespace {
 class ColorSchemeTableCell;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeTableCell);
+MARK_REF_T(::GlobalNamespace::ColorSchemeTableCell*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::ColorSchemeTableCell*, "", "ColorSchemeTableCell");
 // Dependencies HMUI.TableCell
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ColorSchemeTableCell
 class CORDL_TYPE ColorSchemeTableCell : public ::HMUI::TableCell {
 public:
-// Declarations
-/// @brief Field _colorSchemeView, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get__colorSchemeView, put=__cordl_internal_set__colorSchemeView)) ::UnityW<::GlobalNamespace::ColorSchemeView>  _colorSchemeView;
+  // Declarations
+  /// @brief Field _colorSchemeView, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorSchemeView, put = __cordl_internal_set__colorSchemeView)) ::UnityW<::GlobalNamespace::ColorSchemeView> _colorSchemeView;
 
-/// @brief Field _editIcon, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get__editIcon, put=__cordl_internal_set__editIcon)) ::UnityW<::UnityEngine::UI::Image>  _editIcon;
+  /// @brief Field _editIcon, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__editIcon, put = __cordl_internal_set__editIcon)) ::UnityW<::UnityEngine::UI::Image> _editIcon;
 
-/// @brief Field _text, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI>  _text;
+  /// @brief Field _text, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
- __declspec(property(put=set_showEditIcon)) bool  showEditIcon;
+  __declspec(property(put = set_showEditIcon)) bool showEditIcon;
 
- __declspec(property(get=get_text, put=set_text)) ::StringW  text;
+  __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-static inline ::GlobalNamespace::ColorSchemeTableCell* New_ctor() ;
+  static inline ::GlobalNamespace::ColorSchemeTableCell* New_ctor();
 
-/// @brief Method SetColors, addr 0x57fcaa0, size 0x7c, virtual false, abstract: false, final false
-inline void SetColors(::UnityEngine::Color  saberAColor, ::UnityEngine::Color  saberBColor, ::UnityEngine::Color  environment0Color, ::UnityEngine::Color  environment1Color, ::UnityEngine::Color  environmentColor0Boost, ::UnityEngine::Color  environmentColor1Boost, ::UnityEngine::Color  obstacleColor) ;
+  /// @brief Method SetColors, addr 0x57fcaa0, size 0x7c, virtual false, abstract: false, final false
+  inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
+                        ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
-constexpr ::UnityW<::GlobalNamespace::ColorSchemeView> const& __cordl_internal_get__colorSchemeView() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeView> const& __cordl_internal_get__colorSchemeView() const;
 
-constexpr ::UnityW<::GlobalNamespace::ColorSchemeView>& __cordl_internal_get__colorSchemeView() ;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeView>& __cordl_internal_get__colorSchemeView();
 
-constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__editIcon() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__editIcon() const;
 
-constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__editIcon() ;
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__editIcon();
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text() ;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-constexpr void __cordl_internal_set__colorSchemeView(::UnityW<::GlobalNamespace::ColorSchemeView>  value) ;
+  constexpr void __cordl_internal_set__colorSchemeView(::UnityW<::GlobalNamespace::ColorSchemeView> value);
 
-constexpr void __cordl_internal_set__editIcon(::UnityW<::UnityEngine::UI::Image>  value) ;
+  constexpr void __cordl_internal_set__editIcon(::UnityW<::UnityEngine::UI::Image> value);
 
-constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-/// @brief Method .ctor, addr 0x57fcdc0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57fcdc0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_text, addr 0x57fcda0, size 0x20, virtual false, abstract: false, final false
-inline ::StringW get_text() ;
+  /// @brief Method get_text, addr 0x57fcda0, size 0x20, virtual false, abstract: false, final false
+  inline ::StringW get_text();
 
-/// @brief Method set_showEditIcon, addr 0x57fca64, size 0x1c, virtual false, abstract: false, final false
-inline void set_showEditIcon(bool  value) ;
+  /// @brief Method set_showEditIcon, addr 0x57fca64, size 0x1c, virtual false, abstract: false, final false
+  inline void set_showEditIcon(bool value);
 
-/// @brief Method set_text, addr 0x57fca80, size 0x20, virtual false, abstract: false, final false
-inline void set_text(::StringW  value) ;
+  /// @brief Method set_text, addr 0x57fca80, size 0x20, virtual false, abstract: false, final false
+  inline void set_text(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ColorSchemeTableCell() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorSchemeTableCell();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeTableCell", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ColorSchemeTableCell(ColorSchemeTableCell&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColorSchemeTableCell", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ColorSchemeTableCell(ColorSchemeTableCell && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeTableCell", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ColorSchemeTableCell(ColorSchemeTableCell const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColorSchemeTableCell", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ColorSchemeTableCell(ColorSchemeTableCell const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6886 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6886};
+  /// @brief Field _text, offset: 0x78, size: 0x8, def value: None
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
-/// @brief Field _text, offset: 0x78, size: 0x8, def value: None
- ::UnityW<::TMPro::TextMeshProUGUI>  ____text;
+  /// @brief Field _colorSchemeView, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::ColorSchemeView> ____colorSchemeView;
 
-/// @brief Field _colorSchemeView, offset: 0x80, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::ColorSchemeView>  ____colorSchemeView;
+  /// @brief Field _editIcon, offset: 0x88, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Image> ____editIcon;
 
-/// @brief Field _editIcon, offset: 0x88, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Image>  ____editIcon;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ColorSchemeTableCell, ____text) == 0x78, "Offset mismatch!");
@@ -114,8 +116,6 @@ static_assert(offsetof(::GlobalNamespace::ColorSchemeTableCell, ____colorSchemeV
 
 static_assert(offsetof(::GlobalNamespace::ColorSchemeTableCell, ____editIcon) == 0x88, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeTableCell, 0x90>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::ColorSchemeTableCell) == 0x90, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::ColorSchemeTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSchemeTableCell*, "", "ColorSchemeTableCell");
+} // namespace GlobalNamespace

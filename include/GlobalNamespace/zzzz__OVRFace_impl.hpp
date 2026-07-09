@@ -7,477 +7,333 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRFace_IMeshWeightsProvider.UpdateWeights
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace_IMeshWeightsProvider::*)(::GlobalNamespace::OVRFaceExpressions*)>(&::GlobalNamespace::OVRFace_IMeshWeightsProvider::UpdateWeights)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace_IMeshWeightsProvider::*)(::GlobalNamespace::OVRFaceExpressions*)>(
+    &::GlobalNamespace::OVRFace_IMeshWeightsProvider::UpdateWeights)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace_IMeshWeightsProvider.GetWeightValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFace_IMeshWeightsProvider::*)(int32_t, ::ByRef<float_t>)>(&::GlobalNamespace::OVRFace_IMeshWeightsProvider::GetWeightValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRFace_IMeshWeightsProvider::*)(int32_t, ::by_ref<float_t>)>(
+    &::GlobalNamespace::OVRFace_IMeshWeightsProvider::GetWeightValue)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>::get(),
-                                  1
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>(), 1 }));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OVRFace_IMeshWeightsProvider::UpdateWeights(::GlobalNamespace::OVRFaceExpressions*  faceExpressions)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, faceExpressions);
+inline void GlobalNamespace::OVRFace_IMeshWeightsProvider::UpdateWeights(::GlobalNamespace::OVRFaceExpressions* faceExpressions) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, faceExpressions);
 }
-inline bool GlobalNamespace::OVRFace_IMeshWeightsProvider::GetWeightValue(int32_t  blendshapeIndex, ::ByRef<float_t>  weightValue)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>::get(),
-                            1
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, blendshapeIndex, weightValue);
+inline bool GlobalNamespace::OVRFace_IMeshWeightsProvider::GetWeightValue(int32_t blendshapeIndex, ::by_ref<float_t> weightValue) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRFace_IMeshWeightsProvider*>(), 1 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, blendshapeIndex, weightValue);
 }
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.get_FaceExpressions
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRFaceExpressions> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_FaceExpressions)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRFaceExpressions> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_FaceExpressions)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5cbe7ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "get_FaceExpressions",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "get_FaceExpressions", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.set_FaceExpressions
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)(::GlobalNamespace::OVRFaceExpressions*)>(&::GlobalNamespace::OVRFace::set_FaceExpressions)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)(::GlobalNamespace::OVRFaceExpressions*)>(&::GlobalNamespace::OVRFace::set_FaceExpressions)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5cbe7b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "set_FaceExpressions",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRFaceExpressions*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "set_FaceExpressions", {}, { ::i2c::type_of<::GlobalNamespace::OVRFaceExpressions*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.get_BlendShapeStrengthMultiplier
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_BlendShapeStrengthMultiplier)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_BlendShapeStrengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5cbe7bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "get_BlendShapeStrengthMultiplier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "get_BlendShapeStrengthMultiplier", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.set_BlendShapeStrengthMultiplier
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)(float_t)>(&::GlobalNamespace::OVRFace::set_BlendShapeStrengthMultiplier)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)(float_t)>(&::GlobalNamespace::OVRFace::set_BlendShapeStrengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5cbe7c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "set_BlendShapeStrengthMultiplier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "set_BlendShapeStrengthMultiplier", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.get_SkinnedMesh
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::SkinnedMeshRenderer> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_SkinnedMesh)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::SkinnedMeshRenderer> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_SkinnedMesh)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5cbe7cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "get_SkinnedMesh",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "get_SkinnedMesh", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.RetrieveSkinnedMeshRenderer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::SkinnedMeshRenderer> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::RetrieveSkinnedMeshRenderer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::SkinnedMeshRenderer> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::RetrieveSkinnedMeshRenderer)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x5cbe7d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "RetrieveSkinnedMeshRenderer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "RetrieveSkinnedMeshRenderer", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.SearchFaceExpressions
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRFaceExpressions> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::SearchFaceExpressions)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRFaceExpressions> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::SearchFaceExpressions)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5cbe820;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "SearchFaceExpressions",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "SearchFaceExpressions", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.Awake
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Awake)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Awake)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x5cbe87c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.OnEnable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::OnEnable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::OnEnable)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x5cbe9d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "OnEnable", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.Start
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Start)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Start)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x5cbdbe0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.Update
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Update)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Update)> {
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x5cbeac8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.GetFaceExpression
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRFaceExpressions_FaceExpression (::GlobalNamespace::OVRFace::*)(int32_t)>(&::GlobalNamespace::OVRFace::GetFaceExpression)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRFaceExpressions_FaceExpression (::GlobalNamespace::OVRFace::*)(int32_t)>(&::GlobalNamespace::OVRFace::GetFaceExpression)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5cbec54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.GetWeightValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFace::*)(int32_t, ::ByRef<float_t>)>(&::GlobalNamespace::OVRFace::GetWeightValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRFace::*)(int32_t, ::by_ref<float_t>)>(&::GlobalNamespace::OVRFace::GetWeightValue)> {
   constexpr static std::size_t size = 0x11c;
   constexpr static std::size_t addrs = 0x5cbec5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRFace._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5cbddb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::OVRFaceExpressions>& GlobalNamespace::OVRFace::__cordl_internal_get__faceExpressions()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____faceExpressions;
+constexpr ::UnityW<::GlobalNamespace::OVRFaceExpressions>& GlobalNamespace::OVRFace::__cordl_internal_get__faceExpressions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____faceExpressions;
 }
 constexpr ::UnityW<::GlobalNamespace::OVRFaceExpressions> const& GlobalNamespace::OVRFace::__cordl_internal_get__faceExpressions() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____faceExpressions;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____faceExpressions;
 }
-constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__faceExpressions(::UnityW<::GlobalNamespace::OVRFaceExpressions>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____faceExpressions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__faceExpressions(::UnityW<::GlobalNamespace::OVRFaceExpressions> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____faceExpressions = value;
 }
-constexpr float_t& GlobalNamespace::OVRFace::__cordl_internal_get__blendShapeStrengthMultiplier()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____blendShapeStrengthMultiplier;
+constexpr float_t& GlobalNamespace::OVRFace::__cordl_internal_get__blendShapeStrengthMultiplier() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____blendShapeStrengthMultiplier;
 }
 constexpr float_t const& GlobalNamespace::OVRFace::__cordl_internal_get__blendShapeStrengthMultiplier() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____blendShapeStrengthMultiplier;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____blendShapeStrengthMultiplier;
 }
-constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__blendShapeStrengthMultiplier(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____blendShapeStrengthMultiplier = value;
+constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__blendShapeStrengthMultiplier(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____blendShapeStrengthMultiplier = value;
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRFace::__cordl_internal_get__meshWeightsProviderObject()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____meshWeightsProviderObject;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRFace::__cordl_internal_get__meshWeightsProviderObject() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____meshWeightsProviderObject;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRFace::__cordl_internal_get__meshWeightsProviderObject() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____meshWeightsProviderObject;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____meshWeightsProviderObject;
 }
-constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__meshWeightsProviderObject(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshWeightsProviderObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__meshWeightsProviderObject(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____meshWeightsProviderObject = value;
 }
-constexpr ::UnityW<::UnityEngine::SkinnedMeshRenderer>& GlobalNamespace::OVRFace::__cordl_internal_get__skinnedMeshRenderer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____skinnedMeshRenderer;
+constexpr ::UnityW<::UnityEngine::SkinnedMeshRenderer>& GlobalNamespace::OVRFace::__cordl_internal_get__skinnedMeshRenderer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____skinnedMeshRenderer;
 }
 constexpr ::UnityW<::UnityEngine::SkinnedMeshRenderer> const& GlobalNamespace::OVRFace::__cordl_internal_get__skinnedMeshRenderer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____skinnedMeshRenderer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____skinnedMeshRenderer;
 }
-constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__skinnedMeshRenderer(::UnityW<::UnityEngine::SkinnedMeshRenderer>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____skinnedMeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__skinnedMeshRenderer(::UnityW<::UnityEngine::SkinnedMeshRenderer> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____skinnedMeshRenderer = value;
 }
-constexpr ::GlobalNamespace::OVRFace_IMeshWeightsProvider*& GlobalNamespace::OVRFace::__cordl_internal_get__meshWeightsProvider()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____meshWeightsProvider;
+constexpr ::GlobalNamespace::OVRFace_IMeshWeightsProvider*& GlobalNamespace::OVRFace::__cordl_internal_get__meshWeightsProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____meshWeightsProvider;
 }
 constexpr ::GlobalNamespace::OVRFace_IMeshWeightsProvider* const& GlobalNamespace::OVRFace::__cordl_internal_get__meshWeightsProvider() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____meshWeightsProvider;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____meshWeightsProvider;
 }
-constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__meshWeightsProvider(::GlobalNamespace::OVRFace_IMeshWeightsProvider*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshWeightsProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRFace::__cordl_internal_set__meshWeightsProvider(::GlobalNamespace::OVRFace_IMeshWeightsProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____meshWeightsProvider = value;
 }
-inline ::UnityW<::GlobalNamespace::OVRFaceExpressions> GlobalNamespace::OVRFace::get_FaceExpressions()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "get_FaceExpressions",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRFaceExpressions>, false>(this, ___internal_method);
+inline ::UnityW<::GlobalNamespace::OVRFaceExpressions> GlobalNamespace::OVRFace::get_FaceExpressions() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "get_FaceExpressions", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRFaceExpressions>>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRFace::set_FaceExpressions(::GlobalNamespace::OVRFaceExpressions*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "set_FaceExpressions",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRFaceExpressions*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::OVRFace::set_FaceExpressions(::GlobalNamespace::OVRFaceExpressions* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "set_FaceExpressions", {}, { ::i2c::type_of<::GlobalNamespace::OVRFaceExpressions*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline float_t GlobalNamespace::OVRFace::get_BlendShapeStrengthMultiplier()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "get_BlendShapeStrengthMultiplier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::OVRFace::get_BlendShapeStrengthMultiplier() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "get_BlendShapeStrengthMultiplier", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRFace::set_BlendShapeStrengthMultiplier(float_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "set_BlendShapeStrengthMultiplier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::OVRFace::set_BlendShapeStrengthMultiplier(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "set_BlendShapeStrengthMultiplier", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::SkinnedMeshRenderer> GlobalNamespace::OVRFace::get_SkinnedMesh()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "get_SkinnedMesh",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::SkinnedMeshRenderer>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::SkinnedMeshRenderer> GlobalNamespace::OVRFace::get_SkinnedMesh() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "get_SkinnedMesh", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::SkinnedMeshRenderer>>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::SkinnedMeshRenderer> GlobalNamespace::OVRFace::RetrieveSkinnedMeshRenderer()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "RetrieveSkinnedMeshRenderer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::SkinnedMeshRenderer>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::SkinnedMeshRenderer> GlobalNamespace::OVRFace::RetrieveSkinnedMeshRenderer() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "RetrieveSkinnedMeshRenderer", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::SkinnedMeshRenderer>>(this, ___internal_method);
 }
-inline ::UnityW<::GlobalNamespace::OVRFaceExpressions> GlobalNamespace::OVRFace::SearchFaceExpressions()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "SearchFaceExpressions",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRFaceExpressions>, false>(this, ___internal_method);
+inline ::UnityW<::GlobalNamespace::OVRFaceExpressions> GlobalNamespace::OVRFace::SearchFaceExpressions() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "SearchFaceExpressions", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRFaceExpressions>>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRFace::Awake()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRFace::Awake() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRFace::OnEnable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRFace::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "OnEnable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRFace::Start()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRFace::Start() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRFace::Update()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRFace::Update() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFace::GetFaceExpression(int32_t  blendShapeIndex)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRFaceExpressions_FaceExpression, false>(this, ___internal_method, blendShapeIndex);
+inline ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFace::GetFaceExpression(int32_t blendShapeIndex) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRFaceExpressions_FaceExpression>(this, ___internal_method, blendShapeIndex);
 }
-inline bool GlobalNamespace::OVRFace::GetWeightValue(int32_t  blendShapeIndex, ::ByRef<float_t>  weightValue)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, blendShapeIndex, weightValue);
+inline bool GlobalNamespace::OVRFace::GetWeightValue(int32_t blendShapeIndex, ::by_ref<float_t> weightValue) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, blendShapeIndex, weightValue);
 }
-inline void GlobalNamespace::OVRFace::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFace*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRFace::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRFace* GlobalNamespace::OVRFace::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRFace*>());
+inline ::GlobalNamespace::OVRFace* GlobalNamespace::OVRFace::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRFace*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRFace::OVRFace()   {
-}
+constexpr ::GlobalNamespace::OVRFace::OVRFace() {}

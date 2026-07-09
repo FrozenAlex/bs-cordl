@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ResourceManagement/Exceptions/ResourceManagerException.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Exception_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(ResourceManagerException)
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -20,59 +20,59 @@ namespace UnityEngine::ResourceManagement::Exceptions {
 class ResourceManagerException;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException);
+MARK_REF_T(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException*, "UnityEngine.ResourceManagement.Exceptions", "ResourceManagerException");
 // Dependencies System.Exception
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.Exceptions.ResourceManagerException
 class CORDL_TYPE ResourceManagerException : public ::System::Exception {
 public:
-// Declarations
-static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor();
 
-static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW  message) ;
+  static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW message);
 
-static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
+  static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  message, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
+                                                                                                  ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method ToString, addr 0x67cd63c, size 0xb8, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x67cd63c, size 0xb8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x67cd480, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x67cd480, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x67cd4d8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x67cd4d8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x67cd544, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
+  /// @brief Method .ctor, addr 0x67cd544, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-/// @brief Method .ctor, addr 0x67cd5b8, size 0x84, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  message, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x67cd5b8, size 0x84, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ResourceManagerException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResourceManagerException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ResourceManagerException(ResourceManagerException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ResourceManagerException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ResourceManagerException(ResourceManagerException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ResourceManagerException(ResourceManagerException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ResourceManagerException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ResourceManagerException(ResourceManagerException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18698 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18698};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException, 0x90>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException) == 0x90, "Size mismatch!");
 
-} // namespace end def UnityEngine::ResourceManagement::Exceptions
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException*, "UnityEngine.ResourceManagement.Exceptions", "ResourceManagerException");
+} // namespace UnityEngine::ResourceManagement::Exceptions

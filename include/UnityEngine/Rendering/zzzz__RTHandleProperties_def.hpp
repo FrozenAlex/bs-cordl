@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/RTHandleProperties.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
@@ -13,42 +13,46 @@ struct RTHandleProperties;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RTHandleProperties);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RTHandleProperties, "UnityEngine.Rendering", "RTHandleProperties");
 // Dependencies UnityEngine.Vector2Int, UnityEngine.Vector4
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RTHandleProperties
 struct CORDL_TYPE RTHandleProperties {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr RTHandleProperties() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RTHandleProperties();
 
-// Ctor Parameters [CppParam { name: "previousViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "previousRenderTargetSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "currentViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "currentRenderTargetSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "rtHandleScale", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
-constexpr RTHandleProperties(::UnityEngine::Vector2Int  previousViewportSize, ::UnityEngine::Vector2Int  previousRenderTargetSize, ::UnityEngine::Vector2Int  currentViewportSize, ::UnityEngine::Vector2Int  currentRenderTargetSize, ::UnityEngine::Vector4  rtHandleScale) noexcept;
+  // Ctor Parameters [CppParam { name: "previousViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "previousRenderTargetSize", ty:
+  // "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "currentViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name:
+  // "currentRenderTargetSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "rtHandleScale", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  constexpr RTHandleProperties(::UnityEngine::Vector2Int previousViewportSize, ::UnityEngine::Vector2Int previousRenderTargetSize, ::UnityEngine::Vector2Int currentViewportSize,
+                               ::UnityEngine::Vector2Int currentRenderTargetSize, ::UnityEngine::Vector4 rtHandleScale) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12231};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12231 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
-/// @brief Field previousViewportSize, offset: 0x0, size: 0x8, def value: None
- ::UnityEngine::Vector2Int  previousViewportSize;
+  /// @brief Field previousViewportSize, offset: 0x0, size: 0x8, def value: None
+  ::UnityEngine::Vector2Int previousViewportSize;
 
-/// @brief Field previousRenderTargetSize, offset: 0x8, size: 0x8, def value: None
- ::UnityEngine::Vector2Int  previousRenderTargetSize;
+  /// @brief Field previousRenderTargetSize, offset: 0x8, size: 0x8, def value: None
+  ::UnityEngine::Vector2Int previousRenderTargetSize;
 
-/// @brief Field currentViewportSize, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Vector2Int  currentViewportSize;
+  /// @brief Field currentViewportSize, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Vector2Int currentViewportSize;
 
-/// @brief Field currentRenderTargetSize, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::Vector2Int  currentRenderTargetSize;
+  /// @brief Field currentRenderTargetSize, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::Vector2Int currentRenderTargetSize;
 
-/// @brief Field rtHandleScale, offset: 0x20, size: 0x10, def value: None
- ::UnityEngine::Vector4  rtHandleScale;
+  /// @brief Field rtHandleScale, offset: 0x20, size: 0x10, def value: None
+  ::UnityEngine::Vector4 rtHandleScale;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RTHandleProperties, previousViewportSize) == 0x0, "Offset mismatch!");
@@ -61,7 +65,6 @@ static_assert(offsetof(::UnityEngine::Rendering::RTHandleProperties, currentRend
 
 static_assert(offsetof(::UnityEngine::Rendering::RTHandleProperties, rtHandleScale) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RTHandleProperties, 0x30>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::RTHandleProperties) == 0x30, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RTHandleProperties, "UnityEngine.Rendering", "RTHandleProperties");
+} // namespace UnityEngine::Rendering

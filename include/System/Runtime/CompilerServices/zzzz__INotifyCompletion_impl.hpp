@@ -3,27 +3,21 @@
 #include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::INotifyCompletion.OnCompleted
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::INotifyCompletion::*)(::System::Action*)>(&::System::Runtime::CompilerServices::INotifyCompletion::OnCompleted)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::INotifyCompletion::*)(::System::Action*)>(
+    &::System::Runtime::CompilerServices::INotifyCompletion::OnCompleted)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::INotifyCompletion*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::INotifyCompletion*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::INotifyCompletion*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::CompilerServices::INotifyCompletion*>(), 0 }));
     return ___internal_method;
   }
 };
-inline void System::Runtime::CompilerServices::INotifyCompletion::OnCompleted(::System::Action*  continuation)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::INotifyCompletion*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, continuation);
+inline void System::Runtime::CompilerServices::INotifyCompletion::OnCompleted(::System::Action* continuation) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::CompilerServices::INotifyCompletion*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, continuation);
 }

@@ -4,84 +4,61 @@
 #include "BeatSaber/Main/GraphQL/Queries/zzzz__BSLeaderboardHealth_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth.GetVariableNames
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::*)()>(&::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetVariableNames)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::*)()>(
+    &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetVariableNames)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x3207500;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>(),
+                                                                                          { ::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth.GetPersistedQueryID
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::*)()>(&::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetPersistedQueryID)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::*)()>(
+    &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetPersistedQueryID)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x3207570;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>(),
+                                                                                          { ::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::*)()>(&::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::*)()>(&::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x3207584;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::System::Collections::Generic::List_1<::StringW>* BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetVariableNames()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::List_1<::StringW>* BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetVariableNames() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*>(this, ___internal_method);
 }
-inline uint64_t BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetPersistedQueryID()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method);
+inline uint64_t BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetPersistedQueryID() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t>(this, ___internal_method);
 }
-inline void BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth* BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>());
+inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth* BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>());
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::BSLeaderboardHealth()   {
-}
+constexpr ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::BSLeaderboardHealth() {}

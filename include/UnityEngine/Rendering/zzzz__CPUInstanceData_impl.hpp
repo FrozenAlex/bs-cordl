@@ -14,1187 +14,913 @@
 #include "UnityEngine/Rendering/zzzz__InstanceHandle_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SharedInstanceHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData_ReadOnly.get_handlesLength
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)()>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::get_handlesLength)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)()>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::get_handlesLength)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x66e24d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "get_handlesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(), { "get_handlesLength", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData_ReadOnly.get_instancesLength
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)()>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::get_instancesLength)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)()>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::get_instancesLength)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x66e2518;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "get_instancesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(), { "get_instancesLength", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData_ReadOnly._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(::ByRef<::UnityEngine::Rendering::CPUInstanceData>)>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(::by_ref<::UnityEngine::Rendering::CPUInstanceData>)>(
+    &::UnityEngine::Rendering::CPUInstanceData_ReadOnly::_ctor)> {
   constexpr static std::size_t size = 0x340;
   constexpr static std::size_t addrs = 0x66e2194;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CPUInstanceData>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData_ReadOnly.InstanceToIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::InstanceToIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData_ReadOnly::InstanceToIndex)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x66e2560;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "InstanceToIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(),
+                                                                                           { "InstanceToIndex", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData_ReadOnly.IndexToInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::InstanceHandle (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::IndexToInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::InstanceHandle (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(int32_t)>(
+    &::UnityEngine::Rendering::CPUInstanceData_ReadOnly::IndexToInstance)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x66e25fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "IndexToInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(), { "IndexToInstance", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData_ReadOnly.IsValidInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::IsValidInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData_ReadOnly::IsValidInstance)> {
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x66e266c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "IsValidInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(),
+                                                                                           { "IsValidInstance", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData_ReadOnly.IsValidIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::IsValidIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData_ReadOnly::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData_ReadOnly::IsValidIndex)> {
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x66e27e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "IsValidIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(), { "IsValidIndex", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline int32_t UnityEngine::Rendering::CPUInstanceData_ReadOnly::get_handlesLength()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "get_handlesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::CPUInstanceData_ReadOnly::get_handlesLength() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(), { "get_handlesLength", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::CPUInstanceData_ReadOnly::get_instancesLength()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "get_instancesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::CPUInstanceData_ReadOnly::get_instancesLength() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(), { "get_instancesLength", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUInstanceData_ReadOnly::_ctor(::ByRef<::UnityEngine::Rendering::CPUInstanceData>  instanceData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CPUInstanceData>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instanceData);
+inline void UnityEngine::Rendering::CPUInstanceData_ReadOnly::_ctor(::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instanceData);
 }
-inline int32_t UnityEngine::Rendering::CPUInstanceData_ReadOnly::InstanceToIndex(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "InstanceToIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, instance);
+inline int32_t UnityEngine::Rendering::CPUInstanceData_ReadOnly::InstanceToIndex(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(),
+                                                                                         { "InstanceToIndex", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, instance);
 }
-inline ::UnityEngine::Rendering::InstanceHandle UnityEngine::Rendering::CPUInstanceData_ReadOnly::IndexToInstance(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "IndexToInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceHandle, false>(this, ___internal_method, index);
+inline ::UnityEngine::Rendering::InstanceHandle UnityEngine::Rendering::CPUInstanceData_ReadOnly::IndexToInstance(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(), { "IndexToInstance", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceHandle>(*this, ___internal_method, index);
 }
-inline bool UnityEngine::Rendering::CPUInstanceData_ReadOnly::IsValidInstance(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "IsValidInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, instance);
+inline bool UnityEngine::Rendering::CPUInstanceData_ReadOnly::IsValidInstance(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(),
+                                                                                         { "IsValidInstance", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, instance);
 }
-inline bool UnityEngine::Rendering::CPUInstanceData_ReadOnly::IsValidIndex(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>::get(),
-                        "IsValidIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, index);
+inline bool UnityEngine::Rendering::CPUInstanceData_ReadOnly::IsValidIndex(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(), { "IsValidIndex", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, index);
 }
-// Ctor Parameters [CppParam { name: "instanceIndices", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstances", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "localToWorldIsFlippedBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "worldAABBs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::AABB>", modifiers: "", def_value: Some("{}") }, CppParam { name: "tetrahedronCacheIndices", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "movedInCurrentFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "movedInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "editorData", ty: "::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::CPUInstanceData_ReadOnly::CPUInstanceData_ReadOnly(::Unity::Collections::NativeArray_1_ReadOnly<int32_t>  instanceIndices, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>  instances, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle>  sharedInstances, ::UnityEngine::Rendering::ParallelBitArray  localToWorldIsFlippedBits, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::AABB>  worldAABBs, ::Unity::Collections::NativeArray_1_ReadOnly<int32_t>  tetrahedronCacheIndices, ::UnityEngine::Rendering::ParallelBitArray  movedInCurrentFrameBits, ::UnityEngine::Rendering::ParallelBitArray  movedInPreviousFrameBits, ::UnityEngine::Rendering::ParallelBitArray  visibleInPreviousFrameBits, ::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly  editorData) noexcept  {
-this->instanceIndices = instanceIndices;
-this->instances = instances;
-this->sharedInstances = sharedInstances;
-this->localToWorldIsFlippedBits = localToWorldIsFlippedBits;
-this->worldAABBs = worldAABBs;
-this->tetrahedronCacheIndices = tetrahedronCacheIndices;
-this->movedInCurrentFrameBits = movedInCurrentFrameBits;
-this->movedInPreviousFrameBits = movedInPreviousFrameBits;
-this->visibleInPreviousFrameBits = visibleInPreviousFrameBits;
-this->editorData = editorData;
+// Ctor Parameters [CppParam { name: "instanceIndices", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstances", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "localToWorldIsFlippedBits", ty:
+// "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "worldAABBs", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::AABB>", modifiers: "", def_value: Some("{}") }, CppParam { name: "tetrahedronCacheIndices", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "movedInCurrentFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "movedInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "visibleInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "editorData", ty:
+// "::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::CPUInstanceData_ReadOnly::CPUInstanceData_ReadOnly(
+    ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> instanceIndices, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> instances,
+    ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle> sharedInstances, ::UnityEngine::Rendering::ParallelBitArray localToWorldIsFlippedBits,
+    ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::AABB> worldAABBs, ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> tetrahedronCacheIndices,
+    ::UnityEngine::Rendering::ParallelBitArray movedInCurrentFrameBits, ::UnityEngine::Rendering::ParallelBitArray movedInPreviousFrameBits,
+    ::UnityEngine::Rendering::ParallelBitArray visibleInPreviousFrameBits, ::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly editorData) noexcept {
+  this->instanceIndices = instanceIndices;
+  this->instances = instances;
+  this->sharedInstances = sharedInstances;
+  this->localToWorldIsFlippedBits = localToWorldIsFlippedBits;
+  this->worldAABBs = worldAABBs;
+  this->tetrahedronCacheIndices = tetrahedronCacheIndices;
+  this->movedInCurrentFrameBits = movedInCurrentFrameBits;
+  this->movedInPreviousFrameBits = movedInPreviousFrameBits;
+  this->visibleInPreviousFrameBits = visibleInPreviousFrameBits;
+  this->editorData = editorData;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::CPUInstanceData_ReadOnly::CPUInstanceData_ReadOnly()   {
-}
+constexpr ::UnityEngine::Rendering::CPUInstanceData_ReadOnly::CPUInstanceData_ReadOnly() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.get_instancesLength
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::get_instancesLength)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::get_instancesLength)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x66e0d28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "get_instancesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "get_instancesLength", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.set_instancesLength
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::set_instancesLength)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::set_instancesLength)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x66e0d34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "set_instancesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "set_instancesLength", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.get_instancesCapacity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::get_instancesCapacity)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::get_instancesCapacity)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x66e0d40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "get_instancesCapacity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "get_instancesCapacity", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.set_instancesCapacity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::set_instancesCapacity)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::set_instancesCapacity)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x66e0d4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "set_instancesCapacity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "set_instancesCapacity", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.get_handlesLength
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::get_handlesLength)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::get_handlesLength)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x66e0d58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "get_handlesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "get_handlesLength", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::Initialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::Initialize)> {
   constexpr static std::size_t size = 0x354;
   constexpr static std::size_t addrs = 0x66e0dbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Initialize", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::Dispose)> {
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x66e1114;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Grow
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::Grow)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::Grow)> {
   constexpr static std::size_t size = 0x228;
   constexpr static std::size_t addrs = 0x66e1230;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Grow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Grow", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.AddUnsafe
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::AddUnsafe)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::AddUnsafe)> {
   constexpr static std::size_t size = 0x1f0;
   constexpr static std::size_t addrs = 0x66e145c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "AddUnsafe",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "AddUnsafe", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.InstanceToIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::InstanceToIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::InstanceToIndex)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x66e164c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "InstanceToIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "InstanceToIndex", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.IndexToInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::InstanceHandle (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::IndexToInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::InstanceHandle (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(
+    &::UnityEngine::Rendering::CPUInstanceData::IndexToInstance)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x66e16ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "IndexToInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "IndexToInstance", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.IsValidInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::IsValidInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::IsValidInstance)> {
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x66e16f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "IsValidInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "IsValidInstance", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.IsFreeInstanceHandle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::IsFreeInstanceHandle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::IsFreeInstanceHandle)> {
   constexpr static std::size_t size = 0x128;
   constexpr static std::size_t addrs = 0x66e1850;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "IsFreeInstanceHandle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                           { "IsFreeInstanceHandle", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.IsValidIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::IsValidIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::IsValidIndex)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x66e1978;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "IsValidIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "IsValidIndex", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.GetFreeInstancesCount
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::GetFreeInstancesCount)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::GetFreeInstancesCount)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x66e1a40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "GetFreeInstancesCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "GetFreeInstancesCount", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.EnsureFreeInstances
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::EnsureFreeInstances)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::EnsureFreeInstances)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x66e1a50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "EnsureFreeInstances",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "EnsureFreeInstances", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.AddNoGrow
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::AddNoGrow)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::AddNoGrow)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x66e1a78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "AddNoGrow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "AddNoGrow", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Add)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x66e1b44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Add", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Remove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Remove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Remove)> {
   constexpr static std::size_t size = 0x1f0;
   constexpr static std::size_t addrs = 0x66e1b98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Remove", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Set
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, ::UnityEngine::Rendering::SharedInstanceHandle, bool, ::ByRef<::UnityEngine::Rendering::AABB>, int32_t, bool, bool, bool)>(&::UnityEngine::Rendering::CPUInstanceData::Set)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, ::UnityEngine::Rendering::SharedInstanceHandle,
+                                                                                                           bool, ::by_ref<::UnityEngine::Rendering::AABB>, int32_t, bool, bool, bool)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Set)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x66e1d8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 8>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SharedInstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::AABB>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                            { "Set",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<bool>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.SetDefault
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::SetDefault)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::SetDefault)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x66e1aa4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "SetDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "SetDefault", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Get_SharedInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SharedInstanceHandle (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Get_SharedInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SharedInstanceHandle (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Get_SharedInstance)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x66e1e64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_SharedInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Get_SharedInstance", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Get_LocalToWorldIsFlipped
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Get_LocalToWorldIsFlipped)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Get_LocalToWorldIsFlipped)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x66e1e84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_LocalToWorldIsFlipped",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                           { "Get_LocalToWorldIsFlipped", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Get_WorldAABB
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::AABB (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Get_WorldAABB)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::AABB (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Get_WorldAABB)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x66e1ea8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_WorldAABB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Get_WorldAABB", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Get_TetrahedronCacheIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Get_TetrahedronCacheIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Get_TetrahedronCacheIndex)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x66e1eec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_TetrahedronCacheIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                           { "Get_TetrahedronCacheIndex", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Get_WorldBounds
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::Rendering::AABB> (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Get_WorldBounds)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::AABB> (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Get_WorldBounds)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x66e1f0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_WorldBounds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Get_WorldBounds", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Get_MovedInCurrentFrame
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Get_MovedInCurrentFrame)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Get_MovedInCurrentFrame)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x66e1f88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_MovedInCurrentFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                           { "Get_MovedInCurrentFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Get_MovedInPreviousFrame
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Get_MovedInPreviousFrame)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Get_MovedInPreviousFrame)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x66e1fac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_MovedInPreviousFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                           { "Get_MovedInPreviousFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Get_VisibleInPreviousFrame
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Get_VisibleInPreviousFrame)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Get_VisibleInPreviousFrame)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x66e1fd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_VisibleInPreviousFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                           { "Get_VisibleInPreviousFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Set_SharedInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, ::UnityEngine::Rendering::SharedInstanceHandle)>(&::UnityEngine::Rendering::CPUInstanceData::Set_SharedInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, ::UnityEngine::Rendering::SharedInstanceHandle)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Set_SharedInstance)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x66e1ff4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_SharedInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SharedInstanceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                            { "Set_SharedInstance", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Set_LocalToWorldIsFlipped
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, bool)>(&::UnityEngine::Rendering::CPUInstanceData::Set_LocalToWorldIsFlipped)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, bool)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Set_LocalToWorldIsFlipped)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x66e2020;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_LocalToWorldIsFlipped",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                             { "Set_LocalToWorldIsFlipped", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Set_WorldAABB
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, ::ByRef<::UnityEngine::Rendering::AABB>)>(&::UnityEngine::Rendering::CPUInstanceData::Set_WorldAABB)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, ::by_ref<::UnityEngine::Rendering::AABB>)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Set_WorldAABB)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x66e2054;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_WorldAABB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::AABB>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                { "Set_WorldAABB", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Set_TetrahedronCacheIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, int32_t)>(&::UnityEngine::Rendering::CPUInstanceData::Set_TetrahedronCacheIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, int32_t)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Set_TetrahedronCacheIndex)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x66e2098;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_TetrahedronCacheIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                             { "Set_TetrahedronCacheIndex", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Set_MovedInCurrentFrame
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, bool)>(&::UnityEngine::Rendering::CPUInstanceData::Set_MovedInCurrentFrame)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, bool)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Set_MovedInCurrentFrame)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x66e20c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_MovedInCurrentFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                             { "Set_MovedInCurrentFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Set_MovedInPreviousFrame
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, bool)>(&::UnityEngine::Rendering::CPUInstanceData::Set_MovedInPreviousFrame)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, bool)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Set_MovedInPreviousFrame)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x66e20f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_MovedInPreviousFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                             { "Set_MovedInPreviousFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.Set_VisibleInPreviousFrame
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, bool)>(&::UnityEngine::Rendering::CPUInstanceData::Set_VisibleInPreviousFrame)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CPUInstanceData::*)(::UnityEngine::Rendering::InstanceHandle, bool)>(
+    &::UnityEngine::Rendering::CPUInstanceData::Set_VisibleInPreviousFrame)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x66e212c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_VisibleInPreviousFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                             { "Set_VisibleInPreviousFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUInstanceData.AsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CPUInstanceData_ReadOnly (::UnityEngine::Rendering::CPUInstanceData::*)()>(&::UnityEngine::Rendering::CPUInstanceData::AsReadOnly)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CPUInstanceData_ReadOnly (::UnityEngine::Rendering::CPUInstanceData::*)()>(
+    &::UnityEngine::Rendering::CPUInstanceData::AsReadOnly)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x66e2160;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "AsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "AsReadOnly", {}, {} })));
     return ___internal_method;
   }
 };
-inline int32_t UnityEngine::Rendering::CPUInstanceData::get_instancesLength()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "get_instancesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::CPUInstanceData::get_instancesLength() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "get_instancesLength", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::set_instancesLength(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "set_instancesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::CPUInstanceData::set_instancesLength(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "set_instancesLength", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline int32_t UnityEngine::Rendering::CPUInstanceData::get_instancesCapacity()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "get_instancesCapacity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::CPUInstanceData::get_instancesCapacity() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "get_instancesCapacity", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::set_instancesCapacity(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "set_instancesCapacity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::CPUInstanceData::set_instancesCapacity(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "set_instancesCapacity", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline int32_t UnityEngine::Rendering::CPUInstanceData::get_handlesLength()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "get_handlesLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::CPUInstanceData::get_handlesLength() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "get_handlesLength", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Initialize(int32_t  initCapacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initCapacity);
+inline void UnityEngine::Rendering::CPUInstanceData::Initialize(int32_t initCapacity) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Initialize", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, initCapacity);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::CPUInstanceData::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Grow(int32_t  newCapacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Grow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newCapacity);
+inline void UnityEngine::Rendering::CPUInstanceData::Grow(int32_t newCapacity) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Grow", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, newCapacity);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::AddUnsafe(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "AddUnsafe",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance);
+inline void UnityEngine::Rendering::CPUInstanceData::AddUnsafe(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "AddUnsafe", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance);
 }
-inline int32_t UnityEngine::Rendering::CPUInstanceData::InstanceToIndex(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "InstanceToIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, instance);
+inline int32_t UnityEngine::Rendering::CPUInstanceData::InstanceToIndex(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "InstanceToIndex", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, instance);
 }
-inline ::UnityEngine::Rendering::InstanceHandle UnityEngine::Rendering::CPUInstanceData::IndexToInstance(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "IndexToInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceHandle, false>(this, ___internal_method, index);
+inline ::UnityEngine::Rendering::InstanceHandle UnityEngine::Rendering::CPUInstanceData::IndexToInstance(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "IndexToInstance", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceHandle>(*this, ___internal_method, index);
 }
-inline bool UnityEngine::Rendering::CPUInstanceData::IsValidInstance(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "IsValidInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, instance);
+inline bool UnityEngine::Rendering::CPUInstanceData::IsValidInstance(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "IsValidInstance", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, instance);
 }
-inline bool UnityEngine::Rendering::CPUInstanceData::IsFreeInstanceHandle(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "IsFreeInstanceHandle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, instance);
+inline bool UnityEngine::Rendering::CPUInstanceData::IsFreeInstanceHandle(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "IsFreeInstanceHandle", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, instance);
 }
-inline bool UnityEngine::Rendering::CPUInstanceData::IsValidIndex(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "IsValidIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, index);
+inline bool UnityEngine::Rendering::CPUInstanceData::IsValidIndex(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "IsValidIndex", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, index);
 }
-inline int32_t UnityEngine::Rendering::CPUInstanceData::GetFreeInstancesCount()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "GetFreeInstancesCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::CPUInstanceData::GetFreeInstancesCount() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "GetFreeInstancesCount", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::EnsureFreeInstances(int32_t  instancesCount)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "EnsureFreeInstances",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instancesCount);
+inline void UnityEngine::Rendering::CPUInstanceData::EnsureFreeInstances(int32_t instancesCount) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "EnsureFreeInstances", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instancesCount);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::AddNoGrow(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "AddNoGrow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance);
+inline void UnityEngine::Rendering::CPUInstanceData::AddNoGrow(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "AddNoGrow", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Add(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance);
+inline void UnityEngine::Rendering::CPUInstanceData::Add(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Add", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Remove(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance);
+inline void UnityEngine::Rendering::CPUInstanceData::Remove(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Remove", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Set(::UnityEngine::Rendering::InstanceHandle  instance, ::UnityEngine::Rendering::SharedInstanceHandle  sharedInstance, bool  localToWorldIsFlipped, ::ByRef<::UnityEngine::Rendering::AABB>  worldAABB, int32_t  tetrahedronCacheIndex, bool  movedInCurrentFrame, bool  movedInPreviousFrame, bool  visibleInPreviousFrame)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 8>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SharedInstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::AABB>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance, sharedInstance, localToWorldIsFlipped, worldAABB, tetrahedronCacheIndex, movedInCurrentFrame, movedInPreviousFrame, visibleInPreviousFrame);
+inline void UnityEngine::Rendering::CPUInstanceData::Set(::UnityEngine::Rendering::InstanceHandle instance, ::UnityEngine::Rendering::SharedInstanceHandle sharedInstance, bool localToWorldIsFlipped,
+                                                         ::by_ref<::UnityEngine::Rendering::AABB> worldAABB, int32_t tetrahedronCacheIndex, bool movedInCurrentFrame, bool movedInPreviousFrame,
+                                                         bool visibleInPreviousFrame) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                          { "Set",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<bool>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, sharedInstance, localToWorldIsFlipped, worldAABB, tetrahedronCacheIndex, movedInCurrentFrame,
+                                                   movedInPreviousFrame, visibleInPreviousFrame);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::SetDefault(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "SetDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance);
+inline void UnityEngine::Rendering::CPUInstanceData::SetDefault(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "SetDefault", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance);
 }
-inline ::UnityEngine::Rendering::SharedInstanceHandle UnityEngine::Rendering::CPUInstanceData::Get_SharedInstance(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_SharedInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::SharedInstanceHandle, false>(this, ___internal_method, instance);
+inline ::UnityEngine::Rendering::SharedInstanceHandle UnityEngine::Rendering::CPUInstanceData::Get_SharedInstance(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Get_SharedInstance", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::SharedInstanceHandle>(*this, ___internal_method, instance);
 }
-inline bool UnityEngine::Rendering::CPUInstanceData::Get_LocalToWorldIsFlipped(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_LocalToWorldIsFlipped",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, instance);
+inline bool UnityEngine::Rendering::CPUInstanceData::Get_LocalToWorldIsFlipped(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                         { "Get_LocalToWorldIsFlipped", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, instance);
 }
-inline ::UnityEngine::Rendering::AABB UnityEngine::Rendering::CPUInstanceData::Get_WorldAABB(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_WorldAABB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::AABB, false>(this, ___internal_method, instance);
+inline ::UnityEngine::Rendering::AABB UnityEngine::Rendering::CPUInstanceData::Get_WorldAABB(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Get_WorldAABB", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::AABB>(*this, ___internal_method, instance);
 }
-inline int32_t UnityEngine::Rendering::CPUInstanceData::Get_TetrahedronCacheIndex(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_TetrahedronCacheIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, instance);
+inline int32_t UnityEngine::Rendering::CPUInstanceData::Get_TetrahedronCacheIndex(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                         { "Get_TetrahedronCacheIndex", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, instance);
 }
-inline ::ByRef<::UnityEngine::Rendering::AABB> UnityEngine::Rendering::CPUInstanceData::Get_WorldBounds(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_WorldBounds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ByRef<::UnityEngine::Rendering::AABB>, false>(this, ___internal_method, instance);
+inline ::by_ref<::UnityEngine::Rendering::AABB> UnityEngine::Rendering::CPUInstanceData::Get_WorldBounds(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "Get_WorldBounds", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::Rendering::AABB>>(*this, ___internal_method, instance);
 }
-inline bool UnityEngine::Rendering::CPUInstanceData::Get_MovedInCurrentFrame(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_MovedInCurrentFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, instance);
+inline bool UnityEngine::Rendering::CPUInstanceData::Get_MovedInCurrentFrame(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                         { "Get_MovedInCurrentFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, instance);
 }
-inline bool UnityEngine::Rendering::CPUInstanceData::Get_MovedInPreviousFrame(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_MovedInPreviousFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, instance);
+inline bool UnityEngine::Rendering::CPUInstanceData::Get_MovedInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                         { "Get_MovedInPreviousFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, instance);
 }
-inline bool UnityEngine::Rendering::CPUInstanceData::Get_VisibleInPreviousFrame(::UnityEngine::Rendering::InstanceHandle  instance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Get_VisibleInPreviousFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, instance);
+inline bool UnityEngine::Rendering::CPUInstanceData::Get_VisibleInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                                                         { "Get_VisibleInPreviousFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, instance);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Set_SharedInstance(::UnityEngine::Rendering::InstanceHandle  instance, ::UnityEngine::Rendering::SharedInstanceHandle  sharedInstance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_SharedInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SharedInstanceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance, sharedInstance);
+inline void UnityEngine::Rendering::CPUInstanceData::Set_SharedInstance(::UnityEngine::Rendering::InstanceHandle instance, ::UnityEngine::Rendering::SharedInstanceHandle sharedInstance) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                          { "Set_SharedInstance", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, sharedInstance);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Set_LocalToWorldIsFlipped(::UnityEngine::Rendering::InstanceHandle  instance, bool  isFlipped)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_LocalToWorldIsFlipped",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance, isFlipped);
+inline void UnityEngine::Rendering::CPUInstanceData::Set_LocalToWorldIsFlipped(::UnityEngine::Rendering::InstanceHandle instance, bool isFlipped) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                           { "Set_LocalToWorldIsFlipped", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, isFlipped);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Set_WorldAABB(::UnityEngine::Rendering::InstanceHandle  instance, ::ByRef<::UnityEngine::Rendering::AABB>  worldBounds)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_WorldAABB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::AABB>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance, worldBounds);
+inline void UnityEngine::Rendering::CPUInstanceData::Set_WorldAABB(::UnityEngine::Rendering::InstanceHandle instance, ::by_ref<::UnityEngine::Rendering::AABB> worldBounds) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                              { "Set_WorldAABB", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, worldBounds);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Set_TetrahedronCacheIndex(::UnityEngine::Rendering::InstanceHandle  instance, int32_t  tetrahedronCacheIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_TetrahedronCacheIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance, tetrahedronCacheIndex);
+inline void UnityEngine::Rendering::CPUInstanceData::Set_TetrahedronCacheIndex(::UnityEngine::Rendering::InstanceHandle instance, int32_t tetrahedronCacheIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                           { "Set_TetrahedronCacheIndex", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, tetrahedronCacheIndex);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Set_MovedInCurrentFrame(::UnityEngine::Rendering::InstanceHandle  instance, bool  movedInCurrentFrame)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_MovedInCurrentFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance, movedInCurrentFrame);
+inline void UnityEngine::Rendering::CPUInstanceData::Set_MovedInCurrentFrame(::UnityEngine::Rendering::InstanceHandle instance, bool movedInCurrentFrame) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                           { "Set_MovedInCurrentFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, movedInCurrentFrame);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Set_MovedInPreviousFrame(::UnityEngine::Rendering::InstanceHandle  instance, bool  movedInPreviousFrame)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_MovedInPreviousFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance, movedInPreviousFrame);
+inline void UnityEngine::Rendering::CPUInstanceData::Set_MovedInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance, bool movedInPreviousFrame) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                           { "Set_MovedInPreviousFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, movedInPreviousFrame);
 }
-inline void UnityEngine::Rendering::CPUInstanceData::Set_VisibleInPreviousFrame(::UnityEngine::Rendering::InstanceHandle  instance, bool  visibleInPreviousFrame)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "Set_VisibleInPreviousFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instance, visibleInPreviousFrame);
+inline void UnityEngine::Rendering::CPUInstanceData::Set_VisibleInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance, bool visibleInPreviousFrame) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(),
+                                                           { "Set_VisibleInPreviousFrame", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, visibleInPreviousFrame);
 }
-inline ::UnityEngine::Rendering::CPUInstanceData_ReadOnly UnityEngine::Rendering::CPUInstanceData::AsReadOnly()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUInstanceData>::get(),
-                        "AsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CPUInstanceData_ReadOnly, false>(this, ___internal_method);
+inline ::UnityEngine::Rendering::CPUInstanceData_ReadOnly UnityEngine::Rendering::CPUInstanceData::AsReadOnly() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUInstanceData>(), { "AsReadOnly", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>(*this, ___internal_method);
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  UnityEngine::Rendering::CPUInstanceData::operator ::System::IDisposable*()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr UnityEngine::Rendering::CPUInstanceData::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::Rendering::CPUInstanceData::i___System__IDisposable()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IDisposable* UnityEngine::Rendering::CPUInstanceData::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_StructData", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InstanceIndices", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "localToWorldIsFlippedBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "worldAABBs", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AABB>", modifiers: "", def_value: Some("{}") }, CppParam { name: "tetrahedronCacheIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "movedInCurrentFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "movedInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "editorData", ty: "::UnityEngine::Rendering::EditorInstanceDataArrays", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::CPUInstanceData::CPUInstanceData(::Unity::Collections::NativeArray_1<int32_t>  m_StructData, ::Unity::Collections::NativeList_1<int32_t>  m_InstanceIndices, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>  instances, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle>  sharedInstances, ::UnityEngine::Rendering::ParallelBitArray  localToWorldIsFlippedBits, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AABB>  worldAABBs, ::Unity::Collections::NativeArray_1<int32_t>  tetrahedronCacheIndices, ::UnityEngine::Rendering::ParallelBitArray  movedInCurrentFrameBits, ::UnityEngine::Rendering::ParallelBitArray  movedInPreviousFrameBits, ::UnityEngine::Rendering::ParallelBitArray  visibleInPreviousFrameBits, ::UnityEngine::Rendering::EditorInstanceDataArrays  editorData) noexcept  {
-this->m_StructData = m_StructData;
-this->m_InstanceIndices = m_InstanceIndices;
-this->instances = instances;
-this->sharedInstances = sharedInstances;
-this->localToWorldIsFlippedBits = localToWorldIsFlippedBits;
-this->worldAABBs = worldAABBs;
-this->tetrahedronCacheIndices = tetrahedronCacheIndices;
-this->movedInCurrentFrameBits = movedInCurrentFrameBits;
-this->movedInPreviousFrameBits = movedInPreviousFrameBits;
-this->visibleInPreviousFrameBits = visibleInPreviousFrameBits;
-this->editorData = editorData;
+// Ctor Parameters [CppParam { name: "m_StructData", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InstanceIndices", ty:
+// "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstances", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "localToWorldIsFlippedBits", ty:
+// "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "worldAABBs", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AABB>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "tetrahedronCacheIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "movedInCurrentFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "movedInPreviousFrameBits", ty:
+// "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "editorData", ty: "::UnityEngine::Rendering::EditorInstanceDataArrays", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::CPUInstanceData::CPUInstanceData(
+    ::Unity::Collections::NativeArray_1<int32_t> m_StructData, ::Unity::Collections::NativeList_1<int32_t> m_InstanceIndices,
+    ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle> sharedInstances,
+    ::UnityEngine::Rendering::ParallelBitArray localToWorldIsFlippedBits, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AABB> worldAABBs,
+    ::Unity::Collections::NativeArray_1<int32_t> tetrahedronCacheIndices, ::UnityEngine::Rendering::ParallelBitArray movedInCurrentFrameBits,
+    ::UnityEngine::Rendering::ParallelBitArray movedInPreviousFrameBits, ::UnityEngine::Rendering::ParallelBitArray visibleInPreviousFrameBits,
+    ::UnityEngine::Rendering::EditorInstanceDataArrays editorData) noexcept {
+  this->m_StructData = m_StructData;
+  this->m_InstanceIndices = m_InstanceIndices;
+  this->instances = instances;
+  this->sharedInstances = sharedInstances;
+  this->localToWorldIsFlippedBits = localToWorldIsFlippedBits;
+  this->worldAABBs = worldAABBs;
+  this->tetrahedronCacheIndices = tetrahedronCacheIndices;
+  this->movedInCurrentFrameBits = movedInCurrentFrameBits;
+  this->movedInPreviousFrameBits = movedInPreviousFrameBits;
+  this->visibleInPreviousFrameBits = visibleInPreviousFrameBits;
+  this->editorData = editorData;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::CPUInstanceData::CPUInstanceData()   {
-}
+constexpr ::UnityEngine::Rendering::CPUInstanceData::CPUInstanceData() {}

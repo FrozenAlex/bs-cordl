@@ -5,162 +5,119 @@
 #include "GlobalNamespace/zzzz__CutoutAnimateEffect_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleDissolve.Awake
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)()>(&::GlobalNamespace::ObstacleDissolve::Awake)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)()>(&::GlobalNamespace::ObstacleDissolve::Awake)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x583a694;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(), { "Awake", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ObstacleDissolve.OnDestroy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)()>(&::GlobalNamespace::ObstacleDissolve::OnDestroy)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)()>(&::GlobalNamespace::ObstacleDissolve::OnDestroy)> {
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x583a780;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(), { "OnDestroy", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ObstacleDissolve.HandleObstacleDidInitEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)(::GlobalNamespace::ObstacleControllerBase*)>(&::GlobalNamespace::ObstacleDissolve::HandleObstacleDidInitEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)(::GlobalNamespace::ObstacleControllerBase*)>(
+    &::GlobalNamespace::ObstacleDissolve::HandleObstacleDidInitEvent)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x583a8b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        "HandleObstacleDidInitEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleControllerBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(),
+                                                                                           { "HandleObstacleDidInitEvent", {}, { ::i2c::type_of<::GlobalNamespace::ObstacleControllerBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ObstacleDissolve.HandleObcstacleDidStartDissolvingEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)(::GlobalNamespace::ObstacleControllerBase*, float_t)>(&::GlobalNamespace::ObstacleDissolve::HandleObcstacleDidStartDissolvingEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)(::GlobalNamespace::ObstacleControllerBase*, float_t)>(
+    &::GlobalNamespace::ObstacleDissolve::HandleObcstacleDidStartDissolvingEvent)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x583a908;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        "HandleObcstacleDidStartDissolvingEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleControllerBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(),
+                                                { "HandleObcstacleDidStartDissolvingEvent", {}, { ::i2c::type_of<::GlobalNamespace::ObstacleControllerBase*>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ObstacleDissolve._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)()>(&::GlobalNamespace::ObstacleDissolve::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleDissolve::*)()>(&::GlobalNamespace::ObstacleDissolve::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x583a97c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::ObstacleControllerBase>& GlobalNamespace::ObstacleDissolve::__cordl_internal_get__obstacleController()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____obstacleController;
+constexpr ::UnityW<::GlobalNamespace::ObstacleControllerBase>& GlobalNamespace::ObstacleDissolve::__cordl_internal_get__obstacleController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____obstacleController;
 }
 constexpr ::UnityW<::GlobalNamespace::ObstacleControllerBase> const& GlobalNamespace::ObstacleDissolve::__cordl_internal_get__obstacleController() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____obstacleController;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____obstacleController;
 }
-constexpr void GlobalNamespace::ObstacleDissolve::__cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleControllerBase>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::ObstacleDissolve::__cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleControllerBase> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____obstacleController = value;
 }
-constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect>& GlobalNamespace::ObstacleDissolve::__cordl_internal_get__cutoutAnimateEffect()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cutoutAnimateEffect;
+constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect>& GlobalNamespace::ObstacleDissolve::__cordl_internal_get__cutoutAnimateEffect() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cutoutAnimateEffect;
 }
 constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& GlobalNamespace::ObstacleDissolve::__cordl_internal_get__cutoutAnimateEffect() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cutoutAnimateEffect;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cutoutAnimateEffect;
 }
-constexpr void GlobalNamespace::ObstacleDissolve::__cordl_internal_set__cutoutAnimateEffect(::UnityW<::GlobalNamespace::CutoutAnimateEffect>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cutoutAnimateEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::ObstacleDissolve::__cordl_internal_set__cutoutAnimateEffect(::UnityW<::GlobalNamespace::CutoutAnimateEffect> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____cutoutAnimateEffect = value;
 }
-inline void GlobalNamespace::ObstacleDissolve::Awake()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::ObstacleDissolve::Awake() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(), { "Awake", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::ObstacleDissolve::OnDestroy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::ObstacleDissolve::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(), { "OnDestroy", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::ObstacleDissolve::HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase*  obstacleController)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        "HandleObstacleDidInitEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleControllerBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleController);
+inline void GlobalNamespace::ObstacleDissolve::HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(),
+                                                                                         { "HandleObstacleDidInitEvent", {}, { ::i2c::type_of<::GlobalNamespace::ObstacleControllerBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obstacleController);
 }
-inline void GlobalNamespace::ObstacleDissolve::HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase*  obstacleController, float_t  duration)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        "HandleObcstacleDidStartDissolvingEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleControllerBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleController, duration);
+inline void GlobalNamespace::ObstacleDissolve::HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(),
+                                              { "HandleObcstacleDidStartDissolvingEvent", {}, { ::i2c::type_of<::GlobalNamespace::ObstacleControllerBase*>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obstacleController, duration);
 }
-inline void GlobalNamespace::ObstacleDissolve::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleDissolve*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::ObstacleDissolve::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleDissolve*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ObstacleDissolve* GlobalNamespace::ObstacleDissolve::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObstacleDissolve*>());
+inline ::GlobalNamespace::ObstacleDissolve* GlobalNamespace::ObstacleDissolve::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ObstacleDissolve*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ObstacleDissolve::ObstacleDissolve()   {
-}
+constexpr ::GlobalNamespace::ObstacleDissolve::ObstacleDissolve() {}

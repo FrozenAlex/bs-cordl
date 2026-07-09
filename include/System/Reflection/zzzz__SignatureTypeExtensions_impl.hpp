@@ -7,239 +7,181 @@
 #include "System/Reflection/zzzz__SignatureType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Reflection::SignatureTypeExtensions.MatchesParameterTypeExactly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Reflection::ParameterInfo*)>(&::System::Reflection::SignatureTypeExtensions::MatchesParameterTypeExactly)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Reflection::ParameterInfo*)>(&::System::Reflection::SignatureTypeExtensions::MatchesParameterTypeExactly)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x5a4723c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "MatchesParameterTypeExactly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                             { "MatchesParameterTypeExactly", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Reflection::ParameterInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignatureTypeExtensions.MatchesExactly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::SignatureType*, ::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::MatchesExactly)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::SignatureType*, ::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::MatchesExactly)> {
   constexpr static std::size_t size = 0x39c;
   constexpr static std::size_t addrs = 0x5a47308;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "MatchesExactly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::SignatureType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                             { "MatchesExactly", {}, { ::i2c::type_of<::System::Reflection::SignatureType*>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignatureTypeExtensions.TryResolveAgainstGenericMethod
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Reflection::SignatureType*, ::System::Reflection::MethodInfo*)>(&::System::Reflection::SignatureTypeExtensions::TryResolveAgainstGenericMethod)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Reflection::SignatureType*, ::System::Reflection::MethodInfo*)>(
+    &::System::Reflection::SignatureTypeExtensions::TryResolveAgainstGenericMethod)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x5a476a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryResolveAgainstGenericMethod",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::SignatureType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                         { "TryResolveAgainstGenericMethod", {}, { ::i2c::type_of<::System::Reflection::SignatureType*>(), ::i2c::type_of<::System::Reflection::MethodInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignatureTypeExtensions.TryResolve
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Reflection::SignatureType*, ::ArrayW<::System::Type*,::Array<::System::Type*>*>)>(&::System::Reflection::SignatureTypeExtensions::TryResolve)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Reflection::SignatureType*, ::ArrayW<::System::Type*>)>(
+    &::System::Reflection::SignatureTypeExtensions::TryResolve)> {
   constexpr static std::size_t size = 0x3b4;
   constexpr static std::size_t addrs = 0x5a476dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryResolve",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::SignatureType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                             { "TryResolve", {}, { ::i2c::type_of<::System::Reflection::SignatureType*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignatureTypeExtensions.TryMakeArrayType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakeArrayType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakeArrayType)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5a47a90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakeArrayType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(), { "TryMakeArrayType", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignatureTypeExtensions.TryMakeArrayType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*, int32_t)>(&::System::Reflection::SignatureTypeExtensions::TryMakeArrayType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, int32_t)>(&::System::Reflection::SignatureTypeExtensions::TryMakeArrayType)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5a47b28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakeArrayType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                                                           { "TryMakeArrayType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignatureTypeExtensions.TryMakeByRefType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakeByRefType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakeByRefType)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5a47bc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakeByRefType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(), { "TryMakeByRefType", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignatureTypeExtensions.TryMakePointerType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakePointerType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakePointerType)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5a47c58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakePointerType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(), { "TryMakePointerType", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Reflection::SignatureTypeExtensions.TryMakeGenericType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*, ::ArrayW<::System::Type*,::Array<::System::Type*>*>)>(&::System::Reflection::SignatureTypeExtensions::TryMakeGenericType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, ::ArrayW<::System::Type*>)>(&::System::Reflection::SignatureTypeExtensions::TryMakeGenericType)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5a47cf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakeGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                             { "TryMakeGenericType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
     return ___internal_method;
   }
 };
-inline bool System::Reflection::SignatureTypeExtensions::MatchesParameterTypeExactly(::System::Type*  pattern, ::System::Reflection::ParameterInfo*  parameter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "MatchesParameterTypeExactly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, pattern, parameter);
+inline bool System::Reflection::SignatureTypeExtensions::MatchesParameterTypeExactly(::System::Type* pattern, ::System::Reflection::ParameterInfo* parameter) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                           { "MatchesParameterTypeExactly", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Reflection::ParameterInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, pattern, parameter);
 }
-inline bool System::Reflection::SignatureTypeExtensions::MatchesExactly(::System::Reflection::SignatureType*  pattern, ::System::Type*  actual)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "MatchesExactly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::SignatureType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, pattern, actual);
+inline bool System::Reflection::SignatureTypeExtensions::MatchesExactly(::System::Reflection::SignatureType* pattern, ::System::Type* actual) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                           { "MatchesExactly", {}, { ::i2c::type_of<::System::Reflection::SignatureType*>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, pattern, actual);
 }
-inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryResolveAgainstGenericMethod(::System::Reflection::SignatureType*  signatureType, ::System::Reflection::MethodInfo*  genericMethod)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryResolveAgainstGenericMethod",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::SignatureType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, signatureType, genericMethod);
+inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryResolveAgainstGenericMethod(::System::Reflection::SignatureType* signatureType,
+                                                                                                   ::System::Reflection::MethodInfo* genericMethod) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                       { "TryResolveAgainstGenericMethod", {}, { ::i2c::type_of<::System::Reflection::SignatureType*>(), ::i2c::type_of<::System::Reflection::MethodInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, signatureType, genericMethod);
 }
-inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryResolve(::System::Reflection::SignatureType*  signatureType, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  genericMethodParameters)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryResolve",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::SignatureType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, signatureType, genericMethodParameters);
+inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryResolve(::System::Reflection::SignatureType* signatureType, ::ArrayW<::System::Type*> genericMethodParameters) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                           { "TryResolve", {}, { ::i2c::type_of<::System::Reflection::SignatureType*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, signatureType, genericMethodParameters);
 }
-inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakeArrayType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakeArrayType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
+inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakeArrayType(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(), { "TryMakeArrayType", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, type);
 }
-inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakeArrayType(::System::Type*  type, int32_t  rank)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakeArrayType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type, rank);
+inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakeArrayType(::System::Type* type, int32_t rank) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                                                         { "TryMakeArrayType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, type, rank);
 }
-inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakeByRefType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakeByRefType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
+inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakeByRefType(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(), { "TryMakeByRefType", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, type);
 }
-inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakePointerType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakePointerType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
+inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakePointerType(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(), { "TryMakePointerType", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, type);
 }
-inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakeGenericType(::System::Type*  type, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  instantiation)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureTypeExtensions*>::get(),
-                        "TryMakeGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type, instantiation);
+inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakeGenericType(::System::Type* type, ::ArrayW<::System::Type*> instantiation) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
+                                                           { "TryMakeGenericType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, type, instantiation);
 }
 // Ctor Parameters []
-constexpr ::System::Reflection::SignatureTypeExtensions::SignatureTypeExtensions()   {
-}
+constexpr ::System::Reflection::SignatureTypeExtensions::SignatureTypeExtensions() {}

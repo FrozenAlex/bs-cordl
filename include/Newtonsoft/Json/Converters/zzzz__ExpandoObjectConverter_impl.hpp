@@ -8,212 +8,161 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::ExpandoObjectConverter.WriteJson
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::WriteJson)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(
+    ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::WriteJson)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5c60a88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(),
+                                                                                          { ::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::ExpandoObjectConverter.ReadJson
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadJson)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*,
+                                                                                                                                     ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
+    &::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadJson)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5c60a8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(),
+                                                                                          { ::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::ExpandoObjectConverter.ReadValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*)>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*)>(
+    &::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadValue)> {
   constexpr static std::size_t size = 0x170;
   constexpr static std::size_t addrs = 0x5c60a90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                        "ReadValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), { "ReadValue", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::ExpandoObjectConverter.ReadList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*)>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*)>(
+    &::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadList)> {
   constexpr static std::size_t size = 0x1a0;
   constexpr static std::size_t addrs = 0x5c60dd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                        "ReadList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), { "ReadList", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::ExpandoObjectConverter.ReadObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*)>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*)>(
+    &::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadObject)> {
   constexpr static std::size_t size = 0x1d8;
   constexpr static std::size_t addrs = 0x5c60c00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                        "ReadObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), { "ReadObject", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::ExpandoObjectConverter.CanConvert
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::System::Type*)>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::CanConvert)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::System::Type*)>(
+    &::Newtonsoft::Json::Converters::ExpandoObjectConverter::CanConvert)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x5c60f78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(),
+                                                                                          { ::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::ExpandoObjectConverter.get_CanWrite
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)()>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::get_CanWrite)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)()>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5c60fe8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(),
+                                                                                          { ::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::ExpandoObjectConverter._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)()>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)()>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5c60ff0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::Converters::ExpandoObjectConverter::WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer, value, serializer);
+inline void Newtonsoft::Json::Converters::ExpandoObjectConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
 }
-inline ::System::Object* Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, reader, objectType, existingValue, serializer);
+inline ::System::Object* Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue,
+                                                                                        ::Newtonsoft::Json::JsonSerializer* serializer) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, existingValue, serializer);
 }
-inline ::System::Object* Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadValue(::Newtonsoft::Json::JsonReader*  reader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                        "ReadValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, reader);
+inline ::System::Object* Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadValue(::Newtonsoft::Json::JsonReader* reader) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), { "ReadValue", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader);
 }
-inline ::System::Object* Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadList(::Newtonsoft::Json::JsonReader*  reader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                        "ReadList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, reader);
+inline ::System::Object* Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadList(::Newtonsoft::Json::JsonReader* reader) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), { "ReadList", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader);
 }
-inline ::System::Object* Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadObject(::Newtonsoft::Json::JsonReader*  reader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                        "ReadObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, reader);
+inline ::System::Object* Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadObject(::Newtonsoft::Json::JsonReader* reader) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), { "ReadObject", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader);
 }
-inline bool Newtonsoft::Json::Converters::ExpandoObjectConverter::CanConvert(::System::Type*  objectType)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, objectType);
+inline bool Newtonsoft::Json::Converters::ExpandoObjectConverter::CanConvert(::System::Type* objectType) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, objectType);
 }
-inline bool Newtonsoft::Json::Converters::ExpandoObjectConverter::get_CanWrite()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Newtonsoft::Json::Converters::ExpandoObjectConverter::get_CanWrite() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Converters::ExpandoObjectConverter::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Newtonsoft::Json::Converters::ExpandoObjectConverter::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Converters::ExpandoObjectConverter* Newtonsoft::Json::Converters::ExpandoObjectConverter::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>());
+inline ::Newtonsoft::Json::Converters::ExpandoObjectConverter* Newtonsoft::Json::Converters::ExpandoObjectConverter::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>());
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Converters::ExpandoObjectConverter::ExpandoObjectConverter()   {
-}
+constexpr ::Newtonsoft::Json::Converters::ExpandoObjectConverter::ExpandoObjectConverter() {}

@@ -8,159 +8,133 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__ResourceLocatorInfo_def.hpp"
 //  Writing Method size for method: ::AddressablesInternalBridge::Runtime::Extensions___c._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::AddressablesInternalBridge::Runtime::Extensions___c::*)()>(&::AddressablesInternalBridge::Runtime::Extensions___c::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::AddressablesInternalBridge::Runtime::Extensions___c::*)()>(&::AddressablesInternalBridge::Runtime::Extensions___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x630821c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::AddressablesInternalBridge::Runtime::Extensions___c._GetUpdateableCatalogLocationDatas_b__1_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::AddressablesInternalBridge::Runtime::Extensions___c::*)(::UnityEngine::AddressableAssets::ResourceLocatorInfo*)>(&::AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::AddressablesInternalBridge::Runtime::Extensions___c::*)(::UnityEngine::AddressableAssets::ResourceLocatorInfo*)>(
+    &::AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_0)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6308220;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get(),
-                        "<GetUpdateableCatalogLocationDatas>b__1_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions___c*>(),
+                                                             { "<GetUpdateableCatalogLocationDatas>b__1_0", {}, { ::i2c::type_of<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::AddressablesInternalBridge::Runtime::Extensions___c._GetUpdateableCatalogLocationDatas_b__1_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::AddressablesInternalBridge::Runtime::CatalogLocationData* (::AddressablesInternalBridge::Runtime::Extensions___c::*)(::UnityEngine::AddressableAssets::ResourceLocatorInfo*)>(&::AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::AddressablesInternalBridge::Runtime::CatalogLocationData* (::AddressablesInternalBridge::Runtime::Extensions___c::*)(::UnityEngine::AddressableAssets::ResourceLocatorInfo*)>(
+        &::AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_1)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x63083e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get(),
-                        "<GetUpdateableCatalogLocationDatas>b__1_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions___c*>(),
+                                                             { "<GetUpdateableCatalogLocationDatas>b__1_1", {}, { ::i2c::type_of<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>() } })));
     return ___internal_method;
   }
 };
-inline void AddressablesInternalBridge::Runtime::Extensions___c::setStaticF___9(::AddressablesInternalBridge::Runtime::Extensions___c*  value)  {
-::cordl_internals::setStaticField<::AddressablesInternalBridge::Runtime::Extensions___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get>(std::forward<::AddressablesInternalBridge::Runtime::Extensions___c*>(value));
+inline void AddressablesInternalBridge::Runtime::Extensions___c::setStaticF___9(::AddressablesInternalBridge::Runtime::Extensions___c* value) {
+  ::cordl_internals::setStaticField<::AddressablesInternalBridge::Runtime::Extensions___c*, "<>9", ::AddressablesInternalBridge::Runtime::Extensions___c*>(
+      std::forward<::AddressablesInternalBridge::Runtime::Extensions___c*>(value));
 }
-inline ::AddressablesInternalBridge::Runtime::Extensions___c* AddressablesInternalBridge::Runtime::Extensions___c::getStaticF___9()  {
-return ::cordl_internals::getStaticField<::AddressablesInternalBridge::Runtime::Extensions___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get>();
+inline ::AddressablesInternalBridge::Runtime::Extensions___c* AddressablesInternalBridge::Runtime::Extensions___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::AddressablesInternalBridge::Runtime::Extensions___c*, "<>9", ::AddressablesInternalBridge::Runtime::Extensions___c*>();
 }
-inline void AddressablesInternalBridge::Runtime::Extensions___c::setStaticF___9__1_0(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,bool>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,bool>*, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get>(std::forward<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,bool>*>(value));
+inline void AddressablesInternalBridge::Runtime::Extensions___c::setStaticF___9__1_0(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>*, "<>9__1_0", ::AddressablesInternalBridge::Runtime::Extensions___c*>(
+      std::forward<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,bool>* AddressablesInternalBridge::Runtime::Extensions___c::getStaticF___9__1_0()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,bool>*, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get>();
+inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>* AddressablesInternalBridge::Runtime::Extensions___c::getStaticF___9__1_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>*, "<>9__1_0", ::AddressablesInternalBridge::Runtime::Extensions___c*>();
 }
-inline void AddressablesInternalBridge::Runtime::Extensions___c::setStaticF___9__1_1(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,::AddressablesInternalBridge::Runtime::CatalogLocationData*>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,::AddressablesInternalBridge::Runtime::CatalogLocationData*>*, "<>9__1_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get>(std::forward<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,::AddressablesInternalBridge::Runtime::CatalogLocationData*>*>(value));
+inline void AddressablesInternalBridge::Runtime::Extensions___c::setStaticF___9__1_1(
+    ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::AddressablesInternalBridge::Runtime::CatalogLocationData*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::AddressablesInternalBridge::Runtime::CatalogLocationData*>*, "<>9__1_1",
+                                    ::AddressablesInternalBridge::Runtime::Extensions___c*>(
+      std::forward<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::AddressablesInternalBridge::Runtime::CatalogLocationData*>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,::AddressablesInternalBridge::Runtime::CatalogLocationData*>* AddressablesInternalBridge::Runtime::Extensions___c::getStaticF___9__1_1()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*,::AddressablesInternalBridge::Runtime::CatalogLocationData*>*, "<>9__1_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get>();
+inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::AddressablesInternalBridge::Runtime::CatalogLocationData*>*
+AddressablesInternalBridge::Runtime::Extensions___c::getStaticF___9__1_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::AddressablesInternalBridge::Runtime::CatalogLocationData*>*, "<>9__1_1",
+                                           ::AddressablesInternalBridge::Runtime::Extensions___c*>();
 }
-inline void AddressablesInternalBridge::Runtime::Extensions___c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void AddressablesInternalBridge::Runtime::Extensions___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions___c*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_0(::UnityEngine::AddressableAssets::ResourceLocatorInfo*  locatorInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get(),
-                        "<GetUpdateableCatalogLocationDatas>b__1_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, locatorInfo);
+inline bool AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_0(::UnityEngine::AddressableAssets::ResourceLocatorInfo* locatorInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions___c*>(),
+                                                           { "<GetUpdateableCatalogLocationDatas>b__1_0", {}, { ::i2c::type_of<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, locatorInfo);
 }
-inline ::AddressablesInternalBridge::Runtime::CatalogLocationData* AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_1(::UnityEngine::AddressableAssets::ResourceLocatorInfo*  locatorInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions___c*>::get(),
-                        "<GetUpdateableCatalogLocationDatas>b__1_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::AddressablesInternalBridge::Runtime::CatalogLocationData*, false>(this, ___internal_method, locatorInfo);
+inline ::AddressablesInternalBridge::Runtime::CatalogLocationData*
+AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_1(::UnityEngine::AddressableAssets::ResourceLocatorInfo* locatorInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions___c*>(),
+                                                           { "<GetUpdateableCatalogLocationDatas>b__1_1", {}, { ::i2c::type_of<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::AddressablesInternalBridge::Runtime::CatalogLocationData*>(this, ___internal_method, locatorInfo);
 }
-inline ::AddressablesInternalBridge::Runtime::Extensions___c* AddressablesInternalBridge::Runtime::Extensions___c::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::AddressablesInternalBridge::Runtime::Extensions___c*>());
+inline ::AddressablesInternalBridge::Runtime::Extensions___c* AddressablesInternalBridge::Runtime::Extensions___c::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::AddressablesInternalBridge::Runtime::Extensions___c*>());
 }
 // Ctor Parameters []
-constexpr ::AddressablesInternalBridge::Runtime::Extensions___c::Extensions___c()   {
-}
+constexpr ::AddressablesInternalBridge::Runtime::Extensions___c::Extensions___c() {}
 //  Writing Method size for method: ::AddressablesInternalBridge::Runtime::Extensions.GetCatalogLocationData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::AddressablesInternalBridge::Runtime::CatalogLocationData* (*)(::StringW)>(&::AddressablesInternalBridge::Runtime::Extensions::GetCatalogLocationData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::AddressablesInternalBridge::Runtime::CatalogLocationData* (*)(::StringW)>(
+    &::AddressablesInternalBridge::Runtime::Extensions::GetCatalogLocationData)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x6307cd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions*>::get(),
-                        "GetCatalogLocationData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions*>(), { "GetCatalogLocationData", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::AddressablesInternalBridge::Runtime::Extensions.GetUpdateableCatalogLocationDatas
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>* (*)()>(&::AddressablesInternalBridge::Runtime::Extensions::GetUpdateableCatalogLocationDatas)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>* (*)()>(
+    &::AddressablesInternalBridge::Runtime::Extensions::GetUpdateableCatalogLocationDatas)> {
   constexpr static std::size_t size = 0x1fc;
   constexpr static std::size_t addrs = 0x6307fcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions*>::get(),
-                        "GetUpdateableCatalogLocationDatas",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions*>(), { "GetUpdateableCatalogLocationDatas", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::AddressablesInternalBridge::Runtime::CatalogLocationData* AddressablesInternalBridge::Runtime::Extensions::GetCatalogLocationData(::StringW  locatorId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions*>::get(),
-                        "GetCatalogLocationData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::AddressablesInternalBridge::Runtime::CatalogLocationData*, false>(nullptr, ___internal_method, locatorId);
+inline ::AddressablesInternalBridge::Runtime::CatalogLocationData* AddressablesInternalBridge::Runtime::Extensions::GetCatalogLocationData(::StringW locatorId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions*>(), { "GetCatalogLocationData", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::AddressablesInternalBridge::Runtime::CatalogLocationData*>(nullptr, ___internal_method, locatorId);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>* AddressablesInternalBridge::Runtime::Extensions::GetUpdateableCatalogLocationDatas()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AddressablesInternalBridge::Runtime::Extensions*>::get(),
-                        "GetUpdateableCatalogLocationDatas",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>*, false>(nullptr, ___internal_method);
+inline ::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>*
+AddressablesInternalBridge::Runtime::Extensions::GetUpdateableCatalogLocationDatas() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions*>(), { "GetUpdateableCatalogLocationDatas", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>*>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::AddressablesInternalBridge::Runtime::Extensions::Extensions()   {
-}
+constexpr ::AddressablesInternalBridge::Runtime::Extensions::Extensions() {}

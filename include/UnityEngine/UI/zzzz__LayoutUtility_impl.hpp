@@ -7,585 +7,470 @@
 #include "UnityEngine/UI/zzzz__LayoutUtility_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility___c._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutUtility___c::*)()>(&::UnityEngine::UI::LayoutUtility___c::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutUtility___c::*)()>(&::UnityEngine::UI::LayoutUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6ca783c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility___c._GetMinWidth_b__3_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(&::UnityEngine::UI::LayoutUtility___c::_GetMinWidth_b__3_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
+    &::UnityEngine::UI::LayoutUtility___c::_GetMinWidth_b__3_0)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6ca7840;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetMinWidth>b__3_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetMinWidth>b__3_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility___c._GetPreferredWidth_b__4_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(&::UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
+    &::UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_0)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6ca78e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetPreferredWidth>b__4_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetPreferredWidth>b__4_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility___c._GetPreferredWidth_b__4_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(&::UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
+    &::UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_1)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6ca7988;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetPreferredWidth>b__4_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetPreferredWidth>b__4_1", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility___c._GetFlexibleWidth_b__5_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(&::UnityEngine::UI::LayoutUtility___c::_GetFlexibleWidth_b__5_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
+    &::UnityEngine::UI::LayoutUtility___c::_GetFlexibleWidth_b__5_0)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6ca7a2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetFlexibleWidth>b__5_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetFlexibleWidth>b__5_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility___c._GetMinHeight_b__6_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(&::UnityEngine::UI::LayoutUtility___c::_GetMinHeight_b__6_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
+    &::UnityEngine::UI::LayoutUtility___c::_GetMinHeight_b__6_0)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6ca7ad0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetMinHeight>b__6_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetMinHeight>b__6_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility___c._GetPreferredHeight_b__7_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(&::UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
+    &::UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_0)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6ca7b74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetPreferredHeight>b__7_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetPreferredHeight>b__7_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility___c._GetPreferredHeight_b__7_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(&::UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
+    &::UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_1)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6ca7c18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetPreferredHeight>b__7_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetPreferredHeight>b__7_1", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility___c._GetFlexibleHeight_b__8_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(&::UnityEngine::UI::LayoutUtility___c::_GetFlexibleHeight_b__8_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
+    &::UnityEngine::UI::LayoutUtility___c::_GetFlexibleHeight_b__8_0)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6ca7cbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetFlexibleHeight>b__8_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetFlexibleHeight>b__8_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9(::UnityEngine::UI::LayoutUtility___c*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::UI::LayoutUtility___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>(std::forward<::UnityEngine::UI::LayoutUtility___c*>(value));
+inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9(::UnityEngine::UI::LayoutUtility___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UI::LayoutUtility___c*, "<>9", ::UnityEngine::UI::LayoutUtility___c*>(std::forward<::UnityEngine::UI::LayoutUtility___c*>(value));
 }
-inline ::UnityEngine::UI::LayoutUtility___c* UnityEngine::UI::LayoutUtility___c::getStaticF___9()  {
-return ::cordl_internals::getStaticField<::UnityEngine::UI::LayoutUtility___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>();
+inline ::UnityEngine::UI::LayoutUtility___c* UnityEngine::UI::LayoutUtility___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UI::LayoutUtility___c*, "<>9", ::UnityEngine::UI::LayoutUtility___c*>();
 }
-inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__3_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>(std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>(value));
+inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__3_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__3_0", ::UnityEngine::UI::LayoutUtility___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__3_0()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>();
+inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__3_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__3_0", ::UnityEngine::UI::LayoutUtility___c*>();
 }
-inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__4_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>(std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>(value));
+inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__4_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__4_0", ::UnityEngine::UI::LayoutUtility___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__4_0()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>();
+inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__4_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__4_0", ::UnityEngine::UI::LayoutUtility___c*>();
 }
-inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__4_1(::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__4_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>(std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>(value));
+inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__4_1(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__4_1", ::UnityEngine::UI::LayoutUtility___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__4_1()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__4_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>();
+inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__4_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__4_1", ::UnityEngine::UI::LayoutUtility___c*>();
 }
-inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__5_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__5_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>(std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>(value));
+inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__5_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__5_0", ::UnityEngine::UI::LayoutUtility___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__5_0()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__5_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>();
+inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__5_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__5_0", ::UnityEngine::UI::LayoutUtility___c*>();
 }
-inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__6_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>(std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>(value));
+inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__6_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__6_0", ::UnityEngine::UI::LayoutUtility___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__6_0()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>();
+inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__6_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__6_0", ::UnityEngine::UI::LayoutUtility___c*>();
 }
-inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__7_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__7_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>(std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>(value));
+inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__7_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__7_0", ::UnityEngine::UI::LayoutUtility___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__7_0()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__7_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>();
+inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__7_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__7_0", ::UnityEngine::UI::LayoutUtility___c*>();
 }
-inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__7_1(::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__7_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>(std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>(value));
+inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__7_1(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__7_1", ::UnityEngine::UI::LayoutUtility___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__7_1()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__7_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>();
+inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__7_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__7_1", ::UnityEngine::UI::LayoutUtility___c*>();
 }
-inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__8_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>(std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>(value));
+inline void UnityEngine::UI::LayoutUtility___c::setStaticF___9__8_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__8_0", ::UnityEngine::UI::LayoutUtility___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__8_0()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get>();
+inline ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* UnityEngine::UI::LayoutUtility___c::getStaticF___9__8_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, "<>9__8_0", ::UnityEngine::UI::LayoutUtility___c*>();
 }
-inline void UnityEngine::UI::LayoutUtility___c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UI::LayoutUtility___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline float_t UnityEngine::UI::LayoutUtility___c::_GetMinWidth_b__3_0(::UnityEngine::UI::ILayoutElement*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetMinWidth>b__3_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, e);
+inline float_t UnityEngine::UI::LayoutUtility___c::_GetMinWidth_b__3_0(::UnityEngine::UI::ILayoutElement* e) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetMinWidth>b__3_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, e);
 }
-inline float_t UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_0(::UnityEngine::UI::ILayoutElement*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetPreferredWidth>b__4_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, e);
+inline float_t UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_0(::UnityEngine::UI::ILayoutElement* e) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetPreferredWidth>b__4_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, e);
 }
-inline float_t UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_1(::UnityEngine::UI::ILayoutElement*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetPreferredWidth>b__4_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, e);
+inline float_t UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_1(::UnityEngine::UI::ILayoutElement* e) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetPreferredWidth>b__4_1", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, e);
 }
-inline float_t UnityEngine::UI::LayoutUtility___c::_GetFlexibleWidth_b__5_0(::UnityEngine::UI::ILayoutElement*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetFlexibleWidth>b__5_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, e);
+inline float_t UnityEngine::UI::LayoutUtility___c::_GetFlexibleWidth_b__5_0(::UnityEngine::UI::ILayoutElement* e) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetFlexibleWidth>b__5_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, e);
 }
-inline float_t UnityEngine::UI::LayoutUtility___c::_GetMinHeight_b__6_0(::UnityEngine::UI::ILayoutElement*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetMinHeight>b__6_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, e);
+inline float_t UnityEngine::UI::LayoutUtility___c::_GetMinHeight_b__6_0(::UnityEngine::UI::ILayoutElement* e) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetMinHeight>b__6_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, e);
 }
-inline float_t UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_0(::UnityEngine::UI::ILayoutElement*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetPreferredHeight>b__7_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, e);
+inline float_t UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_0(::UnityEngine::UI::ILayoutElement* e) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetPreferredHeight>b__7_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, e);
 }
-inline float_t UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_1(::UnityEngine::UI::ILayoutElement*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetPreferredHeight>b__7_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, e);
+inline float_t UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_1(::UnityEngine::UI::ILayoutElement* e) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetPreferredHeight>b__7_1", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, e);
 }
-inline float_t UnityEngine::UI::LayoutUtility___c::_GetFlexibleHeight_b__8_0(::UnityEngine::UI::ILayoutElement*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(),
-                        "<GetFlexibleHeight>b__8_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::ILayoutElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, e);
+inline float_t UnityEngine::UI::LayoutUtility___c::_GetFlexibleHeight_b__8_0(::UnityEngine::UI::ILayoutElement* e) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility___c*>(), { "<GetFlexibleHeight>b__8_0", {}, { ::i2c::type_of<::UnityEngine::UI::ILayoutElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, e);
 }
-inline ::UnityEngine::UI::LayoutUtility___c* UnityEngine::UI::LayoutUtility___c::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::LayoutUtility___c*>());
+inline ::UnityEngine::UI::LayoutUtility___c* UnityEngine::UI::LayoutUtility___c::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UI::LayoutUtility___c*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::LayoutUtility___c::LayoutUtility___c()   {
-}
+constexpr ::UnityEngine::UI::LayoutUtility___c::LayoutUtility___c() {}
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetMinSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, int32_t)>(&::UnityEngine::UI::LayoutUtility::GetMinSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*, int32_t)>(&::UnityEngine::UI::LayoutUtility::GetMinSize)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6ca2170;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetMinSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetMinSize", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetPreferredSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, int32_t)>(&::UnityEngine::UI::LayoutUtility::GetPreferredSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*, int32_t)>(&::UnityEngine::UI::LayoutUtility::GetPreferredSize)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6ca217c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetPreferredSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetPreferredSize", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetFlexibleSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, int32_t)>(&::UnityEngine::UI::LayoutUtility::GetFlexibleSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*, int32_t)>(&::UnityEngine::UI::LayoutUtility::GetFlexibleSize)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6ca4bc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetFlexibleSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(),
+                                                                                           { "GetFlexibleSize", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetMinWidth
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetMinWidth)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetMinWidth)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x6ca6eb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetMinWidth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetMinWidth", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetPreferredWidth
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetPreferredWidth)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetPreferredWidth)> {
   constexpr static std::size_t size = 0x19c;
   constexpr static std::size_t addrs = 0x6ca7144;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetPreferredWidth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetPreferredWidth", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetFlexibleWidth
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetFlexibleWidth)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetFlexibleWidth)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x6ca73d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetFlexibleWidth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetFlexibleWidth", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetMinHeight
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetMinHeight)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetMinHeight)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x6ca6dc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetMinHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetMinHeight", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetPreferredHeight
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetPreferredHeight)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetPreferredHeight)> {
   constexpr static std::size_t size = 0x19c;
   constexpr static std::size_t addrs = 0x6ca6fa8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetPreferredHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetPreferredHeight", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetFlexibleHeight
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetFlexibleHeight)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetFlexibleHeight)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x6ca72e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetFlexibleHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetFlexibleHeight", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetLayoutProperty
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, float_t)>(&::UnityEngine::UI::LayoutUtility::GetLayoutProperty)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*, ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, float_t)>(
+    &::UnityEngine::UI::LayoutUtility::GetLayoutProperty)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6ca74c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetLayoutProperty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(),
+                            { "GetLayoutProperty",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::LayoutUtility.GetLayoutProperty
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*, float_t, ::ByRef<::UnityEngine::UI::ILayoutElement*>)>(&::UnityEngine::UI::LayoutUtility::GetLayoutProperty)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::RectTransform*, ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, float_t,
+                                                                   ::by_ref<::UnityEngine::UI::ILayoutElement*>)>(&::UnityEngine::UI::LayoutUtility::GetLayoutProperty)> {
   constexpr static std::size_t size = 0x314;
   constexpr static std::size_t addrs = 0x6ca74d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetLayoutProperty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UI::ILayoutElement*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(),
+                                                             { "GetLayoutProperty",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(),
+                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UI::ILayoutElement*>>() } })));
     return ___internal_method;
   }
 };
-inline float_t UnityEngine::UI::LayoutUtility::GetMinSize(::UnityEngine::RectTransform*  rect, int32_t  axis)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetMinSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect, axis);
+inline float_t UnityEngine::UI::LayoutUtility::GetMinSize(::UnityEngine::RectTransform* rect, int32_t axis) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetMinSize", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect, axis);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetPreferredSize(::UnityEngine::RectTransform*  rect, int32_t  axis)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetPreferredSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect, axis);
+inline float_t UnityEngine::UI::LayoutUtility::GetPreferredSize(::UnityEngine::RectTransform* rect, int32_t axis) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(),
+                                                                                         { "GetPreferredSize", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect, axis);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetFlexibleSize(::UnityEngine::RectTransform*  rect, int32_t  axis)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetFlexibleSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect, axis);
+inline float_t UnityEngine::UI::LayoutUtility::GetFlexibleSize(::UnityEngine::RectTransform* rect, int32_t axis) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(),
+                                                                                         { "GetFlexibleSize", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect, axis);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetMinWidth(::UnityEngine::RectTransform*  rect)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetMinWidth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect);
+inline float_t UnityEngine::UI::LayoutUtility::GetMinWidth(::UnityEngine::RectTransform* rect) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetMinWidth", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetPreferredWidth(::UnityEngine::RectTransform*  rect)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetPreferredWidth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect);
+inline float_t UnityEngine::UI::LayoutUtility::GetPreferredWidth(::UnityEngine::RectTransform* rect) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetPreferredWidth", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetFlexibleWidth(::UnityEngine::RectTransform*  rect)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetFlexibleWidth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect);
+inline float_t UnityEngine::UI::LayoutUtility::GetFlexibleWidth(::UnityEngine::RectTransform* rect) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetFlexibleWidth", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetMinHeight(::UnityEngine::RectTransform*  rect)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetMinHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect);
+inline float_t UnityEngine::UI::LayoutUtility::GetMinHeight(::UnityEngine::RectTransform* rect) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetMinHeight", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetPreferredHeight(::UnityEngine::RectTransform*  rect)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetPreferredHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect);
+inline float_t UnityEngine::UI::LayoutUtility::GetPreferredHeight(::UnityEngine::RectTransform* rect) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetPreferredHeight", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetFlexibleHeight(::UnityEngine::RectTransform*  rect)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetFlexibleHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect);
+inline float_t UnityEngine::UI::LayoutUtility::GetFlexibleHeight(::UnityEngine::RectTransform* rect) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(), { "GetFlexibleHeight", {}, { ::i2c::type_of<::UnityEngine::RectTransform*>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetLayoutProperty(::UnityEngine::RectTransform*  rect, ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  property, float_t  defaultValue)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetLayoutProperty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect, property, defaultValue);
+inline float_t UnityEngine::UI::LayoutUtility::GetLayoutProperty(::UnityEngine::RectTransform* rect, ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* property, float_t defaultValue) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(),
+                          { "GetLayoutProperty",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect, property, defaultValue);
 }
-inline float_t UnityEngine::UI::LayoutUtility::GetLayoutProperty(::UnityEngine::RectTransform*  rect, ::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*  property, float_t  defaultValue, ::ByRef<::UnityEngine::UI::ILayoutElement*>  source)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility*>::get(),
-                        "GetLayoutProperty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::UI::ILayoutElement*,float_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UI::ILayoutElement*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, rect, property, defaultValue, source);
+inline float_t UnityEngine::UI::LayoutUtility::GetLayoutProperty(::UnityEngine::RectTransform* rect, ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>* property, float_t defaultValue,
+                                                                 ::by_ref<::UnityEngine::UI::ILayoutElement*> source) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutUtility*>(),
+                                                           { "GetLayoutProperty",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*>(),
+                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UI::ILayoutElement*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, rect, property, defaultValue, source);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::LayoutUtility::LayoutUtility()   {
-}
+constexpr ::UnityEngine::UI::LayoutUtility::LayoutUtility() {}

@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/AttitudeState.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
@@ -18,49 +18,49 @@ struct AttitudeState;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::AttitudeState);
+DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::AttitudeState, "UnityEngine.InputSystem.LowLevel", "AttitudeState");
 // Dependencies UnityEngine.Quaternion
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.AttitudeState
 struct CORDL_TYPE AttitudeState {
 public:
-// Declarations
- __declspec(property(get=get_format)) ::UnityEngine::InputSystem::Utilities::FourCC  format;
+  // Declarations
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
-/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*() ;
+  /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-/// @brief Method get_format, addr 0x646be94, size 0xc, virtual true, abstract: false, final true
-inline ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+  /// @brief Method get_format, addr 0x646be94, size 0xc, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-/// @brief Method get_kFormat, addr 0x646be88, size 0xc, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
+  /// @brief Method get_kFormat, addr 0x646be88, size 0xc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
-/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() ;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr AttitudeState() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AttitudeState();
 
-// Ctor Parameters [CppParam { name: "attitude", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
-constexpr AttitudeState(::UnityEngine::Quaternion  attitude) noexcept;
+  // Ctor Parameters [CppParam { name: "attitude", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
+  constexpr AttitudeState(::UnityEngine::Quaternion attitude) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8994};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8994 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field attitude, offset: 0x0, size: 0x10, def value: None
- ::UnityEngine::Quaternion  attitude;
+  /// @brief Field attitude, offset: 0x0, size: 0x10, def value: None
+  ::UnityEngine::Quaternion attitude;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::AttitudeState, attitude) == 0x0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::AttitudeState, 0x10>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::AttitudeState) == 0x10, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::LowLevel
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::AttitudeState, "UnityEngine.InputSystem.LowLevel", "AttitudeState");
+} // namespace UnityEngine::InputSystem::LowLevel

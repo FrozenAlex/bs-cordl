@@ -4,48 +4,30 @@
 #include "GlobalNamespace/zzzz__OVRRuntimeAssetsBase_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRRuntimeAssetsBase._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeAssetsBase::*)()>(&::GlobalNamespace::OVRRuntimeAssetsBase::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeAssetsBase::*)()>(&::GlobalNamespace::OVRRuntimeAssetsBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5dd1c34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeAssetsBase*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeAssetsBase*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-template<typename T>
-inline void GlobalNamespace::OVRRuntimeAssetsBase::LoadAsset(::ByRef<T>  assetInstance, ::StringW  assetName, ::System::Action_1<T>*  onCreateAsset)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeAssetsBase*>::get(),
-                    "LoadAsset",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<T>*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, assetInstance, assetName, onCreateAsset);
+template <typename T> inline void GlobalNamespace::OVRRuntimeAssetsBase::LoadAsset(::by_ref<T> assetInstance, ::StringW assetName, ::System::Action_1<T>* onCreateAsset) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeAssetsBase*>(),
+                                              { "LoadAsset", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Action_1<T>*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, assetInstance, assetName, onCreateAsset);
 }
-inline void GlobalNamespace::OVRRuntimeAssetsBase::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeAssetsBase*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRRuntimeAssetsBase::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeAssetsBase*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRRuntimeAssetsBase* GlobalNamespace::OVRRuntimeAssetsBase::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRRuntimeAssetsBase*>());
+inline ::GlobalNamespace::OVRRuntimeAssetsBase* GlobalNamespace::OVRRuntimeAssetsBase::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRRuntimeAssetsBase*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRRuntimeAssetsBase::OVRRuntimeAssetsBase()   {
-}
+constexpr ::GlobalNamespace::OVRRuntimeAssetsBase::OVRRuntimeAssetsBase() {}

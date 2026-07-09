@@ -8,229 +8,161 @@
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig.ExtractKeyAndSubKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, ::by_ref<::StringW>, ::by_ref<::StringW>)>(
+    &::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x67d3f48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "ExtractKeyAndSubKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(),
+                                                { "ExtractKeyAndSubKey", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig.IsPathRemote
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsPathRemote)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsPathRemote)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x67d4010;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "IsPathRemote",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(), { "IsPathRemote", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig.StripQueryParameters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::StripQueryParameters)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::StripQueryParameters)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x67d4078;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "StripQueryParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(), { "StripQueryParameters", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig.ShouldPathUseWebRequest
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ShouldPathUseWebRequest)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ShouldPathUseWebRequest)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x67d40c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "ShouldPathUseWebRequest",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(), { "ShouldPathUseWebRequest", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig.PlatformCanLoadLocallyFromUrlPath
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::PlatformCanLoadLocallyFromUrlPath)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::PlatformCanLoadLocallyFromUrlPath)> {
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x67d4158;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "PlatformCanLoadLocallyFromUrlPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(), { "PlatformCanLoadLocallyFromUrlPath", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig.CreateArrayResult
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Type*, ::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (*)(::System::Type*, ::ArrayW<::UnityEngine::Object*>)>(
+    &::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x67d42a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "CreateArrayResult",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(),
+                                                             { "CreateArrayResult", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::UnityEngine::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig.CreateListResult
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (*)(::System::Type*, ::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (*)(::System::Type*, ::ArrayW<::UnityEngine::Object*>)>(
+    &::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult)> {
   constexpr static std::size_t size = 0x1c8;
   constexpr static std::size_t addrs = 0x67d4424;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "CreateListResult",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(),
+                                                             { "CreateListResult", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::UnityEngine::Object*>>() } })));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey(::System::Object*  keyObj, ::ByRef<::StringW>  mainKey, ::ByRef<::StringW>  subKey)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "ExtractKeyAndSubKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, keyObj, mainKey, subKey);
+inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey(::System::Object* keyObj, ::by_ref<::StringW> mainKey, ::by_ref<::StringW> subKey) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(),
+                                              { "ExtractKeyAndSubKey", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, keyObj, mainKey, subKey);
 }
-inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsPathRemote(::StringW  path)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "IsPathRemote",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, path);
+inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsPathRemote(::StringW path) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(), { "IsPathRemote", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, path);
 }
-inline ::StringW UnityEngine::ResourceManagement::Util::ResourceManagerConfig::StripQueryParameters(::StringW  path)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "StripQueryParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, path);
+inline ::StringW UnityEngine::ResourceManagement::Util::ResourceManagerConfig::StripQueryParameters(::StringW path) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(), { "StripQueryParameters", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, path);
 }
-inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ShouldPathUseWebRequest(::StringW  path)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "ShouldPathUseWebRequest",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, path);
+inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ShouldPathUseWebRequest(::StringW path) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(), { "ShouldPathUseWebRequest", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, path);
 }
-inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::PlatformCanLoadLocallyFromUrlPath()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "PlatformCanLoadLocallyFromUrlPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::PlatformCanLoadLocallyFromUrlPath() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(), { "PlatformCanLoadLocallyFromUrlPath", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-inline ::System::Array* UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult(::System::Type*  type, ::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "CreateArrayResult",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Array*, false>(nullptr, ___internal_method, type, allAssets);
+inline ::System::Array* UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(),
+                                                           { "CreateArrayResult", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::UnityEngine::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Array*>(nullptr, ___internal_method, type, allAssets);
 }
-template<typename TObject>
-inline TObject UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult(::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                    "CreateArrayResult",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<TObject, false>(nullptr, ___internal_method, allAssets);
+template <typename TObject> inline TObject UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult(::ArrayW<::UnityEngine::Object*> allAssets) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(),
+                                                           { "CreateArrayResult", { ::i2c::class_of<TObject>() }, { ::i2c::type_of<::ArrayW<::UnityEngine::Object*>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TObject>() })));
+  return ::cordl_internals::RunMethodRethrow<TObject>(nullptr, ___internal_method, allAssets);
 }
-inline ::System::Collections::IList* UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult(::System::Type*  type, ::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                        "CreateListResult",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IList*, false>(nullptr, ___internal_method, type, allAssets);
+inline ::System::Collections::IList* UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(),
+                                                           { "CreateListResult", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::UnityEngine::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IList*>(nullptr, ___internal_method, type, allAssets);
 }
-template<typename TObject>
-inline TObject UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult(::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                    "CreateListResult",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<TObject, false>(nullptr, ___internal_method, allAssets);
+template <typename TObject> inline TObject UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult(::ArrayW<::UnityEngine::Object*> allAssets) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(),
+                                                           { "CreateListResult", { ::i2c::class_of<TObject>() }, { ::i2c::type_of<::ArrayW<::UnityEngine::Object*>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TObject>() })));
+  return ::cordl_internals::RunMethodRethrow<TObject>(nullptr, ___internal_method, allAssets);
 }
-template<typename T1,typename T2>
-inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsInstance()  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>::get(),
-                    "IsInstance",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()},
-                    ::std::span<const Il2CppType* const, 0>()
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+template <typename T1, typename T2> inline bool UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsInstance() {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(), { "IsInstance", { ::i2c::class_of<T1>(), ::i2c::class_of<T2>() }, {} })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T1>(), ::i2c::class_of<T2>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ResourceManagerConfig()   {
-}
+constexpr ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ResourceManagerConfig() {}

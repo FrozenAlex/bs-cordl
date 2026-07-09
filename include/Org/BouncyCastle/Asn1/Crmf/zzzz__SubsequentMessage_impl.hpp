@@ -3,72 +3,57 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__SubsequentMessage_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::*)(int32_t)>(&::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::*)(int32_t)>(&::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x32abb20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage.ValueOf
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* (*)(int32_t)>(&::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::ValueOf)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* (*)(int32_t)>(&::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::ValueOf)> {
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x32aa304;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>::get(),
-                        "ValueOf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(), { "ValueOf", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::setStaticF_encrCert(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*  value)  {
-::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*, "encrCert", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>::get>(std::forward<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(value));
+inline void Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::setStaticF_encrCert(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* value) {
+  ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*, "encrCert", ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(
+      std::forward<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::getStaticF_encrCert()  {
-return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*, "encrCert", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>::get>();
+inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::getStaticF_encrCert() {
+  return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*, "encrCert", ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>();
 }
-inline void Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::setStaticF_challengeResp(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*  value)  {
-::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*, "challengeResp", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>::get>(std::forward<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(value));
+inline void Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::setStaticF_challengeResp(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* value) {
+  ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*, "challengeResp", ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(
+      std::forward<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::getStaticF_challengeResp()  {
-return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*, "challengeResp", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>::get>();
+inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::getStaticF_challengeResp() {
+  return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*, "challengeResp", ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>();
 }
-inline void Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::_ctor(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::_ctor(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::ValueOf(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>::get(),
-                        "ValueOf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*, false>(nullptr, ___internal_method, value);
+inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::ValueOf(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(), { "ValueOf", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(nullptr, ___internal_method, value);
 }
-inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::New_ctor(int32_t  value)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(value));
+inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::New_ctor(int32_t value) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*>(value));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::SubsequentMessage()   {
-}
+constexpr ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::SubsequentMessage() {}

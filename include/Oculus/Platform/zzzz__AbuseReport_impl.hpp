@@ -6,57 +6,42 @@
 #include "Oculus/Platform/zzzz__ReportRequestResponse_def.hpp"
 #include "Oculus/Platform/zzzz__Request_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::AbuseReport.ReportRequestHandled
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::ReportRequestResponse)>(&::Oculus::Platform::AbuseReport::ReportRequestHandled)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::ReportRequestResponse)>(&::Oculus::Platform::AbuseReport::ReportRequestHandled)> {
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x5ca99c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AbuseReport*>::get(),
-                        "ReportRequestHandled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::ReportRequestResponse>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::AbuseReport*>(), { "ReportRequestHandled", {}, { ::i2c::type_of<::Oculus::Platform::ReportRequestResponse>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::AbuseReport.SetReportButtonPressedNotificationCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::AbuseReport::SetReportButtonPressedNotificationCallback)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::AbuseReport::SetReportButtonPressedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5ca9b1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AbuseReport*>::get(),
-                        "SetReportButtonPressedNotificationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1_Callback<::StringW>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::AbuseReport*>(),
+                                                             { "SetReportButtonPressedNotificationCallback", {}, { ::i2c::type_of<::Oculus::Platform::Message_1_Callback<::StringW>*>() } })));
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::Request* Oculus::Platform::AbuseReport::ReportRequestHandled(::Oculus::Platform::ReportRequestResponse  response)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AbuseReport*>::get(),
-                        "ReportRequestHandled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::ReportRequestResponse>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request*, false>(nullptr, ___internal_method, response);
+inline ::Oculus::Platform::Request* Oculus::Platform::AbuseReport::ReportRequestHandled(::Oculus::Platform::ReportRequestResponse response) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::AbuseReport*>(), { "ReportRequestHandled", {}, { ::i2c::type_of<::Oculus::Platform::ReportRequestResponse>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request*>(nullptr, ___internal_method, response);
 }
-inline void Oculus::Platform::AbuseReport::SetReportButtonPressedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>*  callback)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AbuseReport*>::get(),
-                        "SetReportButtonPressedNotificationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1_Callback<::StringW>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callback);
+inline void Oculus::Platform::AbuseReport::SetReportButtonPressedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::AbuseReport*>(),
+                                                           { "SetReportButtonPressedNotificationCallback", {}, { ::i2c::type_of<::Oculus::Platform::Message_1_Callback<::StringW>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, callback);
 }
 // Ctor Parameters []
-constexpr ::Oculus::Platform::AbuseReport::AbuseReport()   {
-}
+constexpr ::Oculus::Platform::AbuseReport::AbuseReport() {}

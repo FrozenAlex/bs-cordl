@@ -9,274 +9,196 @@
 #include "UnityEngine/ProBuilder/zzzz__IHasDefault_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette.get_current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::get_current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::get_current)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6575c3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "get_current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette.set_current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::ColorPalette::set_current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::ColorPalette::set_current)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6575c48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "set_current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "set_current", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette.get_colors
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::get_colors)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* (::UnityEngine::ProBuilder::ColorPalette::*)()>(
+    &::UnityEngine::ProBuilder::ColorPalette::get_colors)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x6575c54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "get_colors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_colors", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette.SetColors
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*)>(&::UnityEngine::ProBuilder::ColorPalette::SetColors)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*)>(
+    &::UnityEngine::ProBuilder::ColorPalette::SetColors)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x6575ccc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "SetColors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(),
+                                                             { "SetColors", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette.SetDefaultValues
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::SetDefaultValues)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::SetDefaultValues)> {
   constexpr static std::size_t size = 0x798;
   constexpr static std::size_t addrs = 0x6575d78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "SetDefaultValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "SetDefaultValues", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette.get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::ProBuilder::ColorPalette::*)(int32_t)>(&::UnityEngine::ProBuilder::ColorPalette::get_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::ProBuilder::ColorPalette::*)(int32_t)>(&::UnityEngine::ProBuilder::ColorPalette::get_Item)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6576510;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette.set_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)(int32_t, ::UnityEngine::Color)>(&::UnityEngine::ProBuilder::ColorPalette::set_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)(int32_t, ::UnityEngine::Color)>(&::UnityEngine::ProBuilder::ColorPalette::set_Item)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6576574;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "set_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "set_Item", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette.get_Count
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::get_Count)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::get_Count)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x6576608;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_Count", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6576658;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Color& UnityEngine::ProBuilder::ColorPalette::__cordl_internal_get__current_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____current_k__BackingField;
+constexpr ::UnityEngine::Color& UnityEngine::ProBuilder::ColorPalette::__cordl_internal_get__current_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____current_k__BackingField;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::ProBuilder::ColorPalette::__cordl_internal_get__current_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____current_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____current_k__BackingField;
 }
-constexpr void UnityEngine::ProBuilder::ColorPalette::__cordl_internal_set__current_k__BackingField(::UnityEngine::Color  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____current_k__BackingField = value;
+constexpr void UnityEngine::ProBuilder::ColorPalette::__cordl_internal_set__current_k__BackingField(::UnityEngine::Color value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____current_k__BackingField = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& UnityEngine::ProBuilder::ColorPalette::__cordl_internal_get_m_Colors()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Colors;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& UnityEngine::ProBuilder::ColorPalette::__cordl_internal_get_m_Colors() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Colors;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>* const& UnityEngine::ProBuilder::ColorPalette::__cordl_internal_get_m_Colors() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Colors;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Colors;
 }
-constexpr void UnityEngine::ProBuilder::ColorPalette::__cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Colors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ProBuilder::ColorPalette::__cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Colors = value;
 }
-inline ::UnityEngine::Color UnityEngine::ProBuilder::ColorPalette::get_current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "get_current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
+inline ::UnityEngine::Color UnityEngine::ProBuilder::ColorPalette::get_current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline void UnityEngine::ProBuilder::ColorPalette::set_current(::UnityEngine::Color  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "set_current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::ProBuilder::ColorPalette::set_current(::UnityEngine::Color value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "set_current", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* UnityEngine::ProBuilder::ColorPalette::get_colors()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "get_colors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>*, false>(this, ___internal_method);
+inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* UnityEngine::ProBuilder::ColorPalette::get_colors() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_colors", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>*>(this, ___internal_method);
 }
-inline void UnityEngine::ProBuilder::ColorPalette::SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*  colors)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "SetColors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, colors);
+inline void UnityEngine::ProBuilder::ColorPalette::SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>* colors) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(),
+                                                           { "SetColors", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, colors);
 }
-inline void UnityEngine::ProBuilder::ColorPalette::SetDefaultValues()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "SetDefaultValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ProBuilder::ColorPalette::SetDefaultValues() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "SetDefaultValues", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::Color UnityEngine::ProBuilder::ColorPalette::get_Item(int32_t  i)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, i);
+inline ::UnityEngine::Color UnityEngine::ProBuilder::ColorPalette::get_Item(int32_t i) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, i);
 }
-inline void UnityEngine::ProBuilder::ColorPalette::set_Item(int32_t  i, ::UnityEngine::Color  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "set_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i, value);
+inline void UnityEngine::ProBuilder::ColorPalette::set_Item(int32_t i, ::UnityEngine::Color value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "set_Item", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Color>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, i, value);
 }
-inline int32_t UnityEngine::ProBuilder::ColorPalette::get_Count()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        "get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::ProBuilder::ColorPalette::get_Count() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_Count", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void UnityEngine::ProBuilder::ColorPalette::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColorPalette*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ProBuilder::ColorPalette::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::ProBuilder::ColorPalette* UnityEngine::ProBuilder::ColorPalette::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::ColorPalette*>());
+inline ::UnityEngine::ProBuilder::ColorPalette* UnityEngine::ProBuilder::ColorPalette::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::ColorPalette*>());
 }
 /// @brief Convert operator to "::UnityEngine::ProBuilder::IHasDefault"
-constexpr  UnityEngine::ProBuilder::ColorPalette::operator ::UnityEngine::ProBuilder::IHasDefault*() noexcept {
-return static_cast<::UnityEngine::ProBuilder::IHasDefault*>(static_cast<void*>(this));
+constexpr UnityEngine::ProBuilder::ColorPalette::operator ::UnityEngine::ProBuilder::IHasDefault*() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::IHasDefault*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::ProBuilder::IHasDefault"
 constexpr ::UnityEngine::ProBuilder::IHasDefault* UnityEngine::ProBuilder::ColorPalette::i___UnityEngine__ProBuilder__IHasDefault() noexcept {
-return static_cast<::UnityEngine::ProBuilder::IHasDefault*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::ProBuilder::IHasDefault*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::ColorPalette::ColorPalette()   {
-}
+constexpr ::UnityEngine::ProBuilder::ColorPalette::ColorPalette() {}

@@ -7,144 +7,111 @@
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::*)(::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::*)(::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
+    &::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x35806a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1OctetString*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1OctetString*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure.FromCertificate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (*)(::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromCertificate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (*)(::Org::BouncyCastle::X509::X509Certificate*)>(
+    &::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromCertificate)> {
   constexpr static std::size_t size = 0x404;
   constexpr static std::size_t addrs = 0x3580764;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        "FromCertificate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                           { "FromCertificate", {}, { ::i2c::type_of<::Org::BouncyCastle::X509::X509Certificate*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure.FromKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
+    &::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromKey)> {
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0x3580b68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        "FromKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                           { "FromKey", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::*)(::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::*)(::Org::BouncyCastle::X509::X509Certificate*)>(
+    &::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x3580d0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::X509::X509Certificate*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
+    &::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x3580d30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>() } })));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString*  encodedValue)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1OctetString*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, encodedValue);
+inline void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1OctetString*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, encodedValue);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Sequence* Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromCertificate(::Org::BouncyCastle::X509::X509Certificate*  certificate)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        "FromCertificate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Sequence*, false>(nullptr, ___internal_method, certificate);
+inline ::Org::BouncyCastle::Asn1::Asn1Sequence* Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                         { "FromCertificate", {}, { ::i2c::type_of<::Org::BouncyCastle::X509::X509Certificate*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Sequence*>(nullptr, ___internal_method, certificate);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Sequence* Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  pubKey)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        "FromKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Sequence*, false>(nullptr, ___internal_method, pubKey);
+inline ::Org::BouncyCastle::Asn1::Asn1Sequence* Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                         { "FromKey", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Sequence*>(nullptr, ___internal_method, pubKey);
 }
-inline void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor(::Org::BouncyCastle::X509::X509Certificate*  certificate)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certificate);
+inline void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor(::Org::BouncyCastle::X509::X509Certificate* certificate) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::X509::X509Certificate*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, certificate);
 }
-inline void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  pubKey)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pubKey);
+inline void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pubKey);
 }
-inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString*  encodedValue)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(encodedValue));
+inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*
+Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(encodedValue));
 }
-inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::New_ctor(::Org::BouncyCastle::X509::X509Certificate*  certificate)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(certificate));
+inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*
+Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::New_ctor(::Org::BouncyCastle::X509::X509Certificate* certificate) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(certificate));
 }
-inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  pubKey)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(pubKey));
+inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*
+Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*>(pubKey));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::AuthorityKeyIdentifierStructure()   {
-}
+constexpr ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::AuthorityKeyIdentifierStructure() {}

@@ -4,110 +4,83 @@
 #include "GlobalNamespace/zzzz__OVRMRAudioFilter_def.hpp"
 #include "GlobalNamespace/zzzz__OVRExternalComposition_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRMRAudioFilter.Start
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMRAudioFilter::*)()>(&::GlobalNamespace::OVRMRAudioFilter::Start)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMRAudioFilter::*)()>(&::GlobalNamespace::OVRMRAudioFilter::Start)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5cbd040;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMRAudioFilter*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMRAudioFilter*>(), { "Start", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRMRAudioFilter.OnAudioFilterRead
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMRAudioFilter::*)(::ArrayW<float_t,::Array<float_t>*>, int32_t)>(&::GlobalNamespace::OVRMRAudioFilter::OnAudioFilterRead)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMRAudioFilter::*)(::ArrayW<float_t>, int32_t)>(&::GlobalNamespace::OVRMRAudioFilter::OnAudioFilterRead)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5cbd04c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMRAudioFilter*>::get(),
-                        "OnAudioFilterRead",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t,::Array<float_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMRAudioFilter*>(), { "OnAudioFilterRead", {}, { ::i2c::type_of<::ArrayW<float_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRMRAudioFilter._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMRAudioFilter::*)()>(&::GlobalNamespace::OVRMRAudioFilter::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMRAudioFilter::*)()>(&::GlobalNamespace::OVRMRAudioFilter::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5cbd064;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMRAudioFilter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMRAudioFilter*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::OVRMRAudioFilter::__cordl_internal_get_running()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___running;
+constexpr bool& GlobalNamespace::OVRMRAudioFilter::__cordl_internal_get_running() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___running;
 }
 constexpr bool const& GlobalNamespace::OVRMRAudioFilter::__cordl_internal_get_running() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___running;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___running;
 }
-constexpr void GlobalNamespace::OVRMRAudioFilter::__cordl_internal_set_running(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___running = value;
+constexpr void GlobalNamespace::OVRMRAudioFilter::__cordl_internal_set_running(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___running = value;
 }
-constexpr ::GlobalNamespace::OVRExternalComposition*& GlobalNamespace::OVRMRAudioFilter::__cordl_internal_get_composition()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___composition;
+constexpr ::GlobalNamespace::OVRExternalComposition*& GlobalNamespace::OVRMRAudioFilter::__cordl_internal_get_composition() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___composition;
 }
 constexpr ::GlobalNamespace::OVRExternalComposition* const& GlobalNamespace::OVRMRAudioFilter::__cordl_internal_get_composition() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___composition;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___composition;
 }
-constexpr void GlobalNamespace::OVRMRAudioFilter::__cordl_internal_set_composition(::GlobalNamespace::OVRExternalComposition*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___composition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRMRAudioFilter::__cordl_internal_set_composition(::GlobalNamespace::OVRExternalComposition* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___composition = value;
 }
-inline void GlobalNamespace::OVRMRAudioFilter::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMRAudioFilter*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRMRAudioFilter::Start() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMRAudioFilter*>(), { "Start", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRMRAudioFilter::OnAudioFilterRead(::ArrayW<float_t,::Array<float_t>*>  data, int32_t  channels)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMRAudioFilter*>::get(),
-                        "OnAudioFilterRead",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t,::Array<float_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, channels);
+inline void GlobalNamespace::OVRMRAudioFilter::OnAudioFilterRead(::ArrayW<float_t> data, int32_t channels) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMRAudioFilter*>(), { "OnAudioFilterRead", {}, { ::i2c::type_of<::ArrayW<float_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, channels);
 }
-inline void GlobalNamespace::OVRMRAudioFilter::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMRAudioFilter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRMRAudioFilter::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMRAudioFilter*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRMRAudioFilter* GlobalNamespace::OVRMRAudioFilter::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRMRAudioFilter*>());
+inline ::GlobalNamespace::OVRMRAudioFilter* GlobalNamespace::OVRMRAudioFilter::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRMRAudioFilter*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRMRAudioFilter::OVRMRAudioFilter()   {
-}
+constexpr ::GlobalNamespace::OVRMRAudioFilter::OVRMRAudioFilter() {}

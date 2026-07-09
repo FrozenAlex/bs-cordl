@@ -1,18 +1,17 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/CommandBufferGrabPass.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(CommandBufferGrabPass)
 namespace GlobalNamespace {
 class CommandBufferOwners;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::Rendering {
 struct CameraEvent;
@@ -28,85 +27,85 @@ namespace GlobalNamespace {
 class CommandBufferGrabPass;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::CommandBufferGrabPass);
+MARK_REF_T(::GlobalNamespace::CommandBufferGrabPass*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::CommandBufferGrabPass*, "", "CommandBufferGrabPass");
 // Dependencies CommandBufferGOCore, UnityEngine.Rendering.CameraEvent
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: CommandBufferGrabPass
 class CORDL_TYPE CommandBufferGrabPass : public ::GlobalNamespace::CommandBufferGOCore {
 public:
-// Declarations
-/// @brief Field _cameraEvent, offset 0x38, size 0x4 
- __declspec(property(get=__cordl_internal_get__cameraEvent, put=__cordl_internal_set__cameraEvent)) ::UnityEngine::Rendering::CameraEvent  _cameraEvent;
+  // Declarations
+  /// @brief Field _cameraEvent, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__cameraEvent, put = __cordl_internal_set__cameraEvent)) ::UnityEngine::Rendering::CameraEvent _cameraEvent;
 
-/// @brief Field _cameras, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__cameras, put=setStaticF__cameras)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>,::GlobalNamespace::CommandBufferOwners*>*  _cameras;
+  /// @brief Field _cameras, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__cameras,
+                      put = setStaticF__cameras)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* _cameras;
 
-/// @brief Field _textureName, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__textureName, put=__cordl_internal_set__textureName)) ::StringW  _textureName;
+  /// @brief Field _textureName, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__textureName, put = __cordl_internal_set__textureName)) ::StringW _textureName;
 
-/// @brief Method CamerasDict, addr 0x5e07360, size 0x5c, virtual true, abstract: false, final false
-inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>,::GlobalNamespace::CommandBufferOwners*>* CamerasDict() ;
+  /// @brief Method CamerasDict, addr 0x5e07360, size 0x5c, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
 
-/// @brief Method CommandBufferCameraEvent, addr 0x5e073bc, size 0x8, virtual true, abstract: false, final false
-inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent() ;
+  /// @brief Method CommandBufferCameraEvent, addr 0x5e073bc, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
 
-/// @brief Method CreateCommandBuffer, addr 0x5e07128, size 0x238, virtual true, abstract: false, final false
-inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera*  camera) ;
+  /// @brief Method CreateCommandBuffer, addr 0x5e07128, size 0x238, virtual true, abstract: false, final false
+  inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
 
-static inline ::GlobalNamespace::CommandBufferGrabPass* New_ctor() ;
+  static inline ::GlobalNamespace::CommandBufferGrabPass* New_ctor();
 
-constexpr ::UnityEngine::Rendering::CameraEvent const& __cordl_internal_get__cameraEvent() const;
+  constexpr ::UnityEngine::Rendering::CameraEvent const& __cordl_internal_get__cameraEvent() const;
 
-constexpr ::UnityEngine::Rendering::CameraEvent& __cordl_internal_get__cameraEvent() ;
+  constexpr ::UnityEngine::Rendering::CameraEvent& __cordl_internal_get__cameraEvent();
 
-constexpr ::StringW const& __cordl_internal_get__textureName() const;
+  constexpr ::StringW const& __cordl_internal_get__textureName() const;
 
-constexpr ::StringW& __cordl_internal_get__textureName() ;
+  constexpr ::StringW& __cordl_internal_get__textureName();
 
-constexpr void __cordl_internal_set__cameraEvent(::UnityEngine::Rendering::CameraEvent  value) ;
+  constexpr void __cordl_internal_set__cameraEvent(::UnityEngine::Rendering::CameraEvent value);
 
-constexpr void __cordl_internal_set__textureName(::StringW  value) ;
+  constexpr void __cordl_internal_set__textureName(::StringW value);
 
-/// @brief Method .ctor, addr 0x5e073c4, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e073c4, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>,::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras() ;
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras();
 
-static inline void setStaticF__cameras(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>,::GlobalNamespace::CommandBufferOwners*>*  value) ;
+  static inline void setStaticF__cameras(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CommandBufferGrabPass() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommandBufferGrabPass();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CommandBufferGrabPass(CommandBufferGrabPass&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CommandBufferGrabPass(CommandBufferGrabPass && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CommandBufferGrabPass(CommandBufferGrabPass const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CommandBufferGrabPass(CommandBufferGrabPass const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20792 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20792};
+  /// @brief Field _textureName, offset: 0x30, size: 0x8, def value: None
+  ::StringW ____textureName;
 
-/// @brief Field _textureName, offset: 0x30, size: 0x8, def value: None
- ::StringW  ____textureName;
+  /// @brief Field _cameraEvent, offset: 0x38, size: 0x4, def value: None
+  ::UnityEngine::Rendering::CameraEvent ____cameraEvent;
 
-/// @brief Field _cameraEvent, offset: 0x38, size: 0x4, def value: None
- ::UnityEngine::Rendering::CameraEvent  ____cameraEvent;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::CommandBufferGrabPass, ____textureName) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CommandBufferGrabPass, ____cameraEvent) == 0x38, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CommandBufferGrabPass, 0x40>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::CommandBufferGrabPass) == 0x40, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::CommandBufferGrabPass);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CommandBufferGrabPass*, "", "CommandBufferGrabPass");
+} // namespace GlobalNamespace

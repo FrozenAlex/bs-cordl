@@ -5,31 +5,22 @@
 #include "HMUI/zzzz__RoundedCornersDirection_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 //  Writing Method size for method: ::HMUI::RoundedCornersDirectionExtensions.GetFlipAndSymmetry
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::HMUI::RoundedCornersDirection)>(&::HMUI::RoundedCornersDirectionExtensions::GetFlipAndSymmetry)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::HMUI::RoundedCornersDirection)>(&::HMUI::RoundedCornersDirectionExtensions::GetFlipAndSymmetry)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x57426d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RoundedCornersDirectionExtensions*>::get(),
-                        "GetFlipAndSymmetry",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::RoundedCornersDirection>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RoundedCornersDirectionExtensions*>(), { "GetFlipAndSymmetry", {}, { ::i2c::type_of<::HMUI::RoundedCornersDirection>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::Vector4 HMUI::RoundedCornersDirectionExtensions::GetFlipAndSymmetry(::HMUI::RoundedCornersDirection  direction)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RoundedCornersDirectionExtensions*>::get(),
-                        "GetFlipAndSymmetry",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::RoundedCornersDirection>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(nullptr, ___internal_method, direction);
+inline ::UnityEngine::Vector4 HMUI::RoundedCornersDirectionExtensions::GetFlipAndSymmetry(::HMUI::RoundedCornersDirection direction) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RoundedCornersDirectionExtensions*>(), { "GetFlipAndSymmetry", {}, { ::i2c::type_of<::HMUI::RoundedCornersDirection>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(nullptr, ___internal_method, direction);
 }
 // Ctor Parameters []
-constexpr ::HMUI::RoundedCornersDirectionExtensions::RoundedCornersDirectionExtensions()   {
-}
+constexpr ::HMUI::RoundedCornersDirectionExtensions::RoundedCornersDirectionExtensions() {}

@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/StaticBeatmapObjectSpawnMovementData.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -18,51 +18,50 @@ namespace GlobalNamespace {
 class StaticBeatmapObjectSpawnMovementData;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData);
+MARK_REF_T(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData*, "", "StaticBeatmapObjectSpawnMovementData");
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: StaticBeatmapObjectSpawnMovementData
 class CORDL_TYPE StaticBeatmapObjectSpawnMovementData : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Get2DNoteOffset, addr 0x31cd128, size 0x34, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t  noteLineIndex, int32_t  noteLinesCount, ::GlobalNamespace::NoteLineLayer  noteLineLayer) ;
+  // Declarations
+  /// @brief Method Get2DNoteOffset, addr 0x31cd128, size 0x34, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, int32_t noteLinesCount, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-/// @brief Method LineYPosForLineLayer, addr 0x31cd3d4, size 0x1c, virtual false, abstract: false, final false
-static inline float_t LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer  lineLayer) ;
+  /// @brief Method LineYPosForLineLayer, addr 0x31cd3d4, size 0x1c, virtual false, abstract: false, final false
+  static inline float_t LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StaticBeatmapObjectSpawnMovementData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StaticBeatmapObjectSpawnMovementData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StaticBeatmapObjectSpawnMovementData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StaticBeatmapObjectSpawnMovementData(StaticBeatmapObjectSpawnMovementData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StaticBeatmapObjectSpawnMovementData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StaticBeatmapObjectSpawnMovementData(StaticBeatmapObjectSpawnMovementData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StaticBeatmapObjectSpawnMovementData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StaticBeatmapObjectSpawnMovementData(StaticBeatmapObjectSpawnMovementData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StaticBeatmapObjectSpawnMovementData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StaticBeatmapObjectSpawnMovementData(StaticBeatmapObjectSpawnMovementData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21035 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21035};
+  /// @brief Field kBaseLinesYPos offset 0xffffffff size 0x4
+  static constexpr float_t kBaseLinesYPos{ static_cast<float_t>(0.25f) };
 
-/// @brief Field kBaseLinesYPos offset 0xffffffff size 0x4
-static constexpr float_t  kBaseLinesYPos{static_cast<float_t>(0.25f)};
+  /// @brief Field kNoteLinesDistance offset 0xffffffff size 0x4
+  static constexpr float_t kNoteLinesDistance{ static_cast<float_t>(0.6f) };
 
-/// @brief Field kNoteLinesDistance offset 0xffffffff size 0x4
-static constexpr float_t  kNoteLinesDistance{static_cast<float_t>(0.6f)};
+  /// @brief Field kObstacleVerticalOffset offset 0xffffffff size 0x4
+  static constexpr float_t kObstacleVerticalOffset{ static_cast<float_t>(-0.15f) };
 
-/// @brief Field kObstacleVerticalOffset offset 0xffffffff size 0x4
-static constexpr float_t  kObstacleVerticalOffset{static_cast<float_t>(-0.15f)};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StaticBeatmapObjectSpawnMovementData, 0x10>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData) == 0x10, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StaticBeatmapObjectSpawnMovementData*, "", "StaticBeatmapObjectSpawnMovementData");
+} // namespace GlobalNamespace

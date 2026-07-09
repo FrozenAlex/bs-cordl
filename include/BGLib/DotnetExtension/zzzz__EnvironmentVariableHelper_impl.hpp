@@ -3,57 +3,40 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/zzzz__EnvironmentVariableHelper_def.hpp"
 //  Writing Method size for method: ::BGLib::DotnetExtension::EnvironmentVariableHelper.GetDirectoryPath
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::BGLib::DotnetExtension::EnvironmentVariableHelper::GetDirectoryPath)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::BGLib::DotnetExtension::EnvironmentVariableHelper::GetDirectoryPath)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x3254d64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::EnvironmentVariableHelper*>::get(),
-                        "GetDirectoryPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::EnvironmentVariableHelper*>(), { "GetDirectoryPath", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::DotnetExtension::EnvironmentVariableHelper.SetDirectoryPath
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::BGLib::DotnetExtension::EnvironmentVariableHelper::SetDirectoryPath)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::BGLib::DotnetExtension::EnvironmentVariableHelper::SetDirectoryPath)> {
   constexpr static std::size_t size = 0x120;
   constexpr static std::size_t addrs = 0x3254e08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::EnvironmentVariableHelper*>::get(),
-                        "SetDirectoryPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::EnvironmentVariableHelper*>(),
+                                                                                           { "SetDirectoryPath", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-inline ::StringW BGLib::DotnetExtension::EnvironmentVariableHelper::GetDirectoryPath(::StringW  variableName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::EnvironmentVariableHelper*>::get(),
-                        "GetDirectoryPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, variableName);
+inline ::StringW BGLib::DotnetExtension::EnvironmentVariableHelper::GetDirectoryPath(::StringW variableName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::EnvironmentVariableHelper*>(), { "GetDirectoryPath", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, variableName);
 }
-inline void BGLib::DotnetExtension::EnvironmentVariableHelper::SetDirectoryPath(::StringW  variableName, ::StringW  path)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::EnvironmentVariableHelper*>::get(),
-                        "SetDirectoryPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, variableName, path);
+inline void BGLib::DotnetExtension::EnvironmentVariableHelper::SetDirectoryPath(::StringW variableName, ::StringW path) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::EnvironmentVariableHelper*>(),
+                                                                                         { "SetDirectoryPath", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, variableName, path);
 }
 // Ctor Parameters []
-constexpr ::BGLib::DotnetExtension::EnvironmentVariableHelper::EnvironmentVariableHelper()   {
-}
+constexpr ::BGLib::DotnetExtension::EnvironmentVariableHelper::EnvironmentVariableHelper() {}

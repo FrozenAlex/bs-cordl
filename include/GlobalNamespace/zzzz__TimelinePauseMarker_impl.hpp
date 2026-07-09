@@ -6,80 +6,59 @@
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TimelinePauseMarker.get_id
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PropertyName (::GlobalNamespace::TimelinePauseMarker::*)()>(&::GlobalNamespace::TimelinePauseMarker::get_id)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PropertyName (::GlobalNamespace::TimelinePauseMarker::*)()>(&::GlobalNamespace::TimelinePauseMarker::get_id)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5713dfc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseMarker*>::get(),
-                        "get_id",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimelinePauseMarker*>(), { "get_id", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::TimelinePauseMarker._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseMarker::*)()>(&::GlobalNamespace::TimelinePauseMarker::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimelinePauseMarker::*)()>(&::GlobalNamespace::TimelinePauseMarker::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5713e04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseMarker*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimelinePauseMarker*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::PropertyName& GlobalNamespace::TimelinePauseMarker::__cordl_internal_get__id_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____id_k__BackingField;
+constexpr ::UnityEngine::PropertyName& GlobalNamespace::TimelinePauseMarker::__cordl_internal_get__id_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____id_k__BackingField;
 }
 constexpr ::UnityEngine::PropertyName const& GlobalNamespace::TimelinePauseMarker::__cordl_internal_get__id_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____id_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____id_k__BackingField;
 }
-constexpr void GlobalNamespace::TimelinePauseMarker::__cordl_internal_set__id_k__BackingField(::UnityEngine::PropertyName  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____id_k__BackingField = value;
+constexpr void GlobalNamespace::TimelinePauseMarker::__cordl_internal_set__id_k__BackingField(::UnityEngine::PropertyName value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____id_k__BackingField = value;
 }
-inline ::UnityEngine::PropertyName GlobalNamespace::TimelinePauseMarker::get_id()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseMarker*>::get(),
-                        "get_id",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::PropertyName, false>(this, ___internal_method);
+inline ::UnityEngine::PropertyName GlobalNamespace::TimelinePauseMarker::get_id() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimelinePauseMarker*>(), { "get_id", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::PropertyName>(this, ___internal_method);
 }
-inline void GlobalNamespace::TimelinePauseMarker::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseMarker*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::TimelinePauseMarker::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimelinePauseMarker*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::TimelinePauseMarker* GlobalNamespace::TimelinePauseMarker::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TimelinePauseMarker*>());
+inline ::GlobalNamespace::TimelinePauseMarker* GlobalNamespace::TimelinePauseMarker::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::TimelinePauseMarker*>());
 }
 /// @brief Convert operator to "::UnityEngine::Playables::INotification"
-constexpr  GlobalNamespace::TimelinePauseMarker::operator ::UnityEngine::Playables::INotification*() noexcept {
-return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
+constexpr GlobalNamespace::TimelinePauseMarker::operator ::UnityEngine::Playables::INotification*() noexcept {
+  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::Playables::INotification"
 constexpr ::UnityEngine::Playables::INotification* GlobalNamespace::TimelinePauseMarker::i___UnityEngine__Playables__INotification() noexcept {
-return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::TimelinePauseMarker::TimelinePauseMarker()   {
-}
+constexpr ::GlobalNamespace::TimelinePauseMarker::TimelinePauseMarker() {}

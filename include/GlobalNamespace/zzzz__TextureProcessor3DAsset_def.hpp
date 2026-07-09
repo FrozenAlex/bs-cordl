@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TextureProcessor3DAsset.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
@@ -28,69 +28,68 @@ namespace GlobalNamespace {
 class TextureProcessor3DAsset;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::TextureProcessor3DAsset);
+MARK_REF_T(::GlobalNamespace::TextureProcessor3DAsset*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::TextureProcessor3DAsset*, "", "TextureProcessor3DAsset");
 // Dependencies UnityEngine.Playables.PlayableAsset
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TextureProcessor3DAsset
 class CORDL_TYPE TextureProcessor3DAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
-// Declarations
-/// @brief Field _template, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__template, put=__cordl_internal_set__template)) ::GlobalNamespace::TextureProcessor3DBehaviour*  _template;
+  // Declarations
+  /// @brief Field _template, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__template, put = __cordl_internal_set__template)) ::GlobalNamespace::TextureProcessor3DBehaviour* _template;
 
- __declspec(property(get=get_clipCaps)) ::UnityEngine::Timeline::ClipCaps  clipCaps;
+  __declspec(property(get = get_clipCaps)) ::UnityEngine::Timeline::ClipCaps clipCaps;
 
-/// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
-constexpr operator  ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-/// @brief Method CreatePlayable, addr 0x57e6ca4, size 0xb4, virtual true, abstract: false, final false
-inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  gameObject) ;
+  /// @brief Method CreatePlayable, addr 0x57e6ca4, size 0xb4, virtual true, abstract: false, final false
+  inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* gameObject);
 
-static inline ::GlobalNamespace::TextureProcessor3DAsset* New_ctor() ;
+  static inline ::GlobalNamespace::TextureProcessor3DAsset* New_ctor();
 
-constexpr ::GlobalNamespace::TextureProcessor3DBehaviour* const& __cordl_internal_get__template() const;
+  constexpr ::GlobalNamespace::TextureProcessor3DBehaviour* const& __cordl_internal_get__template() const;
 
-constexpr ::GlobalNamespace::TextureProcessor3DBehaviour*& __cordl_internal_get__template() ;
+  constexpr ::GlobalNamespace::TextureProcessor3DBehaviour*& __cordl_internal_get__template();
 
-constexpr void __cordl_internal_set__template(::GlobalNamespace::TextureProcessor3DBehaviour*  value) ;
+  constexpr void __cordl_internal_set__template(::GlobalNamespace::TextureProcessor3DBehaviour* value);
 
-/// @brief Method .ctor, addr 0x57e6d58, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57e6d58, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_clipCaps, addr 0x57e6c9c, size 0x8, virtual true, abstract: false, final true
-inline ::UnityEngine::Timeline::ClipCaps get_clipCaps() ;
+  /// @brief Method get_clipCaps, addr 0x57e6c9c, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-/// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
-constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
+  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TextureProcessor3DAsset() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextureProcessor3DAsset();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DAsset", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TextureProcessor3DAsset(TextureProcessor3DAsset&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DAsset", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TextureProcessor3DAsset(TextureProcessor3DAsset && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DAsset", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TextureProcessor3DAsset(TextureProcessor3DAsset const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DAsset", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TextureProcessor3DAsset(TextureProcessor3DAsset const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6791 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6791};
+  /// @brief Field _template, offset: 0x18, size: 0x8, def value: None
+  ::GlobalNamespace::TextureProcessor3DBehaviour* ____template;
 
-/// @brief Field _template, offset: 0x18, size: 0x8, def value: None
- ::GlobalNamespace::TextureProcessor3DBehaviour*  ____template;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TextureProcessor3DAsset, ____template) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextureProcessor3DAsset, 0x20>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::TextureProcessor3DAsset) == 0x20, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::TextureProcessor3DAsset);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextureProcessor3DAsset*, "", "TextureProcessor3DAsset");
+} // namespace GlobalNamespace

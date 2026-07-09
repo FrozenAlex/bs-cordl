@@ -6,89 +6,72 @@
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Services::TrackingServices.NotifyMarshaledObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(&::System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(
+    &::System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject)> {
   constexpr static std::size_t size = 0x31c;
   constexpr static std::size_t addrs = 0x59ef17c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Services::TrackingServices*>::get(),
-                        "NotifyMarshaledObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::ObjRef*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Services::TrackingServices*>(),
+                                                             { "NotifyMarshaledObject", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Remoting::ObjRef*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Services::TrackingServices.NotifyUnmarshaledObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(&::System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(
+    &::System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject)> {
   constexpr static std::size_t size = 0x31c;
   constexpr static std::size_t addrs = 0x59ee4e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Services::TrackingServices*>::get(),
-                        "NotifyUnmarshaledObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::ObjRef*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Services::TrackingServices*>(),
+                                                             { "NotifyUnmarshaledObject", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Remoting::ObjRef*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Services::TrackingServices.NotifyDisconnectedObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Runtime::Remoting::Services::TrackingServices::NotifyDisconnectedObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Runtime::Remoting::Services::TrackingServices::NotifyDisconnectedObject)> {
   constexpr static std::size_t size = 0x308;
   constexpr static std::size_t addrs = 0x59f2c8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Services::TrackingServices*>::get(),
-                        "NotifyDisconnectedObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Services::TrackingServices*>(), { "NotifyDisconnectedObject", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
-inline void System::Runtime::Remoting::Services::TrackingServices::setStaticF__handlers(::System::Collections::ArrayList*  value)  {
-::cordl_internals::setStaticField<::System::Collections::ArrayList*, "_handlers", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Services::TrackingServices*>::get>(std::forward<::System::Collections::ArrayList*>(value));
+inline void System::Runtime::Remoting::Services::TrackingServices::setStaticF__handlers(::System::Collections::ArrayList* value) {
+  ::cordl_internals::setStaticField<::System::Collections::ArrayList*, "_handlers", ::System::Runtime::Remoting::Services::TrackingServices*>(std::forward<::System::Collections::ArrayList*>(value));
 }
-inline ::System::Collections::ArrayList* System::Runtime::Remoting::Services::TrackingServices::getStaticF__handlers()  {
-return ::cordl_internals::getStaticField<::System::Collections::ArrayList*, "_handlers", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Services::TrackingServices*>::get>();
+inline ::System::Collections::ArrayList* System::Runtime::Remoting::Services::TrackingServices::getStaticF__handlers() {
+  return ::cordl_internals::getStaticField<::System::Collections::ArrayList*, "_handlers", ::System::Runtime::Remoting::Services::TrackingServices*>();
 }
-inline void System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject(::System::Object*  obj, ::System::Runtime::Remoting::ObjRef*  _cordl_or)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Services::TrackingServices*>::get(),
-                        "NotifyMarshaledObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::ObjRef*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, _cordl_or);
+inline void System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Services::TrackingServices*>(),
+                                                           { "NotifyMarshaledObject", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Remoting::ObjRef*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj, _cordl_or);
 }
-inline void System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject(::System::Object*  obj, ::System::Runtime::Remoting::ObjRef*  _cordl_or)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Services::TrackingServices*>::get(),
-                        "NotifyUnmarshaledObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::ObjRef*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, _cordl_or);
+inline void System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Services::TrackingServices*>(),
+                                                           { "NotifyUnmarshaledObject", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Remoting::ObjRef*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj, _cordl_or);
 }
-inline void System::Runtime::Remoting::Services::TrackingServices::NotifyDisconnectedObject(::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Services::TrackingServices*>::get(),
-                        "NotifyDisconnectedObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
+inline void System::Runtime::Remoting::Services::TrackingServices::NotifyDisconnectedObject(::System::Object* obj) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Services::TrackingServices*>(), { "NotifyDisconnectedObject", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj);
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Remoting::Services::TrackingServices::TrackingServices()   {
-}
+constexpr ::System::Runtime::Remoting::Services::TrackingServices::TrackingServices() {}

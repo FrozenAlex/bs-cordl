@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/StandardScoreSyncStateDeltaNetSerializable.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
@@ -9,15 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardScoreSyncStateDeltaNetSerializable)
 namespace GlobalNamespace {
-template<typename T>
-class IPacketPool_1;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace GlobalNamespace {
-template<typename T>
-class ISyncStateDeltaSerializable_1;
+template <typename T> class ISyncStateDeltaSerializable_1;
 }
 namespace GlobalNamespace {
 struct StandardScoreSyncState;
@@ -39,127 +37,129 @@ namespace GlobalNamespace {
 class StandardScoreSyncStateDeltaNetSerializable;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable);
+MARK_REF_T(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*, "", "StandardScoreSyncStateDeltaNetSerializable");
 // Dependencies StandardScoreSyncState, SyncStateId, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: StandardScoreSyncStateDeltaNetSerializable
 class CORDL_TYPE StandardScoreSyncStateDeltaNetSerializable : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <baseId>k__BackingField, offset 0x24, size 0x1 
- __declspec(property(get=__cordl_internal_get__baseId_k__BackingField, put=__cordl_internal_set__baseId_k__BackingField)) ::GlobalNamespace::SyncStateId  _baseId_k__BackingField;
+  // Declarations
+  /// @brief Field <baseId>k__BackingField, offset 0x24, size 0x1
+  __declspec(property(get = __cordl_internal_get__baseId_k__BackingField, put = __cordl_internal_set__baseId_k__BackingField)) ::GlobalNamespace::SyncStateId _baseId_k__BackingField;
 
-/// @brief Field _delta, offset 0x10, size 0x14 
- __declspec(property(get=__cordl_internal_get__delta, put=__cordl_internal_set__delta)) ::GlobalNamespace::StandardScoreSyncState  _delta;
+  /// @brief Field _delta, offset 0x10, size 0x14
+  __declspec(property(get = __cordl_internal_get__delta, put = __cordl_internal_set__delta)) ::GlobalNamespace::StandardScoreSyncState _delta;
 
-/// @brief Field <timeOffsetMs>k__BackingField, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get__timeOffsetMs_k__BackingField, put=__cordl_internal_set__timeOffsetMs_k__BackingField)) int32_t  _timeOffsetMs_k__BackingField;
+  /// @brief Field <timeOffsetMs>k__BackingField, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__timeOffsetMs_k__BackingField, put = __cordl_internal_set__timeOffsetMs_k__BackingField)) int32_t _timeOffsetMs_k__BackingField;
 
- __declspec(property(get=get_baseId, put=set_baseId)) ::GlobalNamespace::SyncStateId  baseId;
+  __declspec(property(get = get_baseId, put = set_baseId)) ::GlobalNamespace::SyncStateId baseId;
 
- __declspec(property(get=get_delta, put=set_delta)) ::GlobalNamespace::StandardScoreSyncState  delta;
+  __declspec(property(get = get_delta, put = set_delta)) ::GlobalNamespace::StandardScoreSyncState delta;
 
- __declspec(property(get=get_timeOffsetMs, put=set_timeOffsetMs)) int32_t  timeOffsetMs;
+  __declspec(property(get = get_timeOffsetMs, put = set_timeOffsetMs)) int32_t timeOffsetMs;
 
-/// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
-constexpr operator  ::GlobalNamespace::IPoolablePacket*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
+  constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
 
-/// @brief Convert operator to "::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>"
-constexpr operator  ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>"
+  constexpr operator ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>*() noexcept;
 
-/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-constexpr operator  ::LiteNetLib::Utils::INetSerializable*() noexcept;
+  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+  constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-/// @brief Method Deserialize, addr 0x3226288, size 0x78, virtual true, abstract: false, final true
-inline void Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
+  /// @brief Method Deserialize, addr 0x3226288, size 0x78, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-static inline ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable* New_ctor() ;
+  static inline ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable* New_ctor();
 
-/// @brief Method Release, addr 0x3226300, size 0xb0, virtual true, abstract: false, final true
-inline void Release() ;
+  /// @brief Method Release, addr 0x3226300, size 0xb0, virtual true, abstract: false, final true
+  inline void Release();
 
-/// @brief Method Serialize, addr 0x32261a4, size 0xe4, virtual true, abstract: false, final true
-inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
+  /// @brief Method Serialize, addr 0x32261a4, size 0xe4, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__baseId_k__BackingField() const;
+  constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__baseId_k__BackingField() const;
 
-constexpr ::GlobalNamespace::SyncStateId& __cordl_internal_get__baseId_k__BackingField() ;
+  constexpr ::GlobalNamespace::SyncStateId& __cordl_internal_get__baseId_k__BackingField();
 
-constexpr ::GlobalNamespace::StandardScoreSyncState const& __cordl_internal_get__delta() const;
+  constexpr ::GlobalNamespace::StandardScoreSyncState const& __cordl_internal_get__delta() const;
 
-constexpr ::GlobalNamespace::StandardScoreSyncState& __cordl_internal_get__delta() ;
+  constexpr ::GlobalNamespace::StandardScoreSyncState& __cordl_internal_get__delta();
 
-constexpr int32_t const& __cordl_internal_get__timeOffsetMs_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__timeOffsetMs_k__BackingField() const;
 
-constexpr int32_t& __cordl_internal_get__timeOffsetMs_k__BackingField() ;
+  constexpr int32_t& __cordl_internal_get__timeOffsetMs_k__BackingField();
 
-constexpr void __cordl_internal_set__baseId_k__BackingField(::GlobalNamespace::SyncStateId  value) ;
+  constexpr void __cordl_internal_set__baseId_k__BackingField(::GlobalNamespace::SyncStateId value);
 
-constexpr void __cordl_internal_set__delta(::GlobalNamespace::StandardScoreSyncState  value) ;
+  constexpr void __cordl_internal_set__delta(::GlobalNamespace::StandardScoreSyncState value);
 
-constexpr void __cordl_internal_set__timeOffsetMs_k__BackingField(int32_t  value) ;
+  constexpr void __cordl_internal_set__timeOffsetMs_k__BackingField(int32_t value);
 
-/// @brief Method .ctor, addr 0x32263b0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x32263b0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_baseId, addr 0x322615c, size 0x8, virtual true, abstract: false, final true
-inline ::GlobalNamespace::SyncStateId get_baseId() ;
+  /// @brief Method get_baseId, addr 0x322615c, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::SyncStateId get_baseId();
 
-/// @brief Method get_delta, addr 0x322617c, size 0x14, virtual true, abstract: false, final true
-inline ::GlobalNamespace::StandardScoreSyncState get_delta() ;
+  /// @brief Method get_delta, addr 0x322617c, size 0x14, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::StandardScoreSyncState get_delta();
 
-/// @brief Method get_pool, addr 0x3226118, size 0x44, virtual false, abstract: false, final false
-static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_pool() ;
+  /// @brief Method get_pool, addr 0x3226118, size 0x44, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_pool();
 
-/// @brief Method get_timeOffsetMs, addr 0x322616c, size 0x8, virtual true, abstract: false, final true
-inline int32_t get_timeOffsetMs() ;
+  /// @brief Method get_timeOffsetMs, addr 0x322616c, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_timeOffsetMs();
 
-/// @brief Convert to "::GlobalNamespace::IPoolablePacket"
-constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
-/// @brief Convert to "::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>"
-constexpr ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>* i___GlobalNamespace__ISyncStateDeltaSerializable_1___GlobalNamespace__StandardScoreSyncState_() noexcept;
+  /// @brief Convert to "::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>"
+  constexpr ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>*
+  i___GlobalNamespace__ISyncStateDeltaSerializable_1___GlobalNamespace__StandardScoreSyncState_() noexcept;
 
-/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-/// @brief Method set_baseId, addr 0x3226164, size 0x8, virtual true, abstract: false, final true
-inline void set_baseId(::GlobalNamespace::SyncStateId  value) ;
+  /// @brief Method set_baseId, addr 0x3226164, size 0x8, virtual true, abstract: false, final true
+  inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
-/// @brief Method set_delta, addr 0x3226190, size 0x14, virtual true, abstract: false, final true
-inline void set_delta(::GlobalNamespace::StandardScoreSyncState  value) ;
+  /// @brief Method set_delta, addr 0x3226190, size 0x14, virtual true, abstract: false, final true
+  inline void set_delta(::GlobalNamespace::StandardScoreSyncState value);
 
-/// @brief Method set_timeOffsetMs, addr 0x3226174, size 0x8, virtual true, abstract: false, final true
-inline void set_timeOffsetMs(int32_t  value) ;
+  /// @brief Method set_timeOffsetMs, addr 0x3226174, size 0x8, virtual true, abstract: false, final true
+  inline void set_timeOffsetMs(int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StandardScoreSyncStateDeltaNetSerializable() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandardScoreSyncStateDeltaNetSerializable();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateDeltaNetSerializable", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StandardScoreSyncStateDeltaNetSerializable(StandardScoreSyncStateDeltaNetSerializable&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateDeltaNetSerializable", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StandardScoreSyncStateDeltaNetSerializable(StandardScoreSyncStateDeltaNetSerializable && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateDeltaNetSerializable", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StandardScoreSyncStateDeltaNetSerializable(StandardScoreSyncStateDeltaNetSerializable const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateDeltaNetSerializable", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StandardScoreSyncStateDeltaNetSerializable(StandardScoreSyncStateDeltaNetSerializable const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18968 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18968};
+  /// @brief Field _delta, offset: 0x10, size: 0x14, def value: None
+  ::GlobalNamespace::StandardScoreSyncState ____delta;
 
-/// @brief Field _delta, offset: 0x10, size: 0x14, def value: None
- ::GlobalNamespace::StandardScoreSyncState  ____delta;
+  /// @brief Field <baseId>k__BackingField, offset: 0x24, size: 0x1, def value: None
+  ::GlobalNamespace::SyncStateId ____baseId_k__BackingField;
 
-/// @brief Field <baseId>k__BackingField, offset: 0x24, size: 0x1, def value: None
- ::GlobalNamespace::SyncStateId  ____baseId_k__BackingField;
+  /// @brief Field <timeOffsetMs>k__BackingField, offset: 0x28, size: 0x4, def value: None
+  int32_t ____timeOffsetMs_k__BackingField;
 
-/// @brief Field <timeOffsetMs>k__BackingField, offset: 0x28, size: 0x4, def value: None
- int32_t  ____timeOffsetMs_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable, ____delta) == 0x10, "Offset mismatch!");
@@ -168,8 +168,6 @@ static_assert(offsetof(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializ
 
 static_assert(offsetof(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable, ____timeOffsetMs_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable, 0x30>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable) == 0x30, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*, "", "StandardScoreSyncStateDeltaNetSerializable");
+} // namespace GlobalNamespace

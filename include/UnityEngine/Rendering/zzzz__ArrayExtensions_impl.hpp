@@ -5,73 +5,48 @@
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/Jobs/zzzz__TransformAccessArray_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ArrayExtensions.ResizeArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Jobs::TransformAccessArray>, int32_t)>(&::UnityEngine::Rendering::ArrayExtensions::ResizeArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccessArray>, int32_t)>(&::UnityEngine::Rendering::ArrayExtensions::ResizeArray)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x6672084;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ArrayExtensions*>::get(),
-                        "ResizeArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Jobs::TransformAccessArray>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ArrayExtensions*>(),
+                                                             { "ResizeArray", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Jobs::TransformAccessArray>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-template<typename T>
-inline void UnityEngine::Rendering::ArrayExtensions::ResizeArray(::ByRef<::Unity::Collections::NativeArray_1<T>>  array, int32_t  capacity)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ArrayExtensions*>::get(),
-                    "ResizeArray",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::NativeArray_1<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, capacity);
+template <typename T> inline void UnityEngine::Rendering::ArrayExtensions::ResizeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, int32_t capacity) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ArrayExtensions*>(),
+                                              { "ResizeArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, capacity);
 }
-inline void UnityEngine::Rendering::ArrayExtensions::ResizeArray(::ByRef<::UnityEngine::Jobs::TransformAccessArray>  array, int32_t  capacity)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ArrayExtensions*>::get(),
-                        "ResizeArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Jobs::TransformAccessArray>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, capacity);
+inline void UnityEngine::Rendering::ArrayExtensions::ResizeArray(::by_ref<::UnityEngine::Jobs::TransformAccessArray> array, int32_t capacity) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ArrayExtensions*>(),
+                                                           { "ResizeArray", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Jobs::TransformAccessArray>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, capacity);
 }
-template<typename T>
-inline void UnityEngine::Rendering::ArrayExtensions::ResizeArray(::ByRef<::ArrayW<T,::Array<T>*>>  array, int32_t  capacity)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ArrayExtensions*>::get(),
-                    "ResizeArray",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<T,::Array<T>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, capacity);
+template <typename T> inline void UnityEngine::Rendering::ArrayExtensions::ResizeArray(::by_ref<::ArrayW<T>> array, int32_t capacity) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ArrayExtensions*>(),
+                                                           { "ResizeArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<::ArrayW<T>>>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, capacity);
 }
-template<typename T>
-inline void UnityEngine::Rendering::ArrayExtensions::FillArray(::ByRef<::Unity::Collections::NativeArray_1<T>>  array, ::ByRef<T>  value, int32_t  startIndex, int32_t  length)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ArrayExtensions*>::get(),
-                    "FillArray",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::NativeArray_1<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, value, startIndex, length);
+template <typename T> inline void UnityEngine::Rendering::ArrayExtensions::FillArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, ::by_ref<T> value, int32_t startIndex, int32_t length) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ArrayExtensions*>(),
+                          { "FillArray",
+                            { ::i2c::class_of<T>() },
+                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>(), ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, value, startIndex, length);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::ArrayExtensions::ArrayExtensions()   {
-}
+constexpr ::UnityEngine::Rendering::ArrayExtensions::ArrayExtensions() {}

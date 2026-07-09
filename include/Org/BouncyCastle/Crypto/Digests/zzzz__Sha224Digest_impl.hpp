@@ -4,596 +4,464 @@
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__Sha224Digest_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x32c4ea8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::Org::BouncyCastle::Crypto::Digests::Sha224Digest*)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::Org::BouncyCastle::Crypto::Digests::Sha224Digest*)>(
+    &::Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x32c4f18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.CopyIn
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::Org::BouncyCastle::Crypto::Digests::Sha224Digest*)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::CopyIn)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::Org::BouncyCastle::Crypto::Digests::Sha224Digest*)>(
+    &::Org::BouncyCastle::Crypto::Digests::Sha224Digest::CopyIn)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x32c4f90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "CopyIn",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(),
+                                                                                           { "CopyIn", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.get_AlgorithmName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::get_AlgorithmName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x32c4ff4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                  17
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 17 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.GetDigestSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::GetDigestSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::GetDigestSize)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x32c5038;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 18 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.ProcessWord
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessWord)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::ArrayW<uint8_t>, int32_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessWord)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x32c5040;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.ProcessLength
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(int64_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessLength)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(int64_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessLength)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x32c50c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 15 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.DoFinal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::DoFinal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::ArrayW<uint8_t>, int32_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::Sha224Digest::DoFinal)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x32c512c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                  19
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 19 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Reset)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x32c51f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.ProcessBlock
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessBlock)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessBlock)> {
   constexpr static std::size_t size = 0x4f0;
   constexpr static std::size_t addrs = 0x32c5244;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 16 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.Ch
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Ch)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Ch)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x32c5764;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Ch",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(),
+                                                                                           { "Ch", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.Maj
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Maj)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Maj)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x32c5784;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Maj",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(),
+                                                                                           { "Maj", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.Sum0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sum0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sum0)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x32c5774;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Sum0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { "Sum0", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.Sum1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sum1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sum1)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x32c5754;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Sum1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { "Sum1", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.Theta0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Theta0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Theta0)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x32c5744;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Theta0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { "Theta0", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.Theta1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Theta1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Theta1)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x32c5734;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Theta1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { "Theta1", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.Copy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Copy)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Copy)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x32c5798;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                  20
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 20 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::Sha224Digest.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::Org::BouncyCastle::Utilities::IMemoable*)>(&::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha224Digest::*)(::Org::BouncyCastle::Utilities::IMemoable*)>(
+    &::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Reset)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x32c57f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                                  21
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 21 }));
     return ___internal_method;
   }
 };
-constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H1()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H1;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H1;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H1() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H1;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H1;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H1(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___H1 = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H1(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___H1 = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H2()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H2;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H2;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H2() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H2;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H2;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H2(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___H2 = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H2(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___H2 = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H3()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H3;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H3;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H3() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H3;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H3;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H3(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___H3 = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H3(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___H3 = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H4()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H4;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H4() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H4;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H4() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H4;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H4;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H4(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___H4 = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H4(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___H4 = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H5()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H5;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H5() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H5;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H5() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H5;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H5;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H5(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___H5 = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H5(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___H5 = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H6()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H6;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H6() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H6;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H6() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H6;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H6;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H6(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___H6 = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H6(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___H6 = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H7()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H7;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H7() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H7;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H7() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H7;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H7;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H7(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___H7 = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H7(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___H7 = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H8()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H8;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H8() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H8;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_H8() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___H8;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___H8;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H8(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___H8 = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_H8(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___H8 = value;
 }
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_X()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___X;
+constexpr ::ArrayW<uint32_t>& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_X() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___X;
 }
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_X() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___X;
+constexpr ::ArrayW<uint32_t> const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_X() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___X;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_X(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___X)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_X(::ArrayW<uint32_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___X = value;
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_xOff()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xOff;
+constexpr int32_t& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_xOff() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xOff;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_get_xOff() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xOff;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xOff;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_xOff(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___xOff = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::Sha224Digest::__cordl_internal_set_xOff(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___xOff = value;
 }
-inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::setStaticF_K(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "K", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get>(std::forward<::ArrayW<uint32_t,::Array<uint32_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::setStaticF_K(::ArrayW<uint32_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint32_t>, "K", ::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(std::forward<::ArrayW<uint32_t>>(value));
 }
-inline ::ArrayW<uint32_t,::Array<uint32_t>*> Org::BouncyCastle::Crypto::Digests::Sha224Digest::getStaticF_K()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "K", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get>();
+inline ::ArrayW<uint32_t> Org::BouncyCastle::Crypto::Digests::Sha224Digest::getStaticF_K() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "K", ::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>();
 }
-inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor(::Org::BouncyCastle::Crypto::Digests::Sha224Digest*  t)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
+inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor(::Org::BouncyCastle::Crypto::Digests::Sha224Digest* t) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
 }
-inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::CopyIn(::Org::BouncyCastle::Crypto::Digests::Sha224Digest*  t)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "CopyIn",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
+inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::CopyIn(::Org::BouncyCastle::Crypto::Digests::Sha224Digest* t) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(),
+                                                                                         { "CopyIn", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
 }
-inline ::StringW Org::BouncyCastle::Crypto::Digests::Sha224Digest::get_AlgorithmName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                            17
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Org::BouncyCastle::Crypto::Digests::Sha224Digest::get_AlgorithmName() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 17 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::GetDigestSize()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::GetDigestSize() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 18 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessWord(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input, inOff);
+inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessWord(::ArrayW<uint8_t> input, int32_t inOff) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, input, inOff);
 }
-inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessLength(int64_t  bitLength)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bitLength);
+inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessLength(int64_t bitLength) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bitLength);
 }
-inline int32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::DoFinal(::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                            19
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, output, outOff);
+inline int32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::DoFinal(::ArrayW<uint8_t> output, int32_t outOff) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 19 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, output, outOff);
 }
-inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::Reset()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::Reset() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessBlock()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::ProcessBlock() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 16 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Ch(uint32_t  x, uint32_t  y, uint32_t  z)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Ch",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x, y, z);
+inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Ch(uint32_t x, uint32_t y, uint32_t z) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(),
+                                                                                         { "Ch", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, x, y, z);
 }
-inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Maj(uint32_t  x, uint32_t  y, uint32_t  z)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Maj",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x, y, z);
+inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Maj(uint32_t x, uint32_t y, uint32_t z) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(),
+                                                                                         { "Maj", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, x, y, z);
 }
-inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sum0(uint32_t  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Sum0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x);
+inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sum0(uint32_t x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { "Sum0", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, x);
 }
-inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sum1(uint32_t  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Sum1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x);
+inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sum1(uint32_t x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { "Sum1", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, x);
 }
-inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Theta0(uint32_t  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Theta0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x);
+inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Theta0(uint32_t x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { "Theta0", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, x);
 }
-inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Theta1(uint32_t  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                        "Theta1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x);
+inline uint32_t Org::BouncyCastle::Crypto::Digests::Sha224Digest::Theta1(uint32_t x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), { "Theta1", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, x);
 }
-inline ::Org::BouncyCastle::Utilities::IMemoable* Org::BouncyCastle::Crypto::Digests::Sha224Digest::Copy()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                            20
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Utilities::IMemoable*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Utilities::IMemoable* Org::BouncyCastle::Crypto::Digests::Sha224Digest::Copy() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 20 })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Utilities::IMemoable*>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::Reset(::Org::BouncyCastle::Utilities::IMemoable*  other)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>::get(),
-                            21
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+inline void Org::BouncyCastle::Crypto::Digests::Sha224Digest::Reset(::Org::BouncyCastle::Utilities::IMemoable* other) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(), 21 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, other);
 }
-inline ::Org::BouncyCastle::Crypto::Digests::Sha224Digest* Org::BouncyCastle::Crypto::Digests::Sha224Digest::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>());
+inline ::Org::BouncyCastle::Crypto::Digests::Sha224Digest* Org::BouncyCastle::Crypto::Digests::Sha224Digest::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>());
 }
-inline ::Org::BouncyCastle::Crypto::Digests::Sha224Digest* Org::BouncyCastle::Crypto::Digests::Sha224Digest::New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha224Digest*  t)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(t));
+inline ::Org::BouncyCastle::Crypto::Digests::Sha224Digest* Org::BouncyCastle::Crypto::Digests::Sha224Digest::New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha224Digest* t) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Digests::Sha224Digest*>(t));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sha224Digest()   {
-}
+constexpr ::Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sha224Digest() {}

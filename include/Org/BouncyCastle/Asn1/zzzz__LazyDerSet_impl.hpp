@@ -6,172 +6,122 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::LazyDerSet._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Asn1::LazyDerSet::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::LazyDerSet::_ctor)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x35d4e8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::LazyDerSet.Parse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::Parse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::Parse)> {
   constexpr static std::size_t size = 0x16c;
   constexpr static std::size_t addrs = 0x35d518c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                        "Parse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), { "Parse", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::LazyDerSet.get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::LazyDerSet::*)(int32_t)>(&::Org::BouncyCastle::Asn1::LazyDerSet::get_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::LazyDerSet::*)(int32_t)>(
+    &::Org::BouncyCastle::Asn1::LazyDerSet::get_Item)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x35d52f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), { ::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), 11 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::LazyDerSet.GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x35d5320;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), { ::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), 10 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::LazyDerSet.get_Count
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::get_Count)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::get_Count)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x35d5344;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), { ::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), 12 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::LazyDerSet.Encode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(&::Org::BouncyCastle::Asn1::LazyDerSet::Encode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(&::Org::BouncyCastle::Asn1::LazyDerSet::Encode)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x35d5368;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), { ::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), 6 }));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Org::BouncyCastle::Asn1::LazyDerSet::__cordl_internal_get_encoded()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___encoded;
+constexpr ::ArrayW<uint8_t>& Org::BouncyCastle::Asn1::LazyDerSet::__cordl_internal_get_encoded() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___encoded;
 }
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Org::BouncyCastle::Asn1::LazyDerSet::__cordl_internal_get_encoded() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___encoded;
+constexpr ::ArrayW<uint8_t> const& Org::BouncyCastle::Asn1::LazyDerSet::__cordl_internal_get_encoded() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___encoded;
 }
-constexpr void Org::BouncyCastle::Asn1::LazyDerSet::__cordl_internal_set_encoded(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encoded)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::LazyDerSet::__cordl_internal_set_encoded(::ArrayW<uint8_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___encoded = value;
 }
-inline void Org::BouncyCastle::Asn1::LazyDerSet::_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  encoded)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, encoded);
+inline void Org::BouncyCastle::Asn1::LazyDerSet::_ctor(::ArrayW<uint8_t> encoded) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, encoded);
 }
-inline void Org::BouncyCastle::Asn1::LazyDerSet::Parse()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                        "Parse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Asn1::LazyDerSet::Parse() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), { "Parse", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Encodable* Org::BouncyCastle::Asn1::LazyDerSet::get_Item(int32_t  index)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Encodable*, false>(this, ___internal_method, index);
+inline ::Org::BouncyCastle::Asn1::Asn1Encodable* Org::BouncyCastle::Asn1::LazyDerSet::get_Item(int32_t index) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Encodable*>(this, ___internal_method, index);
 }
-inline ::System::Collections::IEnumerator* Org::BouncyCastle::Asn1::LazyDerSet::GetEnumerator()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* Org::BouncyCastle::Asn1::LazyDerSet::GetEnumerator() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Asn1::LazyDerSet::get_Count()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Asn1::LazyDerSet::get_Count() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), 12 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Asn1::LazyDerSet::Encode(::Org::BouncyCastle::Asn1::DerOutputStream*  derOut)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LazyDerSet*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, derOut);
+inline void Org::BouncyCastle::Asn1::LazyDerSet::Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, derOut);
 }
-inline ::Org::BouncyCastle::Asn1::LazyDerSet* Org::BouncyCastle::Asn1::LazyDerSet::New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  encoded)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::LazyDerSet*>(encoded));
+inline ::Org::BouncyCastle::Asn1::LazyDerSet* Org::BouncyCastle::Asn1::LazyDerSet::New_ctor(::ArrayW<uint8_t> encoded) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::LazyDerSet*>(encoded));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::LazyDerSet::LazyDerSet()   {
-}
+constexpr ::Org::BouncyCastle::Asn1::LazyDerSet::LazyDerSet() {}

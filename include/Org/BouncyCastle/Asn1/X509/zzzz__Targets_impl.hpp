@@ -7,151 +7,116 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::Targets.GetInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::Targets* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X509::Targets::GetInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::Targets* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X509::Targets::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x35a8580;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::Targets._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Targets::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::X509::Targets::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Targets::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
+    &::Org::BouncyCastle::Asn1::X509::Targets::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x35a8840;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::Targets._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Targets::*)(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>)>(&::Org::BouncyCastle::Asn1::X509::Targets::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Targets::*)(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*>)>(
+    &::Org::BouncyCastle::Asn1::X509::Targets::_ctor)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x35a87d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::Targets.GetTargets
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> (::Org::BouncyCastle::Asn1::X509::Targets::*)()>(&::Org::BouncyCastle::Asn1::X509::Targets::GetTargets)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*> (::Org::BouncyCastle::Asn1::X509::Targets::*)()>(
+    &::Org::BouncyCastle::Asn1::X509::Targets::GetTargets)> {
   constexpr static std::size_t size = 0x114;
   constexpr static std::size_t addrs = 0x35a8848;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), { ::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::Targets.ToAsn1Object
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::Targets::*)()>(&::Org::BouncyCastle::Asn1::X509::Targets::ToAsn1Object)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::Targets::*)()>(
+    &::Org::BouncyCastle::Asn1::X509::Targets::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x35a895c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), { ::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), 5 }));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::X509::Targets::__cordl_internal_get_targets()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___targets;
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::X509::Targets::__cordl_internal_get_targets() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___targets;
 }
 constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::X509::Targets::__cordl_internal_get_targets() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___targets;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___targets;
 }
-constexpr void Org::BouncyCastle::Asn1::X509::Targets::__cordl_internal_set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___targets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::X509::Targets::__cordl_internal_set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___targets = value;
 }
-inline ::Org::BouncyCastle::Asn1::X509::Targets* Org::BouncyCastle::Asn1::X509::Targets::GetInstance(::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::Targets*, false>(nullptr, ___internal_method, obj);
+inline ::Org::BouncyCastle::Asn1::X509::Targets* Org::BouncyCastle::Asn1::X509::Targets::GetInstance(::System::Object* obj) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::Targets*>(nullptr, ___internal_method, obj);
 }
-inline void Org::BouncyCastle::Asn1::X509::Targets::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  targets)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, targets);
+inline void Org::BouncyCastle::Asn1::X509::Targets::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, targets);
 }
-inline void Org::BouncyCastle::Asn1::X509::Targets::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>  targets)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, targets);
+inline void Org::BouncyCastle::Asn1::X509::Targets::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*> targets) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, targets);
 }
-inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> Org::BouncyCastle::Asn1::X509::Targets::GetTargets()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*> Org::BouncyCastle::Asn1::X509::Targets::GetTargets() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*>>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Targets::ToAsn1Object()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Targets*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Targets::ToAsn1Object() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Targets*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X509::Targets* Org::BouncyCastle::Asn1::X509::Targets::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  targets)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Targets*>(targets));
+inline ::Org::BouncyCastle::Asn1::X509::Targets* Org::BouncyCastle::Asn1::X509::Targets::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::Targets*>(targets));
 }
-inline ::Org::BouncyCastle::Asn1::X509::Targets* Org::BouncyCastle::Asn1::X509::Targets::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>  targets)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Targets*>(targets));
+inline ::Org::BouncyCastle::Asn1::X509::Targets* Org::BouncyCastle::Asn1::X509::Targets::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*> targets) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::Targets*>(targets));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X509::Targets::Targets()   {
-}
+constexpr ::Org::BouncyCastle::Asn1::X509::Targets::Targets() {}

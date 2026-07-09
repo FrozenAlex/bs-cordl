@@ -45,2114 +45,1806 @@
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Compiler._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::XmlNameTable*, ::System::Xml::Schema::ValidationEventHandler*, ::System::Xml::Schema::XmlSchema*, ::System::Xml::Schema::XmlSchemaCompilationSettings*)>(&::System::Xml::Schema::Compiler::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::XmlNameTable*, ::System::Xml::Schema::ValidationEventHandler*,
+                                                                                                 ::System::Xml::Schema::XmlSchema*, ::System::Xml::Schema::XmlSchemaCompilationSettings*)>(
+    &::System::Xml::Schema::Compiler::_ctor)> {
   constexpr static std::size_t size = 0x1c4;
   constexpr static std::size_t addrs = 0x60cac24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNameTable*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ValidationEventHandler*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaCompilationSettings*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Xml::XmlNameTable*>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>(),
+                                                                 ::i2c::type_of<::System::Xml::Schema::XmlSchema*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaCompilationSettings*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.Execute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSet*, ::System::Xml::Schema::SchemaInfo*)>(&::System::Xml::Schema::Compiler::Execute)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSet*, ::System::Xml::Schema::SchemaInfo*)>(
+    &::System::Xml::Schema::Compiler::Execute)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x60cade8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "Execute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSet*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "Execute", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSet*>(), ::i2c::type_of<::System::Xml::Schema::SchemaInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.Prepare
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchema*, bool)>(&::System::Xml::Schema::Compiler::Prepare)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchema*, bool)>(&::System::Xml::Schema::Compiler::Prepare)> {
   constexpr static std::size_t size = 0x14cc;
   constexpr static std::size_t addrs = 0x60cdbc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "Prepare",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "Prepare", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchema*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.UpdateSForSSimpleTypes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)()>(&::System::Xml::Schema::Compiler::UpdateSForSSimpleTypes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)()>(&::System::Xml::Schema::Compiler::UpdateSForSSimpleTypes)> {
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x60cf7f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "UpdateSForSSimpleTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "UpdateSForSSimpleTypes", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.Output
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::SchemaInfo*)>(&::System::Xml::Schema::Compiler::Output)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::SchemaInfo*)>(&::System::Xml::Schema::Compiler::Output)> {
   constexpr static std::size_t size = 0xfb4;
   constexpr static std::size_t addrs = 0x60ccc10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "Output",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "Output", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.ImportAllCompiledSchemas
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSet*)>(&::System::Xml::Schema::Compiler::ImportAllCompiledSchemas)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSet*)>(&::System::Xml::Schema::Compiler::ImportAllCompiledSchemas)> {
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x60cf928;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "ImportAllCompiledSchemas",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSet*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "ImportAllCompiledSchemas", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSet*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.Compile
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)()>(&::System::Xml::Schema::Compiler::Compile)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)()>(&::System::Xml::Schema::Compiler::Compile)> {
   constexpr static std::size_t size = 0x1dc0;
   constexpr static std::size_t addrs = 0x60cae50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "Compile",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "Compile", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CleanupAttribute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttribute*)>(&::System::Xml::Schema::Compiler::CleanupAttribute)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttribute*)>(&::System::Xml::Schema::Compiler::CleanupAttribute)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x60cf234;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttribute*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupAttribute", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttribute*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CleanupAttributeGroup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*)>(&::System::Xml::Schema::Compiler::CleanupAttributeGroup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*)>(
+    &::System::Xml::Schema::Compiler::CleanupAttributeGroup)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x60cf298;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupAttributeGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupAttributeGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CleanupComplexType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::Compiler::CleanupComplexType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::Compiler::CleanupComplexType)> {
   constexpr static std::size_t size = 0x45c;
   constexpr static std::size_t addrs = 0x60cf2dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupComplexType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupComplexType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CleanupSimpleType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(&::System::Xml::Schema::Compiler::CleanupSimpleType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(&::System::Xml::Schema::Compiler::CleanupSimpleType)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x60cf738;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupSimpleType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupSimpleType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CleanupElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*)>(&::System::Xml::Schema::Compiler::CleanupElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*)>(&::System::Xml::Schema::Compiler::CleanupElement)> {
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0x60cf090;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupElement", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CleanupAttributes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(&::System::Xml::Schema::Compiler::CleanupAttributes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(
+    &::System::Xml::Schema::Compiler::CleanupAttributes)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x60d47bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectCollection*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupAttributes", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaObjectCollection*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CleanupGroup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroup*)>(&::System::Xml::Schema::Compiler::CleanupGroup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroup*)>(&::System::Xml::Schema::Compiler::CleanupGroup)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x60cf25c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CleanupParticle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::CleanupParticle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::CleanupParticle)> {
   constexpr static std::size_t size = 0x1bc;
   constexpr static std::size_t addrs = 0x60d489c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupParticle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupParticle", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.ProcessSubstitutionGroups
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)()>(&::System::Xml::Schema::Compiler::ProcessSubstitutionGroups)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)()>(&::System::Xml::Schema::Compiler::ProcessSubstitutionGroups)> {
   constexpr static std::size_t size = 0x820;
   constexpr static std::size_t addrs = 0x60d388c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "ProcessSubstitutionGroups",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "ProcessSubstitutionGroups", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileSubstitutionGroup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSubstitutionGroup*)>(&::System::Xml::Schema::Compiler::CompileSubstitutionGroup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSubstitutionGroup*)>(
+    &::System::Xml::Schema::Compiler::CompileSubstitutionGroup)> {
   constexpr static std::size_t size = 0x584;
   constexpr static std::size_t addrs = 0x60d4a58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileSubstitutionGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileSubstitutionGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.RecursivelyCheckRedefinedGroups
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroup*, ::System::Xml::Schema::XmlSchemaGroup*)>(&::System::Xml::Schema::Compiler::RecursivelyCheckRedefinedGroups)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroup*, ::System::Xml::Schema::XmlSchemaGroup*)>(
+    &::System::Xml::Schema::Compiler::RecursivelyCheckRedefinedGroups)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x60d4694;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "RecursivelyCheckRedefinedGroups",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroup*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                            { "RecursivelyCheckRedefinedGroups", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroup*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.RecursivelyCheckRedefinedAttributeGroups
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*, ::System::Xml::Schema::XmlSchemaAttributeGroup*)>(&::System::Xml::Schema::Compiler::RecursivelyCheckRedefinedAttributeGroups)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*, ::System::Xml::Schema::XmlSchemaAttributeGroup*)>(
+    &::System::Xml::Schema::Compiler::RecursivelyCheckRedefinedAttributeGroups)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x60d4744;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "RecursivelyCheckRedefinedAttributeGroups",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                { "RecursivelyCheckRedefinedAttributeGroups",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileGroup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroup*)>(&::System::Xml::Schema::Compiler::CompileGroup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroup*)>(&::System::Xml::Schema::Compiler::CompileGroup)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x60cfa34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileSimpleType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(&::System::Xml::Schema::Compiler::CompileSimpleType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(&::System::Xml::Schema::Compiler::CompileSimpleType)> {
   constexpr static std::size_t size = 0x908;
   constexpr static std::size_t addrs = 0x60d0fc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileSimpleType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileSimpleType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileBaseMemberTypes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(&::System::Xml::Schema::Compiler::CompileBaseMemberTypes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(
+    &::System::Xml::Schema::Compiler::CompileBaseMemberTypes)> {
   constexpr static std::size_t size = 0x3a8;
   constexpr static std::size_t addrs = 0x60d5e94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileBaseMemberTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileBaseMemberTypes", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CheckUnionType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSimpleType*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaSimpleType*)>(&::System::Xml::Schema::Compiler::CheckUnionType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSimpleType*, ::System::Collections::ArrayList*,
+                                                                                                 ::System::Xml::Schema::XmlSchemaSimpleType*)>(&::System::Xml::Schema::Compiler::CheckUnionType)> {
   constexpr static std::size_t size = 0x12c;
   constexpr static std::size_t addrs = 0x60d623c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CheckUnionType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CheckUnionType",
+                                                                                   {},
+                                                                                   { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>(), ::i2c::type_of<::System::Collections::ArrayList*>(),
+                                                                                     ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileComplexType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::Compiler::CompileComplexType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::Compiler::CompileComplexType)> {
   constexpr static std::size_t size = 0xb98;
   constexpr static std::size_t addrs = 0x60d042c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileComplexType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileSimpleContentExtension
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaSimpleContentExtension*)>(&::System::Xml::Schema::Compiler::CompileSimpleContentExtension)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(
+    ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaSimpleContentExtension*)>(&::System::Xml::Schema::Compiler::CompileSimpleContentExtension)> {
   constexpr static std::size_t size = 0x238;
   constexpr static std::size_t addrs = 0x60d6368;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileSimpleContentExtension",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleContentExtension*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+            { "CompileSimpleContentExtension", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleContentExtension*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileSimpleContentRestriction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaSimpleContentRestriction*)>(&::System::Xml::Schema::Compiler::CompileSimpleContentRestriction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(
+    ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaSimpleContentRestriction*)>(&::System::Xml::Schema::Compiler::CompileSimpleContentRestriction)> {
   constexpr static std::size_t size = 0x3ec;
   constexpr static std::size_t addrs = 0x60d65a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileSimpleContentRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleContentRestriction*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                { "CompileSimpleContentRestriction",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleContentRestriction*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileComplexContentExtension
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaComplexContent*, ::System::Xml::Schema::XmlSchemaComplexContentExtension*)>(&::System::Xml::Schema::Compiler::CompileComplexContentExtension)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaComplexContent*,
+                                                                                                 ::System::Xml::Schema::XmlSchemaComplexContentExtension*)>(
+    &::System::Xml::Schema::Compiler::CompileComplexContentExtension)> {
   constexpr static std::size_t size = 0x368;
   constexpr static std::size_t addrs = 0x60d698c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexContentExtension",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContentExtension*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "CompileComplexContentExtension",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContent*>(),
+                                                                 ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContentExtension*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileComplexContentRestriction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaComplexContent*, ::System::Xml::Schema::XmlSchemaComplexContentRestriction*)>(&::System::Xml::Schema::Compiler::CompileComplexContentRestriction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaComplexContent*,
+                                                                                                 ::System::Xml::Schema::XmlSchemaComplexContentRestriction*)>(
+    &::System::Xml::Schema::Compiler::CompileComplexContentRestriction)> {
   constexpr static std::size_t size = 0x2bc;
   constexpr static std::size_t addrs = 0x60d6cf4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexContentRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContentRestriction*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "CompileComplexContentRestriction",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContent*>(),
+                                                                 ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContentRestriction*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CheckParticleDerivation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::Compiler::CheckParticleDerivation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(
+    &::System::Xml::Schema::Compiler::CheckParticleDerivation)> {
   constexpr static std::size_t size = 0x5e8;
   constexpr static std::size_t addrs = 0x60d40ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CheckParticleDerivation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CheckParticleDerivation", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CheckParticleDerivation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::CheckParticleDerivation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaParticle*)>(
+    &::System::Xml::Schema::Compiler::CheckParticleDerivation)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x60d53a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CheckParticleDerivation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                            { "CheckParticleDerivation", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileContentTypeParticle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::CompileContentTypeParticle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(
+    &::System::Xml::Schema::Compiler::CompileContentTypeParticle)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x60d8424;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileContentTypeParticle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileContentTypeParticle", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CannonicalizeParticle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, bool)>(&::System::Xml::Schema::Compiler::CannonicalizeParticle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, bool)>(
+    &::System::Xml::Schema::Compiler::CannonicalizeParticle)> {
   constexpr static std::size_t size = 0x234;
   constexpr static std::size_t addrs = 0x60d4fdc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeParticle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "CannonicalizeParticle", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CannonicalizeElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*)>(&::System::Xml::Schema::Compiler::CannonicalizeElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*)>(
+    &::System::Xml::Schema::Compiler::CannonicalizeElement)> {
   constexpr static std::size_t size = 0x228;
   constexpr static std::size_t addrs = 0x60db174;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CannonicalizeElement", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CannonicalizeGroupRef
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroupRef*, bool)>(&::System::Xml::Schema::Compiler::CannonicalizeGroupRef)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroupRef*, bool)>(
+    &::System::Xml::Schema::Compiler::CannonicalizeGroupRef)> {
   constexpr static std::size_t size = 0x5b4;
   constexpr static std::size_t addrs = 0x60d9e20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeGroupRef",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupRef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "CannonicalizeGroupRef", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupRef*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CannonicalizeAll
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAll*, bool)>(&::System::Xml::Schema::Compiler::CannonicalizeAll)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAll*, bool)>(
+    &::System::Xml::Schema::Compiler::CannonicalizeAll)> {
   constexpr static std::size_t size = 0x2e8;
   constexpr static std::size_t addrs = 0x60da3d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeAll",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAll*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CannonicalizeAll", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAll*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CannonicalizeChoice
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaChoice*, bool)>(&::System::Xml::Schema::Compiler::CannonicalizeChoice)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaChoice*, bool)>(
+    &::System::Xml::Schema::Compiler::CannonicalizeChoice)> {
   constexpr static std::size_t size = 0x580;
   constexpr static std::size_t addrs = 0x60da6bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeChoice",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaChoice*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "CannonicalizeChoice", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaChoice*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CannonicalizeSequence
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSequence*, bool)>(&::System::Xml::Schema::Compiler::CannonicalizeSequence)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSequence*, bool)>(
+    &::System::Xml::Schema::Compiler::CannonicalizeSequence)> {
   constexpr static std::size_t size = 0x538;
   constexpr static std::size_t addrs = 0x60dac3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeSequence",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSequence*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "CannonicalizeSequence", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSequence*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CannonicalizePointlessRoot
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::CannonicalizePointlessRoot)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(
+    &::System::Xml::Schema::Compiler::CannonicalizePointlessRoot)> {
   constexpr static std::size_t size = 0x270;
   constexpr static std::size_t addrs = 0x60d91a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizePointlessRoot",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CannonicalizePointlessRoot", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsValidRestriction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::IsValidRestriction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaParticle*)>(
+    &::System::Xml::Schema::Compiler::IsValidRestriction)> {
   constexpr static std::size_t size = 0xa08;
   constexpr static std::size_t addrs = 0x60d9418;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsValidRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                         { "IsValidRestriction", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsElementFromElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*, ::System::Xml::Schema::XmlSchemaElement*)>(&::System::Xml::Schema::Compiler::IsElementFromElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*, ::System::Xml::Schema::XmlSchemaElement*)>(
+    &::System::Xml::Schema::Compiler::IsElementFromElement)> {
   constexpr static std::size_t size = 0x208;
   constexpr static std::size_t addrs = 0x60db4c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsElementFromElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                         { "IsElementFromElement", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsElementFromAny
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*, ::System::Xml::Schema::XmlSchemaAny*)>(&::System::Xml::Schema::Compiler::IsElementFromAny)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*, ::System::Xml::Schema::XmlSchemaAny*)>(
+    &::System::Xml::Schema::Compiler::IsElementFromAny)> {
   constexpr static std::size_t size = 0x19c;
   constexpr static std::size_t addrs = 0x60db6c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsElementFromAny",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAny*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                { "IsElementFromAny", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAny*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsAnyFromAny
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAny*, ::System::Xml::Schema::XmlSchemaAny*)>(&::System::Xml::Schema::Compiler::IsAnyFromAny)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAny*, ::System::Xml::Schema::XmlSchemaAny*)>(
+    &::System::Xml::Schema::Compiler::IsAnyFromAny)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x60db864;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsAnyFromAny",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAny*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAny*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                { "IsAnyFromAny", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAny*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAny*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsGroupBaseFromAny
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroupBase*, ::System::Xml::Schema::XmlSchemaAny*)>(&::System::Xml::Schema::Compiler::IsGroupBaseFromAny)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroupBase*, ::System::Xml::Schema::XmlSchemaAny*)>(
+    &::System::Xml::Schema::Compiler::IsGroupBaseFromAny)> {
   constexpr static std::size_t size = 0x420;
   constexpr static std::size_t addrs = 0x60db964;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsGroupBaseFromAny",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAny*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                         { "IsGroupBaseFromAny", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupBase*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAny*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsElementFromGroupBase
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*, ::System::Xml::Schema::XmlSchemaGroupBase*)>(&::System::Xml::Schema::Compiler::IsElementFromGroupBase)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*, ::System::Xml::Schema::XmlSchemaGroupBase*)>(
+    &::System::Xml::Schema::Compiler::IsElementFromGroupBase)> {
   constexpr static std::size_t size = 0x820;
   constexpr static std::size_t addrs = 0x60dbd84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsElementFromGroupBase",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                            { "IsElementFromGroupBase", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsChoiceFromChoiceSubstGroup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaChoice*, ::System::Xml::Schema::XmlSchemaChoice*)>(&::System::Xml::Schema::Compiler::IsChoiceFromChoiceSubstGroup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaChoice*, ::System::Xml::Schema::XmlSchemaChoice*)>(
+    &::System::Xml::Schema::Compiler::IsChoiceFromChoiceSubstGroup)> {
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x60dcc30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsChoiceFromChoiceSubstGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaChoice*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaChoice*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                            { "IsChoiceFromChoiceSubstGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaChoice*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaChoice*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsGroupBaseFromGroupBase
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroupBase*, ::System::Xml::Schema::XmlSchemaGroupBase*, bool)>(&::System::Xml::Schema::Compiler::IsGroupBaseFromGroupBase)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaGroupBase*, ::System::Xml::Schema::XmlSchemaGroupBase*, bool)>(
+    &::System::Xml::Schema::Compiler::IsGroupBaseFromGroupBase)> {
   constexpr static std::size_t size = 0x33c;
   constexpr static std::size_t addrs = 0x60dc5a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsGroupBaseFromGroupBase",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                         { "IsGroupBaseFromGroupBase",
+                                           {},
+                                           { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupBase*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupBase*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsSequenceFromAll
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSequence*, ::System::Xml::Schema::XmlSchemaAll*)>(&::System::Xml::Schema::Compiler::IsSequenceFromAll)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSequence*, ::System::Xml::Schema::XmlSchemaAll*)>(
+    &::System::Xml::Schema::Compiler::IsSequenceFromAll)> {
   constexpr static std::size_t size = 0x350;
   constexpr static std::size_t addrs = 0x60dc8e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsSequenceFromAll",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSequence*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAll*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                { "IsSequenceFromAll", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSequence*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAll*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsSequenceFromChoice
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSequence*, ::System::Xml::Schema::XmlSchemaChoice*)>(&::System::Xml::Schema::Compiler::IsSequenceFromChoice)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaSequence*, ::System::Xml::Schema::XmlSchemaChoice*)>(
+    &::System::Xml::Schema::Compiler::IsSequenceFromChoice)> {
   constexpr static std::size_t size = 0x330;
   constexpr static std::size_t addrs = 0x60dcdbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsSequenceFromChoice",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSequence*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaChoice*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                         { "IsSequenceFromChoice", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSequence*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaChoice*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsValidOccurrenceRangeRestriction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::IsValidOccurrenceRangeRestriction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaParticle*)>(
+    &::System::Xml::Schema::Compiler::IsValidOccurrenceRangeRestriction)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x60dd0ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsValidOccurrenceRangeRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                         { "IsValidOccurrenceRangeRestriction", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsValidOccurrenceRangeRestriction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Decimal, ::System::Decimal, ::System::Decimal, ::System::Decimal)>(&::System::Xml::Schema::Compiler::IsValidOccurrenceRangeRestriction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Decimal, ::System::Decimal, ::System::Decimal, ::System::Decimal)>(
+    &::System::Xml::Schema::Compiler::IsValidOccurrenceRangeRestriction)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x60dd8ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsValidOccurrenceRangeRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "IsValidOccurrenceRangeRestriction",
+                                                                                                                    {},
+                                                                                                                    { ::i2c::type_of<::System::Decimal>(), ::i2c::type_of<::System::Decimal>(),
+                                                                                                                      ::i2c::type_of<::System::Decimal>(), ::i2c::type_of<::System::Decimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.GetMappingParticle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaObjectCollection*)>(&::System::Xml::Schema::Compiler::GetMappingParticle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaObjectCollection*)>(
+    &::System::Xml::Schema::Compiler::GetMappingParticle)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x60dd9d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetMappingParticle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectCollection*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                            { "GetMappingParticle", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaObjectCollection*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsParticleEmptiable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::IsParticleEmptiable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::IsParticleEmptiable)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x60db3f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsParticleEmptiable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "IsParticleEmptiable", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CalculateEffectiveTotalRange
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::ByRef<::System::Decimal>, ::ByRef<::System::Decimal>)>(&::System::Xml::Schema::Compiler::CalculateEffectiveTotalRange)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*, ::by_ref<::System::Decimal>, ::by_ref<::System::Decimal>)>(
+    &::System::Xml::Schema::Compiler::CalculateEffectiveTotalRange)> {
   constexpr static std::size_t size = 0x660;
   constexpr static std::size_t addrs = 0x60dd28c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CalculateEffectiveTotalRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Decimal>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Decimal>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                            { "CalculateEffectiveTotalRange",
+                              {},
+                              { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.PushComplexType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::Compiler::PushComplexType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::Compiler::PushComplexType)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x60ddad0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "PushComplexType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "PushComplexType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.GetSchemaContentType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaContentType (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaComplexContent*, ::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::GetSchemaContentType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaContentType (::System::Xml::Schema::Compiler::*)(
+    ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaComplexContent*, ::System::Xml::Schema::XmlSchemaParticle*)>(
+    &::System::Xml::Schema::Compiler::GetSchemaContentType)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x60d85a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetSchemaContentType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "GetSchemaContentType",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContent*>(),
+                                                                 ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileAttributeGroup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*)>(&::System::Xml::Schema::Compiler::CompileAttributeGroup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*)>(
+    &::System::Xml::Schema::Compiler::CompileAttributeGroup)> {
   constexpr static std::size_t size = 0x920;
   constexpr static std::size_t addrs = 0x60cfb0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileAttributeGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileAttributeGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileLocalAttributes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Xml::Schema::XmlSchemaAnyAttribute*, ::System::Xml::Schema::XmlSchemaDerivationMethod)>(&::System::Xml::Schema::Compiler::CompileLocalAttributes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(
+    ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Xml::Schema::XmlSchemaAnyAttribute*,
+    ::System::Xml::Schema::XmlSchemaDerivationMethod)>(&::System::Xml::Schema::Compiler::CompileLocalAttributes)> {
   constexpr static std::size_t size = 0x1474;
   constexpr static std::size_t addrs = 0x60d6fb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileLocalAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectCollection*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaDerivationMethod>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "CompileLocalAttributes",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(),
+                                                                 ::i2c::type_of<::System::Xml::Schema::XmlSchemaObjectCollection*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>(),
+                                                                 ::i2c::type_of<::System::Xml::Schema::XmlSchemaDerivationMethod>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CheckAtrributeGroupRestriction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*, ::System::Xml::Schema::XmlSchemaAttributeGroup*)>(&::System::Xml::Schema::Compiler::CheckAtrributeGroupRestriction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*, ::System::Xml::Schema::XmlSchemaAttributeGroup*)>(
+    &::System::Xml::Schema::Compiler::CheckAtrributeGroupRestriction)> {
   constexpr static std::size_t size = 0x920;
   constexpr static std::size_t addrs = 0x60d5488;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CheckAtrributeGroupRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+            { "CheckAtrributeGroupRestriction", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsProcessContentsRestricted
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaAnyAttribute*, ::System::Xml::Schema::XmlSchemaAnyAttribute*)>(&::System::Xml::Schema::Compiler::IsProcessContentsRestricted)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaAnyAttribute*, ::System::Xml::Schema::XmlSchemaAnyAttribute*)>(
+        &::System::Xml::Schema::Compiler::IsProcessContentsRestricted)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x60ddc20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsProcessContentsRestricted",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                             { "IsProcessContentsRestricted",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>(),
+                                                                 ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileAnyAttributeUnion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAnyAttribute* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAnyAttribute*, ::System::Xml::Schema::XmlSchemaAnyAttribute*)>(&::System::Xml::Schema::Compiler::CompileAnyAttributeUnion)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaAnyAttribute* (
+    ::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAnyAttribute*, ::System::Xml::Schema::XmlSchemaAnyAttribute*)>(&::System::Xml::Schema::Compiler::CompileAnyAttributeUnion)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x60ddb88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileAnyAttributeUnion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                            { "CompileAnyAttributeUnion", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileAnyAttributeIntersection
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAnyAttribute* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAnyAttribute*, ::System::Xml::Schema::XmlSchemaAnyAttribute*)>(&::System::Xml::Schema::Compiler::CompileAnyAttributeIntersection)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Xml::Schema::XmlSchemaAnyAttribute* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAnyAttribute*, ::System::Xml::Schema::XmlSchemaAnyAttribute*)>(
+        &::System::Xml::Schema::Compiler::CompileAnyAttributeIntersection)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x60ddaf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileAnyAttributeIntersection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+            { "CompileAnyAttributeIntersection", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileAttribute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttribute*)>(&::System::Xml::Schema::Compiler::CompileAttribute)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttribute*)>(&::System::Xml::Schema::Compiler::CompileAttribute)> {
   constexpr static std::size_t size = 0x970;
   constexpr static std::size_t addrs = 0x60d26c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttribute*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileAttribute", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttribute*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.SetDefaultFixed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttribute*, ::System::Xml::Schema::SchemaAttDef*)>(&::System::Xml::Schema::Compiler::SetDefaultFixed)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAttribute*, ::System::Xml::Schema::SchemaAttDef*)>(
+    &::System::Xml::Schema::Compiler::SetDefaultFixed)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x60ddd10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "SetDefaultFixed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                { "SetDefaultFixed", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttribute*>(), ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileIdentityConstraint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaIdentityConstraint*)>(&::System::Xml::Schema::Compiler::CompileIdentityConstraint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaIdentityConstraint*)>(
+    &::System::Xml::Schema::Compiler::CompileIdentityConstraint)> {
   constexpr static std::size_t size = 0x700;
   constexpr static std::size_t addrs = 0x60d3030;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileIdentityConstraint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaIdentityConstraint*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileIdentityConstraint", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaIdentityConstraint*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*)>(&::System::Xml::Schema::Compiler::CompileElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaElement*)>(&::System::Xml::Schema::Compiler::CompileElement)> {
   constexpr static std::size_t size = 0xdf4;
   constexpr static std::size_t addrs = 0x60d18cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileElement", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileComplexContent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::ContentValidator* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::Compiler::CompileComplexContent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::ContentValidator* (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(
+    &::System::Xml::Schema::Compiler::CompileComplexContent)> {
   constexpr static std::size_t size = 0x970;
   constexpr static std::size_t addrs = 0x60d8610;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileComplexContent", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.BuildParticleContentModel
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::ParticleContentValidator*, ::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::BuildParticleContentModel)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::ParticleContentValidator*, ::System::Xml::Schema::XmlSchemaParticle*)>(
+    &::System::Xml::Schema::Compiler::BuildParticleContentModel)> {
   constexpr static std::size_t size = 0x4dc;
   constexpr static std::size_t addrs = 0x60dde88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "BuildParticleContentModel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ParticleContentValidator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                            { "BuildParticleContentModel", {}, { ::i2c::type_of<::System::Xml::Schema::ParticleContentValidator*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileParticleElements
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::CompileParticleElements)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaParticle*)>(
+    &::System::Xml::Schema::Compiler::CompileParticleElements)> {
   constexpr static std::size_t size = 0x26c;
   constexpr static std::size_t addrs = 0x60de364;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileParticleElements",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                            { "CompileParticleElements", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileParticleElements
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Xml::Schema::Compiler::CompileParticleElements)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaParticle*)>(
+    &::System::Xml::Schema::Compiler::CompileParticleElements)> {
   constexpr static std::size_t size = 0x198;
   constexpr static std::size_t addrs = 0x60d5210;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileParticleElements",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileParticleElements", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CompileComplexTypeElements
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::Compiler::CompileComplexTypeElements)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(
+    &::System::Xml::Schema::Compiler::CompileComplexTypeElements)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x60d3730;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexTypeElements",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                                                           { "CompileComplexTypeElements", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.GetSimpleType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::Schema::Compiler::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::Compiler::GetSimpleType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::Schema::Compiler::*)(::System::Xml::XmlQualifiedName*)>(
+    &::System::Xml::Schema::Compiler::GetSimpleType)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x60d5da8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetSimpleType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "GetSimpleType", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.GetComplexType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaComplexType* (::System::Xml::Schema::Compiler::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::Compiler::GetComplexType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaComplexType* (::System::Xml::Schema::Compiler::*)(::System::Xml::XmlQualifiedName*)>(
+    &::System::Xml::Schema::Compiler::GetComplexType)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x60d90f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetComplexType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "GetComplexType", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.GetAnySchemaType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::Schema::Compiler::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::Compiler::GetAnySchemaType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::Schema::Compiler::*)(::System::Xml::XmlQualifiedName*)>(
+    &::System::Xml::Schema::Compiler::GetAnySchemaType)> {
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x60d8f80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetAnySchemaType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "GetAnySchemaType", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.CopyPosition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAnnotated*, ::System::Xml::Schema::XmlSchemaAnnotated*, bool)>(&::System::Xml::Schema::Compiler::CopyPosition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::XmlSchemaAnnotated*, ::System::Xml::Schema::XmlSchemaAnnotated*, bool)>(
+    &::System::Xml::Schema::Compiler::CopyPosition)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x60db39c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CopyPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnnotated*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnnotated*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+            { "CopyPosition", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnnotated*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnnotated*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Compiler.IsFixedEqual
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::SchemaDeclBase*, ::System::Xml::Schema::SchemaDeclBase*)>(&::System::Xml::Schema::Compiler::IsFixedEqual)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Compiler::*)(::System::Xml::Schema::SchemaDeclBase*, ::System::Xml::Schema::SchemaDeclBase*)>(
+    &::System::Xml::Schema::Compiler::IsFixedEqual)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x60dd130;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsFixedEqual",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaDeclBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaDeclBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                { "IsFixedEqual", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaDeclBase*>(), ::i2c::type_of<::System::Xml::Schema::SchemaDeclBase*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Xml::Schema::Compiler::__cordl_internal_get_restrictionErrorMsg()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___restrictionErrorMsg;
+constexpr ::StringW& System::Xml::Schema::Compiler::__cordl_internal_get_restrictionErrorMsg() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___restrictionErrorMsg;
 }
 constexpr ::StringW const& System::Xml::Schema::Compiler::__cordl_internal_get_restrictionErrorMsg() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___restrictionErrorMsg;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___restrictionErrorMsg;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_restrictionErrorMsg(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___restrictionErrorMsg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_restrictionErrorMsg(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___restrictionErrorMsg = value;
 }
-constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_attributes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributes;
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_attributes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributes;
 }
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::Compiler::__cordl_internal_get_attributes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributes;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributes;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_attributes(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_attributes(::System::Xml::Schema::XmlSchemaObjectTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___attributes = value;
 }
-constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_attributeGroups()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributeGroups;
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_attributeGroups() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributeGroups;
 }
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::Compiler::__cordl_internal_get_attributeGroups() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributeGroups;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributeGroups;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_attributeGroups(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributeGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_attributeGroups(::System::Xml::Schema::XmlSchemaObjectTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___attributeGroups = value;
 }
-constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_elements()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___elements;
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_elements() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___elements;
 }
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::Compiler::__cordl_internal_get_elements() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___elements;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___elements;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_elements(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_elements(::System::Xml::Schema::XmlSchemaObjectTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___elements = value;
 }
-constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_schemaTypes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemaTypes;
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_schemaTypes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemaTypes;
 }
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::Compiler::__cordl_internal_get_schemaTypes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemaTypes;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemaTypes;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_schemaTypes(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaTypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_schemaTypes(::System::Xml::Schema::XmlSchemaObjectTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___schemaTypes = value;
 }
-constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_groups()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___groups;
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_groups() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___groups;
 }
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::Compiler::__cordl_internal_get_groups() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___groups;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___groups;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_groups(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___groups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_groups(::System::Xml::Schema::XmlSchemaObjectTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___groups = value;
 }
-constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_notations()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___notations;
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_notations() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___notations;
 }
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::Compiler::__cordl_internal_get_notations() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___notations;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___notations;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_notations(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___notations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_notations(::System::Xml::Schema::XmlSchemaObjectTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___notations = value;
 }
-constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_examplars()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___examplars;
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_examplars() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___examplars;
 }
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::Compiler::__cordl_internal_get_examplars() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___examplars;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___examplars;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_examplars(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___examplars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_examplars(::System::Xml::Schema::XmlSchemaObjectTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___examplars = value;
 }
-constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_identityConstraints()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___identityConstraints;
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::Compiler::__cordl_internal_get_identityConstraints() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___identityConstraints;
 }
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::Compiler::__cordl_internal_get_identityConstraints() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___identityConstraints;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___identityConstraints;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_identityConstraints(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___identityConstraints)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_identityConstraints(::System::Xml::Schema::XmlSchemaObjectTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___identityConstraints = value;
 }
-constexpr ::System::Collections::Stack*& System::Xml::Schema::Compiler::__cordl_internal_get_complexTypeStack()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___complexTypeStack;
+constexpr ::System::Collections::Stack*& System::Xml::Schema::Compiler::__cordl_internal_get_complexTypeStack() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___complexTypeStack;
 }
 constexpr ::System::Collections::Stack* const& System::Xml::Schema::Compiler::__cordl_internal_get_complexTypeStack() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___complexTypeStack;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___complexTypeStack;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_complexTypeStack(::System::Collections::Stack*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___complexTypeStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_complexTypeStack(::System::Collections::Stack* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___complexTypeStack = value;
 }
-constexpr ::System::Collections::Hashtable*& System::Xml::Schema::Compiler::__cordl_internal_get_schemasToCompile()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemasToCompile;
+constexpr ::System::Collections::Hashtable*& System::Xml::Schema::Compiler::__cordl_internal_get_schemasToCompile() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemasToCompile;
 }
 constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::Compiler::__cordl_internal_get_schemasToCompile() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemasToCompile;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemasToCompile;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_schemasToCompile(::System::Collections::Hashtable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemasToCompile)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_schemasToCompile(::System::Collections::Hashtable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___schemasToCompile = value;
 }
-constexpr ::System::Collections::Hashtable*& System::Xml::Schema::Compiler::__cordl_internal_get_importedSchemas()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___importedSchemas;
+constexpr ::System::Collections::Hashtable*& System::Xml::Schema::Compiler::__cordl_internal_get_importedSchemas() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___importedSchemas;
 }
 constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::Compiler::__cordl_internal_get_importedSchemas() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___importedSchemas;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___importedSchemas;
 }
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_importedSchemas(::System::Collections::Hashtable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___importedSchemas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_importedSchemas(::System::Collections::Hashtable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___importedSchemas = value;
 }
-constexpr ::System::Xml::Schema::XmlSchema*& System::Xml::Schema::Compiler::__cordl_internal_get_schemaForSchema()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemaForSchema;
+constexpr ::System::Xml::Schema::XmlSchema*& System::Xml::Schema::Compiler::__cordl_internal_get_schemaForSchema() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemaForSchema;
 }
 constexpr ::System::Xml::Schema::XmlSchema* const& System::Xml::Schema::Compiler::__cordl_internal_get_schemaForSchema() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemaForSchema;
-}
-constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_schemaForSchema(::System::Xml::Schema::XmlSchema*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaForSchema)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void System::Xml::Schema::Compiler::_ctor(::System::Xml::XmlNameTable*  nameTable, ::System::Xml::Schema::ValidationEventHandler*  eventHandler, ::System::Xml::Schema::XmlSchema*  schemaForSchema, ::System::Xml::Schema::XmlSchemaCompilationSettings*  compilationSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNameTable*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ValidationEventHandler*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaCompilationSettings*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nameTable, eventHandler, schemaForSchema, compilationSettings);
-}
-inline bool System::Xml::Schema::Compiler::Execute(::System::Xml::Schema::XmlSchemaSet*  schemaSet, ::System::Xml::Schema::SchemaInfo*  schemaCompiledInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "Execute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSet*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, schemaSet, schemaCompiledInfo);
-}
-inline void System::Xml::Schema::Compiler::Prepare(::System::Xml::Schema::XmlSchema*  schema, bool  cleanup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "Prepare",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, schema, cleanup);
-}
-inline void System::Xml::Schema::Compiler::UpdateSForSSimpleTypes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "UpdateSForSSimpleTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::Schema::Compiler::Output(::System::Xml::Schema::SchemaInfo*  schemaInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "Output",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, schemaInfo);
-}
-inline void System::Xml::Schema::Compiler::ImportAllCompiledSchemas(::System::Xml::Schema::XmlSchemaSet*  schemaSet)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "ImportAllCompiledSchemas",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSet*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, schemaSet);
-}
-inline bool System::Xml::Schema::Compiler::Compile()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "Compile",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void System::Xml::Schema::Compiler::CleanupAttribute(::System::Xml::Schema::XmlSchemaAttribute*  attribute)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttribute*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attribute);
-}
-inline void System::Xml::Schema::Compiler::CleanupAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup*  attributeGroup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupAttributeGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributeGroup);
-}
-inline void System::Xml::Schema::Compiler::CleanupComplexType(::System::Xml::Schema::XmlSchemaComplexType*  complexType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupComplexType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType);
-}
-inline void System::Xml::Schema::Compiler::CleanupSimpleType(::System::Xml::Schema::XmlSchemaSimpleType*  simpleType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupSimpleType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, simpleType);
-}
-inline void System::Xml::Schema::Compiler::CleanupElement(::System::Xml::Schema::XmlSchemaElement*  element)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, element);
-}
-inline void System::Xml::Schema::Compiler::CleanupAttributes(::System::Xml::Schema::XmlSchemaObjectCollection*  attributes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectCollection*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributes);
-}
-inline void System::Xml::Schema::Compiler::CleanupGroup(::System::Xml::Schema::XmlSchemaGroup*  group)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, group);
-}
-inline void System::Xml::Schema::Compiler::CleanupParticle(::System::Xml::Schema::XmlSchemaParticle*  particle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CleanupParticle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particle);
-}
-inline void System::Xml::Schema::Compiler::ProcessSubstitutionGroups()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "ProcessSubstitutionGroups",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Xml::Schema::Compiler::CompileSubstitutionGroup(::System::Xml::Schema::XmlSchemaSubstitutionGroup*  substitutionGroup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileSubstitutionGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, substitutionGroup);
-}
-inline void System::Xml::Schema::Compiler::RecursivelyCheckRedefinedGroups(::System::Xml::Schema::XmlSchemaGroup*  redefinedGroup, ::System::Xml::Schema::XmlSchemaGroup*  baseGroup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "RecursivelyCheckRedefinedGroups",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroup*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, redefinedGroup, baseGroup);
-}
-inline void System::Xml::Schema::Compiler::RecursivelyCheckRedefinedAttributeGroups(::System::Xml::Schema::XmlSchemaAttributeGroup*  attributeGroup, ::System::Xml::Schema::XmlSchemaAttributeGroup*  baseAttributeGroup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "RecursivelyCheckRedefinedAttributeGroups",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributeGroup, baseAttributeGroup);
-}
-inline void System::Xml::Schema::Compiler::CompileGroup(::System::Xml::Schema::XmlSchemaGroup*  group)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, group);
-}
-inline void System::Xml::Schema::Compiler::CompileSimpleType(::System::Xml::Schema::XmlSchemaSimpleType*  simpleType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileSimpleType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, simpleType);
-}
-inline ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> System::Xml::Schema::Compiler::CompileBaseMemberTypes(::System::Xml::Schema::XmlSchemaSimpleType*  simpleType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileBaseMemberTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>, false>(this, ___internal_method, simpleType);
-}
-inline void System::Xml::Schema::Compiler::CheckUnionType(::System::Xml::Schema::XmlSchemaSimpleType*  unionMember, ::System::Collections::ArrayList*  memberTypeDefinitions, ::System::Xml::Schema::XmlSchemaSimpleType*  parentType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CheckUnionType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unionMember, memberTypeDefinitions, parentType);
-}
-inline void System::Xml::Schema::Compiler::CompileComplexType(::System::Xml::Schema::XmlSchemaComplexType*  complexType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType);
-}
-inline void System::Xml::Schema::Compiler::CompileSimpleContentExtension(::System::Xml::Schema::XmlSchemaComplexType*  complexType, ::System::Xml::Schema::XmlSchemaSimpleContentExtension*  simpleExtension)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileSimpleContentExtension",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleContentExtension*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType, simpleExtension);
-}
-inline void System::Xml::Schema::Compiler::CompileSimpleContentRestriction(::System::Xml::Schema::XmlSchemaComplexType*  complexType, ::System::Xml::Schema::XmlSchemaSimpleContentRestriction*  simpleRestriction)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileSimpleContentRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSimpleContentRestriction*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType, simpleRestriction);
-}
-inline void System::Xml::Schema::Compiler::CompileComplexContentExtension(::System::Xml::Schema::XmlSchemaComplexType*  complexType, ::System::Xml::Schema::XmlSchemaComplexContent*  complexContent, ::System::Xml::Schema::XmlSchemaComplexContentExtension*  complexExtension)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexContentExtension",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContentExtension*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType, complexContent, complexExtension);
-}
-inline void System::Xml::Schema::Compiler::CompileComplexContentRestriction(::System::Xml::Schema::XmlSchemaComplexType*  complexType, ::System::Xml::Schema::XmlSchemaComplexContent*  complexContent, ::System::Xml::Schema::XmlSchemaComplexContentRestriction*  complexRestriction)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexContentRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContentRestriction*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType, complexContent, complexRestriction);
-}
-inline void System::Xml::Schema::Compiler::CheckParticleDerivation(::System::Xml::Schema::XmlSchemaComplexType*  complexType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CheckParticleDerivation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType);
-}
-inline void System::Xml::Schema::Compiler::CheckParticleDerivation(::System::Xml::Schema::XmlSchemaParticle*  derivedParticle, ::System::Xml::Schema::XmlSchemaParticle*  baseParticle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CheckParticleDerivation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, derivedParticle, baseParticle);
-}
-inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CompileContentTypeParticle(::System::Xml::Schema::XmlSchemaParticle*  particle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileContentTypeParticle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*, false>(this, ___internal_method, particle);
-}
-inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeParticle(::System::Xml::Schema::XmlSchemaParticle*  particle, bool  root)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeParticle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*, false>(this, ___internal_method, particle, root);
-}
-inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeElement(::System::Xml::Schema::XmlSchemaElement*  element)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*, false>(this, ___internal_method, element);
-}
-inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeGroupRef(::System::Xml::Schema::XmlSchemaGroupRef*  groupRef, bool  root)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeGroupRef",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupRef*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*, false>(this, ___internal_method, groupRef, root);
-}
-inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeAll(::System::Xml::Schema::XmlSchemaAll*  all, bool  root)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeAll",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAll*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*, false>(this, ___internal_method, all, root);
-}
-inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeChoice(::System::Xml::Schema::XmlSchemaChoice*  choice, bool  root)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeChoice",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaChoice*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*, false>(this, ___internal_method, choice, root);
-}
-inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeSequence(::System::Xml::Schema::XmlSchemaSequence*  sequence, bool  root)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizeSequence",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSequence*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*, false>(this, ___internal_method, sequence, root);
-}
-inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizePointlessRoot(::System::Xml::Schema::XmlSchemaParticle*  particle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CannonicalizePointlessRoot",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*, false>(this, ___internal_method, particle);
-}
-inline bool System::Xml::Schema::Compiler::IsValidRestriction(::System::Xml::Schema::XmlSchemaParticle*  derivedParticle, ::System::Xml::Schema::XmlSchemaParticle*  baseParticle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsValidRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedParticle, baseParticle);
-}
-inline bool System::Xml::Schema::Compiler::IsElementFromElement(::System::Xml::Schema::XmlSchemaElement*  derivedElement, ::System::Xml::Schema::XmlSchemaElement*  baseElement)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsElementFromElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedElement, baseElement);
-}
-inline bool System::Xml::Schema::Compiler::IsElementFromAny(::System::Xml::Schema::XmlSchemaElement*  derivedElement, ::System::Xml::Schema::XmlSchemaAny*  baseAny)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsElementFromAny",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAny*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedElement, baseAny);
-}
-inline bool System::Xml::Schema::Compiler::IsAnyFromAny(::System::Xml::Schema::XmlSchemaAny*  derivedAny, ::System::Xml::Schema::XmlSchemaAny*  baseAny)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsAnyFromAny",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAny*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAny*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedAny, baseAny);
-}
-inline bool System::Xml::Schema::Compiler::IsGroupBaseFromAny(::System::Xml::Schema::XmlSchemaGroupBase*  derivedGroupBase, ::System::Xml::Schema::XmlSchemaAny*  baseAny)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsGroupBaseFromAny",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAny*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedGroupBase, baseAny);
-}
-inline bool System::Xml::Schema::Compiler::IsElementFromGroupBase(::System::Xml::Schema::XmlSchemaElement*  derivedElement, ::System::Xml::Schema::XmlSchemaGroupBase*  baseGroupBase)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsElementFromGroupBase",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedElement, baseGroupBase);
-}
-inline bool System::Xml::Schema::Compiler::IsChoiceFromChoiceSubstGroup(::System::Xml::Schema::XmlSchemaChoice*  derivedChoice, ::System::Xml::Schema::XmlSchemaChoice*  baseChoice)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsChoiceFromChoiceSubstGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaChoice*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaChoice*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedChoice, baseChoice);
-}
-inline bool System::Xml::Schema::Compiler::IsGroupBaseFromGroupBase(::System::Xml::Schema::XmlSchemaGroupBase*  derivedGroupBase, ::System::Xml::Schema::XmlSchemaGroupBase*  baseGroupBase, bool  skipEmptableOnly)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsGroupBaseFromGroupBase",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaGroupBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedGroupBase, baseGroupBase, skipEmptableOnly);
-}
-inline bool System::Xml::Schema::Compiler::IsSequenceFromAll(::System::Xml::Schema::XmlSchemaSequence*  derivedSequence, ::System::Xml::Schema::XmlSchemaAll*  baseAll)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsSequenceFromAll",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSequence*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAll*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedSequence, baseAll);
-}
-inline bool System::Xml::Schema::Compiler::IsSequenceFromChoice(::System::Xml::Schema::XmlSchemaSequence*  derivedSequence, ::System::Xml::Schema::XmlSchemaChoice*  baseChoice)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsSequenceFromChoice",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSequence*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaChoice*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedSequence, baseChoice);
-}
-inline bool System::Xml::Schema::Compiler::IsValidOccurrenceRangeRestriction(::System::Xml::Schema::XmlSchemaParticle*  derivedParticle, ::System::Xml::Schema::XmlSchemaParticle*  baseParticle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsValidOccurrenceRangeRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedParticle, baseParticle);
-}
-inline bool System::Xml::Schema::Compiler::IsValidOccurrenceRangeRestriction(::System::Decimal  minOccurs, ::System::Decimal  maxOccurs, ::System::Decimal  baseMinOccurs, ::System::Decimal  baseMaxOccurs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsValidOccurrenceRangeRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, minOccurs, maxOccurs, baseMinOccurs, baseMaxOccurs);
-}
-inline int32_t System::Xml::Schema::Compiler::GetMappingParticle(::System::Xml::Schema::XmlSchemaParticle*  particle, ::System::Xml::Schema::XmlSchemaObjectCollection*  collection)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetMappingParticle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectCollection*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, particle, collection);
-}
-inline bool System::Xml::Schema::Compiler::IsParticleEmptiable(::System::Xml::Schema::XmlSchemaParticle*  particle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsParticleEmptiable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, particle);
-}
-inline void System::Xml::Schema::Compiler::CalculateEffectiveTotalRange(::System::Xml::Schema::XmlSchemaParticle*  particle, ::ByRef<::System::Decimal>  minOccurs, ::ByRef<::System::Decimal>  maxOccurs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CalculateEffectiveTotalRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Decimal>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Decimal>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particle, minOccurs, maxOccurs);
-}
-inline void System::Xml::Schema::Compiler::PushComplexType(::System::Xml::Schema::XmlSchemaComplexType*  complexType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "PushComplexType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType);
-}
-inline ::System::Xml::Schema::XmlSchemaContentType System::Xml::Schema::Compiler::GetSchemaContentType(::System::Xml::Schema::XmlSchemaComplexType*  complexType, ::System::Xml::Schema::XmlSchemaComplexContent*  complexContent, ::System::Xml::Schema::XmlSchemaParticle*  particle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetSchemaContentType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaContentType, false>(this, ___internal_method, complexType, complexContent, particle);
-}
-inline void System::Xml::Schema::Compiler::CompileAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup*  attributeGroup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileAttributeGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributeGroup);
-}
-inline void System::Xml::Schema::Compiler::CompileLocalAttributes(::System::Xml::Schema::XmlSchemaComplexType*  baseType, ::System::Xml::Schema::XmlSchemaComplexType*  derivedType, ::System::Xml::Schema::XmlSchemaObjectCollection*  attributes, ::System::Xml::Schema::XmlSchemaAnyAttribute*  anyAttribute, ::System::Xml::Schema::XmlSchemaDerivationMethod  derivedBy)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileLocalAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectCollection*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaDerivationMethod>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, baseType, derivedType, attributes, anyAttribute, derivedBy);
-}
-inline void System::Xml::Schema::Compiler::CheckAtrributeGroupRestriction(::System::Xml::Schema::XmlSchemaAttributeGroup*  baseAttributeGroup, ::System::Xml::Schema::XmlSchemaAttributeGroup*  derivedAttributeGroup)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CheckAtrributeGroupRestriction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttributeGroup*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, baseAttributeGroup, derivedAttributeGroup);
-}
-inline bool System::Xml::Schema::Compiler::IsProcessContentsRestricted(::System::Xml::Schema::XmlSchemaComplexType*  baseType, ::System::Xml::Schema::XmlSchemaAnyAttribute*  derivedAttributeWildcard, ::System::Xml::Schema::XmlSchemaAnyAttribute*  baseAttributeWildcard)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsProcessContentsRestricted",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, baseType, derivedAttributeWildcard, baseAttributeWildcard);
-}
-inline ::System::Xml::Schema::XmlSchemaAnyAttribute* System::Xml::Schema::Compiler::CompileAnyAttributeUnion(::System::Xml::Schema::XmlSchemaAnyAttribute*  a, ::System::Xml::Schema::XmlSchemaAnyAttribute*  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileAnyAttributeUnion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaAnyAttribute*, false>(this, ___internal_method, a, b);
-}
-inline ::System::Xml::Schema::XmlSchemaAnyAttribute* System::Xml::Schema::Compiler::CompileAnyAttributeIntersection(::System::Xml::Schema::XmlSchemaAnyAttribute*  a, ::System::Xml::Schema::XmlSchemaAnyAttribute*  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileAnyAttributeIntersection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnyAttribute*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaAnyAttribute*, false>(this, ___internal_method, a, b);
-}
-inline void System::Xml::Schema::Compiler::CompileAttribute(::System::Xml::Schema::XmlSchemaAttribute*  xa)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttribute*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xa);
-}
-inline void System::Xml::Schema::Compiler::SetDefaultFixed(::System::Xml::Schema::XmlSchemaAttribute*  xa, ::System::Xml::Schema::SchemaAttDef*  decl)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "SetDefaultFixed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaAttDef*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xa, decl);
-}
-inline void System::Xml::Schema::Compiler::CompileIdentityConstraint(::System::Xml::Schema::XmlSchemaIdentityConstraint*  xi)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileIdentityConstraint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaIdentityConstraint*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xi);
-}
-inline void System::Xml::Schema::Compiler::CompileElement(::System::Xml::Schema::XmlSchemaElement*  xe)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xe);
-}
-inline ::System::Xml::Schema::ContentValidator* System::Xml::Schema::Compiler::CompileComplexContent(::System::Xml::Schema::XmlSchemaComplexType*  complexType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::ContentValidator*, false>(this, ___internal_method, complexType);
-}
-inline bool System::Xml::Schema::Compiler::BuildParticleContentModel(::System::Xml::Schema::ParticleContentValidator*  contentValidator, ::System::Xml::Schema::XmlSchemaParticle*  particle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "BuildParticleContentModel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::ParticleContentValidator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, contentValidator, particle);
-}
-inline void System::Xml::Schema::Compiler::CompileParticleElements(::System::Xml::Schema::XmlSchemaComplexType*  complexType, ::System::Xml::Schema::XmlSchemaParticle*  particle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileParticleElements",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType, particle);
-}
-inline void System::Xml::Schema::Compiler::CompileParticleElements(::System::Xml::Schema::XmlSchemaParticle*  particle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileParticleElements",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaParticle*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particle);
-}
-inline void System::Xml::Schema::Compiler::CompileComplexTypeElements(::System::Xml::Schema::XmlSchemaComplexType*  complexType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CompileComplexTypeElements",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, complexType);
-}
-inline ::System::Xml::Schema::XmlSchemaSimpleType* System::Xml::Schema::Compiler::GetSimpleType(::System::Xml::XmlQualifiedName*  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetSimpleType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaSimpleType*, false>(this, ___internal_method, name);
-}
-inline ::System::Xml::Schema::XmlSchemaComplexType* System::Xml::Schema::Compiler::GetComplexType(::System::Xml::XmlQualifiedName*  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetComplexType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaComplexType*, false>(this, ___internal_method, name);
-}
-inline ::System::Xml::Schema::XmlSchemaType* System::Xml::Schema::Compiler::GetAnySchemaType(::System::Xml::XmlQualifiedName*  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "GetAnySchemaType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaType*, false>(this, ___internal_method, name);
-}
-inline void System::Xml::Schema::Compiler::CopyPosition(::System::Xml::Schema::XmlSchemaAnnotated*  to, ::System::Xml::Schema::XmlSchemaAnnotated*  from, bool  copyParent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "CopyPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnnotated*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaAnnotated*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, to, from, copyParent);
-}
-inline bool System::Xml::Schema::Compiler::IsFixedEqual(::System::Xml::Schema::SchemaDeclBase*  baseDecl, ::System::Xml::Schema::SchemaDeclBase*  derivedDecl)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Compiler*>::get(),
-                        "IsFixedEqual",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaDeclBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaDeclBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, baseDecl, derivedDecl);
-}
-inline ::System::Xml::Schema::Compiler* System::Xml::Schema::Compiler::New_ctor(::System::Xml::XmlNameTable*  nameTable, ::System::Xml::Schema::ValidationEventHandler*  eventHandler, ::System::Xml::Schema::XmlSchema*  schemaForSchema, ::System::Xml::Schema::XmlSchemaCompilationSettings*  compilationSettings)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Compiler*>(nameTable, eventHandler, schemaForSchema, compilationSettings));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemaForSchema;
+}
+constexpr void System::Xml::Schema::Compiler::__cordl_internal_set_schemaForSchema(::System::Xml::Schema::XmlSchema* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___schemaForSchema = value;
+}
+inline void System::Xml::Schema::Compiler::_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::ValidationEventHandler* eventHandler, ::System::Xml::Schema::XmlSchema* schemaForSchema,
+                                                 ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Xml::XmlNameTable*>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>(),
+                                                               ::i2c::type_of<::System::Xml::Schema::XmlSchema*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaCompilationSettings*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nameTable, eventHandler, schemaForSchema, compilationSettings);
+}
+inline bool System::Xml::Schema::Compiler::Execute(::System::Xml::Schema::XmlSchemaSet* schemaSet, ::System::Xml::Schema::SchemaInfo* schemaCompiledInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { "Execute", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSet*>(), ::i2c::type_of<::System::Xml::Schema::SchemaInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, schemaSet, schemaCompiledInfo);
+}
+inline void System::Xml::Schema::Compiler::Prepare(::System::Xml::Schema::XmlSchema* schema, bool cleanup) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "Prepare", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchema*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, schema, cleanup);
+}
+inline void System::Xml::Schema::Compiler::UpdateSForSSimpleTypes() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "UpdateSForSSimpleTypes", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::Schema::Compiler::Output(::System::Xml::Schema::SchemaInfo* schemaInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "Output", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, schemaInfo);
+}
+inline void System::Xml::Schema::Compiler::ImportAllCompiledSchemas(::System::Xml::Schema::XmlSchemaSet* schemaSet) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "ImportAllCompiledSchemas", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSet*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, schemaSet);
+}
+inline bool System::Xml::Schema::Compiler::Compile() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "Compile", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::Schema::Compiler::CleanupAttribute(::System::Xml::Schema::XmlSchemaAttribute* attribute) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupAttribute", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttribute*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attribute);
+}
+inline void System::Xml::Schema::Compiler::CleanupAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupAttributeGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attributeGroup);
+}
+inline void System::Xml::Schema::Compiler::CleanupComplexType(::System::Xml::Schema::XmlSchemaComplexType* complexType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupComplexType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType);
+}
+inline void System::Xml::Schema::Compiler::CleanupSimpleType(::System::Xml::Schema::XmlSchemaSimpleType* simpleType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupSimpleType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, simpleType);
+}
+inline void System::Xml::Schema::Compiler::CleanupElement(::System::Xml::Schema::XmlSchemaElement* element) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupElement", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element);
+}
+inline void System::Xml::Schema::Compiler::CleanupAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* attributes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupAttributes", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaObjectCollection*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attributes);
+}
+inline void System::Xml::Schema::Compiler::CleanupGroup(::System::Xml::Schema::XmlSchemaGroup* group) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, group);
+}
+inline void System::Xml::Schema::Compiler::CleanupParticle(::System::Xml::Schema::XmlSchemaParticle* particle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CleanupParticle", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particle);
+}
+inline void System::Xml::Schema::Compiler::ProcessSubstitutionGroups() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "ProcessSubstitutionGroups", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::Schema::Compiler::CompileSubstitutionGroup(::System::Xml::Schema::XmlSchemaSubstitutionGroup* substitutionGroup) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileSubstitutionGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, substitutionGroup);
+}
+inline void System::Xml::Schema::Compiler::RecursivelyCheckRedefinedGroups(::System::Xml::Schema::XmlSchemaGroup* redefinedGroup, ::System::Xml::Schema::XmlSchemaGroup* baseGroup) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "RecursivelyCheckRedefinedGroups", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroup*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, redefinedGroup, baseGroup);
+}
+inline void System::Xml::Schema::Compiler::RecursivelyCheckRedefinedAttributeGroups(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup,
+                                                                                    ::System::Xml::Schema::XmlSchemaAttributeGroup* baseAttributeGroup) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                              { "RecursivelyCheckRedefinedAttributeGroups",
+                                                {},
+                                                { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attributeGroup, baseAttributeGroup);
+}
+inline void System::Xml::Schema::Compiler::CompileGroup(::System::Xml::Schema::XmlSchemaGroup* group) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, group);
+}
+inline void System::Xml::Schema::Compiler::CompileSimpleType(::System::Xml::Schema::XmlSchemaSimpleType* simpleType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileSimpleType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, simpleType);
+}
+inline ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> System::Xml::Schema::Compiler::CompileBaseMemberTypes(::System::Xml::Schema::XmlSchemaSimpleType* simpleType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileBaseMemberTypes", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>>(this, ___internal_method, simpleType);
+}
+inline void System::Xml::Schema::Compiler::CheckUnionType(::System::Xml::Schema::XmlSchemaSimpleType* unionMember, ::System::Collections::ArrayList* memberTypeDefinitions,
+                                                          ::System::Xml::Schema::XmlSchemaSimpleType* parentType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CheckUnionType",
+                                                                                 {},
+                                                                                 { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>(), ::i2c::type_of<::System::Collections::ArrayList*>(),
+                                                                                   ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, unionMember, memberTypeDefinitions, parentType);
+}
+inline void System::Xml::Schema::Compiler::CompileComplexType(::System::Xml::Schema::XmlSchemaComplexType* complexType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileComplexType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType);
+}
+inline void System::Xml::Schema::Compiler::CompileSimpleContentExtension(::System::Xml::Schema::XmlSchemaComplexType* complexType,
+                                                                         ::System::Xml::Schema::XmlSchemaSimpleContentExtension* simpleExtension) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+          { "CompileSimpleContentExtension", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleContentExtension*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType, simpleExtension);
+}
+inline void System::Xml::Schema::Compiler::CompileSimpleContentRestriction(::System::Xml::Schema::XmlSchemaComplexType* complexType,
+                                                                           ::System::Xml::Schema::XmlSchemaSimpleContentRestriction* simpleRestriction) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+          { "CompileSimpleContentRestriction", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaSimpleContentRestriction*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType, simpleRestriction);
+}
+inline void System::Xml::Schema::Compiler::CompileComplexContentExtension(::System::Xml::Schema::XmlSchemaComplexType* complexType, ::System::Xml::Schema::XmlSchemaComplexContent* complexContent,
+                                                                          ::System::Xml::Schema::XmlSchemaComplexContentExtension* complexExtension) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { "CompileComplexContentExtension",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContent*>(),
+                                                               ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContentExtension*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType, complexContent, complexExtension);
+}
+inline void System::Xml::Schema::Compiler::CompileComplexContentRestriction(::System::Xml::Schema::XmlSchemaComplexType* complexType, ::System::Xml::Schema::XmlSchemaComplexContent* complexContent,
+                                                                            ::System::Xml::Schema::XmlSchemaComplexContentRestriction* complexRestriction) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { "CompileComplexContentRestriction",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContent*>(),
+                                                               ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContentRestriction*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType, complexContent, complexRestriction);
+}
+inline void System::Xml::Schema::Compiler::CheckParticleDerivation(::System::Xml::Schema::XmlSchemaComplexType* complexType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CheckParticleDerivation", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType);
+}
+inline void System::Xml::Schema::Compiler::CheckParticleDerivation(::System::Xml::Schema::XmlSchemaParticle* derivedParticle, ::System::Xml::Schema::XmlSchemaParticle* baseParticle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "CheckParticleDerivation", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, derivedParticle, baseParticle);
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CompileContentTypeParticle(::System::Xml::Schema::XmlSchemaParticle* particle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileContentTypeParticle", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*>(this, ___internal_method, particle);
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeParticle(::System::Xml::Schema::XmlSchemaParticle* particle, bool root) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { "CannonicalizeParticle", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*>(this, ___internal_method, particle, root);
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeElement(::System::Xml::Schema::XmlSchemaElement* element) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CannonicalizeElement", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*>(this, ___internal_method, element);
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeGroupRef(::System::Xml::Schema::XmlSchemaGroupRef* groupRef, bool root) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { "CannonicalizeGroupRef", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupRef*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*>(this, ___internal_method, groupRef, root);
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeAll(::System::Xml::Schema::XmlSchemaAll* all, bool root) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CannonicalizeAll", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAll*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*>(this, ___internal_method, all, root);
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeChoice(::System::Xml::Schema::XmlSchemaChoice* choice, bool root) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CannonicalizeChoice", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaChoice*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*>(this, ___internal_method, choice, root);
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizeSequence(::System::Xml::Schema::XmlSchemaSequence* sequence, bool root) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { "CannonicalizeSequence", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSequence*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*>(this, ___internal_method, sequence, root);
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::Compiler::CannonicalizePointlessRoot(::System::Xml::Schema::XmlSchemaParticle* particle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CannonicalizePointlessRoot", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaParticle*>(this, ___internal_method, particle);
+}
+inline bool System::Xml::Schema::Compiler::IsValidRestriction(::System::Xml::Schema::XmlSchemaParticle* derivedParticle, ::System::Xml::Schema::XmlSchemaParticle* baseParticle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                       { "IsValidRestriction", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedParticle, baseParticle);
+}
+inline bool System::Xml::Schema::Compiler::IsElementFromElement(::System::Xml::Schema::XmlSchemaElement* derivedElement, ::System::Xml::Schema::XmlSchemaElement* baseElement) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                       { "IsElementFromElement", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedElement, baseElement);
+}
+inline bool System::Xml::Schema::Compiler::IsElementFromAny(::System::Xml::Schema::XmlSchemaElement* derivedElement, ::System::Xml::Schema::XmlSchemaAny* baseAny) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                              { "IsElementFromAny", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAny*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedElement, baseAny);
+}
+inline bool System::Xml::Schema::Compiler::IsAnyFromAny(::System::Xml::Schema::XmlSchemaAny* derivedAny, ::System::Xml::Schema::XmlSchemaAny* baseAny) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                              { "IsAnyFromAny", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAny*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAny*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedAny, baseAny);
+}
+inline bool System::Xml::Schema::Compiler::IsGroupBaseFromAny(::System::Xml::Schema::XmlSchemaGroupBase* derivedGroupBase, ::System::Xml::Schema::XmlSchemaAny* baseAny) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                              { "IsGroupBaseFromAny", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupBase*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAny*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedGroupBase, baseAny);
+}
+inline bool System::Xml::Schema::Compiler::IsElementFromGroupBase(::System::Xml::Schema::XmlSchemaElement* derivedElement, ::System::Xml::Schema::XmlSchemaGroupBase* baseGroupBase) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "IsElementFromGroupBase", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedElement, baseGroupBase);
+}
+inline bool System::Xml::Schema::Compiler::IsChoiceFromChoiceSubstGroup(::System::Xml::Schema::XmlSchemaChoice* derivedChoice, ::System::Xml::Schema::XmlSchemaChoice* baseChoice) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "IsChoiceFromChoiceSubstGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaChoice*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaChoice*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedChoice, baseChoice);
+}
+inline bool System::Xml::Schema::Compiler::IsGroupBaseFromGroupBase(::System::Xml::Schema::XmlSchemaGroupBase* derivedGroupBase, ::System::Xml::Schema::XmlSchemaGroupBase* baseGroupBase,
+                                                                    bool skipEmptableOnly) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+          { "IsGroupBaseFromGroupBase", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupBase*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaGroupBase*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedGroupBase, baseGroupBase, skipEmptableOnly);
+}
+inline bool System::Xml::Schema::Compiler::IsSequenceFromAll(::System::Xml::Schema::XmlSchemaSequence* derivedSequence, ::System::Xml::Schema::XmlSchemaAll* baseAll) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                              { "IsSequenceFromAll", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSequence*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAll*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedSequence, baseAll);
+}
+inline bool System::Xml::Schema::Compiler::IsSequenceFromChoice(::System::Xml::Schema::XmlSchemaSequence* derivedSequence, ::System::Xml::Schema::XmlSchemaChoice* baseChoice) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                       { "IsSequenceFromChoice", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSequence*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaChoice*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedSequence, baseChoice);
+}
+inline bool System::Xml::Schema::Compiler::IsValidOccurrenceRangeRestriction(::System::Xml::Schema::XmlSchemaParticle* derivedParticle, ::System::Xml::Schema::XmlSchemaParticle* baseParticle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "IsValidOccurrenceRangeRestriction", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedParticle, baseParticle);
+}
+inline bool System::Xml::Schema::Compiler::IsValidOccurrenceRangeRestriction(::System::Decimal minOccurs, ::System::Decimal maxOccurs, ::System::Decimal baseMinOccurs,
+                                                                             ::System::Decimal baseMaxOccurs) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "IsValidOccurrenceRangeRestriction",
+                                                                                                                  {},
+                                                                                                                  { ::i2c::type_of<::System::Decimal>(), ::i2c::type_of<::System::Decimal>(),
+                                                                                                                    ::i2c::type_of<::System::Decimal>(), ::i2c::type_of<::System::Decimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, minOccurs, maxOccurs, baseMinOccurs, baseMaxOccurs);
+}
+inline int32_t System::Xml::Schema::Compiler::GetMappingParticle(::System::Xml::Schema::XmlSchemaParticle* particle, ::System::Xml::Schema::XmlSchemaObjectCollection* collection) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "GetMappingParticle", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaObjectCollection*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particle, collection);
+}
+inline bool System::Xml::Schema::Compiler::IsParticleEmptiable(::System::Xml::Schema::XmlSchemaParticle* particle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "IsParticleEmptiable", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, particle);
+}
+inline void System::Xml::Schema::Compiler::CalculateEffectiveTotalRange(::System::Xml::Schema::XmlSchemaParticle* particle, ::by_ref<::System::Decimal> minOccurs,
+                                                                        ::by_ref<::System::Decimal> maxOccurs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "CalculateEffectiveTotalRange",
+                            {},
+                            { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>(), ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particle, minOccurs, maxOccurs);
+}
+inline void System::Xml::Schema::Compiler::PushComplexType(::System::Xml::Schema::XmlSchemaComplexType* complexType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "PushComplexType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType);
+}
+inline ::System::Xml::Schema::XmlSchemaContentType System::Xml::Schema::Compiler::GetSchemaContentType(::System::Xml::Schema::XmlSchemaComplexType* complexType,
+                                                                                                       ::System::Xml::Schema::XmlSchemaComplexContent* complexContent,
+                                                                                                       ::System::Xml::Schema::XmlSchemaParticle* particle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { "GetSchemaContentType",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexContent*>(),
+                                                               ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaContentType>(this, ___internal_method, complexType, complexContent, particle);
+}
+inline void System::Xml::Schema::Compiler::CompileAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileAttributeGroup", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attributeGroup);
+}
+inline void System::Xml::Schema::Compiler::CompileLocalAttributes(::System::Xml::Schema::XmlSchemaComplexType* baseType, ::System::Xml::Schema::XmlSchemaComplexType* derivedType,
+                                                                  ::System::Xml::Schema::XmlSchemaObjectCollection* attributes, ::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute,
+                                                                  ::System::Xml::Schema::XmlSchemaDerivationMethod derivedBy) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { "CompileLocalAttributes",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(),
+                                                               ::i2c::type_of<::System::Xml::Schema::XmlSchemaObjectCollection*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>(),
+                                                               ::i2c::type_of<::System::Xml::Schema::XmlSchemaDerivationMethod>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, baseType, derivedType, attributes, anyAttribute, derivedBy);
+}
+inline void System::Xml::Schema::Compiler::CheckAtrributeGroupRestriction(::System::Xml::Schema::XmlSchemaAttributeGroup* baseAttributeGroup,
+                                                                          ::System::Xml::Schema::XmlSchemaAttributeGroup* derivedAttributeGroup) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+          { "CheckAtrributeGroupRestriction", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttributeGroup*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, baseAttributeGroup, derivedAttributeGroup);
+}
+inline bool System::Xml::Schema::Compiler::IsProcessContentsRestricted(::System::Xml::Schema::XmlSchemaComplexType* baseType, ::System::Xml::Schema::XmlSchemaAnyAttribute* derivedAttributeWildcard,
+                                                                       ::System::Xml::Schema::XmlSchemaAnyAttribute* baseAttributeWildcard) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                                           { "IsProcessContentsRestricted",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>(),
+                                                               ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, baseType, derivedAttributeWildcard, baseAttributeWildcard);
+}
+inline ::System::Xml::Schema::XmlSchemaAnyAttribute* System::Xml::Schema::Compiler::CompileAnyAttributeUnion(::System::Xml::Schema::XmlSchemaAnyAttribute* a,
+                                                                                                             ::System::Xml::Schema::XmlSchemaAnyAttribute* b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "CompileAnyAttributeUnion", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaAnyAttribute*>(this, ___internal_method, a, b);
+}
+inline ::System::Xml::Schema::XmlSchemaAnyAttribute* System::Xml::Schema::Compiler::CompileAnyAttributeIntersection(::System::Xml::Schema::XmlSchemaAnyAttribute* a,
+                                                                                                                    ::System::Xml::Schema::XmlSchemaAnyAttribute* b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+          { "CompileAnyAttributeIntersection", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnyAttribute*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaAnyAttribute*>(this, ___internal_method, a, b);
+}
+inline void System::Xml::Schema::Compiler::CompileAttribute(::System::Xml::Schema::XmlSchemaAttribute* xa) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileAttribute", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttribute*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xa);
+}
+inline void System::Xml::Schema::Compiler::SetDefaultFixed(::System::Xml::Schema::XmlSchemaAttribute* xa, ::System::Xml::Schema::SchemaAttDef* decl) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                              { "SetDefaultFixed", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAttribute*>(), ::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xa, decl);
+}
+inline void System::Xml::Schema::Compiler::CompileIdentityConstraint(::System::Xml::Schema::XmlSchemaIdentityConstraint* xi) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileIdentityConstraint", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaIdentityConstraint*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xi);
+}
+inline void System::Xml::Schema::Compiler::CompileElement(::System::Xml::Schema::XmlSchemaElement* xe) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileElement", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xe);
+}
+inline ::System::Xml::Schema::ContentValidator* System::Xml::Schema::Compiler::CompileComplexContent(::System::Xml::Schema::XmlSchemaComplexType* complexType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileComplexContent", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::ContentValidator*>(this, ___internal_method, complexType);
+}
+inline bool System::Xml::Schema::Compiler::BuildParticleContentModel(::System::Xml::Schema::ParticleContentValidator* contentValidator, ::System::Xml::Schema::XmlSchemaParticle* particle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "BuildParticleContentModel", {}, { ::i2c::type_of<::System::Xml::Schema::ParticleContentValidator*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, contentValidator, particle);
+}
+inline void System::Xml::Schema::Compiler::CompileParticleElements(::System::Xml::Schema::XmlSchemaComplexType* complexType, ::System::Xml::Schema::XmlSchemaParticle* particle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                          { "CompileParticleElements", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType, particle);
+}
+inline void System::Xml::Schema::Compiler::CompileParticleElements(::System::Xml::Schema::XmlSchemaParticle* particle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileParticleElements", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaParticle*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particle);
+}
+inline void System::Xml::Schema::Compiler::CompileComplexTypeElements(::System::Xml::Schema::XmlSchemaComplexType* complexType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "CompileComplexTypeElements", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaComplexType*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, complexType);
+}
+inline ::System::Xml::Schema::XmlSchemaSimpleType* System::Xml::Schema::Compiler::GetSimpleType(::System::Xml::XmlQualifiedName* name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "GetSimpleType", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaSimpleType*>(this, ___internal_method, name);
+}
+inline ::System::Xml::Schema::XmlSchemaComplexType* System::Xml::Schema::Compiler::GetComplexType(::System::Xml::XmlQualifiedName* name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "GetComplexType", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaComplexType*>(this, ___internal_method, name);
+}
+inline ::System::Xml::Schema::XmlSchemaType* System::Xml::Schema::Compiler::GetAnySchemaType(::System::Xml::XmlQualifiedName* name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(), { "GetAnySchemaType", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaType*>(this, ___internal_method, name);
+}
+inline void System::Xml::Schema::Compiler::CopyPosition(::System::Xml::Schema::XmlSchemaAnnotated* to, ::System::Xml::Schema::XmlSchemaAnnotated* from, bool copyParent) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+          { "CopyPosition", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnnotated*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaAnnotated*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, to, from, copyParent);
+}
+inline bool System::Xml::Schema::Compiler::IsFixedEqual(::System::Xml::Schema::SchemaDeclBase* baseDecl, ::System::Xml::Schema::SchemaDeclBase* derivedDecl) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Compiler*>(),
+                                              { "IsFixedEqual", {}, { ::i2c::type_of<::System::Xml::Schema::SchemaDeclBase*>(), ::i2c::type_of<::System::Xml::Schema::SchemaDeclBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, baseDecl, derivedDecl);
+}
+inline ::System::Xml::Schema::Compiler* System::Xml::Schema::Compiler::New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::ValidationEventHandler* eventHandler,
+                                                                                ::System::Xml::Schema::XmlSchema* schemaForSchema,
+                                                                                ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::Compiler*>(nameTable, eventHandler, schemaForSchema, compilationSettings));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::Compiler::Compiler()   {
-}
+constexpr ::System::Xml::Schema::Compiler::Compiler() {}

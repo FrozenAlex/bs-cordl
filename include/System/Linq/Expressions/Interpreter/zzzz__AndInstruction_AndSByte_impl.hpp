@@ -4,59 +4,42 @@
 #include "System/Linq/Expressions/Interpreter/zzzz__AndInstruction_AndSByte_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AndInstruction_AndSByte.Run
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::AndInstruction_AndSByte::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::AndInstruction_AndSByte::Run)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::AndInstruction_AndSByte::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
+    &::GlobalNamespace::AndInstruction_AndSByte::Run)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x5e4c258;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AndInstruction_AndSByte*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AndInstruction_AndSByte*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AndInstruction_AndSByte*>(), { ::i2c::class_of<::GlobalNamespace::AndInstruction_AndSByte*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AndInstruction_AndSByte._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AndInstruction_AndSByte::*)()>(&::GlobalNamespace::AndInstruction_AndSByte::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AndInstruction_AndSByte::*)()>(&::GlobalNamespace::AndInstruction_AndSByte::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e4c234;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AndInstruction_AndSByte*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AndInstruction_AndSByte*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline int32_t GlobalNamespace::AndInstruction_AndSByte::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AndInstruction_AndSByte*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+inline int32_t GlobalNamespace::AndInstruction_AndSByte::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::AndInstruction_AndSByte*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
 }
-inline void GlobalNamespace::AndInstruction_AndSByte::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AndInstruction_AndSByte*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::AndInstruction_AndSByte::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AndInstruction_AndSByte*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::AndInstruction_AndSByte* GlobalNamespace::AndInstruction_AndSByte::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AndInstruction_AndSByte*>());
+inline ::GlobalNamespace::AndInstruction_AndSByte* GlobalNamespace::AndInstruction_AndSByte::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::AndInstruction_AndSByte*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AndInstruction_AndSByte::AndInstruction_AndSByte()   {
-}
+constexpr ::GlobalNamespace::AndInstruction_AndSByte::AndInstruction_AndSByte() {}

@@ -4,228 +4,162 @@
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyPropertyId.get_Null
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::Unity::Hierarchy::HierarchyPropertyId> (*)()>(&::Unity::Hierarchy::HierarchyPropertyId::get_Null)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarchy::HierarchyPropertyId> (*)()>(&::Unity::Hierarchy::HierarchyPropertyId::get_Null)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x69e3708;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        "get_Null",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { "get_Null", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyPropertyId.get_Id
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Hierarchy::HierarchyPropertyId::*)()>(&::Unity::Hierarchy::HierarchyPropertyId::get_Id)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyPropertyId::*)()>(&::Unity::Hierarchy::HierarchyPropertyId::get_Id)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x69e3750;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        "get_Id",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { "get_Id", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyPropertyId._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Hierarchy::HierarchyPropertyId::*)()>(&::Unity::Hierarchy::HierarchyPropertyId::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyPropertyId::*)()>(&::Unity::Hierarchy::HierarchyPropertyId::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x69e3758;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyPropertyId.op_Equality
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::Unity::Hierarchy::HierarchyPropertyId>, ::ByRef<::Unity::Hierarchy::HierarchyPropertyId>)>(&::Unity::Hierarchy::HierarchyPropertyId::op_Equality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Hierarchy::HierarchyPropertyId>, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId>)>(
+    &::Unity::Hierarchy::HierarchyPropertyId::op_Equality)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x69e3760;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Hierarchy::HierarchyPropertyId>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Hierarchy::HierarchyPropertyId>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(),
+                            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyPropertyId>>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyPropertyId>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyPropertyId.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Hierarchy::HierarchyPropertyId::*)(::Unity::Hierarchy::HierarchyPropertyId)>(&::Unity::Hierarchy::HierarchyPropertyId::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyPropertyId::*)(::Unity::Hierarchy::HierarchyPropertyId)>(&::Unity::Hierarchy::HierarchyPropertyId::Equals)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x69e3774;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyPropertyId>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { "Equals", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyPropertyId>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyPropertyId.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Hierarchy::HierarchyPropertyId::*)()>(&::Unity::Hierarchy::HierarchyPropertyId::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hierarchy::HierarchyPropertyId::*)()>(&::Unity::Hierarchy::HierarchyPropertyId::ToString)> {
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x69e3784;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { ::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), 3 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyPropertyId.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Hierarchy::HierarchyPropertyId::*)(::System::Object*)>(&::Unity::Hierarchy::HierarchyPropertyId::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyPropertyId::*)(::System::Object*)>(&::Unity::Hierarchy::HierarchyPropertyId::Equals)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x69e389c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { ::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyPropertyId.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Hierarchy::HierarchyPropertyId::*)()>(&::Unity::Hierarchy::HierarchyPropertyId::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyPropertyId::*)()>(&::Unity::Hierarchy::HierarchyPropertyId::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x69e3918;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { ::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), 2 }));
     return ___internal_method;
   }
 };
-inline void Unity::Hierarchy::HierarchyPropertyId::setStaticF_s_Null(::Unity::Hierarchy::HierarchyPropertyId  value)  {
-::cordl_internals::setStaticField<::Unity::Hierarchy::HierarchyPropertyId, "s_Null", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get>(std::forward<::Unity::Hierarchy::HierarchyPropertyId>(value));
+inline void Unity::Hierarchy::HierarchyPropertyId::setStaticF_s_Null(::Unity::Hierarchy::HierarchyPropertyId value) {
+  ::cordl_internals::setStaticField<::Unity::Hierarchy::HierarchyPropertyId, "s_Null", ::Unity::Hierarchy::HierarchyPropertyId>(std::forward<::Unity::Hierarchy::HierarchyPropertyId>(value));
 }
-inline ::Unity::Hierarchy::HierarchyPropertyId Unity::Hierarchy::HierarchyPropertyId::getStaticF_s_Null()  {
-return ::cordl_internals::getStaticField<::Unity::Hierarchy::HierarchyPropertyId, "s_Null", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get>();
+inline ::Unity::Hierarchy::HierarchyPropertyId Unity::Hierarchy::HierarchyPropertyId::getStaticF_s_Null() {
+  return ::cordl_internals::getStaticField<::Unity::Hierarchy::HierarchyPropertyId, "s_Null", ::Unity::Hierarchy::HierarchyPropertyId>();
 }
-inline ::ByRef<::Unity::Hierarchy::HierarchyPropertyId> Unity::Hierarchy::HierarchyPropertyId::get_Null()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        "get_Null",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ByRef<::Unity::Hierarchy::HierarchyPropertyId>, false>(nullptr, ___internal_method);
+inline ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> Unity::Hierarchy::HierarchyPropertyId::get_Null() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { "get_Null", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<::Unity::Hierarchy::HierarchyPropertyId>>(nullptr, ___internal_method);
 }
-inline int32_t Unity::Hierarchy::HierarchyPropertyId::get_Id()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        "get_Id",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Unity::Hierarchy::HierarchyPropertyId::get_Id() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { "get_Id", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void Unity::Hierarchy::HierarchyPropertyId::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Hierarchy::HierarchyPropertyId::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline bool Unity::Hierarchy::HierarchyPropertyId::op_Equality(::ByRef<::Unity::Hierarchy::HierarchyPropertyId>  lhs, ::ByRef<::Unity::Hierarchy::HierarchyPropertyId>  rhs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Hierarchy::HierarchyPropertyId>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Hierarchy::HierarchyPropertyId>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
+inline bool Unity::Hierarchy::HierarchyPropertyId::op_Equality(::by_ref<::Unity::Hierarchy::HierarchyPropertyId> lhs, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> rhs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(),
+                          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyPropertyId>>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyPropertyId>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
 }
-inline bool Unity::Hierarchy::HierarchyPropertyId::Equals(::Unity::Hierarchy::HierarchyPropertyId  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyPropertyId>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool Unity::Hierarchy::HierarchyPropertyId::Equals(::Unity::Hierarchy::HierarchyPropertyId other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { "Equals", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyPropertyId>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline ::StringW Unity::Hierarchy::HierarchyPropertyId::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Unity::Hierarchy::HierarchyPropertyId::ToString() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-inline bool Unity::Hierarchy::HierarchyPropertyId::Equals(::System::Object*  obj)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool Unity::Hierarchy::HierarchyPropertyId::Equals(::System::Object* obj) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
 }
-inline int32_t Unity::Hierarchy::HierarchyPropertyId::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyPropertyId>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Unity::Hierarchy::HierarchyPropertyId::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>"
-constexpr  Unity::Hierarchy::HierarchyPropertyId::operator ::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>*()  {
-return static_cast<::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr Unity::Hierarchy::HierarchyPropertyId::operator ::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>*() {
+  return static_cast<::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>"
-constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>* Unity::Hierarchy::HierarchyPropertyId::i___System__IEquatable_1___Unity__Hierarchy__HierarchyPropertyId_()  {
-return static_cast<::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>* Unity::Hierarchy::HierarchyPropertyId::i___System__IEquatable_1___Unity__Hierarchy__HierarchyPropertyId_() {
+  return static_cast<::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Hierarchy::HierarchyPropertyId::HierarchyPropertyId(int32_t  m_Id) noexcept  {
-this->m_Id = m_Id;
+constexpr ::Unity::Hierarchy::HierarchyPropertyId::HierarchyPropertyId(int32_t m_Id) noexcept {
+  this->m_Id = m_Id;
 }
 // Ctor Parameters []
-constexpr ::Unity::Hierarchy::HierarchyPropertyId::HierarchyPropertyId()   {
-}
+constexpr ::Unity::Hierarchy::HierarchyPropertyId::HierarchyPropertyId() {}

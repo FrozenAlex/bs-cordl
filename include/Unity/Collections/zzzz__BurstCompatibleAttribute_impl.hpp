@@ -3,34 +3,23 @@
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/zzzz__BurstCompatibleAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::BurstCompatibleAttribute._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::BurstCompatibleAttribute::*)()>(&::Unity::Collections::BurstCompatibleAttribute::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::BurstCompatibleAttribute::*)()>(&::Unity::Collections::BurstCompatibleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x637fc0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::BurstCompatibleAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BurstCompatibleAttribute*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::BurstCompatibleAttribute::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::BurstCompatibleAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::BurstCompatibleAttribute::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BurstCompatibleAttribute*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Unity::Collections::BurstCompatibleAttribute* Unity::Collections::BurstCompatibleAttribute::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Collections::BurstCompatibleAttribute*>());
+inline ::Unity::Collections::BurstCompatibleAttribute* Unity::Collections::BurstCompatibleAttribute::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Collections::BurstCompatibleAttribute*>());
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::BurstCompatibleAttribute::BurstCompatibleAttribute()   {
-}
+constexpr ::Unity::Collections::BurstCompatibleAttribute::BurstCompatibleAttribute() {}

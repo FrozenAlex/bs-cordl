@@ -3,20 +3,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PlatformExtensions_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
-template<typename T>
-inline void OculusStudios::Platform::Core::PlatformExtensions::SetRichPresenceStatus(::OculusStudios::Platform::Core::IPlatform*  platform)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformExtensions*>::get(),
-                    "SetRichPresenceStatus",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::Platform::Core::IPlatform*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, platform);
+template <typename T> inline void OculusStudios::Platform::Core::PlatformExtensions::SetRichPresenceStatus(::OculusStudios::Platform::Core::IPlatform* platform) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformExtensions*>(),
+                                                           { "SetRichPresenceStatus", { ::i2c::class_of<T>() }, { ::i2c::type_of<::OculusStudios::Platform::Core::IPlatform*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, platform);
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::Platform::Core::PlatformExtensions::PlatformExtensions()   {
-}
+constexpr ::OculusStudios::Platform::Core::PlatformExtensions::PlatformExtensions() {}

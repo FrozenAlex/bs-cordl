@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ArrayExtension.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -14,39 +14,38 @@ namespace GlobalNamespace {
 class ArrayExtension;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::ArrayExtension);
+MARK_REF_T(::GlobalNamespace::ArrayExtension*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::ArrayExtension*, "", "ArrayExtension");
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ArrayExtension
 class CORDL_TYPE ArrayExtension : public ::System::Object {
 public:
-// Declarations
-/// @brief Method IsValidIndex, addr 0x32514dc, size 0x2c, virtual false, abstract: false, final false
-static inline bool IsValidIndex(::System::Array*  array, int32_t  index) ;
+  // Declarations
+  /// @brief Method IsValidIndex, addr 0x32514dc, size 0x2c, virtual false, abstract: false, final false
+  static inline bool IsValidIndex(::System::Array* array, int32_t index);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ArrayExtension() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ArrayExtension();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayExtension", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ArrayExtension(ArrayExtension&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ArrayExtension", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ArrayExtension(ArrayExtension && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayExtension", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ArrayExtension(ArrayExtension const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ArrayExtension", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ArrayExtension(ArrayExtension const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20512 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20512};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ArrayExtension, 0x10>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::ArrayExtension) == 0x10, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::ArrayExtension);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ArrayExtension*, "", "ArrayExtension");
+} // namespace GlobalNamespace

@@ -6,66 +6,44 @@
 #include "UnityEngine/UIElements/zzzz__AbstractProgressBar_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ProgressBar_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ProgressBar_UxmlFactory._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ProgressBar_UxmlFactory::*)()>(&::UnityEngine::UIElements::ProgressBar_UxmlFactory::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ProgressBar_UxmlFactory::*)()>(&::UnityEngine::UIElements::ProgressBar_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6c0d728;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ProgressBar_UxmlFactory*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ProgressBar_UxmlFactory*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::ProgressBar_UxmlFactory::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ProgressBar_UxmlFactory*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::ProgressBar_UxmlFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ProgressBar_UxmlFactory*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::ProgressBar_UxmlFactory* UnityEngine::UIElements::ProgressBar_UxmlFactory::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ProgressBar_UxmlFactory*>());
+inline ::UnityEngine::UIElements::ProgressBar_UxmlFactory* UnityEngine::UIElements::ProgressBar_UxmlFactory::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ProgressBar_UxmlFactory*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::ProgressBar_UxmlFactory::ProgressBar_UxmlFactory()   {
-}
+constexpr ::UnityEngine::UIElements::ProgressBar_UxmlFactory::ProgressBar_UxmlFactory() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::ProgressBar._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ProgressBar::*)()>(&::UnityEngine::UIElements::ProgressBar::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ProgressBar::*)()>(&::UnityEngine::UIElements::ProgressBar::_ctor)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6c0d6d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ProgressBar*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ProgressBar*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::ProgressBar::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ProgressBar*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::ProgressBar::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ProgressBar*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::ProgressBar* UnityEngine::UIElements::ProgressBar::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ProgressBar*>());
+inline ::UnityEngine::UIElements::ProgressBar* UnityEngine::UIElements::ProgressBar::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ProgressBar*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::ProgressBar::ProgressBar()   {
-}
+constexpr ::UnityEngine::UIElements::ProgressBar::ProgressBar() {}

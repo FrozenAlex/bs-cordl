@@ -4,30 +4,18 @@
 #include "System/Net/Http/Headers/zzzz__TryParseDelegate_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-template<typename T>
-inline void System::Net::Http::Headers::TryParseDelegate_1<T>::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::TryParseDelegate_1<T>*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+template <typename T> inline void System::Net::Http::Headers::TryParseDelegate_1<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::TryParseDelegate_1<T>*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-template<typename T>
-inline bool System::Net::Http::Headers::TryParseDelegate_1<T>::Invoke(::StringW  value, ::ByRef<T>  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::TryParseDelegate_1<T>*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value, result);
+template <typename T> inline bool System::Net::Http::Headers::TryParseDelegate_1<T>::Invoke(::StringW value, ::by_ref<T> result) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::Http::Headers::TryParseDelegate_1<T>*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value, result);
 }
-template<typename T>
-inline ::System::Net::Http::Headers::TryParseDelegate_1<T>* System::Net::Http::Headers::TryParseDelegate_1<T>::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::TryParseDelegate_1<T>*>(object, method));
+template <typename T> inline ::System::Net::Http::Headers::TryParseDelegate_1<T>* System::Net::Http::Headers::TryParseDelegate_1<T>::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Http::Headers::TryParseDelegate_1<T>*>(object, method));
 }
 // Ctor Parameters []
-template<typename T>
-constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>::TryParseDelegate_1()   {
-}
+template <typename T> constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>::TryParseDelegate_1() {}

@@ -1,14 +1,13 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/BaseVisualTreeUpdater.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseVisualTreeUpdater)
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace System {
 class IDisposable;
@@ -33,129 +32,131 @@ namespace UnityEngine::UIElements {
 class BaseVisualTreeUpdater;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::UIElements::BaseVisualTreeUpdater);
+MARK_REF_T(::UnityEngine::UIElements::BaseVisualTreeUpdater*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseVisualTreeUpdater*, "UnityEngine.UIElements", "BaseVisualTreeUpdater");
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseVisualTreeUpdater
 class CORDL_TYPE BaseVisualTreeUpdater : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=UnityEngine_UIElements_IVisualTreeUpdater_get_FrameCount, put=UnityEngine_UIElements_IVisualTreeUpdater_set_FrameCount)) int64_t  UnityEngine_UIElements_IVisualTreeUpdater_FrameCount;
+  // Declarations
+  __declspec(property(get = UnityEngine_UIElements_IVisualTreeUpdater_get_FrameCount,
+                      put = UnityEngine_UIElements_IVisualTreeUpdater_set_FrameCount)) int64_t UnityEngine_UIElements_IVisualTreeUpdater_FrameCount;
 
-/// @brief Field frameCount, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_frameCount, put=__cordl_internal_set_frameCount)) int64_t  frameCount;
+  /// @brief Field frameCount, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_frameCount, put = __cordl_internal_set_frameCount)) int64_t frameCount;
 
-/// @brief Field m_Panel, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Panel, put=__cordl_internal_set_m_Panel)) ::UnityEngine::UIElements::BaseVisualElementPanel*  m_Panel;
+  /// @brief Field m_Panel, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Panel, put = __cordl_internal_set_m_Panel)) ::UnityEngine::UIElements::BaseVisualElementPanel* m_Panel;
 
- __declspec(property(get=get_panel, put=set_panel)) ::UnityEngine::UIElements::BaseVisualElementPanel*  panel;
+  __declspec(property(get = get_panel, put = set_panel)) ::UnityEngine::UIElements::BaseVisualElementPanel* panel;
 
-/// @brief Field panelChanged, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_panelChanged, put=__cordl_internal_set_panelChanged)) ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*  panelChanged;
+  /// @brief Field panelChanged, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_panelChanged, put = __cordl_internal_set_panelChanged)) ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* panelChanged;
 
- __declspec(property(get=get_profilerMarker)) ::Unity::Profiling::ProfilerMarker  profilerMarker;
+  __declspec(property(get = get_profilerMarker)) ::Unity::Profiling::ProfilerMarker profilerMarker;
 
- __declspec(property(get=get_visualTree)) ::UnityEngine::UIElements::VisualElement*  visualTree;
+  __declspec(property(get = get_visualTree)) ::UnityEngine::UIElements::VisualElement* visualTree;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Convert operator to "::UnityEngine::UIElements::IVisualTreeUpdater"
-constexpr operator  ::UnityEngine::UIElements::IVisualTreeUpdater*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::UIElements::IVisualTreeUpdater"
+  constexpr operator ::UnityEngine::UIElements::IVisualTreeUpdater*() noexcept;
 
-/// @brief Method Dispose, addr 0x6b7a1f0, size 0x74, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x6b7a1f0, size 0x74, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method Dispose, addr 0x6b7a264, size 0x4, virtual true, abstract: false, final false
-inline void Dispose(bool  disposing) ;
+  /// @brief Method Dispose, addr 0x6b7a264, size 0x4, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-static inline ::UnityEngine::UIElements::BaseVisualTreeUpdater* New_ctor() ;
+  static inline ::UnityEngine::UIElements::BaseVisualTreeUpdater* New_ctor();
 
-/// @brief Method OnVersionChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType) ;
+  /// @brief Method OnVersionChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-/// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.get_FrameCount, addr 0x6b7a040, size 0x8, virtual true, abstract: false, final true
-inline int64_t UnityEngine_UIElements_IVisualTreeUpdater_get_FrameCount() ;
+  /// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.get_FrameCount, addr 0x6b7a040, size 0x8, virtual true, abstract: false, final true
+  inline int64_t UnityEngine_UIElements_IVisualTreeUpdater_get_FrameCount();
 
-/// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.set_FrameCount, addr 0x6b7a048, size 0x8, virtual true, abstract: false, final true
-inline void UnityEngine_UIElements_IVisualTreeUpdater_set_FrameCount(int64_t  value) ;
+  /// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.set_FrameCount, addr 0x6b7a048, size 0x8, virtual true, abstract: false, final true
+  inline void UnityEngine_UIElements_IVisualTreeUpdater_set_FrameCount(int64_t value);
 
-/// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void Update() ;
+  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Update();
 
-constexpr int64_t const& __cordl_internal_get_frameCount() const;
+  constexpr int64_t const& __cordl_internal_get_frameCount() const;
 
-constexpr int64_t& __cordl_internal_get_frameCount() ;
+  constexpr int64_t& __cordl_internal_get_frameCount();
 
-constexpr ::UnityEngine::UIElements::BaseVisualElementPanel* const& __cordl_internal_get_m_Panel() const;
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel* const& __cordl_internal_get_m_Panel() const;
 
-constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_m_Panel() ;
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_m_Panel();
 
-constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* const& __cordl_internal_get_panelChanged() const;
+  constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* const& __cordl_internal_get_panelChanged() const;
 
-constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __cordl_internal_get_panelChanged() ;
+  constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __cordl_internal_get_panelChanged();
 
-constexpr void __cordl_internal_set_frameCount(int64_t  value) ;
+  constexpr void __cordl_internal_set_frameCount(int64_t value);
 
-constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel*  value) ;
+  constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-constexpr void __cordl_internal_set_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*  value) ;
+  constexpr void __cordl_internal_set_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-/// @brief Method .ctor, addr 0x6b76858, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b76858, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_panelChanged, addr 0x6b7a050, size 0xc0, virtual false, abstract: false, final false
-inline void add_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*  value) ;
+  /// @brief Method add_panelChanged, addr 0x6b7a050, size 0xc0, virtual false, abstract: false, final false
+  inline void add_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-/// @brief Method get_panel, addr 0x6b7678c, size 0x8, virtual true, abstract: false, final true
-inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel() ;
+  /// @brief Method get_panel, addr 0x6b7678c, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
 
-/// @brief Method get_profilerMarker, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::Unity::Profiling::ProfilerMarker get_profilerMarker() ;
+  /// @brief Method get_profilerMarker, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-/// @brief Method get_visualTree, addr 0x6b77ef4, size 0x20, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::VisualElement* get_visualTree() ;
+  /// @brief Method get_visualTree, addr 0x6b77ef4, size 0x20, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-/// @brief Convert to "::UnityEngine::UIElements::IVisualTreeUpdater"
-constexpr ::UnityEngine::UIElements::IVisualTreeUpdater* i___UnityEngine__UIElements__IVisualTreeUpdater() noexcept;
+  /// @brief Convert to "::UnityEngine::UIElements::IVisualTreeUpdater"
+  constexpr ::UnityEngine::UIElements::IVisualTreeUpdater* i___UnityEngine__UIElements__IVisualTreeUpdater() noexcept;
 
-/// @brief Method remove_panelChanged, addr 0x6b7a110, size 0xc0, virtual false, abstract: false, final false
-inline void remove_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*  value) ;
+  /// @brief Method remove_panelChanged, addr 0x6b7a110, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-/// @brief Method set_panel, addr 0x6b7a1d0, size 0x20, virtual true, abstract: false, final true
-inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel*  value) ;
+  /// @brief Method set_panel, addr 0x6b7a1d0, size 0x20, virtual true, abstract: false, final true
+  inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BaseVisualTreeUpdater() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseVisualTreeUpdater();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BaseVisualTreeUpdater(BaseVisualTreeUpdater&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BaseVisualTreeUpdater(BaseVisualTreeUpdater && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BaseVisualTreeUpdater(BaseVisualTreeUpdater const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BaseVisualTreeUpdater(BaseVisualTreeUpdater const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5266 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5266};
+  /// @brief Field frameCount, offset: 0x10, size: 0x8, def value: None
+  int64_t ___frameCount;
 
-/// @brief Field frameCount, offset: 0x10, size: 0x8, def value: None
- int64_t  ___frameCount;
+  /// @brief Field panelChanged, offset: 0x18, size: 0x8, def value: None
+  ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* ___panelChanged;
 
-/// @brief Field panelChanged, offset: 0x18, size: 0x8, def value: None
- ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*  ___panelChanged;
+  /// @brief Field m_Panel, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::UIElements::BaseVisualElementPanel* ___m_Panel;
 
-/// @brief Field m_Panel, offset: 0x20, size: 0x8, def value: None
- ::UnityEngine::UIElements::BaseVisualElementPanel*  ___m_Panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::BaseVisualTreeUpdater, ___frameCount) == 0x10, "Offset mismatch!");
@@ -164,8 +165,6 @@ static_assert(offsetof(::UnityEngine::UIElements::BaseVisualTreeUpdater, ___pane
 
 static_assert(offsetof(::UnityEngine::UIElements::BaseVisualTreeUpdater, ___m_Panel) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BaseVisualTreeUpdater, 0x28>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::BaseVisualTreeUpdater) == 0x28, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
-NEED_NO_BOX(::UnityEngine::UIElements::BaseVisualTreeUpdater);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::BaseVisualTreeUpdater*, "UnityEngine.UIElements", "BaseVisualTreeUpdater");
+} // namespace UnityEngine::UIElements

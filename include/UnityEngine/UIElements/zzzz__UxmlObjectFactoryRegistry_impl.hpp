@@ -6,115 +6,89 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IBaseUxmlObjectFactory_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlObjectFactoryRegistry.get_factories
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* (*)()>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::get_factories)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* (*)()>(
+        &::UnityEngine::UIElements::UxmlObjectFactoryRegistry::get_factories)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x6b694c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get(),
-                        "get_factories",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(), { "get_factories", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlObjectFactoryRegistry.RegisterFactory
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::IBaseUxmlObjectFactory*)>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterFactory)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::IBaseUxmlObjectFactory*)>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterFactory)> {
   constexpr static std::size_t size = 0x4ac;
   constexpr static std::size_t addrs = 0x6b69aac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get(),
-                        "RegisterFactory",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(),
+                                                                                           { "RegisterFactory", {}, { ::i2c::type_of<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlObjectFactoryRegistry.RegisterEngineFactories
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterEngineFactories)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterEngineFactories)> {
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x6b695a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get(),
-                        "RegisterEngineFactories",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(), { "RegisterEngineFactories", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlObjectFactoryRegistry.RegisterUserFactories
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterUserFactories)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterUserFactories)> {
   constexpr static std::size_t size = 0x320;
   constexpr static std::size_t addrs = 0x6b6978c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get(),
-                        "RegisterUserFactories",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(), { "RegisterUserFactories", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::UxmlObjectFactoryRegistry::setStaticF_s_Factories(::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*, "s_Factories", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*>(value));
+inline void UnityEngine::UIElements::UxmlObjectFactoryRegistry::setStaticF_s_Factories(
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*,
+                                    "s_Factories", ::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* UnityEngine::UIElements::UxmlObjectFactoryRegistry::getStaticF_s_Factories()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*, "s_Factories", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*
+UnityEngine::UIElements::UxmlObjectFactoryRegistry::getStaticF_s_Factories() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*,
+                                           "s_Factories", ::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>();
 }
-inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* UnityEngine::UIElements::UxmlObjectFactoryRegistry::get_factories()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get(),
-                        "get_factories",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*, false>(nullptr, ___internal_method);
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*
+UnityEngine::UIElements::UxmlObjectFactoryRegistry::get_factories() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(), { "get_factories", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*>(
+      nullptr, ___internal_method);
 }
-inline void UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterFactory(::UnityEngine::UIElements::IBaseUxmlObjectFactory*  factory)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get(),
-                        "RegisterFactory",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, factory);
+inline void UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterFactory(::UnityEngine::UIElements::IBaseUxmlObjectFactory* factory) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(),
+                                                                                         { "RegisterFactory", {}, { ::i2c::type_of<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, factory);
 }
-inline void UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterEngineFactories()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get(),
-                        "RegisterEngineFactories",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterEngineFactories() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(), { "RegisterEngineFactories", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline void UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterUserFactories()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>::get(),
-                        "RegisterUserFactories",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterUserFactories() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(), { "RegisterUserFactories", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::UxmlObjectFactoryRegistry::UxmlObjectFactoryRegistry()   {
-}
+constexpr ::UnityEngine::UIElements::UxmlObjectFactoryRegistry::UxmlObjectFactoryRegistry() {}

@@ -6,31 +6,32 @@
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RankModelHelper.MaxRankForGameplayModifiers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::RankModel_Rank (*)(::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifiersModelSO*, float_t)>(&::GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RankModel_Rank (*)(::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifiersModelSO*, float_t)>(
+    &::GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x3693a2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RankModelHelper*>::get(),
-                        "MaxRankForGameplayModifiers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiersModelSO*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RankModelHelper*>(),
+                                         { "MaxRankForGameplayModifiers",
+                                           {},
+                                           { ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiersModelSO*>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::RankModel_Rank GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers*  gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO*  gameplayModifiersModel, float_t  energy)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RankModelHelper*>::get(),
-                        "MaxRankForGameplayModifiers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiersModelSO*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RankModel_Rank, false>(nullptr, ___internal_method, gameplayModifiers, gameplayModifiersModel, energy);
+inline ::GlobalNamespace::RankModel_Rank GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                                                                                                       ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RankModelHelper*>(),
+                                       { "MaxRankForGameplayModifiers",
+                                         {},
+                                         { ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiersModelSO*>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RankModel_Rank>(nullptr, ___internal_method, gameplayModifiers, gameplayModifiersModel, energy);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::RankModelHelper::RankModelHelper()   {
-}
+constexpr ::GlobalNamespace::RankModelHelper::RankModelHelper() {}

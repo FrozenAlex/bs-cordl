@@ -4,31 +4,22 @@
 #include "UnityEngine/UIElements/zzzz__StyleValueFunctionExtension_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueFunction_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleValueFunctionExtension.ToUssString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::UIElements::StyleValueFunction)>(&::UnityEngine::UIElements::StyleValueFunctionExtension::ToUssString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::UIElements::StyleValueFunction)>(&::UnityEngine::UIElements::StyleValueFunctionExtension::ToUssString)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x6b45e04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueFunctionExtension*>::get(),
-                        "ToUssString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleValueFunction>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueFunctionExtension*>(),
+                                                                                           { "ToUssString", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleValueFunction>() } })));
     return ___internal_method;
   }
 };
-inline ::StringW UnityEngine::UIElements::StyleValueFunctionExtension::ToUssString(::UnityEngine::UIElements::StyleValueFunction  svf)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueFunctionExtension*>::get(),
-                        "ToUssString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleValueFunction>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, svf);
+inline ::StringW UnityEngine::UIElements::StyleValueFunctionExtension::ToUssString(::UnityEngine::UIElements::StyleValueFunction svf) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueFunctionExtension*>(),
+                                                                                         { "ToUssString", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleValueFunction>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, svf);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::StyleValueFunctionExtension::StyleValueFunctionExtension()   {
-}
+constexpr ::UnityEngine::UIElements::StyleValueFunctionExtension::StyleValueFunctionExtension() {}

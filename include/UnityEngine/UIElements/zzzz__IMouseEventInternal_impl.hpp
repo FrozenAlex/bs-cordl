@@ -3,102 +3,76 @@
 #include "UnityEngine/UIElements/zzzz__IMouseEventInternal_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IMouseEventInternal.get_triggeredByOS
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMouseEventInternal::*)()>(&::UnityEngine::UIElements::IMouseEventInternal::get_triggeredByOS)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IMouseEventInternal::*)()>(&::UnityEngine::UIElements::IMouseEventInternal::get_triggeredByOS)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), { ::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::IMouseEventInternal.set_triggeredByOS
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMouseEventInternal::*)(bool)>(&::UnityEngine::UIElements::IMouseEventInternal::set_triggeredByOS)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMouseEventInternal::*)(bool)>(&::UnityEngine::UIElements::IMouseEventInternal::set_triggeredByOS)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                                  1
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), { ::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), 1 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::IMouseEventInternal.get_sourcePointerEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IPointerEvent* (::UnityEngine::UIElements::IMouseEventInternal::*)()>(&::UnityEngine::UIElements::IMouseEventInternal::get_sourcePointerEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IPointerEvent* (::UnityEngine::UIElements::IMouseEventInternal::*)()>(
+    &::UnityEngine::UIElements::IMouseEventInternal::get_sourcePointerEvent)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), { ::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::IMouseEventInternal.set_sourcePointerEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMouseEventInternal::*)(::UnityEngine::UIElements::IPointerEvent*)>(&::UnityEngine::UIElements::IMouseEventInternal::set_sourcePointerEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IMouseEventInternal::*)(::UnityEngine::UIElements::IPointerEvent*)>(
+    &::UnityEngine::UIElements::IMouseEventInternal::set_sourcePointerEvent)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), { ::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), 3 }));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::UIElements::IMouseEventInternal::get_triggeredByOS()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::UIElements::IMouseEventInternal::get_triggeredByOS() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::IMouseEventInternal::set_triggeredByOS(bool  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                            1
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::UIElements::IMouseEventInternal::set_triggeredByOS(bool value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), 1 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::IMouseEventInternal::get_sourcePointerEvent()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IPointerEvent*, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::IMouseEventInternal::get_sourcePointerEvent() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IPointerEvent*>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::IMouseEventInternal::set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEventInternal*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::UIElements::IMouseEventInternal::set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent* value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IMouseEventInternal*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }

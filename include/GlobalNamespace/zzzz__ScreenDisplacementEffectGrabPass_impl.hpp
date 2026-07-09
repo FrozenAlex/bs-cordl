@@ -12,175 +12,142 @@
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::*)()>(&::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::*)()>(
+    &::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e0daa8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::__cordl_internal_get_activeColorTexture()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___activeColorTexture;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::__cordl_internal_get_activeColorTexture() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___activeColorTexture;
 }
 constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::__cordl_internal_get_activeColorTexture() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___activeColorTexture;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___activeColorTexture;
 }
-constexpr void GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::__cordl_internal_set_activeColorTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___activeColorTexture = value;
+constexpr void GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::__cordl_internal_set_activeColorTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___activeColorTexture = value;
 }
-inline void GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData* GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>());
+inline ::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData* GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::ScreenDisplacementEffectGrabPass_PassData()   {
-}
+constexpr ::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData::ScreenDisplacementEffectGrabPass_PassData() {}
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectGrabPass._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass::*)(::UnityEngine::Shader*)>(&::GlobalNamespace::ScreenDisplacementEffectGrabPass::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass::*)(::UnityEngine::Shader*)>(
+    &::GlobalNamespace::ScreenDisplacementEffectGrabPass::_ctor)> {
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x5e0cf54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectGrabPass.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass::*)()>(&::GlobalNamespace::ScreenDisplacementEffectGrabPass::Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass::*)()>(&::GlobalNamespace::ScreenDisplacementEffectGrabPass::Dispose)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e0d190;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectGrabPass.RecordRenderGraph
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::ScreenDisplacementEffectGrabPass::RecordRenderGraph)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass::*)(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::ScreenDisplacementEffectGrabPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x618;
   constexpr static std::size_t addrs = 0x5e0d2d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(), 11 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectGrabPass.Render
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass::*)(::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(&::GlobalNamespace::ScreenDisplacementEffectGrabPass::Render)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectGrabPass::*)(
+    ::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(&::GlobalNamespace::ScreenDisplacementEffectGrabPass::Render)> {
   constexpr static std::size_t size = 0x1b8;
   constexpr static std::size_t addrs = 0x5e0d8f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>::get(),
-                        "Render",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(),
+            { "Render", {}, { ::i2c::type_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::ScreenDisplacementEffectGrabPass::__cordl_internal_get__blitMaterial()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____blitMaterial;
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::ScreenDisplacementEffectGrabPass::__cordl_internal_get__blitMaterial() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____blitMaterial;
 }
 constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::ScreenDisplacementEffectGrabPass::__cordl_internal_get__blitMaterial() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____blitMaterial;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____blitMaterial;
 }
-constexpr void GlobalNamespace::ScreenDisplacementEffectGrabPass::__cordl_internal_set__blitMaterial(::UnityW<::UnityEngine::Material>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blitMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::ScreenDisplacementEffectGrabPass::__cordl_internal_set__blitMaterial(::UnityW<::UnityEngine::Material> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____blitMaterial = value;
 }
-inline void GlobalNamespace::ScreenDisplacementEffectGrabPass::_ctor(::UnityEngine::Shader*  blitShader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, blitShader);
+inline void GlobalNamespace::ScreenDisplacementEffectGrabPass::_ctor(::UnityEngine::Shader* blitShader) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, blitShader);
 }
-inline void GlobalNamespace::ScreenDisplacementEffectGrabPass::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::ScreenDisplacementEffectGrabPass::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(), { "Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::ScreenDisplacementEffectGrabPass::RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::ContextContainer*  frameData)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, renderGraph, frameData);
+inline void GlobalNamespace::ScreenDisplacementEffectGrabPass::RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                                                 ::UnityEngine::Rendering::ContextContainer* frameData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData);
 }
-inline void GlobalNamespace::ScreenDisplacementEffectGrabPass::Render(::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  context)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>::get(),
-                        "Render",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, context);
+inline void GlobalNamespace::ScreenDisplacementEffectGrabPass::Render(::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData* data,
+                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(),
+          { "Render", {}, { ::i2c::type_of<::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, context);
 }
-inline ::GlobalNamespace::ScreenDisplacementEffectGrabPass* GlobalNamespace::ScreenDisplacementEffectGrabPass::New_ctor(::UnityEngine::Shader*  blitShader)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(blitShader));
+inline ::GlobalNamespace::ScreenDisplacementEffectGrabPass* GlobalNamespace::ScreenDisplacementEffectGrabPass::New_ctor(::UnityEngine::Shader* blitShader) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenDisplacementEffectGrabPass*>(blitShader));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  GlobalNamespace::ScreenDisplacementEffectGrabPass::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr GlobalNamespace::ScreenDisplacementEffectGrabPass::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* GlobalNamespace::ScreenDisplacementEffectGrabPass::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ScreenDisplacementEffectGrabPass::ScreenDisplacementEffectGrabPass()   {
-}
+constexpr ::GlobalNamespace::ScreenDisplacementEffectGrabPass::ScreenDisplacementEffectGrabPass() {}

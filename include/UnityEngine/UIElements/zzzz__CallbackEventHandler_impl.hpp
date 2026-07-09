@@ -12,582 +12,444 @@
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TrickleDown_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.SendEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::SendEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::SendEvent)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.SendEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::DispatchMode)>(&::UnityEngine::UIElements::CallbackEventHandler::SendEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::DispatchMode)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::SendEvent)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.ExecuteDefaultActionAtTarget
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionAtTarget)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionAtTarget)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c45258;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.HandleEventBubbleUp
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUp)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUp)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c4525c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.HandleEventBubbleUpDisabled
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUpDisabled)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUpDisabled)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c45260;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 9 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.HandleEventBubbleUpInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUpInternal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUpInternal)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6c45264;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "HandleEventBubbleUpInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                           { "HandleEventBubbleUpInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.HandleEventTrickleDown
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDown)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDown)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c45270;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 10 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.HandleEventTrickleDownDisabled
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDownDisabled)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDownDisabled)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c45274;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 11 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.HandleEventTrickleDownInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDownInternal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDownInternal)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6c45278;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "HandleEventTrickleDownInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                           { "HandleEventTrickleDownInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.ExecuteDefaultAction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultAction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultAction)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c45284;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 12 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.ExecuteDefaultActionDisabledAtTarget
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledAtTarget)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledAtTarget)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c45288;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.ExecuteDefaultActionDisabled
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabled)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabled)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c4528c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.ExecuteDefaultActionInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionInternal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionInternal)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6c45290;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "ExecuteDefaultActionInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                           { "ExecuteDefaultActionInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.ExecuteDefaultActionDisabledInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledInternal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledInternal)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6c4529c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "ExecuteDefaultActionDisabledInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                             { "ExecuteDefaultActionDisabledInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.ExecuteDefaultActionAtTargetInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionAtTargetInternal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionAtTargetInternal)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6c452ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "ExecuteDefaultActionAtTargetInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                             { "ExecuteDefaultActionAtTargetInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.ExecuteDefaultActionDisabledAtTargetInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledAtTargetInternal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledAtTargetInternal)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6c452b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "ExecuteDefaultActionDisabledAtTargetInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                             { "ExecuteDefaultActionDisabledAtTargetInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.NotifyPropertyChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::ByRef<::UnityEngine::UIElements::BindingId>)>(&::UnityEngine::UIElements::CallbackEventHandler::NotifyPropertyChanged)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::by_ref<::UnityEngine::UIElements::BindingId>)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::NotifyPropertyChanged)> {
   constexpr static std::size_t size = 0x1c4;
   constexpr static std::size_t addrs = 0x6c452c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "NotifyPropertyChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BindingId>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                           { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)()>(&::UnityEngine::UIElements::CallbackEventHandler::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)()>(&::UnityEngine::UIElements::CallbackEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6c4548c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_get_isIMGUIContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isIMGUIContainer;
+constexpr bool& UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_get_isIMGUIContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isIMGUIContainer;
 }
 constexpr bool const& UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_get_isIMGUIContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isIMGUIContainer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isIMGUIContainer;
 }
-constexpr void UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_set_isIMGUIContainer(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___isIMGUIContainer = value;
+constexpr void UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_set_isIMGUIContainer(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isIMGUIContainer = value;
 }
-constexpr ::UnityEngine::UIElements::EventCallbackRegistry*& UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_get_m_CallbackRegistry()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_CallbackRegistry;
+constexpr ::UnityEngine::UIElements::EventCallbackRegistry*& UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_get_m_CallbackRegistry() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CallbackRegistry;
 }
 constexpr ::UnityEngine::UIElements::EventCallbackRegistry* const& UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_get_m_CallbackRegistry() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_CallbackRegistry;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CallbackRegistry;
 }
-constexpr void UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_set_m_CallbackRegistry(::UnityEngine::UIElements::EventCallbackRegistry*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CallbackRegistry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_set_m_CallbackRegistry(::UnityEngine::UIElements::EventCallbackRegistry* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_CallbackRegistry = value;
 }
-template<typename TEventType>
-inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>*  callback, ::UnityEngine::UIElements::TrickleDown  useTrickleDown)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                    "RegisterCallback",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventCallback_1<TEventType>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TrickleDown>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback, useTrickleDown);
+template <typename TEventType>
+inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                              { "RegisterCallback",
+                                                { ::i2c::class_of<TEventType>() },
+                                                { ::i2c::type_of<::UnityEngine::UIElements::EventCallback_1<TEventType>*>(), ::i2c::type_of<::UnityEngine::UIElements::TrickleDown>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, useTrickleDown);
 }
-template<typename TEventType>
-inline void UnityEngine::UIElements::CallbackEventHandler::AddEventCategories(::UnityEngine::UIElements::TrickleDown  useTrickleDown)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                    "AddEventCategories",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TrickleDown>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, useTrickleDown);
+template <typename TEventType> inline void UnityEngine::UIElements::CallbackEventHandler::AddEventCategories(::UnityEngine::UIElements::TrickleDown useTrickleDown) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                           { "AddEventCategories", { ::i2c::class_of<TEventType>() }, { ::i2c::type_of<::UnityEngine::UIElements::TrickleDown>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, useTrickleDown);
 }
-template<typename TEventType,typename TUserArgsType>
-inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType,TUserArgsType>*  callback, TUserArgsType  userArgs, ::UnityEngine::UIElements::TrickleDown  useTrickleDown)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                    "RegisterCallback",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserArgsType>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventCallback_2<TEventType,TUserArgsType>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TUserArgsType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TrickleDown>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserArgsType>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback, userArgs, useTrickleDown);
+template <typename TEventType, typename TUserArgsType>
+inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType, TUserArgsType>* callback, TUserArgsType userArgs,
+                                                                            ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
+  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                              { "RegisterCallback",
+                                                                                                { ::i2c::class_of<TEventType>(), ::i2c::class_of<TUserArgsType>() },
+                                                                                                { ::i2c::type_of<::UnityEngine::UIElements::EventCallback_2<TEventType, TUserArgsType>*>(),
+                                                                                                  ::i2c::type_of<TUserArgsType>(), ::i2c::type_of<::UnityEngine::UIElements::TrickleDown>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>(), ::i2c::class_of<TUserArgsType>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, userArgs, useTrickleDown);
 }
-template<typename TEventType>
-inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>*  callback, ::UnityEngine::UIElements::InvokePolicy  invokePolicy, ::UnityEngine::UIElements::TrickleDown  useTrickleDown)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                    "RegisterCallback",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventCallback_1<TEventType>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::InvokePolicy>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TrickleDown>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback, invokePolicy, useTrickleDown);
+template <typename TEventType>
+inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::InvokePolicy invokePolicy,
+                                                                            ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                           { "RegisterCallback",
+                                                             { ::i2c::class_of<TEventType>() },
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::EventCallback_1<TEventType>*>(), ::i2c::type_of<::UnityEngine::UIElements::InvokePolicy>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::TrickleDown>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, invokePolicy, useTrickleDown);
 }
-template<typename TEventType>
-inline void UnityEngine::UIElements::CallbackEventHandler::UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>*  callback, ::UnityEngine::UIElements::TrickleDown  useTrickleDown)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                    "UnregisterCallback",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventCallback_1<TEventType>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TrickleDown>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback, useTrickleDown);
+template <typename TEventType>
+inline void UnityEngine::UIElements::CallbackEventHandler::UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                              { "UnregisterCallback",
+                                                { ::i2c::class_of<TEventType>() },
+                                                { ::i2c::type_of<::UnityEngine::UIElements::EventCallback_1<TEventType>*>(), ::i2c::type_of<::UnityEngine::UIElements::TrickleDown>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, useTrickleDown);
 }
-template<typename TEventType,typename TUserArgsType>
-inline void UnityEngine::UIElements::CallbackEventHandler::UnregisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType,TUserArgsType>*  callback, ::UnityEngine::UIElements::TrickleDown  useTrickleDown)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                    "UnregisterCallback",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserArgsType>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventCallback_2<TEventType,TUserArgsType>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TrickleDown>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEventType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserArgsType>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback, useTrickleDown);
+template <typename TEventType, typename TUserArgsType>
+inline void UnityEngine::UIElements::CallbackEventHandler::UnregisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType, TUserArgsType>* callback,
+                                                                              ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                       { "UnregisterCallback",
+                                         { ::i2c::class_of<TEventType>(), ::i2c::class_of<TUserArgsType>() },
+                                         { ::i2c::type_of<::UnityEngine::UIElements::EventCallback_2<TEventType, TUserArgsType>*>(), ::i2c::type_of<::UnityEngine::UIElements::TrickleDown>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>(), ::i2c::class_of<TUserArgsType>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, useTrickleDown);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::SendEvent(::UnityEngine::UIElements::EventBase*  e)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
+inline void UnityEngine::UIElements::CallbackEventHandler::SendEvent(::UnityEngine::UIElements::EventBase* e) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::SendEvent(::UnityEngine::UIElements::EventBase*  e, ::UnityEngine::UIElements::DispatchMode  dispatchMode)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e, dispatchMode);
+inline void UnityEngine::UIElements::CallbackEventHandler::SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::UIElements::DispatchMode dispatchMode) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, dispatchMode);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase*  evt)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUp(::UnityEngine::UIElements::EventBase*  evt)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUpDisabled(::UnityEngine::UIElements::EventBase*  evt)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUpDisabled(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUpInternal(::UnityEngine::UIElements::EventBase*  evt)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "HandleEventBubbleUpInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventBubbleUpInternal(::UnityEngine::UIElements::EventBase* evt) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                         { "HandleEventBubbleUpInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDown(::UnityEngine::UIElements::EventBase*  evt)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDown(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDownDisabled(::UnityEngine::UIElements::EventBase*  evt)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDownDisabled(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDownInternal(::UnityEngine::UIElements::EventBase*  evt)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "HandleEventTrickleDownInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::HandleEventTrickleDownInternal(::UnityEngine::UIElements::EventBase* evt) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                         { "HandleEventTrickleDownInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultAction(::UnityEngine::UIElements::EventBase*  evt)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 12 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledAtTarget(::UnityEngine::UIElements::EventBase*  evt)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledAtTarget(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabled(::UnityEngine::UIElements::EventBase*  evt)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabled(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionInternal(::UnityEngine::UIElements::EventBase*  evt)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "ExecuteDefaultActionInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionInternal(::UnityEngine::UIElements::EventBase* evt) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                         { "ExecuteDefaultActionInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledInternal(::UnityEngine::UIElements::EventBase*  evt)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "ExecuteDefaultActionDisabledInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledInternal(::UnityEngine::UIElements::EventBase* evt) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                         { "ExecuteDefaultActionDisabledInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionAtTargetInternal(::UnityEngine::UIElements::EventBase*  evt)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "ExecuteDefaultActionAtTargetInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionAtTargetInternal(::UnityEngine::UIElements::EventBase* evt) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                         { "ExecuteDefaultActionAtTargetInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledAtTargetInternal(::UnityEngine::UIElements::EventBase*  evt)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "ExecuteDefaultActionDisabledAtTargetInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionDisabledAtTargetInternal(::UnityEngine::UIElements::EventBase* evt) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                           { "ExecuteDefaultActionDisabledAtTargetInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::NotifyPropertyChanged(::ByRef<::UnityEngine::UIElements::BindingId>  property)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        "NotifyPropertyChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BindingId>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, property);
+inline void UnityEngine::UIElements::CallbackEventHandler::NotifyPropertyChanged(::by_ref<::UnityEngine::UIElements::BindingId> property) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                                                         { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, property);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::CallbackEventHandler::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::CallbackEventHandler* UnityEngine::UIElements::CallbackEventHandler::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::CallbackEventHandler*>());
+inline ::UnityEngine::UIElements::CallbackEventHandler* UnityEngine::UIElements::CallbackEventHandler::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::CallbackEventHandler*>());
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::IEventHandler"
-constexpr  UnityEngine::UIElements::CallbackEventHandler::operator ::UnityEngine::UIElements::IEventHandler*() noexcept {
-return static_cast<::UnityEngine::UIElements::IEventHandler*>(static_cast<void*>(this));
+constexpr UnityEngine::UIElements::CallbackEventHandler::operator ::UnityEngine::UIElements::IEventHandler*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IEventHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::UIElements::IEventHandler"
 constexpr ::UnityEngine::UIElements::IEventHandler* UnityEngine::UIElements::CallbackEventHandler::i___UnityEngine__UIElements__IEventHandler() noexcept {
-return static_cast<::UnityEngine::UIElements::IEventHandler*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::UIElements::IEventHandler*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::CallbackEventHandler::CallbackEventHandler()   {
-}
+constexpr ::UnityEngine::UIElements::CallbackEventHandler::CallbackEventHandler() {}

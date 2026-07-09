@@ -6,45 +6,46 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PointerEventsHelper.SendOverOut
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IPointerEvent*, ::UnityEngine::Vector2, int32_t)>(&::UnityEngine::UIElements::PointerEventsHelper::SendOverOut)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IPointerEvent*,
+                                                                ::UnityEngine::Vector2, int32_t)>(&::UnityEngine::UIElements::PointerEventsHelper::SendOverOut)> {
   constexpr static std::size_t size = 0x2c8;
   constexpr static std::size_t addrs = 0x6c40848;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventsHelper*>::get(),
-                        "SendOverOut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventsHelper*>(),
+                                                { "SendOverOut",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                    ::i2c::type_of<::UnityEngine::UIElements::IPointerEvent*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-template<typename TLeaveEvent,typename TEnterEvent>
-inline void UnityEngine::UIElements::PointerEventsHelper::SendEnterLeave(::UnityEngine::UIElements::VisualElement*  previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement*  currentTopElementUnderPointer, ::UnityEngine::UIElements::IPointerEvent*  triggerEvent, ::UnityEngine::Vector2  position, int32_t  pointerId)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventsHelper*>::get(),
-                    "SendEnterLeave",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TLeaveEvent>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEnterEvent>::get()},
-                    ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TLeaveEvent>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TEnterEvent>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, previousTopElementUnderPointer, currentTopElementUnderPointer, triggerEvent, position, pointerId);
+template <typename TLeaveEvent, typename TEnterEvent>
+inline void UnityEngine::UIElements::PointerEventsHelper::SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer,
+                                                                         ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer,
+                                                                         ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventsHelper*>(),
+                                                           { "SendEnterLeave",
+                                                             { ::i2c::class_of<TLeaveEvent>(), ::i2c::class_of<TEnterEvent>() },
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::IPointerEvent*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TLeaveEvent>(), ::i2c::class_of<TEnterEvent>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, previousTopElementUnderPointer, currentTopElementUnderPointer, triggerEvent, position, pointerId);
 }
-inline void UnityEngine::UIElements::PointerEventsHelper::SendOverOut(::UnityEngine::UIElements::VisualElement*  previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement*  currentTopElementUnderPointer, ::UnityEngine::UIElements::IPointerEvent*  triggerEvent, ::UnityEngine::Vector2  position, int32_t  pointerId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventsHelper*>::get(),
-                        "SendOverOut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, previousTopElementUnderPointer, currentTopElementUnderPointer, triggerEvent, position, pointerId);
+inline void UnityEngine::UIElements::PointerEventsHelper::SendOverOut(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer,
+                                                                      ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer, ::UnityEngine::UIElements::IPointerEvent* triggerEvent,
+                                                                      ::UnityEngine::Vector2 position, int32_t pointerId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventsHelper*>(),
+                                                           { "SendOverOut",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::IPointerEvent*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, previousTopElementUnderPointer, currentTopElementUnderPointer, triggerEvent, position, pointerId);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::PointerEventsHelper::PointerEventsHelper()   {
-}
+constexpr ::UnityEngine::UIElements::PointerEventsHelper::PointerEventsHelper() {}

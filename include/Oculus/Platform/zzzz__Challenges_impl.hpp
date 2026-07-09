@@ -11,395 +11,302 @@
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
 #include "Oculus/Platform/zzzz__Request_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Challenges.GetNextEntries
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(::Oculus::Platform::Models::ChallengeEntryList*)>(&::Oculus::Platform::Challenges::GetNextEntries)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(::Oculus::Platform::Models::ChallengeEntryList*)>(
+    &::Oculus::Platform::Challenges::GetNextEntries)> {
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x5ca5d80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetNextEntries",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::ChallengeEntryList*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetNextEntries", {}, { ::i2c::type_of<::Oculus::Platform::Models::ChallengeEntryList*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.GetPreviousEntries
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(::Oculus::Platform::Models::ChallengeEntryList*)>(&::Oculus::Platform::Challenges::GetPreviousEntries)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(::Oculus::Platform::Models::ChallengeEntryList*)>(
+    &::Oculus::Platform::Challenges::GetPreviousEntries)> {
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x5ca5f10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetPreviousEntries",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::ChallengeEntryList*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetPreviousEntries", {}, { ::i2c::type_of<::Oculus::Platform::Models::ChallengeEntryList*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.GetNextChallenges
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* (*)(::Oculus::Platform::Models::ChallengeList*)>(&::Oculus::Platform::Challenges::GetNextChallenges)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* (*)(::Oculus::Platform::Models::ChallengeList*)>(
+    &::Oculus::Platform::Challenges::GetNextChallenges)> {
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x5ca60a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetNextChallenges",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::ChallengeList*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetNextChallenges", {}, { ::i2c::type_of<::Oculus::Platform::Models::ChallengeList*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.GetPreviousChallenges
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* (*)(::Oculus::Platform::Models::ChallengeList*)>(&::Oculus::Platform::Challenges::GetPreviousChallenges)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* (*)(::Oculus::Platform::Models::ChallengeList*)>(
+    &::Oculus::Platform::Challenges::GetPreviousChallenges)> {
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x5ca6230;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetPreviousChallenges",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::ChallengeList*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetPreviousChallenges", {}, { ::i2c::type_of<::Oculus::Platform::Models::ChallengeList*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(::StringW, ::Oculus::Platform::ChallengeOptions*)>(&::Oculus::Platform::Challenges::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(::StringW, ::Oculus::Platform::ChallengeOptions*)>(
+    &::Oculus::Platform::Challenges::Create)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x5ca63c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::ChallengeOptions*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Create", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Oculus::Platform::ChallengeOptions*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.DeclineInvite
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::DeclineInvite)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::DeclineInvite)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x5ca6538;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "DeclineInvite",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "DeclineInvite", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.Delete
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Delete)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Delete)> {
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x5ca66a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Delete",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Delete", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.Get
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Get)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Get)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x5ca67fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Get",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Get", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.GetEntries
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int32_t, ::Oculus::Platform::LeaderboardFilterType, ::Oculus::Platform::LeaderboardStartAt)>(&::Oculus::Platform::Challenges::GetEntries)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int32_t, ::Oculus::Platform::LeaderboardFilterType,
+                                                                                                                                           ::Oculus::Platform::LeaderboardStartAt)>(
+    &::Oculus::Platform::Challenges::GetEntries)> {
   constexpr static std::size_t size = 0x188;
   constexpr static std::size_t addrs = 0x5ca6964;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetEntries",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::LeaderboardFilterType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::LeaderboardStartAt>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetEntries",
+                                                                                  {},
+                                                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Oculus::Platform::LeaderboardFilterType>(),
+                                                                                    ::i2c::type_of<::Oculus::Platform::LeaderboardStartAt>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.GetEntriesAfterRank
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int32_t, uint64_t)>(&::Oculus::Platform::Challenges::GetEntriesAfterRank)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int32_t, uint64_t)>(
+    &::Oculus::Platform::Challenges::GetEntriesAfterRank)> {
   constexpr static std::size_t size = 0x180;
   constexpr static std::size_t addrs = 0x5ca6aec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetEntriesAfterRank",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetEntriesAfterRank", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.GetEntriesByIds
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int32_t, ::Oculus::Platform::LeaderboardStartAt, ::ArrayW<uint64_t,::Array<uint64_t>*>)>(&::Oculus::Platform::Challenges::GetEntriesByIds)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int32_t, ::Oculus::Platform::LeaderboardStartAt, ::ArrayW<uint64_t>)>(
+        &::Oculus::Platform::Challenges::GetEntriesByIds)> {
   constexpr static std::size_t size = 0x19c;
   constexpr static std::size_t addrs = 0x5ca6c6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetEntriesByIds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::LeaderboardStartAt>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint64_t,::Array<uint64_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Oculus::Platform::Challenges*>(),
+            { "GetEntriesByIds", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Oculus::Platform::LeaderboardStartAt>(), ::i2c::type_of<::ArrayW<uint64_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.GetList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* (*)(::Oculus::Platform::ChallengeOptions*, int32_t)>(&::Oculus::Platform::Challenges::GetList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* (*)(::Oculus::Platform::ChallengeOptions*, int32_t)>(
+    &::Oculus::Platform::Challenges::GetList)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x5ca6e08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::ChallengeOptions*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(),
+                                                                                           { "GetList", {}, { ::i2c::type_of<::Oculus::Platform::ChallengeOptions*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.Join
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Join)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Join)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x5ca6f80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Join",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Join", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.Leave
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Leave)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&::Oculus::Platform::Challenges::Leave)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x5ca70e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Leave",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Leave", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Challenges.UpdateInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t, ::Oculus::Platform::ChallengeOptions*)>(&::Oculus::Platform::Challenges::UpdateInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* (*)(uint64_t, ::Oculus::Platform::ChallengeOptions*)>(
+    &::Oculus::Platform::Challenges::UpdateInfo)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x5ca7250;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "UpdateInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::ChallengeOptions*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "UpdateInfo", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::Oculus::Platform::ChallengeOptions*>() } })));
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* Oculus::Platform::Challenges::GetNextEntries(::Oculus::Platform::Models::ChallengeEntryList*  list)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetNextEntries",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::ChallengeEntryList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*, false>(nullptr, ___internal_method, list);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* Oculus::Platform::Challenges::GetNextEntries(::Oculus::Platform::Models::ChallengeEntryList* list) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetNextEntries", {}, { ::i2c::type_of<::Oculus::Platform::Models::ChallengeEntryList*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*>(nullptr, ___internal_method, list);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* Oculus::Platform::Challenges::GetPreviousEntries(::Oculus::Platform::Models::ChallengeEntryList*  list)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetPreviousEntries",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::ChallengeEntryList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*, false>(nullptr, ___internal_method, list);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* Oculus::Platform::Challenges::GetPreviousEntries(::Oculus::Platform::Models::ChallengeEntryList* list) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetPreviousEntries", {}, { ::i2c::type_of<::Oculus::Platform::Models::ChallengeEntryList*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*>(nullptr, ___internal_method, list);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* Oculus::Platform::Challenges::GetNextChallenges(::Oculus::Platform::Models::ChallengeList*  list)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetNextChallenges",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::ChallengeList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>*, false>(nullptr, ___internal_method, list);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* Oculus::Platform::Challenges::GetNextChallenges(::Oculus::Platform::Models::ChallengeList* list) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetNextChallenges", {}, { ::i2c::type_of<::Oculus::Platform::Models::ChallengeList*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>*>(nullptr, ___internal_method, list);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* Oculus::Platform::Challenges::GetPreviousChallenges(::Oculus::Platform::Models::ChallengeList*  list)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetPreviousChallenges",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::ChallengeList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>*, false>(nullptr, ___internal_method, list);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* Oculus::Platform::Challenges::GetPreviousChallenges(::Oculus::Platform::Models::ChallengeList* list) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetPreviousChallenges", {}, { ::i2c::type_of<::Oculus::Platform::Models::ChallengeList*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>*>(nullptr, ___internal_method, list);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::Create(::StringW  leaderboardName, ::Oculus::Platform::ChallengeOptions*  challengeOptions)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::ChallengeOptions*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*, false>(nullptr, ___internal_method, leaderboardName, challengeOptions);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::Create(::StringW leaderboardName, ::Oculus::Platform::ChallengeOptions* challengeOptions) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(),
+                                                                                         { "Create", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Oculus::Platform::ChallengeOptions*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*>(nullptr, ___internal_method, leaderboardName, challengeOptions);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::DeclineInvite(uint64_t  challengeID)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "DeclineInvite",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*, false>(nullptr, ___internal_method, challengeID);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::DeclineInvite(uint64_t challengeID) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "DeclineInvite", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*>(nullptr, ___internal_method, challengeID);
 }
-inline ::Oculus::Platform::Request* Oculus::Platform::Challenges::Delete(uint64_t  challengeID)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Delete",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request*, false>(nullptr, ___internal_method, challengeID);
+inline ::Oculus::Platform::Request* Oculus::Platform::Challenges::Delete(uint64_t challengeID) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Delete", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request*>(nullptr, ___internal_method, challengeID);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::Get(uint64_t  challengeID)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Get",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*, false>(nullptr, ___internal_method, challengeID);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::Get(uint64_t challengeID) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Get", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*>(nullptr, ___internal_method, challengeID);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* Oculus::Platform::Challenges::GetEntries(uint64_t  challengeID, int32_t  limit, ::Oculus::Platform::LeaderboardFilterType  filter, ::Oculus::Platform::LeaderboardStartAt  startAt)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetEntries",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::LeaderboardFilterType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::LeaderboardStartAt>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*, false>(nullptr, ___internal_method, challengeID, limit, filter, startAt);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*
+Oculus::Platform::Challenges::GetEntries(uint64_t challengeID, int32_t limit, ::Oculus::Platform::LeaderboardFilterType filter, ::Oculus::Platform::LeaderboardStartAt startAt) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetEntries",
+                                                                                {},
+                                                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Oculus::Platform::LeaderboardFilterType>(),
+                                                                                  ::i2c::type_of<::Oculus::Platform::LeaderboardStartAt>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*>(nullptr, ___internal_method, challengeID, limit, filter, startAt);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* Oculus::Platform::Challenges::GetEntriesAfterRank(uint64_t  challengeID, int32_t  limit, uint64_t  afterRank)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetEntriesAfterRank",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*, false>(nullptr, ___internal_method, challengeID, limit, afterRank);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* Oculus::Platform::Challenges::GetEntriesAfterRank(uint64_t challengeID, int32_t limit, uint64_t afterRank) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetEntriesAfterRank", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*>(nullptr, ___internal_method, challengeID, limit, afterRank);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>* Oculus::Platform::Challenges::GetEntriesByIds(uint64_t  challengeID, int32_t  limit, ::Oculus::Platform::LeaderboardStartAt  startAt, ::ArrayW<uint64_t,::Array<uint64_t>*>  userIDs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetEntriesByIds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::LeaderboardStartAt>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint64_t,::Array<uint64_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*, false>(nullptr, ___internal_method, challengeID, limit, startAt, userIDs);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*
+Oculus::Platform::Challenges::GetEntriesByIds(uint64_t challengeID, int32_t limit, ::Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Oculus::Platform::Challenges*>(),
+          { "GetEntriesByIds", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Oculus::Platform::LeaderboardStartAt>(), ::i2c::type_of<::ArrayW<uint64_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeEntryList*>*>(nullptr, ___internal_method, challengeID, limit, startAt, userIDs);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* Oculus::Platform::Challenges::GetList(::Oculus::Platform::ChallengeOptions*  challengeOptions, int32_t  limit)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "GetList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::ChallengeOptions*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>*, false>(nullptr, ___internal_method, challengeOptions, limit);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>* Oculus::Platform::Challenges::GetList(::Oculus::Platform::ChallengeOptions* challengeOptions, int32_t limit) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "GetList", {}, { ::i2c::type_of<::Oculus::Platform::ChallengeOptions*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ChallengeList*>*>(nullptr, ___internal_method, challengeOptions, limit);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::Join(uint64_t  challengeID)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Join",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*, false>(nullptr, ___internal_method, challengeID);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::Join(uint64_t challengeID) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Join", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*>(nullptr, ___internal_method, challengeID);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::Leave(uint64_t  challengeID)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "Leave",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*, false>(nullptr, ___internal_method, challengeID);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::Leave(uint64_t challengeID) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "Leave", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*>(nullptr, ___internal_method, challengeID);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::UpdateInfo(uint64_t  challengeID, ::Oculus::Platform::ChallengeOptions*  challengeOptions)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Challenges*>::get(),
-                        "UpdateInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::ChallengeOptions*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*, false>(nullptr, ___internal_method, challengeID, challengeOptions);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oculus::Platform::Challenges::UpdateInfo(uint64_t challengeID, ::Oculus::Platform::ChallengeOptions* challengeOptions) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Challenges*>(), { "UpdateInfo", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::Oculus::Platform::ChallengeOptions*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>*>(nullptr, ___internal_method, challengeID, challengeOptions);
 }
 // Ctor Parameters []
-constexpr ::Oculus::Platform::Challenges::Challenges()   {
-}
+constexpr ::Oculus::Platform::Challenges::Challenges() {}

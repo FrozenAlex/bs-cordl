@@ -6,136 +6,101 @@
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::VRUIControls::VRLaserPointer.SetLocalPosition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRLaserPointer::*)(::UnityEngine::Vector3)>(&::VRUIControls::VRLaserPointer::SetLocalPosition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRLaserPointer::*)(::UnityEngine::Vector3)>(&::VRUIControls::VRLaserPointer::SetLocalPosition)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x6ce4b7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get(),
-                        "SetLocalPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRLaserPointer*>(), { "SetLocalPosition", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::VRUIControls::VRLaserPointer.SetLocalScale
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRLaserPointer::*)(::UnityEngine::Vector3)>(&::VRUIControls::VRLaserPointer::SetLocalScale)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRLaserPointer::*)(::UnityEngine::Vector3)>(&::VRUIControls::VRLaserPointer::SetLocalScale)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x6ce4bc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get(),
-                        "SetLocalScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRLaserPointer*>(), { "SetLocalScale", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::VRUIControls::VRLaserPointer.SetFadeDistance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRLaserPointer::*)(float_t)>(&::VRUIControls::VRLaserPointer::SetFadeDistance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRLaserPointer::*)(float_t)>(&::VRUIControls::VRLaserPointer::SetFadeDistance)> {
   constexpr static std::size_t size = 0x12c;
   constexpr static std::size_t addrs = 0x6ce4c0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get(),
-                        "SetFadeDistance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRLaserPointer*>(), { "SetFadeDistance", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::VRUIControls::VRLaserPointer._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRLaserPointer::*)()>(&::VRUIControls::VRLaserPointer::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRLaserPointer::*)()>(&::VRUIControls::VRLaserPointer::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6ce4d38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRLaserPointer*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::MeshRenderer>& VRUIControls::VRLaserPointer::__cordl_internal_get__renderer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____renderer;
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& VRUIControls::VRLaserPointer::__cordl_internal_get__renderer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____renderer;
 }
 constexpr ::UnityW<::UnityEngine::MeshRenderer> const& VRUIControls::VRLaserPointer::__cordl_internal_get__renderer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____renderer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____renderer;
 }
-constexpr void VRUIControls::VRLaserPointer::__cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void VRUIControls::VRLaserPointer::__cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____renderer = value;
 }
-inline void VRUIControls::VRLaserPointer::setStaticF__fadeStartNormalizedDistanceId(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "_fadeStartNormalizedDistanceId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get>(std::forward<int32_t>(value));
+inline void VRUIControls::VRLaserPointer::setStaticF__fadeStartNormalizedDistanceId(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_fadeStartNormalizedDistanceId", ::VRUIControls::VRLaserPointer*>(std::forward<int32_t>(value));
 }
-inline int32_t VRUIControls::VRLaserPointer::getStaticF__fadeStartNormalizedDistanceId()  {
-return ::cordl_internals::getStaticField<int32_t, "_fadeStartNormalizedDistanceId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get>();
+inline int32_t VRUIControls::VRLaserPointer::getStaticF__fadeStartNormalizedDistanceId() {
+  return ::cordl_internals::getStaticField<int32_t, "_fadeStartNormalizedDistanceId", ::VRUIControls::VRLaserPointer*>();
 }
-inline void VRUIControls::VRLaserPointer::setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::MaterialPropertyBlock*, "_materialPropertyBlock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get>(std::forward<::UnityEngine::MaterialPropertyBlock*>(value));
+inline void VRUIControls::VRLaserPointer::setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::MaterialPropertyBlock*, "_materialPropertyBlock", ::VRUIControls::VRLaserPointer*>(std::forward<::UnityEngine::MaterialPropertyBlock*>(value));
 }
-inline ::UnityEngine::MaterialPropertyBlock* VRUIControls::VRLaserPointer::getStaticF__materialPropertyBlock()  {
-return ::cordl_internals::getStaticField<::UnityEngine::MaterialPropertyBlock*, "_materialPropertyBlock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get>();
+inline ::UnityEngine::MaterialPropertyBlock* VRUIControls::VRLaserPointer::getStaticF__materialPropertyBlock() {
+  return ::cordl_internals::getStaticField<::UnityEngine::MaterialPropertyBlock*, "_materialPropertyBlock", ::VRUIControls::VRLaserPointer*>();
 }
-inline void VRUIControls::VRLaserPointer::SetLocalPosition(::UnityEngine::Vector3  position)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get(),
-                        "SetLocalPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position);
+inline void VRUIControls::VRLaserPointer::SetLocalPosition(::UnityEngine::Vector3 position) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRLaserPointer*>(), { "SetLocalPosition", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, position);
 }
-inline void VRUIControls::VRLaserPointer::SetLocalScale(::UnityEngine::Vector3  scale)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get(),
-                        "SetLocalScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scale);
+inline void VRUIControls::VRLaserPointer::SetLocalScale(::UnityEngine::Vector3 scale) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRLaserPointer*>(), { "SetLocalScale", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, scale);
 }
-inline void VRUIControls::VRLaserPointer::SetFadeDistance(float_t  distance)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get(),
-                        "SetFadeDistance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, distance);
+inline void VRUIControls::VRLaserPointer::SetFadeDistance(float_t distance) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRLaserPointer*>(), { "SetFadeDistance", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, distance);
 }
-inline void VRUIControls::VRLaserPointer::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRLaserPointer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void VRUIControls::VRLaserPointer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRLaserPointer*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::VRUIControls::VRLaserPointer* VRUIControls::VRLaserPointer::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::VRUIControls::VRLaserPointer*>());
+inline ::VRUIControls::VRLaserPointer* VRUIControls::VRLaserPointer::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::VRUIControls::VRLaserPointer*>());
 }
 // Ctor Parameters []
-constexpr ::VRUIControls::VRLaserPointer::VRLaserPointer()   {
-}
+constexpr ::VRUIControls::VRLaserPointer::VRLaserPointer() {}

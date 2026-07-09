@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/X509Utilities.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Utilities)
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -33,87 +33,86 @@ namespace Org::BouncyCastle::Crypto::Operators {
 class X509Utilities;
 }
 // Write type traits
-MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::X509Utilities);
+MARK_REF_T(::Org::BouncyCastle::Crypto::Operators::X509Utilities*);
+DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Crypto::Operators::X509Utilities*, "Org.BouncyCastle.Crypto.Operators", "X509Utilities");
 // Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Operators.X509Utilities
 class CORDL_TYPE X509Utilities : public ::System::Object {
 public:
-// Declarations
-/// @brief Field algorithms, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_algorithms, put=setStaticF_algorithms)) ::System::Collections::IDictionary*  algorithms;
+  // Declarations
+  /// @brief Field algorithms, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
 
-/// @brief Field derNull, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_derNull, put=setStaticF_derNull)) ::Org::BouncyCastle::Asn1::Asn1Null*  derNull;
+  /// @brief Field derNull, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_derNull, put = setStaticF_derNull)) ::Org::BouncyCastle::Asn1::Asn1Null* derNull;
 
-/// @brief Field exParams, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_exParams, put=setStaticF_exParams)) ::System::Collections::IDictionary*  exParams;
+  /// @brief Field exParams, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_exParams, put = setStaticF_exParams)) ::System::Collections::IDictionary* exParams;
 
-/// @brief Field noParams, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_noParams, put=setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet*  noParams;
+  /// @brief Field noParams, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
 
-/// @brief Method CreatePssParams, addr 0x334aa7c, size 0x104, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  hashAlgId, int32_t  saltSize) ;
+  /// @brief Method CreatePssParams, addr 0x334aa7c, size 0x104, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-/// @brief Method GetAlgNames, addr 0x334b748, size 0x114, virtual false, abstract: false, final false
-static inline ::System::Collections::IEnumerable* GetAlgNames() ;
+  /// @brief Method GetAlgNames, addr 0x334b748, size 0x114, virtual false, abstract: false, final false
+  static inline ::System::Collections::IEnumerable* GetAlgNames();
 
-/// @brief Method GetAlgorithmOid, addr 0x334b214, size 0x21c, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW  algorithmName) ;
+  /// @brief Method GetAlgorithmOid, addr 0x334b214, size 0x21c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-/// @brief Method GetDigestAlgName, addr 0x334ab80, size 0x3d4, virtual false, abstract: false, final false
-static inline ::StringW GetDigestAlgName(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  digestAlgOID) ;
+  /// @brief Method GetDigestAlgName, addr 0x334ab80, size 0x3d4, virtual false, abstract: false, final false
+  static inline ::StringW GetDigestAlgName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgOID);
 
-/// @brief Method GetSigAlgID, addr 0x334b430, size 0x318, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  sigOid, ::StringW  algorithmName) ;
+  /// @brief Method GetSigAlgID, addr 0x334b430, size 0x318, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid, ::StringW algorithmName);
 
-/// @brief Method GetSignatureName, addr 0x334af54, size 0x2c0, virtual false, abstract: false, final false
-static inline ::StringW GetSignatureName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  sigAlgId) ;
+  /// @brief Method GetSignatureName, addr 0x334af54, size 0x2c0, virtual false, abstract: false, final false
+  static inline ::StringW GetSignatureName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
 
-static inline ::Org::BouncyCastle::Crypto::Operators::X509Utilities* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Operators::X509Utilities* New_ctor();
 
-/// @brief Method .ctor, addr 0x334b85c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x334b85c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Collections::IDictionary* getStaticF_algorithms() ;
+  static inline ::System::Collections::IDictionary* getStaticF_algorithms();
 
-static inline ::Org::BouncyCastle::Asn1::Asn1Null* getStaticF_derNull() ;
+  static inline ::Org::BouncyCastle::Asn1::Asn1Null* getStaticF_derNull();
 
-static inline ::System::Collections::IDictionary* getStaticF_exParams() ;
+  static inline ::System::Collections::IDictionary* getStaticF_exParams();
 
-static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_noParams() ;
+  static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_noParams();
 
-static inline void setStaticF_algorithms(::System::Collections::IDictionary*  value) ;
+  static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);
 
-static inline void setStaticF_derNull(::Org::BouncyCastle::Asn1::Asn1Null*  value) ;
+  static inline void setStaticF_derNull(::Org::BouncyCastle::Asn1::Asn1Null* value);
 
-static inline void setStaticF_exParams(::System::Collections::IDictionary*  value) ;
+  static inline void setStaticF_exParams(::System::Collections::IDictionary* value);
 
-static inline void setStaticF_noParams(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
+  static inline void setStaticF_noParams(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr X509Utilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509Utilities();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "X509Utilities", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  X509Utilities(X509Utilities&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "X509Utilities", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-X509Utilities(X509Utilities && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "X509Utilities", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  X509Utilities(X509Utilities const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "X509Utilities", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-X509Utilities(X509Utilities const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 990 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{990};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Operators::X509Utilities, 0x10>, "Size mismatch!");
+static_assert(sizeof(::Org::BouncyCastle::Crypto::Operators::X509Utilities) == 0x10, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Operators
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Operators::X509Utilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Operators::X509Utilities*, "Org.BouncyCastle.Crypto.Operators", "X509Utilities");
+} // namespace Org::BouncyCastle::Crypto::Operators

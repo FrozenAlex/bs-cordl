@@ -1,8 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Net/NetworkInformation/MacOsStructs/sockaddr_dl.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(sockaddr_dl)
@@ -15,54 +16,58 @@ struct sockaddr_dl;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl);
-// Dependencies 
+DEFINE_IL2CPP_CLASS(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");
+// Dependencies
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
 // CS Name: System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
 struct CORDL_TYPE sockaddr_dl {
 public:
-// Declarations
-/// @brief Method Read, addr 0x6215fb8, size 0x138, virtual false, abstract: false, final false
-inline void Read(::System::IntPtr  ptr) ;
+  // Declarations
+  /// @brief Method Read, addr 0x6215fb8, size 0x138, virtual false, abstract: false, final false
+  inline void Read(::System::IntPtr ptr);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr sockaddr_dl() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr sockaddr_dl();
 
-// Ctor Parameters [CppParam { name: "sdl_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_index", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sdl_type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_nlen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_alen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_slen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_data", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }]
-constexpr sockaddr_dl(uint8_t  sdl_len, uint8_t  sdl_family, uint16_t  sdl_index, uint8_t  sdl_type, uint8_t  sdl_nlen, uint8_t  sdl_alen, uint8_t  sdl_slen, ::ArrayW<uint8_t,::Array<uint8_t>*>  sdl_data) noexcept;
+  // Ctor Parameters [CppParam { name: "sdl_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
+  // "sdl_index", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sdl_type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_nlen", ty: "uint8_t", modifiers:
+  // "", def_value: None }, CppParam { name: "sdl_alen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_slen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
+  // "sdl_data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  constexpr sockaddr_dl(uint8_t sdl_len, uint8_t sdl_family, uint16_t sdl_index, uint8_t sdl_type, uint8_t sdl_nlen, uint8_t sdl_alen, uint8_t sdl_slen, ::ArrayW<uint8_t> sdl_data) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11710};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11710 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field sdl_len, offset: 0x0, size: 0x1, def value: None
- uint8_t  sdl_len;
+  /// @brief Field sdl_len, offset: 0x0, size: 0x1, def value: None
+  uint8_t sdl_len;
 
-/// @brief Field sdl_family, offset: 0x1, size: 0x1, def value: None
- uint8_t  sdl_family;
+  /// @brief Field sdl_family, offset: 0x1, size: 0x1, def value: None
+  uint8_t sdl_family;
 
-/// @brief Field sdl_index, offset: 0x2, size: 0x2, def value: None
- uint16_t  sdl_index;
+  /// @brief Field sdl_index, offset: 0x2, size: 0x2, def value: None
+  uint16_t sdl_index;
 
-/// @brief Field sdl_type, offset: 0x4, size: 0x1, def value: None
- uint8_t  sdl_type;
+  /// @brief Field sdl_type, offset: 0x4, size: 0x1, def value: None
+  uint8_t sdl_type;
 
-/// @brief Field sdl_nlen, offset: 0x5, size: 0x1, def value: None
- uint8_t  sdl_nlen;
+  /// @brief Field sdl_nlen, offset: 0x5, size: 0x1, def value: None
+  uint8_t sdl_nlen;
 
-/// @brief Field sdl_alen, offset: 0x6, size: 0x1, def value: None
- uint8_t  sdl_alen;
+  /// @brief Field sdl_alen, offset: 0x6, size: 0x1, def value: None
+  uint8_t sdl_alen;
 
-/// @brief Field sdl_slen, offset: 0x7, size: 0x1, def value: None
- uint8_t  sdl_slen;
+  /// @brief Field sdl_slen, offset: 0x7, size: 0x1, def value: None
+  uint8_t sdl_slen;
 
-/// @brief Field sdl_data, offset: 0x8, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  sdl_data;
+  /// @brief Field sdl_data, offset: 0x8, size: 0x8, def value: None
+  ::ArrayW<uint8_t> sdl_data;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_len) == 0x0, "Offset mismatch!");
@@ -81,7 +86,6 @@ static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr
 
 static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, sdl_data) == 0x8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, 0x10>, "Size mismatch!");
+static_assert(sizeof(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl) == 0x10, "Size mismatch!");
 
-} // namespace end def System::Net::NetworkInformation::MacOsStructs
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");
+} // namespace System::Net::NetworkInformation::MacOsStructs

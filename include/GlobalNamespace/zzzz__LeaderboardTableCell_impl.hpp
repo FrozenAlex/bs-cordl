@@ -6,274 +6,215 @@
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardTableCell.set_rank
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(int32_t)>(&::GlobalNamespace::LeaderboardTableCell::set_rank)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(int32_t)>(&::GlobalNamespace::LeaderboardTableCell::set_rank)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x58cc9cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_rank",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_rank", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardTableCell.set_playerName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(::StringW)>(&::GlobalNamespace::LeaderboardTableCell::set_playerName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(::StringW)>(&::GlobalNamespace::LeaderboardTableCell::set_playerName)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x58cca60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_playerName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_playerName", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardTableCell.set_score
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(int32_t)>(&::GlobalNamespace::LeaderboardTableCell::set_score)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(int32_t)>(&::GlobalNamespace::LeaderboardTableCell::set_score)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x58cca80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_score",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_score", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardTableCell.set_showSeparator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(&::GlobalNamespace::LeaderboardTableCell::set_showSeparator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(&::GlobalNamespace::LeaderboardTableCell::set_showSeparator)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x58ccb30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_showSeparator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_showSeparator", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardTableCell.set_showFullCombo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(&::GlobalNamespace::LeaderboardTableCell::set_showFullCombo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(&::GlobalNamespace::LeaderboardTableCell::set_showFullCombo)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x58ccb4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_showFullCombo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_showFullCombo", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardTableCell.set_specialScore
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(&::GlobalNamespace::LeaderboardTableCell::set_specialScore)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(&::GlobalNamespace::LeaderboardTableCell::set_specialScore)> {
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x58ccb68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_specialScore",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_specialScore", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardTableCell._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)()>(&::GlobalNamespace::LeaderboardTableCell::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)()>(&::GlobalNamespace::LeaderboardTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x58ccc6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__rankText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____rankText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__rankText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rankText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__rankText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____rankText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rankText;
 }
-constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__rankText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rankText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__rankText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____rankText = value;
 }
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__playerNameText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerNameText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__playerNameText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerNameText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__playerNameText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerNameText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerNameText;
 }
-constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerNameText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____playerNameText = value;
 }
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__scoreText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____scoreText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__scoreText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scoreText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__scoreText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____scoreText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scoreText;
 }
-constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoreText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____scoreText = value;
 }
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__fullComboText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fullComboText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__fullComboText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fullComboText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__fullComboText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fullComboText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fullComboText;
 }
-constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__fullComboText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fullComboText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__fullComboText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____fullComboText = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__normalColor()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____normalColor;
+constexpr ::UnityEngine::Color& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__normalColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____normalColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__normalColor() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____normalColor;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____normalColor;
 }
-constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__normalColor(::UnityEngine::Color  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____normalColor = value;
+constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__normalColor(::UnityEngine::Color value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____normalColor = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__specialScoreColor()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____specialScoreColor;
+constexpr ::UnityEngine::Color& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__specialScoreColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____specialScoreColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__specialScoreColor() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____specialScoreColor;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____specialScoreColor;
 }
-constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__specialScoreColor(::UnityEngine::Color  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____specialScoreColor = value;
+constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__specialScoreColor(::UnityEngine::Color value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____specialScoreColor = value;
 }
-constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__separatorImage()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____separatorImage;
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__separatorImage() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____separatorImage;
 }
 constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::LeaderboardTableCell::__cordl_internal_get__separatorImage() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____separatorImage;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____separatorImage;
 }
-constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__separatorImage(::UnityW<::UnityEngine::UI::Image>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____separatorImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LeaderboardTableCell::__cordl_internal_set__separatorImage(::UnityW<::UnityEngine::UI::Image> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____separatorImage = value;
 }
-inline void GlobalNamespace::LeaderboardTableCell::set_rank(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_rank",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LeaderboardTableCell::set_rank(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_rank", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LeaderboardTableCell::set_playerName(::StringW  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_playerName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LeaderboardTableCell::set_playerName(::StringW value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_playerName", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LeaderboardTableCell::set_score(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_score",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LeaderboardTableCell::set_score(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_score", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LeaderboardTableCell::set_showSeparator(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_showSeparator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LeaderboardTableCell::set_showSeparator(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_showSeparator", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LeaderboardTableCell::set_showFullCombo(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_showFullCombo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LeaderboardTableCell::set_showFullCombo(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_showFullCombo", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LeaderboardTableCell::set_specialScore(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        "set_specialScore",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LeaderboardTableCell::set_specialScore(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "set_specialScore", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LeaderboardTableCell::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LeaderboardTableCell::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LeaderboardTableCell* GlobalNamespace::LeaderboardTableCell::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LeaderboardTableCell*>());
+inline ::GlobalNamespace::LeaderboardTableCell* GlobalNamespace::LeaderboardTableCell::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LeaderboardTableCell*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LeaderboardTableCell::LeaderboardTableCell()   {
-}
+constexpr ::GlobalNamespace::LeaderboardTableCell::LeaderboardTableCell() {}

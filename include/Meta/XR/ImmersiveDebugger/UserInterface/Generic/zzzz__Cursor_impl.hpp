@@ -11,388 +11,312 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.get_GameObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::get_GameObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::get_GameObject)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5923874;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "get_GameObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "get_GameObject", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.set_GameObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::GameObject*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::set_GameObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::GameObject*)>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::set_GameObject)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x592387c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "set_GameObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(),
+                                                                                           { "set_GameObject", {}, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.get_Transform
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::get_Transform)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::get_Transform)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5923884;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "get_Transform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "get_Transform", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.set_Transform
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::Transform*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::set_Transform)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::Transform*)>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::set_Transform)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x592388c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "set_Transform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "set_Transform", {}, { ::i2c::type_of<::UnityEngine::Transform*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.Awake
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Awake)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Awake)> {
   constexpr static std::size_t size = 0x1f4;
   constexpr static std::size_t addrs = 0x5923894;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "Awake", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.SetCursorStartDest
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetCursorStartDest)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetCursorStartDest)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5923a88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(),
+                                                                                          { ::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.SetCursorRay
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::Transform*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetCursorRay)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::Transform*)>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetCursorRay)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x5923aac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(),
+                                                                                          { ::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.SetClickState
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::EventSystems::PointerEventData_FramePressState)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetClickState)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::UnityEngine::EventSystems::PointerEventData_FramePressState)>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetClickState)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5923aec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "SetClickState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData_FramePressState>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(),
+                                                             { "SetClickState", {}, { ::i2c::type_of<::UnityEngine::EventSystems::PointerEventData_FramePressState>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.LateUpdate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::LateUpdate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::LateUpdate)> {
   constexpr static std::size_t size = 0x194;
   constexpr static std::size_t addrs = 0x5923b0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "LateUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "LateUpdate", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor.Attach
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Attach)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel*)>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Attach)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x5921870;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "Attach",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(),
+                                                                                           { "Attach", {}, { ::i2c::type_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5923ca0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector3& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__forward()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____forward;
+constexpr ::UnityEngine::Vector3& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__forward() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____forward;
 }
 constexpr ::UnityEngine::Vector3 const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__forward() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____forward;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____forward;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__forward(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____forward = value;
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__forward(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____forward = value;
 }
-constexpr ::UnityEngine::Vector3& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__endPoint()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____endPoint;
+constexpr ::UnityEngine::Vector3& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__endPoint() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____endPoint;
 }
 constexpr ::UnityEngine::Vector3 const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__endPoint() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____endPoint;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____endPoint;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__endPoint(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____endPoint = value;
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__endPoint(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____endPoint = value;
 }
-constexpr ::UnityEngine::Vector3& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__normal()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____normal;
+constexpr ::UnityEngine::Vector3& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__normal() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____normal;
 }
 constexpr ::UnityEngine::Vector3 const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__normal() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____normal;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____normal;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__normal(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____normal = value;
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__normal(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____normal = value;
 }
-constexpr bool& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__hit()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____hit;
+constexpr bool& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__hit() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hit;
 }
 constexpr bool const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__hit() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____hit;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hit;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__hit(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____hit = value;
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__hit(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____hit = value;
 }
-constexpr ::UnityEngine::EventSystems::PointerEventData_FramePressState& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__pressState()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____pressState;
+constexpr ::UnityEngine::EventSystems::PointerEventData_FramePressState& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__pressState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____pressState;
 }
 constexpr ::UnityEngine::EventSystems::PointerEventData_FramePressState const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__pressState() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____pressState;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____pressState;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__pressState(::UnityEngine::EventSystems::PointerEventData_FramePressState  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____pressState = value;
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__pressState(::UnityEngine::EventSystems::PointerEventData_FramePressState value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____pressState = value;
 }
-constexpr ::UnityW<::UnityEngine::Canvas>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__canvas()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____canvas;
+constexpr ::UnityW<::UnityEngine::Canvas>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__canvas() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____canvas;
 }
 constexpr ::UnityW<::UnityEngine::Canvas> const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__canvas() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____canvas;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____canvas;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__canvas(::UnityW<::UnityEngine::Canvas>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____canvas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__canvas(::UnityW<::UnityEngine::Canvas> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____canvas = value;
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__GameObject_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____GameObject_k__BackingField;
+constexpr ::UnityW<::UnityEngine::GameObject>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__GameObject_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____GameObject_k__BackingField;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__GameObject_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____GameObject_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____GameObject_k__BackingField;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__GameObject_k__BackingField(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____GameObject_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__GameObject_k__BackingField(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____GameObject_k__BackingField = value;
 }
-constexpr ::UnityW<::UnityEngine::Transform>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__Transform_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Transform_k__BackingField;
+constexpr ::UnityW<::UnityEngine::Transform>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__Transform_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Transform_k__BackingField;
 }
 constexpr ::UnityW<::UnityEngine::Transform> const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_get__Transform_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Transform_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Transform_k__BackingField;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__Transform_k__BackingField(::UnityW<::UnityEngine::Transform>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Transform_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::__cordl_internal_set__Transform_k__BackingField(::UnityW<::UnityEngine::Transform> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____Transform_k__BackingField = value;
 }
-inline ::UnityW<::UnityEngine::GameObject> Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::get_GameObject()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "get_GameObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::GameObject> Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::get_GameObject() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "get_GameObject", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::set_GameObject(::UnityEngine::GameObject*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "set_GameObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::set_GameObject(::UnityEngine::GameObject* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "set_GameObject", {}, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::Transform> Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::get_Transform()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "get_Transform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Transform> Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::get_Transform() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "get_Transform", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::set_Transform(::UnityEngine::Transform*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "set_Transform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::set_Transform(::UnityEngine::Transform* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "set_Transform", {}, { ::i2c::type_of<::UnityEngine::Transform*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Awake()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Awake() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "Awake", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetCursorStartDest(::UnityEngine::Vector3  start, ::UnityEngine::Vector3  dest, ::UnityEngine::Vector3  normal)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, start, dest, normal);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetCursorStartDest(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 dest, ::UnityEngine::Vector3 normal) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, start, dest, normal);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetCursorRay(::UnityEngine::Transform*  t)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetCursorRay(::UnityEngine::Transform* t) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetClickState(::UnityEngine::EventSystems::PointerEventData_FramePressState  state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "SetClickState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData_FramePressState>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::SetClickState(::UnityEngine::EventSystems::PointerEventData_FramePressState state) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(),
+                                                           { "SetClickState", {}, { ::i2c::type_of<::UnityEngine::EventSystems::PointerEventData_FramePressState>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, state);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::LateUpdate()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "LateUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::LateUpdate() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { "LateUpdate", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Attach(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel*  panel)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        "Attach",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Attach(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel* panel) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(),
+                                                                                         { "Attach", {}, { ::i2c::type_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor* Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>());
+inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor* Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor*>());
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Cursor()   {
-}
+constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor::Cursor() {}

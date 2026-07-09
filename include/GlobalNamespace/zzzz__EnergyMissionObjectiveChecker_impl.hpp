@@ -4,149 +4,103 @@
 #include "GlobalNamespace/zzzz__EnergyMissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnergyMissionObjectiveChecker.OnDestroy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x587dd00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { "OnDestroy", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnergyMissionObjectiveChecker.HandleEnergyDidChange
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)(float_t)>(&::GlobalNamespace::EnergyMissionObjectiveChecker::HandleEnergyDidChange)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)(float_t)>(&::GlobalNamespace::EnergyMissionObjectiveChecker::HandleEnergyDidChange)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x587de10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                        "HandleEnergyDidChange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { "HandleEnergyDidChange", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnergyMissionObjectiveChecker.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x587df38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { ::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnergyMissionObjectiveChecker.CheckAndUpdateStatus
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::CheckAndUpdateStatus)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::CheckAndUpdateStatus)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x587de7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                        "CheckAndUpdateStatus",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { "CheckAndUpdateStatus", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnergyMissionObjectiveChecker._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&::GlobalNamespace::EnergyMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x587e0ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& GlobalNamespace::EnergyMissionObjectiveChecker::__cordl_internal_get__energyCounter()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____energyCounter;
+constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& GlobalNamespace::EnergyMissionObjectiveChecker::__cordl_internal_get__energyCounter() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____energyCounter;
 }
 constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& GlobalNamespace::EnergyMissionObjectiveChecker::__cordl_internal_get__energyCounter() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____energyCounter;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____energyCounter;
 }
-constexpr void GlobalNamespace::EnergyMissionObjectiveChecker::__cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____energyCounter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnergyMissionObjectiveChecker::__cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____energyCounter = value;
 }
-inline void GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { "OnDestroy", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::EnergyMissionObjectiveChecker::HandleEnergyDidChange(float_t  energy)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                        "HandleEnergyDidChange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, energy);
+inline void GlobalNamespace::EnergyMissionObjectiveChecker::HandleEnergyDidChange(float_t energy) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { "HandleEnergyDidChange", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, energy);
 }
-inline void GlobalNamespace::EnergyMissionObjectiveChecker::Init()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnergyMissionObjectiveChecker::Init() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::EnergyMissionObjectiveChecker::CheckAndUpdateStatus()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                        "CheckAndUpdateStatus",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnergyMissionObjectiveChecker::CheckAndUpdateStatus() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { "CheckAndUpdateStatus", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::EnergyMissionObjectiveChecker::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnergyMissionObjectiveChecker::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnergyMissionObjectiveChecker*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EnergyMissionObjectiveChecker* GlobalNamespace::EnergyMissionObjectiveChecker::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnergyMissionObjectiveChecker*>());
+inline ::GlobalNamespace::EnergyMissionObjectiveChecker* GlobalNamespace::EnergyMissionObjectiveChecker::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::EnergyMissionObjectiveChecker*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::EnergyMissionObjectiveChecker::EnergyMissionObjectiveChecker()   {
-}
+constexpr ::GlobalNamespace::EnergyMissionObjectiveChecker::EnergyMissionObjectiveChecker() {}

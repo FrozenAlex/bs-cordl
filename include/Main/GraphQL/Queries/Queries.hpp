@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Main/GraphQL/Queries/FeatureFlagsEnabled.hpp"
 #ifdef __cpp_modules
-                    export module Queries;
-                    #endif
-                
+export module Queries;
+#endif

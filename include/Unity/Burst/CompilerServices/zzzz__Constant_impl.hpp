@@ -3,45 +3,28 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__Constant_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::Constant.IsConstantExpression
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*)>(&::Unity::Burst::CompilerServices::Constant::IsConstantExpression)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(void*)>(&::Unity::Burst::CompilerServices::Constant::IsConstantExpression)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x63651d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Constant*>::get(),
-                        "IsConstantExpression",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Constant*>(), { "IsConstantExpression", {}, { ::i2c::type_of<void*>() } })));
     return ___internal_method;
   }
 };
-template<typename T>
-inline bool Unity::Burst::CompilerServices::Constant::IsConstantExpression(T  t)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Constant*>::get(),
-                    "IsConstantExpression",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, t);
+template <typename T> inline bool Unity::Burst::CompilerServices::Constant::IsConstantExpression(T t) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Constant*>(), { "IsConstantExpression", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, t);
 }
-inline bool Unity::Burst::CompilerServices::Constant::IsConstantExpression(void*  t)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Constant*>::get(),
-                        "IsConstantExpression",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, t);
+inline bool Unity::Burst::CompilerServices::Constant::IsConstantExpression(void* t) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Constant*>(), { "IsConstantExpression", {}, { ::i2c::type_of<void*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, t);
 }
 // Ctor Parameters []
-constexpr ::Unity::Burst::CompilerServices::Constant::Constant()   {
-}
+constexpr ::Unity::Burst::CompilerServices::Constant::Constant() {}

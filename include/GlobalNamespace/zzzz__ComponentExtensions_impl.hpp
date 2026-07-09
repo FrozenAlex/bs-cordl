@@ -3,20 +3,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ComponentExtensions_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
-template<typename T>
-inline T GlobalNamespace::ComponentExtensions::GetComponentInParentOnly(::UnityEngine::Component*  c)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComponentExtensions*>::get(),
-                    "GetComponentInParentOnly",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Component*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, c);
+template <typename T> inline T GlobalNamespace::ComponentExtensions::GetComponentInParentOnly(::UnityEngine::Component* c) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComponentExtensions*>(), { "GetComponentInParentOnly", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Component*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, c);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ComponentExtensions::ComponentExtensions()   {
-}
+constexpr ::GlobalNamespace::ComponentExtensions::ComponentExtensions() {}

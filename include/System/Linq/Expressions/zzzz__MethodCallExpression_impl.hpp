@@ -10,283 +10,210 @@
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::MethodCallExpression::*)(::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::MethodCallExpression::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::MethodCallExpression::*)(::System::Reflection::MethodInfo*)>(
+    &::System::Linq::Expressions::MethodCallExpression::_ctor)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x5e46558;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { ".ctor", {}, { ::i2c::type_of<::System::Reflection::MethodInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression.GetInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpression::*)()>(&::System::Linq::Expressions::MethodCallExpression::GetInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpression::*)()>(
+    &::System::Linq::Expressions::MethodCallExpression::GetInstance)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e465bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 12 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression.get_NodeType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::MethodCallExpression::*)()>(&::System::Linq::Expressions::MethodCallExpression::get_NodeType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::MethodCallExpression::*)()>(
+    &::System::Linq::Expressions::MethodCallExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e465c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        "get_NodeType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { "get_NodeType", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression.get_Type
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::MethodCallExpression::*)()>(&::System::Linq::Expressions::MethodCallExpression::get_Type)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::MethodCallExpression::*)()>(&::System::Linq::Expressions::MethodCallExpression::get_Type)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5e465cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        "get_Type",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { "get_Type", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression.get_Method
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::MethodCallExpression::*)()>(&::System::Linq::Expressions::MethodCallExpression::get_Method)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::MethodCallExpression::*)()>(
+    &::System::Linq::Expressions::MethodCallExpression::get_Method)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e465ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        "get_Method",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { "get_Method", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression.get_Object
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpression::*)()>(&::System::Linq::Expressions::MethodCallExpression::get_Object)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpression::*)()>(
+    &::System::Linq::Expressions::MethodCallExpression::get_Object)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5e42574;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        "get_Object",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { "get_Object", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression.Accept
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::MethodCallExpression::Accept)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (
+    ::System::Linq::Expressions::MethodCallExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::MethodCallExpression::Accept)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e465f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 9 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression.Rewrite
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::MethodCallExpression* (::System::Linq::Expressions::MethodCallExpression::*)(::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::MethodCallExpression::Rewrite)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::MethodCallExpression* (
+    ::System::Linq::Expressions::MethodCallExpression::*)(::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(
+    &::System::Linq::Expressions::MethodCallExpression::Rewrite)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e4661c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression.GetArgument
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpression::*)(int32_t)>(&::System::Linq::Expressions::MethodCallExpression::GetArgument)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpression::*)(int32_t)>(
+    &::System::Linq::Expressions::MethodCallExpression::GetArgument)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e46644;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::MethodCallExpression.get_ArgumentCount
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::MethodCallExpression::*)()>(&::System::Linq::Expressions::MethodCallExpression::get_ArgumentCount)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::MethodCallExpression::*)()>(&::System::Linq::Expressions::MethodCallExpression::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e4666c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 15 }));
     return ___internal_method;
   }
 };
-constexpr ::System::Reflection::MethodInfo*& System::Linq::Expressions::MethodCallExpression::__cordl_internal_get__Method_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Method_k__BackingField;
+constexpr ::System::Reflection::MethodInfo*& System::Linq::Expressions::MethodCallExpression::__cordl_internal_get__Method_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Method_k__BackingField;
 }
 constexpr ::System::Reflection::MethodInfo* const& System::Linq::Expressions::MethodCallExpression::__cordl_internal_get__Method_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Method_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Method_k__BackingField;
 }
-constexpr void System::Linq::Expressions::MethodCallExpression::__cordl_internal_set__Method_k__BackingField(::System::Reflection::MethodInfo*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Method_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Linq::Expressions::MethodCallExpression::__cordl_internal_set__Method_k__BackingField(::System::Reflection::MethodInfo* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____Method_k__BackingField = value;
 }
-inline void System::Linq::Expressions::MethodCallExpression::_ctor(::System::Reflection::MethodInfo*  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, method);
+inline void System::Linq::Expressions::MethodCallExpression::_ctor(::System::Reflection::MethodInfo* method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { ".ctor", {}, { ::i2c::type_of<::System::Reflection::MethodInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, method);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::MethodCallExpression::GetInstance()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::MethodCallExpression::GetInstance() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 12 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::ExpressionType System::Linq::Expressions::MethodCallExpression::get_NodeType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        "get_NodeType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::ExpressionType, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::ExpressionType System::Linq::Expressions::MethodCallExpression::get_NodeType() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { "get_NodeType", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::ExpressionType>(this, ___internal_method);
 }
-inline ::System::Type* System::Linq::Expressions::MethodCallExpression::get_Type()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        "get_Type",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+inline ::System::Type* System::Linq::Expressions::MethodCallExpression::get_Type() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { "get_Type", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
-inline ::System::Reflection::MethodInfo* System::Linq::Expressions::MethodCallExpression::get_Method()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        "get_Method",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(this, ___internal_method);
+inline ::System::Reflection::MethodInfo* System::Linq::Expressions::MethodCallExpression::get_Method() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { "get_Method", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::MethodCallExpression::get_Object()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                        "get_Object",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::MethodCallExpression::get_Object() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), { "get_Object", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::MethodCallExpression::Accept(::System::Linq::Expressions::ExpressionVisitor*  visitor)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method, visitor);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::MethodCallExpression::Accept(::System::Linq::Expressions::ExpressionVisitor* visitor) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, visitor);
 }
-inline ::System::Linq::Expressions::MethodCallExpression* System::Linq::Expressions::MethodCallExpression::Rewrite(::System::Linq::Expressions::Expression*  instance, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*  args)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::MethodCallExpression*, false>(this, ___internal_method, instance, args);
+inline ::System::Linq::Expressions::MethodCallExpression*
+System::Linq::Expressions::MethodCallExpression::Rewrite(::System::Linq::Expressions::Expression* instance,
+                                                         ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::MethodCallExpression*>(this, ___internal_method, instance, args);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::MethodCallExpression::GetArgument(int32_t  index)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method, index);
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::MethodCallExpression::GetArgument(int32_t index) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, index);
 }
-inline int32_t System::Linq::Expressions::MethodCallExpression::get_ArgumentCount()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MethodCallExpression*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Linq::Expressions::MethodCallExpression::get_ArgumentCount() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::MethodCallExpression*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::MethodCallExpression* System::Linq::Expressions::MethodCallExpression::New_ctor(::System::Reflection::MethodInfo*  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::MethodCallExpression*>(method));
+inline ::System::Linq::Expressions::MethodCallExpression* System::Linq::Expressions::MethodCallExpression::New_ctor(::System::Reflection::MethodInfo* method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Expressions::MethodCallExpression*>(method));
 }
 /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
-constexpr  System::Linq::Expressions::MethodCallExpression::operator ::System::Linq::Expressions::IArgumentProvider*() noexcept {
-return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
+constexpr System::Linq::Expressions::MethodCallExpression::operator ::System::Linq::Expressions::IArgumentProvider*() noexcept {
+  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
 constexpr ::System::Linq::Expressions::IArgumentProvider* System::Linq::Expressions::MethodCallExpression::i___System__Linq__Expressions__IArgumentProvider() noexcept {
-return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
+  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::MethodCallExpression::MethodCallExpression()   {
-}
+constexpr ::System::Linq::Expressions::MethodCallExpression::MethodCallExpression() {}

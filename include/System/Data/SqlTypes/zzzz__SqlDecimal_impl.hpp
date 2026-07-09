@@ -20,2195 +20,1655 @@
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.CalculatePrecision
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::CalculatePrecision)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::CalculatePrecision)> {
   constexpr static std::size_t size = 0x23c;
   constexpr static std::size_t addrs = 0x5f49194;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CalculatePrecision",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CalculatePrecision", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.VerifyPrecision
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)(uint8_t)>(&::System::Data::SqlTypes::SqlDecimal::VerifyPrecision)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)(uint8_t)>(&::System::Data::SqlTypes::SqlDecimal::VerifyPrecision)> {
   constexpr static std::size_t size = 0x228;
   constexpr static std::size_t addrs = 0x5f493d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "VerifyPrecision",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "VerifyPrecision", {}, { ::i2c::type_of<uint8_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(bool)>(&::System::Data::SqlTypes::SqlDecimal::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(bool)>(&::System::Data::SqlTypes::SqlDecimal::_ctor)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5f495f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::System::Decimal)>(&::System::Data::SqlTypes::SqlDecimal::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::System::Decimal)>(&::System::Data::SqlTypes::SqlDecimal::_ctor)> {
   constexpr static std::size_t size = 0x16c;
   constexpr static std::size_t addrs = 0x5f49664;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ".ctor", {}, { ::i2c::type_of<::System::Decimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(int32_t)>(&::System::Data::SqlTypes::SqlDecimal::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(int32_t)>(&::System::Data::SqlTypes::SqlDecimal::_ctor)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x5f497d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(int64_t)>(&::System::Data::SqlTypes::SqlDecimal::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(int64_t)>(&::System::Data::SqlTypes::SqlDecimal::_ctor)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x5f49a60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ".ctor", {}, { ::i2c::type_of<int64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::ArrayW<uint32_t,::Array<uint32_t>*>, uint8_t, uint8_t, uint8_t, bool)>(&::System::Data::SqlTypes::SqlDecimal::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::ArrayW<uint32_t>, uint8_t, uint8_t, uint8_t, bool)>(
+    &::System::Data::SqlTypes::SqlDecimal::_ctor)> {
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x5f49e60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                            { ".ctor", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.get_IsNull
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_IsNull)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_IsNull)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x5f4a134;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_IsNull",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_IsNull", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.get_Value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_Value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_Value)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x5f4a1a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_Value", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.get_IsPositive
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_IsPositive)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_IsPositive)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x5f4a364;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_IsPositive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_IsPositive", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.SetPositive
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::SetPositive)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::SetPositive)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5f4a0c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "SetPositive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "SetPositive", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.SetSignBit
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(bool)>(&::System::Data::SqlTypes::SqlDecimal::SetSignBit)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(bool)>(&::System::Data::SqlTypes::SqlDecimal::SetSignBit)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5f4a424;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "SetSignBit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "SetSignBit", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.get_Scale
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_Scale)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_Scale)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x5f4a4bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_Scale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_Scale", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.get_Data
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t,::Array<int32_t>*> (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_Data)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::get_Data)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x5f4a550;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_Data",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_Data", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToString)> {
   constexpr static std::size_t size = 0x32c;
   constexpr static std::size_t addrs = 0x5f4a650;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), 3 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.Parse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::StringW)>(&::System::Data::SqlTypes::SqlDecimal::Parse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::StringW)>(&::System::Data::SqlTypes::SqlDecimal::Parse)> {
   constexpr static std::size_t size = 0x4ac;
   constexpr static std::size_t addrs = 0x5f4aa5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "Parse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.ToDouble
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToDouble)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToDouble)> {
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x5f4b374;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToDouble",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToDouble", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.ToDecimal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToDecimal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToDecimal)> {
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x5f4a200;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToDecimal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToDecimal", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Implicit___System__Data__SqlTypes__SqlDecimal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Decimal)>(&::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Decimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5f4b4d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Decimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Implicit___System__Data__SqlTypes__SqlDecimal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(int64_t)>(&::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(int64_t)>(&::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5f4b4f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<int64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_UnaryNegation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::op_UnaryNegation)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::op_UnaryNegation)> {
   constexpr static std::size_t size = 0x128;
   constexpr static std::size_t addrs = 0x5f4b510;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_UnaryNegation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_UnaryNegation", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Addition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::op_Addition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Addition)> {
   constexpr static std::size_t size = 0x5f0;
   constexpr static std::size_t addrs = 0x5f4b638;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Addition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                { "op_Addition", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Subtraction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::op_Subtraction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Subtraction)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x5f4c128;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Subtraction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                { "op_Subtraction", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Multiply
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::op_Multiply)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Multiply)> {
   constexpr static std::size_t size = 0x8e0;
   constexpr static std::size_t addrs = 0x5f4c1e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Multiply",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                { "op_Multiply", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Division
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::op_Division)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Division)> {
   constexpr static std::size_t size = 0x414;
   constexpr static std::size_t addrs = 0x5f4cac0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Division",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                { "op_Division", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Implicit___System__Data__SqlTypes__SqlDecimal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlByte)>(&::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlByte)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5f4d74c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlByte>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlByte>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Implicit___System__Data__SqlTypes__SqlDecimal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlInt16)>(&::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlInt16)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5f4d830;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlInt16>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlInt16>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Implicit___System__Data__SqlTypes__SqlDecimal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlInt32)>(&::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlInt32)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5f4d968;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlInt32>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlInt32>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Implicit___System__Data__SqlTypes__SqlDecimal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlInt64)>(&::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlInt64)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x5f4daec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlInt64>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlInt64>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Implicit___System__Data__SqlTypes__SqlDecimal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlMoney)>(&::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::System::Data::SqlTypes::SqlMoney)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x5f4dbdc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlMoney>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlMoney>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.ZeroToMaxLen
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, int32_t)>(&::System::Data::SqlTypes::SqlDecimal::ZeroToMaxLen)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, int32_t)>(&::System::Data::SqlTypes::SqlDecimal::ZeroToMaxLen)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5f4d6d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ZeroToMaxLen",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ZeroToMaxLen", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.FZero
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::FZero)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::FZero)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5f4a0a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "FZero",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "FZero", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.FGt10_38
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::FGt10_38)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::FGt10_38)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x5f4c0c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "FGt10_38",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "FGt10_38", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.FGt10_38
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)(::ArrayW<uint32_t,::Array<uint32_t>*>)>(&::System::Data::SqlTypes::SqlDecimal::FGt10_38)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)(::ArrayW<uint32_t>)>(&::System::Data::SqlTypes::SqlDecimal::FGt10_38)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x5f4ddfc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "FGt10_38",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "FGt10_38", {}, { ::i2c::type_of<::ArrayW<uint32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.BGetPrecUI4
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::BGetPrecUI4)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::BGetPrecUI4)> {
   constexpr static std::size_t size = 0x1b8;
   constexpr static std::size_t addrs = 0x5f498a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "BGetPrecUI4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "BGetPrecUI4", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.BGetPrecUI8
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint64_t)>(&::System::Data::SqlTypes::SqlDecimal::BGetPrecUI8)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(uint64_t)>(&::System::Data::SqlTypes::SqlDecimal::BGetPrecUI8)> {
   constexpr static std::size_t size = 0x330;
   constexpr static std::size_t addrs = 0x5f49b30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "BGetPrecUI8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "BGetPrecUI8", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.AddULong
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::AddULong)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::AddULong)> {
   constexpr static std::size_t size = 0x1dc;
   constexpr static std::size_t addrs = 0x5f4b198;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "AddULong",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "AddULong", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.MultByULong
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::MultByULong)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::MultByULong)> {
   constexpr static std::size_t size = 0x214;
   constexpr static std::size_t addrs = 0x5f4af84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MultByULong",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "MultByULong", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.DivByULong
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Data::SqlTypes::SqlDecimal::*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::DivByULong)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::System::Data::SqlTypes::SqlDecimal::*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::DivByULong)> {
   constexpr static std::size_t size = 0x1b4;
   constexpr static std::size_t addrs = 0x5f4decc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "DivByULong",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "DivByULong", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.AdjustScale
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(int32_t, bool)>(&::System::Data::SqlTypes::SqlDecimal::AdjustScale)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(int32_t, bool)>(&::System::Data::SqlTypes::SqlDecimal::AdjustScale)> {
   constexpr static std::size_t size = 0x338;
   constexpr static std::size_t addrs = 0x5f4bc28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "AdjustScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "AdjustScale", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.LAbsCmp
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SqlTypes::SqlDecimal::*)(::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::LAbsCmp)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::SqlTypes::SqlDecimal::*)(::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::LAbsCmp)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x5f4bf60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "LAbsCmp",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "LAbsCmp", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.MpMove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t,::Array<uint32_t>*>, ::ByRef<int32_t>)>(&::System::Data::SqlTypes::SqlDecimal::MpMove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, int32_t, ::ArrayW<uint32_t>, ::by_ref<int32_t>)>(&::System::Data::SqlTypes::SqlDecimal::MpMove)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x5f4e0e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpMove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                            { "MpMove", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.MpSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, ::ByRef<int32_t>, uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::MpSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, ::by_ref<int32_t>, uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::MpSet)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x5f4e148;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                             { "MpSet", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.MpNormalize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, ::ByRef<int32_t>)>(&::System::Data::SqlTypes::SqlDecimal::MpNormalize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, ::by_ref<int32_t>)>(&::System::Data::SqlTypes::SqlDecimal::MpNormalize)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x5f4e174;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpNormalize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                                                           { "MpNormalize", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.MpMul1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, ::ByRef<int32_t>, uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::MpMul1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, ::by_ref<int32_t>, uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::MpMul1)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x5f4e1cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpMul1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                             { "MpMul1", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.MpDiv1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, ::ByRef<int32_t>, uint32_t, ::ByRef<uint32_t>)>(&::System::Data::SqlTypes::SqlDecimal::MpDiv1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, ::by_ref<int32_t>, uint32_t, ::by_ref<uint32_t>)>(&::System::Data::SqlTypes::SqlDecimal::MpDiv1)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x5f4a97c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpDiv1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                            { "MpDiv1", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.DWL
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint32_t, uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::DWL)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint32_t, uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::DWL)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5f4e2d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "DWL",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "DWL", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.HI
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint64_t)>(&::System::Data::SqlTypes::SqlDecimal::HI)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint64_t)>(&::System::Data::SqlTypes::SqlDecimal::HI)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5f4e2cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "HI",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "HI", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.LO
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint64_t)>(&::System::Data::SqlTypes::SqlDecimal::LO)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint64_t)>(&::System::Data::SqlTypes::SqlDecimal::LO)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5f4e2d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "LO",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "LO", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.MpDiv
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t,::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t,::Array<uint32_t>*>, ::ByRef<int32_t>, ::ArrayW<uint32_t,::Array<uint32_t>*>, ::ByRef<int32_t>)>(&::System::Data::SqlTypes::SqlDecimal::MpDiv)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, int32_t, ::ArrayW<uint32_t>, int32_t, ::ArrayW<uint32_t>, ::by_ref<int32_t>, ::ArrayW<uint32_t>,
+                                                                ::by_ref<int32_t>)>(&::System::Data::SqlTypes::SqlDecimal::MpDiv)> {
   constexpr static std::size_t size = 0x7fc;
   constexpr static std::size_t addrs = 0x5f4ced4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpDiv",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 8>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                                                           { "MpDiv",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<uint32_t>>(),
+                                                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                               ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.CompareNm
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::EComparison (::System::Data::SqlTypes::SqlDecimal::*)(::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::CompareNm)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::EComparison (::System::Data::SqlTypes::SqlDecimal::*)(::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::CompareNm)> {
   constexpr static std::size_t size = 0x260;
   constexpr static std::size_t addrs = 0x5f4e2e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CompareNm",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CompareNm", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.CheckValidPrecScale
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t, uint8_t)>(&::System::Data::SqlTypes::SqlDecimal::CheckValidPrecScale)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t, uint8_t)>(&::System::Data::SqlTypes::SqlDecimal::CheckValidPrecScale)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5f49fc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CheckValidPrecScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CheckValidPrecScale", {}, { ::i2c::type_of<uint8_t>(), ::i2c::type_of<uint8_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_Equality
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::op_Equality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_Equality)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x5f4e544;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                { "op_Equality", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_LessThan
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::op_LessThan)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_LessThan)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x5f4e644;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_LessThan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                { "op_LessThan", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.op_GreaterThan
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::op_GreaterThan)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::op_GreaterThan)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x5f4e744;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_GreaterThan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                { "op_GreaterThan", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.LessThan
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::LessThan)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::LessThan)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x5f4e844;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "LessThan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                             { "LessThan", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.GreaterThan
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::GreaterThan)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlDecimal, ::System::Data::SqlTypes::SqlDecimal)>(
+    &::System::Data::SqlTypes::SqlDecimal::GreaterThan)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x5f4e8d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "GreaterThan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                { "GreaterThan", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.ToSqlDouble
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDouble (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToSqlDouble)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDouble (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToSqlDouble)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x5f4e96c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToSqlDouble",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToSqlDouble", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.ToSqlInt64
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToSqlInt64)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt64 (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToSqlInt64)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x5f4eaac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToSqlInt64",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToSqlInt64", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.ToSqlMoney
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlMoney (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToSqlMoney)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlMoney (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::ToSqlMoney)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x5f4ece4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToSqlMoney",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToSqlMoney", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.ChFromDigit
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::ChFromDigit)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(uint32_t)>(&::System::Data::SqlTypes::SqlDecimal::ChFromDigit)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5f4aa54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ChFromDigit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ChFromDigit", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.StoreFromWorkingArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::ArrayW<uint32_t,::Array<uint32_t>*>)>(&::System::Data::SqlTypes::SqlDecimal::StoreFromWorkingArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::ArrayW<uint32_t>)>(&::System::Data::SqlTypes::SqlDecimal::StoreFromWorkingArray)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x5f4de74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "StoreFromWorkingArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "StoreFromWorkingArray", {}, { ::i2c::type_of<::ArrayW<uint32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.SetToZero
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::SetToZero)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::SetToZero)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5f4af08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "SetToZero",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "SetToZero", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.CompareTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SqlTypes::SqlDecimal::*)(::System::Object*)>(&::System::Data::SqlTypes::SqlDecimal::CompareTo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::SqlTypes::SqlDecimal::*)(::System::Object*)>(&::System::Data::SqlTypes::SqlDecimal::CompareTo)> {
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x5f4ee34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CompareTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CompareTo", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.CompareTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SqlTypes::SqlDecimal::*)(::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::CompareTo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::SqlTypes::SqlDecimal::*)(::System::Data::SqlTypes::SqlDecimal)>(&::System::Data::SqlTypes::SqlDecimal::CompareTo)> {
   constexpr static std::size_t size = 0x1a0;
   constexpr static std::size_t addrs = 0x5f4ef4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CompareTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CompareTo", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)(::System::Object*)>(&::System::Data::SqlTypes::SqlDecimal::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlDecimal::*)(::System::Object*)>(&::System::Data::SqlTypes::SqlDecimal::Equals)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x5f4f0ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x5f4f264;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.System_Xml_Serialization_IXmlSerializable_GetSchema
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Data::SqlTypes::SqlDecimal::*)()>(&::System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Data::SqlTypes::SqlDecimal::*)()>(
+    &::System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5f4f36c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "System.Xml.Serialization.IXmlSerializable.GetSchema",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "System.Xml.Serialization.IXmlSerializable.GetSchema", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.System_Xml_Serialization_IXmlSerializable_ReadXml
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::System::Xml::XmlReader*)>(&::System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::System::Xml::XmlReader*)>(
+    &::System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x5f4f374;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "System.Xml.Serialization.IXmlSerializable.ReadXml",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "System.Xml.Serialization.IXmlSerializable.ReadXml", {}, { ::i2c::type_of<::System::Xml::XmlReader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.System_Xml_Serialization_IXmlSerializable_WriteXml
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::System::Xml::XmlWriter*)>(&::System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlDecimal::*)(::System::Xml::XmlWriter*)>(
+    &::System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x5f4f4ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "System.Xml.Serialization.IXmlSerializable.WriteXml",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlWriter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "System.Xml.Serialization.IXmlSerializable.WriteXml", {}, { ::i2c::type_of<::System::Xml::XmlWriter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::SqlTypes::SqlDecimal.GetXsdType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Xml::Schema::XmlSchemaSet*)>(&::System::Data::SqlTypes::SqlDecimal::GetXsdType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Xml::Schema::XmlSchemaSet*)>(&::System::Data::SqlTypes::SqlDecimal::GetXsdType)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x5f4f648;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "GetXsdType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSet*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "GetXsdType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSet*>() } })));
     return ___internal_method;
   }
 };
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_NUMERIC_MAX_PRECISION(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_NUMERIC_MAX_PRECISION", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_NUMERIC_MAX_PRECISION(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_NUMERIC_MAX_PRECISION", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_NUMERIC_MAX_PRECISION()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_NUMERIC_MAX_PRECISION", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_NUMERIC_MAX_PRECISION() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_NUMERIC_MAX_PRECISION", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_MaxPrecision(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "MaxPrecision", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_MaxPrecision(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "MaxPrecision", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_MaxPrecision()  {
-return ::cordl_internals::getStaticField<uint8_t, "MaxPrecision", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_MaxPrecision() {
+  return ::cordl_internals::getStaticField<uint8_t, "MaxPrecision", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_MaxScale(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "MaxScale", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_MaxScale(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "MaxScale", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_MaxScale()  {
-return ::cordl_internals::getStaticField<uint8_t, "MaxScale", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_MaxScale() {
+  return ::cordl_internals::getStaticField<uint8_t, "MaxScale", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bNullMask(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_bNullMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bNullMask(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_bNullMask", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bNullMask()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_bNullMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bNullMask() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_bNullMask", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bIsNull(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_bIsNull", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bIsNull(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_bIsNull", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bIsNull()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_bIsNull", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bIsNull() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_bIsNull", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bNotNull(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_bNotNull", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bNotNull(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_bNotNull", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bNotNull()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_bNotNull", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bNotNull() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_bNotNull", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bReverseNullMask(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_bReverseNullMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bReverseNullMask(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_bReverseNullMask", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bReverseNullMask()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_bReverseNullMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bReverseNullMask() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_bReverseNullMask", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bSignMask(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_bSignMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bSignMask(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_bSignMask", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bSignMask()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_bSignMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bSignMask() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_bSignMask", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bPositive(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_bPositive", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bPositive(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_bPositive", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bPositive()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_bPositive", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bPositive() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_bPositive", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bNegative(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_bNegative", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bNegative(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_bNegative", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bNegative()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_bNegative", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bNegative() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_bNegative", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bReverseSignMask(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_bReverseSignMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_bReverseSignMask(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_bReverseSignMask", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bReverseSignMask()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_bReverseSignMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_bReverseSignMask() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_bReverseSignMask", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_uiZero(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_uiZero", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_uiZero(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_uiZero", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_uiZero()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_uiZero", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_uiZero() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_uiZero", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_cNumeMax(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "s_cNumeMax", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<int32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_cNumeMax(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "s_cNumeMax", ::System::Data::SqlTypes::SqlDecimal>(std::forward<int32_t>(value));
 }
-inline int32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_cNumeMax()  {
-return ::cordl_internals::getStaticField<int32_t, "s_cNumeMax", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline int32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_cNumeMax() {
+  return ::cordl_internals::getStaticField<int32_t, "s_cNumeMax", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_lInt32Base(int64_t  value)  {
-::cordl_internals::setStaticField<int64_t, "s_lInt32Base", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<int64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_lInt32Base(int64_t value) {
+  ::cordl_internals::setStaticField<int64_t, "s_lInt32Base", ::System::Data::SqlTypes::SqlDecimal>(std::forward<int64_t>(value));
 }
-inline int64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_lInt32Base()  {
-return ::cordl_internals::getStaticField<int64_t, "s_lInt32Base", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline int64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_lInt32Base() {
+  return ::cordl_internals::getStaticField<int64_t, "s_lInt32Base", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulInt32Base(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_ulInt32Base", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulInt32Base(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_ulInt32Base", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulInt32Base()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_ulInt32Base", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulInt32Base() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_ulInt32Base", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulInt32BaseForMod(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_ulInt32BaseForMod", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulInt32BaseForMod(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_ulInt32BaseForMod", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulInt32BaseForMod()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_ulInt32BaseForMod", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulInt32BaseForMod() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_ulInt32BaseForMod", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_llMax(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_llMax", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_llMax(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_llMax", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_llMax()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_llMax", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_llMax() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_llMax", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulBase10(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulBase10", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulBase10(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulBase10", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulBase10()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulBase10", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulBase10() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulBase10", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DUINT_BASE(double_t  value)  {
-::cordl_internals::setStaticField<double_t, "s_DUINT_BASE", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<double_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DUINT_BASE(double_t value) {
+  ::cordl_internals::setStaticField<double_t, "s_DUINT_BASE", ::System::Data::SqlTypes::SqlDecimal>(std::forward<double_t>(value));
 }
-inline double_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DUINT_BASE()  {
-return ::cordl_internals::getStaticField<double_t, "s_DUINT_BASE", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline double_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DUINT_BASE() {
+  return ::cordl_internals::getStaticField<double_t, "s_DUINT_BASE", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DUINT_BASE2(double_t  value)  {
-::cordl_internals::setStaticField<double_t, "s_DUINT_BASE2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<double_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DUINT_BASE2(double_t value) {
+  ::cordl_internals::setStaticField<double_t, "s_DUINT_BASE2", ::System::Data::SqlTypes::SqlDecimal>(std::forward<double_t>(value));
 }
-inline double_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DUINT_BASE2()  {
-return ::cordl_internals::getStaticField<double_t, "s_DUINT_BASE2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline double_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DUINT_BASE2() {
+  return ::cordl_internals::getStaticField<double_t, "s_DUINT_BASE2", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DUINT_BASE3(double_t  value)  {
-::cordl_internals::setStaticField<double_t, "s_DUINT_BASE3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<double_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DUINT_BASE3(double_t value) {
+  ::cordl_internals::setStaticField<double_t, "s_DUINT_BASE3", ::System::Data::SqlTypes::SqlDecimal>(std::forward<double_t>(value));
 }
-inline double_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DUINT_BASE3()  {
-return ::cordl_internals::getStaticField<double_t, "s_DUINT_BASE3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline double_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DUINT_BASE3() {
+  return ::cordl_internals::getStaticField<double_t, "s_DUINT_BASE3", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DMAX_NUME(double_t  value)  {
-::cordl_internals::setStaticField<double_t, "s_DMAX_NUME", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<double_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DMAX_NUME(double_t value) {
+  ::cordl_internals::setStaticField<double_t, "s_DMAX_NUME", ::System::Data::SqlTypes::SqlDecimal>(std::forward<double_t>(value));
 }
-inline double_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DMAX_NUME()  {
-return ::cordl_internals::getStaticField<double_t, "s_DMAX_NUME", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline double_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DMAX_NUME() {
+  return ::cordl_internals::getStaticField<double_t, "s_DMAX_NUME", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DBL_DIG(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_DBL_DIG", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_DBL_DIG(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_DBL_DIG", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DBL_DIG()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_DBL_DIG", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_DBL_DIG() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_DBL_DIG", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_cNumeDivScaleMin(uint8_t  value)  {
-::cordl_internals::setStaticField<uint8_t, "s_cNumeDivScaleMin", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint8_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_cNumeDivScaleMin(uint8_t value) {
+  ::cordl_internals::setStaticField<uint8_t, "s_cNumeDivScaleMin", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint8_t>(value));
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_cNumeDivScaleMin()  {
-return ::cordl_internals::getStaticField<uint8_t, "s_cNumeDivScaleMin", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint8_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_cNumeDivScaleMin() {
+  return ::cordl_internals::getStaticField<uint8_t, "s_cNumeDivScaleMin", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_rgulShiftBase(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_rgulShiftBase", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<::ArrayW<uint32_t,::Array<uint32_t>*>>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_rgulShiftBase(::ArrayW<uint32_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint32_t>, "s_rgulShiftBase", ::System::Data::SqlTypes::SqlDecimal>(std::forward<::ArrayW<uint32_t>>(value));
 }
-inline ::ArrayW<uint32_t,::Array<uint32_t>*> System::Data::SqlTypes::SqlDecimal::getStaticF_s_rgulShiftBase()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_rgulShiftBase", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline ::ArrayW<uint32_t> System::Data::SqlTypes::SqlDecimal::getStaticF_s_rgulShiftBase() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "s_rgulShiftBase", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_decimalHelpersLo(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_decimalHelpersLo", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<::ArrayW<uint32_t,::Array<uint32_t>*>>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_decimalHelpersLo(::ArrayW<uint32_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint32_t>, "s_decimalHelpersLo", ::System::Data::SqlTypes::SqlDecimal>(std::forward<::ArrayW<uint32_t>>(value));
 }
-inline ::ArrayW<uint32_t,::Array<uint32_t>*> System::Data::SqlTypes::SqlDecimal::getStaticF_s_decimalHelpersLo()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_decimalHelpersLo", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline ::ArrayW<uint32_t> System::Data::SqlTypes::SqlDecimal::getStaticF_s_decimalHelpersLo() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "s_decimalHelpersLo", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_decimalHelpersMid(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_decimalHelpersMid", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<::ArrayW<uint32_t,::Array<uint32_t>*>>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_decimalHelpersMid(::ArrayW<uint32_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint32_t>, "s_decimalHelpersMid", ::System::Data::SqlTypes::SqlDecimal>(std::forward<::ArrayW<uint32_t>>(value));
 }
-inline ::ArrayW<uint32_t,::Array<uint32_t>*> System::Data::SqlTypes::SqlDecimal::getStaticF_s_decimalHelpersMid()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_decimalHelpersMid", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline ::ArrayW<uint32_t> System::Data::SqlTypes::SqlDecimal::getStaticF_s_decimalHelpersMid() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "s_decimalHelpersMid", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_decimalHelpersHi(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_decimalHelpersHi", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<::ArrayW<uint32_t,::Array<uint32_t>*>>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_decimalHelpersHi(::ArrayW<uint32_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint32_t>, "s_decimalHelpersHi", ::System::Data::SqlTypes::SqlDecimal>(std::forward<::ArrayW<uint32_t>>(value));
 }
-inline ::ArrayW<uint32_t,::Array<uint32_t>*> System::Data::SqlTypes::SqlDecimal::getStaticF_s_decimalHelpersHi()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_decimalHelpersHi", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline ::ArrayW<uint32_t> System::Data::SqlTypes::SqlDecimal::getStaticF_s_decimalHelpersHi() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "s_decimalHelpersHi", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_decimalHelpersHiHi(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_decimalHelpersHiHi", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<::ArrayW<uint32_t,::Array<uint32_t>*>>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_decimalHelpersHiHi(::ArrayW<uint32_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint32_t>, "s_decimalHelpersHiHi", ::System::Data::SqlTypes::SqlDecimal>(std::forward<::ArrayW<uint32_t>>(value));
 }
-inline ::ArrayW<uint32_t,::Array<uint32_t>*> System::Data::SqlTypes::SqlDecimal::getStaticF_s_decimalHelpersHiHi()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "s_decimalHelpersHiHi", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline ::ArrayW<uint32_t> System::Data::SqlTypes::SqlDecimal::getStaticF_s_decimalHelpersHiHi() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "s_decimalHelpersHiHi", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_rgCLenFromPrec(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "s_rgCLenFromPrec", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<::ArrayW<uint8_t,::Array<uint8_t>*>>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_rgCLenFromPrec(::ArrayW<uint8_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint8_t>, "s_rgCLenFromPrec", ::System::Data::SqlTypes::SqlDecimal>(std::forward<::ArrayW<uint8_t>>(value));
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> System::Data::SqlTypes::SqlDecimal::getStaticF_s_rgCLenFromPrec()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "s_rgCLenFromPrec", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline ::ArrayW<uint8_t> System::Data::SqlTypes::SqlDecimal::getStaticF_s_rgCLenFromPrec() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "s_rgCLenFromPrec", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT1(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulT1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT1(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulT1", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT1()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulT1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT1() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulT1", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT2(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulT2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT2(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulT2", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT2()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulT2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT2() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulT2", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT3(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulT3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT3(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulT3", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT3()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulT3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT3() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulT3", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT4(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulT4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT4(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulT4", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT4()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulT4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT4() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulT4", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT5(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulT5", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT5(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulT5", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT5()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulT5", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT5() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulT5", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT6(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulT6", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT6(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulT6", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT6()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulT6", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT6() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulT6", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT7(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulT7", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT7(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulT7", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT7()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulT7", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT7() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulT7", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT8(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulT8", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT8(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulT8", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT8()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulT8", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT8() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulT8", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT9(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_ulT9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint32_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_ulT9(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_ulT9", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint32_t>(value));
 }
-inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT9()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_ulT9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint32_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_ulT9() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_ulT9", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT10(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT10", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT10(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT10", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT10()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT10", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT10() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT10", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT11(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT11", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT11(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT11", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT11()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT11", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT11() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT11", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT12(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT12", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT12(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT12", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT12()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT12", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT12() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT12", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT13(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT13", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT13(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT13", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT13()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT13", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT13() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT13", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT14(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT14", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT14(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT14", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT14()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT14", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT14() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT14", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT15(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT15", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT15(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT15", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT15()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT15", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT15() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT15", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT16(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT16", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT16(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT16", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT16()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT16", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT16() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT16", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT17(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT17", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT17(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT17", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT17()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT17", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT17() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT17", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT18(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT18", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT18(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT18", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT18()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT18", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT18() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT18", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT19(uint64_t  value)  {
-::cordl_internals::setStaticField<uint64_t, "s_dwlT19", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<uint64_t>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_s_dwlT19(uint64_t value) {
+  ::cordl_internals::setStaticField<uint64_t, "s_dwlT19", ::System::Data::SqlTypes::SqlDecimal>(std::forward<uint64_t>(value));
 }
-inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT19()  {
-return ::cordl_internals::getStaticField<uint64_t, "s_dwlT19", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline uint64_t System::Data::SqlTypes::SqlDecimal::getStaticF_s_dwlT19() {
+  return ::cordl_internals::getStaticField<uint64_t, "s_dwlT19", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_Null(::System::Data::SqlTypes::SqlDecimal  value)  {
-::cordl_internals::setStaticField<::System::Data::SqlTypes::SqlDecimal, "Null", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<::System::Data::SqlTypes::SqlDecimal>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_Null(::System::Data::SqlTypes::SqlDecimal value) {
+  ::cordl_internals::setStaticField<::System::Data::SqlTypes::SqlDecimal, "Null", ::System::Data::SqlTypes::SqlDecimal>(std::forward<::System::Data::SqlTypes::SqlDecimal>(value));
 }
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::getStaticF_Null()  {
-return ::cordl_internals::getStaticField<::System::Data::SqlTypes::SqlDecimal, "Null", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::getStaticF_Null() {
+  return ::cordl_internals::getStaticField<::System::Data::SqlTypes::SqlDecimal, "Null", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_MinValue(::System::Data::SqlTypes::SqlDecimal  value)  {
-::cordl_internals::setStaticField<::System::Data::SqlTypes::SqlDecimal, "MinValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<::System::Data::SqlTypes::SqlDecimal>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_MinValue(::System::Data::SqlTypes::SqlDecimal value) {
+  ::cordl_internals::setStaticField<::System::Data::SqlTypes::SqlDecimal, "MinValue", ::System::Data::SqlTypes::SqlDecimal>(std::forward<::System::Data::SqlTypes::SqlDecimal>(value));
 }
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::getStaticF_MinValue()  {
-return ::cordl_internals::getStaticField<::System::Data::SqlTypes::SqlDecimal, "MinValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::getStaticF_MinValue() {
+  return ::cordl_internals::getStaticField<::System::Data::SqlTypes::SqlDecimal, "MinValue", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline void System::Data::SqlTypes::SqlDecimal::setStaticF_MaxValue(::System::Data::SqlTypes::SqlDecimal  value)  {
-::cordl_internals::setStaticField<::System::Data::SqlTypes::SqlDecimal, "MaxValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>(std::forward<::System::Data::SqlTypes::SqlDecimal>(value));
+inline void System::Data::SqlTypes::SqlDecimal::setStaticF_MaxValue(::System::Data::SqlTypes::SqlDecimal value) {
+  ::cordl_internals::setStaticField<::System::Data::SqlTypes::SqlDecimal, "MaxValue", ::System::Data::SqlTypes::SqlDecimal>(std::forward<::System::Data::SqlTypes::SqlDecimal>(value));
 }
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::getStaticF_MaxValue()  {
-return ::cordl_internals::getStaticField<::System::Data::SqlTypes::SqlDecimal, "MaxValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get>();
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::getStaticF_MaxValue() {
+  return ::cordl_internals::getStaticField<::System::Data::SqlTypes::SqlDecimal, "MaxValue", ::System::Data::SqlTypes::SqlDecimal>();
 }
-inline uint8_t System::Data::SqlTypes::SqlDecimal::CalculatePrecision()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CalculatePrecision",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint8_t, false>(this, ___internal_method);
+inline uint8_t System::Data::SqlTypes::SqlDecimal::CalculatePrecision() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CalculatePrecision", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t>(*this, ___internal_method);
 }
-inline bool System::Data::SqlTypes::SqlDecimal::VerifyPrecision(uint8_t  precision)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "VerifyPrecision",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, precision);
+inline bool System::Data::SqlTypes::SqlDecimal::VerifyPrecision(uint8_t precision) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "VerifyPrecision", {}, { ::i2c::type_of<uint8_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, precision);
 }
-inline void System::Data::SqlTypes::SqlDecimal::_ctor(bool  fNull)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fNull);
+inline void System::Data::SqlTypes::SqlDecimal::_ctor(bool fNull) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, fNull);
 }
-inline void System::Data::SqlTypes::SqlDecimal::_ctor(::System::Decimal  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline void System::Data::SqlTypes::SqlDecimal::_ctor(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline void System::Data::SqlTypes::SqlDecimal::_ctor(int64_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline void System::Data::SqlTypes::SqlDecimal::_ctor(::ArrayW<uint32_t,::Array<uint32_t>*>  rglData, uint8_t  bLen, uint8_t  bPrec, uint8_t  bScale, bool  fPositive)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rglData, bLen, bPrec, bScale, fPositive);
-}
-inline bool System::Data::SqlTypes::SqlDecimal::get_IsNull()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_IsNull",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Decimal System::Data::SqlTypes::SqlDecimal::get_Value()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Decimal, false>(this, ___internal_method);
-}
-inline bool System::Data::SqlTypes::SqlDecimal::get_IsPositive()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_IsPositive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void System::Data::SqlTypes::SqlDecimal::SetPositive()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "SetPositive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Data::SqlTypes::SqlDecimal::SetSignBit(bool  fPositive)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "SetSignBit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fPositive);
-}
-inline uint8_t System::Data::SqlTypes::SqlDecimal::get_Scale()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_Scale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint8_t, false>(this, ___internal_method);
-}
-inline ::ArrayW<int32_t,::Array<int32_t>*> System::Data::SqlTypes::SqlDecimal::get_Data()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "get_Data",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t,::Array<int32_t>*>, false>(this, ___internal_method);
-}
-inline ::StringW System::Data::SqlTypes::SqlDecimal::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::Parse(::StringW  s)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "Parse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, s);
-}
-inline double_t System::Data::SqlTypes::SqlDecimal::ToDouble()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToDouble",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method);
-}
-inline ::System::Decimal System::Data::SqlTypes::SqlDecimal::ToDecimal()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToDecimal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Decimal, false>(this, ___internal_method);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Decimal  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(int64_t  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_UnaryNegation(::System::Data::SqlTypes::SqlDecimal  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_UnaryNegation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Addition(::System::Data::SqlTypes::SqlDecimal  x, ::System::Data::SqlTypes::SqlDecimal  y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Addition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x, y);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Subtraction(::System::Data::SqlTypes::SqlDecimal  x, ::System::Data::SqlTypes::SqlDecimal  y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Subtraction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x, y);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Multiply(::System::Data::SqlTypes::SqlDecimal  x, ::System::Data::SqlTypes::SqlDecimal  y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Multiply",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x, y);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Division(::System::Data::SqlTypes::SqlDecimal  x, ::System::Data::SqlTypes::SqlDecimal  y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Division",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x, y);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlByte  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlByte>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlInt16  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlInt16>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlInt32  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlInt32>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlInt64  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlInt64>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x);
-}
-inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlMoney  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlMoney>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal, false>(nullptr, ___internal_method, x);
-}
-inline void System::Data::SqlTypes::SqlDecimal::ZeroToMaxLen(::ArrayW<uint32_t,::Array<uint32_t>*>  rgulData, int32_t  cUI4sCur)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ZeroToMaxLen",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rgulData, cUI4sCur);
-}
-inline bool System::Data::SqlTypes::SqlDecimal::FZero()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "FZero",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Data::SqlTypes::SqlDecimal::FGt10_38()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "FGt10_38",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Data::SqlTypes::SqlDecimal::FGt10_38(::ArrayW<uint32_t,::Array<uint32_t>*>  rglData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "FGt10_38",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, rglData);
-}
-inline uint8_t System::Data::SqlTypes::SqlDecimal::BGetPrecUI4(uint32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "BGetPrecUI4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method, value);
-}
-inline uint8_t System::Data::SqlTypes::SqlDecimal::BGetPrecUI8(uint64_t  dwlVal)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "BGetPrecUI8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method, dwlVal);
-}
-inline void System::Data::SqlTypes::SqlDecimal::AddULong(uint32_t  ulAdd)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "AddULong",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ulAdd);
-}
-inline void System::Data::SqlTypes::SqlDecimal::MultByULong(uint32_t  uiMultiplier)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MultByULong",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uiMultiplier);
-}
-inline uint32_t System::Data::SqlTypes::SqlDecimal::DivByULong(uint32_t  iDivisor)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "DivByULong",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, iDivisor);
-}
-inline void System::Data::SqlTypes::SqlDecimal::AdjustScale(int32_t  digits, bool  fRound)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "AdjustScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, digits, fRound);
-}
-inline int32_t System::Data::SqlTypes::SqlDecimal::LAbsCmp(::System::Data::SqlTypes::SqlDecimal  snumOp)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "LAbsCmp",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, snumOp);
-}
-inline void System::Data::SqlTypes::SqlDecimal::MpMove(::ArrayW<uint32_t,::Array<uint32_t>*>  rgulS, int32_t  ciulS, ::ArrayW<uint32_t,::Array<uint32_t>*>  rgulD, ::ByRef<int32_t>  ciulD)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpMove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rgulS, ciulS, rgulD, ciulD);
-}
-inline void System::Data::SqlTypes::SqlDecimal::MpSet(::ArrayW<uint32_t,::Array<uint32_t>*>  rgulD, ::ByRef<int32_t>  ciulD, uint32_t  iulN)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rgulD, ciulD, iulN);
-}
-inline void System::Data::SqlTypes::SqlDecimal::MpNormalize(::ArrayW<uint32_t,::Array<uint32_t>*>  rgulU, ::ByRef<int32_t>  ciulU)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpNormalize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rgulU, ciulU);
-}
-inline void System::Data::SqlTypes::SqlDecimal::MpMul1(::ArrayW<uint32_t,::Array<uint32_t>*>  piulD, ::ByRef<int32_t>  ciulD, uint32_t  iulX)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpMul1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, piulD, ciulD, iulX);
-}
-inline void System::Data::SqlTypes::SqlDecimal::MpDiv1(::ArrayW<uint32_t,::Array<uint32_t>*>  rgulU, ::ByRef<int32_t>  ciulU, uint32_t  iulD, ::ByRef<uint32_t>  iulR)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpDiv1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rgulU, ciulU, iulD, iulR);
-}
-inline uint64_t System::Data::SqlTypes::SqlDecimal::DWL(uint32_t  lo, uint32_t  hi)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "DWL",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, lo, hi);
-}
-inline uint32_t System::Data::SqlTypes::SqlDecimal::HI(uint64_t  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "HI",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x);
-}
-inline uint32_t System::Data::SqlTypes::SqlDecimal::LO(uint64_t  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "LO",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x);
-}
-inline void System::Data::SqlTypes::SqlDecimal::MpDiv(::ArrayW<uint32_t,::Array<uint32_t>*>  rgulU, int32_t  ciulU, ::ArrayW<uint32_t,::Array<uint32_t>*>  rgulD, int32_t  ciulD, ::ArrayW<uint32_t,::Array<uint32_t>*>  rgulQ, ::ByRef<int32_t>  ciulQ, ::ArrayW<uint32_t,::Array<uint32_t>*>  rgulR, ::ByRef<int32_t>  ciulR)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "MpDiv",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 8>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rgulU, ciulU, rgulD, ciulD, rgulQ, ciulQ, rgulR, ciulR);
-}
-inline ::System::Data::SqlTypes::EComparison System::Data::SqlTypes::SqlDecimal::CompareNm(::System::Data::SqlTypes::SqlDecimal  snumOp)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CompareNm",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::EComparison, false>(this, ___internal_method, snumOp);
-}
-inline void System::Data::SqlTypes::SqlDecimal::CheckValidPrecScale(uint8_t  bPrec, uint8_t  bScale)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CheckValidPrecScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, bPrec, bScale);
-}
-inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::op_Equality(::System::Data::SqlTypes::SqlDecimal  x, ::System::Data::SqlTypes::SqlDecimal  y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_Equality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean, false>(nullptr, ___internal_method, x, y);
-}
-inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::op_LessThan(::System::Data::SqlTypes::SqlDecimal  x, ::System::Data::SqlTypes::SqlDecimal  y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_LessThan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean, false>(nullptr, ___internal_method, x, y);
-}
-inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::op_GreaterThan(::System::Data::SqlTypes::SqlDecimal  x, ::System::Data::SqlTypes::SqlDecimal  y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "op_GreaterThan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean, false>(nullptr, ___internal_method, x, y);
-}
-inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::LessThan(::System::Data::SqlTypes::SqlDecimal  x, ::System::Data::SqlTypes::SqlDecimal  y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "LessThan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean, false>(nullptr, ___internal_method, x, y);
-}
-inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::GreaterThan(::System::Data::SqlTypes::SqlDecimal  x, ::System::Data::SqlTypes::SqlDecimal  y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "GreaterThan",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean, false>(nullptr, ___internal_method, x, y);
-}
-inline ::System::Data::SqlTypes::SqlDouble System::Data::SqlTypes::SqlDecimal::ToSqlDouble()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToSqlDouble",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDouble, false>(this, ___internal_method);
-}
-inline ::System::Data::SqlTypes::SqlInt64 System::Data::SqlTypes::SqlDecimal::ToSqlInt64()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToSqlInt64",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlInt64, false>(this, ___internal_method);
-}
-inline ::System::Data::SqlTypes::SqlMoney System::Data::SqlTypes::SqlDecimal::ToSqlMoney()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ToSqlMoney",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlMoney, false>(this, ___internal_method);
-}
-inline char16_t System::Data::SqlTypes::SqlDecimal::ChFromDigit(uint32_t  uiDigit)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "ChFromDigit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, uiDigit);
-}
-inline void System::Data::SqlTypes::SqlDecimal::StoreFromWorkingArray(::ArrayW<uint32_t,::Array<uint32_t>*>  rguiData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "StoreFromWorkingArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rguiData);
-}
-inline void System::Data::SqlTypes::SqlDecimal::SetToZero()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "SetToZero",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline int32_t System::Data::SqlTypes::SqlDecimal::CompareTo(::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CompareTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value);
-}
-inline int32_t System::Data::SqlTypes::SqlDecimal::CompareTo(::System::Data::SqlTypes::SqlDecimal  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "CompareTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::SqlTypes::SqlDecimal>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value);
-}
-inline bool System::Data::SqlTypes::SqlDecimal::Equals(::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
-}
-inline int32_t System::Data::SqlTypes::SqlDecimal::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline ::System::Xml::Schema::XmlSchema* System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_GetSchema()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "System.Xml.Serialization.IXmlSerializable.GetSchema",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchema*, false>(this, ___internal_method);
-}
-inline void System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader*  reader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "System.Xml.Serialization.IXmlSerializable.ReadXml",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
-}
-inline void System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter*  writer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "System.Xml.Serialization.IXmlSerializable.WriteXml",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlWriter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer);
-}
-inline ::System::Xml::XmlQualifiedName* System::Data::SqlTypes::SqlDecimal::GetXsdType(::System::Xml::Schema::XmlSchemaSet*  schemaSet)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlDecimal>::get(),
-                        "GetXsdType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaSet*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, schemaSet);
+inline void System::Data::SqlTypes::SqlDecimal::_ctor(::System::Decimal value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ".ctor", {}, { ::i2c::type_of<::System::Decimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void System::Data::SqlTypes::SqlDecimal::_ctor(int32_t value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void System::Data::SqlTypes::SqlDecimal::_ctor(int64_t value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { ".ctor", {}, { ::i2c::type_of<int64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void System::Data::SqlTypes::SqlDecimal::_ctor(::ArrayW<uint32_t> rglData, uint8_t bLen, uint8_t bPrec, uint8_t bScale, bool fPositive) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, rglData, bLen, bPrec, bScale, fPositive);
+}
+inline bool System::Data::SqlTypes::SqlDecimal::get_IsNull() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_IsNull", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline ::System::Decimal System::Data::SqlTypes::SqlDecimal::get_Value() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_Value", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Decimal>(*this, ___internal_method);
+}
+inline bool System::Data::SqlTypes::SqlDecimal::get_IsPositive() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_IsPositive", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline void System::Data::SqlTypes::SqlDecimal::SetPositive() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "SetPositive", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void System::Data::SqlTypes::SqlDecimal::SetSignBit(bool fPositive) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "SetSignBit", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, fPositive);
+}
+inline uint8_t System::Data::SqlTypes::SqlDecimal::get_Scale() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_Scale", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t>(*this, ___internal_method);
+}
+inline ::ArrayW<int32_t> System::Data::SqlTypes::SqlDecimal::get_Data() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "get_Data", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t>>(*this, ___internal_method);
+}
+inline ::StringW System::Data::SqlTypes::SqlDecimal::ToString() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::Parse(::StringW s) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, s);
+}
+inline double_t System::Data::SqlTypes::SqlDecimal::ToDouble() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToDouble", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<double_t>(*this, ___internal_method);
+}
+inline ::System::Decimal System::Data::SqlTypes::SqlDecimal::ToDecimal() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToDecimal", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Decimal>(*this, ___internal_method);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Decimal x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Decimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(int64_t x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<int64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_UnaryNegation(::System::Data::SqlTypes::SqlDecimal x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_UnaryNegation", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Addition(::System::Data::SqlTypes::SqlDecimal x, ::System::Data::SqlTypes::SqlDecimal y) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                           { "op_Addition", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x, y);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Subtraction(::System::Data::SqlTypes::SqlDecimal x, ::System::Data::SqlTypes::SqlDecimal y) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                              { "op_Subtraction", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x, y);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Multiply(::System::Data::SqlTypes::SqlDecimal x, ::System::Data::SqlTypes::SqlDecimal y) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                           { "op_Multiply", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x, y);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Division(::System::Data::SqlTypes::SqlDecimal x, ::System::Data::SqlTypes::SqlDecimal y) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                           { "op_Division", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x, y);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlByte x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlByte>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlInt16 x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlInt16>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlInt32 x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlInt32>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlInt64 x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlInt64>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x);
+}
+inline ::System::Data::SqlTypes::SqlDecimal System::Data::SqlTypes::SqlDecimal::op_Implicit___System__Data__SqlTypes__SqlDecimal(::System::Data::SqlTypes::SqlMoney x) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlMoney>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDecimal>(nullptr, ___internal_method, x);
+}
+inline void System::Data::SqlTypes::SqlDecimal::ZeroToMaxLen(::ArrayW<uint32_t> rgulData, int32_t cUI4sCur) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ZeroToMaxLen", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rgulData, cUI4sCur);
+}
+inline bool System::Data::SqlTypes::SqlDecimal::FZero() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "FZero", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline bool System::Data::SqlTypes::SqlDecimal::FGt10_38() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "FGt10_38", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline bool System::Data::SqlTypes::SqlDecimal::FGt10_38(::ArrayW<uint32_t> rglData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "FGt10_38", {}, { ::i2c::type_of<::ArrayW<uint32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, rglData);
+}
+inline uint8_t System::Data::SqlTypes::SqlDecimal::BGetPrecUI4(uint32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "BGetPrecUI4", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t>(nullptr, ___internal_method, value);
+}
+inline uint8_t System::Data::SqlTypes::SqlDecimal::BGetPrecUI8(uint64_t dwlVal) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "BGetPrecUI8", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t>(nullptr, ___internal_method, dwlVal);
+}
+inline void System::Data::SqlTypes::SqlDecimal::AddULong(uint32_t ulAdd) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "AddULong", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ulAdd);
+}
+inline void System::Data::SqlTypes::SqlDecimal::MultByULong(uint32_t uiMultiplier) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "MultByULong", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, uiMultiplier);
+}
+inline uint32_t System::Data::SqlTypes::SqlDecimal::DivByULong(uint32_t iDivisor) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "DivByULong", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, iDivisor);
+}
+inline void System::Data::SqlTypes::SqlDecimal::AdjustScale(int32_t digits, bool fRound) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "AdjustScale", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, digits, fRound);
+}
+inline int32_t System::Data::SqlTypes::SqlDecimal::LAbsCmp(::System::Data::SqlTypes::SqlDecimal snumOp) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "LAbsCmp", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, snumOp);
+}
+inline void System::Data::SqlTypes::SqlDecimal::MpMove(::ArrayW<uint32_t> rgulS, int32_t ciulS, ::ArrayW<uint32_t> rgulD, ::by_ref<int32_t> ciulD) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                          { "MpMove", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rgulS, ciulS, rgulD, ciulD);
+}
+inline void System::Data::SqlTypes::SqlDecimal::MpSet(::ArrayW<uint32_t> rgulD, ::by_ref<int32_t> ciulD, uint32_t iulN) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                           { "MpSet", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rgulD, ciulD, iulN);
+}
+inline void System::Data::SqlTypes::SqlDecimal::MpNormalize(::ArrayW<uint32_t> rgulU, ::by_ref<int32_t> ciulU) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "MpNormalize", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rgulU, ciulU);
+}
+inline void System::Data::SqlTypes::SqlDecimal::MpMul1(::ArrayW<uint32_t> piulD, ::by_ref<int32_t> ciulD, uint32_t iulX) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                           { "MpMul1", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, piulD, ciulD, iulX);
+}
+inline void System::Data::SqlTypes::SqlDecimal::MpDiv1(::ArrayW<uint32_t> rgulU, ::by_ref<int32_t> ciulU, uint32_t iulD, ::by_ref<uint32_t> iulR) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                          { "MpDiv1", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rgulU, ciulU, iulD, iulR);
+}
+inline uint64_t System::Data::SqlTypes::SqlDecimal::DWL(uint32_t lo, uint32_t hi) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "DWL", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t>(nullptr, ___internal_method, lo, hi);
+}
+inline uint32_t System::Data::SqlTypes::SqlDecimal::HI(uint64_t x) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "HI", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, x);
+}
+inline uint32_t System::Data::SqlTypes::SqlDecimal::LO(uint64_t x) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "LO", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, x);
+}
+inline void System::Data::SqlTypes::SqlDecimal::MpDiv(::ArrayW<uint32_t> rgulU, int32_t ciulU, ::ArrayW<uint32_t> rgulD, int32_t ciulD, ::ArrayW<uint32_t> rgulQ, ::by_ref<int32_t> ciulQ,
+                                                      ::ArrayW<uint32_t> rgulR, ::by_ref<int32_t> ciulR) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                       { "MpDiv",
+                                         {},
+                                         { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>(),
+                                           ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rgulU, ciulU, rgulD, ciulD, rgulQ, ciulQ, rgulR, ciulR);
+}
+inline ::System::Data::SqlTypes::EComparison System::Data::SqlTypes::SqlDecimal::CompareNm(::System::Data::SqlTypes::SqlDecimal snumOp) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CompareNm", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::EComparison>(*this, ___internal_method, snumOp);
+}
+inline void System::Data::SqlTypes::SqlDecimal::CheckValidPrecScale(uint8_t bPrec, uint8_t bScale) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CheckValidPrecScale", {}, { ::i2c::type_of<uint8_t>(), ::i2c::type_of<uint8_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, bPrec, bScale);
+}
+inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::op_Equality(::System::Data::SqlTypes::SqlDecimal x, ::System::Data::SqlTypes::SqlDecimal y) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                           { "op_Equality", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean>(nullptr, ___internal_method, x, y);
+}
+inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::op_LessThan(::System::Data::SqlTypes::SqlDecimal x, ::System::Data::SqlTypes::SqlDecimal y) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                           { "op_LessThan", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean>(nullptr, ___internal_method, x, y);
+}
+inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::op_GreaterThan(::System::Data::SqlTypes::SqlDecimal x, ::System::Data::SqlTypes::SqlDecimal y) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                              { "op_GreaterThan", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean>(nullptr, ___internal_method, x, y);
+}
+inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::LessThan(::System::Data::SqlTypes::SqlDecimal x, ::System::Data::SqlTypes::SqlDecimal y) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                           { "LessThan", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean>(nullptr, ___internal_method, x, y);
+}
+inline ::System::Data::SqlTypes::SqlBoolean System::Data::SqlTypes::SqlDecimal::GreaterThan(::System::Data::SqlTypes::SqlDecimal x, ::System::Data::SqlTypes::SqlDecimal y) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(),
+                                                           { "GreaterThan", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>(), ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBoolean>(nullptr, ___internal_method, x, y);
+}
+inline ::System::Data::SqlTypes::SqlDouble System::Data::SqlTypes::SqlDecimal::ToSqlDouble() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToSqlDouble", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlDouble>(*this, ___internal_method);
+}
+inline ::System::Data::SqlTypes::SqlInt64 System::Data::SqlTypes::SqlDecimal::ToSqlInt64() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToSqlInt64", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlInt64>(*this, ___internal_method);
+}
+inline ::System::Data::SqlTypes::SqlMoney System::Data::SqlTypes::SqlDecimal::ToSqlMoney() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ToSqlMoney", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlMoney>(*this, ___internal_method);
+}
+inline char16_t System::Data::SqlTypes::SqlDecimal::ChFromDigit(uint32_t uiDigit) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "ChFromDigit", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, uiDigit);
+}
+inline void System::Data::SqlTypes::SqlDecimal::StoreFromWorkingArray(::ArrayW<uint32_t> rguiData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "StoreFromWorkingArray", {}, { ::i2c::type_of<::ArrayW<uint32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, rguiData);
+}
+inline void System::Data::SqlTypes::SqlDecimal::SetToZero() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "SetToZero", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline int32_t System::Data::SqlTypes::SqlDecimal::CompareTo(::System::Object* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CompareTo", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, value);
+}
+inline int32_t System::Data::SqlTypes::SqlDecimal::CompareTo(::System::Data::SqlTypes::SqlDecimal value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "CompareTo", {}, { ::i2c::type_of<::System::Data::SqlTypes::SqlDecimal>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, value);
+}
+inline bool System::Data::SqlTypes::SqlDecimal::Equals(::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value);
+}
+inline int32_t System::Data::SqlTypes::SqlDecimal::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchema* System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_GetSchema() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "System.Xml.Serialization.IXmlSerializable.GetSchema", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchema*>(*this, ___internal_method);
+}
+inline void System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "System.Xml.Serialization.IXmlSerializable.ReadXml", {}, { ::i2c::type_of<::System::Xml::XmlReader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, reader);
+}
+inline void System::Data::SqlTypes::SqlDecimal::System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "System.Xml.Serialization.IXmlSerializable.WriteXml", {}, { ::i2c::type_of<::System::Xml::XmlWriter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, writer);
+}
+inline ::System::Xml::XmlQualifiedName* System::Data::SqlTypes::SqlDecimal::GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlDecimal>(), { "GetXsdType", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaSet*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*>(nullptr, ___internal_method, schemaSet);
 }
 /// @brief Convert operator to "::System::Data::SqlTypes::INullable"
-constexpr  System::Data::SqlTypes::SqlDecimal::operator ::System::Data::SqlTypes::INullable*()  {
-return static_cast<::System::Data::SqlTypes::INullable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr System::Data::SqlTypes::SqlDecimal::operator ::System::Data::SqlTypes::INullable*() {
+  return static_cast<::System::Data::SqlTypes::INullable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Data::SqlTypes::INullable"
-constexpr ::System::Data::SqlTypes::INullable* System::Data::SqlTypes::SqlDecimal::i___System__Data__SqlTypes__INullable()  {
-return static_cast<::System::Data::SqlTypes::INullable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Data::SqlTypes::INullable* System::Data::SqlTypes::SqlDecimal::i___System__Data__SqlTypes__INullable() {
+  return static_cast<::System::Data::SqlTypes::INullable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert operator to "::System::IComparable"
-constexpr  System::Data::SqlTypes::SqlDecimal::operator ::System::IComparable*()  {
-return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr System::Data::SqlTypes::SqlDecimal::operator ::System::IComparable*() {
+  return static_cast<::System::IComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IComparable"
-constexpr ::System::IComparable* System::Data::SqlTypes::SqlDecimal::i___System__IComparable()  {
-return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IComparable* System::Data::SqlTypes::SqlDecimal::i___System__IComparable() {
+  return static_cast<::System::IComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
-constexpr  System::Data::SqlTypes::SqlDecimal::operator ::System::Xml::Serialization::IXmlSerializable*()  {
-return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr System::Data::SqlTypes::SqlDecimal::operator ::System::Xml::Serialization::IXmlSerializable*() {
+  return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
-constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlDecimal::i___System__Xml__Serialization__IXmlSerializable()  {
-return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlDecimal::i___System__Xml__Serialization__IXmlSerializable() {
+  return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_bStatus", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bLen", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bPrec", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bScale", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_data1", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_data2", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_data3", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_data4", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Data::SqlTypes::SqlDecimal::SqlDecimal(uint8_t  _bStatus, uint8_t  _bLen, uint8_t  _bPrec, uint8_t  _bScale, uint32_t  _data1, uint32_t  _data2, uint32_t  _data3, uint32_t  _data4) noexcept  {
-this->_bStatus = _bStatus;
-this->_bLen = _bLen;
-this->_bPrec = _bPrec;
-this->_bScale = _bScale;
-this->_data1 = _data1;
-this->_data2 = _data2;
-this->_data3 = _data3;
-this->_data4 = _data4;
+// Ctor Parameters [CppParam { name: "_bStatus", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bLen", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "_bPrec", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bScale", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_data1", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_data2", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_data3", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "_data4", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Data::SqlTypes::SqlDecimal::SqlDecimal(uint8_t _bStatus, uint8_t _bLen, uint8_t _bPrec, uint8_t _bScale, uint32_t _data1, uint32_t _data2, uint32_t _data3,
+                                                           uint32_t _data4) noexcept {
+  this->_bStatus = _bStatus;
+  this->_bLen = _bLen;
+  this->_bPrec = _bPrec;
+  this->_bScale = _bScale;
+  this->_data1 = _data1;
+  this->_data2 = _data2;
+  this->_data3 = _data3;
+  this->_data4 = _data4;
 }
 // Ctor Parameters []
-constexpr ::System::Data::SqlTypes::SqlDecimal::SqlDecimal()   {
-}
+constexpr ::System::Data::SqlTypes::SqlDecimal::SqlDecimal() {}

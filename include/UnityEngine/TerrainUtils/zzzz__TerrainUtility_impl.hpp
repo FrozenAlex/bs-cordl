@@ -7,235 +7,170 @@
 #include "UnityEngine/TerrainUtils/zzzz__TerrainUtility_def.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::*)()>(&::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::*)()>(
+    &::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6a64704;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::__cordl_internal_get_onlyAutoConnectedTerrains()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___onlyAutoConnectedTerrains;
+constexpr bool& UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::__cordl_internal_get_onlyAutoConnectedTerrains() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onlyAutoConnectedTerrains;
 }
 constexpr bool const& UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::__cordl_internal_get_onlyAutoConnectedTerrains() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___onlyAutoConnectedTerrains;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onlyAutoConnectedTerrains;
 }
-constexpr void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::__cordl_internal_set_onlyAutoConnectedTerrains(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___onlyAutoConnectedTerrains = value;
+constexpr void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::__cordl_internal_set_onlyAutoConnectedTerrains(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___onlyAutoConnectedTerrains = value;
 }
-inline void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0* UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*>());
+inline ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0* UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::TerrainUtility___c__DisplayClass2_0()   {
-}
+constexpr ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::TerrainUtility___c__DisplayClass2_0() {}
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::*)()>(&::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::*)()>(
+    &::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6a64708;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1._CollectTerrains_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::*)(::UnityEngine::Terrain*)>(&::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_CollectTerrains_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::*)(::UnityEngine::Terrain*)>(
+    &::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_CollectTerrains_b__0)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6a64a68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>::get(),
-                        "<CollectTerrains>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>(),
+                                                                                           { "<CollectTerrains>b__0", {}, { ::i2c::type_of<::UnityEngine::Terrain*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Terrain>& UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_get_t()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___t;
+constexpr ::UnityW<::UnityEngine::Terrain>& UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_get_t() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___t;
 }
 constexpr ::UnityW<::UnityEngine::Terrain> const& UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_get_t() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___t;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___t;
 }
-constexpr void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_set_t(::UnityW<::UnityEngine::Terrain>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___t)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_set_t(::UnityW<::UnityEngine::Terrain> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___t = value;
 }
-constexpr ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*& UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_get_CS$__8__locals1()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CS$__8__locals1;
+constexpr ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*& UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_get_CS$__8__locals1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CS$__8__locals1;
 }
 constexpr ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0* const& UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_get_CS$__8__locals1() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CS$__8__locals1;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CS$__8__locals1;
 }
-constexpr void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_set_CS$__8__locals1(::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::__cordl_internal_set_CS$__8__locals1(::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___CS$__8__locals1 = value;
 }
-inline void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_CollectTerrains_b__0(::UnityEngine::Terrain*  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>::get(),
-                        "<CollectTerrains>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+inline bool UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_CollectTerrains_b__0(::UnityEngine::Terrain* x) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>(),
+                                                                                         { "<CollectTerrains>b__0", {}, { ::i2c::type_of<::UnityEngine::Terrain*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
-inline ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1* UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>());
+inline ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1* UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::TerrainUtility___c__DisplayClass2_1()   {
-}
+constexpr ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::TerrainUtility___c__DisplayClass2_1() {}
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::TerrainUtility.ValidTerrainsExist
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::ValidTerrainsExist)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::ValidTerrainsExist)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x6a64344;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
-                        "ValidTerrainsExist",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "ValidTerrainsExist", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::TerrainUtility.ClearConnectivity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::ClearConnectivity)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::ClearConnectivity)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6a643a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
-                        "ClearConnectivity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "ClearConnectivity", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::TerrainUtility.CollectTerrains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::TerrainUtils::TerrainMap*>* (*)(bool)>(&::UnityEngine::TerrainUtils::TerrainUtility::CollectTerrains)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* (*)(bool)>(
+    &::UnityEngine::TerrainUtils::TerrainUtility::CollectTerrains)> {
   constexpr static std::size_t size = 0x2bc;
   constexpr static std::size_t addrs = 0x6a64448;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
-                        "CollectTerrains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "CollectTerrains", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::TerrainUtility.AutoConnect
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::AutoConnect)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::AutoConnect)> {
   constexpr static std::size_t size = 0x35c;
   constexpr static std::size_t addrs = 0x6a6470c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
-                        "AutoConnect",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "AutoConnect", {}, {} })));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::TerrainUtils::TerrainUtility::ValidTerrainsExist()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
-                        "ValidTerrainsExist",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool UnityEngine::TerrainUtils::TerrainUtility::ValidTerrainsExist() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "ValidTerrainsExist", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-inline void UnityEngine::TerrainUtils::TerrainUtility::ClearConnectivity()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
-                        "ClearConnectivity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void UnityEngine::TerrainUtils::TerrainUtility::ClearConnectivity() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "ClearConnectivity", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::TerrainUtils::TerrainMap*>* UnityEngine::TerrainUtils::TerrainUtility::CollectTerrains(bool  onlyAutoConnectedTerrains)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
-                        "CollectTerrains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::TerrainUtils::TerrainMap*>*, false>(nullptr, ___internal_method, onlyAutoConnectedTerrains);
+inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* UnityEngine::TerrainUtils::TerrainUtility::CollectTerrains(bool onlyAutoConnectedTerrains) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "CollectTerrains", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>*>(nullptr, ___internal_method, onlyAutoConnectedTerrains);
 }
-inline void UnityEngine::TerrainUtils::TerrainUtility::AutoConnect()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
-                        "AutoConnect",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void UnityEngine::TerrainUtils::TerrainUtility::AutoConnect() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "AutoConnect", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::TerrainUtils::TerrainUtility::TerrainUtility()   {
-}
+constexpr ::UnityEngine::TerrainUtils::TerrainUtility::TerrainUtility() {}

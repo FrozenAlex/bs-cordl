@@ -4,45 +4,30 @@
 #include "AYellowpaper/SerializedCollections/zzzz__SerializedCollectionsUtility_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::AYellowpaper::SerializedCollections::SerializedCollectionsUtility.IsValidKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*)>(&::AYellowpaper::SerializedCollections::SerializedCollectionsUtility::IsValidKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::AYellowpaper::SerializedCollections::SerializedCollectionsUtility::IsValidKey)> {
   constexpr static std::size_t size = 0x114;
   constexpr static std::size_t addrs = 0x31c4108;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AYellowpaper::SerializedCollections::SerializedCollectionsUtility*>::get(),
-                        "IsValidKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::AYellowpaper::SerializedCollections::SerializedCollectionsUtility*>(), { "IsValidKey", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
-inline bool AYellowpaper::SerializedCollections::SerializedCollectionsUtility::IsValidKey(::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AYellowpaper::SerializedCollections::SerializedCollectionsUtility*>::get(),
-                        "IsValidKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj);
+inline bool AYellowpaper::SerializedCollections::SerializedCollectionsUtility::IsValidKey(::System::Object* obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AYellowpaper::SerializedCollections::SerializedCollectionsUtility*>(), { "IsValidKey", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, obj);
 }
-template<typename T>
-inline bool AYellowpaper::SerializedCollections::SerializedCollectionsUtility::KeysAreEqual(T  key, ::System::Object*  otherKey)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::AYellowpaper::SerializedCollections::SerializedCollectionsUtility*>::get(),
-                    "KeysAreEqual",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, key, otherKey);
+template <typename T> inline bool AYellowpaper::SerializedCollections::SerializedCollectionsUtility::KeysAreEqual(T key, ::System::Object* otherKey) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AYellowpaper::SerializedCollections::SerializedCollectionsUtility*>(),
+                                                           { "KeysAreEqual", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<::System::Object*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, key, otherKey);
 }
 // Ctor Parameters []
-constexpr ::AYellowpaper::SerializedCollections::SerializedCollectionsUtility::SerializedCollectionsUtility()   {
-}
+constexpr ::AYellowpaper::SerializedCollections::SerializedCollectionsUtility::SerializedCollectionsUtility() {}

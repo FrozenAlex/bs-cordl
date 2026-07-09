@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BeatSaber/Analytics/Gameplay/EventSenders/BeatmapAttempt.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/BlockLevelGameplayEventSender.hpp"
@@ -18,6 +18,5 @@
 #include "BeatSaber/Analytics/Gameplay/EventSenders/NoopBlockLevelGameplayEventSender.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/NoopHMDSessionEventSender.hpp"
 #ifdef __cpp_modules
-                    export module EventSenders;
-                    #endif
-                
+export module EventSenders;
+#endif

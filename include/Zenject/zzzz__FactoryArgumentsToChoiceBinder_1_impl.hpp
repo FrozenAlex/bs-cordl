@@ -9,131 +9,98 @@
 #include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__FactoryToChoiceBinder_1_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-template<typename TContract>
-inline void Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::_ctor(::Zenject::DiContainer*  bindContainer, ::Zenject::BindInfo*  bindInfo, ::Zenject::FactoryBindInfo*  factoryBindInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::FactoryBindInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindContainer, bindInfo, factoryBindInfo);
+template <typename TContract>
+inline void Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(),
+                                              { ".ctor", {}, { ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<::Zenject::BindInfo*>(), ::i2c::type_of<::Zenject::FactoryBindInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bindContainer, bindInfo, factoryBindInfo);
 }
-template<typename TContract>
-template<typename T>
-inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(T  param)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>::get(),
-                    "WithFactoryArguments",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*, false>(this, ___internal_method, param);
+template <typename TContract> template <typename T> inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(T param) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(), { "WithFactoryArguments", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*>(this, ___internal_method, param);
 }
-template<typename TContract>
-template<typename TParam1,typename TParam2>
-inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1  param1, TParam2  param2)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>::get(),
-                    "WithFactoryArguments",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*, false>(this, ___internal_method, param1, param2);
+template <typename TContract>
+template <typename TParam1, typename TParam2>
+inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1 param1, TParam2 param2) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(),
+                                              { "WithFactoryArguments", { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>() }, { ::i2c::type_of<TParam1>(), ::i2c::type_of<TParam2>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>() })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*>(this, ___internal_method, param1, param2);
 }
-template<typename TContract>
-template<typename TParam1,typename TParam2,typename TParam3>
-inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1  param1, TParam2  param2, TParam3  param3)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>::get(),
-                    "WithFactoryArguments",
-                    std::array<const Il2CppClass*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam3>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*, false>(this, ___internal_method, param1, param2, param3);
+template <typename TContract>
+template <typename TParam1, typename TParam2, typename TParam3>
+inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1 param1, TParam2 param2, TParam3 param3) {
+  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(),
+                                                                                              { "WithFactoryArguments",
+                                                                                                { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TParam3>() },
+                                                                                                { ::i2c::type_of<TParam1>(), ::i2c::type_of<TParam2>(), ::i2c::type_of<TParam3>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TParam3>() })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*>(this, ___internal_method, param1, param2, param3);
 }
-template<typename TContract>
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4>
-inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1  param1, TParam2  param2, TParam3  param3, TParam4  param4)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>::get(),
-                    "WithFactoryArguments",
-                    std::array<const Il2CppClass*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()},
-                    ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam4>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*, false>(this, ___internal_method, param1, param2, param3, param4);
+template <typename TContract>
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4>
+inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(),
+                                                           { "WithFactoryArguments",
+                                                             { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TParam3>(), ::i2c::class_of<TParam4>() },
+                                                             { ::i2c::type_of<TParam1>(), ::i2c::type_of<TParam2>(), ::i2c::type_of<TParam3>(), ::i2c::type_of<TParam4>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TParam3>(), ::i2c::class_of<TParam4>() })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*>(this, ___internal_method, param1, param2, param3, param4);
 }
-template<typename TContract>
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5>
-inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1  param1, TParam2  param2, TParam3  param3, TParam4  param4, TParam5  param5)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>::get(),
-                    "WithFactoryArguments",
-                    std::array<const Il2CppClass*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()},
-                    ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam5>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*, false>(this, ___internal_method, param1, param2, param3, param4, param5);
+template <typename TContract>
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
+inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4,
+                                                                                                                                 TParam5 param5) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(),
+                                              { "WithFactoryArguments",
+                                                { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TParam3>(), ::i2c::class_of<TParam4>(), ::i2c::class_of<TParam5>() },
+                                                { ::i2c::type_of<TParam1>(), ::i2c::type_of<TParam2>(), ::i2c::type_of<TParam3>(), ::i2c::type_of<TParam4>(), ::i2c::type_of<TParam5>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TParam3>(),
+                                                                                                                     ::i2c::class_of<TParam4>(), ::i2c::class_of<TParam5>() })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*>(this, ___internal_method, param1, param2, param3, param4, param5);
 }
-template<typename TContract>
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6>
-inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1  param1, TParam2  param2, TParam3  param3, TParam4  param4, TParam5  param5, TParam6  param6)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>::get(),
-                    "WithFactoryArguments",
-                    std::array<const Il2CppClass*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()},
-                    ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam6>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*, false>(this, ___internal_method, param1, param2, param3, param4, param5, param6);
+template <typename TContract>
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
+inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4,
+                                                                                                                                 TParam5 param5, TParam6 param6) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(),
+                          { "WithFactoryArguments",
+                            { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TParam3>(), ::i2c::class_of<TParam4>(), ::i2c::class_of<TParam5>(), ::i2c::class_of<TParam6>() },
+                            { ::i2c::type_of<TParam1>(), ::i2c::type_of<TParam2>(), ::i2c::type_of<TParam3>(), ::i2c::type_of<TParam4>(), ::i2c::type_of<TParam5>(), ::i2c::type_of<TParam6>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TParam3>(), ::i2c::class_of<TParam4>(),
+                                                                                       ::i2c::class_of<TParam5>(), ::i2c::class_of<TParam6>() })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*>(this, ___internal_method, param1, param2, param3, param4, param5, param6);
 }
-template<typename TContract>
-inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(::ArrayW<::System::Object*,::Array<::System::Object*>*>  args)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>::get(),
-                        "WithFactoryArguments",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*, false>(this, ___internal_method, args);
+template <typename TContract> inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArguments(::ArrayW<::System::Object*> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(), { "WithFactoryArguments", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*>(this, ___internal_method, args);
 }
-template<typename TContract>
-inline ::Zenject::FactoryToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*  extraArgs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>::get(),
-                        "WithFactoryArgumentsExplicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*, false>(this, ___internal_method, extraArgs);
+template <typename TContract>
+inline ::Zenject::FactoryToChoiceBinder_1<TContract>*
+Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(),
+                                                           { "WithFactoryArgumentsExplicit", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_1<TContract>*>(this, ___internal_method, extraArgs);
 }
-template<typename TContract>
-inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::New_ctor(::Zenject::DiContainer*  bindContainer, ::Zenject::BindInfo*  bindInfo, ::Zenject::FactoryBindInfo*  factoryBindInfo)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo));
+template <typename TContract>
+inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
+                                                                                                                              ::Zenject::FactoryBindInfo* factoryBindInfo) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo));
 }
 // Ctor Parameters []
-template<typename TContract>
-constexpr ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::FactoryArgumentsToChoiceBinder_1()   {
-}
+template <typename TContract> constexpr ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::FactoryArgumentsToChoiceBinder_1() {}

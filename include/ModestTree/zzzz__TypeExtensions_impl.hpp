@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "ModestTree/TypeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "System/zzzz__Type_impl.hpp"
 #include "ModestTree/zzzz__TypeExtensions_def.hpp"
 #include "ModestTree/zzzz__TypeExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -20,1501 +21,1096 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::ModestTree::TypeExtensions___c__DisplayClass35_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass35_0::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass35_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass35_0::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass35_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6ce92ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass35_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions___c__DisplayClass35_0._AllAttributes_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass35_0::*)(::System::Attribute*)>(&::ModestTree::TypeExtensions___c__DisplayClass35_0::_AllAttributes_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass35_0::*)(::System::Attribute*)>(
+    &::ModestTree::TypeExtensions___c__DisplayClass35_0::_AllAttributes_b__0)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x6ce9644;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_0*>::get(),
-                        "<AllAttributes>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Attribute*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass35_0*>(), { "<AllAttributes>b__0", {}, { ::i2c::type_of<::System::Attribute*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*>& ModestTree::TypeExtensions___c__DisplayClass35_0::__cordl_internal_get_attributeTypes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributeTypes;
+constexpr ::ArrayW<::System::Type*>& ModestTree::TypeExtensions___c__DisplayClass35_0::__cordl_internal_get_attributeTypes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributeTypes;
 }
-constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*> const& ModestTree::TypeExtensions___c__DisplayClass35_0::__cordl_internal_get_attributeTypes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributeTypes;
+constexpr ::ArrayW<::System::Type*> const& ModestTree::TypeExtensions___c__DisplayClass35_0::__cordl_internal_get_attributeTypes() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributeTypes;
 }
-constexpr void ModestTree::TypeExtensions___c__DisplayClass35_0::__cordl_internal_set_attributeTypes(::ArrayW<::System::Type*,::Array<::System::Type*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributeTypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void ModestTree::TypeExtensions___c__DisplayClass35_0::__cordl_internal_set_attributeTypes(::ArrayW<::System::Type*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___attributeTypes = value;
 }
-inline void ModestTree::TypeExtensions___c__DisplayClass35_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void ModestTree::TypeExtensions___c__DisplayClass35_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass35_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool ModestTree::TypeExtensions___c__DisplayClass35_0::_AllAttributes_b__0(::System::Attribute*  a)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_0*>::get(),
-                        "<AllAttributes>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Attribute*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, a);
+inline bool ModestTree::TypeExtensions___c__DisplayClass35_0::_AllAttributes_b__0(::System::Attribute* a) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass35_0*>(), { "<AllAttributes>b__0", {}, { ::i2c::type_of<::System::Attribute*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, a);
 }
-inline ::ModestTree::TypeExtensions___c__DisplayClass35_0* ModestTree::TypeExtensions___c__DisplayClass35_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::TypeExtensions___c__DisplayClass35_0*>());
+inline ::ModestTree::TypeExtensions___c__DisplayClass35_0* ModestTree::TypeExtensions___c__DisplayClass35_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::TypeExtensions___c__DisplayClass35_0*>());
 }
 // Ctor Parameters []
-constexpr ::ModestTree::TypeExtensions___c__DisplayClass35_0::TypeExtensions___c__DisplayClass35_0()   {
-}
+constexpr ::ModestTree::TypeExtensions___c__DisplayClass35_0::TypeExtensions___c__DisplayClass35_0() {}
 //  Writing Method size for method: ::ModestTree::TypeExtensions___c__DisplayClass35_1._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass35_1::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass35_1::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass35_1::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass35_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6ce9720;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_1*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass35_1*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions___c__DisplayClass35_1._AllAttributes_b__1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass35_1::*)(::System::Type*)>(&::ModestTree::TypeExtensions___c__DisplayClass35_1::_AllAttributes_b__1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass35_1::*)(::System::Type*)>(
+    &::ModestTree::TypeExtensions___c__DisplayClass35_1::_AllAttributes_b__1)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x6ce9724;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_1*>::get(),
-                        "<AllAttributes>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass35_1*>(), { "<AllAttributes>b__1", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Attribute*& ModestTree::TypeExtensions___c__DisplayClass35_1::__cordl_internal_get_a()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___a;
+constexpr ::System::Attribute*& ModestTree::TypeExtensions___c__DisplayClass35_1::__cordl_internal_get_a() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___a;
 }
 constexpr ::System::Attribute* const& ModestTree::TypeExtensions___c__DisplayClass35_1::__cordl_internal_get_a() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___a;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___a;
 }
-constexpr void ModestTree::TypeExtensions___c__DisplayClass35_1::__cordl_internal_set_a(::System::Attribute*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___a)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void ModestTree::TypeExtensions___c__DisplayClass35_1::__cordl_internal_set_a(::System::Attribute* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___a = value;
 }
-inline void ModestTree::TypeExtensions___c__DisplayClass35_1::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_1*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void ModestTree::TypeExtensions___c__DisplayClass35_1::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass35_1*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool ModestTree::TypeExtensions___c__DisplayClass35_1::_AllAttributes_b__1(::System::Type*  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_1*>::get(),
-                        "<AllAttributes>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+inline bool ModestTree::TypeExtensions___c__DisplayClass35_1::_AllAttributes_b__1(::System::Type* x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass35_1*>(), { "<AllAttributes>b__1", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
-inline ::ModestTree::TypeExtensions___c__DisplayClass35_1* ModestTree::TypeExtensions___c__DisplayClass35_1::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::TypeExtensions___c__DisplayClass35_1*>());
+inline ::ModestTree::TypeExtensions___c__DisplayClass35_1* ModestTree::TypeExtensions___c__DisplayClass35_1::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::TypeExtensions___c__DisplayClass35_1*>());
 }
 // Ctor Parameters []
-constexpr ::ModestTree::TypeExtensions___c__DisplayClass35_1::TypeExtensions___c__DisplayClass35_1()   {
-}
+constexpr ::ModestTree::TypeExtensions___c__DisplayClass35_1::TypeExtensions___c__DisplayClass35_1() {}
 //  Writing Method size for method: ::ModestTree::TypeExtensions___c__DisplayClass39_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass39_0::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass39_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass39_0::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass39_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6ce9488;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass39_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions___c__DisplayClass39_0._AllAttributes_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass39_0::*)(::System::Attribute*)>(&::ModestTree::TypeExtensions___c__DisplayClass39_0::_AllAttributes_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass39_0::*)(::System::Attribute*)>(
+    &::ModestTree::TypeExtensions___c__DisplayClass39_0::_AllAttributes_b__0)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x6ce97ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_0*>::get(),
-                        "<AllAttributes>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Attribute*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass39_0*>(), { "<AllAttributes>b__0", {}, { ::i2c::type_of<::System::Attribute*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*>& ModestTree::TypeExtensions___c__DisplayClass39_0::__cordl_internal_get_attributeTypes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributeTypes;
+constexpr ::ArrayW<::System::Type*>& ModestTree::TypeExtensions___c__DisplayClass39_0::__cordl_internal_get_attributeTypes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributeTypes;
 }
-constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*> const& ModestTree::TypeExtensions___c__DisplayClass39_0::__cordl_internal_get_attributeTypes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributeTypes;
+constexpr ::ArrayW<::System::Type*> const& ModestTree::TypeExtensions___c__DisplayClass39_0::__cordl_internal_get_attributeTypes() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributeTypes;
 }
-constexpr void ModestTree::TypeExtensions___c__DisplayClass39_0::__cordl_internal_set_attributeTypes(::ArrayW<::System::Type*,::Array<::System::Type*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributeTypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void ModestTree::TypeExtensions___c__DisplayClass39_0::__cordl_internal_set_attributeTypes(::ArrayW<::System::Type*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___attributeTypes = value;
 }
-inline void ModestTree::TypeExtensions___c__DisplayClass39_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void ModestTree::TypeExtensions___c__DisplayClass39_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass39_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool ModestTree::TypeExtensions___c__DisplayClass39_0::_AllAttributes_b__0(::System::Attribute*  a)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_0*>::get(),
-                        "<AllAttributes>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Attribute*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, a);
+inline bool ModestTree::TypeExtensions___c__DisplayClass39_0::_AllAttributes_b__0(::System::Attribute* a) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass39_0*>(), { "<AllAttributes>b__0", {}, { ::i2c::type_of<::System::Attribute*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, a);
 }
-inline ::ModestTree::TypeExtensions___c__DisplayClass39_0* ModestTree::TypeExtensions___c__DisplayClass39_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::TypeExtensions___c__DisplayClass39_0*>());
+inline ::ModestTree::TypeExtensions___c__DisplayClass39_0* ModestTree::TypeExtensions___c__DisplayClass39_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::TypeExtensions___c__DisplayClass39_0*>());
 }
 // Ctor Parameters []
-constexpr ::ModestTree::TypeExtensions___c__DisplayClass39_0::TypeExtensions___c__DisplayClass39_0()   {
-}
+constexpr ::ModestTree::TypeExtensions___c__DisplayClass39_0::TypeExtensions___c__DisplayClass39_0() {}
 //  Writing Method size for method: ::ModestTree::TypeExtensions___c__DisplayClass39_1._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass39_1::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass39_1::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass39_1::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass39_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6ce9888;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_1*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass39_1*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions___c__DisplayClass39_1._AllAttributes_b__1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass39_1::*)(::System::Type*)>(&::ModestTree::TypeExtensions___c__DisplayClass39_1::_AllAttributes_b__1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass39_1::*)(::System::Type*)>(
+    &::ModestTree::TypeExtensions___c__DisplayClass39_1::_AllAttributes_b__1)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x6ce988c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_1*>::get(),
-                        "<AllAttributes>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass39_1*>(), { "<AllAttributes>b__1", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Attribute*& ModestTree::TypeExtensions___c__DisplayClass39_1::__cordl_internal_get_a()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___a;
+constexpr ::System::Attribute*& ModestTree::TypeExtensions___c__DisplayClass39_1::__cordl_internal_get_a() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___a;
 }
 constexpr ::System::Attribute* const& ModestTree::TypeExtensions___c__DisplayClass39_1::__cordl_internal_get_a() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___a;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___a;
 }
-constexpr void ModestTree::TypeExtensions___c__DisplayClass39_1::__cordl_internal_set_a(::System::Attribute*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___a)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void ModestTree::TypeExtensions___c__DisplayClass39_1::__cordl_internal_set_a(::System::Attribute* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___a = value;
 }
-inline void ModestTree::TypeExtensions___c__DisplayClass39_1::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_1*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void ModestTree::TypeExtensions___c__DisplayClass39_1::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass39_1*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool ModestTree::TypeExtensions___c__DisplayClass39_1::_AllAttributes_b__1(::System::Type*  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_1*>::get(),
-                        "<AllAttributes>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+inline bool ModestTree::TypeExtensions___c__DisplayClass39_1::_AllAttributes_b__1(::System::Type* x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass39_1*>(), { "<AllAttributes>b__1", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
-inline ::ModestTree::TypeExtensions___c__DisplayClass39_1* ModestTree::TypeExtensions___c__DisplayClass39_1::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::TypeExtensions___c__DisplayClass39_1*>());
+inline ::ModestTree::TypeExtensions___c__DisplayClass39_1* ModestTree::TypeExtensions___c__DisplayClass39_1::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::TypeExtensions___c__DisplayClass39_1*>());
 }
 // Ctor Parameters []
-constexpr ::ModestTree::TypeExtensions___c__DisplayClass39_1::TypeExtensions___c__DisplayClass39_1()   {
-}
+constexpr ::ModestTree::TypeExtensions___c__DisplayClass39_1::TypeExtensions___c__DisplayClass39_1() {}
 //  Writing Method size for method: ::ModestTree::TypeExtensions__GetParentTypes_d__28._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)(int32_t)>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)(int32_t)>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::_ctor)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6ce8f3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions__GetParentTypes_d__28.System_IDisposable_Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
+    &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6ce9914;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions__GetParentTypes_d__28.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x474;
   constexpr static std::size_t addrs = 0x6ce9930;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions__GetParentTypes_d__28.__m__Finally1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::__m__Finally1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x6ce9da4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "<>m__Finally1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "<>m__Finally1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions__GetParentTypes_d__28.System_Collections_Generic_IEnumerator_System_Type__get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerator_System_Type__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
+    &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerator_System_Type__get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6ce9e58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Type>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.Generic.IEnumerator<System.Type>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions__GetParentTypes_d__28.System_Collections_IEnumerator_Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
+    &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x6ce9e60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions__GetParentTypes_d__28.System_Collections_IEnumerator_get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
+    &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6ce9e98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions__GetParentTypes_d__28.System_Collections_Generic_IEnumerable_System_Type__GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerable_System_Type__GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
+    &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerable_System_Type__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x6ce9ea0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions__GetParentTypes_d__28.System_Collections_IEnumerable_GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
+    &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6ce9f38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___1__state()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+constexpr int32_t& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
 constexpr int32_t const& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___1__state() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
-constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___1__state(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____1__state = value;
+constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
 }
-constexpr ::System::Type*& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___2__current()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::System::Type*& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
 constexpr ::System::Type* const& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___2__current() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___2__current(::System::Type*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___2__current(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
 }
-constexpr int32_t& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___l__initialThreadId()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____l__initialThreadId;
+constexpr int32_t& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___l__initialThreadId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
 }
 constexpr int32_t const& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___l__initialThreadId() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____l__initialThreadId;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
 }
-constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____l__initialThreadId = value;
+constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___l__initialThreadId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____l__initialThreadId = value;
 }
-constexpr ::System::Type*& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get_type()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___type;
+constexpr ::System::Type*& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get_type() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___type;
 }
 constexpr ::System::Type* const& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get_type() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___type;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___type;
 }
-constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set_type(::System::Type*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set_type(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___type = value;
 }
-constexpr ::System::Type*& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___3__type()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____3__type;
+constexpr ::System::Type*& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___3__type() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__type;
 }
 constexpr ::System::Type* const& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___3__type() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____3__type;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__type;
 }
-constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___3__type(::System::Type*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___3__type(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____3__type = value;
 }
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>*& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___7__wrap1()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____7__wrap1;
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>*& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___7__wrap1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____7__wrap1;
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>* const& ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_get___7__wrap1() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____7__wrap1;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____7__wrap1;
 }
-constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::System::Type*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void ModestTree::TypeExtensions__GetParentTypes_d__28::__cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::System::Type*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____7__wrap1 = value;
 }
-inline void ModestTree::TypeExtensions__GetParentTypes_d__28::_ctor(int32_t  __1__state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void ModestTree::TypeExtensions__GetParentTypes_d__28::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void ModestTree::TypeExtensions__GetParentTypes_d__28::System_IDisposable_Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void ModestTree::TypeExtensions__GetParentTypes_d__28::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool ModestTree::TypeExtensions__GetParentTypes_d__28::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool ModestTree::TypeExtensions__GetParentTypes_d__28::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void ModestTree::TypeExtensions__GetParentTypes_d__28::__m__Finally1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "<>m__Finally1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void ModestTree::TypeExtensions__GetParentTypes_d__28::__m__Finally1() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "<>m__Finally1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Type* ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerator_System_Type__get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Type>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+inline ::System::Type* ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerator_System_Type__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.Generic.IEnumerator<System.Type>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
-inline void ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerable_System_Type__GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Type*>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerable_System_Type__GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerable_GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-inline ::ModestTree::TypeExtensions__GetParentTypes_d__28* ModestTree::TypeExtensions__GetParentTypes_d__28::New_ctor(int32_t  __1__state)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(__1__state));
+inline ::ModestTree::TypeExtensions__GetParentTypes_d__28* ModestTree::TypeExtensions__GetParentTypes_d__28::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::TypeExtensions__GetParentTypes_d__28*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
-constexpr  ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
+constexpr ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ModestTree::TypeExtensions__GetParentTypes_d__28::i___System__Collections__Generic__IEnumerable_1___System__Type__() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Type*>*
+ModestTree::TypeExtensions__GetParentTypes_d__28::i___System__Collections__Generic__IEnumerable_1___System__Type__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr  ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::Collections::IEnumerable*() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+constexpr ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 constexpr ::System::Collections::IEnumerable* ModestTree::TypeExtensions__GetParentTypes_d__28::i___System__Collections__IEnumerable() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
-constexpr  ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
+constexpr ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>* ModestTree::TypeExtensions__GetParentTypes_d__28::i___System__Collections__Generic__IEnumerator_1___System__Type__() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>*
+ModestTree::TypeExtensions__GetParentTypes_d__28::i___System__Collections__Generic__IEnumerator_1___System__Type__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::Collections::IEnumerator*() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* ModestTree::TypeExtensions__GetParentTypes_d__28::i___System__Collections__IEnumerator() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr ModestTree::TypeExtensions__GetParentTypes_d__28::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* ModestTree::TypeExtensions__GetParentTypes_d__28::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::ModestTree::TypeExtensions__GetParentTypes_d__28::TypeExtensions__GetParentTypes_d__28()   {
-}
+constexpr ::ModestTree::TypeExtensions__GetParentTypes_d__28::TypeExtensions__GetParentTypes_d__28() {}
 //  Writing Method size for method: ::ModestTree::TypeExtensions.DerivesFrom
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::DerivesFrom)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::DerivesFrom)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x6ce6d4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DerivesFrom",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DerivesFrom", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.DerivesFromOrEqual
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::DerivesFromOrEqual)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::DerivesFromOrEqual)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6ce6f98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DerivesFromOrEqual",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DerivesFromOrEqual", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsAssignableToGenericType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::IsAssignableToGenericType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::IsAssignableToGenericType)> {
   constexpr static std::size_t size = 0x1b8;
   constexpr static std::size_t addrs = 0x6ce8710;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsAssignableToGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsAssignableToGenericType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsEnum
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsEnum)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsEnum)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6ce89ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsEnum",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsEnum", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsValueType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsValueType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsValueType)> {
   constexpr static std::size_t size = 0x12c;
   constexpr static std::size_t addrs = 0x6ce8a08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsValueType", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.DeclaredInstanceMethods
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MethodInfo*,::Array<::System::Reflection::MethodInfo*>*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::DeclaredInstanceMethods)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MethodInfo*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::DeclaredInstanceMethods)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6ce8b34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DeclaredInstanceMethods",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DeclaredInstanceMethods", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.DeclaredInstanceProperties
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*,::Array<::System::Reflection::PropertyInfo*>*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::DeclaredInstanceProperties)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::DeclaredInstanceProperties)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6ce8b54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DeclaredInstanceProperties",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DeclaredInstanceProperties", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.DeclaredInstanceFields
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::FieldInfo*,::Array<::System::Reflection::FieldInfo*>*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::DeclaredInstanceFields)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::FieldInfo*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::DeclaredInstanceFields)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6ce8b74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DeclaredInstanceFields",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DeclaredInstanceFields", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.BaseType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::BaseType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::BaseType)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6ce8b94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "BaseType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "BaseType", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsGenericType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsGenericType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsGenericType)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6ce8bb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsGenericType", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsGenericTypeDefinition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsGenericTypeDefinition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsGenericTypeDefinition)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6ce8bcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsGenericTypeDefinition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsGenericTypeDefinition", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsPrimitive
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsPrimitive)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsPrimitive)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6ce8be8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsPrimitive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsPrimitive", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsInterface
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsInterface)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsInterface)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6ce8c04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsInterface",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsInterface", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.ContainsGenericParameters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::ContainsGenericParameters)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::ContainsGenericParameters)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6ce8c18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "ContainsGenericParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "ContainsGenericParameters", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsAbstract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsAbstract)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsAbstract)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6ce8c34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsAbstract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsAbstract", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsSealed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsSealed)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsSealed)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6ce8c5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsSealed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsSealed", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.Method
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Delegate*)>(&::ModestTree::TypeExtensions::Method)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Delegate*)>(&::ModestTree::TypeExtensions::Method)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x6ce8c84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "Method",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Delegate*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "Method", {}, { ::i2c::type_of<::System::Delegate*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.GenericArguments
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*,::Array<::System::Type*>*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GenericArguments)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GenericArguments)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6ce8c9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "GenericArguments",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "GenericArguments", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.Interfaces
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*,::Array<::System::Type*>*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::Interfaces)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::Interfaces)> {
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x6ce88c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "Interfaces",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "Interfaces", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.Constructors
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*,::Array<::System::Reflection::ConstructorInfo*>*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::Constructors)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::Constructors)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6ce8cb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "Constructors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "Constructors", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.GetDefaultValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GetDefaultValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GetDefaultValue)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6ce8cd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "GetDefaultValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "GetDefaultValue", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsClosedGenericType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsClosedGenericType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsClosedGenericType)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x6ce8d54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsClosedGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsClosedGenericType", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.GetParentTypes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GetParentTypes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GetParentTypes)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6ce8ecc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "GetParentTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "GetParentTypes", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.IsOpenGenericType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsOpenGenericType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsOpenGenericType)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x6ce8f5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsOpenGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsOpenGenericType", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.HasAttribute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::ArrayW<::System::Type*,::Array<::System::Type*>*>)>(&::ModestTree::TypeExtensions::HasAttribute)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::ArrayW<::System::Type*>)>(&::ModestTree::TypeExtensions::HasAttribute)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x6ce90d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "HasAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
+                                                             { "HasAttribute", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.AllAttributes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (*)(::System::Reflection::MemberInfo*, ::ArrayW<::System::Type*,::Array<::System::Type*>*>)>(&::ModestTree::TypeExtensions::AllAttributes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (*)(::System::Reflection::MemberInfo*, ::ArrayW<::System::Type*>)>(
+    &::ModestTree::TypeExtensions::AllAttributes)> {
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x6ce915c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "AllAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
+                                                             { "AllAttributes", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.HasAttribute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::ParameterInfo*, ::ArrayW<::System::Type*,::Array<::System::Type*>*>)>(&::ModestTree::TypeExtensions::HasAttribute)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::ParameterInfo*, ::ArrayW<::System::Type*>)>(&::ModestTree::TypeExtensions::HasAttribute)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x6ce92b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "HasAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
+                                                             { "HasAttribute", {}, { ::i2c::type_of<::System::Reflection::ParameterInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::ModestTree::TypeExtensions.AllAttributes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (*)(::System::Reflection::ParameterInfo*, ::ArrayW<::System::Type*,::Array<::System::Type*>*>)>(&::ModestTree::TypeExtensions::AllAttributes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (*)(::System::Reflection::ParameterInfo*, ::ArrayW<::System::Type*>)>(
+    &::ModestTree::TypeExtensions::AllAttributes)> {
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x6ce9338;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "AllAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
+                                                             { "AllAttributes", {}, { ::i2c::type_of<::System::Reflection::ParameterInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
     return ___internal_method;
   }
 };
-inline void ModestTree::TypeExtensions::setStaticF__isClosedGenericType(::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*, "_isClosedGenericType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*>(value));
+inline void ModestTree::TypeExtensions::setStaticF__isClosedGenericType(::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*, "_isClosedGenericType", ::ModestTree::TypeExtensions*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Type*,bool>* ModestTree::TypeExtensions::getStaticF__isClosedGenericType()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*, "_isClosedGenericType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* ModestTree::TypeExtensions::getStaticF__isClosedGenericType() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*, "_isClosedGenericType", ::ModestTree::TypeExtensions*>();
 }
-inline void ModestTree::TypeExtensions::setStaticF__isOpenGenericType(::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*, "_isOpenGenericType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*>(value));
+inline void ModestTree::TypeExtensions::setStaticF__isOpenGenericType(::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*, "_isOpenGenericType", ::ModestTree::TypeExtensions*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Type*,bool>* ModestTree::TypeExtensions::getStaticF__isOpenGenericType()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*, "_isOpenGenericType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* ModestTree::TypeExtensions::getStaticF__isOpenGenericType() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*, "_isOpenGenericType", ::ModestTree::TypeExtensions*>();
 }
-inline void ModestTree::TypeExtensions::setStaticF__isValueType(::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*, "_isValueType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*>(value));
+inline void ModestTree::TypeExtensions::setStaticF__isValueType(::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*, "_isValueType", ::ModestTree::TypeExtensions*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Type*,bool>* ModestTree::TypeExtensions::getStaticF__isValueType()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,bool>*, "_isValueType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* ModestTree::TypeExtensions::getStaticF__isValueType() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*, "_isValueType", ::ModestTree::TypeExtensions*>();
 }
-inline void ModestTree::TypeExtensions::setStaticF__interfaces(::System::Collections::Generic::Dictionary_2<::System::Type*,::ArrayW<::System::Type*,::Array<::System::Type*>*>>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::ArrayW<::System::Type*,::Array<::System::Type*>*>>*, "_interfaces", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*,::ArrayW<::System::Type*,::Array<::System::Type*>*>>*>(value));
+inline void ModestTree::TypeExtensions::setStaticF__interfaces(::System::Collections::Generic::Dictionary_2<::System::Type*, ::ArrayW<::System::Type*>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::ArrayW<::System::Type*>>*, "_interfaces", ::ModestTree::TypeExtensions*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, ::ArrayW<::System::Type*>>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Type*,::ArrayW<::System::Type*,::Array<::System::Type*>*>>* ModestTree::TypeExtensions::getStaticF__interfaces()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::ArrayW<::System::Type*,::Array<::System::Type*>*>>*, "_interfaces", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::ArrayW<::System::Type*>>* ModestTree::TypeExtensions::getStaticF__interfaces() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::ArrayW<::System::Type*>>*, "_interfaces", ::ModestTree::TypeExtensions*>();
 }
-template<typename T>
-inline bool ModestTree::TypeExtensions::DerivesFrom(::System::Type*  a)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                    "DerivesFrom",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, a);
+template <typename T> inline bool ModestTree::TypeExtensions::DerivesFrom(::System::Type* a) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DerivesFrom", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Type*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a);
 }
-inline bool ModestTree::TypeExtensions::DerivesFrom(::System::Type*  a, ::System::Type*  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DerivesFrom",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, a, b);
+inline bool ModestTree::TypeExtensions::DerivesFrom(::System::Type* a, ::System::Type* b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DerivesFrom", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-template<typename T>
-inline bool ModestTree::TypeExtensions::DerivesFromOrEqual(::System::Type*  a)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                    "DerivesFromOrEqual",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, a);
+template <typename T> inline bool ModestTree::TypeExtensions::DerivesFromOrEqual(::System::Type* a) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DerivesFromOrEqual", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Type*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a);
 }
-inline bool ModestTree::TypeExtensions::DerivesFromOrEqual(::System::Type*  a, ::System::Type*  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DerivesFromOrEqual",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, a, b);
+inline bool ModestTree::TypeExtensions::DerivesFromOrEqual(::System::Type* a, ::System::Type* b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DerivesFromOrEqual", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool ModestTree::TypeExtensions::IsAssignableToGenericType(::System::Type*  givenType, ::System::Type*  genericType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsAssignableToGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, givenType, genericType);
+inline bool ModestTree::TypeExtensions::IsAssignableToGenericType(::System::Type* givenType, ::System::Type* genericType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsAssignableToGenericType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, givenType, genericType);
 }
-inline bool ModestTree::TypeExtensions::IsEnum(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsEnum",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsEnum(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsEnum", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::IsValueType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsValueType(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsValueType", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline ::ArrayW<::System::Reflection::MethodInfo*,::Array<::System::Reflection::MethodInfo*>*> ModestTree::TypeExtensions::DeclaredInstanceMethods(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DeclaredInstanceMethods",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MethodInfo*,::Array<::System::Reflection::MethodInfo*>*>, false>(nullptr, ___internal_method, type);
+inline ::ArrayW<::System::Reflection::MethodInfo*> ModestTree::TypeExtensions::DeclaredInstanceMethods(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DeclaredInstanceMethods", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MethodInfo*>>(nullptr, ___internal_method, type);
 }
-inline ::ArrayW<::System::Reflection::PropertyInfo*,::Array<::System::Reflection::PropertyInfo*>*> ModestTree::TypeExtensions::DeclaredInstanceProperties(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DeclaredInstanceProperties",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::PropertyInfo*,::Array<::System::Reflection::PropertyInfo*>*>, false>(nullptr, ___internal_method, type);
+inline ::ArrayW<::System::Reflection::PropertyInfo*> ModestTree::TypeExtensions::DeclaredInstanceProperties(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DeclaredInstanceProperties", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::PropertyInfo*>>(nullptr, ___internal_method, type);
 }
-inline ::ArrayW<::System::Reflection::FieldInfo*,::Array<::System::Reflection::FieldInfo*>*> ModestTree::TypeExtensions::DeclaredInstanceFields(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "DeclaredInstanceFields",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::FieldInfo*,::Array<::System::Reflection::FieldInfo*>*>, false>(nullptr, ___internal_method, type);
+inline ::ArrayW<::System::Reflection::FieldInfo*> ModestTree::TypeExtensions::DeclaredInstanceFields(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "DeclaredInstanceFields", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::FieldInfo*>>(nullptr, ___internal_method, type);
 }
-inline ::System::Type* ModestTree::TypeExtensions::BaseType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "BaseType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
+inline ::System::Type* ModestTree::TypeExtensions::BaseType(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "BaseType", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::IsGenericType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsGenericType(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsGenericType", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::IsGenericTypeDefinition(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsGenericTypeDefinition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsGenericTypeDefinition(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsGenericTypeDefinition", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::IsPrimitive(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsPrimitive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsPrimitive(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsPrimitive", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::IsInterface(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsInterface",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsInterface(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsInterface", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::ContainsGenericParameters(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "ContainsGenericParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::ContainsGenericParameters(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "ContainsGenericParameters", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::IsAbstract(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsAbstract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsAbstract(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsAbstract", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::IsSealed(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsSealed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsSealed(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsSealed", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline ::System::Reflection::MethodInfo* ModestTree::TypeExtensions::Method(::System::Delegate*  del)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "Method",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Delegate*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(nullptr, ___internal_method, del);
+inline ::System::Reflection::MethodInfo* ModestTree::TypeExtensions::Method(::System::Delegate* del) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "Method", {}, { ::i2c::type_of<::System::Delegate*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(nullptr, ___internal_method, del);
 }
-inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> ModestTree::TypeExtensions::GenericArguments(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "GenericArguments",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*,::Array<::System::Type*>*>, false>(nullptr, ___internal_method, type);
+inline ::ArrayW<::System::Type*> ModestTree::TypeExtensions::GenericArguments(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "GenericArguments", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*>>(nullptr, ___internal_method, type);
 }
-inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> ModestTree::TypeExtensions::Interfaces(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "Interfaces",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*,::Array<::System::Type*>*>, false>(nullptr, ___internal_method, type);
+inline ::ArrayW<::System::Type*> ModestTree::TypeExtensions::Interfaces(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "Interfaces", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*>>(nullptr, ___internal_method, type);
 }
-inline ::ArrayW<::System::Reflection::ConstructorInfo*,::Array<::System::Reflection::ConstructorInfo*>*> ModestTree::TypeExtensions::Constructors(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "Constructors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::ConstructorInfo*,::Array<::System::Reflection::ConstructorInfo*>*>, false>(nullptr, ___internal_method, type);
+inline ::ArrayW<::System::Reflection::ConstructorInfo*> ModestTree::TypeExtensions::Constructors(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "Constructors", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::ConstructorInfo*>>(nullptr, ___internal_method, type);
 }
-inline ::System::Object* ModestTree::TypeExtensions::GetDefaultValue(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "GetDefaultValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, type);
+inline ::System::Object* ModestTree::TypeExtensions::GetDefaultValue(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "GetDefaultValue", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::IsClosedGenericType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsClosedGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsClosedGenericType(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsClosedGenericType", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ModestTree::TypeExtensions::GetParentTypes(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "GetParentTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*, false>(nullptr, ___internal_method, type);
+inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ModestTree::TypeExtensions::GetParentTypes(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "GetParentTypes", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(nullptr, ___internal_method, type);
 }
-inline bool ModestTree::TypeExtensions::IsOpenGenericType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "IsOpenGenericType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+inline bool ModestTree::TypeExtensions::IsOpenGenericType(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsOpenGenericType", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-template<typename T>
-inline T ModestTree::TypeExtensions::GetAttribute(::System::Reflection::MemberInfo*  provider)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                    "GetAttribute",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, provider);
+template <typename T> inline T ModestTree::TypeExtensions::GetAttribute(::System::Reflection::MemberInfo* provider) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "GetAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, provider);
 }
-template<typename T>
-inline T ModestTree::TypeExtensions::TryGetAttribute(::System::Reflection::MemberInfo*  provider)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                    "TryGetAttribute",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, provider);
+template <typename T> inline T ModestTree::TypeExtensions::TryGetAttribute(::System::Reflection::MemberInfo* provider) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "TryGetAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, provider);
 }
-inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::MemberInfo*  provider, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  attributeTypes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "HasAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, provider, attributeTypes);
+inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::MemberInfo* provider, ::ArrayW<::System::Type*> attributeTypes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
+                                                           { "HasAttribute", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, provider, attributeTypes);
 }
-template<typename T>
-inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::MemberInfo*  provider)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                    "HasAttribute",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, provider);
+template <typename T> inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::MemberInfo* provider) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "HasAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, provider);
 }
-template<typename T>
-inline ::System::Collections::Generic::IEnumerable_1<T>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::MemberInfo*  provider)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                    "AllAttributes",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(nullptr, ___internal_method, provider);
+template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::MemberInfo* provider) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "AllAttributes", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*>(nullptr, ___internal_method, provider);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::MemberInfo*  provider, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  attributeTypes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "AllAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*, false>(nullptr, ___internal_method, provider, attributeTypes);
+inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::MemberInfo* provider,
+                                                                                                                      ::ArrayW<::System::Type*> attributeTypes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
+                                                           { "AllAttributes", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*>(nullptr, ___internal_method, provider, attributeTypes);
 }
-inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::ParameterInfo*  provider, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  attributeTypes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "HasAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, provider, attributeTypes);
+inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::ParameterInfo* provider, ::ArrayW<::System::Type*> attributeTypes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
+                                                           { "HasAttribute", {}, { ::i2c::type_of<::System::Reflection::ParameterInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, provider, attributeTypes);
 }
-template<typename T>
-inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::ParameterInfo*  provider)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                    "HasAttribute",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, provider);
+template <typename T> inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::ParameterInfo* provider) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "HasAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::ParameterInfo*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, provider);
 }
-template<typename T>
-inline ::System::Collections::Generic::IEnumerable_1<T>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::ParameterInfo*  provider)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                    "AllAttributes",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(nullptr, ___internal_method, provider);
+template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::ParameterInfo* provider) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "AllAttributes", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::ParameterInfo*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*>(nullptr, ___internal_method, provider);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::ParameterInfo*  provider, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  attributeTypes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions*>::get(),
-                        "AllAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*, false>(nullptr, ___internal_method, provider, attributeTypes);
+inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::ParameterInfo* provider,
+                                                                                                                      ::ArrayW<::System::Type*> attributeTypes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
+                                                           { "AllAttributes", {}, { ::i2c::type_of<::System::Reflection::ParameterInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*>(nullptr, ___internal_method, provider, attributeTypes);
 }
 // Ctor Parameters []
-constexpr ::ModestTree::TypeExtensions::TypeExtensions()   {
-}
+constexpr ::ModestTree::TypeExtensions::TypeExtensions() {}

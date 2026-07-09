@@ -3,27 +3,21 @@
 #include "GlobalNamespace/zzzz__IAssetSongAudioClipProvider_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IAssetSongAudioClipProvider.get_songAudioClip
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::IAssetSongAudioClipProvider::*)()>(&::GlobalNamespace::IAssetSongAudioClipProvider::get_songAudioClip)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::IAssetSongAudioClipProvider::*)()>(
+    &::GlobalNamespace::IAssetSongAudioClipProvider::get_songAudioClip)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IAssetSongAudioClipProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IAssetSongAudioClipProvider*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAssetSongAudioClipProvider*>(), { ::i2c::class_of<::GlobalNamespace::IAssetSongAudioClipProvider*>(), 0 }));
     return ___internal_method;
   }
 };
-inline ::UnityW<::UnityEngine::AudioClip> GlobalNamespace::IAssetSongAudioClipProvider::get_songAudioClip()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IAssetSongAudioClipProvider*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::AudioClip> GlobalNamespace::IAssetSongAudioClipProvider::get_songAudioClip() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAssetSongAudioClipProvider*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>>(this, ___internal_method);
 }

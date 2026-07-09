@@ -3,20 +3,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineGraphicsSettingsExtensions_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
-template<typename T>
-inline void UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions::SetValueAndNotify(::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*  settings, ::ByRef<T>  currentPropertyValue, T  newValue, ::StringW  propertyName)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions*>::get(),
-                    "SetValueAndNotify",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, settings, currentPropertyValue, newValue, propertyName);
+template <typename T>
+inline void UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions::SetValueAndNotify(::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* settings, ::by_ref<T> currentPropertyValue,
+                                                                                                T newValue, ::StringW propertyName) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions*>(),
+                          { "SetValueAndNotify",
+                            { ::i2c::class_of<T>() },
+                            { ::i2c::type_of<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>(), ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<T>(), ::i2c::type_of<::StringW>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, settings, currentPropertyValue, newValue, propertyName);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions::RenderPipelineGraphicsSettingsExtensions()   {
-}
+constexpr ::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions::RenderPipelineGraphicsSettingsExtensions() {}

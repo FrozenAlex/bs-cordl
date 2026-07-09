@@ -6,57 +6,41 @@
 #include "System/IO/zzzz__BinaryWriter_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BinaryReadWriteHelper.Write
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Color)>(&::BeatSaber::AvatarCore::BinaryReadWriteHelper::Write)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Color)>(&::BeatSaber::AvatarCore::BinaryReadWriteHelper::Write)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x31d68fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BinaryReadWriteHelper*>::get(),
-                        "Write",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::BinaryWriter*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BinaryReadWriteHelper*>(),
+                                                             { "Write", {}, { ::i2c::type_of<::System::IO::BinaryWriter*>(), ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BinaryReadWriteHelper.ReadColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::System::IO::BinaryReader*)>(&::BeatSaber::AvatarCore::BinaryReadWriteHelper::ReadColor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::System::IO::BinaryReader*)>(&::BeatSaber::AvatarCore::BinaryReadWriteHelper::ReadColor)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x31d6984;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BinaryReadWriteHelper*>::get(),
-                        "ReadColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::BinaryReader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BinaryReadWriteHelper*>(), { "ReadColor", {}, { ::i2c::type_of<::System::IO::BinaryReader*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::AvatarCore::BinaryReadWriteHelper::Write(::System::IO::BinaryWriter*  binaryWriter, ::UnityEngine::Color  color)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BinaryReadWriteHelper*>::get(),
-                        "Write",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::BinaryWriter*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, binaryWriter, color);
+inline void BeatSaber::AvatarCore::BinaryReadWriteHelper::Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BinaryReadWriteHelper*>(),
+                                                                                         { "Write", {}, { ::i2c::type_of<::System::IO::BinaryWriter*>(), ::i2c::type_of<::UnityEngine::Color>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, binaryWriter, color);
 }
-inline ::UnityEngine::Color BeatSaber::AvatarCore::BinaryReadWriteHelper::ReadColor(::System::IO::BinaryReader*  binaryReader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BinaryReadWriteHelper*>::get(),
-                        "ReadColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::BinaryReader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(nullptr, ___internal_method, binaryReader);
+inline ::UnityEngine::Color BeatSaber::AvatarCore::BinaryReadWriteHelper::ReadColor(::System::IO::BinaryReader* binaryReader) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BinaryReadWriteHelper*>(), { "ReadColor", {}, { ::i2c::type_of<::System::IO::BinaryReader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(nullptr, ___internal_method, binaryReader);
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::AvatarCore::BinaryReadWriteHelper::BinaryReadWriteHelper()   {
-}
+constexpr ::BeatSaber::AvatarCore::BinaryReadWriteHelper::BinaryReadWriteHelper() {}

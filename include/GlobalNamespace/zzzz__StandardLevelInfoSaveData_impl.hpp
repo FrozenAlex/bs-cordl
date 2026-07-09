@@ -1,1180 +1,950 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/StandardLevelInfoSaveData.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelColorSchemeSaveData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelColorSchemeSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet.get_beatmapCharacteristicName
-template<>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::get_beatmapCharacteristicName)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36945f0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>::get(),
-                        "get_beatmapCharacteristicName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet.get_difficultyBeatmaps
-template<>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*> (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::get_difficultyBeatmaps)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36945f8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>::get(),
-                        "get_difficultyBeatmaps",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet._ctor
-template<>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::*)(::StringW, ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>)>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36945e8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>>::get()}
-                    )));
-    return ___internal_method;
-  }
-};
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_get__beatmapCharacteristicName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapCharacteristicName;
-}
-constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_get__beatmapCharacteristicName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapCharacteristicName;
-}
-constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_set__beatmapCharacteristicName(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristicName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_get__difficultyBeatmaps()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____difficultyBeatmaps;
-}
-constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*> const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_get__difficultyBeatmaps() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____difficultyBeatmaps;
-}
-constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_set__difficultyBeatmaps(::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficultyBeatmaps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::get_beatmapCharacteristicName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>::get(),
-                        "get_beatmapCharacteristicName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*> GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::get_difficultyBeatmaps()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>::get(),
-                        "get_difficultyBeatmaps",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::_ctor(::StringW  beatmapCharacteristicName, ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>  difficultyBeatmaps)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapCharacteristicName, difficultyBeatmaps);
-}
-inline ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet* GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::New_ctor(::StringW  beatmapCharacteristicName, ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>  difficultyBeatmaps)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>(beatmapCharacteristicName, difficultyBeatmaps));
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::StandardLevelInfoSaveData_DifficultyBeatmapSet()   {
-}
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap.get_difficulty
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_difficulty)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_difficulty)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3694600;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_difficulty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_difficulty", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap.get_difficultyRank
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_difficultyRank)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_difficultyRank)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3694608;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_difficultyRank",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_difficultyRank", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap.get_beatmapFilename
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_beatmapFilename)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_beatmapFilename)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3694610;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_beatmapFilename",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_beatmapFilename", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap.get_noteJumpMovementSpeed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_noteJumpMovementSpeed)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_noteJumpMovementSpeed)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3694618;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_noteJumpMovementSpeed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_noteJumpMovementSpeed", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap.get_noteJumpStartBeatOffset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_noteJumpStartBeatOffset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_noteJumpStartBeatOffset)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3694620;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_noteJumpStartBeatOffset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_noteJumpStartBeatOffset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap.get_beatmapColorSchemeIdx
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_beatmapColorSchemeIdx)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_beatmapColorSchemeIdx)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3694628;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_beatmapColorSchemeIdx",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_beatmapColorSchemeIdx", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap.get_environmentNameIdx
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_environmentNameIdx)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_environmentNameIdx)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3694630;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_environmentNameIdx",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_environmentNameIdx", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)(::StringW, int32_t, ::StringW, float_t, float_t, int32_t, int32_t)>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::*)(::StringW, int32_t, ::StringW, float_t, float_t, int32_t, int32_t)>(
+    &::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::_ctor)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x36945d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(),
+                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__difficulty()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____difficulty;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__difficulty() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____difficulty;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__difficulty() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____difficulty;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____difficulty;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__difficulty(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficulty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__difficulty(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____difficulty = value;
 }
-constexpr int32_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__difficultyRank()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____difficultyRank;
+constexpr int32_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__difficultyRank() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____difficultyRank;
 }
 constexpr int32_t const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__difficultyRank() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____difficultyRank;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____difficultyRank;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__difficultyRank(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____difficultyRank = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__difficultyRank(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____difficultyRank = value;
 }
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__beatmapFilename()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapFilename;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__beatmapFilename() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapFilename;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__beatmapFilename() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapFilename;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapFilename;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__beatmapFilename(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapFilename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__beatmapFilename(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatmapFilename = value;
 }
-constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__noteJumpMovementSpeed()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____noteJumpMovementSpeed;
+constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__noteJumpMovementSpeed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____noteJumpMovementSpeed;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__noteJumpMovementSpeed() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____noteJumpMovementSpeed;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____noteJumpMovementSpeed;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__noteJumpMovementSpeed(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____noteJumpMovementSpeed = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__noteJumpMovementSpeed(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____noteJumpMovementSpeed = value;
 }
-constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__noteJumpStartBeatOffset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____noteJumpStartBeatOffset;
+constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__noteJumpStartBeatOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____noteJumpStartBeatOffset;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__noteJumpStartBeatOffset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____noteJumpStartBeatOffset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____noteJumpStartBeatOffset;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__noteJumpStartBeatOffset(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____noteJumpStartBeatOffset = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__noteJumpStartBeatOffset(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____noteJumpStartBeatOffset = value;
 }
-constexpr int32_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__beatmapColorSchemeIdx()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapColorSchemeIdx;
+constexpr int32_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__beatmapColorSchemeIdx() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapColorSchemeIdx;
 }
 constexpr int32_t const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__beatmapColorSchemeIdx() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapColorSchemeIdx;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapColorSchemeIdx;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__beatmapColorSchemeIdx(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____beatmapColorSchemeIdx = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__beatmapColorSchemeIdx(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatmapColorSchemeIdx = value;
 }
-constexpr int32_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__environmentNameIdx()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____environmentNameIdx;
+constexpr int32_t& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__environmentNameIdx() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentNameIdx;
 }
 constexpr int32_t const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_get__environmentNameIdx() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____environmentNameIdx;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentNameIdx;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__environmentNameIdx(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____environmentNameIdx = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::__cordl_internal_set__environmentNameIdx(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____environmentNameIdx = value;
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_difficulty()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_difficulty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_difficulty() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_difficulty", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_difficultyRank()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_difficultyRank",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_difficultyRank() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_difficultyRank", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_beatmapFilename()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_beatmapFilename",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_beatmapFilename() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_beatmapFilename", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_noteJumpMovementSpeed()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_noteJumpMovementSpeed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_noteJumpMovementSpeed() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_noteJumpMovementSpeed", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_noteJumpStartBeatOffset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_noteJumpStartBeatOffset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_noteJumpStartBeatOffset() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_noteJumpStartBeatOffset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_beatmapColorSchemeIdx()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_beatmapColorSchemeIdx",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_beatmapColorSchemeIdx() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_beatmapColorSchemeIdx", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_environmentNameIdx()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        "get_environmentNameIdx",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::get_environmentNameIdx() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(), { "get_environmentNameIdx", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::_ctor(::StringW  difficultyName, int32_t  difficultyRank, ::StringW  beatmapFilename, float_t  noteJumpMovementSpeed, float_t  noteJumpStartBeatOffset, int32_t  beatmapColorSchemeIdx, int32_t  environmentNameIdx)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, difficultyName, difficultyRank, beatmapFilename, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatmapColorSchemeIdx, environmentNameIdx);
+inline void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::_ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed,
+                                                                                float_t noteJumpStartBeatOffset, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(),
+                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, difficultyName, difficultyRank, beatmapFilename, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatmapColorSchemeIdx,
+                                                   environmentNameIdx);
 }
-inline ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap* GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::New_ctor(::StringW  difficultyName, int32_t  difficultyRank, ::StringW  beatmapFilename, float_t  noteJumpMovementSpeed, float_t  noteJumpStartBeatOffset, int32_t  beatmapColorSchemeIdx, int32_t  environmentNameIdx)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(difficultyName, difficultyRank, beatmapFilename, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatmapColorSchemeIdx, environmentNameIdx));
+inline ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*
+GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::New_ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed,
+                                                                       float_t noteJumpStartBeatOffset, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>(difficultyName, difficultyRank, beatmapFilename, noteJumpMovementSpeed,
+                                                                                                                           noteJumpStartBeatOffset, beatmapColorSchemeIdx, environmentNameIdx));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::StandardLevelInfoSaveData_DifficultyBeatmap()   {
-}
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_version
-template<>
+constexpr ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap::StandardLevelInfoSaveData_DifficultyBeatmap() {}
+//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet.get_beatmapCharacteristicName
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_version)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::get_beatmapCharacteristicName)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x36945f0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>(), { "get_beatmapCharacteristicName", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet.get_difficultyBeatmaps
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*> (
+    ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::get_difficultyBeatmaps)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x36945f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>(), { "get_difficultyBeatmaps", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::*)(
+    ::StringW, ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>)>(&::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x36945e8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>(),
+                                                { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_get__beatmapCharacteristicName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCharacteristicName;
+}
+constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_get__beatmapCharacteristicName() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCharacteristicName;
+}
+constexpr void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_set__beatmapCharacteristicName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatmapCharacteristicName = value;
+}
+constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>& GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_get__difficultyBeatmaps() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____difficultyBeatmaps;
+}
+constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*> const&
+GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_get__difficultyBeatmaps() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____difficultyBeatmaps;
+}
+constexpr void
+GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::__cordl_internal_set__difficultyBeatmaps(::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____difficultyBeatmaps = value;
+}
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::get_beatmapCharacteristicName() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>(), { "get_beatmapCharacteristicName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*> GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::get_difficultyBeatmaps() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>(), { "get_difficultyBeatmaps", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>>(this, ___internal_method);
+}
+inline void GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::_ctor(::StringW beatmapCharacteristicName,
+                                                                                   ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*> difficultyBeatmaps) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>(),
+                                              { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapCharacteristicName, difficultyBeatmaps);
+}
+inline ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*
+GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::New_ctor(::StringW beatmapCharacteristicName,
+                                                                          ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*> difficultyBeatmaps) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>(beatmapCharacteristicName, difficultyBeatmaps));
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet::StandardLevelInfoSaveData_DifficultyBeatmapSet() {}
+//  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_version
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_version)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693c68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_version", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_songName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songName)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693c70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_songSubName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songSubName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songSubName)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693c78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songSubName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songSubName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_songAuthorName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songAuthorName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songAuthorName)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693c80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songAuthorName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songAuthorName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_levelAuthorName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_levelAuthorName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_levelAuthorName)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693c88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_levelAuthorName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_levelAuthorName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_beatsPerMinute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_beatsPerMinute)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_beatsPerMinute)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693c90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_beatsPerMinute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_beatsPerMinute", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_songTimeOffset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songTimeOffset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songTimeOffset)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693c98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songTimeOffset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songTimeOffset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_shuffle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_shuffle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_shuffle)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693ca0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_shuffle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_shuffle", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_shufflePeriod
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_shufflePeriod)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_shufflePeriod)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693ca8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_shufflePeriod",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_shufflePeriod", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_previewStartTime
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_previewStartTime)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_previewStartTime)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693cb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_previewStartTime",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_previewStartTime", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_previewDuration
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_previewDuration)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_previewDuration)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693cb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_previewDuration",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_previewDuration", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_songFilename
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songFilename)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_songFilename)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693cc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songFilename",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songFilename", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_coverImageFilename
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_coverImageFilename)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_coverImageFilename)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693cc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_coverImageFilename",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_coverImageFilename", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_environmentName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_environmentName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_environmentName)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693cd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_environmentName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_environmentName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_allDirectionsEnvironmentName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_allDirectionsEnvironmentName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData::get_allDirectionsEnvironmentName)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693cd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_allDirectionsEnvironmentName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_allDirectionsEnvironmentName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_environmentNames
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW,::Array<::StringW>*> (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_environmentNames)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_environmentNames)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693ce0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_environmentNames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_environmentNames", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_colorSchemes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_colorSchemes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*> (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData::get_colorSchemes)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693ce8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_colorSchemes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_colorSchemes", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_difficultyBeatmapSets
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*> (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_difficultyBeatmapSets)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*> (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(
+    &::GlobalNamespace::StandardLevelInfoSaveData::get_difficultyBeatmapSets)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3693cf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_difficultyBeatmapSets",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_difficultyBeatmapSets", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData::*)(::StringW, ::StringW, ::StringW, ::StringW, float_t, float_t, float_t, float_t, float_t, float_t, ::StringW, ::StringW, ::StringW, ::StringW, ::ArrayW<::StringW,::Array<::StringW>*>, ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*>, ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>)>(&::GlobalNamespace::StandardLevelInfoSaveData::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData::*)(
+    ::StringW, ::StringW, ::StringW, ::StringW, float_t, float_t, float_t, float_t, float_t, float_t, ::StringW, ::StringW, ::StringW, ::StringW, ::ArrayW<::StringW>,
+    ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>, ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>)>(
+    &::GlobalNamespace::StandardLevelInfoSaveData::_ctor)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x3693cf8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 17>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW,::Array<::StringW>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(),
+                                                { ".ctor",
+                                                  {},
+                                                  { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(),
+                                                    ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
+                                                    ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                                    ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>>(),
+                                                    ::i2c::type_of<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.get_hasAllData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_hasAllData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandardLevelInfoSaveData::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData::get_hasAllData)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x3693dec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_hasAllData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_hasAllData", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelInfoSaveData.DeserializeFromJSONString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StandardLevelInfoSaveData* (*)(::StringW)>(&::GlobalNamespace::StandardLevelInfoSaveData::DeserializeFromJSONString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardLevelInfoSaveData* (*)(::StringW)>(&::GlobalNamespace::StandardLevelInfoSaveData::DeserializeFromJSONString)> {
   constexpr static std::size_t size = 0x570;
   constexpr static std::size_t addrs = 0x3693e48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "DeserializeFromJSONString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "DeserializeFromJSONString", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__version()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____version;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____version;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__version() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____version;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____version;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__version(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__version(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____version = value;
 }
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songName;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songName;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songName;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songName(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____songName = value;
 }
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songSubName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songSubName;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songSubName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songSubName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songSubName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songSubName;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songSubName;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songSubName(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songSubName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songSubName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____songSubName = value;
 }
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songAuthorName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songAuthorName;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songAuthorName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songAuthorName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songAuthorName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songAuthorName;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songAuthorName;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songAuthorName(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songAuthorName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songAuthorName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____songAuthorName = value;
 }
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__levelAuthorName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____levelAuthorName;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__levelAuthorName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____levelAuthorName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__levelAuthorName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____levelAuthorName;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____levelAuthorName;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__levelAuthorName(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelAuthorName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__levelAuthorName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____levelAuthorName = value;
 }
-constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__beatsPerMinute()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatsPerMinute;
+constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__beatsPerMinute() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatsPerMinute;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__beatsPerMinute() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatsPerMinute;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatsPerMinute;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__beatsPerMinute(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____beatsPerMinute = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__beatsPerMinute(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatsPerMinute = value;
 }
-constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songTimeOffset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songTimeOffset;
+constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songTimeOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songTimeOffset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songTimeOffset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songTimeOffset;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songTimeOffset(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____songTimeOffset = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songTimeOffset(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____songTimeOffset = value;
 }
-constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__shuffle()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____shuffle;
+constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__shuffle() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____shuffle;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__shuffle() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____shuffle;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____shuffle;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__shuffle(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____shuffle = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__shuffle(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____shuffle = value;
 }
-constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__shufflePeriod()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____shufflePeriod;
+constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__shufflePeriod() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____shufflePeriod;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__shufflePeriod() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____shufflePeriod;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____shufflePeriod;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__shufflePeriod(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____shufflePeriod = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__shufflePeriod(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____shufflePeriod = value;
 }
-constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__previewStartTime()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____previewStartTime;
+constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__previewStartTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____previewStartTime;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__previewStartTime() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____previewStartTime;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____previewStartTime;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__previewStartTime(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____previewStartTime = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__previewStartTime(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____previewStartTime = value;
 }
-constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__previewDuration()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____previewDuration;
+constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__previewDuration() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____previewDuration;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__previewDuration() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____previewDuration;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____previewDuration;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__previewDuration(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____previewDuration = value;
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__previewDuration(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____previewDuration = value;
 }
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songFilename()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songFilename;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songFilename() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songFilename;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__songFilename() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____songFilename;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songFilename;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songFilename(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songFilename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__songFilename(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____songFilename = value;
 }
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__coverImageFilename()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____coverImageFilename;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__coverImageFilename() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____coverImageFilename;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__coverImageFilename() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____coverImageFilename;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____coverImageFilename;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__coverImageFilename(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coverImageFilename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__coverImageFilename(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____coverImageFilename = value;
 }
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__environmentName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____environmentName;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__environmentName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__environmentName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____environmentName;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentName;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__environmentName(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__environmentName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____environmentName = value;
 }
-constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__allDirectionsEnvironmentName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____allDirectionsEnvironmentName;
+constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__allDirectionsEnvironmentName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____allDirectionsEnvironmentName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__allDirectionsEnvironmentName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____allDirectionsEnvironmentName;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____allDirectionsEnvironmentName;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__allDirectionsEnvironmentName(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allDirectionsEnvironmentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__allDirectionsEnvironmentName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____allDirectionsEnvironmentName = value;
 }
-constexpr ::ArrayW<::StringW,::Array<::StringW>*>& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__environmentNames()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____environmentNames;
+constexpr ::ArrayW<::StringW>& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__environmentNames() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentNames;
 }
-constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__environmentNames() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____environmentNames;
+constexpr ::ArrayW<::StringW> const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__environmentNames() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentNames;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__environmentNames(::ArrayW<::StringW,::Array<::StringW>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__environmentNames(::ArrayW<::StringW> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____environmentNames = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*>& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__colorSchemes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____colorSchemes;
+constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__colorSchemes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____colorSchemes;
 }
-constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__colorSchemes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____colorSchemes;
+constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*> const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__colorSchemes() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____colorSchemes;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__colorSchemes(::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorSchemes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__colorSchemes(::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____colorSchemes = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__difficultyBeatmapSets()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____difficultyBeatmapSets;
+constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__difficultyBeatmapSets() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____difficultyBeatmapSets;
 }
-constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*> const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__difficultyBeatmapSets() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____difficultyBeatmapSets;
+constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*> const& GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_get__difficultyBeatmapSets() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____difficultyBeatmapSets;
 }
-constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__difficultyBeatmapSets(::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficultyBeatmapSets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelInfoSaveData::__cordl_internal_set__difficultyBeatmapSets(::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____difficultyBeatmapSets = value;
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_version()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_version() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_version", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_songName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_songName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_songSubName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songSubName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_songSubName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songSubName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_songAuthorName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songAuthorName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_songAuthorName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songAuthorName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_levelAuthorName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_levelAuthorName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_levelAuthorName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_levelAuthorName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_beatsPerMinute()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_beatsPerMinute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_beatsPerMinute() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_beatsPerMinute", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_songTimeOffset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songTimeOffset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_songTimeOffset() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songTimeOffset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_shuffle()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_shuffle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_shuffle() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_shuffle", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_shufflePeriod()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_shufflePeriod",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_shufflePeriod() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_shufflePeriod", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_previewStartTime()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_previewStartTime",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_previewStartTime() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_previewStartTime", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_previewDuration()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_previewDuration",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::StandardLevelInfoSaveData::get_previewDuration() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_previewDuration", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_songFilename()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_songFilename",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_songFilename() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_songFilename", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_coverImageFilename()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_coverImageFilename",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_coverImageFilename() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_coverImageFilename", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_environmentName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_environmentName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_environmentName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_environmentName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_allDirectionsEnvironmentName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_allDirectionsEnvironmentName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_allDirectionsEnvironmentName() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_allDirectionsEnvironmentName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::ArrayW<::StringW,::Array<::StringW>*> GlobalNamespace::StandardLevelInfoSaveData::get_environmentNames()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_environmentNames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW,::Array<::StringW>*>, false>(this, ___internal_method);
+inline ::ArrayW<::StringW> GlobalNamespace::StandardLevelInfoSaveData::get_environmentNames() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_environmentNames", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(this, ___internal_method);
 }
-inline ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> GlobalNamespace::StandardLevelInfoSaveData::get_colorSchemes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_colorSchemes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*> GlobalNamespace::StandardLevelInfoSaveData::get_colorSchemes() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_colorSchemes", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>>(this, ___internal_method);
 }
-inline ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*> GlobalNamespace::StandardLevelInfoSaveData::get_difficultyBeatmapSets()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_difficultyBeatmapSets",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*> GlobalNamespace::StandardLevelInfoSaveData::get_difficultyBeatmapSets() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_difficultyBeatmapSets", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>>(this, ___internal_method);
 }
-inline void GlobalNamespace::StandardLevelInfoSaveData::_ctor(::StringW  songName, ::StringW  songSubName, ::StringW  songAuthorName, ::StringW  levelAuthorName, float_t  beatsPerMinute, float_t  songTimeOffset, float_t  shuffle, float_t  shufflePeriod, float_t  previewStartTime, float_t  previewDuration, ::StringW  songFilename, ::StringW  coverImageFilename, ::StringW  environmentName, ::StringW  allDirectionsEnvironmentName, ::ArrayW<::StringW,::Array<::StringW>*>  environmentNames, ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*>  colorSchemes, ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>  difficultyBeatmapSets)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 17>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW,::Array<::StringW>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, songFilename, coverImageFilename, environmentName, allDirectionsEnvironmentName, environmentNames, colorSchemes, difficultyBeatmapSets);
+inline void GlobalNamespace::StandardLevelInfoSaveData::_ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute,
+                                                              float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename,
+                                                              ::StringW coverImageFilename, ::StringW environmentName, ::StringW allDirectionsEnvironmentName, ::ArrayW<::StringW> environmentNames,
+                                                              ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*> colorSchemes,
+                                                              ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*> difficultyBeatmapSets) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(),
+                                              { ".ctor",
+                                                {},
+                                                { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(),
+                                                  ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
+                                                  ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(),
+                                                  ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>>(),
+                                                  ::i2c::type_of<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod,
+                                                   previewStartTime, previewDuration, songFilename, coverImageFilename, environmentName, allDirectionsEnvironmentName, environmentNames, colorSchemes,
+                                                   difficultyBeatmapSets);
 }
-inline bool GlobalNamespace::StandardLevelInfoSaveData::get_hasAllData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "get_hasAllData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::StandardLevelInfoSaveData::get_hasAllData() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "get_hasAllData", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::GlobalNamespace::StandardLevelInfoSaveData* GlobalNamespace::StandardLevelInfoSaveData::DeserializeFromJSONString(::StringW  stringData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelInfoSaveData*>::get(),
-                        "DeserializeFromJSONString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardLevelInfoSaveData*, false>(nullptr, ___internal_method, stringData);
+inline ::GlobalNamespace::StandardLevelInfoSaveData* GlobalNamespace::StandardLevelInfoSaveData::DeserializeFromJSONString(::StringW stringData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData*>(), { "DeserializeFromJSONString", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardLevelInfoSaveData*>(nullptr, ___internal_method, stringData);
 }
-inline ::GlobalNamespace::StandardLevelInfoSaveData* GlobalNamespace::StandardLevelInfoSaveData::New_ctor(::StringW  songName, ::StringW  songSubName, ::StringW  songAuthorName, ::StringW  levelAuthorName, float_t  beatsPerMinute, float_t  songTimeOffset, float_t  shuffle, float_t  shufflePeriod, float_t  previewStartTime, float_t  previewDuration, ::StringW  songFilename, ::StringW  coverImageFilename, ::StringW  environmentName, ::StringW  allDirectionsEnvironmentName, ::ArrayW<::StringW,::Array<::StringW>*>  environmentNames, ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*,::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*>  colorSchemes, ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>  difficultyBeatmapSets)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelInfoSaveData*>(songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, songFilename, coverImageFilename, environmentName, allDirectionsEnvironmentName, environmentNames, colorSchemes, difficultyBeatmapSets));
+inline ::GlobalNamespace::StandardLevelInfoSaveData*
+GlobalNamespace::StandardLevelInfoSaveData::New_ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset,
+                                                     float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename,
+                                                     ::StringW environmentName, ::StringW allDirectionsEnvironmentName, ::ArrayW<::StringW> environmentNames,
+                                                     ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*> colorSchemes,
+                                                     ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*> difficultyBeatmapSets) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::StandardLevelInfoSaveData*>(
+                                              songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration,
+                                              songFilename, coverImageFilename, environmentName, allDirectionsEnvironmentName, environmentNames, colorSchemes, difficultyBeatmapSets));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::StandardLevelInfoSaveData::StandardLevelInfoSaveData()   {
-}
+constexpr ::GlobalNamespace::StandardLevelInfoSaveData::StandardLevelInfoSaveData() {}

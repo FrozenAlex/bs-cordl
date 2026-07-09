@@ -3,31 +3,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidGame_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::AndroidGame.StopLoading
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::Android::AndroidGame::StopLoading)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Android::AndroidGame::StopLoading)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x68d72f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidGame*>::get(),
-                        "StopLoading",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidGame*>(), { "StopLoading", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Android::AndroidGame::StopLoading(int32_t  label)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidGame*>::get(),
-                        "StopLoading",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, label);
+inline void UnityEngine::Android::AndroidGame::StopLoading(int32_t label) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidGame*>(), { "StopLoading", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, label);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Android::AndroidGame::AndroidGame()   {
-}
+constexpr ::UnityEngine::Android::AndroidGame::AndroidGame() {}

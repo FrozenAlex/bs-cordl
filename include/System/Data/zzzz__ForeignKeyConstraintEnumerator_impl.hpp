@@ -6,85 +6,61 @@
 #include "System/Data/zzzz__DataSet_def.hpp"
 #include "System/Data/zzzz__ForeignKeyConstraint_def.hpp"
 //  Writing Method size for method: ::System::Data::ForeignKeyConstraintEnumerator._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraintEnumerator::*)(::System::Data::DataSet*)>(&::System::Data::ForeignKeyConstraintEnumerator::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ForeignKeyConstraintEnumerator::*)(::System::Data::DataSet*)>(&::System::Data::ForeignKeyConstraintEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5edfa68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ForeignKeyConstraintEnumerator*>(), { ".ctor", {}, { ::i2c::type_of<::System::Data::DataSet*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::ForeignKeyConstraintEnumerator.IsValidCandidate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ForeignKeyConstraintEnumerator::*)(::System::Data::Constraint*)>(&::System::Data::ForeignKeyConstraintEnumerator::IsValidCandidate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ForeignKeyConstraintEnumerator::*)(::System::Data::Constraint*)>(
+    &::System::Data::ForeignKeyConstraintEnumerator::IsValidCandidate)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5edfa6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ForeignKeyConstraintEnumerator*>(), { ::i2c::class_of<::System::Data::ForeignKeyConstraintEnumerator*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::ForeignKeyConstraintEnumerator.GetForeignKeyConstraint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ForeignKeyConstraint* (::System::Data::ForeignKeyConstraintEnumerator::*)()>(&::System::Data::ForeignKeyConstraintEnumerator::GetForeignKeyConstraint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::ForeignKeyConstraint* (::System::Data::ForeignKeyConstraintEnumerator::*)()>(
+    &::System::Data::ForeignKeyConstraintEnumerator::GetForeignKeyConstraint)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5edfae8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(),
-                        "GetForeignKeyConstraint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ForeignKeyConstraintEnumerator*>(), { "GetForeignKeyConstraint", {}, {} })));
     return ___internal_method;
   }
 };
-inline void System::Data::ForeignKeyConstraintEnumerator::_ctor(::System::Data::DataSet*  dataSet)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dataSet);
+inline void System::Data::ForeignKeyConstraintEnumerator::_ctor(::System::Data::DataSet* dataSet) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ForeignKeyConstraintEnumerator*>(), { ".ctor", {}, { ::i2c::type_of<::System::Data::DataSet*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dataSet);
 }
-inline bool System::Data::ForeignKeyConstraintEnumerator::IsValidCandidate(::System::Data::Constraint*  constraint)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, constraint);
+inline bool System::Data::ForeignKeyConstraintEnumerator::IsValidCandidate(::System::Data::Constraint* constraint) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Data::ForeignKeyConstraintEnumerator*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, constraint);
 }
-inline ::System::Data::ForeignKeyConstraint* System::Data::ForeignKeyConstraintEnumerator::GetForeignKeyConstraint()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraintEnumerator*>::get(),
-                        "GetForeignKeyConstraint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::ForeignKeyConstraint*, false>(this, ___internal_method);
+inline ::System::Data::ForeignKeyConstraint* System::Data::ForeignKeyConstraintEnumerator::GetForeignKeyConstraint() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ForeignKeyConstraintEnumerator*>(), { "GetForeignKeyConstraint", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::ForeignKeyConstraint*>(this, ___internal_method);
 }
-inline ::System::Data::ForeignKeyConstraintEnumerator* System::Data::ForeignKeyConstraintEnumerator::New_ctor(::System::Data::DataSet*  dataSet)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::ForeignKeyConstraintEnumerator*>(dataSet));
+inline ::System::Data::ForeignKeyConstraintEnumerator* System::Data::ForeignKeyConstraintEnumerator::New_ctor(::System::Data::DataSet* dataSet) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::ForeignKeyConstraintEnumerator*>(dataSet));
 }
 // Ctor Parameters []
-constexpr ::System::Data::ForeignKeyConstraintEnumerator::ForeignKeyConstraintEnumerator()   {
-}
+constexpr ::System::Data::ForeignKeyConstraintEnumerator::ForeignKeyConstraintEnumerator() {}

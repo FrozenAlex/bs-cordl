@@ -16,7 +16,6 @@
         ],
         "cppFeatures": [],
         "cppFlags": [
-          "-DNEED_UNSAFE_CSHARP",
           "-fdeclspec",
           "-DUNITY_6",
           "-DHAS_CODEGEN",
@@ -40,7 +39,7 @@
   "dependencies": [
     {
       "id": "beatsaber-hook",
-      "versionRange": "^7.0.0",
+      "versionRange": "^8.0.0",
       "additionalData": {}
     },
     {

@@ -8,261 +8,194 @@
 #include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarVisualController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::Init)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x31dba70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { "Init", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView.OnDestroy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::OnDestroy)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x31dbb30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { "OnDestroy", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView.SetCreated
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)(bool)>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::SetCreated)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)(bool)>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::SetCreated)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x31dbbc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView.Activate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::Activate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::Activate)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x31dbc00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView.Deactivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::Deactivate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::Deactivate)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x31dbc3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView.HandleAvatarDataModelDidChangeAvatarData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)(::BeatSaber::BeatAvatarSDK::AvatarData*)>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::HandleAvatarDataModelDidChangeAvatarData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)(::BeatSaber::BeatAvatarSDK::AvatarData*)>(
+    &::BeatSaber::AvatarCore::BeatAvatarSelectionView::HandleAvatarDataModelDidChangeAvatarData)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x31dbc50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        "HandleAvatarDataModelDidChangeAvatarData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::BeatAvatarSDK::AvatarData*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(),
+                                                             { "HandleAvatarDataModelDidChangeAvatarData", {}, { ::i2c::type_of<::BeatSaber::BeatAvatarSDK::AvatarData*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView.UpdateAvatarVisuals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::UpdateAvatarVisuals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::UpdateAvatarVisuals)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x31dbb08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        "UpdateAvatarVisuals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { "UpdateAvatarVisuals", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::BeatAvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::BeatAvatarSelectionView::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x31dbc54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::GameObject>& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__avatarContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____avatarContainer;
+constexpr ::UnityW<::UnityEngine::GameObject>& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__avatarContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____avatarContainer;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__avatarContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____avatarContainer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____avatarContainer;
 }
-constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_set__avatarContainer(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_set__avatarContainer(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____avatarContainer = value;
 }
-constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__beatAvatarVisualController()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatAvatarVisualController;
+constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__beatAvatarVisualController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatAvatarVisualController;
 }
 constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> const& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__beatAvatarVisualController() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatAvatarVisualController;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatAvatarVisualController;
 }
-constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_set__beatAvatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatAvatarVisualController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_set__beatAvatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatAvatarVisualController = value;
 }
-constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController>& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__avatarTweenController()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____avatarTweenController;
+constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController>& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__avatarTweenController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____avatarTweenController;
 }
 constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> const& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__avatarTweenController() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____avatarTweenController;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____avatarTweenController;
 }
-constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_set__avatarTweenController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarTweenController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_set__avatarTweenController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____avatarTweenController = value;
 }
-constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__avatarDataModel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____avatarDataModel;
+constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__avatarDataModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____avatarDataModel;
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel* const& BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_get__avatarDataModel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____avatarDataModel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____avatarDataModel;
 }
-constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____avatarDataModel = value;
 }
-inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::Init()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::Init() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { "Init", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::OnDestroy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { "OnDestroy", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::SetCreated(bool  isCreated)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isCreated);
+inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::SetCreated(bool isCreated) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isCreated);
 }
-inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::Activate()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::Activate() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::Deactivate()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::Deactivate() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::HandleAvatarDataModelDidChangeAvatarData(::BeatSaber::BeatAvatarSDK::AvatarData*  data)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        "HandleAvatarDataModelDidChangeAvatarData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::BeatAvatarSDK::AvatarData*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::HandleAvatarDataModelDidChangeAvatarData(::BeatSaber::BeatAvatarSDK::AvatarData* data) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(),
+                                                           { "HandleAvatarDataModelDidChangeAvatarData", {}, { ::i2c::type_of<::BeatSaber::BeatAvatarSDK::AvatarData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data);
 }
-inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::UpdateAvatarVisuals()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        "UpdateAvatarVisuals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::UpdateAvatarVisuals() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { "UpdateAvatarVisuals", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::BeatSaber::AvatarCore::BeatAvatarSelectionView* BeatSaber::AvatarCore::BeatAvatarSelectionView::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>());
+inline ::BeatSaber::AvatarCore::BeatAvatarSelectionView* BeatSaber::AvatarCore::BeatAvatarSelectionView::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::AvatarCore::BeatAvatarSelectionView*>());
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::AvatarCore::BeatAvatarSelectionView::BeatAvatarSelectionView()   {
-}
+constexpr ::BeatSaber::AvatarCore::BeatAvatarSelectionView::BeatAvatarSelectionView() {}

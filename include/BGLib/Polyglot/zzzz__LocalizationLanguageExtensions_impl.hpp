@@ -7,135 +7,97 @@
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationLanguageExtensions.ToSerializedName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BGLib::Polyglot::LocalizationLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToSerializedName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::BGLib::Polyglot::LocalizationLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToSerializedName)> {
   constexpr static std::size_t size = 0x2c0;
   constexpr static std::size_t addrs = 0x3262fec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "ToSerializedName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationLanguage>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
+                                                                                           { "ToSerializedName", {}, { ::i2c::type_of<::BGLib::Polyglot::LocalizationLanguage>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationLanguageExtensions.ToCultureInfoName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BGLib::Polyglot::LocalizationLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToCultureInfoName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::BGLib::Polyglot::LocalizationLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToCultureInfoName)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x32632ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "ToCultureInfoName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationLanguage>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
+                                                                                           { "ToCultureInfoName", {}, { ::i2c::type_of<::BGLib::Polyglot::LocalizationLanguage>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationLanguageExtensions.ToLocalizationLanguage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::LocalizationLanguage (*)(::StringW)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::Polyglot::LocalizationLanguage (*)(::StringW)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage)> {
   constexpr static std::size_t size = 0x1458;
   constexpr static std::size_t addrs = 0x3263394;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "ToLocalizationLanguage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(), { "ToLocalizationLanguage", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationLanguageExtensions.ToLocalizationLanguage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<bool,::BGLib::Polyglot::LocalizationLanguage> (*)(::UnityEngine::SystemLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<bool, ::BGLib::Polyglot::LocalizationLanguage> (*)(::UnityEngine::SystemLanguage)>(
+    &::BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x326482c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "ToLocalizationLanguage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SystemLanguage>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
+                                                                                           { "ToLocalizationLanguage", {}, { ::i2c::type_of<::UnityEngine::SystemLanguage>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationLanguageExtensions.GetLanguageDirection
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::LanguageDirection (*)(::BGLib::Polyglot::LocalizationLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::GetLanguageDirection)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::Polyglot::LanguageDirection (*)(::BGLib::Polyglot::LocalizationLanguage)>(
+    &::BGLib::Polyglot::LocalizationLanguageExtensions::GetLanguageDirection)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x32648d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "GetLanguageDirection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationLanguage>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
+                                                                                           { "GetLanguageDirection", {}, { ::i2c::type_of<::BGLib::Polyglot::LocalizationLanguage>() } })));
     return ___internal_method;
   }
 };
-inline ::StringW BGLib::Polyglot::LocalizationLanguageExtensions::ToSerializedName(::BGLib::Polyglot::LocalizationLanguage  language)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "ToSerializedName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationLanguage>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, language);
+inline ::StringW BGLib::Polyglot::LocalizationLanguageExtensions::ToSerializedName(::BGLib::Polyglot::LocalizationLanguage language) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
+                                                                                         { "ToSerializedName", {}, { ::i2c::type_of<::BGLib::Polyglot::LocalizationLanguage>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, language);
 }
-inline ::StringW BGLib::Polyglot::LocalizationLanguageExtensions::ToCultureInfoName(::BGLib::Polyglot::LocalizationLanguage  language)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "ToCultureInfoName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationLanguage>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, language);
+inline ::StringW BGLib::Polyglot::LocalizationLanguageExtensions::ToCultureInfoName(::BGLib::Polyglot::LocalizationLanguage language) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
+                                                                                         { "ToCultureInfoName", {}, { ::i2c::type_of<::BGLib::Polyglot::LocalizationLanguage>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, language);
 }
-inline ::BGLib::Polyglot::LocalizationLanguage BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage(::StringW  serializedName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "ToLocalizationLanguage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::LocalizationLanguage, false>(nullptr, ___internal_method, serializedName);
+inline ::BGLib::Polyglot::LocalizationLanguage BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage(::StringW serializedName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(), { "ToLocalizationLanguage", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::LocalizationLanguage>(nullptr, ___internal_method, serializedName);
 }
-inline ::System::ValueTuple_2<bool,::BGLib::Polyglot::LocalizationLanguage> BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage(::UnityEngine::SystemLanguage  systemLanguage)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "ToLocalizationLanguage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SystemLanguage>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<bool,::BGLib::Polyglot::LocalizationLanguage>, false>(nullptr, ___internal_method, systemLanguage);
+inline ::System::ValueTuple_2<bool, ::BGLib::Polyglot::LocalizationLanguage> BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage(::UnityEngine::SystemLanguage systemLanguage) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(), { "ToLocalizationLanguage", {}, { ::i2c::type_of<::UnityEngine::SystemLanguage>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<bool, ::BGLib::Polyglot::LocalizationLanguage>>(nullptr, ___internal_method, systemLanguage);
 }
-inline ::BGLib::Polyglot::LanguageDirection BGLib::Polyglot::LocalizationLanguageExtensions::GetLanguageDirection(::BGLib::Polyglot::LocalizationLanguage  language)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationLanguageExtensions*>::get(),
-                        "GetLanguageDirection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationLanguage>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::LanguageDirection, false>(nullptr, ___internal_method, language);
+inline ::BGLib::Polyglot::LanguageDirection BGLib::Polyglot::LocalizationLanguageExtensions::GetLanguageDirection(::BGLib::Polyglot::LocalizationLanguage language) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
+                                                                                         { "GetLanguageDirection", {}, { ::i2c::type_of<::BGLib::Polyglot::LocalizationLanguage>() } })));
+  return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::LanguageDirection>(nullptr, ___internal_method, language);
 }
 // Ctor Parameters []
-constexpr ::BGLib::Polyglot::LocalizationLanguageExtensions::LocalizationLanguageExtensions()   {
-}
+constexpr ::BGLib::Polyglot::LocalizationLanguageExtensions::LocalizationLanguageExtensions() {}

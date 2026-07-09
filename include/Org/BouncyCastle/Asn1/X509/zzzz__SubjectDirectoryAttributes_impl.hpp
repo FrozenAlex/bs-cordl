@@ -9,181 +9,142 @@
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes.GetInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::GetInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* (*)(::System::Object*)>(
+    &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::GetInstance)> {
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x35a6b44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
+    &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor)> {
   constexpr static std::size_t size = 0x324;
   constexpr static std::size_t addrs = 0x35a6cc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)(::System::Collections::ArrayList*)>(&::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)(::System::Collections::ArrayList*)>(
+    &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x35a6fec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::ArrayList*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)(::System::Collections::IList*)>(&::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)(::System::Collections::IList*)>(
+    &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x35a6ff0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::IList*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes.ToAsn1Object
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)()>(&::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::ToAsn1Object)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)()>(
+    &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::ToAsn1Object)> {
   constexpr static std::size_t size = 0x2cc;
   constexpr static std::size_t addrs = 0x35a7060;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(),
+                                                                                          { ::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes.get_Attributes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)()>(&::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::get_Attributes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)()>(
+    &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::get_Attributes)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x35a732c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        "get_Attributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), { "get_Attributes", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::IList*& Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::__cordl_internal_get_attributes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributes;
+constexpr ::System::Collections::IList*& Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::__cordl_internal_get_attributes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributes;
 }
 constexpr ::System::Collections::IList* const& Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::__cordl_internal_get_attributes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___attributes;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___attributes;
 }
-constexpr void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::__cordl_internal_set_attributes(::System::Collections::IList*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::__cordl_internal_set_attributes(::System::Collections::IList* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___attributes = value;
 }
-inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::GetInstance(::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*, false>(nullptr, ___internal_method, obj);
+inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::GetInstance(::System::Object* obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(nullptr, ___internal_method, obj);
 }
-inline void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
+inline void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, seq);
 }
-inline void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor(::System::Collections::ArrayList*  attributes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributes);
+inline void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor(::System::Collections::ArrayList* attributes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::ArrayList*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attributes);
 }
-inline void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor(::System::Collections::IList*  attributes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributes);
+inline void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor(::System::Collections::IList* attributes) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::IList*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attributes);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::ToAsn1Object()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::ToAsn1Object() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::get_Attributes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(),
-                        "get_Attributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::get_Attributes() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(), { "get_Attributes", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(seq));
+inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::System::Collections::ArrayList*  attributes)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(attributes));
+inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::System::Collections::ArrayList* attributes) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(attributes));
 }
-inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::System::Collections::IList*  attributes)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(attributes));
+inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::System::Collections::IList* attributes) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(attributes));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::SubjectDirectoryAttributes()   {
-}
+constexpr ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::SubjectDirectoryAttributes() {}

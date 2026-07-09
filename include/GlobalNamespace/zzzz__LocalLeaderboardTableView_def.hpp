@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LocalLeaderboardTableView.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
@@ -10,52 +10,50 @@ namespace GlobalNamespace {
 class LocalLeaderboardsModel_ScoreData;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class LocalLeaderboardTableView;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardTableView);
+MARK_REF_T(::GlobalNamespace::LocalLeaderboardTableView*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::LocalLeaderboardTableView*, "", "LocalLeaderboardTableView");
 // Dependencies LeaderboardTableView
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LocalLeaderboardTableView
 class CORDL_TYPE LocalLeaderboardTableView : public ::GlobalNamespace::LeaderboardTableView {
 public:
-// Declarations
-static inline ::GlobalNamespace::LocalLeaderboardTableView* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::LocalLeaderboardTableView* New_ctor();
 
-/// @brief Method SetScores, addr 0x57b5e00, size 0x2a8, virtual false, abstract: false, final false
-inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>*  scores, int32_t  specialScorePos, int32_t  maxNumberOfCells) ;
+  /// @brief Method SetScores, addr 0x57b5e00, size 0x2a8, virtual false, abstract: false, final false
+  inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>* scores, int32_t specialScorePos, int32_t maxNumberOfCells);
 
-/// @brief Method .ctor, addr 0x57b60a8, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57b60a8, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LocalLeaderboardTableView() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalLeaderboardTableView();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardTableView", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LocalLeaderboardTableView(LocalLeaderboardTableView&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardTableView", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LocalLeaderboardTableView(LocalLeaderboardTableView && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardTableView", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LocalLeaderboardTableView(LocalLeaderboardTableView const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardTableView", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LocalLeaderboardTableView(LocalLeaderboardTableView const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6575 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6575};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalLeaderboardTableView, 0x48>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::LocalLeaderboardTableView) == 0x48, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::LocalLeaderboardTableView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalLeaderboardTableView*, "", "LocalLeaderboardTableView");
+} // namespace GlobalNamespace

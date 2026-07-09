@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/CustomControlPlayableAsset.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_def.hpp"
@@ -16,52 +16,51 @@ namespace GlobalNamespace {
 class CustomControlPlayableAsset;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::CustomControlPlayableAsset);
+MARK_REF_T(::GlobalNamespace::CustomControlPlayableAsset*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::CustomControlPlayableAsset*, "", "CustomControlPlayableAsset");
 // Dependencies UnityEngine.Timeline.ControlPlayableAsset
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: CustomControlPlayableAsset
 class CORDL_TYPE CustomControlPlayableAsset : public ::UnityEngine::Timeline::ControlPlayableAsset {
 public:
-// Declarations
- __declspec(property(get=get_clipCaps)) ::UnityEngine::Timeline::ClipCaps  clipCaps;
+  // Declarations
+  __declspec(property(get = get_clipCaps)) ::UnityEngine::Timeline::ClipCaps clipCaps;
 
-/// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
-constexpr operator  ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-static inline ::GlobalNamespace::CustomControlPlayableAsset* New_ctor() ;
+  static inline ::GlobalNamespace::CustomControlPlayableAsset* New_ctor();
 
-/// @brief Method .ctor, addr 0x57e5744, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57e5744, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_clipCaps, addr 0x57e573c, size 0x8, virtual true, abstract: false, final true
-inline ::UnityEngine::Timeline::ClipCaps get_clipCaps() ;
+  /// @brief Method get_clipCaps, addr 0x57e573c, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-/// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
-constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
+  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CustomControlPlayableAsset() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CustomControlPlayableAsset();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CustomControlPlayableAsset", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CustomControlPlayableAsset(CustomControlPlayableAsset&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CustomControlPlayableAsset", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CustomControlPlayableAsset(CustomControlPlayableAsset && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CustomControlPlayableAsset", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CustomControlPlayableAsset(CustomControlPlayableAsset const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CustomControlPlayableAsset", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CustomControlPlayableAsset(CustomControlPlayableAsset const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6781 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6781};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomControlPlayableAsset, 0x60>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::CustomControlPlayableAsset) == 0x60, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::CustomControlPlayableAsset);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomControlPlayableAsset*, "", "CustomControlPlayableAsset");
+} // namespace GlobalNamespace

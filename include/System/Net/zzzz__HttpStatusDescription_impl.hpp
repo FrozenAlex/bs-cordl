@@ -4,57 +4,38 @@
 #include "System/Net/zzzz__HttpStatusDescription_def.hpp"
 #include "System/Net/zzzz__HttpStatusCode_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpStatusDescription.Get
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::HttpStatusCode)>(&::System::Net::HttpStatusDescription::Get)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Net::HttpStatusCode)>(&::System::Net::HttpStatusDescription::Get)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x62b61e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStatusDescription*>::get(),
-                        "Get",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::HttpStatusCode>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStatusDescription*>(), { "Get", {}, { ::i2c::type_of<::System::Net::HttpStatusCode>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::HttpStatusDescription.Get
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::System::Net::HttpStatusDescription::Get)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::System::Net::HttpStatusDescription::Get)> {
   constexpr static std::size_t size = 0x930;
   constexpr static std::size_t addrs = 0x62b61ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStatusDescription*>::get(),
-                        "Get",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStatusDescription*>(), { "Get", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline ::StringW System::Net::HttpStatusDescription::Get(::System::Net::HttpStatusCode  code)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStatusDescription*>::get(),
-                        "Get",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::HttpStatusCode>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, code);
+inline ::StringW System::Net::HttpStatusDescription::Get(::System::Net::HttpStatusCode code) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStatusDescription*>(), { "Get", {}, { ::i2c::type_of<::System::Net::HttpStatusCode>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, code);
 }
-inline ::StringW System::Net::HttpStatusDescription::Get(int32_t  code)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpStatusDescription*>::get(),
-                        "Get",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, code);
+inline ::StringW System::Net::HttpStatusDescription::Get(int32_t code) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStatusDescription*>(), { "Get", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, code);
 }
 // Ctor Parameters []
-constexpr ::System::Net::HttpStatusDescription::HttpStatusDescription()   {
-}
+constexpr ::System::Net::HttpStatusDescription::HttpStatusDescription() {}

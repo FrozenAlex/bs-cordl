@@ -4,98 +4,72 @@
 #include "System/Xml/Serialization/zzzz__XmlEnumAttribute_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlEnumAttribute._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlEnumAttribute::*)(::StringW)>(&::System::Xml::Serialization::XmlEnumAttribute::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlEnumAttribute::*)(::StringW)>(&::System::Xml::Serialization::XmlEnumAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61b5ac4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlEnumAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlEnumAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Serialization::XmlEnumAttribute.get_Name
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::XmlEnumAttribute::*)()>(&::System::Xml::Serialization::XmlEnumAttribute::get_Name)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlEnumAttribute::*)()>(&::System::Xml::Serialization::XmlEnumAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61b5acc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlEnumAttribute*>::get(),
-                        "get_Name",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlEnumAttribute*>(), { "get_Name", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Serialization::XmlEnumAttribute.AddKeyHash
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlEnumAttribute::*)(::System::Text::StringBuilder*)>(&::System::Xml::Serialization::XmlEnumAttribute::AddKeyHash)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlEnumAttribute::*)(::System::Text::StringBuilder*)>(
+    &::System::Xml::Serialization::XmlEnumAttribute::AddKeyHash)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x61b5ad4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlEnumAttribute*>::get(),
-                        "AddKeyHash",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlEnumAttribute*>(), { "AddKeyHash", {}, { ::i2c::type_of<::System::Text::StringBuilder*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Xml::Serialization::XmlEnumAttribute::__cordl_internal_get_name()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+constexpr ::StringW& System::Xml::Serialization::XmlEnumAttribute::__cordl_internal_get_name() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
 constexpr ::StringW const& System::Xml::Serialization::XmlEnumAttribute::__cordl_internal_get_name() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
-constexpr void System::Xml::Serialization::XmlEnumAttribute::__cordl_internal_set_name(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Serialization::XmlEnumAttribute::__cordl_internal_set_name(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___name = value;
 }
-inline void System::Xml::Serialization::XmlEnumAttribute::_ctor(::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlEnumAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
+inline void System::Xml::Serialization::XmlEnumAttribute::_ctor(::StringW name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlEnumAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name);
 }
-inline ::StringW System::Xml::Serialization::XmlEnumAttribute::get_Name()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlEnumAttribute*>::get(),
-                        "get_Name",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Xml::Serialization::XmlEnumAttribute::get_Name() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlEnumAttribute*>(), { "get_Name", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void System::Xml::Serialization::XmlEnumAttribute::AddKeyHash(::System::Text::StringBuilder*  sb)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlEnumAttribute*>::get(),
-                        "AddKeyHash",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sb);
+inline void System::Xml::Serialization::XmlEnumAttribute::AddKeyHash(::System::Text::StringBuilder* sb) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlEnumAttribute*>(), { "AddKeyHash", {}, { ::i2c::type_of<::System::Text::StringBuilder*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sb);
 }
-inline ::System::Xml::Serialization::XmlEnumAttribute* System::Xml::Serialization::XmlEnumAttribute::New_ctor(::StringW  name)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlEnumAttribute*>(name));
+inline ::System::Xml::Serialization::XmlEnumAttribute* System::Xml::Serialization::XmlEnumAttribute::New_ctor(::StringW name) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Serialization::XmlEnumAttribute*>(name));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Serialization::XmlEnumAttribute::XmlEnumAttribute()   {
-}
+constexpr ::System::Xml::Serialization::XmlEnumAttribute::XmlEnumAttribute() {}

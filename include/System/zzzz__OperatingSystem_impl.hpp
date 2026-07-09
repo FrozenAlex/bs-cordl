@@ -11,282 +11,216 @@
 #include "System/zzzz__PlatformID_def.hpp"
 #include "System/zzzz__Version_def.hpp"
 //  Writing Method size for method: ::System::OperatingSystem._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OperatingSystem::*)(::System::PlatformID, ::System::Version*)>(&::System::OperatingSystem::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::OperatingSystem::*)(::System::PlatformID, ::System::Version*)>(&::System::OperatingSystem::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5b2df60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::PlatformID>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Version*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { ".ctor", {}, { ::i2c::type_of<::System::PlatformID>(), ::i2c::type_of<::System::Version*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::OperatingSystem._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OperatingSystem::*)(::System::PlatformID, ::System::Version*, ::StringW)>(&::System::OperatingSystem::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::OperatingSystem::*)(::System::PlatformID, ::System::Version*, ::StringW)>(&::System::OperatingSystem::_ctor)> {
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x5b2df68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::PlatformID>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Version*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::System::PlatformID>(), ::i2c::type_of<::System::Version*>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::OperatingSystem.GetObjectData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OperatingSystem::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::OperatingSystem::GetObjectData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::OperatingSystem::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
+    &::System::OperatingSystem::GetObjectData)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x5b2e08c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "GetObjectData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::System::OperatingSystem*>(),
+                         { "GetObjectData", {}, { ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::OperatingSystem.get_Platform
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::PlatformID (::System::OperatingSystem::*)()>(&::System::OperatingSystem::get_Platform)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::PlatformID (::System::OperatingSystem::*)()>(&::System::OperatingSystem::get_Platform)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5b2e0c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "get_Platform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { "get_Platform", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::OperatingSystem.get_Version
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::OperatingSystem::*)()>(&::System::OperatingSystem::get_Version)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Version* (::System::OperatingSystem::*)()>(&::System::OperatingSystem::get_Version)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5b2e0c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "get_Version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { "get_Version", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::OperatingSystem.Clone
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::OperatingSystem::*)()>(&::System::OperatingSystem::Clone)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::OperatingSystem::*)()>(&::System::OperatingSystem::Clone)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x5b2e0d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "Clone",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { "Clone", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::OperatingSystem.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::OperatingSystem::*)()>(&::System::OperatingSystem::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::OperatingSystem::*)()>(&::System::OperatingSystem::ToString)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5b2e148;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { ::i2c::class_of<::System::OperatingSystem*>(), 3 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::OperatingSystem.get_VersionString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::OperatingSystem::*)()>(&::System::OperatingSystem::get_VersionString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::OperatingSystem::*)()>(&::System::OperatingSystem::get_VersionString)> {
   constexpr static std::size_t size = 0x248;
   constexpr static std::size_t addrs = 0x5b2e14c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "get_VersionString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { "get_VersionString", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Version*& System::OperatingSystem::__cordl_internal_get__version()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____version;
+constexpr ::System::Version*& System::OperatingSystem::__cordl_internal_get__version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____version;
 }
 constexpr ::System::Version* const& System::OperatingSystem::__cordl_internal_get__version() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____version;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____version;
 }
-constexpr void System::OperatingSystem::__cordl_internal_set__version(::System::Version*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::OperatingSystem::__cordl_internal_set__version(::System::Version* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____version = value;
 }
-constexpr ::System::PlatformID& System::OperatingSystem::__cordl_internal_get__platform()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____platform;
+constexpr ::System::PlatformID& System::OperatingSystem::__cordl_internal_get__platform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____platform;
 }
 constexpr ::System::PlatformID const& System::OperatingSystem::__cordl_internal_get__platform() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____platform;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____platform;
 }
-constexpr void System::OperatingSystem::__cordl_internal_set__platform(::System::PlatformID  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____platform = value;
+constexpr void System::OperatingSystem::__cordl_internal_set__platform(::System::PlatformID value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____platform = value;
 }
-constexpr ::StringW& System::OperatingSystem::__cordl_internal_get__servicePack()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____servicePack;
+constexpr ::StringW& System::OperatingSystem::__cordl_internal_get__servicePack() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____servicePack;
 }
 constexpr ::StringW const& System::OperatingSystem::__cordl_internal_get__servicePack() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____servicePack;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____servicePack;
 }
-constexpr void System::OperatingSystem::__cordl_internal_set__servicePack(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____servicePack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::OperatingSystem::__cordl_internal_set__servicePack(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____servicePack = value;
 }
-constexpr ::StringW& System::OperatingSystem::__cordl_internal_get__versionString()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____versionString;
+constexpr ::StringW& System::OperatingSystem::__cordl_internal_get__versionString() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____versionString;
 }
 constexpr ::StringW const& System::OperatingSystem::__cordl_internal_get__versionString() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____versionString;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____versionString;
 }
-constexpr void System::OperatingSystem::__cordl_internal_set__versionString(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____versionString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::OperatingSystem::__cordl_internal_set__versionString(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____versionString = value;
 }
-inline void System::OperatingSystem::_ctor(::System::PlatformID  platform, ::System::Version*  version)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::PlatformID>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Version*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, platform, version);
+inline void System::OperatingSystem::_ctor(::System::PlatformID platform, ::System::Version* version) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { ".ctor", {}, { ::i2c::type_of<::System::PlatformID>(), ::i2c::type_of<::System::Version*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, platform, version);
 }
-inline void System::OperatingSystem::_ctor(::System::PlatformID  platform, ::System::Version*  version, ::StringW  servicePack)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::PlatformID>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Version*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, platform, version, servicePack);
+inline void System::OperatingSystem::_ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::System::PlatformID>(), ::i2c::type_of<::System::Version*>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, platform, version, servicePack);
 }
-inline void System::OperatingSystem::GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "GetObjectData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
+inline void System::OperatingSystem::GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(),
+                          { "GetObjectData", {}, { ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
 }
-inline ::System::PlatformID System::OperatingSystem::get_Platform()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "get_Platform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::PlatformID, false>(this, ___internal_method);
+inline ::System::PlatformID System::OperatingSystem::get_Platform() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { "get_Platform", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::PlatformID>(this, ___internal_method);
 }
-inline ::System::Version* System::OperatingSystem::get_Version()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "get_Version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Version*, false>(this, ___internal_method);
+inline ::System::Version* System::OperatingSystem::get_Version() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { "get_Version", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Version*>(this, ___internal_method);
 }
-inline ::System::Object* System::OperatingSystem::Clone()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "Clone",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* System::OperatingSystem::Clone() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { "Clone", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::StringW System::OperatingSystem::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::OperatingSystem::ToString() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::OperatingSystem*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW System::OperatingSystem::get_VersionString()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(),
-                        "get_VersionString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::OperatingSystem::get_VersionString() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OperatingSystem*>(), { "get_VersionString", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::System::OperatingSystem* System::OperatingSystem::New_ctor(::System::PlatformID  platform, ::System::Version*  version)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::OperatingSystem*>(platform, version));
+inline ::System::OperatingSystem* System::OperatingSystem::New_ctor(::System::PlatformID platform, ::System::Version* version) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::OperatingSystem*>(platform, version));
 }
-inline ::System::OperatingSystem* System::OperatingSystem::New_ctor(::System::PlatformID  platform, ::System::Version*  version, ::StringW  servicePack)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::OperatingSystem*>(platform, version, servicePack));
+inline ::System::OperatingSystem* System::OperatingSystem::New_ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::OperatingSystem*>(platform, version, servicePack));
 }
 /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr  System::OperatingSystem::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+constexpr System::OperatingSystem::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
 constexpr ::System::Runtime::Serialization::ISerializable* System::OperatingSystem::i___System__Runtime__Serialization__ISerializable() noexcept {
-return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::ICloneable"
-constexpr  System::OperatingSystem::operator ::System::ICloneable*() noexcept {
-return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+constexpr System::OperatingSystem::operator ::System::ICloneable*() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::ICloneable"
 constexpr ::System::ICloneable* System::OperatingSystem::i___System__ICloneable() noexcept {
-return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::OperatingSystem::OperatingSystem()   {
-}
+constexpr ::System::OperatingSystem::OperatingSystem() {}

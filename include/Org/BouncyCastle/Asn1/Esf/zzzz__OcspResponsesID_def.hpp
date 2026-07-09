@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/OcspResponsesID.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -25,95 +25,94 @@ namespace Org::BouncyCastle::Asn1::Esf {
 class OcspResponsesID;
 }
 // Write type traits
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::OcspResponsesID);
+MARK_REF_T(::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*);
+DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, "Org.BouncyCastle.Asn1.Esf", "OcspResponsesID");
 // Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.Esf.OcspResponsesID
 class CORDL_TYPE OcspResponsesID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
- __declspec(property(get=get_OcspIdentifier)) ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*  OcspIdentifier;
+  // Declarations
+  __declspec(property(get = get_OcspIdentifier)) ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* OcspIdentifier;
 
- __declspec(property(get=get_OcspRepHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash*  OcspRepHash;
+  __declspec(property(get = get_OcspRepHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash* OcspRepHash;
 
-/// @brief Field ocspIdentifier, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_ocspIdentifier, put=__cordl_internal_set_ocspIdentifier)) ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*  ocspIdentifier;
+  /// @brief Field ocspIdentifier, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_ocspIdentifier, put = __cordl_internal_set_ocspIdentifier)) ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier;
 
-/// @brief Field ocspRepHash, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_ocspRepHash, put=__cordl_internal_set_ocspRepHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash*  ocspRepHash;
+  /// @brief Field ocspRepHash, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_ocspRepHash, put = __cordl_internal_set_ocspRepHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash* ocspRepHash;
 
-/// @brief Method GetInstance, addr 0x32b6158, size 0x184, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x32b6158, size 0x184, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*  ocspIdentifier) ;
+  static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier);
 
-static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*  ocspIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHash*  ocspRepHash) ;
+  static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHash* ocspRepHash);
 
-static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  static inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method ToAsn1Object, addr 0x32b68bc, size 0x13c, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x32b68bc, size 0x13c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-constexpr ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* const& __cordl_internal_get_ocspIdentifier() const;
+  constexpr ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* const& __cordl_internal_get_ocspIdentifier() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*& __cordl_internal_get_ocspIdentifier() ;
+  constexpr ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*& __cordl_internal_get_ocspIdentifier();
 
-constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash* const& __cordl_internal_get_ocspRepHash() const;
+  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash* const& __cordl_internal_get_ocspRepHash() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash*& __cordl_internal_get_ocspRepHash() ;
+  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash*& __cordl_internal_get_ocspRepHash();
 
-constexpr void __cordl_internal_set_ocspIdentifier(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*  value) ;
+  constexpr void __cordl_internal_set_ocspIdentifier(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* value);
 
-constexpr void __cordl_internal_set_ocspRepHash(::Org::BouncyCastle::Asn1::Esf::OtherHash*  value) ;
+  constexpr void __cordl_internal_set_ocspRepHash(::Org::BouncyCastle::Asn1::Esf::OtherHash* value);
 
-/// @brief Method .ctor, addr 0x32b684c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*  ocspIdentifier) ;
+  /// @brief Method .ctor, addr 0x32b684c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier);
 
-/// @brief Method .ctor, addr 0x32b6854, size 0x58, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*  ocspIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHash*  ocspRepHash) ;
+  /// @brief Method .ctor, addr 0x32b6854, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ocspIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHash* ocspRepHash);
 
-/// @brief Method .ctor, addr 0x32b669c, size 0x1b0, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  /// @brief Method .ctor, addr 0x32b669c, size 0x1b0, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method get_OcspIdentifier, addr 0x32b68ac, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* get_OcspIdentifier() ;
+  /// @brief Method get_OcspIdentifier, addr 0x32b68ac, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* get_OcspIdentifier();
 
-/// @brief Method get_OcspRepHash, addr 0x32b68b4, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* get_OcspRepHash() ;
+  /// @brief Method get_OcspRepHash, addr 0x32b68b4, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* get_OcspRepHash();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OcspResponsesID() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OcspResponsesID();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OcspResponsesID", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OcspResponsesID(OcspResponsesID&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OcspResponsesID", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OcspResponsesID(OcspResponsesID && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OcspResponsesID", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OcspResponsesID(OcspResponsesID const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OcspResponsesID", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OcspResponsesID(OcspResponsesID const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 147 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{147};
+  /// @brief Field ocspIdentifier, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* ___ocspIdentifier;
 
-/// @brief Field ocspIdentifier, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*  ___ocspIdentifier;
+  /// @brief Field ocspRepHash, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Esf::OtherHash* ___ocspRepHash;
 
-/// @brief Field ocspRepHash, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Esf::OtherHash*  ___ocspRepHash;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::OcspResponsesID, ___ocspIdentifier) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::OcspResponsesID, ___ocspRepHash) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID, 0x20>, "Size mismatch!");
+static_assert(sizeof(::Org::BouncyCastle::Asn1::Esf::OcspResponsesID) == 0x20, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::Esf
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::OcspResponsesID);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, "Org.BouncyCastle.Asn1.Esf", "OcspResponsesID");
+} // namespace Org::BouncyCastle::Asn1::Esf

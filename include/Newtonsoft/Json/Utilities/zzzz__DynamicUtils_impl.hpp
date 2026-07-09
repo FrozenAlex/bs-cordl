@@ -10,194 +10,149 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::Init)> {
   constexpr static std::size_t size = 0x1d0;
   constexpr static std::size_t addrs = 0x5bead68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(), { "Init", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper.CreateSharpArgumentInfoArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<int32_t,::Array<int32_t>*>)>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateSharpArgumentInfoArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<int32_t>)>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateSharpArgumentInfoArray)> {
   constexpr static std::size_t size = 0x2e0;
   constexpr static std::size_t addrs = 0x5beaf38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "CreateSharpArgumentInfoArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t,::Array<int32_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
+                                                                                           { "CreateSharpArgumentInfoArray", {}, { ::i2c::type_of<::ArrayW<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper.CreateMemberCalls
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateMemberCalls)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateMemberCalls)> {
   constexpr static std::size_t size = 0x4f4;
   constexpr static std::size_t addrs = 0x5beb218;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "CreateMemberCalls",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(), { "CreateMemberCalls", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper.GetMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::GetMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(
+    &::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::GetMember)> {
   constexpr static std::size_t size = 0x1d0;
   constexpr static std::size_t addrs = 0x5beb70c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "GetMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
+                                                                                           { "GetMember", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper.SetMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::SetMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(
+    &::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::SetMember)> {
   constexpr static std::size_t size = 0x1d0;
   constexpr static std::size_t addrs = 0x5beb8dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "SetMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
+                                                                                           { "SetMember", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__getCSharpArgumentInfoArray(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "_getCSharpArgumentInfoArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>(std::forward<::System::Object*>(value));
+inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__getCSharpArgumentInfoArray(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "_getCSharpArgumentInfoArray", ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(std::forward<::System::Object*>(value));
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__getCSharpArgumentInfoArray()  {
-return ::cordl_internals::getStaticField<::System::Object*, "_getCSharpArgumentInfoArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>();
+inline ::System::Object* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__getCSharpArgumentInfoArray() {
+  return ::cordl_internals::getStaticField<::System::Object*, "_getCSharpArgumentInfoArray", ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>();
 }
-inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__setCSharpArgumentInfoArray(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "_setCSharpArgumentInfoArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>(std::forward<::System::Object*>(value));
+inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__setCSharpArgumentInfoArray(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "_setCSharpArgumentInfoArray", ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(std::forward<::System::Object*>(value));
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__setCSharpArgumentInfoArray()  {
-return ::cordl_internals::getStaticField<::System::Object*, "_setCSharpArgumentInfoArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>();
+inline ::System::Object* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__setCSharpArgumentInfoArray() {
+  return ::cordl_internals::getStaticField<::System::Object*, "_setCSharpArgumentInfoArray", ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>();
 }
-inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__getMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*  value)  {
-::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*, "_getMemberCall", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>(std::forward<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*>(value));
+inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__getMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*, "_getMemberCall", ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(
+      std::forward<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>(value));
 }
-inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__getMemberCall()  {
-return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*, "_getMemberCall", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>();
+inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__getMemberCall() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*, "_getMemberCall",
+                                           ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>();
 }
-inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__setMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*  value)  {
-::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*, "_setMemberCall", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>(std::forward<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*>(value));
+inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__setMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*, "_setMemberCall", ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(
+      std::forward<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>(value));
 }
-inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__setMemberCall()  {
-return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*, "_setMemberCall", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>();
+inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__setMemberCall() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*, "_setMemberCall",
+                                           ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>();
 }
-inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__init(bool  value)  {
-::cordl_internals::setStaticField<bool, "_init", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>(std::forward<bool>(value));
+inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::setStaticF__init(bool value) {
+  ::cordl_internals::setStaticField<bool, "_init", ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(std::forward<bool>(value));
 }
-inline bool Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__init()  {
-return ::cordl_internals::getStaticField<bool, "_init", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get>();
+inline bool Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::getStaticF__init() {
+  return ::cordl_internals::getStaticField<bool, "_init", ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>();
 }
-inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::Init()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::Init() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(), { "Init", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateSharpArgumentInfoArray(::ArrayW<int32_t,::Array<int32_t>*>  values)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "CreateSharpArgumentInfoArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t,::Array<int32_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, values);
+inline ::System::Object* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateSharpArgumentInfoArray(::ArrayW<int32_t> values) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
+                                                                                         { "CreateSharpArgumentInfoArray", {}, { ::i2c::type_of<::ArrayW<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, values);
 }
-inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateMemberCalls()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "CreateMemberCalls",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateMemberCalls() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(), { "CreateMemberCalls", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline ::System::Runtime::CompilerServices::CallSiteBinder* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::GetMember(::StringW  name, ::System::Type*  context)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "GetMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::CallSiteBinder*, false>(nullptr, ___internal_method, name, context);
+inline ::System::Runtime::CompilerServices::CallSiteBinder* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::GetMember(::StringW name, ::System::Type* context) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
+                                                                                         { "GetMember", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::CallSiteBinder*>(nullptr, ___internal_method, name, context);
 }
-inline ::System::Runtime::CompilerServices::CallSiteBinder* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::SetMember(::StringW  name, ::System::Type*  context)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>::get(),
-                        "SetMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::CallSiteBinder*, false>(nullptr, ___internal_method, name, context);
+inline ::System::Runtime::CompilerServices::CallSiteBinder* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::SetMember(::StringW name, ::System::Type* context) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
+                                                                                         { "SetMember", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::CallSiteBinder*>(nullptr, ___internal_method, name, context);
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::DynamicUtils_BinderWrapper()   {
-}
+constexpr ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::DynamicUtils_BinderWrapper() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::DynamicUtils.GetDynamicMemberNames
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::System::Dynamic::IDynamicMetaObjectProvider*)>(&::Newtonsoft::Json::Utilities::DynamicUtils::GetDynamicMemberNames)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::System::Dynamic::IDynamicMetaObjectProvider*)>(
+    &::Newtonsoft::Json::Utilities::DynamicUtils::GetDynamicMemberNames)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x5beac78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils*>::get(),
-                        "GetDynamicMemberNames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::IDynamicMetaObjectProvider*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils*>(),
+                                                                                           { "GetDynamicMemberNames", {}, { ::i2c::type_of<::System::Dynamic::IDynamicMetaObjectProvider*>() } })));
     return ___internal_method;
   }
 };
-inline ::System::Collections::Generic::IEnumerable_1<::StringW>* Newtonsoft::Json::Utilities::DynamicUtils::GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider*  dynamicProvider)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicUtils*>::get(),
-                        "GetDynamicMemberNames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::IDynamicMetaObjectProvider*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::StringW>*, false>(nullptr, ___internal_method, dynamicProvider);
+inline ::System::Collections::Generic::IEnumerable_1<::StringW>* Newtonsoft::Json::Utilities::DynamicUtils::GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils*>(),
+                                                                                         { "GetDynamicMemberNames", {}, { ::i2c::type_of<::System::Dynamic::IDynamicMetaObjectProvider*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::StringW>*>(nullptr, ___internal_method, dynamicProvider);
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::DynamicUtils::DynamicUtils()   {
-}
+constexpr ::Newtonsoft::Json::Utilities::DynamicUtils::DynamicUtils() {}

@@ -4,92 +4,71 @@
 #include "OculusStudios/Platform/Core/zzzz__PlatformMissingDependenciesException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::OculusStudios::Platform::Core::PlatformMissingDependenciesException._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Core::PlatformMissingDependenciesException::*)()>(&::OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformMissingDependenciesException::*)()>(
+    &::OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x5df4150;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::Platform::Core::PlatformMissingDependenciesException._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Core::PlatformMissingDependenciesException::*)(::StringW)>(&::OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformMissingDependenciesException::*)(::StringW)>(
+    &::OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5df41a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::Platform::Core::PlatformMissingDependenciesException._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Core::PlatformMissingDependenciesException::*)(::StringW, ::System::Exception*)>(&::OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformMissingDependenciesException::*)(::StringW, ::System::Exception*)>(
+    &::OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x5df4214;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Exception*>() } })));
     return ___internal_method;
   }
 };
-inline void OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
+inline void OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor(::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
-inline void OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor(::StringW  message, ::System::Exception*  inner)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, inner);
+inline void OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor(::StringW message, ::System::Exception* inner) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Exception*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message, inner);
 }
-inline ::OculusStudios::Platform::Core::PlatformMissingDependenciesException* OculusStudios::Platform::Core::PlatformMissingDependenciesException::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>());
+inline ::OculusStudios::Platform::Core::PlatformMissingDependenciesException* OculusStudios::Platform::Core::PlatformMissingDependenciesException::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>());
 }
-inline ::OculusStudios::Platform::Core::PlatformMissingDependenciesException* OculusStudios::Platform::Core::PlatformMissingDependenciesException::New_ctor(::StringW  message)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(message));
+inline ::OculusStudios::Platform::Core::PlatformMissingDependenciesException* OculusStudios::Platform::Core::PlatformMissingDependenciesException::New_ctor(::StringW message) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(message));
 }
-inline ::OculusStudios::Platform::Core::PlatformMissingDependenciesException* OculusStudios::Platform::Core::PlatformMissingDependenciesException::New_ctor(::StringW  message, ::System::Exception*  inner)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(message, inner));
+inline ::OculusStudios::Platform::Core::PlatformMissingDependenciesException* OculusStudios::Platform::Core::PlatformMissingDependenciesException::New_ctor(::StringW message,
+                                                                                                                                                            ::System::Exception* inner) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(message, inner));
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::Platform::Core::PlatformMissingDependenciesException::PlatformMissingDependenciesException()   {
-}
+constexpr ::OculusStudios::Platform::Core::PlatformMissingDependenciesException::PlatformMissingDependenciesException() {}

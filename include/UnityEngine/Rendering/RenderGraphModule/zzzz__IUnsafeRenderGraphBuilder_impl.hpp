@@ -5,32 +5,28 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderFunc_2_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IBaseRenderGraphBuilder_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__UnsafeGraphContext_def.hpp"
-template<typename PassData>
-inline void UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::SetRenderFunc(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<PassData,::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*  renderFunc)  {
-auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                        il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder*>::get(),
-                        0
-                    )));
-auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                        ___internal_method_base,
-                        std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PassData>::get()}
-                    ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, renderFunc);
+template <typename PassData>
+inline void UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::SetRenderFunc(
+    ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<PassData, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* renderFunc) {
+  auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder*>(), 0 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<PassData>() }));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderFunc);
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder"
-constexpr  UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::operator ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*() noexcept {
-return static_cast<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::operator ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*() noexcept {
+  return static_cast<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder"
-constexpr ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::i___UnityEngine__Rendering__RenderGraphModule__IBaseRenderGraphBuilder() noexcept {
-return static_cast<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(static_cast<void*>(this));
+constexpr ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*
+UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::i___UnityEngine__Rendering__RenderGraphModule__IBaseRenderGraphBuilder() noexcept {
+  return static_cast<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }

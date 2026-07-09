@@ -5,176 +5,129 @@
 #include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor.get_CameraAlignmentAnchor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRSpatialAnchor> (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::get_CameraAlignmentAnchor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRSpatialAnchor> (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::get_CameraAlignmentAnchor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x593eab8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "get_CameraAlignmentAnchor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { "get_CameraAlignmentAnchor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor.set_CameraAlignmentAnchor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)(::GlobalNamespace::OVRSpatialAnchor*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::set_CameraAlignmentAnchor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)(::GlobalNamespace::OVRSpatialAnchor*)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::set_CameraAlignmentAnchor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x593eac0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "set_CameraAlignmentAnchor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(),
+                                                                                           { "set_CameraAlignmentAnchor", {}, { ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor.Update
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Update)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Update)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x593eac8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { "Update", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor.RealignToAnchor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::RealignToAnchor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::RealignToAnchor)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x5936b54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "RealignToAnchor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { "RealignToAnchor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor.Align
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)(::UnityEngine::Transform*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Align)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)(::UnityEngine::Transform*)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Align)> {
   constexpr static std::size_t size = 0x200;
   constexpr static std::size_t addrs = 0x593eacc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "Align",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { "Align", {}, { ::i2c::type_of<::UnityEngine::Transform*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x593eccc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::OVRSpatialAnchor>& Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::__cordl_internal_get__CameraAlignmentAnchor_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____CameraAlignmentAnchor_k__BackingField;
+constexpr ::UnityW<::GlobalNamespace::OVRSpatialAnchor>& Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::__cordl_internal_get__CameraAlignmentAnchor_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____CameraAlignmentAnchor_k__BackingField;
 }
 constexpr ::UnityW<::GlobalNamespace::OVRSpatialAnchor> const& Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::__cordl_internal_get__CameraAlignmentAnchor_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____CameraAlignmentAnchor_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____CameraAlignmentAnchor_k__BackingField;
 }
-constexpr void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::__cordl_internal_set__CameraAlignmentAnchor_k__BackingField(::UnityW<::GlobalNamespace::OVRSpatialAnchor>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CameraAlignmentAnchor_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::__cordl_internal_set__CameraAlignmentAnchor_k__BackingField(::UnityW<::GlobalNamespace::OVRSpatialAnchor> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____CameraAlignmentAnchor_k__BackingField = value;
 }
-inline ::UnityW<::GlobalNamespace::OVRSpatialAnchor> Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::get_CameraAlignmentAnchor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "get_CameraAlignmentAnchor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, false>(this, ___internal_method);
+inline ::UnityW<::GlobalNamespace::OVRSpatialAnchor> Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::get_CameraAlignmentAnchor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { "get_CameraAlignmentAnchor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>(this, ___internal_method);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::set_CameraAlignmentAnchor(::GlobalNamespace::OVRSpatialAnchor*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "set_CameraAlignmentAnchor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::set_CameraAlignmentAnchor(::GlobalNamespace::OVRSpatialAnchor* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(),
+                                                                                         { "set_CameraAlignmentAnchor", {}, { ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Update()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Update() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { "Update", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::RealignToAnchor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "RealignToAnchor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::RealignToAnchor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { "RealignToAnchor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Align(::UnityEngine::Transform*  anchorTransform)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        "Align",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, anchorTransform);
+inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Align(::UnityEngine::Transform* anchorTransform) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { "Align", {}, { ::i2c::type_of<::UnityEngine::Transform*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, anchorTransform);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor* Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>());
+inline ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor* Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>());
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::AlignCameraToAnchor()   {
-}
+constexpr ::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::AlignCameraToAnchor() {}

@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoTransitionToggleSelectableStateController.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SelectableStateController_1_def.hpp"
@@ -16,53 +16,52 @@ namespace GlobalNamespace {
 class NoTransitionToggleSelectableStateController;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::NoTransitionToggleSelectableStateController);
+MARK_REF_T(::GlobalNamespace::NoTransitionToggleSelectableStateController*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoTransitionToggleSelectableStateController*, "", "NoTransitionToggleSelectableStateController");
 // Dependencies SelectableStateController`1<T>
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoTransitionToggleSelectableStateController
 class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsToggle>> {
 public:
-// Declarations
-/// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x630457c, size 0x8, virtual false, abstract: false, final false
-inline void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState  state) ;
+  // Declarations
+  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x630457c, size 0x8, virtual false, abstract: false, final false
+  inline void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
 
-static inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* New_ctor() ;
+  static inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* New_ctor();
 
-/// @brief Method OnDisable, addr 0x63044ec, size 0x90, virtual false, abstract: false, final false
-inline void OnDisable() ;
+  /// @brief Method OnDisable, addr 0x63044ec, size 0x90, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-/// @brief Method OnEnable, addr 0x63043b4, size 0xa8, virtual false, abstract: false, final false
-inline void OnEnable() ;
+  /// @brief Method OnEnable, addr 0x63043b4, size 0xa8, virtual false, abstract: false, final false
+  inline void OnEnable();
 
-/// @brief Method ResolveSelectionState, addr 0x630445c, size 0x90, virtual false, abstract: false, final false
-inline void ResolveSelectionState(::HMUI::UISelectionState  state, bool  animated) ;
+  /// @brief Method ResolveSelectionState, addr 0x630445c, size 0x90, virtual false, abstract: false, final false
+  inline void ResolveSelectionState(::HMUI::UISelectionState state, bool animated);
 
-/// @brief Method .ctor, addr 0x6304584, size 0x44, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6304584, size 0x44, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NoTransitionToggleSelectableStateController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoTransitionToggleSelectableStateController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionToggleSelectableStateController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoTransitionToggleSelectableStateController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionToggleSelectableStateController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoTransitionToggleSelectableStateController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22186 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22186};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoTransitionToggleSelectableStateController, 0x40>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::NoTransitionToggleSelectableStateController) == 0x40, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::NoTransitionToggleSelectableStateController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoTransitionToggleSelectableStateController*, "", "NoTransitionToggleSelectableStateController");
+} // namespace GlobalNamespace

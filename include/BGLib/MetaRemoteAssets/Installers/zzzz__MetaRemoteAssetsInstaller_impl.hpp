@@ -4,123 +4,92 @@
 #include "BGLib/MetaRemoteAssets/Installers/zzzz__MetaRemoteAssetsInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller.InstallBindings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(&::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallBindings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
+    &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x1bc;
   constexpr static std::size_t addrs = 0x3260580;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(),
+                                                                                          { ::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller.GetPlatform
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::GetPlatform)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::GetPlatform)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x326073c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(),
-                        "GetPlatform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(), { "GetPlatform", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller.InstallRemoteCatalogLoader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(&::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallRemoteCatalogLoader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
+    &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallRemoteCatalogLoader)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x3260780;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(),
-                        "InstallRemoteCatalogLoader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(), { "InstallRemoteCatalogLoader", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(&::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
+    &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x326082c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::AppInitSetupData*& BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::__cordl_internal_get__appInitSetupData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____appInitSetupData;
+constexpr ::GlobalNamespace::AppInitSetupData*& BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::__cordl_internal_get__appInitSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____appInitSetupData;
 }
 constexpr ::GlobalNamespace::AppInitSetupData* const& BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::__cordl_internal_get__appInitSetupData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____appInitSetupData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____appInitSetupData;
 }
-constexpr void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::__cordl_internal_set__appInitSetupData(::GlobalNamespace::AppInitSetupData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appInitSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::__cordl_internal_set__appInitSetupData(::GlobalNamespace::AppInitSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____appInitSetupData = value;
 }
-inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallBindings()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallBindings() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::GetPlatform()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(),
-                        "GetPlatform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
+inline ::StringW BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::GetPlatform() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(), { "GetPlatform", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallRemoteCatalogLoader()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(),
-                        "InstallRemoteCatalogLoader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallRemoteCatalogLoader() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(), { "InstallRemoteCatalogLoader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller* BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>());
+inline ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller* BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>());
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::MetaRemoteAssetsInstaller()   {
-}
+constexpr ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::MetaRemoteAssetsInstaller() {}

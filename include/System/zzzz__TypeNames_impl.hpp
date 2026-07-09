@@ -7,154 +7,107 @@
 #include "System/zzzz__TypeName_def.hpp"
 #include "System/zzzz__TypeNames_def.hpp"
 //  Writing Method size for method: ::System::TypeNames_ATypeName.get_DisplayName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TypeNames_ATypeName::*)()>(&::System::TypeNames_ATypeName::get_DisplayName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::TypeNames_ATypeName::*)()>(&::System::TypeNames_ATypeName::get_DisplayName)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { ::i2c::class_of<::System::TypeNames_ATypeName*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::TypeNames_ATypeName.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TypeNames_ATypeName::*)(::System::TypeName*)>(&::System::TypeNames_ATypeName::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TypeNames_ATypeName::*)(::System::TypeName*)>(&::System::TypeNames_ATypeName::Equals)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x5b6267c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TypeName*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { "Equals", {}, { ::i2c::type_of<::System::TypeName*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::TypeNames_ATypeName.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TypeNames_ATypeName::*)()>(&::System::TypeNames_ATypeName::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::TypeNames_ATypeName::*)()>(&::System::TypeNames_ATypeName::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5b62758;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { ::i2c::class_of<::System::TypeNames_ATypeName*>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::TypeNames_ATypeName.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TypeNames_ATypeName::*)(::System::Object*)>(&::System::TypeNames_ATypeName::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TypeNames_ATypeName::*)(::System::Object*)>(&::System::TypeNames_ATypeName::Equals)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x5b62780;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { ::i2c::class_of<::System::TypeNames_ATypeName*>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::TypeNames_ATypeName._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TypeNames_ATypeName::*)()>(&::System::TypeNames_ATypeName::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TypeNames_ATypeName::*)()>(&::System::TypeNames_ATypeName::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5b627e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::StringW System::TypeNames_ATypeName::get_DisplayName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::TypeNames_ATypeName::get_DisplayName() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::TypeNames_ATypeName*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline bool System::TypeNames_ATypeName::Equals(::System::TypeName*  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TypeName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool System::TypeNames_ATypeName::Equals(::System::TypeName* other) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { "Equals", {}, { ::i2c::type_of<::System::TypeName*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, other);
 }
-inline int32_t System::TypeNames_ATypeName::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::TypeNames_ATypeName::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::TypeNames_ATypeName*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool System::TypeNames_ATypeName::Equals(::System::Object*  other)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool System::TypeNames_ATypeName::Equals(::System::Object* other) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::TypeNames_ATypeName*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, other);
 }
-inline void System::TypeNames_ATypeName::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::TypeNames_ATypeName::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::TypeNames_ATypeName* System::TypeNames_ATypeName::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::TypeNames_ATypeName*>());
+inline ::System::TypeNames_ATypeName* System::TypeNames_ATypeName::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::TypeNames_ATypeName*>());
 }
 /// @brief Convert operator to "::System::TypeName"
-constexpr  System::TypeNames_ATypeName::operator ::System::TypeName*() noexcept {
-return static_cast<::System::TypeName*>(static_cast<void*>(this));
+constexpr System::TypeNames_ATypeName::operator ::System::TypeName*() noexcept {
+  return static_cast<::System::TypeName*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::TypeName"
 constexpr ::System::TypeName* System::TypeNames_ATypeName::i___System__TypeName() noexcept {
-return static_cast<::System::TypeName*>(static_cast<void*>(this));
+  return static_cast<::System::TypeName*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
-constexpr  System::TypeNames_ATypeName::operator ::System::IEquatable_1<::System::TypeName*>*() noexcept {
-return static_cast<::System::IEquatable_1<::System::TypeName*>*>(static_cast<void*>(this));
+constexpr System::TypeNames_ATypeName::operator ::System::IEquatable_1<::System::TypeName*>*() noexcept {
+  return static_cast<::System::IEquatable_1<::System::TypeName*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
 constexpr ::System::IEquatable_1<::System::TypeName*>* System::TypeNames_ATypeName::i___System__IEquatable_1___System__TypeName__() noexcept {
-return static_cast<::System::IEquatable_1<::System::TypeName*>*>(static_cast<void*>(this));
+  return static_cast<::System::IEquatable_1<::System::TypeName*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::TypeNames_ATypeName::TypeNames_ATypeName()   {
-}
+constexpr ::System::TypeNames_ATypeName::TypeNames_ATypeName() {}
 // Ctor Parameters []
-constexpr ::System::TypeNames::TypeNames()   {
-}
+constexpr ::System::TypeNames::TypeNames() {}

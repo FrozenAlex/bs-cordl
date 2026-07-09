@@ -7,186 +7,149 @@
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum.get_Member
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Member)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MemberInfo* (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)()>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Member)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x592a1a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                        "get_Member",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { "get_Member", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum.get_Value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Value)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x591edfc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                        "get_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { "get_Value", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum.set_Value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)(::StringW)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)(::StringW)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Value)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x591ecd4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                        "set_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { "set_Value", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)(
+    ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::System::Type*)>(
+    &::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::_ctor)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x592a1a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::DebugMember*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>(),
+                                                                 ::i2c::type_of<::Meta::XR::ImmersiveDebugger::DebugMember*>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum.get_Tween
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Tween)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Tween)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x592a1d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { ::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum.set_Tween
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)(float_t)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Tween)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)(float_t)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Tween)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x592a1d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { ::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), 5 }));
     return ___internal_method;
   }
 };
-constexpr ::System::Type*& Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_get__enumType()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____enumType;
+constexpr ::System::Type*& Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_get__enumType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enumType;
 }
 constexpr ::System::Type* const& Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_get__enumType() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____enumType;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enumType;
 }
-constexpr void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_set__enumType(::System::Type*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____enumType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_set__enumType(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____enumType = value;
 }
-constexpr float_t& Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_get__Tween_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Tween_k__BackingField;
+constexpr float_t& Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_get__Tween_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Tween_k__BackingField;
 }
 constexpr float_t const& Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_get__Tween_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Tween_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Tween_k__BackingField;
 }
-constexpr void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_set__Tween_k__BackingField(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____Tween_k__BackingField = value;
+constexpr void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::__cordl_internal_set__Tween_k__BackingField(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____Tween_k__BackingField = value;
 }
-inline ::System::Reflection::MemberInfo* Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Member()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                        "get_Member",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Reflection::MemberInfo*, false>(this, ___internal_method);
+inline ::System::Reflection::MemberInfo* Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Member() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { "get_Member", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::MemberInfo*>(this, ___internal_method);
 }
-inline ::StringW Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Value()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                        "get_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Value() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { "get_Value", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Value(::StringW  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                        "set_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Value(::StringW value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { "set_Value", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::_ctor(::System::Reflection::MemberInfo*  memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute, ::System::Type*  enumType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::DebugMember*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, memberInfo, instanceHandle, attribute, enumType);
+inline void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::_ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
+                                                                   ::Meta::XR::ImmersiveDebugger::DebugMember* attribute, ::System::Type* enumType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>(),
+                                                               ::i2c::type_of<::Meta::XR::ImmersiveDebugger::DebugMember*>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, memberInfo, instanceHandle, attribute, enumType);
 }
-inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Tween()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Tween() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Tween(float_t  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Tween(float_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* Meta::XR::ImmersiveDebugger::Manager::TweakEnum::New_ctor(::System::Reflection::MemberInfo*  memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute, ::System::Type*  enumType)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(memberInfo, instanceHandle, attribute, enumType));
+inline ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* Meta::XR::ImmersiveDebugger::Manager::TweakEnum::New_ctor(::System::Reflection::MemberInfo* memberInfo,
+                                                                                                                    ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
+                                                                                                                    ::Meta::XR::ImmersiveDebugger::DebugMember* attribute, ::System::Type* enumType) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(memberInfo, instanceHandle, attribute, enumType));
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::TweakEnum()   {
-}
+constexpr ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::TweakEnum() {}

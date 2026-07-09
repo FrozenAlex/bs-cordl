@@ -6,180 +6,134 @@
 #include "GlobalNamespace/zzzz__VideoProjectionDataModelSO_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId.get_id
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_id)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(
+    &::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_id)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5863f40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>::get(),
-                        "get_id",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>(), { "get_id", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId.get_videoAssetReference
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReference* (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_videoAssetReference)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReference* (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(
+    &::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_videoAssetReference)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5863f48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>::get(),
-                        "get_videoAssetReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>(), { "get_videoAssetReference", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(
+    &::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5863f50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_get__id()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____id;
+constexpr int32_t& GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_get__id() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____id;
 }
 constexpr int32_t const& GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_get__id() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____id;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____id;
 }
-constexpr void GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_set__id(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____id = value;
+constexpr void GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_set__id(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____id = value;
 }
-constexpr ::UnityEngine::AddressableAssets::AssetReference*& GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_get__videoAssetReference()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____videoAssetReference;
+constexpr ::UnityEngine::AddressableAssets::AssetReference*& GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_get__videoAssetReference() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____videoAssetReference;
 }
 constexpr ::UnityEngine::AddressableAssets::AssetReference* const& GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_get__videoAssetReference() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____videoAssetReference;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____videoAssetReference;
 }
-constexpr void GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_set__videoAssetReference(::UnityEngine::AddressableAssets::AssetReference*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____videoAssetReference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::__cordl_internal_set__videoAssetReference(::UnityEngine::AddressableAssets::AssetReference* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____videoAssetReference = value;
 }
-inline int32_t GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_id()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>::get(),
-                        "get_id",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_id() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>(), { "get_id", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::UnityEngine::AddressableAssets::AssetReference* GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_videoAssetReference()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>::get(),
-                        "get_videoAssetReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::AddressableAssets::AssetReference*, false>(this, ___internal_method);
+inline ::UnityEngine::AddressableAssets::AssetReference* GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_videoAssetReference() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>(), { "get_videoAssetReference", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AddressableAssets::AssetReference*>(this, ___internal_method);
 }
-inline void GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId* GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>());
+inline ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId* GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::VideoProjectionDataModelSO_VideoClipWithId()   {
-}
+constexpr ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::VideoProjectionDataModelSO_VideoClipWithId() {}
 //  Writing Method size for method: ::GlobalNamespace::VideoProjectionDataModelSO.get_videoClipWithIds
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*,::Array<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>*> (::GlobalNamespace::VideoProjectionDataModelSO::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO::get_videoClipWithIds)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*> (::GlobalNamespace::VideoProjectionDataModelSO::*)()>(
+    &::GlobalNamespace::VideoProjectionDataModelSO::get_videoClipWithIds)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5863f30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO*>::get(),
-                        "get_videoClipWithIds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO*>(), { "get_videoClipWithIds", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::VideoProjectionDataModelSO._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionDataModelSO::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionDataModelSO::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5863f38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*,::Array<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>*>& GlobalNamespace::VideoProjectionDataModelSO::__cordl_internal_get__videoClipsWithId()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____videoClipsWithId;
+constexpr ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>& GlobalNamespace::VideoProjectionDataModelSO::__cordl_internal_get__videoClipsWithId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____videoClipsWithId;
 }
-constexpr ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*,::Array<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>*> const& GlobalNamespace::VideoProjectionDataModelSO::__cordl_internal_get__videoClipsWithId() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____videoClipsWithId;
+constexpr ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*> const& GlobalNamespace::VideoProjectionDataModelSO::__cordl_internal_get__videoClipsWithId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____videoClipsWithId;
 }
-constexpr void GlobalNamespace::VideoProjectionDataModelSO::__cordl_internal_set__videoClipsWithId(::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*,::Array<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____videoClipsWithId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::VideoProjectionDataModelSO::__cordl_internal_set__videoClipsWithId(::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____videoClipsWithId = value;
 }
-inline ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*,::Array<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>*> GlobalNamespace::VideoProjectionDataModelSO::get_videoClipWithIds()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO*>::get(),
-                        "get_videoClipWithIds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*,::Array<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*> GlobalNamespace::VideoProjectionDataModelSO::get_videoClipWithIds() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO*>(), { "get_videoClipWithIds", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>>(this, ___internal_method);
 }
-inline void GlobalNamespace::VideoProjectionDataModelSO::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionDataModelSO*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::VideoProjectionDataModelSO::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::VideoProjectionDataModelSO* GlobalNamespace::VideoProjectionDataModelSO::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::VideoProjectionDataModelSO*>());
+inline ::GlobalNamespace::VideoProjectionDataModelSO* GlobalNamespace::VideoProjectionDataModelSO::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::VideoProjectionDataModelSO*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::VideoProjectionDataModelSO::VideoProjectionDataModelSO()   {
-}
+constexpr ::GlobalNamespace::VideoProjectionDataModelSO::VideoProjectionDataModelSO() {}

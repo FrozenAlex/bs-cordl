@@ -7,174 +7,129 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable.get_playersWithoutEntitlements
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)()>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::get_playersWithoutEntitlements)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)()>(
+    &::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::get_playersWithoutEntitlements)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x36be34c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                        "get_playersWithoutEntitlements",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), { "get_playersWithoutEntitlements", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable.Obtain
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* (*)()>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Obtain)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* (*)()>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x36be354;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                        "Obtain",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), { "Obtain", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)()>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)()>(
+    &::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x36be3c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* (
+    ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Init)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x36be464;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::StringW>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(),
+                                                                                           { "Init", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::StringW>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable.Serialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Serialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
+    &::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x36be520;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), 10 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable.Deserialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Deserialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
+    &::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x130;
   constexpr static std::size_t addrs = 0x36be65c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), 11 }));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::PlayersMissingEntitlementsNetSerializable::__cordl_internal_get__playersWithoutEntitlements()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playersWithoutEntitlements;
+constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::PlayersMissingEntitlementsNetSerializable::__cordl_internal_get__playersWithoutEntitlements() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playersWithoutEntitlements;
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>* const& GlobalNamespace::PlayersMissingEntitlementsNetSerializable::__cordl_internal_get__playersWithoutEntitlements() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playersWithoutEntitlements;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playersWithoutEntitlements;
 }
-constexpr void GlobalNamespace::PlayersMissingEntitlementsNetSerializable::__cordl_internal_set__playersWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playersWithoutEntitlements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayersMissingEntitlementsNetSerializable::__cordl_internal_set__playersWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____playersWithoutEntitlements = value;
 }
-inline ::System::Collections::Generic::List_1<::StringW>* GlobalNamespace::PlayersMissingEntitlementsNetSerializable::get_playersWithoutEntitlements()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                        "get_playersWithoutEntitlements",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::List_1<::StringW>* GlobalNamespace::PlayersMissingEntitlementsNetSerializable::get_playersWithoutEntitlements() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), { "get_playersWithoutEntitlements", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Obtain()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                        "Obtain",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*, false>(nullptr, ___internal_method);
+inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Obtain() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), { "Obtain", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(nullptr, ___internal_method);
 }
-inline void GlobalNamespace::PlayersMissingEntitlementsNetSerializable::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayersMissingEntitlementsNetSerializable::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Init(::System::Collections::Generic::IEnumerable_1<::StringW>*  playersWithoutEntitlements)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::StringW>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*, false>(this, ___internal_method, playersWithoutEntitlements);
+inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*
+GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Init(::System::Collections::Generic::IEnumerable_1<::StringW>* playersWithoutEntitlements) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(),
+                                                                                         { "Init", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::StringW>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(this, ___internal_method, playersWithoutEntitlements);
 }
-inline void GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Serialize(::LiteNetLib::Utils::NetDataWriter*  writer)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer);
+inline void GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Serialize(::LiteNetLib::Utils::NetDataWriter* writer) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer);
 }
-inline void GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Deserialize(::LiteNetLib::Utils::NetDataReader*  reader)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
+inline void GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Deserialize(::LiteNetLib::Utils::NetDataReader* reader) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader);
 }
-inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* GlobalNamespace::PlayersMissingEntitlementsNetSerializable::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>());
+inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* GlobalNamespace::PlayersMissingEntitlementsNetSerializable::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::PlayersMissingEntitlementsNetSerializable()   {
-}
+constexpr ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::PlayersMissingEntitlementsNetSerializable() {}

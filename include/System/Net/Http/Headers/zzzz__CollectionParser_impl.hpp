@@ -7,71 +7,67 @@
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::CollectionParser.TryParse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int32_t, ::ByRef<::System::Collections::Generic::List_1<::StringW>*>)>(&::System::Net::Http::Headers::CollectionParser::TryParse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t, ::by_ref<::System::Collections::Generic::List_1<::StringW>*>)>(
+    &::System::Net::Http::Headers::CollectionParser::TryParse)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x5fa44bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CollectionParser*>::get(),
-                        "TryParse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::StringW>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CollectionParser*>(),
+                            { "TryParse", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::StringW>*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::CollectionParser.TryParseStringElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ::ByRef<::StringW>, ::ByRef<::System::Net::Http::Headers::Token>)>(&::System::Net::Http::Headers::CollectionParser::TryParseStringElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ::by_ref<::StringW>, ::by_ref<::System::Net::Http::Headers::Token>)>(
+    &::System::Net::Http::Headers::CollectionParser::TryParseStringElement)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x5fa4570;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CollectionParser*>::get(),
-                        "TryParseStringElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Lexer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::Token>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CollectionParser*>(),
+                            { "TryParseStringElement",
+                              {},
+                              { ::i2c::type_of<::System::Net::Http::Headers::Lexer*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::System::Net::Http::Headers::Token>>() } })));
     return ___internal_method;
   }
 };
-template<typename T>
-inline bool System::Net::Http::Headers::CollectionParser::TryParse(::StringW  input, int32_t  minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>*  parser, ::ByRef<::System::Collections::Generic::List_1<T>*>  result)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CollectionParser*>::get(),
-                    "TryParse",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::ElementTryParser_1<T>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<T>*>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, input, minimalCount, parser, result);
+template <typename T>
+inline bool System::Net::Http::Headers::CollectionParser::TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>* parser,
+                                                                   ::by_ref<::System::Collections::Generic::List_1<T>*> result) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CollectionParser*>(),
+                                                           { "TryParse",
+                                                             { ::i2c::class_of<T>() },
+                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Net::Http::Headers::ElementTryParser_1<T>*>(),
+                                                               ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<T>*>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, input, minimalCount, parser, result);
 }
-inline bool System::Net::Http::Headers::CollectionParser::TryParse(::StringW  input, int32_t  minimalCount, ::ByRef<::System::Collections::Generic::List_1<::StringW>*>  result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CollectionParser*>::get(),
-                        "TryParse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::StringW>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, input, minimalCount, result);
+inline bool System::Net::Http::Headers::CollectionParser::TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::StringW>*> result) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CollectionParser*>(),
+                          { "TryParse", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::StringW>*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, input, minimalCount, result);
 }
-inline bool System::Net::Http::Headers::CollectionParser::TryParseStringElement(::System::Net::Http::Headers::Lexer*  lexer, ::ByRef<::StringW>  parsedValue, ::ByRef<::System::Net::Http::Headers::Token>  t)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CollectionParser*>::get(),
-                        "TryParseStringElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Lexer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::Token>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lexer, parsedValue, t);
+inline bool System::Net::Http::Headers::CollectionParser::TryParseStringElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::StringW> parsedValue,
+                                                                                ::by_ref<::System::Net::Http::Headers::Token> t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CollectionParser*>(),
+                          { "TryParseStringElement",
+                            {},
+                            { ::i2c::type_of<::System::Net::Http::Headers::Lexer*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::System::Net::Http::Headers::Token>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lexer, parsedValue, t);
 }
 // Ctor Parameters []
-constexpr ::System::Net::Http::Headers::CollectionParser::CollectionParser()   {
-}
+constexpr ::System::Net::Http::Headers::CollectionParser::CollectionParser() {}

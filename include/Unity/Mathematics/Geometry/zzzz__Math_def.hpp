@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Unity/Mathematics/Geometry/Math.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -22,45 +22,44 @@ namespace Unity::Mathematics::Geometry {
 class Math;
 }
 // Write type traits
-MARK_REF_PTR_T(::Unity::Mathematics::Geometry::Math);
+MARK_REF_T(::Unity::Mathematics::Geometry::Math*);
+DEFINE_IL2CPP_CLASS(::Unity::Mathematics::Geometry::Math*, "Unity.Mathematics.Geometry", "Math");
 // Dependencies System.Object
 namespace Unity::Mathematics::Geometry {
 // Is value type: false
 // CS Name: Unity.Mathematics.Geometry.Math
 class CORDL_TYPE Math : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Transform, addr 0x64dafdc, size 0x2d4, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::RigidTransform  transform, ::Unity::Mathematics::Geometry::MinMaxAABB  aabb) ;
+  // Declarations
+  /// @brief Method Transform, addr 0x64dafdc, size 0x2d4, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::RigidTransform transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-/// @brief Method Transform, addr 0x64db454, size 0x18c, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float3x3  transform, ::Unity::Mathematics::Geometry::MinMaxAABB  aabb) ;
+  /// @brief Method Transform, addr 0x64db454, size 0x18c, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float3x3 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-/// @brief Method Transform, addr 0x64db2b0, size 0x1a4, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float4x4  transform, ::Unity::Mathematics::Geometry::MinMaxAABB  aabb) ;
+  /// @brief Method Transform, addr 0x64db2b0, size 0x1a4, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float4x4 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Math() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Math();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Math(Math&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Math(Math && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Math(Math const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Math(Math const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13203 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13203};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Mathematics::Geometry::Math, 0x10>, "Size mismatch!");
+static_assert(sizeof(::Unity::Mathematics::Geometry::Math) == 0x10, "Size mismatch!");
 
-} // namespace end def Unity::Mathematics::Geometry
-NEED_NO_BOX(::Unity::Mathematics::Geometry::Math);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Mathematics::Geometry::Math*, "Unity.Mathematics.Geometry", "Math");
+} // namespace Unity::Mathematics::Geometry

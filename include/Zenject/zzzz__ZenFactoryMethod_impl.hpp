@@ -7,109 +7,74 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::ZenFactoryMethod._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenFactoryMethod::*)(::System::Object*, ::System::IntPtr)>(&::Zenject::ZenFactoryMethod::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenFactoryMethod::*)(::System::Object*, ::System::IntPtr)>(&::Zenject::ZenFactoryMethod::_ctor)> {
   constexpr static std::size_t size = 0x144;
   constexpr static std::size_t addrs = 0x6ce6094;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ZenFactoryMethod*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::ZenFactoryMethod.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Zenject::ZenFactoryMethod::*)(::ArrayW<::System::Object*,::Array<::System::Object*>*>)>(&::Zenject::ZenFactoryMethod::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::ZenFactoryMethod::*)(::ArrayW<::System::Object*>)>(&::Zenject::ZenFactoryMethod::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6ce61d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::ZenFactoryMethod*>(), { ::i2c::class_of<::Zenject::ZenFactoryMethod*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::ZenFactoryMethod.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::Zenject::ZenFactoryMethod::*)(::ArrayW<::System::Object*,::Array<::System::Object*>*>, ::System::AsyncCallback*, ::System::Object*)>(&::Zenject::ZenFactoryMethod::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::Zenject::ZenFactoryMethod::*)(::ArrayW<::System::Object*>, ::System::AsyncCallback*, ::System::Object*)>(
+    &::Zenject::ZenFactoryMethod::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6ce61ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::ZenFactoryMethod*>(), { ::i2c::class_of<::Zenject::ZenFactoryMethod*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::ZenFactoryMethod.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Zenject::ZenFactoryMethod::*)(::System::IAsyncResult*)>(&::Zenject::ZenFactoryMethod::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::ZenFactoryMethod::*)(::System::IAsyncResult*)>(&::Zenject::ZenFactoryMethod::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6ce620c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::ZenFactoryMethod*>(), { ::i2c::class_of<::Zenject::ZenFactoryMethod*>(), 15 }));
     return ___internal_method;
   }
 };
-inline void Zenject::ZenFactoryMethod::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void Zenject::ZenFactoryMethod::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ZenFactoryMethod*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline ::System::Object* Zenject::ZenFactoryMethod::Invoke(::ArrayW<::System::Object*,::Array<::System::Object*>*>  args)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, args);
+inline ::System::Object* Zenject::ZenFactoryMethod::Invoke(::ArrayW<::System::Object*> args) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::ZenFactoryMethod*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, args);
 }
-inline ::System::IAsyncResult* Zenject::ZenFactoryMethod::BeginInvoke(::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, args, callback, object);
+inline ::System::IAsyncResult* Zenject::ZenFactoryMethod::BeginInvoke(::ArrayW<::System::Object*> args, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::ZenFactoryMethod*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, args, callback, object);
 }
-inline ::System::Object* Zenject::ZenFactoryMethod::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenFactoryMethod*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, result);
+inline ::System::Object* Zenject::ZenFactoryMethod::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::ZenFactoryMethod*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, result);
 }
-inline ::Zenject::ZenFactoryMethod* Zenject::ZenFactoryMethod::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ZenFactoryMethod*>(object, method));
+inline ::Zenject::ZenFactoryMethod* Zenject::ZenFactoryMethod::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::ZenFactoryMethod*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::Zenject::ZenFactoryMethod::ZenFactoryMethod()   {
-}
+constexpr ::Zenject::ZenFactoryMethod::ZenFactoryMethod() {}

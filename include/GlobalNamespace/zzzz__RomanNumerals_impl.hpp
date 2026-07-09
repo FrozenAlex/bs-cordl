@@ -3,31 +3,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RomanNumerals_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RomanNumerals.ToRomanNumeralString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::RomanNumerals::ToRomanNumeralString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::RomanNumerals::ToRomanNumeralString)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x57dee4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RomanNumerals*>::get(),
-                        "ToRomanNumeralString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RomanNumerals*>(), { "ToRomanNumeralString", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline ::StringW GlobalNamespace::RomanNumerals::ToRomanNumeralString(int32_t  input)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RomanNumerals*>::get(),
-                        "ToRomanNumeralString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, input);
+inline ::StringW GlobalNamespace::RomanNumerals::ToRomanNumeralString(int32_t input) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RomanNumerals*>(), { "ToRomanNumeralString", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, input);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::RomanNumerals::RomanNumerals()   {
-}
+constexpr ::GlobalNamespace::RomanNumerals::RomanNumerals() {}

@@ -5,31 +5,26 @@
 #include "BeatmapSaveDataVersion4/zzzz__LightTranslationEvent_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBaseData_def.hpp"
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter.Convert
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightTranslationBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightTranslationEvent)>(&::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter::Convert)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightTranslationBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightTranslationEvent)>(
+    &::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter::Convert)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x36a4920;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter*>::get(),
-                        "Convert",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightTranslationEvent>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter*>(),
+                                                             { "Convert", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::BeatmapSaveDataVersion4::LightTranslationEvent>() } })));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::LightTranslationBaseData* BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter::Convert(float_t  beat, ::BeatmapSaveDataVersion4::LightTranslationEvent  lightTranslationEvent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter*>::get(),
-                        "Convert",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightTranslationEvent>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LightTranslationBaseData*, false>(nullptr, ___internal_method, beat, lightTranslationEvent);
+inline ::GlobalNamespace::LightTranslationBaseData* BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter::Convert(float_t beat,
+                                                                                                                          ::BeatmapSaveDataVersion4::LightTranslationEvent lightTranslationEvent) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter*>(),
+                                                           { "Convert", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::BeatmapSaveDataVersion4::LightTranslationEvent>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LightTranslationBaseData*>(nullptr, ___internal_method, beat, lightTranslationEvent);
 }
 // Ctor Parameters []
-constexpr ::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter::LightTranslationBaseDataConverter()   {
-}
+constexpr ::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter::LightTranslationBaseDataConverter() {}

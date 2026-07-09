@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoteBasicCutInfoHelper.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -26,42 +26,43 @@ namespace GlobalNamespace {
 class NoteBasicCutInfoHelper;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::NoteBasicCutInfoHelper);
+MARK_REF_T(::GlobalNamespace::NoteBasicCutInfoHelper*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteBasicCutInfoHelper*, "", "NoteBasicCutInfoHelper");
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoteBasicCutInfoHelper
 class CORDL_TYPE NoteBasicCutInfoHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetBasicCutInfo, addr 0x36bbffc, size 0x18c, virtual false, abstract: false, final false
-static inline void GetBasicCutInfo(::UnityEngine::Transform*  noteTransform, ::GlobalNamespace::ColorType  colorType, ::GlobalNamespace::NoteCutDirection  cutDirection, ::GlobalNamespace::SaberType  saberType, float_t  saberBladeSpeed, ::UnityEngine::Vector3  cutDirVec, float_t  cutAngleTolerance, ::ByRef<bool>  directionOK, ::ByRef<bool>  speedOK, ::ByRef<bool>  saberTypeOK, ::ByRef<float_t>  cutDirDeviation, ::ByRef<float_t>  cutDirAngle) ;
+  // Declarations
+  /// @brief Method GetBasicCutInfo, addr 0x36bbffc, size 0x18c, virtual false, abstract: false, final false
+  static inline void GetBasicCutInfo(::UnityEngine::Transform* noteTransform, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection,
+                                     ::GlobalNamespace::SaberType saberType, float_t saberBladeSpeed, ::UnityEngine::Vector3 cutDirVec, float_t cutAngleTolerance, ::by_ref<bool> directionOK,
+                                     ::by_ref<bool> speedOK, ::by_ref<bool> saberTypeOK, ::by_ref<float_t> cutDirDeviation, ::by_ref<float_t> cutDirAngle);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NoteBasicCutInfoHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteBasicCutInfoHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NoteBasicCutInfoHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NoteBasicCutInfoHelper(NoteBasicCutInfoHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoteBasicCutInfoHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NoteBasicCutInfoHelper(NoteBasicCutInfoHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NoteBasicCutInfoHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NoteBasicCutInfoHelper(NoteBasicCutInfoHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoteBasicCutInfoHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NoteBasicCutInfoHelper(NoteBasicCutInfoHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20886 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20886};
+  /// @brief Field kMinBladeSpeedForCut offset 0xffffffff size 0x4
+  static constexpr float_t kMinBladeSpeedForCut{ static_cast<float_t>(2.0f) };
 
-/// @brief Field kMinBladeSpeedForCut offset 0xffffffff size 0x4
-static constexpr float_t  kMinBladeSpeedForCut{static_cast<float_t>(2.0f)};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteBasicCutInfoHelper, 0x10>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::NoteBasicCutInfoHelper) == 0x10, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::NoteBasicCutInfoHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteBasicCutInfoHelper*, "", "NoteBasicCutInfoHelper");
+} // namespace GlobalNamespace

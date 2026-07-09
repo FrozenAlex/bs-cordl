@@ -4,119 +4,101 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RayTracingAccelerationStructureHandle_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RayTracingAccelerationStructure_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle.get_nullHandle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle (*)()>(&::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::get_nullHandle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle (*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::get_nullHandle)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x66a1050;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get(),
-                        "get_nullHandle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(), { "get_nullHandle", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::*)(int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::*)(int32_t)>(
+    &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::_ctor)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x66a10b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle.op_Implicit___UnityEngine__Rendering__RayTracingAccelerationStructure_
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RayTracingAccelerationStructure* (*)(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle)>(&::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::op_Implicit___UnityEngine__Rendering__RayTracingAccelerationStructure_)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::Rendering::RayTracingAccelerationStructure* (*)(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle)>(
+        &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::op_Implicit___UnityEngine__Rendering__RayTracingAccelerationStructure_)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x66a11a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(),
+                                                             { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle.IsValid
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::IsValid)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::IsValid)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x66a1298;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get(),
-                        "IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(), { "IsValid", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::setStaticF_s_NullHandle(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle, "s_NullHandle", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get>(std::forward<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(value));
+inline void
+UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::setStaticF_s_NullHandle(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle, "s_NullHandle",
+                                    ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(
+      std::forward<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(value));
 }
-inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::getStaticF_s_NullHandle()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle, "s_NullHandle", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get>();
+inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::getStaticF_s_NullHandle() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle, "s_NullHandle",
+                                           ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>();
 }
-inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::get_nullHandle()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get(),
-                        "get_nullHandle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle, false>(nullptr, ___internal_method);
+inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::get_nullHandle() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(), { "get_nullHandle", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::_ctor(int32_t  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, handle);
+inline void UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::_ctor(int32_t handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, handle);
 }
-inline ::UnityEngine::Rendering::RayTracingAccelerationStructure* UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::op_Implicit___UnityEngine__Rendering__RayTracingAccelerationStructure_(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RayTracingAccelerationStructure*, false>(nullptr, ___internal_method, handle);
+inline ::UnityEngine::Rendering::RayTracingAccelerationStructure*
+UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::op_Implicit___UnityEngine__Rendering__RayTracingAccelerationStructure_(
+    ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle handle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(),
+                                                           { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RayTracingAccelerationStructure*>(nullptr, ___internal_method, handle);
 }
-inline bool UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::IsValid()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>::get(),
-                        "IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::IsValid() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle>(), { "IsValid", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::RayTracingAccelerationStructureHandle(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  handle) noexcept  {
-this->handle = handle;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::RayTracingAccelerationStructureHandle(
+    ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle handle) noexcept {
+  this->handle = handle;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::RayTracingAccelerationStructureHandle()   {
-}
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle::RayTracingAccelerationStructureHandle() {}

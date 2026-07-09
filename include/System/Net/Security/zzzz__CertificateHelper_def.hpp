@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Security/CertificateHelper.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -25,54 +25,55 @@ namespace System::Net::Security {
 class CertificateHelper;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Net::Security::CertificateHelper);
+MARK_REF_T(::System::Net::Security::CertificateHelper*);
+DEFINE_IL2CPP_CLASS(::System::Net::Security::CertificateHelper*, "System.Net.Security", "CertificateHelper");
 // Dependencies System.Object
 namespace System::Net::Security {
 // Is value type: false
 // CS Name: System.Net.Security.CertificateHelper
 class CORDL_TYPE CertificateHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetEligibleClientCertificate, addr 0x622fab0, size 0x180, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate() ;
+  // Declarations
+  /// @brief Method GetEligibleClientCertificate, addr 0x622fab0, size 0x180, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate();
 
-/// @brief Method GetEligibleClientCertificate, addr 0x622f844, size 0xa4, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*  candidateCerts) ;
+  /// @brief Method GetEligibleClientCertificate, addr 0x622f844, size 0xa4, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
+  GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* candidateCerts);
 
-/// @brief Method GetEligibleClientCertificate, addr 0x622f7a0, size 0xa4, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  candidateCerts) ;
+  /// @brief Method GetEligibleClientCertificate, addr 0x622f7a0, size 0xa4, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
+  GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* candidateCerts);
 
-/// @brief Method IsValidClientCertificate, addr 0x622f8e8, size 0x104, virtual false, abstract: false, final false
-static inline bool IsValidClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2*  cert) ;
+  /// @brief Method IsValidClientCertificate, addr 0x622f8e8, size 0x104, virtual false, abstract: false, final false
+  static inline bool IsValidClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
 
-/// @brief Method IsValidForClientAuthenticationEKU, addr 0x622f9ec, size 0xa4, virtual false, abstract: false, final false
-static inline bool IsValidForClientAuthenticationEKU(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*  eku) ;
+  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x622f9ec, size 0xa4, virtual false, abstract: false, final false
+  static inline bool IsValidForClientAuthenticationEKU(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* eku);
 
-/// @brief Method IsValidForDigitalSignatureUsage, addr 0x622fa90, size 0x20, virtual false, abstract: false, final false
-static inline bool IsValidForDigitalSignatureUsage(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension*  ku) ;
+  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x622fa90, size 0x20, virtual false, abstract: false, final false
+  static inline bool IsValidForDigitalSignatureUsage(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* ku);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CertificateHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertificateHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CertificateHelper(CertificateHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CertificateHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CertificateHelper(CertificateHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CertificateHelper(CertificateHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CertificateHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CertificateHelper(CertificateHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11784 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11784};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Security::CertificateHelper, 0x10>, "Size mismatch!");
+static_assert(sizeof(::System::Net::Security::CertificateHelper) == 0x10, "Size mismatch!");
 
-} // namespace end def System::Net::Security
-NEED_NO_BOX(::System::Net::Security::CertificateHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::CertificateHelper*, "System.Net.Security", "CertificateHelper");
+} // namespace System::Net::Security

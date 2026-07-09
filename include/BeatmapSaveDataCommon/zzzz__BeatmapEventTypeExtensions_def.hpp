@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "BeatmapSaveDataCommon/BeatmapEventTypeExtensions.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -9,52 +9,50 @@ namespace BeatmapSaveDataCommon {
 struct BeatmapEventType;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace BeatmapSaveDataCommon {
 class BeatmapEventTypeExtensions;
 }
 // Write type traits
-MARK_REF_PTR_T(::BeatmapSaveDataCommon::BeatmapEventTypeExtensions);
+MARK_REF_T(::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*);
+DEFINE_IL2CPP_CLASS(::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*, "BeatmapSaveDataCommon", "BeatmapEventTypeExtensions");
 // Dependencies System.Object
 namespace BeatmapSaveDataCommon {
 // Is value type: false
 // CS Name: BeatmapSaveDataCommon.BeatmapEventTypeExtensions
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetSpecialEventTypes, addr 0x369f584, size 0x100, virtual false, abstract: false, final false
-static inline ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* GetSpecialEventTypes() ;
+  // Declarations
+  /// @brief Method GetSpecialEventTypes, addr 0x369f584, size 0x100, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* GetSpecialEventTypes();
 
-static inline ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions* New_ctor() ;
+  static inline ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions* New_ctor();
 
-/// @brief Method .ctor, addr 0x369f684, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x369f684, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapEventTypeExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapEventTypeExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTypeExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapEventTypeExtensions(BeatmapEventTypeExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTypeExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapEventTypeExtensions(BeatmapEventTypeExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTypeExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapEventTypeExtensions(BeatmapEventTypeExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTypeExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapEventTypeExtensions(BeatmapEventTypeExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15377 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15377};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions, 0x10>, "Size mismatch!");
+static_assert(sizeof(::BeatmapSaveDataCommon::BeatmapEventTypeExtensions) == 0x10, "Size mismatch!");
 
-} // namespace end def BeatmapSaveDataCommon
-NEED_NO_BOX(::BeatmapSaveDataCommon::BeatmapEventTypeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*, "BeatmapSaveDataCommon", "BeatmapEventTypeExtensions");
+} // namespace BeatmapSaveDataCommon

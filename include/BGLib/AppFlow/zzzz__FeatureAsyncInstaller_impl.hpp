@@ -6,109 +6,77 @@
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
 //  Writing Method size for method: ::BGLib::AppFlow::FeatureAsyncInstaller.get_assetLabelRuntimeKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::get_assetLabelRuntimeKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x324edfc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), { ::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), 12 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::AppFlow::FeatureAsyncInstaller.LoadResourcesBeforeInstall
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(&::BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*,
+                                                                                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
+    &::BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x328;
   constexpr static std::size_t addrs = 0x324ee40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), { ::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), 13 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::AppFlow::FeatureAsyncInstaller.InstallBindings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::InstallBindings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x324f168;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), { ::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::AppFlow::FeatureAsyncInstaller._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x324f16c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::StringW BGLib::AppFlow::FeatureAsyncInstaller::get_assetLabelRuntimeKey()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW BGLib::AppFlow::FeatureAsyncInstaller::get_assetLabelRuntimeKey() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), 12 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*  scriptableObjectInstallers, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scriptableObjectInstallers, registry);
+inline void BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
+                                                                              ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, scriptableObjectInstallers, registry);
 }
-inline void BGLib::AppFlow::FeatureAsyncInstaller::InstallBindings()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BGLib::AppFlow::FeatureAsyncInstaller::InstallBindings() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BGLib::AppFlow::FeatureAsyncInstaller::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BGLib::AppFlow::FeatureAsyncInstaller::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::FeatureAsyncInstaller*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::BGLib::AppFlow::FeatureAsyncInstaller* BGLib::AppFlow::FeatureAsyncInstaller::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::AppFlow::FeatureAsyncInstaller*>());
+inline ::BGLib::AppFlow::FeatureAsyncInstaller* BGLib::AppFlow::FeatureAsyncInstaller::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGLib::AppFlow::FeatureAsyncInstaller*>());
 }
 // Ctor Parameters []
-constexpr ::BGLib::AppFlow::FeatureAsyncInstaller::FeatureAsyncInstaller()   {
-}
+constexpr ::BGLib::AppFlow::FeatureAsyncInstaller::FeatureAsyncInstaller() {}

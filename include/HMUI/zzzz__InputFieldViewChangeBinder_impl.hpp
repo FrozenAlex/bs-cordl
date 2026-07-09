@@ -8,214 +8,166 @@
 #include "System/zzzz__Tuple_2_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 //  Writing Method size for method: ::HMUI::InputFieldViewChangeBinder._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5731b54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::InputFieldViewChangeBinder.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Init)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x5731b60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "Init", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::InputFieldViewChangeBinder.AddBindings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>,::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*)>(&::HMUI::InputFieldViewChangeBinder::AddBindings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)(
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*)>(
+    &::HMUI::InputFieldViewChangeBinder::AddBindings)> {
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x5731bd4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "AddBindings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>,::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(),
+            { "AddBindings",
+              {},
+              { ::i2c::type_of<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::InputFieldViewChangeBinder.AddBinding
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)(::HMUI::InputFieldView*, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*)>(&::HMUI::InputFieldViewChangeBinder::AddBinding)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)(::HMUI::InputFieldView*, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*)>(
+    &::HMUI::InputFieldViewChangeBinder::AddBinding)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5731d10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "AddBinding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::InputFieldView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(),
+                                                { "AddBinding", {}, { ::i2c::type_of<::HMUI::InputFieldView*>(), ::i2c::type_of<::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::InputFieldViewChangeBinder.ClearBindings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::ClearBindings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x214;
   constexpr static std::size_t addrs = 0x5731df4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "ClearBindings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "ClearBindings", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::InputFieldViewChangeBinder.Disable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Disable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Disable)> {
   constexpr static std::size_t size = 0x1c0;
   constexpr static std::size_t addrs = 0x5732008;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "Disable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "Disable", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::InputFieldViewChangeBinder.Enable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Enable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Enable)> {
   constexpr static std::size_t size = 0x1c4;
   constexpr static std::size_t addrs = 0x57321c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "Enable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "Enable", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>,::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>*& HMUI::InputFieldViewChangeBinder::__cordl_internal_get__bindings()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bindings;
+constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>*&
+HMUI::InputFieldViewChangeBinder::__cordl_internal_get__bindings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bindings;
 }
-constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>,::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>* const& HMUI::InputFieldViewChangeBinder::__cordl_internal_get__bindings() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bindings;
+constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>* const&
+HMUI::InputFieldViewChangeBinder::__cordl_internal_get__bindings() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bindings;
 }
-constexpr void HMUI::InputFieldViewChangeBinder::__cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>,::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::InputFieldViewChangeBinder::__cordl_internal_set__bindings(
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____bindings = value;
 }
-constexpr bool& HMUI::InputFieldViewChangeBinder::__cordl_internal_get__enabled()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____enabled;
+constexpr bool& HMUI::InputFieldViewChangeBinder::__cordl_internal_get__enabled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enabled;
 }
 constexpr bool const& HMUI::InputFieldViewChangeBinder::__cordl_internal_get__enabled() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____enabled;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enabled;
 }
-constexpr void HMUI::InputFieldViewChangeBinder::__cordl_internal_set__enabled(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____enabled = value;
+constexpr void HMUI::InputFieldViewChangeBinder::__cordl_internal_set__enabled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____enabled = value;
 }
-inline void HMUI::InputFieldViewChangeBinder::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::InputFieldViewChangeBinder::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::InputFieldViewChangeBinder::Init()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::InputFieldViewChangeBinder::Init() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "Init", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::InputFieldViewChangeBinder::AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>,::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*  bindings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "AddBindings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>,::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindings);
+inline void HMUI::InputFieldViewChangeBinder::AddBindings(
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>* bindings) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(),
+          { "AddBindings",
+            {},
+            { ::i2c::type_of<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bindings);
 }
-inline void HMUI::InputFieldViewChangeBinder::AddBinding(::HMUI::InputFieldView*  inputField, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*  action)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "AddBinding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::InputFieldView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inputField, action);
+inline void HMUI::InputFieldViewChangeBinder::AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>* action) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(),
+                                              { "AddBinding", {}, { ::i2c::type_of<::HMUI::InputFieldView*>(), ::i2c::type_of<::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inputField, action);
 }
-inline void HMUI::InputFieldViewChangeBinder::ClearBindings()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "ClearBindings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::InputFieldViewChangeBinder::ClearBindings() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "ClearBindings", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::InputFieldViewChangeBinder::Disable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "Disable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::InputFieldViewChangeBinder::Disable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "Disable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::InputFieldViewChangeBinder::Enable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(),
-                        "Enable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::InputFieldViewChangeBinder::Enable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "Enable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::HMUI::InputFieldViewChangeBinder* HMUI::InputFieldViewChangeBinder::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::InputFieldViewChangeBinder*>());
+inline ::HMUI::InputFieldViewChangeBinder* HMUI::InputFieldViewChangeBinder::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::InputFieldViewChangeBinder*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::InputFieldViewChangeBinder::InputFieldViewChangeBinder()   {
-}
+constexpr ::HMUI::InputFieldViewChangeBinder::InputFieldViewChangeBinder() {}

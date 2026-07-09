@@ -14,691 +14,474 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::WindowsConsole_Console_WindowsCancelHandler._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WindowsConsole_Console_WindowsCancelHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::WindowsConsole_Console_WindowsCancelHandler::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::WindowsConsole_Console_WindowsCancelHandler::*)(::System::Object*, ::System::IntPtr)>(
+    &::System::WindowsConsole_Console_WindowsCancelHandler::_ctor)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5b54250;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::WindowsConsole_Console_WindowsCancelHandler*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::WindowsConsole_Console_WindowsCancelHandler.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::WindowsConsole_Console_WindowsCancelHandler::*)(int32_t)>(&::System::WindowsConsole_Console_WindowsCancelHandler::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::WindowsConsole_Console_WindowsCancelHandler::*)(int32_t)>(&::System::WindowsConsole_Console_WindowsCancelHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5b542bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::WindowsConsole_Console_WindowsCancelHandler*>(),
+                                                                                          { ::i2c::class_of<::System::WindowsConsole_Console_WindowsCancelHandler*>(), 13 }));
     return ___internal_method;
   }
 };
-inline void System::WindowsConsole_Console_WindowsCancelHandler::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void System::WindowsConsole_Console_WindowsCancelHandler::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::WindowsConsole_Console_WindowsCancelHandler*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool System::WindowsConsole_Console_WindowsCancelHandler::Invoke(int32_t  keyCode)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, keyCode);
+inline bool System::WindowsConsole_Console_WindowsCancelHandler::Invoke(int32_t keyCode) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::WindowsConsole_Console_WindowsCancelHandler*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, keyCode);
 }
-inline ::System::WindowsConsole_Console_WindowsCancelHandler* System::WindowsConsole_Console_WindowsCancelHandler::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::WindowsConsole_Console_WindowsCancelHandler*>(object, method));
+inline ::System::WindowsConsole_Console_WindowsCancelHandler* System::WindowsConsole_Console_WindowsCancelHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::WindowsConsole_Console_WindowsCancelHandler*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::System::WindowsConsole_Console_WindowsCancelHandler::WindowsConsole_Console_WindowsCancelHandler()   {
-}
+constexpr ::System::WindowsConsole_Console_WindowsCancelHandler::WindowsConsole_Console_WindowsCancelHandler() {}
 //  Writing Method size for method: ::System::Console_WindowsConsole.GetConsoleCP
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetConsoleCP)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetConsoleCP)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x5b54080;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "GetConsoleCP",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "GetConsoleCP", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console_WindowsConsole.GetConsoleOutputCP
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetConsoleOutputCP)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetConsoleOutputCP)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x5b540e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "GetConsoleOutputCP",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "GetConsoleOutputCP", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console_WindowsConsole.DoWindowsConsoleCancelEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Console_WindowsConsole::DoWindowsConsoleCancelEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::System::Console_WindowsConsole::DoWindowsConsoleCancelEvent)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x5b5414c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "DoWindowsConsoleCancelEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "DoWindowsConsoleCancelEvent", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console_WindowsConsole.GetInputCodePage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetInputCodePage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetInputCodePage)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x5b52f54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "GetInputCodePage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "GetInputCodePage", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console_WindowsConsole.GetOutputCodePage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetOutputCodePage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetOutputCodePage)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x5b52fa4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "GetOutputCodePage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "GetOutputCodePage", {}, {} })));
     return ___internal_method;
   }
 };
-inline void System::Console_WindowsConsole::setStaticF_ctrlHandlerAdded(bool  value)  {
-::cordl_internals::setStaticField<bool, "ctrlHandlerAdded", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get>(std::forward<bool>(value));
+inline void System::Console_WindowsConsole::setStaticF_ctrlHandlerAdded(bool value) {
+  ::cordl_internals::setStaticField<bool, "ctrlHandlerAdded", ::System::Console_WindowsConsole*>(std::forward<bool>(value));
 }
-inline bool System::Console_WindowsConsole::getStaticF_ctrlHandlerAdded()  {
-return ::cordl_internals::getStaticField<bool, "ctrlHandlerAdded", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get>();
+inline bool System::Console_WindowsConsole::getStaticF_ctrlHandlerAdded() {
+  return ::cordl_internals::getStaticField<bool, "ctrlHandlerAdded", ::System::Console_WindowsConsole*>();
 }
-inline void System::Console_WindowsConsole::setStaticF_cancelHandler(::System::WindowsConsole_Console_WindowsCancelHandler*  value)  {
-::cordl_internals::setStaticField<::System::WindowsConsole_Console_WindowsCancelHandler*, "cancelHandler", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get>(std::forward<::System::WindowsConsole_Console_WindowsCancelHandler*>(value));
+inline void System::Console_WindowsConsole::setStaticF_cancelHandler(::System::WindowsConsole_Console_WindowsCancelHandler* value) {
+  ::cordl_internals::setStaticField<::System::WindowsConsole_Console_WindowsCancelHandler*, "cancelHandler", ::System::Console_WindowsConsole*>(
+      std::forward<::System::WindowsConsole_Console_WindowsCancelHandler*>(value));
 }
-inline ::System::WindowsConsole_Console_WindowsCancelHandler* System::Console_WindowsConsole::getStaticF_cancelHandler()  {
-return ::cordl_internals::getStaticField<::System::WindowsConsole_Console_WindowsCancelHandler*, "cancelHandler", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get>();
+inline ::System::WindowsConsole_Console_WindowsCancelHandler* System::Console_WindowsConsole::getStaticF_cancelHandler() {
+  return ::cordl_internals::getStaticField<::System::WindowsConsole_Console_WindowsCancelHandler*, "cancelHandler", ::System::Console_WindowsConsole*>();
 }
-inline int32_t System::Console_WindowsConsole::GetConsoleCP()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "GetConsoleCP",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t System::Console_WindowsConsole::GetConsoleCP() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "GetConsoleCP", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
-inline int32_t System::Console_WindowsConsole::GetConsoleOutputCP()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "GetConsoleOutputCP",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t System::Console_WindowsConsole::GetConsoleOutputCP() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "GetConsoleOutputCP", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
-inline bool System::Console_WindowsConsole::DoWindowsConsoleCancelEvent(int32_t  keyCode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "DoWindowsConsoleCancelEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, keyCode);
+inline bool System::Console_WindowsConsole::DoWindowsConsoleCancelEvent(int32_t keyCode) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "DoWindowsConsoleCancelEvent", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, keyCode);
 }
-inline int32_t System::Console_WindowsConsole::GetInputCodePage()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "GetInputCodePage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t System::Console_WindowsConsole::GetInputCodePage() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "GetInputCodePage", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
-inline int32_t System::Console_WindowsConsole::GetOutputCodePage()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(),
-                        "GetOutputCodePage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t System::Console_WindowsConsole::GetOutputCodePage() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console_WindowsConsole*>(), { "GetOutputCodePage", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Console_WindowsConsole::Console_WindowsConsole()   {
-}
+constexpr ::System::Console_WindowsConsole::Console_WindowsConsole() {}
 //  Writing Method size for method: ::System::Console.SetupStreams
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::Encoding*, ::System::Text::Encoding*)>(&::System::Console::SetupStreams)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::Encoding*, ::System::Text::Encoding*)>(&::System::Console::SetupStreams)> {
   constexpr static std::size_t size = 0x3b0;
   constexpr static std::size_t addrs = 0x5b52ff4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "SetupStreams",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "SetupStreams", {}, { ::i2c::type_of<::System::Text::Encoding*>(), ::i2c::type_of<::System::Text::Encoding*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.get_Error
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::TextWriter* (*)()>(&::System::Console::get_Error)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::TextWriter* (*)()>(&::System::Console::get_Error)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5b536a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "get_Error",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "get_Error", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.get_Out
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::TextWriter* (*)()>(&::System::Console::get_Out)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::TextWriter* (*)()>(&::System::Console::get_Out)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5b53700;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "get_Out",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "get_Out", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.Open
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(::System::IntPtr, ::System::IO::FileAccess, int32_t)>(&::System::Console::Open)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (*)(::System::IntPtr, ::System::IO::FileAccess, int32_t)>(&::System::Console::Open)> {
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x5b5375c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "Open",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::FileAccess>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "Open", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IO::FileAccess>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.OpenStandardError
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardError)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardError)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x5b53610;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "OpenStandardError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "OpenStandardError", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.OpenStandardInput
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardInput)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardInput)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x5b534e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "OpenStandardInput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "OpenStandardInput", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.OpenStandardOutput
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardOutput)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardOutput)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x5b5357c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "OpenStandardOutput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "OpenStandardOutput", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.SetError
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::TextWriter*)>(&::System::Console::SetError)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::TextWriter*)>(&::System::Console::SetError)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x5b538c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "SetError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextWriter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "SetError", {}, { ::i2c::type_of<::System::IO::TextWriter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.SetOut
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::TextWriter*)>(&::System::Console::SetOut)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::TextWriter*)>(&::System::Console::SetOut)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x5b539a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "SetOut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextWriter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "SetOut", {}, { ::i2c::type_of<::System::IO::TextWriter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.WriteLine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Console::WriteLine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Console::WriteLine)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x5b53a90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "WriteLine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "WriteLine", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.WriteLine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Object*)>(&::System::Console::WriteLine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Object*)>(&::System::Console::WriteLine)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x5b53b08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "WriteLine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "WriteLine", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.WriteLine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::System::Console::WriteLine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::System::Console::WriteLine)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x5b53b90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "WriteLine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Console*>(),
+                            { "WriteLine", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.get_InputEncoding
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Console::get_InputEncoding)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)()>(&::System::Console::get_InputEncoding)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5b53c30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "get_InputEncoding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "get_InputEncoding", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.get_OutputEncoding
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Console::get_OutputEncoding)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)()>(&::System::Console::get_OutputEncoding)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5b53c8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "get_OutputEncoding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "get_OutputEncoding", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.ReadKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (*)()>(&::System::Console::ReadKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ConsoleKeyInfo (*)()>(&::System::Console::ReadKey)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5b53ce8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "ReadKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "ReadKey", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.ReadKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (*)(bool)>(&::System::Console::ReadKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ConsoleKeyInfo (*)(bool)>(&::System::Console::ReadKey)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x5b53d44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "ReadKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "ReadKey", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Console.DoConsoleCancelEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Console::DoConsoleCancelEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Console::DoConsoleCancelEvent)> {
   constexpr static std::size_t size = 0x1fc;
   constexpr static std::size_t addrs = 0x5b53e84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "DoConsoleCancelEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "DoConsoleCancelEvent", {}, {} })));
     return ___internal_method;
   }
 };
-inline void System::Console::setStaticF_stdout(::System::IO::TextWriter*  value)  {
-::cordl_internals::setStaticField<::System::IO::TextWriter*, "stdout", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>(std::forward<::System::IO::TextWriter*>(value));
+inline void System::Console::setStaticF_stdout(::System::IO::TextWriter* value) {
+  ::cordl_internals::setStaticField<::System::IO::TextWriter*, "stdout", ::System::Console*>(std::forward<::System::IO::TextWriter*>(value));
 }
-inline ::System::IO::TextWriter* System::Console::getStaticF_stdout()  {
-return ::cordl_internals::getStaticField<::System::IO::TextWriter*, "stdout", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>();
+inline ::System::IO::TextWriter* System::Console::getStaticF_stdout() {
+  return ::cordl_internals::getStaticField<::System::IO::TextWriter*, "stdout", ::System::Console*>();
 }
-inline void System::Console::setStaticF_stderr(::System::IO::TextWriter*  value)  {
-::cordl_internals::setStaticField<::System::IO::TextWriter*, "stderr", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>(std::forward<::System::IO::TextWriter*>(value));
+inline void System::Console::setStaticF_stderr(::System::IO::TextWriter* value) {
+  ::cordl_internals::setStaticField<::System::IO::TextWriter*, "stderr", ::System::Console*>(std::forward<::System::IO::TextWriter*>(value));
 }
-inline ::System::IO::TextWriter* System::Console::getStaticF_stderr()  {
-return ::cordl_internals::getStaticField<::System::IO::TextWriter*, "stderr", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>();
+inline ::System::IO::TextWriter* System::Console::getStaticF_stderr() {
+  return ::cordl_internals::getStaticField<::System::IO::TextWriter*, "stderr", ::System::Console*>();
 }
-inline void System::Console::setStaticF_stdin(::System::IO::TextReader*  value)  {
-::cordl_internals::setStaticField<::System::IO::TextReader*, "stdin", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>(std::forward<::System::IO::TextReader*>(value));
+inline void System::Console::setStaticF_stdin(::System::IO::TextReader* value) {
+  ::cordl_internals::setStaticField<::System::IO::TextReader*, "stdin", ::System::Console*>(std::forward<::System::IO::TextReader*>(value));
 }
-inline ::System::IO::TextReader* System::Console::getStaticF_stdin()  {
-return ::cordl_internals::getStaticField<::System::IO::TextReader*, "stdin", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>();
+inline ::System::IO::TextReader* System::Console::getStaticF_stdin() {
+  return ::cordl_internals::getStaticField<::System::IO::TextReader*, "stdin", ::System::Console*>();
 }
-inline void System::Console::setStaticF_IsRunningOnAndroid(bool  value)  {
-::cordl_internals::setStaticField<bool, "IsRunningOnAndroid", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>(std::forward<bool>(value));
+inline void System::Console::setStaticF_IsRunningOnAndroid(bool value) {
+  ::cordl_internals::setStaticField<bool, "IsRunningOnAndroid", ::System::Console*>(std::forward<bool>(value));
 }
-inline bool System::Console::getStaticF_IsRunningOnAndroid()  {
-return ::cordl_internals::getStaticField<bool, "IsRunningOnAndroid", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>();
+inline bool System::Console::getStaticF_IsRunningOnAndroid() {
+  return ::cordl_internals::getStaticField<bool, "IsRunningOnAndroid", ::System::Console*>();
 }
-inline void System::Console::setStaticF_inputEncoding(::System::Text::Encoding*  value)  {
-::cordl_internals::setStaticField<::System::Text::Encoding*, "inputEncoding", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>(std::forward<::System::Text::Encoding*>(value));
+inline void System::Console::setStaticF_inputEncoding(::System::Text::Encoding* value) {
+  ::cordl_internals::setStaticField<::System::Text::Encoding*, "inputEncoding", ::System::Console*>(std::forward<::System::Text::Encoding*>(value));
 }
-inline ::System::Text::Encoding* System::Console::getStaticF_inputEncoding()  {
-return ::cordl_internals::getStaticField<::System::Text::Encoding*, "inputEncoding", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>();
+inline ::System::Text::Encoding* System::Console::getStaticF_inputEncoding() {
+  return ::cordl_internals::getStaticField<::System::Text::Encoding*, "inputEncoding", ::System::Console*>();
 }
-inline void System::Console::setStaticF_outputEncoding(::System::Text::Encoding*  value)  {
-::cordl_internals::setStaticField<::System::Text::Encoding*, "outputEncoding", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>(std::forward<::System::Text::Encoding*>(value));
+inline void System::Console::setStaticF_outputEncoding(::System::Text::Encoding* value) {
+  ::cordl_internals::setStaticField<::System::Text::Encoding*, "outputEncoding", ::System::Console*>(std::forward<::System::Text::Encoding*>(value));
 }
-inline ::System::Text::Encoding* System::Console::getStaticF_outputEncoding()  {
-return ::cordl_internals::getStaticField<::System::Text::Encoding*, "outputEncoding", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>();
+inline ::System::Text::Encoding* System::Console::getStaticF_outputEncoding() {
+  return ::cordl_internals::getStaticField<::System::Text::Encoding*, "outputEncoding", ::System::Console*>();
 }
-inline void System::Console::setStaticF_cancel_event(::System::ConsoleCancelEventHandler*  value)  {
-::cordl_internals::setStaticField<::System::ConsoleCancelEventHandler*, "cancel_event", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>(std::forward<::System::ConsoleCancelEventHandler*>(value));
+inline void System::Console::setStaticF_cancel_event(::System::ConsoleCancelEventHandler* value) {
+  ::cordl_internals::setStaticField<::System::ConsoleCancelEventHandler*, "cancel_event", ::System::Console*>(std::forward<::System::ConsoleCancelEventHandler*>(value));
 }
-inline ::System::ConsoleCancelEventHandler* System::Console::getStaticF_cancel_event()  {
-return ::cordl_internals::getStaticField<::System::ConsoleCancelEventHandler*, "cancel_event", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get>();
+inline ::System::ConsoleCancelEventHandler* System::Console::getStaticF_cancel_event() {
+  return ::cordl_internals::getStaticField<::System::ConsoleCancelEventHandler*, "cancel_event", ::System::Console*>();
 }
-inline void System::Console::SetupStreams(::System::Text::Encoding*  inputEncoding, ::System::Text::Encoding*  outputEncoding)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "SetupStreams",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, inputEncoding, outputEncoding);
+inline void System::Console::SetupStreams(::System::Text::Encoding* inputEncoding, ::System::Text::Encoding* outputEncoding) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "SetupStreams", {}, { ::i2c::type_of<::System::Text::Encoding*>(), ::i2c::type_of<::System::Text::Encoding*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, inputEncoding, outputEncoding);
 }
-inline ::System::IO::TextWriter* System::Console::get_Error()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "get_Error",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IO::TextWriter*, false>(nullptr, ___internal_method);
+inline ::System::IO::TextWriter* System::Console::get_Error() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "get_Error", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::TextWriter*>(nullptr, ___internal_method);
 }
-inline ::System::IO::TextWriter* System::Console::get_Out()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "get_Out",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IO::TextWriter*, false>(nullptr, ___internal_method);
+inline ::System::IO::TextWriter* System::Console::get_Out() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "get_Out", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::TextWriter*>(nullptr, ___internal_method);
 }
-inline ::System::IO::Stream* System::Console::Open(::System::IntPtr  handle, ::System::IO::FileAccess  access, int32_t  bufferSize)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "Open",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::FileAccess>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(nullptr, ___internal_method, handle, access, bufferSize);
+inline ::System::IO::Stream* System::Console::Open(::System::IntPtr handle, ::System::IO::FileAccess access, int32_t bufferSize) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "Open", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IO::FileAccess>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*>(nullptr, ___internal_method, handle, access, bufferSize);
 }
-inline ::System::IO::Stream* System::Console::OpenStandardError(int32_t  bufferSize)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "OpenStandardError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(nullptr, ___internal_method, bufferSize);
+inline ::System::IO::Stream* System::Console::OpenStandardError(int32_t bufferSize) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "OpenStandardError", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*>(nullptr, ___internal_method, bufferSize);
 }
-inline ::System::IO::Stream* System::Console::OpenStandardInput(int32_t  bufferSize)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "OpenStandardInput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(nullptr, ___internal_method, bufferSize);
+inline ::System::IO::Stream* System::Console::OpenStandardInput(int32_t bufferSize) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "OpenStandardInput", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*>(nullptr, ___internal_method, bufferSize);
 }
-inline ::System::IO::Stream* System::Console::OpenStandardOutput(int32_t  bufferSize)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "OpenStandardOutput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(nullptr, ___internal_method, bufferSize);
+inline ::System::IO::Stream* System::Console::OpenStandardOutput(int32_t bufferSize) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "OpenStandardOutput", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*>(nullptr, ___internal_method, bufferSize);
 }
-inline void System::Console::SetError(::System::IO::TextWriter*  newError)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "SetError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextWriter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, newError);
+inline void System::Console::SetError(::System::IO::TextWriter* newError) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "SetError", {}, { ::i2c::type_of<::System::IO::TextWriter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, newError);
 }
-inline void System::Console::SetOut(::System::IO::TextWriter*  newOut)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "SetOut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextWriter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, newOut);
+inline void System::Console::SetOut(::System::IO::TextWriter* newOut) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "SetOut", {}, { ::i2c::type_of<::System::IO::TextWriter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, newOut);
 }
-inline void System::Console::WriteLine(::StringW  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "WriteLine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void System::Console::WriteLine(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "WriteLine", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline void System::Console::WriteLine(::StringW  format, ::System::Object*  arg0)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "WriteLine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, format, arg0);
+inline void System::Console::WriteLine(::StringW format, ::System::Object* arg0) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "WriteLine", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, arg0);
 }
-inline void System::Console::WriteLine(::StringW  format, ::System::Object*  arg0, ::System::Object*  arg1, ::System::Object*  arg2)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "WriteLine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, format, arg0, arg1, arg2);
+inline void System::Console::WriteLine(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Console*>(),
+                          { "WriteLine", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, arg0, arg1, arg2);
 }
-inline ::System::Text::Encoding* System::Console::get_InputEncoding()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "get_InputEncoding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Text::Encoding*, false>(nullptr, ___internal_method);
+inline ::System::Text::Encoding* System::Console::get_InputEncoding() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "get_InputEncoding", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Text::Encoding*>(nullptr, ___internal_method);
 }
-inline ::System::Text::Encoding* System::Console::get_OutputEncoding()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "get_OutputEncoding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Text::Encoding*, false>(nullptr, ___internal_method);
+inline ::System::Text::Encoding* System::Console::get_OutputEncoding() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "get_OutputEncoding", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Text::Encoding*>(nullptr, ___internal_method);
 }
-inline ::System::ConsoleKeyInfo System::Console::ReadKey()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "ReadKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ConsoleKeyInfo, false>(nullptr, ___internal_method);
+inline ::System::ConsoleKeyInfo System::Console::ReadKey() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "ReadKey", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::ConsoleKeyInfo>(nullptr, ___internal_method);
 }
-inline ::System::ConsoleKeyInfo System::Console::ReadKey(bool  intercept)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "ReadKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ConsoleKeyInfo, false>(nullptr, ___internal_method, intercept);
+inline ::System::ConsoleKeyInfo System::Console::ReadKey(bool intercept) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "ReadKey", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::ConsoleKeyInfo>(nullptr, ___internal_method, intercept);
 }
-inline void System::Console::DoConsoleCancelEvent()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(),
-                        "DoConsoleCancelEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void System::Console::DoConsoleCancelEvent() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Console*>(), { "DoConsoleCancelEvent", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Console::Console()   {
-}
+constexpr ::System::Console::Console() {}

@@ -5,43 +5,35 @@
 #include "Mono/Net/Security/zzzz__SystemCertificateValidator_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::SystemCertificateValidator.NeedsChain
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Security::Interface::MonoTlsSettings*)>(&::Mono::Net::Security::SystemCertificateValidator::NeedsChain)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Security::Interface::MonoTlsSettings*)>(&::Mono::Net::Security::SystemCertificateValidator::NeedsChain)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e98e14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::SystemCertificateValidator*>::get(),
-                        "NeedsChain",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::Interface::MonoTlsSettings*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::SystemCertificateValidator*>(),
+                                                                                           { "NeedsChain", {}, { ::i2c::type_of<::Mono::Security::Interface::MonoTlsSettings*>() } })));
     return ___internal_method;
   }
 };
-inline void Mono::Net::Security::SystemCertificateValidator::setStaticF_is_macosx(bool  value)  {
-::cordl_internals::setStaticField<bool, "is_macosx", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::SystemCertificateValidator*>::get>(std::forward<bool>(value));
+inline void Mono::Net::Security::SystemCertificateValidator::setStaticF_is_macosx(bool value) {
+  ::cordl_internals::setStaticField<bool, "is_macosx", ::Mono::Net::Security::SystemCertificateValidator*>(std::forward<bool>(value));
 }
-inline bool Mono::Net::Security::SystemCertificateValidator::getStaticF_is_macosx()  {
-return ::cordl_internals::getStaticField<bool, "is_macosx", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::SystemCertificateValidator*>::get>();
+inline bool Mono::Net::Security::SystemCertificateValidator::getStaticF_is_macosx() {
+  return ::cordl_internals::getStaticField<bool, "is_macosx", ::Mono::Net::Security::SystemCertificateValidator*>();
 }
-inline void Mono::Net::Security::SystemCertificateValidator::setStaticF_s_flags(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags  value)  {
-::cordl_internals::setStaticField<::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, "s_flags", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::SystemCertificateValidator*>::get>(std::forward<::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags>(value));
+inline void Mono::Net::Security::SystemCertificateValidator::setStaticF_s_flags(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value) {
+  ::cordl_internals::setStaticField<::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, "s_flags", ::Mono::Net::Security::SystemCertificateValidator*>(
+      std::forward<::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags>(value));
 }
-inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags Mono::Net::Security::SystemCertificateValidator::getStaticF_s_flags()  {
-return ::cordl_internals::getStaticField<::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, "s_flags", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::SystemCertificateValidator*>::get>();
+inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags Mono::Net::Security::SystemCertificateValidator::getStaticF_s_flags() {
+  return ::cordl_internals::getStaticField<::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, "s_flags", ::Mono::Net::Security::SystemCertificateValidator*>();
 }
-inline bool Mono::Net::Security::SystemCertificateValidator::NeedsChain(::Mono::Security::Interface::MonoTlsSettings*  settings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::SystemCertificateValidator*>::get(),
-                        "NeedsChain",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::Interface::MonoTlsSettings*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, settings);
+inline bool Mono::Net::Security::SystemCertificateValidator::NeedsChain(::Mono::Security::Interface::MonoTlsSettings* settings) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::SystemCertificateValidator*>(),
+                                                                                         { "NeedsChain", {}, { ::i2c::type_of<::Mono::Security::Interface::MonoTlsSettings*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, settings);
 }
 // Ctor Parameters []
-constexpr ::Mono::Net::Security::SystemCertificateValidator::SystemCertificateValidator()   {
-}
+constexpr ::Mono::Net::Security::SystemCertificateValidator::SystemCertificateValidator() {}

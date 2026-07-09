@@ -7,123 +7,96 @@
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::TransparentSettingsPass._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TransparentSettingsPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent, bool)>(&::UnityEngine::Rendering::Universal::TransparentSettingsPass::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TransparentSettingsPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent, bool)>(
+    &::UnityEngine::Rendering::Universal::TransparentSettingsPass::_ctor)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x6764d14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::RenderPassEvent>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::TransparentSettingsPass.Setup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::TransparentSettingsPass::*)()>(&::UnityEngine::Rendering::Universal::TransparentSettingsPass::Setup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::TransparentSettingsPass::*)()>(
+    &::UnityEngine::Rendering::Universal::TransparentSettingsPass::Setup)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6764de8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>::get(),
-                        "Setup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(), { "Setup", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::TransparentSettingsPass.Execute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TransparentSettingsPass::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::TransparentSettingsPass::Execute)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TransparentSettingsPass::*)(
+    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::TransparentSettingsPass::Execute)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x6764df8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(), 10 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::TransparentSettingsPass.ExecutePass
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(&::UnityEngine::Rendering::Universal::TransparentSettingsPass::ExecutePass)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(&::UnityEngine::Rendering::Universal::TransparentSettingsPass::ExecutePass)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x6764ec4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>::get(),
-                        "ExecutePass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RasterCommandBuffer*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(),
+                                                                                           { "ExecutePass", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>() } })));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::Rendering::Universal::TransparentSettingsPass::__cordl_internal_get_m_shouldReceiveShadows()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_shouldReceiveShadows;
+constexpr bool& UnityEngine::Rendering::Universal::TransparentSettingsPass::__cordl_internal_get_m_shouldReceiveShadows() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_shouldReceiveShadows;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::TransparentSettingsPass::__cordl_internal_get_m_shouldReceiveShadows() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_shouldReceiveShadows;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_shouldReceiveShadows;
 }
-constexpr void UnityEngine::Rendering::Universal::TransparentSettingsPass::__cordl_internal_set_m_shouldReceiveShadows(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_shouldReceiveShadows = value;
+constexpr void UnityEngine::Rendering::Universal::TransparentSettingsPass::__cordl_internal_set_m_shouldReceiveShadows(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_shouldReceiveShadows = value;
 }
-inline void UnityEngine::Rendering::Universal::TransparentSettingsPass::_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, bool  shadowReceiveSupported)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::RenderPassEvent>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt, shadowReceiveSupported);
+inline void UnityEngine::Rendering::Universal::TransparentSettingsPass::_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool shadowReceiveSupported) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt, shadowReceiveSupported);
 }
-inline bool UnityEngine::Rendering::Universal::TransparentSettingsPass::Setup()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>::get(),
-                        "Setup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::Universal::TransparentSettingsPass::Setup() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(), { "Setup", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::TransparentSettingsPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext  context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>  renderingData)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, renderingData);
+inline void UnityEngine::Rendering::Universal::TransparentSettingsPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
+                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
-inline void UnityEngine::Rendering::Universal::TransparentSettingsPass::ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer*  rasterCommandBuffer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>::get(),
-                        "ExecutePass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RasterCommandBuffer*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rasterCommandBuffer);
+inline void UnityEngine::Rendering::Universal::TransparentSettingsPass::ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* rasterCommandBuffer) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(),
+                                                                                         { "ExecutePass", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rasterCommandBuffer);
 }
-inline ::UnityEngine::Rendering::Universal::TransparentSettingsPass* UnityEngine::Rendering::Universal::TransparentSettingsPass::New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, bool  shadowReceiveSupported)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(evt, shadowReceiveSupported));
+inline ::UnityEngine::Rendering::Universal::TransparentSettingsPass* UnityEngine::Rendering::Universal::TransparentSettingsPass::New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
+                                                                                                                                          bool shadowReceiveSupported) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::TransparentSettingsPass*>(evt, shadowReceiveSupported));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::TransparentSettingsPass::TransparentSettingsPass()   {
-}
+constexpr ::UnityEngine::Rendering::Universal::TransparentSettingsPass::TransparentSettingsPass() {}

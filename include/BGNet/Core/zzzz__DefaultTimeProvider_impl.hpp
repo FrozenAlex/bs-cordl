@@ -4,31 +4,20 @@
 #include "BGNet/Core/zzzz__DefaultTimeProvider_def.hpp"
 #include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
 //  Writing Method size for method: ::BGNet::Core::DefaultTimeProvider.get_instance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGNet::Core::ITimeProvider* (*)()>(&::BGNet::Core::DefaultTimeProvider::get_instance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGNet::Core::ITimeProvider* (*)()>(&::BGNet::Core::DefaultTimeProvider::get_instance)> {
   constexpr static std::size_t size = 0x564;
   constexpr static std::size_t addrs = 0x3284c08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::DefaultTimeProvider*>::get(),
-                        "get_instance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::DefaultTimeProvider*>(), { "get_instance", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::BGNet::Core::ITimeProvider* BGNet::Core::DefaultTimeProvider::get_instance()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::DefaultTimeProvider*>::get(),
-                        "get_instance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BGNet::Core::ITimeProvider*, false>(nullptr, ___internal_method);
+inline ::BGNet::Core::ITimeProvider* BGNet::Core::DefaultTimeProvider::get_instance() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::DefaultTimeProvider*>(), { "get_instance", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::BGNet::Core::ITimeProvider*>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::BGNet::Core::DefaultTimeProvider::DefaultTimeProvider()   {
-}
+constexpr ::BGNet::Core::DefaultTimeProvider::DefaultTimeProvider() {}

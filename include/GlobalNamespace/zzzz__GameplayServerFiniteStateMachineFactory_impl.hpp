@@ -4,31 +4,24 @@
 #include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachineFactory_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachine_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayServerFiniteStateMachineFactory.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerFiniteStateMachine* (*)(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams)>(&::GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayServerFiniteStateMachine* (*)(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams)>(
+    &::GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x3219a7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachineFactory*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachineFactory*>(),
+                                                                                           { "Create", {}, { ::i2c::type_of<::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams>() } })));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::GameplayServerFiniteStateMachine* GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams  initParams)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachineFactory*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayServerFiniteStateMachine*, false>(nullptr, ___internal_method, initParams);
+inline ::GlobalNamespace::GameplayServerFiniteStateMachine*
+GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams initParams) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachineFactory*>(),
+                                                                                         { "Create", {}, { ::i2c::type_of<::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayServerFiniteStateMachine*>(nullptr, ___internal_method, initParams);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameplayServerFiniteStateMachineFactory::GameplayServerFiniteStateMachineFactory()   {
-}
+constexpr ::GlobalNamespace::GameplayServerFiniteStateMachineFactory::GameplayServerFiniteStateMachineFactory() {}

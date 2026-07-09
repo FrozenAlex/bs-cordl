@@ -3,265 +3,164 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Numerics/zzzz__ConstantHelper_def.hpp"
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetByteWithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)()>(&::System::Numerics::ConstantHelper::GetByteWithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)()>(&::System::Numerics::ConstantHelper::GetByteWithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a58010;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetByteWithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetByteWithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetSByteWithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)()>(&::System::Numerics::ConstantHelper::GetSByteWithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)()>(&::System::Numerics::ConstantHelper::GetSByteWithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a58018;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetSByteWithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetSByteWithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetUInt16WithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)()>(&::System::Numerics::ConstantHelper::GetUInt16WithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)()>(&::System::Numerics::ConstantHelper::GetUInt16WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a58020;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetUInt16WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetUInt16WithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetInt16WithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)()>(&::System::Numerics::ConstantHelper::GetInt16WithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)()>(&::System::Numerics::ConstantHelper::GetInt16WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a58028;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetInt16WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetInt16WithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetUInt32WithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)()>(&::System::Numerics::ConstantHelper::GetUInt32WithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::System::Numerics::ConstantHelper::GetUInt32WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a58030;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetUInt32WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetUInt32WithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetInt32WithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Numerics::ConstantHelper::GetInt32WithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Numerics::ConstantHelper::GetInt32WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a58038;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetInt32WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetInt32WithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetUInt64WithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::System::Numerics::ConstantHelper::GetUInt64WithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)()>(&::System::Numerics::ConstantHelper::GetUInt64WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a58040;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetUInt64WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetUInt64WithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetInt64WithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::System::Numerics::ConstantHelper::GetInt64WithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::System::Numerics::ConstantHelper::GetInt64WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a58048;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetInt64WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetInt64WithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetSingleWithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::System::Numerics::ConstantHelper::GetSingleWithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::System::Numerics::ConstantHelper::GetSingleWithAllBitsSet)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5a58050;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetSingleWithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetSingleWithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::ConstantHelper.GetDoubleWithAllBitsSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)()>(&::System::Numerics::ConstantHelper::GetDoubleWithAllBitsSet)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::System::Numerics::ConstantHelper::GetDoubleWithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a5805c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetDoubleWithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetDoubleWithAllBitsSet", {}, {} })));
     return ___internal_method;
   }
 };
-inline uint8_t System::Numerics::ConstantHelper::GetByteWithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetByteWithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method);
+inline uint8_t System::Numerics::ConstantHelper::GetByteWithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetByteWithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t>(nullptr, ___internal_method);
 }
-inline int8_t System::Numerics::ConstantHelper::GetSByteWithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetSByteWithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method);
+inline int8_t System::Numerics::ConstantHelper::GetSByteWithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetSByteWithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int8_t>(nullptr, ___internal_method);
 }
-inline uint16_t System::Numerics::ConstantHelper::GetUInt16WithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetUInt16WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint16_t, false>(nullptr, ___internal_method);
+inline uint16_t System::Numerics::ConstantHelper::GetUInt16WithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetUInt16WithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint16_t>(nullptr, ___internal_method);
 }
-inline int16_t System::Numerics::ConstantHelper::GetInt16WithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetInt16WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method);
+inline int16_t System::Numerics::ConstantHelper::GetInt16WithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetInt16WithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int16_t>(nullptr, ___internal_method);
 }
-inline uint32_t System::Numerics::ConstantHelper::GetUInt32WithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetUInt32WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method);
+inline uint32_t System::Numerics::ConstantHelper::GetUInt32WithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetUInt32WithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method);
 }
-inline int32_t System::Numerics::ConstantHelper::GetInt32WithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetInt32WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t System::Numerics::ConstantHelper::GetInt32WithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetInt32WithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
-inline uint64_t System::Numerics::ConstantHelper::GetUInt64WithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetUInt64WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+inline uint64_t System::Numerics::ConstantHelper::GetUInt64WithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetUInt64WithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t>(nullptr, ___internal_method);
 }
-inline int64_t System::Numerics::ConstantHelper::GetInt64WithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetInt64WithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method);
+inline int64_t System::Numerics::ConstantHelper::GetInt64WithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetInt64WithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method);
 }
-inline float_t System::Numerics::ConstantHelper::GetSingleWithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetSingleWithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method);
+inline float_t System::Numerics::ConstantHelper::GetSingleWithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetSingleWithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method);
 }
-inline double_t System::Numerics::ConstantHelper::GetDoubleWithAllBitsSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::ConstantHelper*>::get(),
-                        "GetDoubleWithAllBitsSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method);
+inline double_t System::Numerics::ConstantHelper::GetDoubleWithAllBitsSet() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetDoubleWithAllBitsSet", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<double_t>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Numerics::ConstantHelper::ConstantHelper()   {
-}
+constexpr ::System::Numerics::ConstantHelper::ConstantHelper() {}

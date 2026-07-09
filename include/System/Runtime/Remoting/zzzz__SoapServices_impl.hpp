@@ -8,481 +8,360 @@
 #include "System/Runtime/Remoting/zzzz__SoapServices_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices_TypeInfo._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::SoapServices_TypeInfo::*)()>(&::System::Runtime::Remoting::SoapServices_TypeInfo::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::SoapServices_TypeInfo::*)()>(&::System::Runtime::Remoting::SoapServices_TypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x59f4b34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices_TypeInfo*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices_TypeInfo*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_get_Attributes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Attributes;
+constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_get_Attributes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Attributes;
 }
 constexpr ::System::Collections::Hashtable* const& System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_get_Attributes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Attributes;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Attributes;
 }
-constexpr void System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_set_Attributes(::System::Collections::Hashtable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_set_Attributes(::System::Collections::Hashtable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___Attributes = value;
 }
-constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_get_Elements()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Elements;
+constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_get_Elements() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Elements;
 }
 constexpr ::System::Collections::Hashtable* const& System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_get_Elements() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Elements;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Elements;
 }
-constexpr void System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_set_Elements(::System::Collections::Hashtable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Remoting::SoapServices_TypeInfo::__cordl_internal_set_Elements(::System::Collections::Hashtable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___Elements = value;
 }
-inline void System::Runtime::Remoting::SoapServices_TypeInfo::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices_TypeInfo*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Runtime::Remoting::SoapServices_TypeInfo::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices_TypeInfo*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Runtime::Remoting::SoapServices_TypeInfo* System::Runtime::Remoting::SoapServices_TypeInfo::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::SoapServices_TypeInfo*>());
+inline ::System::Runtime::Remoting::SoapServices_TypeInfo* System::Runtime::Remoting::SoapServices_TypeInfo::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Remoting::SoapServices_TypeInfo*>());
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Remoting::SoapServices_TypeInfo::SoapServices_TypeInfo()   {
-}
+constexpr ::System::Runtime::Remoting::SoapServices_TypeInfo::SoapServices_TypeInfo() {}
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.get_XmlNsForClrTypeWithAssembly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithAssembly)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithAssembly)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x59f3ae0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "get_XmlNsForClrTypeWithAssembly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "get_XmlNsForClrTypeWithAssembly", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.get_XmlNsForClrTypeWithNs
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNs)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNs)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x59f3b24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "get_XmlNsForClrTypeWithNs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "get_XmlNsForClrTypeWithNs", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.get_XmlNsForClrTypeWithNsAndAssembly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNsAndAssembly)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNsAndAssembly)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x59f3b68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "get_XmlNsForClrTypeWithNsAndAssembly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "get_XmlNsForClrTypeWithNsAndAssembly", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.CodeXmlNamespaceForClrTypeNamespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Runtime::Remoting::SoapServices::CodeXmlNamespaceForClrTypeNamespace)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Runtime::Remoting::SoapServices::CodeXmlNamespaceForClrTypeNamespace)> {
   constexpr static std::size_t size = 0x198;
   constexpr static std::size_t addrs = 0x59f3bac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "CodeXmlNamespaceForClrTypeNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                             { "CodeXmlNamespaceForClrTypeNamespace", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.GetNameKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Runtime::Remoting::SoapServices::GetNameKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Runtime::Remoting::SoapServices::GetNameKey)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x59f3e40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetNameKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "GetNameKey", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.GetAssemblyName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetAssemblyName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetAssemblyName)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x59f3eb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetAssemblyName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "GetAssemblyName", {}, { ::i2c::type_of<::System::Reflection::MethodBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.GetXmlElementForInteropType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x59f3fa4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetXmlElementForInteropType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                         { "GetXmlElementForInteropType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.GetXmlNamespaceForMethodCall
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x59f4080;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetXmlNamespaceForMethodCall",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                                                           { "GetXmlNamespaceForMethodCall", {}, { ::i2c::type_of<::System::Reflection::MethodBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.GetXmlNamespaceForMethodResponse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x59f4118;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetXmlNamespaceForMethodResponse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodBase*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                                                           { "GetXmlNamespaceForMethodResponse", {}, { ::i2c::type_of<::System::Reflection::MethodBase*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.GetXmlTypeForInteropType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x59f41b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetXmlTypeForInteropType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                         { "GetXmlTypeForInteropType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.PreLoad
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::Assembly*)>(&::System::Runtime::Remoting::SoapServices::PreLoad)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflection::Assembly*)>(&::System::Runtime::Remoting::SoapServices::PreLoad)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x59f4280;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "PreLoad",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::Assembly*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "PreLoad", {}, { ::i2c::type_of<::System::Reflection::Assembly*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.PreLoad
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::Runtime::Remoting::SoapServices::PreLoad)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::System::Runtime::Remoting::SoapServices::PreLoad)> {
   constexpr static std::size_t size = 0x4d4;
   constexpr static std::size_t addrs = 0x59f4340;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "PreLoad",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "PreLoad", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.RegisterInteropXmlElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(&::System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(&::System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement)> {
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x59f49a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "RegisterInteropXmlElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                             { "RegisterInteropXmlElement", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.RegisterInteropXmlType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(&::System::Runtime::Remoting::SoapServices::RegisterInteropXmlType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(&::System::Runtime::Remoting::SoapServices::RegisterInteropXmlType)> {
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x59f4814;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "RegisterInteropXmlType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                             { "RegisterInteropXmlType", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::SoapServices.EncodeNs
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Remoting::SoapServices::EncodeNs)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Remoting::SoapServices::EncodeNs)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x59f3d44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "EncodeNs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "EncodeNs", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-inline void System::Runtime::Remoting::SoapServices::setStaticF__xmlTypes(::System::Collections::Hashtable*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_xmlTypes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>(std::forward<::System::Collections::Hashtable*>(value));
+inline void System::Runtime::Remoting::SoapServices::setStaticF__xmlTypes(::System::Collections::Hashtable* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_xmlTypes", ::System::Runtime::Remoting::SoapServices*>(std::forward<::System::Collections::Hashtable*>(value));
 }
-inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__xmlTypes()  {
-return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_xmlTypes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>();
+inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__xmlTypes() {
+  return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_xmlTypes", ::System::Runtime::Remoting::SoapServices*>();
 }
-inline void System::Runtime::Remoting::SoapServices::setStaticF__xmlElements(::System::Collections::Hashtable*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_xmlElements", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>(std::forward<::System::Collections::Hashtable*>(value));
+inline void System::Runtime::Remoting::SoapServices::setStaticF__xmlElements(::System::Collections::Hashtable* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_xmlElements", ::System::Runtime::Remoting::SoapServices*>(std::forward<::System::Collections::Hashtable*>(value));
 }
-inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__xmlElements()  {
-return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_xmlElements", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>();
+inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__xmlElements() {
+  return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_xmlElements", ::System::Runtime::Remoting::SoapServices*>();
 }
-inline void System::Runtime::Remoting::SoapServices::setStaticF__soapActions(::System::Collections::Hashtable*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_soapActions", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>(std::forward<::System::Collections::Hashtable*>(value));
+inline void System::Runtime::Remoting::SoapServices::setStaticF__soapActions(::System::Collections::Hashtable* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_soapActions", ::System::Runtime::Remoting::SoapServices*>(std::forward<::System::Collections::Hashtable*>(value));
 }
-inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__soapActions()  {
-return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_soapActions", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>();
+inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__soapActions() {
+  return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_soapActions", ::System::Runtime::Remoting::SoapServices*>();
 }
-inline void System::Runtime::Remoting::SoapServices::setStaticF__soapActionsMethods(::System::Collections::Hashtable*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_soapActionsMethods", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>(std::forward<::System::Collections::Hashtable*>(value));
+inline void System::Runtime::Remoting::SoapServices::setStaticF__soapActionsMethods(::System::Collections::Hashtable* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_soapActionsMethods", ::System::Runtime::Remoting::SoapServices*>(std::forward<::System::Collections::Hashtable*>(value));
 }
-inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__soapActionsMethods()  {
-return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_soapActionsMethods", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>();
+inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__soapActionsMethods() {
+  return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_soapActionsMethods", ::System::Runtime::Remoting::SoapServices*>();
 }
-inline void System::Runtime::Remoting::SoapServices::setStaticF__typeInfos(::System::Collections::Hashtable*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_typeInfos", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>(std::forward<::System::Collections::Hashtable*>(value));
+inline void System::Runtime::Remoting::SoapServices::setStaticF__typeInfos(::System::Collections::Hashtable* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Hashtable*, "_typeInfos", ::System::Runtime::Remoting::SoapServices*>(std::forward<::System::Collections::Hashtable*>(value));
 }
-inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__typeInfos()  {
-return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_typeInfos", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get>();
+inline ::System::Collections::Hashtable* System::Runtime::Remoting::SoapServices::getStaticF__typeInfos() {
+  return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "_typeInfos", ::System::Runtime::Remoting::SoapServices*>();
 }
-inline ::StringW System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithAssembly()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "get_XmlNsForClrTypeWithAssembly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
+inline ::StringW System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithAssembly() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "get_XmlNsForClrTypeWithAssembly", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method);
 }
-inline ::StringW System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNs()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "get_XmlNsForClrTypeWithNs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
+inline ::StringW System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNs() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "get_XmlNsForClrTypeWithNs", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method);
 }
-inline ::StringW System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNsAndAssembly()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "get_XmlNsForClrTypeWithNsAndAssembly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
+inline ::StringW System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNsAndAssembly() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "get_XmlNsForClrTypeWithNsAndAssembly", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method);
 }
-inline ::StringW System::Runtime::Remoting::SoapServices::CodeXmlNamespaceForClrTypeNamespace(::StringW  typeNamespace, ::StringW  assemblyName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "CodeXmlNamespaceForClrTypeNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, typeNamespace, assemblyName);
+inline ::StringW System::Runtime::Remoting::SoapServices::CodeXmlNamespaceForClrTypeNamespace(::StringW typeNamespace, ::StringW assemblyName) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                                                         { "CodeXmlNamespaceForClrTypeNamespace", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, typeNamespace, assemblyName);
 }
-inline ::StringW System::Runtime::Remoting::SoapServices::GetNameKey(::StringW  name, ::StringW  namspace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetNameKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, name, namspace);
+inline ::StringW System::Runtime::Remoting::SoapServices::GetNameKey(::StringW name, ::StringW namspace) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "GetNameKey", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, name, namspace);
 }
-inline ::StringW System::Runtime::Remoting::SoapServices::GetAssemblyName(::System::Reflection::MethodBase*  mb)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetAssemblyName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, mb);
+inline ::StringW System::Runtime::Remoting::SoapServices::GetAssemblyName(::System::Reflection::MethodBase* mb) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "GetAssemblyName", {}, { ::i2c::type_of<::System::Reflection::MethodBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, mb);
 }
-inline bool System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType(::System::Type*  type, ::ByRef<::StringW>  xmlElement, ::ByRef<::StringW>  xmlNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetXmlElementForInteropType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, xmlElement, xmlNamespace);
+inline bool System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType(::System::Type* type, ::by_ref<::StringW> xmlElement, ::by_ref<::StringW> xmlNamespace) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                       { "GetXmlElementForInteropType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type, xmlElement, xmlNamespace);
 }
-inline ::StringW System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall(::System::Reflection::MethodBase*  mb)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetXmlNamespaceForMethodCall",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, mb);
+inline ::StringW System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall(::System::Reflection::MethodBase* mb) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                                                         { "GetXmlNamespaceForMethodCall", {}, { ::i2c::type_of<::System::Reflection::MethodBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, mb);
 }
-inline ::StringW System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse(::System::Reflection::MethodBase*  mb)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetXmlNamespaceForMethodResponse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodBase*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, mb);
+inline ::StringW System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse(::System::Reflection::MethodBase* mb) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                                                         { "GetXmlNamespaceForMethodResponse", {}, { ::i2c::type_of<::System::Reflection::MethodBase*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, mb);
 }
-inline bool System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType(::System::Type*  type, ::ByRef<::StringW>  xmlType, ::ByRef<::StringW>  xmlTypeNamespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "GetXmlTypeForInteropType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, xmlType, xmlTypeNamespace);
+inline bool System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType(::System::Type* type, ::by_ref<::StringW> xmlType, ::by_ref<::StringW> xmlTypeNamespace) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                       { "GetXmlTypeForInteropType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type, xmlType, xmlTypeNamespace);
 }
-inline void System::Runtime::Remoting::SoapServices::PreLoad(::System::Reflection::Assembly*  assembly)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "PreLoad",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::Assembly*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, assembly);
+inline void System::Runtime::Remoting::SoapServices::PreLoad(::System::Reflection::Assembly* assembly) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "PreLoad", {}, { ::i2c::type_of<::System::Reflection::Assembly*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, assembly);
 }
-inline void System::Runtime::Remoting::SoapServices::PreLoad(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "PreLoad",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type);
+inline void System::Runtime::Remoting::SoapServices::PreLoad(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "PreLoad", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, type);
 }
-inline void System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement(::StringW  xmlElement, ::StringW  xmlNamespace, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "RegisterInteropXmlElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, xmlElement, xmlNamespace, type);
+inline void System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement(::StringW xmlElement, ::StringW xmlNamespace, ::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                           { "RegisterInteropXmlElement", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, xmlElement, xmlNamespace, type);
 }
-inline void System::Runtime::Remoting::SoapServices::RegisterInteropXmlType(::StringW  xmlType, ::StringW  xmlTypeNamespace, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "RegisterInteropXmlType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, xmlType, xmlTypeNamespace, type);
+inline void System::Runtime::Remoting::SoapServices::RegisterInteropXmlType(::StringW xmlType, ::StringW xmlTypeNamespace, ::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
+                                                           { "RegisterInteropXmlType", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, xmlType, xmlTypeNamespace, type);
 }
-inline ::StringW System::Runtime::Remoting::SoapServices::EncodeNs(::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
-                        "EncodeNs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, ns);
+inline ::StringW System::Runtime::Remoting::SoapServices::EncodeNs(::StringW ns) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "EncodeNs", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, ns);
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Remoting::SoapServices::SoapServices()   {
-}
+constexpr ::System::Runtime::Remoting::SoapServices::SoapServices() {}

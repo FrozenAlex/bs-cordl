@@ -4,71 +4,52 @@
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 //  Writing Method size for method: ::Tweening::SongTimeTweeningManager.GetTime
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tweening::SongTimeTweeningManager::*)()>(&::Tweening::SongTimeTweeningManager::GetTime)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Tweening::SongTimeTweeningManager::*)()>(&::Tweening::SongTimeTweeningManager::GetTime)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x583775c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::SongTimeTweeningManager*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::SongTimeTweeningManager*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Tweening::SongTimeTweeningManager*>(), { ::i2c::class_of<::Tweening::SongTimeTweeningManager*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tweening::SongTimeTweeningManager._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::SongTimeTweeningManager::*)()>(&::Tweening::SongTimeTweeningManager::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::SongTimeTweeningManager::*)()>(&::Tweening::SongTimeTweeningManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5837800;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::SongTimeTweeningManager*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::SongTimeTweeningManager*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IAudioTimeSource*& Tweening::SongTimeTweeningManager::__cordl_internal_get__audioTimeSource()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioTimeSource;
+constexpr ::GlobalNamespace::IAudioTimeSource*& Tweening::SongTimeTweeningManager::__cordl_internal_get__audioTimeSource() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioTimeSource;
 }
 constexpr ::GlobalNamespace::IAudioTimeSource* const& Tweening::SongTimeTweeningManager::__cordl_internal_get__audioTimeSource() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioTimeSource;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioTimeSource;
 }
-constexpr void Tweening::SongTimeTweeningManager::__cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Tweening::SongTimeTweeningManager::__cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____audioTimeSource = value;
 }
-inline float_t Tweening::SongTimeTweeningManager::GetTime()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::SongTimeTweeningManager*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t Tweening::SongTimeTweeningManager::GetTime() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Tweening::SongTimeTweeningManager*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline void Tweening::SongTimeTweeningManager::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::SongTimeTweeningManager*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Tweening::SongTimeTweeningManager::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::SongTimeTweeningManager*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Tweening::SongTimeTweeningManager* Tweening::SongTimeTweeningManager::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::SongTimeTweeningManager*>());
+inline ::Tweening::SongTimeTweeningManager* Tweening::SongTimeTweeningManager::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Tweening::SongTimeTweeningManager*>());
 }
 // Ctor Parameters []
-constexpr ::Tweening::SongTimeTweeningManager::SongTimeTweeningManager()   {
-}
+constexpr ::Tweening::SongTimeTweeningManager::SongTimeTweeningManager() {}

@@ -11,358 +11,344 @@
 #include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRTrackedCamera::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRTrackedCamera::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRTrackedCamera::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRTrackedCamera::_ctor)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x5d09a8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.GetCameraErrorNameFromEnum
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OVR::OpenVR::CVRTrackedCamera::*)(::OVR::OpenVR::EVRTrackedCameraError)>(&::OVR::OpenVR::CVRTrackedCamera::GetCameraErrorNameFromEnum)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OVR::OpenVR::CVRTrackedCamera::*)(::OVR::OpenVR::EVRTrackedCameraError)>(
+    &::OVR::OpenVR::CVRTrackedCamera::GetCameraErrorNameFromEnum)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x5d09b8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetCameraErrorNameFromEnum",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraError>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "GetCameraErrorNameFromEnum", {}, { ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraError>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.HasCamera
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint32_t, ::ByRef<bool>)>(&::OVR::OpenVR::CVRTrackedCamera::HasCamera)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint32_t, ::by_ref<bool>)>(
+    &::OVR::OpenVR::CVRTrackedCamera::HasCamera)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5d09c18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "HasCamera",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "HasCamera", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<bool>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.GetCameraFrameSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::ByRef<uint32_t>, ::ByRef<uint32_t>, ::ByRef<uint32_t>)>(&::OVR::OpenVR::CVRTrackedCamera::GetCameraFrameSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(
+    uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::by_ref<uint32_t>, ::by_ref<uint32_t>, ::by_ref<uint32_t>)>(&::OVR::OpenVR::CVRTrackedCamera::GetCameraFrameSize)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x5d09c3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetCameraFrameSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                                             { "GetCameraFrameSize",
+                                                               {},
+                                                               { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<::by_ref<uint32_t>>(),
+                                                                 ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.GetCameraIntrinsics
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::ByRef<::OVR::OpenVR::HmdVector2_t>, ::ByRef<::OVR::OpenVR::HmdVector2_t>)>(&::OVR::OpenVR::CVRTrackedCamera::GetCameraIntrinsics)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(
+    uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::by_ref<::OVR::OpenVR::HmdVector2_t>, ::by_ref<::OVR::OpenVR::HmdVector2_t>)>(&::OVR::OpenVR::CVRTrackedCamera::GetCameraIntrinsics)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5d09c68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetCameraIntrinsics",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::HmdVector2_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::HmdVector2_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                                             { "GetCameraIntrinsics",
+                                                               {},
+                                                               { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(),
+                                                                 ::i2c::type_of<::by_ref<::OVR::OpenVR::HmdVector2_t>>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::HmdVector2_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.GetCameraProjection
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, float_t, float_t, ::ByRef<::OVR::OpenVR::HmdMatrix44_t>)>(&::OVR::OpenVR::CVRTrackedCamera::GetCameraProjection)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(
+    uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, float_t, float_t, ::by_ref<::OVR::OpenVR::HmdMatrix44_t>)>(&::OVR::OpenVR::CVRTrackedCamera::GetCameraProjection)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5d09c88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetCameraProjection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::HmdMatrix44_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "GetCameraProjection",
+                                                                                   {},
+                                                                                   { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<float_t>(),
+                                                                                     ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::HmdMatrix44_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.AcquireVideoStreamingService
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint32_t, ::ByRef<uint64_t>)>(&::OVR::OpenVR::CVRTrackedCamera::AcquireVideoStreamingService)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint32_t, ::by_ref<uint64_t>)>(
+    &::OVR::OpenVR::CVRTrackedCamera::AcquireVideoStreamingService)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5d09ca8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "AcquireVideoStreamingService",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "AcquireVideoStreamingService", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.ReleaseVideoStreamingService
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint64_t)>(&::OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamingService)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint64_t)>(
+    &::OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamingService)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5d09ccc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "ReleaseVideoStreamingService",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "ReleaseVideoStreamingService", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.GetVideoStreamFrameBuffer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::System::IntPtr, uint32_t, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t)>(&::OVR::OpenVR::CVRTrackedCamera::GetVideoStreamFrameBuffer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(
+    uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::System::IntPtr, uint32_t, ::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t)>(
+    &::OVR::OpenVR::CVRTrackedCamera::GetVideoStreamFrameBuffer)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5d09cec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetVideoStreamFrameBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                                { "GetVideoStreamFrameBuffer",
+                                                  {},
+                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<::System::IntPtr>(),
+                                                    ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.GetVideoStreamTextureSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::ByRef<::OVR::OpenVR::VRTextureBounds_t>, ::ByRef<uint32_t>, ::ByRef<uint32_t>)>(&::OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(
+    uint32_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::by_ref<::OVR::OpenVR::VRTextureBounds_t>, ::by_ref<uint32_t>, ::by_ref<uint32_t>)>(
+    &::OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureSize)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5d09d0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetVideoStreamTextureSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::VRTextureBounds_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                                { "GetVideoStreamTextureSize",
+                                                  {},
+                                                  { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(),
+                                                    ::i2c::type_of<::by_ref<::OVR::OpenVR::VRTextureBounds_t>>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.GetVideoStreamTextureD3D11
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::System::IntPtr, ::ByRef<::System::IntPtr>, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t)>(&::OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureD3D11)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(
+    uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::System::IntPtr, ::by_ref<::System::IntPtr>, ::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t)>(
+    &::OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureD3D11)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5d09d34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetVideoStreamTextureD3D11",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::IntPtr>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                         { "GetVideoStreamTextureD3D11",
+                                           {},
+                                           { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<::System::IntPtr>(),
+                                             ::i2c::type_of<::by_ref<::System::IntPtr>>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.GetVideoStreamTextureGL
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::ByRef<uint32_t>, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t)>(&::OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureGL)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, ::OVR::OpenVR::EVRTrackedCameraFrameType, ::by_ref<uint32_t>,
+                                                                                                                                 ::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>, uint32_t)>(
+    &::OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureGL)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x5d09d54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetVideoStreamTextureGL",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                                             { "GetVideoStreamTextureGL",
+                                                               {},
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<::by_ref<uint32_t>>(),
+                                                                 ::i2c::type_of<::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera.ReleaseVideoStreamTextureGL
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, uint32_t)>(&::OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamTextureGL)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRTrackedCameraError (::OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, uint32_t)>(
+    &::OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamTextureGL)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5d09d78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "ReleaseVideoStreamTextureGL",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "ReleaseVideoStreamTextureGL", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
-constexpr ::OVR::OpenVR::IVRTrackedCamera& OVR::OpenVR::CVRTrackedCamera::__cordl_internal_get_FnTable()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___FnTable;
+constexpr ::OVR::OpenVR::IVRTrackedCamera& OVR::OpenVR::CVRTrackedCamera::__cordl_internal_get_FnTable() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRTrackedCamera const& OVR::OpenVR::CVRTrackedCamera::__cordl_internal_get_FnTable() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___FnTable;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___FnTable;
 }
-constexpr void OVR::OpenVR::CVRTrackedCamera::__cordl_internal_set_FnTable(::OVR::OpenVR::IVRTrackedCamera  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___FnTable = value;
+constexpr void OVR::OpenVR::CVRTrackedCamera::__cordl_internal_set_FnTable(::OVR::OpenVR::IVRTrackedCamera value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___FnTable = value;
 }
-inline void OVR::OpenVR::CVRTrackedCamera::_ctor(::System::IntPtr  pInterface)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pInterface);
+inline void OVR::OpenVR::CVRTrackedCamera::_ctor(::System::IntPtr pInterface) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pInterface);
 }
-inline ::StringW OVR::OpenVR::CVRTrackedCamera::GetCameraErrorNameFromEnum(::OVR::OpenVR::EVRTrackedCameraError  eCameraError)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetCameraErrorNameFromEnum",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraError>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, eCameraError);
+inline ::StringW OVR::OpenVR::CVRTrackedCamera::GetCameraErrorNameFromEnum(::OVR::OpenVR::EVRTrackedCameraError eCameraError) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "GetCameraErrorNameFromEnum", {}, { ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraError>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, eCameraError);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::HasCamera(uint32_t  nDeviceIndex, ::ByRef<bool>  pHasCamera)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "HasCamera",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, nDeviceIndex, pHasCamera);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::HasCamera(uint32_t nDeviceIndex, ::by_ref<bool> pHasCamera) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "HasCamera", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<bool>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, nDeviceIndex, pHasCamera);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetCameraFrameSize(uint32_t  nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType  eFrameType, ::ByRef<uint32_t>  pnWidth, ::ByRef<uint32_t>  pnHeight, ::ByRef<uint32_t>  pnFrameBufferSize)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetCameraFrameSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, nDeviceIndex, eFrameType, pnWidth, pnHeight, pnFrameBufferSize);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetCameraFrameSize(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::by_ref<uint32_t> pnWidth,
+                                                                                              ::by_ref<uint32_t> pnHeight, ::by_ref<uint32_t> pnFrameBufferSize) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                                           { "GetCameraFrameSize",
+                                                             {},
+                                                             { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<::by_ref<uint32_t>>(),
+                                                               ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, nDeviceIndex, eFrameType, pnWidth, pnHeight, pnFrameBufferSize);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetCameraIntrinsics(uint32_t  nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType  eFrameType, ::ByRef<::OVR::OpenVR::HmdVector2_t>  pFocalLength, ::ByRef<::OVR::OpenVR::HmdVector2_t>  pCenter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetCameraIntrinsics",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::HmdVector2_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::HmdVector2_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, nDeviceIndex, eFrameType, pFocalLength, pCenter);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetCameraIntrinsics(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType,
+                                                                                               ::by_ref<::OVR::OpenVR::HmdVector2_t> pFocalLength, ::by_ref<::OVR::OpenVR::HmdVector2_t> pCenter) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                                           { "GetCameraIntrinsics",
+                                                             {},
+                                                             { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(),
+                                                               ::i2c::type_of<::by_ref<::OVR::OpenVR::HmdVector2_t>>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::HmdVector2_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, nDeviceIndex, eFrameType, pFocalLength, pCenter);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetCameraProjection(uint32_t  nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType  eFrameType, float_t  flZNear, float_t  flZFar, ::ByRef<::OVR::OpenVR::HmdMatrix44_t>  pProjection)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetCameraProjection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::HmdMatrix44_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, nDeviceIndex, eFrameType, flZNear, flZFar, pProjection);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetCameraProjection(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, float_t flZNear,
+                                                                                               float_t flZFar, ::by_ref<::OVR::OpenVR::HmdMatrix44_t> pProjection) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "GetCameraProjection",
+                                                                                 {},
+                                                                                 { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<float_t>(),
+                                                                                   ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::HmdMatrix44_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, nDeviceIndex, eFrameType, flZNear, flZFar, pProjection);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::AcquireVideoStreamingService(uint32_t  nDeviceIndex, ::ByRef<uint64_t>  pHandle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "AcquireVideoStreamingService",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, nDeviceIndex, pHandle);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::AcquireVideoStreamingService(uint32_t nDeviceIndex, ::by_ref<uint64_t> pHandle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "AcquireVideoStreamingService", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, nDeviceIndex, pHandle);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamingService(uint64_t  hTrackedCamera)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "ReleaseVideoStreamingService",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, hTrackedCamera);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamingService(uint64_t hTrackedCamera) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "ReleaseVideoStreamingService", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, hTrackedCamera);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetVideoStreamFrameBuffer(uint64_t  hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType  eFrameType, ::System::IntPtr  pFrameBuffer, uint32_t  nFrameBufferSize, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>  pFrameHeader, uint32_t  nFrameHeaderSize)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetVideoStreamFrameBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, hTrackedCamera, eFrameType, pFrameBuffer, nFrameBufferSize, pFrameHeader, nFrameHeaderSize);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetVideoStreamFrameBuffer(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType,
+                                                                                                     ::System::IntPtr pFrameBuffer, uint32_t nFrameBufferSize,
+                                                                                                     ::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                                           { "GetVideoStreamFrameBuffer",
+                                                             {},
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<::System::IntPtr>(),
+                                                               ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, hTrackedCamera, eFrameType, pFrameBuffer, nFrameBufferSize, pFrameHeader,
+                                                                                   nFrameHeaderSize);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureSize(uint32_t  nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType  eFrameType, ::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pTextureBounds, ::ByRef<uint32_t>  pnWidth, ::ByRef<uint32_t>  pnHeight)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetVideoStreamTextureSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::VRTextureBounds_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, nDeviceIndex, eFrameType, pTextureBounds, pnWidth, pnHeight);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureSize(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType,
+                                                                                                     ::by_ref<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds, ::by_ref<uint32_t> pnWidth,
+                                                                                                     ::by_ref<uint32_t> pnHeight) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                              { "GetVideoStreamTextureSize",
+                                                {},
+                                                { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::VRTextureBounds_t>>(),
+                                                  ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, nDeviceIndex, eFrameType, pTextureBounds, pnWidth, pnHeight);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureD3D11(uint64_t  hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType  eFrameType, ::System::IntPtr  pD3D11DeviceOrResource, ::ByRef<::System::IntPtr>  ppD3D11ShaderResourceView, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>  pFrameHeader, uint32_t  nFrameHeaderSize)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetVideoStreamTextureD3D11",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::IntPtr>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, hTrackedCamera, eFrameType, pD3D11DeviceOrResource, ppD3D11ShaderResourceView, pFrameHeader, nFrameHeaderSize);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureD3D11(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType,
+                                                                                                      ::System::IntPtr pD3D11DeviceOrResource, ::by_ref<::System::IntPtr> ppD3D11ShaderResourceView,
+                                                                                                      ::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                       { "GetVideoStreamTextureD3D11",
+                                         {},
+                                         { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<::System::IntPtr>(),
+                                           ::i2c::type_of<::by_ref<::System::IntPtr>>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, hTrackedCamera, eFrameType, pD3D11DeviceOrResource, ppD3D11ShaderResourceView,
+                                                                                   pFrameHeader, nFrameHeaderSize);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureGL(uint64_t  hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType  eFrameType, ::ByRef<uint32_t>  pglTextureId, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>  pFrameHeader, uint32_t  nFrameHeaderSize)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "GetVideoStreamTextureGL",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRTrackedCameraFrameType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, hTrackedCamera, eFrameType, pglTextureId, pFrameHeader, nFrameHeaderSize);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureGL(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType,
+                                                                                                   ::by_ref<uint32_t> pglTextureId,
+                                                                                                   ::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(),
+                                                           { "GetVideoStreamTextureGL",
+                                                             {},
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::OVR::OpenVR::EVRTrackedCameraFrameType>(), ::i2c::type_of<::by_ref<uint32_t>>(),
+                                                               ::i2c::type_of<::by_ref<::OVR::OpenVR::CameraVideoStreamFrameHeader_t>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, hTrackedCamera, eFrameType, pglTextureId, pFrameHeader, nFrameHeaderSize);
 }
-inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamTextureGL(uint64_t  hTrackedCamera, uint32_t  glTextureId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRTrackedCamera*>::get(),
-                        "ReleaseVideoStreamTextureGL",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError, false>(this, ___internal_method, hTrackedCamera, glTextureId);
+inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamTextureGL(uint64_t hTrackedCamera, uint32_t glTextureId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRTrackedCamera*>(), { "ReleaseVideoStreamTextureGL", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRTrackedCameraError>(this, ___internal_method, hTrackedCamera, glTextureId);
 }
-inline ::OVR::OpenVR::CVRTrackedCamera* OVR::OpenVR::CVRTrackedCamera::New_ctor(::System::IntPtr  pInterface)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::CVRTrackedCamera*>(pInterface));
+inline ::OVR::OpenVR::CVRTrackedCamera* OVR::OpenVR::CVRTrackedCamera::New_ctor(::System::IntPtr pInterface) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::CVRTrackedCamera*>(pInterface));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::CVRTrackedCamera::CVRTrackedCamera()   {
-}
+constexpr ::OVR::OpenVR::CVRTrackedCamera::CVRTrackedCamera() {}

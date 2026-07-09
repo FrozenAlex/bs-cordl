@@ -4,31 +4,23 @@
 #include "Zenject/zzzz__ProviderUtil_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Zenject::ProviderUtil.GetTypeToInstantiate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*)>(&::Zenject::ProviderUtil::GetTypeToInstantiate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*)>(&::Zenject::ProviderUtil::GetTypeToInstantiate)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x6d30f94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProviderUtil*>::get(),
-                        "GetTypeToInstantiate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Zenject::ProviderUtil*>(), { "GetTypeToInstantiate", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
-inline ::System::Type* Zenject::ProviderUtil::GetTypeToInstantiate(::System::Type*  contractType, ::System::Type*  concreteType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProviderUtil*>::get(),
-                        "GetTypeToInstantiate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, contractType, concreteType);
+inline ::System::Type* Zenject::ProviderUtil::GetTypeToInstantiate(::System::Type* contractType, ::System::Type* concreteType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProviderUtil*>(), { "GetTypeToInstantiate", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, contractType, concreteType);
 }
 // Ctor Parameters []
-constexpr ::Zenject::ProviderUtil::ProviderUtil()   {
-}
+constexpr ::Zenject::ProviderUtil::ProviderUtil() {}

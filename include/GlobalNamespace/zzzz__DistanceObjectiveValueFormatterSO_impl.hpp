@@ -3,59 +3,42 @@
 #include "GlobalNamespace/zzzz__ObjectiveValueFormatterSO_impl.hpp"
 #include "GlobalNamespace/zzzz__DistanceObjectiveValueFormatterSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DistanceObjectiveValueFormatterSO.FormatValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)(int32_t)>(&::GlobalNamespace::DistanceObjectiveValueFormatterSO::FormatValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)(int32_t)>(
+    &::GlobalNamespace::DistanceObjectiveValueFormatterSO::FormatValue)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x3671438;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::DistanceObjectiveValueFormatterSO._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)()>(&::GlobalNamespace::DistanceObjectiveValueFormatterSO::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)()>(&::GlobalNamespace::DistanceObjectiveValueFormatterSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x36714cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::StringW GlobalNamespace::DistanceObjectiveValueFormatterSO::FormatValue(int32_t  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
+inline ::StringW GlobalNamespace::DistanceObjectiveValueFormatterSO::FormatValue(int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::DistanceObjectiveValueFormatterSO::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::DistanceObjectiveValueFormatterSO::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::DistanceObjectiveValueFormatterSO* GlobalNamespace::DistanceObjectiveValueFormatterSO::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>());
+inline ::GlobalNamespace::DistanceObjectiveValueFormatterSO* GlobalNamespace::DistanceObjectiveValueFormatterSO::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DistanceObjectiveValueFormatterSO::DistanceObjectiveValueFormatterSO()   {
-}
+constexpr ::GlobalNamespace::DistanceObjectiveValueFormatterSO::DistanceObjectiveValueFormatterSO() {}

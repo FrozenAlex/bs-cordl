@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/Misc/NetscapeRevocationUrl.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__DerIA5String_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(NetscapeRevocationUrl)
 namespace Org::BouncyCastle::Asn1 {
 class DerIA5String;
@@ -14,44 +14,43 @@ namespace Org::BouncyCastle::Asn1::Misc {
 class NetscapeRevocationUrl;
 }
 // Write type traits
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl);
+MARK_REF_T(::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl*);
+DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl*, "Org.BouncyCastle.Asn1.Misc", "NetscapeRevocationUrl");
 // Dependencies Org.BouncyCastle.Asn1.DerIA5String
 namespace Org::BouncyCastle::Asn1::Misc {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.Misc.NetscapeRevocationUrl
 class CORDL_TYPE NetscapeRevocationUrl : public ::Org::BouncyCastle::Asn1::DerIA5String {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String*  str) ;
+  // Declarations
+  static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-/// @brief Method ToString, addr 0x33991c0, size 0x64, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x33991c0, size 0x64, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x3399188, size 0x38, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String*  str) ;
+  /// @brief Method .ctor, addr 0x3399188, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NetscapeRevocationUrl() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetscapeRevocationUrl();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NetscapeRevocationUrl", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NetscapeRevocationUrl(NetscapeRevocationUrl&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetscapeRevocationUrl", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NetscapeRevocationUrl(NetscapeRevocationUrl && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NetscapeRevocationUrl", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NetscapeRevocationUrl(NetscapeRevocationUrl const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetscapeRevocationUrl", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NetscapeRevocationUrl(NetscapeRevocationUrl const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 200 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{200};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl, 0x18>, "Size mismatch!");
+static_assert(sizeof(::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl) == 0x18, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::Misc
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl*, "Org.BouncyCastle.Asn1.Misc", "NetscapeRevocationUrl");
+} // namespace Org::BouncyCastle::Asn1::Misc

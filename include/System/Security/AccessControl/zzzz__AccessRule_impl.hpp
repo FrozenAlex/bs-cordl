@@ -8,72 +8,71 @@
 #include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::AccessRule._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::AccessRule::*)(::System::Security::Principal::IdentityReference*, int32_t, bool, ::System::Security::AccessControl::InheritanceFlags, ::System::Security::AccessControl::PropagationFlags, ::System::Security::AccessControl::AccessControlType)>(&::System::Security::AccessControl::AccessRule::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::AccessRule::*)(
+    ::System::Security::Principal::IdentityReference*, int32_t, bool, ::System::Security::AccessControl::InheritanceFlags, ::System::Security::AccessControl::PropagationFlags,
+    ::System::Security::AccessControl::AccessControlType)>(&::System::Security::AccessControl::AccessRule::_ctor)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x59e0918;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AccessRule*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::IdentityReference*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::InheritanceFlags>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::PropagationFlags>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::AccessControlType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::AccessRule*>(),
+                                                { ".ctor",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Security::Principal::IdentityReference*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(),
+                                                    ::i2c::type_of<::System::Security::AccessControl::InheritanceFlags>(), ::i2c::type_of<::System::Security::AccessControl::PropagationFlags>(),
+                                                    ::i2c::type_of<::System::Security::AccessControl::AccessControlType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Security::AccessControl::AccessRule.get_AccessControlType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AccessControlType (::System::Security::AccessControl::AccessRule::*)()>(&::System::Security::AccessControl::AccessRule::get_AccessControlType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AccessControlType (::System::Security::AccessControl::AccessRule::*)()>(
+    &::System::Security::AccessControl::AccessRule::get_AccessControlType)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x59e0b2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AccessRule*>::get(),
-                        "get_AccessControlType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::AccessRule*>(), { "get_AccessControlType", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Security::AccessControl::AccessControlType& System::Security::AccessControl::AccessRule::__cordl_internal_get_type()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___type;
+constexpr ::System::Security::AccessControl::AccessControlType& System::Security::AccessControl::AccessRule::__cordl_internal_get_type() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___type;
 }
 constexpr ::System::Security::AccessControl::AccessControlType const& System::Security::AccessControl::AccessRule::__cordl_internal_get_type() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___type;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___type;
 }
-constexpr void System::Security::AccessControl::AccessRule::__cordl_internal_set_type(::System::Security::AccessControl::AccessControlType  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___type = value;
+constexpr void System::Security::AccessControl::AccessRule::__cordl_internal_set_type(::System::Security::AccessControl::AccessControlType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___type = value;
 }
-inline void System::Security::AccessControl::AccessRule::_ctor(::System::Security::Principal::IdentityReference*  identity, int32_t  accessMask, bool  isInherited, ::System::Security::AccessControl::InheritanceFlags  inheritanceFlags, ::System::Security::AccessControl::PropagationFlags  propagationFlags, ::System::Security::AccessControl::AccessControlType  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AccessRule*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::IdentityReference*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::InheritanceFlags>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::PropagationFlags>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::AccessControlType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, identity, accessMask, isInherited, inheritanceFlags, propagationFlags, type);
+inline void System::Security::AccessControl::AccessRule::_ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited,
+                                                               ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
+                                                               ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::AccessRule*>(),
+                                              { ".ctor",
+                                                {},
+                                                { ::i2c::type_of<::System::Security::Principal::IdentityReference*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(),
+                                                  ::i2c::type_of<::System::Security::AccessControl::InheritanceFlags>(), ::i2c::type_of<::System::Security::AccessControl::PropagationFlags>(),
+                                                  ::i2c::type_of<::System::Security::AccessControl::AccessControlType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, identity, accessMask, isInherited, inheritanceFlags, propagationFlags, type);
 }
-inline ::System::Security::AccessControl::AccessControlType System::Security::AccessControl::AccessRule::get_AccessControlType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AccessRule*>::get(),
-                        "get_AccessControlType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Security::AccessControl::AccessControlType, false>(this, ___internal_method);
+inline ::System::Security::AccessControl::AccessControlType System::Security::AccessControl::AccessRule::get_AccessControlType() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::AccessRule*>(), { "get_AccessControlType", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Security::AccessControl::AccessControlType>(this, ___internal_method);
 }
-inline ::System::Security::AccessControl::AccessRule* System::Security::AccessControl::AccessRule::New_ctor(::System::Security::Principal::IdentityReference*  identity, int32_t  accessMask, bool  isInherited, ::System::Security::AccessControl::InheritanceFlags  inheritanceFlags, ::System::Security::AccessControl::PropagationFlags  propagationFlags, ::System::Security::AccessControl::AccessControlType  type)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::AccessRule*>(identity, accessMask, isInherited, inheritanceFlags, propagationFlags, type));
+inline ::System::Security::AccessControl::AccessRule* System::Security::AccessControl::AccessRule::New_ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask,
+                                                                                                            bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
+                                                                                                            ::System::Security::AccessControl::PropagationFlags propagationFlags,
+                                                                                                            ::System::Security::AccessControl::AccessControlType type) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::AccessControl::AccessRule*>(identity, accessMask, isInherited, inheritanceFlags, propagationFlags, type));
 }
 // Ctor Parameters []
-constexpr ::System::Security::AccessControl::AccessRule::AccessRule()   {
-}
+constexpr ::System::Security::AccessControl::AccessRule::AccessRule() {}

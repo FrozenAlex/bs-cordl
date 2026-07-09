@@ -5,57 +5,40 @@
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Light_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ComponentUtility.IsUniversalCamera
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalCamera)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalCamera)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x66f8acc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::ComponentUtility*>::get(),
-                        "IsUniversalCamera",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ComponentUtility*>(), { "IsUniversalCamera", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ComponentUtility.IsUniversalLight
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Light*)>(&::UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalLight)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Light*)>(&::UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalLight)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x66f8b60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::ComponentUtility*>::get(),
-                        "IsUniversalLight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Light*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ComponentUtility*>(), { "IsUniversalLight", {}, { ::i2c::type_of<::UnityEngine::Light*>() } })));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalCamera(::UnityEngine::Camera*  camera)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::ComponentUtility*>::get(),
-                        "IsUniversalCamera",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, camera);
+inline bool UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalCamera(::UnityEngine::Camera* camera) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ComponentUtility*>(), { "IsUniversalCamera", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, camera);
 }
-inline bool UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalLight(::UnityEngine::Light*  light)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::ComponentUtility*>::get(),
-                        "IsUniversalLight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Light*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, light);
+inline bool UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalLight(::UnityEngine::Light* light) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ComponentUtility*>(), { "IsUniversalLight", {}, { ::i2c::type_of<::UnityEngine::Light*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, light);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::ComponentUtility::ComponentUtility()   {
-}
+constexpr ::UnityEngine::Rendering::Universal::ComponentUtility::ComponentUtility() {}

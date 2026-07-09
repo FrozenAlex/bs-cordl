@@ -3,27 +3,16 @@
 #include "Unity/Profiling/zzzz__ProfilerCounter_1_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCategory_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarkerDataUnit_def.hpp"
-template<typename T>
-inline void Unity::Profiling::ProfilerCounter_1<T>::_ctor(::Unity::Profiling::ProfilerCategory  category, ::StringW  name, ::Unity::Profiling::ProfilerMarkerDataUnit  dataUnit)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCounter_1<T>>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Profiling::ProfilerCategory>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Profiling::ProfilerMarkerDataUnit>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, category, name, dataUnit);
+template <typename T> inline void Unity::Profiling::ProfilerCounter_1<T>::_ctor(::Unity::Profiling::ProfilerCategory category, ::StringW name, ::Unity::Profiling::ProfilerMarkerDataUnit dataUnit) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCounter_1<T>>(),
+                          { ".ctor", {}, { ::i2c::type_of<::Unity::Profiling::ProfilerCategory>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::Unity::Profiling::ProfilerMarkerDataUnit>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, category, name, dataUnit);
 }
-template<typename T>
-inline void Unity::Profiling::ProfilerCounter_1<T>::Sample(T  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCounter_1<T>>::get(),
-                        "Sample",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+template <typename T> inline void Unity::Profiling::ProfilerCounter_1<T>::Sample(T value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCounter_1<T>>(), { "Sample", {}, { ::i2c::type_of<T>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
 // Ctor Parameters []
-template<typename T>
-constexpr ::Unity::Profiling::ProfilerCounter_1<T>::ProfilerCounter_1()   {
-}
+template <typename T> constexpr ::Unity::Profiling::ProfilerCounter_1<T>::ProfilerCounter_1() {}

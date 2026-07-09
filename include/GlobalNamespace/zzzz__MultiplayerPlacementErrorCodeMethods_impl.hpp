@@ -5,31 +5,24 @@
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlacementErrorCode_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerPlacementErrorCodeMethods.ToConnectionFailedReason
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectionFailedReason (*)(::GlobalNamespace::MultiplayerPlacementErrorCode)>(&::GlobalNamespace::MultiplayerPlacementErrorCodeMethods::ToConnectionFailedReason)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ConnectionFailedReason (*)(::GlobalNamespace::MultiplayerPlacementErrorCode)>(
+    &::GlobalNamespace::MultiplayerPlacementErrorCodeMethods::ToConnectionFailedReason)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x32157f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlacementErrorCodeMethods*>::get(),
-                        "ToConnectionFailedReason",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerPlacementErrorCode>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPlacementErrorCodeMethods*>(),
+                                                             { "ToConnectionFailedReason", {}, { ::i2c::type_of<::GlobalNamespace::MultiplayerPlacementErrorCode>() } })));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::MultiplayerPlacementErrorCodeMethods::ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode  errorCode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlacementErrorCodeMethods*>::get(),
-                        "ToConnectionFailedReason",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerPlacementErrorCode>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ConnectionFailedReason, false>(nullptr, ___internal_method, errorCode);
+inline ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::MultiplayerPlacementErrorCodeMethods::ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPlacementErrorCodeMethods*>(),
+                                                                                         { "ToConnectionFailedReason", {}, { ::i2c::type_of<::GlobalNamespace::MultiplayerPlacementErrorCode>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ConnectionFailedReason>(nullptr, ___internal_method, errorCode);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerPlacementErrorCodeMethods::MultiplayerPlacementErrorCodeMethods()   {
-}
+constexpr ::GlobalNamespace::MultiplayerPlacementErrorCodeMethods::MultiplayerPlacementErrorCodeMethods() {}

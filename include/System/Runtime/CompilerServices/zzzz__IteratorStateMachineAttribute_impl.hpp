@@ -4,34 +4,26 @@
 #include "System/Runtime/CompilerServices/zzzz__IteratorStateMachineAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::IteratorStateMachineAttribute._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::IteratorStateMachineAttribute::*)(::System::Type*)>(&::System::Runtime::CompilerServices::IteratorStateMachineAttribute::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::IteratorStateMachineAttribute::*)(::System::Type*)>(
+    &::System::Runtime::CompilerServices::IteratorStateMachineAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a34584;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::IteratorStateMachineAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::IteratorStateMachineAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
-inline void System::Runtime::CompilerServices::IteratorStateMachineAttribute::_ctor(::System::Type*  stateMachineType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::IteratorStateMachineAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachineType);
+inline void System::Runtime::CompilerServices::IteratorStateMachineAttribute::_ctor(::System::Type* stateMachineType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::IteratorStateMachineAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateMachineType);
 }
-inline ::System::Runtime::CompilerServices::IteratorStateMachineAttribute* System::Runtime::CompilerServices::IteratorStateMachineAttribute::New_ctor(::System::Type*  stateMachineType)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::IteratorStateMachineAttribute*>(stateMachineType));
+inline ::System::Runtime::CompilerServices::IteratorStateMachineAttribute* System::Runtime::CompilerServices::IteratorStateMachineAttribute::New_ctor(::System::Type* stateMachineType) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::CompilerServices::IteratorStateMachineAttribute*>(stateMachineType));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::CompilerServices::IteratorStateMachineAttribute::IteratorStateMachineAttribute()   {
-}
+constexpr ::System::Runtime::CompilerServices::IteratorStateMachineAttribute::IteratorStateMachineAttribute() {}

@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IMockBeatmapDataProvider.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMockBeatmapDataProvider)
@@ -11,8 +11,7 @@ namespace GlobalNamespace {
 class MockBeatmapData;
 }
 namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -25,33 +24,33 @@ namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::IMockBeatmapDataProvider);
-// Dependencies 
+MARK_REF_T(::GlobalNamespace::IMockBeatmapDataProvider*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::IMockBeatmapDataProvider*, "", "IMockBeatmapDataProvider");
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IMockBeatmapDataProvider
 class CORDL_TYPE IMockBeatmapDataProvider {
 public:
-// Declarations
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Method GetBeatmapData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapKeyNetSerializable*  beatmap, ::System::Threading::CancellationToken  cancellationToken) ;
+  /// @brief Method GetBeatmapData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapKeyNetSerializable* beatmap,
+                                                                                                 ::System::Threading::CancellationToken cancellationToken);
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-// Ctor Parameters [CppParam { name: "", ty: "IMockBeatmapDataProvider", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IMockBeatmapDataProvider(IMockBeatmapDataProvider const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IMockBeatmapDataProvider", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IMockBeatmapDataProvider(IMockBeatmapDataProvider const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21990};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21990 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::IMockBeatmapDataProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMockBeatmapDataProvider*, "", "IMockBeatmapDataProvider");
+} // namespace GlobalNamespace

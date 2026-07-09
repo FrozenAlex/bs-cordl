@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TutorialSceneSetupData.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
@@ -13,55 +13,54 @@ namespace GlobalNamespace {
 class TutorialSceneSetupData;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::TutorialSceneSetupData);
+MARK_REF_T(::GlobalNamespace::TutorialSceneSetupData*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::TutorialSceneSetupData*, "", "TutorialSceneSetupData");
 // Dependencies SceneSetupData
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TutorialSceneSetupData
 class CORDL_TYPE TutorialSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
-// Declarations
-/// @brief Field playerSpecificSettings, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_playerSpecificSettings, put=__cordl_internal_set_playerSpecificSettings)) ::GlobalNamespace::PlayerSpecificSettings*  playerSpecificSettings;
+  // Declarations
+  /// @brief Field playerSpecificSettings, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
-static inline ::GlobalNamespace::TutorialSceneSetupData* New_ctor(::GlobalNamespace::PlayerSpecificSettings*  playerSpecificSettings) ;
+  static inline ::GlobalNamespace::TutorialSceneSetupData* New_ctor(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-constexpr ::GlobalNamespace::PlayerSpecificSettings* const& __cordl_internal_get_playerSpecificSettings() const;
+  constexpr ::GlobalNamespace::PlayerSpecificSettings* const& __cordl_internal_get_playerSpecificSettings() const;
 
-constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings() ;
+  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings();
 
-constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings*  value) ;
+  constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-/// @brief Method .ctor, addr 0x57ee7e0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::GlobalNamespace::PlayerSpecificSettings*  playerSpecificSettings) ;
+  /// @brief Method .ctor, addr 0x57ee7e0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TutorialSceneSetupData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TutorialSceneSetupData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TutorialSceneSetupData(TutorialSceneSetupData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TutorialSceneSetupData(TutorialSceneSetupData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TutorialSceneSetupData(TutorialSceneSetupData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TutorialSceneSetupData(TutorialSceneSetupData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6833 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6833};
+  /// @brief Field playerSpecificSettings, offset: 0x10, size: 0x8, def value: None
+  ::GlobalNamespace::PlayerSpecificSettings* ___playerSpecificSettings;
 
-/// @brief Field playerSpecificSettings, offset: 0x10, size: 0x8, def value: None
- ::GlobalNamespace::PlayerSpecificSettings*  ___playerSpecificSettings;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TutorialSceneSetupData, ___playerSpecificSettings) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialSceneSetupData, 0x18>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::TutorialSceneSetupData) == 0x18, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::TutorialSceneSetupData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TutorialSceneSetupData*, "", "TutorialSceneSetupData");
+} // namespace GlobalNamespace

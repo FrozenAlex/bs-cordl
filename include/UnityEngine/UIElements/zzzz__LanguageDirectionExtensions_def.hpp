@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/LanguageDirectionExtensions.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -16,39 +16,38 @@ namespace UnityEngine::UIElements {
 class LanguageDirectionExtensions;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::UIElements::LanguageDirectionExtensions);
+MARK_REF_T(::UnityEngine::UIElements::LanguageDirectionExtensions*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LanguageDirectionExtensions*, "UnityEngine.UIElements", "LanguageDirectionExtensions");
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.LanguageDirectionExtensions
 class CORDL_TYPE LanguageDirectionExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method toTextCore, addr 0x6b71fa4, size 0xa4, virtual false, abstract: false, final false
-static inline ::UnityEngine::TextCore::LanguageDirection toTextCore(::UnityEngine::UIElements::LanguageDirection  dir) ;
+  // Declarations
+  /// @brief Method toTextCore, addr 0x6b71fa4, size 0xa4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextCore::LanguageDirection toTextCore(::UnityEngine::UIElements::LanguageDirection dir);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LanguageDirectionExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LanguageDirectionExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageDirectionExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LanguageDirectionExtensions(LanguageDirectionExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LanguageDirectionExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LanguageDirectionExtensions(LanguageDirectionExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageDirectionExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LanguageDirectionExtensions(LanguageDirectionExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LanguageDirectionExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LanguageDirectionExtensions(LanguageDirectionExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5222 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5222};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LanguageDirectionExtensions, 0x10>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::LanguageDirectionExtensions) == 0x10, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
-NEED_NO_BOX(::UnityEngine::UIElements::LanguageDirectionExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LanguageDirectionExtensions*, "UnityEngine.UIElements", "LanguageDirectionExtensions");
+} // namespace UnityEngine::UIElements

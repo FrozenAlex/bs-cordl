@@ -5,57 +5,40 @@
 #include "UnityEngine/Rendering/zzzz__AABB_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::AABBExtensions.ToAABB
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::AABB (*)(::UnityEngine::Bounds)>(&::UnityEngine::Rendering::AABBExtensions::ToAABB)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::AABB (*)(::UnityEngine::Bounds)>(&::UnityEngine::Rendering::AABBExtensions::ToAABB)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x66c737c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::AABBExtensions*>::get(),
-                        "ToAABB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AABBExtensions*>(), { "ToAABB", {}, { ::i2c::type_of<::UnityEngine::Bounds>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::AABBExtensions.ToBounds
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (*)(::UnityEngine::Rendering::AABB)>(&::UnityEngine::Rendering::AABBExtensions::ToBounds)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (*)(::UnityEngine::Rendering::AABB)>(&::UnityEngine::Rendering::AABBExtensions::ToBounds)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x66c7390;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::AABBExtensions*>::get(),
-                        "ToBounds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::AABB>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AABBExtensions*>(), { "ToBounds", {}, { ::i2c::type_of<::UnityEngine::Rendering::AABB>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::Rendering::AABB UnityEngine::Rendering::AABBExtensions::ToAABB(::UnityEngine::Bounds  bounds)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::AABBExtensions*>::get(),
-                        "ToAABB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::AABB, false>(nullptr, ___internal_method, bounds);
+inline ::UnityEngine::Rendering::AABB UnityEngine::Rendering::AABBExtensions::ToAABB(::UnityEngine::Bounds bounds) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AABBExtensions*>(), { "ToAABB", {}, { ::i2c::type_of<::UnityEngine::Bounds>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::AABB>(nullptr, ___internal_method, bounds);
 }
-inline ::UnityEngine::Bounds UnityEngine::Rendering::AABBExtensions::ToBounds(::UnityEngine::Rendering::AABB  aabb)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::AABBExtensions*>::get(),
-                        "ToBounds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::AABB>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(nullptr, ___internal_method, aabb);
+inline ::UnityEngine::Bounds UnityEngine::Rendering::AABBExtensions::ToBounds(::UnityEngine::Rendering::AABB aabb) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AABBExtensions*>(), { "ToBounds", {}, { ::i2c::type_of<::UnityEngine::Rendering::AABB>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds>(nullptr, ___internal_method, aabb);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::AABBExtensions::AABBExtensions()   {
-}
+constexpr ::UnityEngine::Rendering::AABBExtensions::AABBExtensions() {}

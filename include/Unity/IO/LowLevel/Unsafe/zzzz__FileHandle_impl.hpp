@@ -4,166 +4,123 @@
 #include "Unity/IO/LowLevel/Unsafe/zzzz__FileHandle_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::FileHandle.get_JobHandle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (::Unity::IO::LowLevel::Unsafe::FileHandle::*)()>(&::Unity::IO::LowLevel::Unsafe::FileHandle::get_JobHandle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::Unity::IO::LowLevel::Unsafe::FileHandle::*)()>(&::Unity::IO::LowLevel::Unsafe::FileHandle::get_JobHandle)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x6906244;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "get_JobHandle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "get_JobHandle", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::FileHandle.IsValid
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::IO::LowLevel::Unsafe::FileHandle::*)()>(&::Unity::IO::LowLevel::Unsafe::FileHandle::IsValid)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::IO::LowLevel::Unsafe::FileHandle::*)()>(&::Unity::IO::LowLevel::Unsafe::FileHandle::IsValid)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6906364;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "IsValid", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::FileHandle.Close
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (::Unity::IO::LowLevel::Unsafe::FileHandle::*)(::Unity::Jobs::JobHandle)>(&::Unity::IO::LowLevel::Unsafe::FileHandle::Close)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::Unity::IO::LowLevel::Unsafe::FileHandle::*)(::Unity::Jobs::JobHandle)>(
+    &::Unity::IO::LowLevel::Unsafe::FileHandle::Close)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x69063a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "Close",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Jobs::JobHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "Close", {}, { ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::FileHandle.IsFileHandleValid
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>)>(&::Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>)>(&::Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x69062d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "IsFileHandleValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+                                                                                           { "IsFileHandleValid", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::FileHandle.GetJobHandle_Internal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>)>(&::Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>)>(
+    &::Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6906310;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "GetJobHandle_Internal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "GetJobHandle_Internal", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::FileHandle.GetJobHandle_Internal_Injected
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>, ::ByRef<::Unity::Jobs::JobHandle>)>(&::Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>, ::by_ref<::Unity::Jobs::JobHandle>)>(
+    &::Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x69064a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "GetJobHandle_Internal_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Jobs::JobHandle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+                         { "GetJobHandle_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
     return ___internal_method;
   }
 };
-inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::get_JobHandle()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "get_JobHandle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle, false>(this, ___internal_method);
+inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::get_JobHandle() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "get_JobHandle", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method);
 }
-inline bool Unity::IO::LowLevel::Unsafe::FileHandle::IsValid()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::IO::LowLevel::Unsafe::FileHandle::IsValid() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "IsValid", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::Close(::Unity::Jobs::JobHandle  dependency)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "Close",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Jobs::JobHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle, false>(this, ___internal_method, dependency);
+inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::Close(::Unity::Jobs::JobHandle dependency) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "Close", {}, { ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, dependency);
 }
-inline bool Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "IsFileHandleValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, handle);
+inline bool Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+                                                                                         { "IsFileHandleValid", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle);
 }
-inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "GetJobHandle_Internal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle, false>(nullptr, ___internal_method, handle);
+inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+                                                                                         { "GetJobHandle_Internal", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(nullptr, ___internal_method, handle);
 }
-inline void Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>  handle, ::ByRef<::Unity::Jobs::JobHandle>  ret)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::FileHandle>::get(),
-                        "GetJobHandle_Internal_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Jobs::JobHandle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, handle, ret);
+inline void Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle, ::by_ref<::Unity::Jobs::JobHandle> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+                          { "GetJobHandle_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, ret);
 }
-// Ctor Parameters [CppParam { name: "fileCommandPtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::IO::LowLevel::Unsafe::FileHandle::FileHandle(::System::IntPtr  fileCommandPtr, int32_t  version) noexcept  {
-this->fileCommandPtr = fileCommandPtr;
-this->version = version;
+// Ctor Parameters [CppParam { name: "fileCommandPtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: Some("{}")
+// }]
+constexpr ::Unity::IO::LowLevel::Unsafe::FileHandle::FileHandle(::System::IntPtr fileCommandPtr, int32_t version) noexcept {
+  this->fileCommandPtr = fileCommandPtr;
+  this->version = version;
 }
 // Ctor Parameters []
-constexpr ::Unity::IO::LowLevel::Unsafe::FileHandle::FileHandle()   {
-}
+constexpr ::Unity::IO::LowLevel::Unsafe::FileHandle::FileHandle() {}

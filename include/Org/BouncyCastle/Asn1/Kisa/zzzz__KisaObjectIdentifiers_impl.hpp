@@ -4,46 +4,37 @@
 #include "Org/BouncyCastle/Asn1/Kisa/zzzz__KisaObjectIdentifiers_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::*)()>(&::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::*)()>(&::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x3397804;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::setStaticF_IdSeedCbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value)  {
-::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "IdSeedCbc", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>::get>(std::forward<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>(value));
+inline void Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::setStaticF_IdSeedCbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value) {
+  ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "IdSeedCbc", ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>(
+      std::forward<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::getStaticF_IdSeedCbc()  {
-return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "IdSeedCbc", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>::get>();
+inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::getStaticF_IdSeedCbc() {
+  return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "IdSeedCbc", ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>();
 }
-inline void Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::setStaticF_IdNpkiAppCmsSeedWrap(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value)  {
-::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "IdNpkiAppCmsSeedWrap", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>::get>(std::forward<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>(value));
+inline void Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::setStaticF_IdNpkiAppCmsSeedWrap(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value) {
+  ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "IdNpkiAppCmsSeedWrap", ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>(
+      std::forward<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::getStaticF_IdNpkiAppCmsSeedWrap()  {
-return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "IdNpkiAppCmsSeedWrap", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>::get>();
+inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::getStaticF_IdNpkiAppCmsSeedWrap() {
+  return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "IdNpkiAppCmsSeedWrap", ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>();
 }
-inline void Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers* Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>());
+inline ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers* Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*>());
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::KisaObjectIdentifiers()   {
-}
+constexpr ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::KisaObjectIdentifiers() {}

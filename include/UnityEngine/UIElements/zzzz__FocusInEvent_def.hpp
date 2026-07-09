@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/FocusInEvent.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -20,100 +20,98 @@ namespace UnityEngine::UIElements {
 class FocusInEvent___c;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::UIElements::FocusInEvent);
-MARK_REF_PTR_T(::UnityEngine::UIElements::FocusInEvent___c);
+MARK_REF_T(::UnityEngine::UIElements::FocusInEvent*);
+MARK_REF_T(::UnityEngine::UIElements::FocusInEvent___c*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FocusInEvent*, "UnityEngine.UIElements", "FocusInEvent");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FocusInEvent___c*, "UnityEngine.UIElements", "FocusInEvent/<>c");
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.FocusInEvent/<>c
 class CORDL_TYPE FocusInEvent___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::FocusInEvent___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::FocusInEvent___c* __9;
 
-static inline ::UnityEngine::UIElements::FocusInEvent___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::FocusInEvent___c* New_ctor();
 
-/// @brief Method <.cctor>b__0_0, addr 0x6c45d88, size 0x54, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::FocusInEvent* __cctor_b__0_0() ;
+  /// @brief Method <.cctor>b__0_0, addr 0x6c45d88, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::FocusInEvent* __cctor_b__0_0();
 
-/// @brief Method .ctor, addr 0x6c45d84, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c45d84, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::FocusInEvent___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::FocusInEvent___c* getStaticF___9();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::FocusInEvent___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::FocusInEvent___c* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FocusInEvent___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FocusInEvent___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FocusInEvent___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FocusInEvent___c(FocusInEvent___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FocusInEvent___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FocusInEvent___c(FocusInEvent___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FocusInEvent___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FocusInEvent___c(FocusInEvent___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FocusInEvent___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FocusInEvent___c(FocusInEvent___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4471 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4471};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FocusInEvent___c, 0x10>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::FocusInEvent___c) == 0x10, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.FocusEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.FocusInEvent
 class CORDL_TYPE FocusInEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusInEvent*> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::FocusInEvent___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::FocusInEvent___c;
 
-/// @brief Method Init, addr 0x6c45c04, size 0x58, virtual true, abstract: false, final false
-inline void Init() ;
+  /// @brief Method Init, addr 0x6c45c04, size 0x58, virtual true, abstract: false, final false
+  inline void Init();
 
-/// @brief Method LocalInit, addr 0x6c45c5c, size 0xc, virtual false, abstract: false, final false
-inline void LocalInit() ;
+  /// @brief Method LocalInit, addr 0x6c45c5c, size 0xc, virtual false, abstract: false, final false
+  inline void LocalInit();
 
-static inline ::UnityEngine::UIElements::FocusInEvent* New_ctor() ;
+  static inline ::UnityEngine::UIElements::FocusInEvent* New_ctor();
 
-/// @brief Method PostDispatch, addr 0x6c45cc0, size 0x70, virtual true, abstract: false, final false
-inline void PostDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
+  /// @brief Method PostDispatch, addr 0x6c45cc0, size 0x70, virtual true, abstract: false, final false
+  inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-/// @brief Method .ctor, addr 0x6c45c68, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c45c68, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FocusInEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FocusInEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FocusInEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FocusInEvent(FocusInEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FocusInEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FocusInEvent(FocusInEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FocusInEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FocusInEvent(FocusInEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FocusInEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FocusInEvent(FocusInEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4472 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4472};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FocusInEvent, 0x88>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::FocusInEvent) == 0x88, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
-NEED_NO_BOX(::UnityEngine::UIElements::FocusInEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::FocusInEvent*, "UnityEngine.UIElements", "FocusInEvent");
-NEED_NO_BOX(::UnityEngine::UIElements::FocusInEvent___c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::FocusInEvent___c*, "UnityEngine.UIElements", "FocusInEvent/<>c");
+} // namespace UnityEngine::UIElements

@@ -6,84 +6,68 @@
 #include "HMUI/zzzz__HoverHint_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifierInfoListItem.SetModifier
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifierInfoListItem::*)(::GlobalNamespace::GameplayModifierParamsSO*, bool)>(&::GlobalNamespace::GameplayModifierInfoListItem::SetModifier)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifierInfoListItem::*)(::GlobalNamespace::GameplayModifierParamsSO*, bool)>(
+    &::GlobalNamespace::GameplayModifierInfoListItem::SetModifier)> {
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x58f50b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierInfoListItem*>::get(),
-                        "SetModifier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierParamsSO*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierInfoListItem*>(),
+                                                             { "SetModifier", {}, { ::i2c::type_of<::GlobalNamespace::GameplayModifierParamsSO*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifierInfoListItem._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifierInfoListItem::*)()>(&::GlobalNamespace::GameplayModifierInfoListItem::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifierInfoListItem::*)()>(&::GlobalNamespace::GameplayModifierInfoListItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58f5244;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierInfoListItem*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierInfoListItem*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::HMUI::HoverHint>& GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_get__hoverHint()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____hoverHint;
+constexpr ::UnityW<::HMUI::HoverHint>& GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_get__hoverHint() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hoverHint;
 }
 constexpr ::UnityW<::HMUI::HoverHint> const& GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_get__hoverHint() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____hoverHint;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hoverHint;
 }
-constexpr void GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____hoverHint = value;
 }
-constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_get__iconImage()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____iconImage;
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_get__iconImage() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____iconImage;
 }
 constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_get__iconImage() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____iconImage;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____iconImage;
 }
-constexpr void GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_set__iconImage(::UnityW<::UnityEngine::UI::Image>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____iconImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameplayModifierInfoListItem::__cordl_internal_set__iconImage(::UnityW<::UnityEngine::UI::Image> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____iconImage = value;
 }
-inline void GlobalNamespace::GameplayModifierInfoListItem::SetModifier(::GlobalNamespace::GameplayModifierParamsSO*  modifierParam, bool  showName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierInfoListItem*>::get(),
-                        "SetModifier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierParamsSO*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, modifierParam, showName);
+inline void GlobalNamespace::GameplayModifierInfoListItem::SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierInfoListItem*>(),
+                                                           { "SetModifier", {}, { ::i2c::type_of<::GlobalNamespace::GameplayModifierParamsSO*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, modifierParam, showName);
 }
-inline void GlobalNamespace::GameplayModifierInfoListItem::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierInfoListItem*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::GameplayModifierInfoListItem::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierInfoListItem*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GameplayModifierInfoListItem* GlobalNamespace::GameplayModifierInfoListItem::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifierInfoListItem*>());
+inline ::GlobalNamespace::GameplayModifierInfoListItem* GlobalNamespace::GameplayModifierInfoListItem::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameplayModifierInfoListItem*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameplayModifierInfoListItem::GameplayModifierInfoListItem()   {
-}
+constexpr ::GlobalNamespace::GameplayModifierInfoListItem::GameplayModifierInfoListItem() {}

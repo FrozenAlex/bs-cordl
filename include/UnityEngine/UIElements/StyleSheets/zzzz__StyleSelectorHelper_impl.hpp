@@ -15,169 +15,192 @@
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::*)(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType, ::StringW)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::*)(
+    ::UnityEngine::UIElements::StyleSheet_OrderedSelectorType, ::StringW)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6bc06d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheet_OrderedSelectorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet_OrderedSelectorType>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::_ctor(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType  type, ::StringW  input)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheet_OrderedSelectorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, input);
+inline void UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::_ctor(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType type, ::StringW input) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet_OrderedSelectorType>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, type, input);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheet_OrderedSelectorType", modifiers: "", def_value: Some("{}") }, CppParam { name: "input", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::StyleSelectorHelper_SelectorWorkItem(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType  type, ::StringW  input) noexcept  {
-this->type = type;
-this->input = input;
+// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheet_OrderedSelectorType", modifiers: "", def_value: Some("{}") }, CppParam { name: "input", ty: "::StringW",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::StyleSelectorHelper_SelectorWorkItem(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType type,
+                                                                                                                             ::StringW input) noexcept {
+  this->type = type;
+  this->input = input;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::StyleSelectorHelper_SelectorWorkItem()   {
-}
+constexpr ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::StyleSelectorHelper_SelectorWorkItem() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper.MatchesSelector
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleSheets::MatchResultInfo (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSelector*)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchesSelector)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleSheets::MatchResultInfo (*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSelector*)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchesSelector)> {
   constexpr static std::size_t size = 0x25c;
   constexpr static std::size_t addrs = 0x6bbfa50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "MatchesSelector",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSelector*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                                         { "MatchesSelector", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSelector*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper.MatchRightToLeft
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleComplexSelector*, ::System::Action_2<::UnityEngine::UIElements::VisualElement*,::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchRightToLeft)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleComplexSelector*,
+                                                                ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*)>(
+    &::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchRightToLeft)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x6bbfcac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "MatchRightToLeft",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleComplexSelector*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::UIElements::VisualElement*,::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                                                { "MatchRightToLeft",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleComplexSelector*>(),
+                                                    ::i2c::type_of<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper.TestSelectorLinkedList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleComplexSelector*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*, ::UnityEngine::UIElements::StyleMatchingContext*, ::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::TestSelectorLinkedList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::UnityEngine::UIElements::StyleComplexSelector*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*,
+                         ::UnityEngine::UIElements::StyleMatchingContext*, ::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>)>(
+        &::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::TestSelectorLinkedList)> {
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x6bbfe14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "TestSelectorLinkedList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleComplexSelector*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleMatchingContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                            { "TestSelectorLinkedList",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::StyleComplexSelector*>(),
+                                ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>(),
+                                ::i2c::type_of<::UnityEngine::UIElements::StyleMatchingContext*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper.FastLookup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::UIElements::StyleComplexSelector*>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*, ::UnityEngine::UIElements::StyleMatchingContext*, ::StringW, ::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FastLookup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*,
+                                                                ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*,
+                                                                ::UnityEngine::UIElements::StyleMatchingContext*, ::StringW, ::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>)>(
+    &::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FastLookup)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x6bbff54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "FastLookup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::UIElements::StyleComplexSelector*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleMatchingContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                                                             { "FastLookup",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*>(),
+                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>(),
+                                                                 ::i2c::type_of<::UnityEngine::UIElements::StyleMatchingContext*>(), ::i2c::type_of<::StringW>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper.FindMatches
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleMatchingContext*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*, int32_t)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FindMatches)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::UnityEngine::UIElements::StyleMatchingContext*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*, int32_t)>(
+        &::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FindMatches)> {
   constexpr static std::size_t size = 0x68c;
   constexpr static std::size_t addrs = 0x6bc0048;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "FindMatches",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleMatchingContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                                         { "FindMatches",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::UIElements::StyleMatchingContext*>(),
+                                             ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchesSelector(::UnityEngine::UIElements::VisualElement*  element, ::UnityEngine::UIElements::StyleSelector*  selector)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "MatchesSelector",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSelector*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleSheets::MatchResultInfo, false>(nullptr, ___internal_method, element, selector);
+inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchesSelector(::UnityEngine::UIElements::VisualElement* element,
+                                                                                                                                          ::UnityEngine::UIElements::StyleSelector* selector) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                                       { "MatchesSelector", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSelector*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleSheets::MatchResultInfo>(nullptr, ___internal_method, element, selector);
 }
-inline bool UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchRightToLeft(::UnityEngine::UIElements::VisualElement*  element, ::UnityEngine::UIElements::StyleComplexSelector*  complexSelector, ::System::Action_2<::UnityEngine::UIElements::VisualElement*,::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*  processResult)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "MatchRightToLeft",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleComplexSelector*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::UIElements::VisualElement*,::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, element, complexSelector, processResult);
+inline bool UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchRightToLeft(
+    ::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector,
+    ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                                              { "MatchRightToLeft",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleComplexSelector*>(),
+                                                  ::i2c::type_of<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, element, complexSelector, processResult);
 }
-inline void UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::TestSelectorLinkedList(::UnityEngine::UIElements::StyleComplexSelector*  currentComplexSelector, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*  matchedSelectors, ::UnityEngine::UIElements::StyleMatchingContext*  context, ::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>  record)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "TestSelectorLinkedList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleComplexSelector*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleMatchingContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, currentComplexSelector, matchedSelectors, context, record);
+inline void UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::TestSelectorLinkedList(
+    ::UnityEngine::UIElements::StyleComplexSelector* currentComplexSelector, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
+    ::UnityEngine::UIElements::StyleMatchingContext* context, ::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                          { "TestSelectorLinkedList",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::UIElements::StyleComplexSelector*>(),
+                              ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>(),
+                              ::i2c::type_of<::UnityEngine::UIElements::StyleMatchingContext*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, currentComplexSelector, matchedSelectors, context, record);
 }
-inline void UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FastLookup(::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::UIElements::StyleComplexSelector*>*  table, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*  matchedSelectors, ::UnityEngine::UIElements::StyleMatchingContext*  context, ::StringW  input, ::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>  record)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "FastLookup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::UIElements::StyleComplexSelector*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleMatchingContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, table, matchedSelectors, context, input, record);
+inline void UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FastLookup(::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* table,
+                                                                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
+                                                                                  ::UnityEngine::UIElements::StyleMatchingContext* context, ::StringW input,
+                                                                                  ::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                                                           { "FastLookup",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::StyleMatchingContext*>(), ::i2c::type_of<::StringW>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, table, matchedSelectors, context, input, record);
 }
-inline void UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FindMatches(::UnityEngine::UIElements::StyleMatchingContext*  context, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*  matchedSelectors, int32_t  parentSheetIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(),
-                        "FindMatches",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleMatchingContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, context, matchedSelectors, parentSheetIndex);
+inline void
+UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FindMatches(::UnityEngine::UIElements::StyleMatchingContext* context,
+                                                                       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
+                                                                       int32_t parentSheetIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>(),
+                                       { "FindMatches",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::UIElements::StyleMatchingContext*>(),
+                                           ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, matchedSelectors, parentSheetIndex);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::StyleSelectorHelper()   {
-}
+constexpr ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::StyleSelectorHelper() {}

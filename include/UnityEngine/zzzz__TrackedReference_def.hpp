@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/TrackedReference.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
@@ -15,70 +15,69 @@ namespace UnityEngine {
 class TrackedReference;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::TrackedReference);
+MARK_REF_T(::UnityEngine::TrackedReference*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::TrackedReference*, "UnityEngine", "TrackedReference");
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.TrackedReference
 class CORDL_TYPE TrackedReference : public ::System::Object {
 public:
-// Declarations
-/// @brief Field m_Ptr, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
+  // Declarations
+  /// @brief Field m_Ptr, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-/// @brief Method Equals, addr 0x6991968, size 0xcc, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  o) ;
+  /// @brief Method Equals, addr 0x6991968, size 0xcc, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* o);
 
-/// @brief Method GetHashCode, addr 0x6991a34, size 0x8, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x6991a34, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-static inline ::UnityEngine::TrackedReference* New_ctor() ;
+  static inline ::UnityEngine::TrackedReference* New_ctor();
 
-constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-/// @brief Method .ctor, addr 0x69918cc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x69918cc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method op_Equality, addr 0x69918d0, size 0x4c, virtual false, abstract: false, final false
-static inline bool op_Equality(::UnityEngine::TrackedReference*  x, ::UnityEngine::TrackedReference*  y) ;
+  /// @brief Method op_Equality, addr 0x69918d0, size 0x4c, virtual false, abstract: false, final false
+  static inline bool op_Equality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
-/// @brief Method op_Implicit, addr 0x6991a3c, size 0x14, virtual false, abstract: false, final false
-static inline bool op_Implicit_bool(::UnityEngine::TrackedReference*  exists) ;
+  /// @brief Method op_Implicit, addr 0x6991a3c, size 0x14, virtual false, abstract: false, final false
+  static inline bool op_Implicit_bool(::UnityEngine::TrackedReference* exists);
 
-/// @brief Method op_Inequality, addr 0x699191c, size 0x4c, virtual false, abstract: false, final false
-static inline bool op_Inequality(::UnityEngine::TrackedReference*  x, ::UnityEngine::TrackedReference*  y) ;
+  /// @brief Method op_Inequality, addr 0x699191c, size 0x4c, virtual false, abstract: false, final false
+  static inline bool op_Inequality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TrackedReference() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrackedReference();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedReference", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TrackedReference(TrackedReference&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TrackedReference", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TrackedReference(TrackedReference && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedReference", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TrackedReference(TrackedReference const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TrackedReference", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TrackedReference(TrackedReference const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10362 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10362};
+  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+  ::System::IntPtr ___m_Ptr;
 
-/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
- ::System::IntPtr  ___m_Ptr;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TrackedReference, ___m_Ptr) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TrackedReference, 0x18>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::TrackedReference) == 0x18, "Size mismatch!");
 
-} // namespace end def UnityEngine
-NEED_NO_BOX(::UnityEngine::TrackedReference);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TrackedReference*, "UnityEngine", "TrackedReference");
+} // namespace UnityEngine

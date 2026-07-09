@@ -3,72 +3,54 @@
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__OptionalFieldAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::OptionalFieldAttribute._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::OptionalFieldAttribute::*)()>(&::System::Runtime::Serialization::OptionalFieldAttribute::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::OptionalFieldAttribute::*)()>(&::System::Runtime::Serialization::OptionalFieldAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5a18f94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::OptionalFieldAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::OptionalFieldAttribute*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::OptionalFieldAttribute.set_VersionAdded
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::OptionalFieldAttribute::*)(int32_t)>(&::System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::OptionalFieldAttribute::*)(int32_t)>(
+    &::System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x5a18fa0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::OptionalFieldAttribute*>::get(),
-                        "set_VersionAdded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::OptionalFieldAttribute*>(), { "set_VersionAdded", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-constexpr int32_t& System::Runtime::Serialization::OptionalFieldAttribute::__cordl_internal_get_versionAdded()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___versionAdded;
+constexpr int32_t& System::Runtime::Serialization::OptionalFieldAttribute::__cordl_internal_get_versionAdded() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___versionAdded;
 }
 constexpr int32_t const& System::Runtime::Serialization::OptionalFieldAttribute::__cordl_internal_get_versionAdded() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___versionAdded;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___versionAdded;
 }
-constexpr void System::Runtime::Serialization::OptionalFieldAttribute::__cordl_internal_set_versionAdded(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___versionAdded = value;
+constexpr void System::Runtime::Serialization::OptionalFieldAttribute::__cordl_internal_set_versionAdded(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___versionAdded = value;
 }
-inline void System::Runtime::Serialization::OptionalFieldAttribute::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::OptionalFieldAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Runtime::Serialization::OptionalFieldAttribute::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::OptionalFieldAttribute*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::OptionalFieldAttribute*>::get(),
-                        "set_VersionAdded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::OptionalFieldAttribute*>(), { "set_VersionAdded", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::System::Runtime::Serialization::OptionalFieldAttribute* System::Runtime::Serialization::OptionalFieldAttribute::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::OptionalFieldAttribute*>());
+inline ::System::Runtime::Serialization::OptionalFieldAttribute* System::Runtime::Serialization::OptionalFieldAttribute::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::OptionalFieldAttribute*>());
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Serialization::OptionalFieldAttribute::OptionalFieldAttribute()   {
-}
+constexpr ::System::Runtime::Serialization::OptionalFieldAttribute::OptionalFieldAttribute() {}

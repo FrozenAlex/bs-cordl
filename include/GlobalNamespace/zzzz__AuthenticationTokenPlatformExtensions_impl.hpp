@@ -5,31 +5,23 @@
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AuthenticationTokenPlatformExtensions.ToAuthenticationTokenPlatform
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AuthenticationToken_PlatformType (*)(::GlobalNamespace::UserInfo_Platform)>(&::GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AuthenticationToken_PlatformType (*)(::GlobalNamespace::UserInfo_Platform)>(
+    &::GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5e060c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AuthenticationTokenPlatformExtensions*>::get(),
-                        "ToAuthenticationTokenPlatform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::UserInfo_Platform>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AuthenticationTokenPlatformExtensions*>(),
+                                                                                           { "ToAuthenticationTokenPlatform", {}, { ::i2c::type_of<::GlobalNamespace::UserInfo_Platform>() } })));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::AuthenticationToken_PlatformType GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform(::GlobalNamespace::UserInfo_Platform  platform)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AuthenticationTokenPlatformExtensions*>::get(),
-                        "ToAuthenticationTokenPlatform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::UserInfo_Platform>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AuthenticationToken_PlatformType, false>(nullptr, ___internal_method, platform);
+inline ::GlobalNamespace::AuthenticationToken_PlatformType GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform(::GlobalNamespace::UserInfo_Platform platform) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AuthenticationTokenPlatformExtensions*>(),
+                                                                                         { "ToAuthenticationTokenPlatform", {}, { ::i2c::type_of<::GlobalNamespace::UserInfo_Platform>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AuthenticationToken_PlatformType>(nullptr, ___internal_method, platform);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AuthenticationTokenPlatformExtensions::AuthenticationTokenPlatformExtensions()   {
-}
+constexpr ::GlobalNamespace::AuthenticationTokenPlatformExtensions::AuthenticationTokenPlatformExtensions() {}

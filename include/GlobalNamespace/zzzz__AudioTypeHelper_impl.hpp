@@ -4,31 +4,22 @@
 #include "GlobalNamespace/zzzz__AudioTypeHelper_def.hpp"
 #include "UnityEngine/zzzz__AudioType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AudioTypeHelper.GetAudioTypeFromPath
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioType (*)(::StringW)>(&::GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AudioType (*)(::StringW)>(&::GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x3266a50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTypeHelper*>::get(),
-                        "GetAudioTypeFromPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTypeHelper*>(), { "GetAudioTypeFromPath", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::AudioType GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath(::StringW  path)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTypeHelper*>::get(),
-                        "GetAudioTypeFromPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::AudioType, false>(nullptr, ___internal_method, path);
+inline ::UnityEngine::AudioType GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath(::StringW path) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTypeHelper*>(), { "GetAudioTypeFromPath", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AudioType>(nullptr, ___internal_method, path);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AudioTypeHelper::AudioTypeHelper()   {
-}
+constexpr ::GlobalNamespace::AudioTypeHelper::AudioTypeHelper() {}

@@ -4,124 +4,87 @@
 #include "Zenject/zzzz__IfNotBoundBinder_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 //  Writing Method size for method: ::Zenject::IfNotBoundBinder._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6d05084;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { ".ctor", {}, { ::i2c::type_of<::Zenject::BindInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::IfNotBoundBinder.get_BindInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::BindInfo* (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::get_BindInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindInfo* (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::get_BindInfo)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6d0508c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(),
-                        "get_BindInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { "get_BindInfo", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::IfNotBoundBinder.set_BindInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::set_BindInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::set_BindInfo)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6d05094;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(),
-                        "set_BindInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { "set_BindInfo", {}, { ::i2c::type_of<::Zenject::BindInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::IfNotBoundBinder.IfNotBound
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::IfNotBound)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::IfNotBound)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6d0509c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(),
-                        "IfNotBound",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { "IfNotBound", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::BindInfo*& Zenject::IfNotBoundBinder::__cordl_internal_get__BindInfo_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____BindInfo_k__BackingField;
+constexpr ::Zenject::BindInfo*& Zenject::IfNotBoundBinder::__cordl_internal_get__BindInfo_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____BindInfo_k__BackingField;
 }
 constexpr ::Zenject::BindInfo* const& Zenject::IfNotBoundBinder::__cordl_internal_get__BindInfo_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____BindInfo_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____BindInfo_k__BackingField;
 }
-constexpr void Zenject::IfNotBoundBinder::__cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____BindInfo_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Zenject::IfNotBoundBinder::__cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____BindInfo_k__BackingField = value;
 }
-inline void Zenject::IfNotBoundBinder::_ctor(::Zenject::BindInfo*  bindInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindInfo);
+inline void Zenject::IfNotBoundBinder::_ctor(::Zenject::BindInfo* bindInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { ".ctor", {}, { ::i2c::type_of<::Zenject::BindInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bindInfo);
 }
-inline ::Zenject::BindInfo* Zenject::IfNotBoundBinder::get_BindInfo()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(),
-                        "get_BindInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Zenject::BindInfo*, false>(this, ___internal_method);
+inline ::Zenject::BindInfo* Zenject::IfNotBoundBinder::get_BindInfo() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { "get_BindInfo", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::BindInfo*>(this, ___internal_method);
 }
-inline void Zenject::IfNotBoundBinder::set_BindInfo(::Zenject::BindInfo*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(),
-                        "set_BindInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Zenject::IfNotBoundBinder::set_BindInfo(::Zenject::BindInfo* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { "set_BindInfo", {}, { ::i2c::type_of<::Zenject::BindInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void Zenject::IfNotBoundBinder::IfNotBound()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(),
-                        "IfNotBound",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Zenject::IfNotBoundBinder::IfNotBound() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { "IfNotBound", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Zenject::IfNotBoundBinder* Zenject::IfNotBoundBinder::New_ctor(::Zenject::BindInfo*  bindInfo)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::IfNotBoundBinder*>(bindInfo));
+inline ::Zenject::IfNotBoundBinder* Zenject::IfNotBoundBinder::New_ctor(::Zenject::BindInfo* bindInfo) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::IfNotBoundBinder*>(bindInfo));
 }
 // Ctor Parameters []
-constexpr ::Zenject::IfNotBoundBinder::IfNotBoundBinder()   {
-}
+constexpr ::Zenject::IfNotBoundBinder::IfNotBoundBinder() {}

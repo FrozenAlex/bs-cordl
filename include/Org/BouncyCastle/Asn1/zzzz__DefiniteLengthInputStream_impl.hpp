@@ -4,192 +4,146 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DefiniteLengthInputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)(::System::IO::Stream*, int32_t, int32_t)>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)(::System::IO::Stream*, int32_t, int32_t)>(
+    &::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_ctor)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x35c3778;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream.get_Remaining
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::get_Remaining)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::get_Remaining)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x35cecd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                        "get_Remaining",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), { "get_Remaining", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream.ReadByte
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadByte)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadByte)> {
   constexpr static std::size_t size = 0x1b8;
   constexpr static std::size_t addrs = 0x35cecd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                                  37
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(),
+                                                                                          { ::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), 37 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream.Read
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::Read)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
+    &::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::Read)> {
   constexpr static std::size_t size = 0x21c;
   constexpr static std::size_t addrs = 0x35cee90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                                  35
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(),
+                                                                                          { ::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), 35 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream.ReadAllIntoByteArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadAllIntoByteArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)(::ArrayW<uint8_t>)>(
+    &::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadAllIntoByteArray)> {
   constexpr static std::size_t size = 0x34c;
   constexpr static std::size_t addrs = 0x35c58c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                        "ReadAllIntoByteArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), { "ReadAllIntoByteArray", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream.ToArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ToArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ToArray)> {
   constexpr static std::size_t size = 0x358;
   constexpr static std::size_t addrs = 0x35c383c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                        "ToArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), { "ToArray", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_get__originalLength()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____originalLength;
+constexpr int32_t& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_get__originalLength() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____originalLength;
 }
 constexpr int32_t const& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_get__originalLength() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____originalLength;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____originalLength;
 }
-constexpr void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_set__originalLength(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____originalLength = value;
+constexpr void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_set__originalLength(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____originalLength = value;
 }
-constexpr int32_t& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_get__remaining()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____remaining;
+constexpr int32_t& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_get__remaining() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____remaining;
 }
 constexpr int32_t const& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_get__remaining() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____remaining;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____remaining;
 }
-constexpr void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_set__remaining(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____remaining = value;
+constexpr void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__cordl_internal_set__remaining(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____remaining = value;
 }
-inline void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::setStaticF_EmptyBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "EmptyBytes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get>(std::forward<::ArrayW<uint8_t,::Array<uint8_t>*>>(value));
+inline void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::setStaticF_EmptyBytes(::ArrayW<uint8_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint8_t>, "EmptyBytes", ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(std::forward<::ArrayW<uint8_t>>(value));
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Asn1::DefiniteLengthInputStream::getStaticF_EmptyBytes()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "EmptyBytes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get>();
+inline ::ArrayW<uint8_t> Org::BouncyCastle::Asn1::DefiniteLengthInputStream::getStaticF_EmptyBytes() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "EmptyBytes", ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>();
 }
-inline void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_ctor(::System::IO::Stream*  inStream, int32_t  length, int32_t  limit)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inStream, length, limit);
+inline void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inStream, length, limit);
 }
-inline int32_t Org::BouncyCastle::Asn1::DefiniteLengthInputStream::get_Remaining()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                        "get_Remaining",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Asn1::DefiniteLengthInputStream::get_Remaining() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), { "get_Remaining", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadByte()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                            37
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadByte() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), 37 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Asn1::DefiniteLengthInputStream::Read(::ArrayW<uint8_t,::Array<uint8_t>*>  buf, int32_t  off, int32_t  len)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                            35
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, buf, off, len);
+inline int32_t Org::BouncyCastle::Asn1::DefiniteLengthInputStream::Read(::ArrayW<uint8_t> buf, int32_t off, int32_t len) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), 35 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buf, off, len);
 }
-inline void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadAllIntoByteArray(::ArrayW<uint8_t,::Array<uint8_t>*>  buf)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                        "ReadAllIntoByteArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buf);
+inline void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadAllIntoByteArray(::ArrayW<uint8_t> buf) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), { "ReadAllIntoByteArray", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buf);
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ToArray()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
-                        "ToArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method);
+inline ::ArrayW<uint8_t> Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ToArray() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), { "ToArray", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* Org::BouncyCastle::Asn1::DefiniteLengthInputStream::New_ctor(::System::IO::Stream*  inStream, int32_t  length, int32_t  limit)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(inStream, length, limit));
+inline ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* Org::BouncyCastle::Asn1::DefiniteLengthInputStream::New_ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(inStream, length, limit));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::DefiniteLengthInputStream()   {
-}
+constexpr ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::DefiniteLengthInputStream() {}

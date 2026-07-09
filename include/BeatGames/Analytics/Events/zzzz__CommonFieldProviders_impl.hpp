@@ -3,89 +3,61 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatGames/Analytics/Events/zzzz__CommonFieldProviders_def.hpp"
 //  Writing Method size for method: ::BeatGames::Analytics::Events::CommonFieldProviders.get_RuntimePlatform
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_RuntimePlatform)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_RuntimePlatform)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x31c4874;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::CommonFieldProviders*>::get(),
-                        "get_RuntimePlatform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::CommonFieldProviders*>(), { "get_RuntimePlatform", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatGames::Analytics::Events::CommonFieldProviders.get_DeviceType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_DeviceType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_DeviceType)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x31c4c2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::CommonFieldProviders*>::get(),
-                        "get_DeviceType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::CommonFieldProviders*>(), { "get_DeviceType", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatGames::Analytics::Events::CommonFieldProviders.get_VROSMajorVersion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_VROSMajorVersion)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_VROSMajorVersion)> {
   constexpr static std::size_t size = 0x2e8;
   constexpr static std::size_t addrs = 0x31c4944;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::CommonFieldProviders*>::get(),
-                        "get_VROSMajorVersion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::CommonFieldProviders*>(), { "get_VROSMajorVersion", {}, {} })));
     return ___internal_method;
   }
 };
-inline void BeatGames::Analytics::Events::CommonFieldProviders::setStaticF__cachedVROSVersion(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "_cachedVROSVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::CommonFieldProviders*>::get>(std::forward<int32_t>(value));
+inline void BeatGames::Analytics::Events::CommonFieldProviders::setStaticF__cachedVROSVersion(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_cachedVROSVersion", ::BeatGames::Analytics::Events::CommonFieldProviders*>(std::forward<int32_t>(value));
 }
-inline int32_t BeatGames::Analytics::Events::CommonFieldProviders::getStaticF__cachedVROSVersion()  {
-return ::cordl_internals::getStaticField<int32_t, "_cachedVROSVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::CommonFieldProviders*>::get>();
+inline int32_t BeatGames::Analytics::Events::CommonFieldProviders::getStaticF__cachedVROSVersion() {
+  return ::cordl_internals::getStaticField<int32_t, "_cachedVROSVersion", ::BeatGames::Analytics::Events::CommonFieldProviders*>();
 }
-inline ::StringW BeatGames::Analytics::Events::CommonFieldProviders::get_RuntimePlatform()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::CommonFieldProviders*>::get(),
-                        "get_RuntimePlatform",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
+inline ::StringW BeatGames::Analytics::Events::CommonFieldProviders::get_RuntimePlatform() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::CommonFieldProviders*>(), { "get_RuntimePlatform", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method);
 }
-inline ::StringW BeatGames::Analytics::Events::CommonFieldProviders::get_DeviceType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::CommonFieldProviders*>::get(),
-                        "get_DeviceType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
+inline ::StringW BeatGames::Analytics::Events::CommonFieldProviders::get_DeviceType() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::CommonFieldProviders*>(), { "get_DeviceType", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method);
 }
-inline int32_t BeatGames::Analytics::Events::CommonFieldProviders::get_VROSMajorVersion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::CommonFieldProviders*>::get(),
-                        "get_VROSMajorVersion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t BeatGames::Analytics::Events::CommonFieldProviders::get_VROSMajorVersion() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::CommonFieldProviders*>(), { "get_VROSMajorVersion", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::BeatGames::Analytics::Events::CommonFieldProviders::CommonFieldProviders()   {
-}
+constexpr ::BeatGames::Analytics::Events::CommonFieldProviders::CommonFieldProviders() {}

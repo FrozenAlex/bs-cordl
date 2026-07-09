@@ -7,202 +7,170 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 //  Writing Method size for method: ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock.Start
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Start)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(
+    &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Start)> {
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x58fa52c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(), { "Start", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock.SaveAnchorUuidToLocalStorage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)(::GlobalNamespace::OVRSpatialAnchor*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(&::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::SaveAnchorUuidToLocalStorage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)(::GlobalNamespace::OVRSpatialAnchor*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
+        &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::SaveAnchorUuidToLocalStorage)> {
   constexpr static std::size_t size = 0x120;
   constexpr static std::size_t addrs = 0x58fa63c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "SaveAnchorUuidToLocalStorage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor_OperationResult>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(),
+                         { "SaveAnchorUuidToLocalStorage", {}, { ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor*>(), ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor_OperationResult>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock.RemoveAnchorFromLocalStorage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)(::GlobalNamespace::OVRSpatialAnchor*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(&::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::RemoveAnchorFromLocalStorage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)(::GlobalNamespace::OVRSpatialAnchor*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
+        &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::RemoveAnchorFromLocalStorage)> {
   constexpr static std::size_t size = 0x1b8;
   constexpr static std::size_t addrs = 0x58fa75c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "RemoveAnchorFromLocalStorage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor_OperationResult>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(),
+                         { "RemoveAnchorFromLocalStorage", {}, { ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor*>(), ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor_OperationResult>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock.GetAnchorAnchorUuidFromLocalStorage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)(::System::Collections::Generic::List_1<::System::Guid>*)>(&::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::GetAnchorAnchorUuidFromLocalStorage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)(::System::Collections::Generic::List_1<::System::Guid>*)>(
+    &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::GetAnchorAnchorUuidFromLocalStorage)> {
   constexpr static std::size_t size = 0x1fc;
   constexpr static std::size_t addrs = 0x58fa32c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "GetAnchorAnchorUuidFromLocalStorage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Guid>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(),
+                                                             { "GetAnchorAnchorUuidFromLocalStorage", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::System::Guid>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(
+    &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Reset)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x58fa914;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(), { "Reset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock.OnDestroy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::OnDestroy)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(
+    &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x58fa960;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(), { "OnDestroy", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(
+    &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58fa988;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock>& Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::__cordl_internal_get__spatialAnchorCore()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____spatialAnchorCore;
+constexpr ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock>& Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::__cordl_internal_get__spatialAnchorCore() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____spatialAnchorCore;
 }
-constexpr ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock> const& Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::__cordl_internal_get__spatialAnchorCore() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____spatialAnchorCore;
+constexpr ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock> const&
+Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::__cordl_internal_get__spatialAnchorCore() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____spatialAnchorCore;
 }
-constexpr void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::__cordl_internal_set__spatialAnchorCore(::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spatialAnchorCore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::__cordl_internal_set__spatialAnchorCore(::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____spatialAnchorCore = value;
 }
-inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Start() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(), { "Start", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::SaveAnchorUuidToLocalStorage(::GlobalNamespace::OVRSpatialAnchor*  anchor, ::GlobalNamespace::OVRSpatialAnchor_OperationResult  result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "SaveAnchorUuidToLocalStorage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor_OperationResult>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, anchor, result);
+inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::SaveAnchorUuidToLocalStorage(::GlobalNamespace::OVRSpatialAnchor* anchor,
+                                                                                                                  ::GlobalNamespace::OVRSpatialAnchor_OperationResult result) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(),
+                          { "SaveAnchorUuidToLocalStorage", {}, { ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor*>(), ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor_OperationResult>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, anchor, result);
 }
-inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::RemoveAnchorFromLocalStorage(::GlobalNamespace::OVRSpatialAnchor*  anchor, ::GlobalNamespace::OVRSpatialAnchor_OperationResult  result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "RemoveAnchorFromLocalStorage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSpatialAnchor_OperationResult>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, anchor, result);
+inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::RemoveAnchorFromLocalStorage(::GlobalNamespace::OVRSpatialAnchor* anchor,
+                                                                                                                  ::GlobalNamespace::OVRSpatialAnchor_OperationResult result) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(),
+                          { "RemoveAnchorFromLocalStorage", {}, { ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor*>(), ::i2c::type_of<::GlobalNamespace::OVRSpatialAnchor_OperationResult>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, anchor, result);
 }
-inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::GetAnchorAnchorUuidFromLocalStorage(::System::Collections::Generic::List_1<::System::Guid>*  uuids)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "GetAnchorAnchorUuidFromLocalStorage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Guid>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uuids);
+inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::GetAnchorAnchorUuidFromLocalStorage(::System::Collections::Generic::List_1<::System::Guid>* uuids) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(),
+                                                           { "GetAnchorAnchorUuidFromLocalStorage", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::System::Guid>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uuids);
 }
-inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(), { "Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::OnDestroy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::OnDestroy() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(), { "OnDestroy", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock* Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>());
+inline ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock* Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock*>());
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::SpatialAnchorLocalStorageManagerBuildingBlock()   {
-}
+constexpr ::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::SpatialAnchorLocalStorageManagerBuildingBlock() {}

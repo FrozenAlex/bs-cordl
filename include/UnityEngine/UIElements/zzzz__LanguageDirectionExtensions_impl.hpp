@@ -5,31 +5,23 @@
 #include "UnityEngine/TextCore/zzzz__LanguageDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__LanguageDirection_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::LanguageDirectionExtensions.toTextCore
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LanguageDirection (*)(::UnityEngine::UIElements::LanguageDirection)>(&::UnityEngine::UIElements::LanguageDirectionExtensions::toTextCore)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::LanguageDirection (*)(::UnityEngine::UIElements::LanguageDirection)>(
+    &::UnityEngine::UIElements::LanguageDirectionExtensions::toTextCore)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6b71fa4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LanguageDirectionExtensions*>::get(),
-                        "toTextCore",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::LanguageDirection>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LanguageDirectionExtensions*>(),
+                                                                                           { "toTextCore", {}, { ::i2c::type_of<::UnityEngine::UIElements::LanguageDirection>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::TextCore::LanguageDirection UnityEngine::UIElements::LanguageDirectionExtensions::toTextCore(::UnityEngine::UIElements::LanguageDirection  dir)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LanguageDirectionExtensions*>::get(),
-                        "toTextCore",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::LanguageDirection>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LanguageDirection, false>(nullptr, ___internal_method, dir);
+inline ::UnityEngine::TextCore::LanguageDirection UnityEngine::UIElements::LanguageDirectionExtensions::toTextCore(::UnityEngine::UIElements::LanguageDirection dir) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LanguageDirectionExtensions*>(),
+                                                                                         { "toTextCore", {}, { ::i2c::type_of<::UnityEngine::UIElements::LanguageDirection>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LanguageDirection>(nullptr, ___internal_method, dir);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::LanguageDirectionExtensions::LanguageDirectionExtensions()   {
-}
+constexpr ::UnityEngine::UIElements::LanguageDirectionExtensions::LanguageDirectionExtensions() {}

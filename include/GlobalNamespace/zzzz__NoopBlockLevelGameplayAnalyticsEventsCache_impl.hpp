@@ -9,224 +9,200 @@
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache.AddGoodCut
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(float_t, float_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddGoodCut)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(
+    float_t, float_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(
+    &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddGoodCut)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58bd394;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddGoodCut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData_GameplayType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(),
+                            { "AddGoodCut",
+                              {},
+                              { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::ColorType>(), ::i2c::type_of<::GlobalNamespace::NoteData_GameplayType>(),
+                                ::i2c::type_of<::System::Nullable_1<int32_t>>(), ::i2c::type_of<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache.AddBadCut
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(float_t, ::GlobalNamespace::NoteCutInfo_FailReason, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBadCut)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(
+    float_t, ::GlobalNamespace::NoteCutInfo_FailReason, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>,
+    ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBadCut)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58bd398;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddBadCut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteCutInfo_FailReason>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData_GameplayType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(),
+                                                             { "AddBadCut",
+                                                               {},
+                                                               { ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::NoteCutInfo_FailReason>(), ::i2c::type_of<::GlobalNamespace::ColorType>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::NoteData_GameplayType>(), ::i2c::type_of<::System::Nullable_1<int32_t>>(),
+                                                                 ::i2c::type_of<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache.AddBlockMiss
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(float_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBlockMiss)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(
+    float_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(
+    &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBlockMiss)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58bd39c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddBlockMiss",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData_GameplayType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(),
+                                                             { "AddBlockMiss",
+                                                               {},
+                                                               { ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::ColorType>(), ::i2c::type_of<::GlobalNamespace::NoteData_GameplayType>(),
+                                                                 ::i2c::type_of<::System::Nullable_1<int32_t>>(), ::i2c::type_of<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache.AddBombCut
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(float_t)>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBombCut)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(float_t)>(
+    &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBombCut)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58bd3a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddBombCut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { "AddBombCut", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache.AddObstacleHit
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(float_t, float_t)>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddObstacleHit)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(float_t, float_t)>(
+    &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddObstacleHit)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58bd3a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddObstacleHit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(),
+                                                                                           { "AddObstacleHit", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache.SerializeJSON
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)()>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::SerializeJSON)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)()>(
+    &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::SerializeJSON)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x58bd3a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "SerializeJSON",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { "SerializeJSON", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache.IsEmpty
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)()>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::IsEmpty)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)()>(
+    &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::IsEmpty)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x58bd3b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "IsEmpty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { "IsEmpty", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)()>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)()>(
+    &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58bd3b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddGoodCut(float_t  beat, float_t  score, ::GlobalNamespace::ColorType  colorType, ::GlobalNamespace::NoteData_GameplayType  gameplayType, ::System::Nullable_1<int32_t>  lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>  lineLayer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddGoodCut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData_GameplayType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, score, colorType, gameplayType, lineIndex, lineLayer);
+inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddGoodCut(float_t beat, float_t score, ::GlobalNamespace::ColorType colorType,
+                                                                                    ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
+                                                                                    ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(),
+                          { "AddGoodCut",
+                            {},
+                            { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::ColorType>(), ::i2c::type_of<::GlobalNamespace::NoteData_GameplayType>(),
+                              ::i2c::type_of<::System::Nullable_1<int32_t>>(), ::i2c::type_of<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beat, score, colorType, gameplayType, lineIndex, lineLayer);
 }
-inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBadCut(float_t  beat, ::GlobalNamespace::NoteCutInfo_FailReason  failReason, ::GlobalNamespace::ColorType  colorType, ::GlobalNamespace::NoteData_GameplayType  gameplayType, ::System::Nullable_1<int32_t>  lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>  lineLayer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddBadCut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteCutInfo_FailReason>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData_GameplayType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, failReason, colorType, gameplayType, lineIndex, lineLayer);
+inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBadCut(float_t beat, ::GlobalNamespace::NoteCutInfo_FailReason failReason, ::GlobalNamespace::ColorType colorType,
+                                                                                   ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
+                                                                                   ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(),
+                                                           { "AddBadCut",
+                                                             {},
+                                                             { ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::NoteCutInfo_FailReason>(), ::i2c::type_of<::GlobalNamespace::ColorType>(),
+                                                               ::i2c::type_of<::GlobalNamespace::NoteData_GameplayType>(), ::i2c::type_of<::System::Nullable_1<int32_t>>(),
+                                                               ::i2c::type_of<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beat, failReason, colorType, gameplayType, lineIndex, lineLayer);
 }
-inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBlockMiss(float_t  beat, ::GlobalNamespace::ColorType  colorType, ::GlobalNamespace::NoteData_GameplayType  gameplayType, ::System::Nullable_1<int32_t>  lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>  lineLayer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddBlockMiss",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData_GameplayType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, colorType, gameplayType, lineIndex, lineLayer);
+inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBlockMiss(float_t beat, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType,
+                                                                                      ::System::Nullable_1<int32_t> lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(),
+                                                           { "AddBlockMiss",
+                                                             {},
+                                                             { ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::ColorType>(), ::i2c::type_of<::GlobalNamespace::NoteData_GameplayType>(),
+                                                               ::i2c::type_of<::System::Nullable_1<int32_t>>(), ::i2c::type_of<::System::Nullable_1<::GlobalNamespace::NoteLineLayer>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beat, colorType, gameplayType, lineIndex, lineLayer);
 }
-inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBombCut(float_t  beat)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddBombCut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat);
+inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBombCut(float_t beat) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { "AddBombCut", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beat);
 }
-inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddObstacleHit(float_t  beat, float_t  duration)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "AddObstacleHit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, duration);
+inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddObstacleHit(float_t beat, float_t duration) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(),
+                                                                                         { "AddObstacleHit", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beat, duration);
 }
-inline ::StringW GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::SerializeJSON()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "SerializeJSON",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::SerializeJSON() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { "SerializeJSON", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline bool GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::IsEmpty()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        "IsEmpty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::IsEmpty() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { "IsEmpty", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache* GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>());
+inline ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache* GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>());
 }
 /// @brief Convert operator to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"
-constexpr  GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::operator ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*() noexcept {
-return static_cast<::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*>(static_cast<void*>(this));
+constexpr GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::operator ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*() noexcept {
+  return static_cast<::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"
-constexpr ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache* GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::i___GlobalNamespace__IBlockLevelGameplayAnalyticsEventsCache() noexcept {
-return static_cast<::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*>(static_cast<void*>(this));
+constexpr ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*
+GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::i___GlobalNamespace__IBlockLevelGameplayAnalyticsEventsCache() noexcept {
+  return static_cast<::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::NoopBlockLevelGameplayAnalyticsEventsCache()   {
-}
+constexpr ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::NoopBlockLevelGameplayAnalyticsEventsCache() {}

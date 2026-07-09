@@ -4,118 +4,84 @@
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__KeyValue_2_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapData_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::*)(
+    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x638cb3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::*)()>(
+    &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x638cb54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::*)()>(
+    &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::Reset)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x638cb9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(), { "Reset", {}, {} })));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::_ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*  data)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::_ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, data);
 }
-inline bool Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(), { "Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template<typename TKey,typename TValue>
-inline ::Unity::Collections::LowLevel::Unsafe::KeyValue_2<TKey,TValue> Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::GetCurrent()  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>::get(),
-                    "GetCurrent",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()},
-                    ::std::span<const Il2CppType* const, 0>()
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::LowLevel::Unsafe::KeyValue_2<TKey,TValue>, false>(this, ___internal_method);
+template <typename TKey, typename TValue>
+inline ::Unity::Collections::LowLevel::Unsafe::KeyValue_2<TKey, TValue> Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::GetCurrent() {
+  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(),
+                                                                                              { "GetCurrent", { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() }, {} })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::LowLevel::Unsafe::KeyValue_2<TKey, TValue>>(*this, ___internal_method);
 }
-template<typename TKey>
-inline TKey Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::GetCurrentKey()  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>::get(),
-                    "GetCurrentKey",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()},
-                    ::std::span<const Il2CppType* const, 0>()
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<TKey, false>(this, ___internal_method);
+template <typename TKey> inline TKey Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::GetCurrentKey() {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(), { "GetCurrentKey", { ::i2c::class_of<TKey>() }, {} })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TKey>() })));
+  return ::cordl_internals::RunMethodRethrow<TKey>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BucketIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NextIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::UnsafeParallelHashMapDataEnumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*  m_Buffer, int32_t  m_Index, int32_t  m_BucketIndex, int32_t  m_NextIndex) noexcept  {
-this->m_Buffer = m_Buffer;
-this->m_Index = m_Index;
-this->m_BucketIndex = m_BucketIndex;
-this->m_NextIndex = m_NextIndex;
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty:
+// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BucketIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NextIndex", ty: "int32_t", modifiers:
+// "", def_value: Some("{}") }]
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::UnsafeParallelHashMapDataEnumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer,
+                                                                                                                           int32_t m_Index, int32_t m_BucketIndex, int32_t m_NextIndex) noexcept {
+  this->m_Buffer = m_Buffer;
+  this->m_Index = m_Index;
+  this->m_BucketIndex = m_BucketIndex;
+  this->m_NextIndex = m_NextIndex;
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::UnsafeParallelHashMapDataEnumerator()   {
-}
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::UnsafeParallelHashMapDataEnumerator() {}

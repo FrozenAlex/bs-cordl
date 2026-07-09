@@ -7,83 +7,81 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::IOUtil.FlagTest
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::Serialization::Formatters::Binary::MessageEnum, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum)>(&::System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::Serialization::Formatters::Binary::MessageEnum, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum)>(
+    &::System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5a1b7f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>::get(),
-                        "FlagTest",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::MessageEnum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::MessageEnum>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>(),
+                                                                                           { "FlagTest",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::MessageEnum>(),
+                                                                                               ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::MessageEnum>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::IOUtil.WriteStringWithCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&::System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteStringWithCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(
+    &::System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteStringWithCode)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5a1b800;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>::get(),
-                        "WriteStringWithCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>(),
+                                         { "WriteStringWithCode", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::IOUtil.WriteWithCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Object*, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&::System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWithCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::System::Object*, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(
+    &::System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWithCode)> {
   constexpr static std::size_t size = 0x120;
   constexpr static std::size_t addrs = 0x5a1b87c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>::get(),
-                        "WriteWithCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>(),
+                            { "WriteWithCode",
+                              {},
+                              { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>() } })));
     return ___internal_method;
   }
 };
-inline bool System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest(::System::Runtime::Serialization::Formatters::Binary::MessageEnum  flag, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum  target)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>::get(),
-                        "FlagTest",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::MessageEnum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::MessageEnum>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, flag, target);
+inline bool System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest(::System::Runtime::Serialization::Formatters::Binary::MessageEnum flag,
+                                                                                 ::System::Runtime::Serialization::Formatters::Binary::MessageEnum target) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>(),
+                                                                                         { "FlagTest",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::MessageEnum>(),
+                                                                                             ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::MessageEnum>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, flag, target);
 }
-inline void System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteStringWithCode(::StringW  value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*  sout)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>::get(),
-                        "WriteStringWithCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value, sout);
+inline void System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteStringWithCode(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>(),
+                                       { "WriteStringWithCode", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value, sout);
 }
-inline void System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWithCode(::System::Type*  type, ::System::Object*  value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*  sout)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>::get(),
-                        "WriteWithCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, value, sout);
+inline void System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWithCode(::System::Type* type, ::System::Object* value,
+                                                                                      ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::IOUtil*>(),
+                          { "WriteWithCode",
+                            {},
+                            { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, type, value, sout);
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Serialization::Formatters::Binary::IOUtil::IOUtil()   {
-}
+constexpr ::System::Runtime::Serialization::Formatters::Binary::IOUtil::IOUtil() {}

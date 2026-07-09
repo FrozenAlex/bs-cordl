@@ -8,147 +8,127 @@
 #include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)(::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)(::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
+    &::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor)> {
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x334bb24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)(
+    ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x334bc60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(),
+                            { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::i2c::type_of<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory.get_AlgorithmDetails
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)()>(&::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::get_AlgorithmDetails)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)()>(
+    &::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::get_AlgorithmDetails)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x334bc68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>::get(),
-                        "get_AlgorithmDetails",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(), { "get_AlgorithmDetails", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory.CreateCalculator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IStreamCalculator* (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)()>(&::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::CreateCalculator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IStreamCalculator* (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)()>(
+    &::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::CreateCalculator)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x334bc70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>::get(),
-                        "CreateCalculator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(), { "CreateCalculator", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_get_algID()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___algID;
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_get_algID() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___algID;
 }
 constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_get_algID() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___algID;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___algID;
 }
-constexpr void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___algID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___algID = value;
 }
-constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_get_publicKey()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___publicKey;
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_get_publicKey() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___publicKey;
 }
 constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_get_publicKey() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___publicKey;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___publicKey;
 }
-constexpr void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::__cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___publicKey = value;
 }
-inline void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor(::StringW  algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, algorithm, publicKey);
+inline void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, algorithm, publicKey);
 }
-inline void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, algorithm, publicKey);
+inline void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
+                                                                             ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(),
+                          { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::i2c::type_of<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, algorithm, publicKey);
 }
-inline ::System::Object* Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::get_AlgorithmDetails()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>::get(),
-                        "get_AlgorithmDetails",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::get_AlgorithmDetails() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(), { "get_AlgorithmDetails", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Crypto::IStreamCalculator* Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::CreateCalculator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>::get(),
-                        "CreateCalculator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::IStreamCalculator*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Crypto::IStreamCalculator* Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::CreateCalculator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(), { "CreateCalculator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::IStreamCalculator*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::New_ctor(::StringW  algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(algorithm, publicKey));
+inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*
+Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(algorithm, publicKey));
 }
-inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(algorithm, publicKey));
+inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*
+Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory*>(algorithm, publicKey));
 }
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifierFactory"
-constexpr  Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::operator ::Org::BouncyCastle::Crypto::IVerifierFactory*() noexcept {
-return static_cast<::Org::BouncyCastle::Crypto::IVerifierFactory*>(static_cast<void*>(this));
+constexpr Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::operator ::Org::BouncyCastle::Crypto::IVerifierFactory*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IVerifierFactory*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactory"
 constexpr ::Org::BouncyCastle::Crypto::IVerifierFactory* Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::i___Org__BouncyCastle__Crypto__IVerifierFactory() noexcept {
-return static_cast<::Org::BouncyCastle::Crypto::IVerifierFactory*>(static_cast<void*>(this));
+  return static_cast<::Org::BouncyCastle::Crypto::IVerifierFactory*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::Asn1VerifierFactory()   {
-}
+constexpr ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::Asn1VerifierFactory() {}

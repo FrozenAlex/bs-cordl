@@ -8,429 +8,308 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.get_color
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_color)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_color)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x5e04b08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_color", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.get_overrideEnabled
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_overrideEnabled)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_overrideEnabled)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e04b34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_overrideEnabled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_overrideEnabled", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.set_overrideEnabled
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(bool)>(&::StyledUITemplates::ColorOverrideOption::set_overrideEnabled)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(bool)>(&::StyledUITemplates::ColorOverrideOption::set_overrideEnabled)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e04b3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "set_overrideEnabled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "set_overrideEnabled", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.get_useFixedColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_useFixedColor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_useFixedColor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e04b44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_useFixedColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_useFixedColor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.set_useFixedColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(bool)>(&::StyledUITemplates::ColorOverrideOption::set_useFixedColor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(bool)>(&::StyledUITemplates::ColorOverrideOption::set_useFixedColor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e04b4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "set_useFixedColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "set_useFixedColor", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.get_fixedColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_fixedColor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_fixedColor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5e04b54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_fixedColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_fixedColor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.set_fixedColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::UnityEngine::Color)>(&::StyledUITemplates::ColorOverrideOption::set_fixedColor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::UnityEngine::Color)>(&::StyledUITemplates::ColorOverrideOption::set_fixedColor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5e04b60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "set_fixedColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "set_fixedColor", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.get_scriptableObjectColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ColorSO> (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_scriptableObjectColor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::ColorSO> (::StyledUITemplates::ColorOverrideOption::*)()>(
+    &::StyledUITemplates::ColorOverrideOption::get_scriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e04b6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_scriptableObjectColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_scriptableObjectColor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.set_scriptableObjectColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::GlobalNamespace::ColorSO*)>(&::StyledUITemplates::ColorOverrideOption::set_scriptableObjectColor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::GlobalNamespace::ColorSO*)>(
+    &::StyledUITemplates::ColorOverrideOption::set_scriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e04b74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "set_scriptableObjectColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorSO*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "set_scriptableObjectColor", {}, { ::i2c::type_of<::GlobalNamespace::ColorSO*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5e04b7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::StyledUITemplates::ColorOverrideOption*)>(&::StyledUITemplates::ColorOverrideOption::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::StyledUITemplates::ColorOverrideOption*)>(
+    &::StyledUITemplates::ColorOverrideOption::_ctor)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x5e04b88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StyledUITemplates::ColorOverrideOption*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { ".ctor", {}, { ::i2c::type_of<::StyledUITemplates::ColorOverrideOption*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)(::StyledUITemplates::ColorOverrideOption*)>(&::StyledUITemplates::ColorOverrideOption::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)(::StyledUITemplates::ColorOverrideOption*)>(
+    &::StyledUITemplates::ColorOverrideOption::Equals)> {
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x5e04bbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StyledUITemplates::ColorOverrideOption*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "Equals", {}, { ::i2c::type_of<::StyledUITemplates::ColorOverrideOption*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)(::System::Object*)>(&::StyledUITemplates::ColorOverrideOption::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)(::System::Object*)>(&::StyledUITemplates::ColorOverrideOption::Equals)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x5e04d0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { ::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::GetHashCode)> {
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x5e04e00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { ::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), 2 }));
     return ___internal_method;
   }
 };
-constexpr bool& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__override()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____override;
+constexpr bool& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__override() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____override;
 }
 constexpr bool const& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__override() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____override;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____override;
 }
-constexpr void StyledUITemplates::ColorOverrideOption::__cordl_internal_set__override(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____override = value;
+constexpr void StyledUITemplates::ColorOverrideOption::__cordl_internal_set__override(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____override = value;
 }
-constexpr bool& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__useFixedColor()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____useFixedColor;
+constexpr bool& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__useFixedColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useFixedColor;
 }
 constexpr bool const& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__useFixedColor() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____useFixedColor;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useFixedColor;
 }
-constexpr void StyledUITemplates::ColorOverrideOption::__cordl_internal_set__useFixedColor(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____useFixedColor = value;
+constexpr void StyledUITemplates::ColorOverrideOption::__cordl_internal_set__useFixedColor(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____useFixedColor = value;
 }
-constexpr ::UnityEngine::Color& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__fixedColor()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fixedColor;
+constexpr ::UnityEngine::Color& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__fixedColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fixedColor;
 }
 constexpr ::UnityEngine::Color const& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__fixedColor() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fixedColor;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fixedColor;
 }
-constexpr void StyledUITemplates::ColorOverrideOption::__cordl_internal_set__fixedColor(::UnityEngine::Color  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____fixedColor = value;
+constexpr void StyledUITemplates::ColorOverrideOption::__cordl_internal_set__fixedColor(::UnityEngine::Color value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____fixedColor = value;
 }
-constexpr ::UnityW<::GlobalNamespace::ColorSO>& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__scriptableObjectColor()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____scriptableObjectColor;
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__scriptableObjectColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scriptableObjectColor;
 }
 constexpr ::UnityW<::GlobalNamespace::ColorSO> const& StyledUITemplates::ColorOverrideOption::__cordl_internal_get__scriptableObjectColor() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____scriptableObjectColor;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scriptableObjectColor;
 }
-constexpr void StyledUITemplates::ColorOverrideOption::__cordl_internal_set__scriptableObjectColor(::UnityW<::GlobalNamespace::ColorSO>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scriptableObjectColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void StyledUITemplates::ColorOverrideOption::__cordl_internal_set__scriptableObjectColor(::UnityW<::GlobalNamespace::ColorSO> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____scriptableObjectColor = value;
 }
-inline ::UnityEngine::Color StyledUITemplates::ColorOverrideOption::get_color()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
+inline ::UnityEngine::Color StyledUITemplates::ColorOverrideOption::get_color() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_color", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline bool StyledUITemplates::ColorOverrideOption::get_overrideEnabled()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_overrideEnabled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool StyledUITemplates::ColorOverrideOption::get_overrideEnabled() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_overrideEnabled", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void StyledUITemplates::ColorOverrideOption::set_overrideEnabled(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "set_overrideEnabled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void StyledUITemplates::ColorOverrideOption::set_overrideEnabled(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "set_overrideEnabled", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline bool StyledUITemplates::ColorOverrideOption::get_useFixedColor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_useFixedColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool StyledUITemplates::ColorOverrideOption::get_useFixedColor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_useFixedColor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void StyledUITemplates::ColorOverrideOption::set_useFixedColor(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "set_useFixedColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void StyledUITemplates::ColorOverrideOption::set_useFixedColor(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "set_useFixedColor", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Color StyledUITemplates::ColorOverrideOption::get_fixedColor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_fixedColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
+inline ::UnityEngine::Color StyledUITemplates::ColorOverrideOption::get_fixedColor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_fixedColor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline void StyledUITemplates::ColorOverrideOption::set_fixedColor(::UnityEngine::Color  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "set_fixedColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void StyledUITemplates::ColorOverrideOption::set_fixedColor(::UnityEngine::Color value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "set_fixedColor", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::GlobalNamespace::ColorSO> StyledUITemplates::ColorOverrideOption::get_scriptableObjectColor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "get_scriptableObjectColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::ColorSO>, false>(this, ___internal_method);
+inline ::UnityW<::GlobalNamespace::ColorSO> StyledUITemplates::ColorOverrideOption::get_scriptableObjectColor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_scriptableObjectColor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::ColorSO>>(this, ___internal_method);
 }
-inline void StyledUITemplates::ColorOverrideOption::set_scriptableObjectColor(::GlobalNamespace::ColorSO*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "set_scriptableObjectColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorSO*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void StyledUITemplates::ColorOverrideOption::set_scriptableObjectColor(::GlobalNamespace::ColorSO* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "set_scriptableObjectColor", {}, { ::i2c::type_of<::GlobalNamespace::ColorSO*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void StyledUITemplates::ColorOverrideOption::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void StyledUITemplates::ColorOverrideOption::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void StyledUITemplates::ColorOverrideOption::_ctor(::StyledUITemplates::ColorOverrideOption*  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StyledUITemplates::ColorOverrideOption*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+inline void StyledUITemplates::ColorOverrideOption::_ctor(::StyledUITemplates::ColorOverrideOption* other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { ".ctor", {}, { ::i2c::type_of<::StyledUITemplates::ColorOverrideOption*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, other);
 }
-inline bool StyledUITemplates::ColorOverrideOption::Equals(::StyledUITemplates::ColorOverrideOption*  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StyledUITemplates::ColorOverrideOption*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool StyledUITemplates::ColorOverrideOption::Equals(::StyledUITemplates::ColorOverrideOption* other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "Equals", {}, { ::i2c::type_of<::StyledUITemplates::ColorOverrideOption*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, other);
 }
-inline bool StyledUITemplates::ColorOverrideOption::Equals(::System::Object*  obj)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool StyledUITemplates::ColorOverrideOption::Equals(::System::Object* obj) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, obj);
 }
-inline int32_t StyledUITemplates::ColorOverrideOption::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t StyledUITemplates::ColorOverrideOption::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::StyledUITemplates::ColorOverrideOption* StyledUITemplates::ColorOverrideOption::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::StyledUITemplates::ColorOverrideOption*>());
+inline ::StyledUITemplates::ColorOverrideOption* StyledUITemplates::ColorOverrideOption::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::StyledUITemplates::ColorOverrideOption*>());
 }
-inline ::StyledUITemplates::ColorOverrideOption* StyledUITemplates::ColorOverrideOption::New_ctor(::StyledUITemplates::ColorOverrideOption*  other)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::StyledUITemplates::ColorOverrideOption*>(other));
+inline ::StyledUITemplates::ColorOverrideOption* StyledUITemplates::ColorOverrideOption::New_ctor(::StyledUITemplates::ColorOverrideOption* other) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::StyledUITemplates::ColorOverrideOption*>(other));
 }
 /// @brief Convert operator to "::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>"
-constexpr  StyledUITemplates::ColorOverrideOption::operator ::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>*() noexcept {
-return static_cast<::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>*>(static_cast<void*>(this));
+constexpr StyledUITemplates::ColorOverrideOption::operator ::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>*() noexcept {
+  return static_cast<::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>"
 constexpr ::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>* StyledUITemplates::ColorOverrideOption::i___System__IEquatable_1___StyledUITemplates__ColorOverrideOption__() noexcept {
-return static_cast<::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>*>(static_cast<void*>(this));
+  return static_cast<::System::IEquatable_1<::StyledUITemplates::ColorOverrideOption*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::StyledUITemplates::ColorOverrideOption::ColorOverrideOption()   {
-}
+constexpr ::StyledUITemplates::ColorOverrideOption::ColorOverrideOption() {}

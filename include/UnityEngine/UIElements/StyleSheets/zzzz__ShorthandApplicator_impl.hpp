@@ -15,549 +15,618 @@
 #include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyBackgroundPosition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBackgroundPosition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBackgroundPosition)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x6bb0440;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyBackgroundPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                            { "ApplyBackgroundPosition",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyBorderColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderColor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderColor)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x6bb09bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyBorderColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+            { "ApplyBorderColor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyBorderRadius
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderRadius)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderRadius)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x6bb0c48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyBorderRadius",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+            { "ApplyBorderRadius", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyBorderWidth
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderWidth)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderWidth)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x6bb0e18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyBorderWidth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+            { "ApplyBorderWidth", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyFlex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyFlex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyFlex)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x6bb0fc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyFlex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+            { "ApplyFlex", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyMargin
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyMargin)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyMargin)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x6bb1284;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyMargin",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+            { "ApplyMargin", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyPadding
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyPadding)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyPadding)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x6bb14d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyPadding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+            { "ApplyPadding", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyTransition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyTransition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyTransition)> {
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x6bb15c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyTransition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+            { "ApplyTransition", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyUnityBackgroundScaleMode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityBackgroundScaleMode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityBackgroundScaleMode)> {
   constexpr static std::size_t size = 0x11c;
   constexpr static std::size_t addrs = 0x6bb1dec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyUnityBackgroundScaleMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                            { "ApplyUnityBackgroundScaleMode",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.ApplyUnityTextOutline
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityTextOutline)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityTextOutline)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x6bb1f90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyUnityTextOutline",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                            { "ApplyUnityTextOutline",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.CompileFlexShorthand
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<::UnityEngine::UIElements::Length>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileFlexShorthand)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<float_t>, ::by_ref<float_t>,
+                                                                ::by_ref<::UnityEngine::UIElements::Length>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileFlexShorthand)> {
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x6bb1098;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileFlexShorthand",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                             { "CompileFlexShorthand",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<float_t>>(),
+                                                                 ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.CompileBorderRadius
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::Length>, ::ByRef<::UnityEngine::UIElements::Length>, ::ByRef<::UnityEngine::UIElements::Length>, ::ByRef<::UnityEngine::UIElements::Length>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBorderRadius)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::Length>,
+                                                                ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBorderRadius)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x6bb0d3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBorderRadius",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                             { "CompileBorderRadius",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.CompileBackgroundPosition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::BackgroundPosition>, ::ByRef<::UnityEngine::UIElements::BackgroundPosition>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBackgroundPosition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::BackgroundPosition>,
+                                                                ::by_ref<::UnityEngine::UIElements::BackgroundPosition>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBackgroundPosition)> {
   constexpr static std::size_t size = 0x4a4;
   constexpr static std::size_t addrs = 0x6bb0518;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBackgroundPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPosition>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPosition>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                         { "CompileBackgroundPosition",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPosition>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPosition>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.CompileUnityBackgroundScaleMode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::BackgroundPosition>, ::ByRef<::UnityEngine::UIElements::BackgroundPosition>, ::ByRef<::UnityEngine::UIElements::BackgroundRepeat>, ::ByRef<::UnityEngine::UIElements::BackgroundSize>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileUnityBackgroundScaleMode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::BackgroundPosition>, ::by_ref<::UnityEngine::UIElements::BackgroundPosition>,
+                         ::by_ref<::UnityEngine::UIElements::BackgroundRepeat>, ::by_ref<::UnityEngine::UIElements::BackgroundSize>)>(
+        &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileUnityBackgroundScaleMode)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x6bb1f08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileUnityBackgroundScaleMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPosition>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPosition>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundRepeat>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundSize>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                         { "CompileUnityBackgroundScaleMode",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPosition>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPosition>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundRepeat>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundSize>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.CompileBoxArea
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::UIElements::Length>, ::ByRef<::UnityEngine::UIElements::Length>, ::ByRef<::UnityEngine::UIElements::Length>, ::ByRef<::UnityEngine::UIElements::Length>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::Length>,
+                                                                ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x6bb1378;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBoxArea",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                             { "CompileBoxArea",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.CompileBoxArea
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<float_t>, ::by_ref<float_t>, ::by_ref<float_t>,
+                                                                ::by_ref<float_t>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x6bb0f08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBoxArea",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                             { "CompileBoxArea",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<float_t>>(),
+                                                                 ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.CompileBoxArea
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::Color>, ::ByRef<::UnityEngine::Color>, ::ByRef<::UnityEngine::Color>, ::ByRef<::UnityEngine::Color>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::Color>, ::by_ref<::UnityEngine::Color>,
+                                                                ::by_ref<::UnityEngine::Color>, ::by_ref<::UnityEngine::Color>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
   constexpr static std::size_t size = 0x194;
   constexpr static std::size_t addrs = 0x6bb0ab4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBoxArea",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                            { "CompileBoxArea",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Color>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.CompileTextOutline
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::UnityEngine::Color>, ::ByRef<float_t>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTextOutline)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::Color>, ::by_ref<float_t>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTextOutline)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x6bb2050;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileTextOutline",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                                                           { "CompileTextOutline",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Color>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator.CompileTransition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTransition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>,
+    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>,
+    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTransition)> {
   constexpr static std::size_t size = 0x6d0;
   constexpr static std::size_t addrs = 0x6bb171c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileTransition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                             { "CompileTransition",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(),
+                                                                 ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>>(),
+                                                                 ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>>(),
+                                                                 ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>>(),
+                                                                 ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator._CompileBackgroundPosition_g__SwapKeyword_16_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>, ::ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::_CompileBackgroundPosition_g__SwapKeyword_16_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword>, ::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword>)>(
+    &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::_CompileBackgroundPosition_g__SwapKeyword_16_0)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6bb20fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "<CompileBackgroundPosition>g__SwapKeyword|16_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                                                           { "<CompileBackgroundPosition>g__SwapKeyword|16_0",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword>>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword>>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::setStaticF_s_TransitionDelayList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*, "s_TransitionDelayList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get>(std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>(value));
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::setStaticF_s_TransitionDelayList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*, "s_TransitionDelayList",
+                                    ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* UnityEngine::UIElements::StyleSheets::ShorthandApplicator::getStaticF_s_TransitionDelayList()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*, "s_TransitionDelayList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get>();
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* UnityEngine::UIElements::StyleSheets::ShorthandApplicator::getStaticF_s_TransitionDelayList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*, "s_TransitionDelayList",
+                                           ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>();
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::setStaticF_s_TransitionDurationList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*, "s_TransitionDurationList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get>(std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>(value));
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::setStaticF_s_TransitionDurationList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*, "s_TransitionDurationList",
+                                    ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* UnityEngine::UIElements::StyleSheets::ShorthandApplicator::getStaticF_s_TransitionDurationList()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*, "s_TransitionDurationList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get>();
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* UnityEngine::UIElements::StyleSheets::ShorthandApplicator::getStaticF_s_TransitionDurationList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*, "s_TransitionDurationList",
+                                           ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>();
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::setStaticF_s_TransitionPropertyList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*, "s_TransitionPropertyList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get>(std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>(value));
+inline void
+UnityEngine::UIElements::StyleSheets::ShorthandApplicator::setStaticF_s_TransitionPropertyList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*, "s_TransitionPropertyList",
+                                    ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(
+      std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* UnityEngine::UIElements::StyleSheets::ShorthandApplicator::getStaticF_s_TransitionPropertyList()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*, "s_TransitionPropertyList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get>();
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* UnityEngine::UIElements::StyleSheets::ShorthandApplicator::getStaticF_s_TransitionPropertyList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*, "s_TransitionPropertyList",
+                                           ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>();
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::setStaticF_s_TransitionTimingFunctionList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*, "s_TransitionTimingFunctionList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get>(std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>(value));
+inline void
+UnityEngine::UIElements::StyleSheets::ShorthandApplicator::setStaticF_s_TransitionTimingFunctionList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*, "s_TransitionTimingFunctionList",
+                                    ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(
+      std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* UnityEngine::UIElements::StyleSheets::ShorthandApplicator::getStaticF_s_TransitionTimingFunctionList()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*, "s_TransitionTimingFunctionList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get>();
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* UnityEngine::UIElements::StyleSheets::ShorthandApplicator::getStaticF_s_TransitionTimingFunctionList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*, "s_TransitionTimingFunctionList",
+                                           ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>();
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBackgroundPosition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyBackgroundPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBackgroundPosition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                               ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                       { "ApplyBackgroundPosition",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderColor(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyBorderColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderColor(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                        ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+          { "ApplyBorderColor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyBorderRadius",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                         ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+          { "ApplyBorderRadius", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderWidth(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyBorderWidth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderWidth(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                        ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+          { "ApplyBorderWidth", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyFlex(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyFlex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyFlex(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                 ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                       { "ApplyFlex", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyMargin(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyMargin",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyMargin(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                   ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+          { "ApplyMargin", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyPadding(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyPadding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyPadding(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                    ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+          { "ApplyPadding", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyTransition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                       ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+          { "ApplyTransition", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityBackgroundScaleMode(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyUnityBackgroundScaleMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityBackgroundScaleMode(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                                     ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                       { "ApplyUnityBackgroundScaleMode",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::ComputedStyle>  computedStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "ApplyUnityTextOutline",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, computedStyle);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                             ::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+          { "ApplyUnityTextOutline", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::ComputedStyle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, computedStyle);
 }
-inline bool UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileFlexShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<float_t>  grow, ::ByRef<float_t>  shrink, ::ByRef<::UnityEngine::UIElements::Length>  basis)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileFlexShorthand",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, reader, grow, shrink, basis);
+inline bool UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileFlexShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ::by_ref<float_t> grow,
+                                                                                            ::by_ref<float_t> shrink, ::by_ref<::UnityEngine::UIElements::Length> basis) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                           { "CompileFlexShorthand",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<float_t>>(),
+                                                               ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, reader, grow, shrink, basis);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::Length>  top, ::ByRef<::UnityEngine::UIElements::Length>  right, ::ByRef<::UnityEngine::UIElements::Length>  bottom, ::ByRef<::UnityEngine::UIElements::Length>  left)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBorderRadius",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, top, right, bottom, left);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                           ::by_ref<::UnityEngine::UIElements::Length> top, ::by_ref<::UnityEngine::UIElements::Length> right,
+                                                                                           ::by_ref<::UnityEngine::UIElements::Length> bottom, ::by_ref<::UnityEngine::UIElements::Length> left) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                           { "CompileBorderRadius",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, top, right, bottom, left);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBackgroundPosition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::BackgroundPosition>  backgroundPositionX, ::ByRef<::UnityEngine::UIElements::BackgroundPosition>  backgroundPositionY)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBackgroundPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPosition>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPosition>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, backgroundPositionX, backgroundPositionY);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBackgroundPosition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                                 ::by_ref<::UnityEngine::UIElements::BackgroundPosition> backgroundPositionX,
+                                                                                                 ::by_ref<::UnityEngine::UIElements::BackgroundPosition> backgroundPositionY) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                       { "CompileBackgroundPosition",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPosition>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPosition>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, backgroundPositionX, backgroundPositionY);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileUnityBackgroundScaleMode(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::BackgroundPosition>  backgroundPositionX, ::ByRef<::UnityEngine::UIElements::BackgroundPosition>  backgroundPositionY, ::ByRef<::UnityEngine::UIElements::BackgroundRepeat>  backgroundRepeat, ::ByRef<::UnityEngine::UIElements::BackgroundSize>  backgroundSize)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileUnityBackgroundScaleMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPosition>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPosition>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundRepeat>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundSize>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, backgroundPositionX, backgroundPositionY, backgroundRepeat, backgroundSize);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileUnityBackgroundScaleMode(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                                       ::by_ref<::UnityEngine::UIElements::BackgroundPosition> backgroundPositionX,
+                                                                                                       ::by_ref<::UnityEngine::UIElements::BackgroundPosition> backgroundPositionY,
+                                                                                                       ::by_ref<::UnityEngine::UIElements::BackgroundRepeat> backgroundRepeat,
+                                                                                                       ::by_ref<::UnityEngine::UIElements::BackgroundSize> backgroundSize) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                              { "CompileUnityBackgroundScaleMode",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPosition>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPosition>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundRepeat>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundSize>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, backgroundPositionX, backgroundPositionY, backgroundRepeat, backgroundSize);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::UIElements::Length>  top, ::ByRef<::UnityEngine::UIElements::Length>  right, ::ByRef<::UnityEngine::UIElements::Length>  bottom, ::ByRef<::UnityEngine::UIElements::Length>  left)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBoxArea",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::Length>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, top, right, bottom, left);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                      ::by_ref<::UnityEngine::UIElements::Length> top, ::by_ref<::UnityEngine::UIElements::Length> right,
+                                                                                      ::by_ref<::UnityEngine::UIElements::Length> bottom, ::by_ref<::UnityEngine::UIElements::Length> left) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                           { "CompileBoxArea",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Length>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, top, right, bottom, left);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<float_t>  top, ::ByRef<float_t>  right, ::ByRef<float_t>  bottom, ::ByRef<float_t>  left)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBoxArea",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, top, right, bottom, left);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ::by_ref<float_t> top,
+                                                                                      ::by_ref<float_t> right, ::by_ref<float_t> bottom, ::by_ref<float_t> left) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                           { "CompileBoxArea",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<float_t>>(),
+                                                               ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, top, right, bottom, left);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::Color>  top, ::ByRef<::UnityEngine::Color>  right, ::ByRef<::UnityEngine::Color>  bottom, ::ByRef<::UnityEngine::Color>  left)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileBoxArea",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, top, right, bottom, left);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ::by_ref<::UnityEngine::Color> top,
+                                                                                      ::by_ref<::UnityEngine::Color> right, ::by_ref<::UnityEngine::Color> bottom,
+                                                                                      ::by_ref<::UnityEngine::Color> left) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                       { "CompileBoxArea",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Color>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, top, right, bottom, left);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::UnityEngine::Color>  outlineColor, ::ByRef<float_t>  outlineWidth)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileTextOutline",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, outlineColor, outlineWidth);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                                          ::by_ref<::UnityEngine::Color> outlineColor, ::by_ref<float_t> outlineWidth) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                                                         { "CompileTextOutline",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Color>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, outlineColor, outlineWidth);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*  reader, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>  outDelay, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>  outDuration, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>  outProperty, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>  outTimingFunction)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "CompileTransition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reader, outDelay, outDuration, outProperty, outTimingFunction);
+inline void
+UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
+                                                                             ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*> outDelay,
+                                                                             ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*> outDuration,
+                                                                             ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*> outProperty,
+                                                                             ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*> outTimingFunction) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                                                           { "CompileTransition",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*>(),
+                                                               ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>>(),
+                                                               ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>>(),
+                                                               ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>>(),
+                                                               ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, outDelay, outDuration, outProperty, outTimingFunction);
 }
-inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::_CompileBackgroundPosition_g__SwapKeyword_16_0(::ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>  a, ::ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>::get(),
-                        "<CompileBackgroundPosition>g__SwapKeyword|16_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);
+inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::_CompileBackgroundPosition_g__SwapKeyword_16_0(::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword> a,
+                                                                                                                      ::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
+                          { "<CompileBackgroundPosition>g__SwapKeyword|16_0",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ShorthandApplicator()   {
-}
+constexpr ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ShorthandApplicator() {}

@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "BGNet/Logging/UnityLogger.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(UnityLogger)
 namespace BGNet::Logging {
 class Debug_ILogger;
@@ -17,59 +17,58 @@ namespace BGNet::Logging {
 class UnityLogger;
 }
 // Write type traits
-MARK_REF_PTR_T(::BGNet::Logging::UnityLogger);
+MARK_REF_T(::BGNet::Logging::UnityLogger*);
+DEFINE_IL2CPP_CLASS(::BGNet::Logging::UnityLogger*, "BGNet.Logging", "UnityLogger");
 // Dependencies System.Object
 namespace BGNet::Logging {
 // Is value type: false
 // CS Name: BGNet.Logging.UnityLogger
 class CORDL_TYPE UnityLogger : public ::System::Object {
 public:
-// Declarations
-/// @brief Convert operator to "::BGNet::Logging::Debug_ILogger"
-constexpr operator  ::BGNet::Logging::Debug_ILogger*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::BGNet::Logging::Debug_ILogger"
+  constexpr operator ::BGNet::Logging::Debug_ILogger*() noexcept;
 
-/// @brief Method LogError, addr 0x3286184, size 0x5c, virtual true, abstract: false, final true
-inline void LogError(::StringW  message) ;
+  /// @brief Method LogError, addr 0x3286184, size 0x5c, virtual true, abstract: false, final true
+  inline void LogError(::StringW message);
 
-/// @brief Method LogException, addr 0x32861e0, size 0x90, virtual true, abstract: false, final true
-inline void LogException(::System::Exception*  exception, ::StringW  message) ;
+  /// @brief Method LogException, addr 0x32861e0, size 0x90, virtual true, abstract: false, final true
+  inline void LogException(::System::Exception* exception, ::StringW message);
 
-/// @brief Method LogInfo, addr 0x3286180, size 0x4, virtual true, abstract: false, final true
-inline void LogInfo(::StringW  message) ;
+  /// @brief Method LogInfo, addr 0x3286180, size 0x4, virtual true, abstract: false, final true
+  inline void LogInfo(::StringW message);
 
-/// @brief Method LogWarning, addr 0x3286270, size 0x5c, virtual true, abstract: false, final true
-inline void LogWarning(::StringW  message) ;
+  /// @brief Method LogWarning, addr 0x3286270, size 0x5c, virtual true, abstract: false, final true
+  inline void LogWarning(::StringW message);
 
-static inline ::BGNet::Logging::UnityLogger* New_ctor() ;
+  static inline ::BGNet::Logging::UnityLogger* New_ctor();
 
-/// @brief Method .ctor, addr 0x3285818, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3285818, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::BGNet::Logging::Debug_ILogger"
-constexpr ::BGNet::Logging::Debug_ILogger* i___BGNet__Logging__Debug_ILogger() noexcept;
+  /// @brief Convert to "::BGNet::Logging::Debug_ILogger"
+  constexpr ::BGNet::Logging::Debug_ILogger* i___BGNet__Logging__Debug_ILogger() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UnityLogger() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityLogger();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UnityLogger", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UnityLogger(UnityLogger&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UnityLogger", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UnityLogger(UnityLogger && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UnityLogger", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UnityLogger(UnityLogger const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UnityLogger", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UnityLogger(UnityLogger const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23329 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23329};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGNet::Logging::UnityLogger, 0x10>, "Size mismatch!");
+static_assert(sizeof(::BGNet::Logging::UnityLogger) == 0x10, "Size mismatch!");
 
-} // namespace end def BGNet::Logging
-NEED_NO_BOX(::BGNet::Logging::UnityLogger);
-DEFINE_IL2CPP_ARG_TYPE(::BGNet::Logging::UnityLogger*, "BGNet.Logging", "UnityLogger");
+} // namespace BGNet::Logging

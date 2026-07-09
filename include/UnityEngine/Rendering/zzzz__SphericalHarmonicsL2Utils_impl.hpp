@@ -5,268 +5,240 @@
 #include "UnityEngine/Rendering/zzzz__SphericalHarmonicsL2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils.GetL1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
+                                                                ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL1)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x6656978;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "GetL1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                             { "GetL1",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils.GetL2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
+                                                                ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL2)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x66569ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "GetL2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                             { "GetL2",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils.SetL0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL0)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6656a14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                { "SetL0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils.SetL1R
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1R)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1R)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6656a24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL1R",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                { "SetL1R", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils.SetL1G
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1G)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1G)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6656a30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL1G",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                { "SetL1G", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils.SetL1B
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1B)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1B)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6656a3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL1B",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                { "SetL1B", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils.SetL1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x6656a48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                             { "SetL1",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                                 ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils.SetCoefficient
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, int32_t, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetCoefficient)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>, int32_t, ::UnityEngine::Vector3)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetCoefficient)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6656a6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetCoefficient",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+            { "SetCoefficient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils.GetCoefficient
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, int32_t)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetCoefficient)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, int32_t)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetCoefficient)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6656ad4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "GetCoefficient",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                             { "GetCoefficient", {}, { ::i2c::type_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2Utils._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SphericalHarmonicsL2Utils::*)()>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SphericalHarmonicsL2Utils::*)()>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6656b44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL1(::UnityEngine::Rendering::SphericalHarmonicsL2  sh, ::ByRef<::UnityEngine::Vector3>  L1_R, ::ByRef<::UnityEngine::Vector3>  L1_G, ::ByRef<::UnityEngine::Vector3>  L1_B)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "GetL1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sh, L1_R, L1_G, L1_B);
+inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL1(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, ::by_ref<::UnityEngine::Vector3> L1_R, ::by_ref<::UnityEngine::Vector3> L1_G,
+                                                                     ::by_ref<::UnityEngine::Vector3> L1_B) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                           { "GetL1",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sh, L1_R, L1_G, L1_B);
 }
-inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL2(::UnityEngine::Rendering::SphericalHarmonicsL2  sh, ::ByRef<::UnityEngine::Vector3>  L2_0, ::ByRef<::UnityEngine::Vector3>  L2_1, ::ByRef<::UnityEngine::Vector3>  L2_2, ::ByRef<::UnityEngine::Vector3>  L2_3, ::ByRef<::UnityEngine::Vector3>  L2_4)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "GetL2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sh, L2_0, L2_1, L2_2, L2_3, L2_4);
+inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL2(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, ::by_ref<::UnityEngine::Vector3> L2_0, ::by_ref<::UnityEngine::Vector3> L2_1,
+                                                                     ::by_ref<::UnityEngine::Vector3> L2_2, ::by_ref<::UnityEngine::Vector3> L2_3, ::by_ref<::UnityEngine::Vector3> L2_4) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                          { "GetL2",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sh, L2_0, L2_1, L2_2, L2_3, L2_4);
 }
-inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL0(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>  sh, ::UnityEngine::Vector3  L0)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sh, L0);
+inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL0(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L0) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                           { "SetL0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sh, L0);
 }
-inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1R(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>  sh, ::UnityEngine::Vector3  L1_R)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL1R",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sh, L1_R);
+inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1R(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_R) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                              { "SetL1R", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sh, L1_R);
 }
-inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1G(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>  sh, ::UnityEngine::Vector3  L1_G)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL1G",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sh, L1_G);
+inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1G(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_G) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                              { "SetL1G", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sh, L1_G);
 }
-inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1B(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>  sh, ::UnityEngine::Vector3  L1_B)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL1B",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sh, L1_B);
+inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1B(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_B) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                              { "SetL1B", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sh, L1_B);
 }
-inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>  sh, ::UnityEngine::Vector3  L1_R, ::UnityEngine::Vector3  L1_G, ::UnityEngine::Vector3  L1_B)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetL1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sh, L1_R, L1_G, L1_B);
+inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_R, ::UnityEngine::Vector3 L1_G,
+                                                                     ::UnityEngine::Vector3 L1_B) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                           { "SetL1",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                               ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sh, L1_R, L1_G, L1_B);
 }
-inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetCoefficient(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>  sh, int32_t  index, ::UnityEngine::Vector3  coefficient)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "SetCoefficient",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sh, index, coefficient);
+inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetCoefficient(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, int32_t index, ::UnityEngine::Vector3 coefficient) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                       { "SetCoefficient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sh, index, coefficient);
 }
-inline ::UnityEngine::Vector3 UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetCoefficient(::UnityEngine::Rendering::SphericalHarmonicsL2  sh, int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        "GetCoefficient",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, sh, index);
+inline ::UnityEngine::Vector3 UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetCoefficient(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(),
+                                                           { "GetCoefficient", {}, { ::i2c::type_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, sh, index);
 }
-inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::SphericalHarmonicsL2Utils::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::SphericalHarmonicsL2Utils* UnityEngine::Rendering::SphericalHarmonicsL2Utils::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>());
+inline ::UnityEngine::Rendering::SphericalHarmonicsL2Utils* UnityEngine::Rendering::SphericalHarmonicsL2Utils::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SphericalHarmonicsL2Utils()   {
-}
+constexpr ::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SphericalHarmonicsL2Utils() {}

@@ -1,9 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/ProfilingSample.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ProfilingSample)
 namespace System {
@@ -24,60 +25,63 @@ struct ProfilingSample;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ProfilingSample);
-// Dependencies 
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProfilingSample, "UnityEngine.Rendering", "ProfilingSample");
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ProfilingSample
 struct CORDL_TYPE ProfilingSample {
 public:
-// Declarations
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*();
 
-/// @brief Method Dispose, addr 0x662afd4, size 0x8, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x662afd4, size 0x8, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method Dispose, addr 0x662afdc, size 0x94, virtual false, abstract: false, final false
-inline void Dispose(bool  disposing) ;
+  /// @brief Method Dispose, addr 0x662afdc, size 0x94, virtual false, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-/// @brief Method .ctor, addr 0x662af30, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::CommandBuffer*  cmd, ::StringW  format, ::System::Object*  arg) ;
+  /// @brief Method .ctor, addr 0x662af30, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW format, ::System::Object* arg);
 
-/// @brief Method .ctor, addr 0x662af98, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::CommandBuffer*  cmd, ::StringW  format, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method .ctor, addr 0x662af98, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW format, ::ArrayW<::System::Object*> args);
 
-/// @brief Method .ctor, addr 0x662aea0, size 0x90, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::CommandBuffer*  cmd, ::StringW  name, ::UnityEngine::Profiling::CustomSampler*  sampler) ;
+  /// @brief Method .ctor, addr 0x662aea0, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW name, ::UnityEngine::Profiling::CustomSampler* sampler);
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() ;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProfilingSample() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProfilingSample();
 
-// Ctor Parameters [CppParam { name: "m_Cmd", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Sampler", ty: "::UnityEngine::Profiling::CustomSampler*", modifiers: "", def_value: None }]
-constexpr ProfilingSample(::UnityEngine::Rendering::CommandBuffer*  m_Cmd, ::StringW  m_Name, bool  m_Disposed, ::UnityEngine::Profiling::CustomSampler*  m_Sampler) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Cmd", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value:
+  // None }, CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Sampler", ty: "::UnityEngine::Profiling::CustomSampler*", modifiers: "", def_value: None
+  // }]
+  constexpr ProfilingSample(::UnityEngine::Rendering::CommandBuffer* m_Cmd, ::StringW m_Name, bool m_Disposed, ::UnityEngine::Profiling::CustomSampler* m_Sampler) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12040};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12040 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field m_Cmd, offset: 0x0, size: 0x8, def value: None
- ::UnityEngine::Rendering::CommandBuffer*  m_Cmd;
+  /// @brief Field m_Cmd, offset: 0x0, size: 0x8, def value: None
+  ::UnityEngine::Rendering::CommandBuffer* m_Cmd;
 
-/// @brief Field m_Name, offset: 0x8, size: 0x8, def value: None
- ::StringW  m_Name;
+  /// @brief Field m_Name, offset: 0x8, size: 0x8, def value: None
+  ::StringW m_Name;
 
-/// @brief Field m_Disposed, offset: 0x10, size: 0x1, def value: None
- bool  m_Disposed;
+  /// @brief Field m_Disposed, offset: 0x10, size: 0x1, def value: None
+  bool m_Disposed;
 
-/// @brief Field m_Sampler, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::Profiling::CustomSampler*  m_Sampler;
+  /// @brief Field m_Sampler, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::Profiling::CustomSampler* m_Sampler;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProfilingSample, m_Cmd) == 0x0, "Offset mismatch!");
@@ -88,7 +92,6 @@ static_assert(offsetof(::UnityEngine::Rendering::ProfilingSample, m_Disposed) ==
 
 static_assert(offsetof(::UnityEngine::Rendering::ProfilingSample, m_Sampler) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProfilingSample, 0x20>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::ProfilingSample) == 0x20, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ProfilingSample, "UnityEngine.Rendering", "ProfilingSample");
+} // namespace UnityEngine::Rendering

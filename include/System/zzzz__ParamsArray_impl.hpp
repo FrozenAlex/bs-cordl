@@ -1,214 +1,153 @@
 #pragma once
 // IWYU pragma private; include "System/ParamsArray.hpp"
+#include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ParamsArray_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ParamsArray._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ParamsArray::*)(::System::Object*)>(&::System::ParamsArray::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParamsArray::*)(::System::Object*)>(&::System::ParamsArray::_ctor)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x5b1bda4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ParamsArray._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ParamsArray::*)(::System::Object*, ::System::Object*)>(&::System::ParamsArray::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParamsArray::*)(::System::Object*, ::System::Object*)>(&::System::ParamsArray::_ctor)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5b1be1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ParamsArray._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ParamsArray::*)(::System::Object*, ::System::Object*, ::System::Object*)>(&::System::ParamsArray::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParamsArray::*)(::System::Object*, ::System::Object*, ::System::Object*)>(&::System::ParamsArray::_ctor)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x5b1be98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ParamsArray._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ParamsArray::*)(::ArrayW<::System::Object*,::Array<::System::Object*>*>)>(&::System::ParamsArray::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParamsArray::*)(::ArrayW<::System::Object*>)>(&::System::ParamsArray::_ctor)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5b1bf20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ParamsArray.get_Length
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ParamsArray::*)()>(&::System::ParamsArray::get_Length)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ParamsArray::*)()>(&::System::ParamsArray::get_Length)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5b1bf7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        "get_Length",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { "get_Length", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ParamsArray.get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ParamsArray::*)(int32_t)>(&::System::ParamsArray::get_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ParamsArray::*)(int32_t)>(&::System::ParamsArray::get_Item)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5b1bf94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ParamsArray.GetAtSlow
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ParamsArray::*)(int32_t)>(&::System::ParamsArray::GetAtSlow)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ParamsArray::*)(int32_t)>(&::System::ParamsArray::GetAtSlow)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x5b1c014;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        "GetAtSlow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { "GetAtSlow", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline void System::ParamsArray::setStaticF_s_oneArgArray(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::System::Object*,::Array<::System::Object*>*>, "s_oneArgArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get>(std::forward<::ArrayW<::System::Object*,::Array<::System::Object*>*>>(value));
+inline void System::ParamsArray::setStaticF_s_oneArgArray(::ArrayW<::System::Object*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Object*>, "s_oneArgArray", ::System::ParamsArray>(std::forward<::ArrayW<::System::Object*>>(value));
 }
-inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> System::ParamsArray::getStaticF_s_oneArgArray()  {
-return ::cordl_internals::getStaticField<::ArrayW<::System::Object*,::Array<::System::Object*>*>, "s_oneArgArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get>();
+inline ::ArrayW<::System::Object*> System::ParamsArray::getStaticF_s_oneArgArray() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Object*>, "s_oneArgArray", ::System::ParamsArray>();
 }
-inline void System::ParamsArray::setStaticF_s_twoArgArray(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::System::Object*,::Array<::System::Object*>*>, "s_twoArgArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get>(std::forward<::ArrayW<::System::Object*,::Array<::System::Object*>*>>(value));
+inline void System::ParamsArray::setStaticF_s_twoArgArray(::ArrayW<::System::Object*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Object*>, "s_twoArgArray", ::System::ParamsArray>(std::forward<::ArrayW<::System::Object*>>(value));
 }
-inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> System::ParamsArray::getStaticF_s_twoArgArray()  {
-return ::cordl_internals::getStaticField<::ArrayW<::System::Object*,::Array<::System::Object*>*>, "s_twoArgArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get>();
+inline ::ArrayW<::System::Object*> System::ParamsArray::getStaticF_s_twoArgArray() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Object*>, "s_twoArgArray", ::System::ParamsArray>();
 }
-inline void System::ParamsArray::setStaticF_s_threeArgArray(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::System::Object*,::Array<::System::Object*>*>, "s_threeArgArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get>(std::forward<::ArrayW<::System::Object*,::Array<::System::Object*>*>>(value));
+inline void System::ParamsArray::setStaticF_s_threeArgArray(::ArrayW<::System::Object*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Object*>, "s_threeArgArray", ::System::ParamsArray>(std::forward<::ArrayW<::System::Object*>>(value));
 }
-inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> System::ParamsArray::getStaticF_s_threeArgArray()  {
-return ::cordl_internals::getStaticField<::ArrayW<::System::Object*,::Array<::System::Object*>*>, "s_threeArgArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get>();
+inline ::ArrayW<::System::Object*> System::ParamsArray::getStaticF_s_threeArgArray() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Object*>, "s_threeArgArray", ::System::ParamsArray>();
 }
-inline void System::ParamsArray::_ctor(::System::Object*  arg0)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arg0);
+inline void System::ParamsArray::_ctor(::System::Object* arg0) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, arg0);
 }
-inline void System::ParamsArray::_ctor(::System::Object*  arg0, ::System::Object*  arg1)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arg0, arg1);
+inline void System::ParamsArray::_ctor(::System::Object* arg0, ::System::Object* arg1) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, arg0, arg1);
 }
-inline void System::ParamsArray::_ctor(::System::Object*  arg0, ::System::Object*  arg1, ::System::Object*  arg2)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arg0, arg1, arg2);
+inline void System::ParamsArray::_ctor(::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, arg0, arg1, arg2);
 }
-inline void System::ParamsArray::_ctor(::ArrayW<::System::Object*,::Array<::System::Object*>*>  args)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, args);
+inline void System::ParamsArray::_ctor(::ArrayW<::System::Object*> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, args);
 }
-inline int32_t System::ParamsArray::get_Length()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        "get_Length",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::ParamsArray::get_Length() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { "get_Length", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline ::System::Object* System::ParamsArray::get_Item(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
+inline ::System::Object* System::ParamsArray::get_Item(int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method, index);
 }
-inline ::System::Object* System::ParamsArray::GetAtSlow(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParamsArray>::get(),
-                        "GetAtSlow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
+inline ::System::Object* System::ParamsArray::GetAtSlow(int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { "GetAtSlow", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method, index);
 }
-// Ctor Parameters [CppParam { name: "_arg0", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_arg1", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_arg2", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_args", ty: "::ArrayW<::System::Object*,::Array<::System::Object*>*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::ParamsArray::ParamsArray(::System::Object*  _arg0, ::System::Object*  _arg1, ::System::Object*  _arg2, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  _args) noexcept  {
-this->_arg0 = _arg0;
-this->_arg1 = _arg1;
-this->_arg2 = _arg2;
-this->_args = _args;
+// Ctor Parameters [CppParam { name: "_arg0", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_arg1", ty: "::System::Object*", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "_arg2", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_args", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::ParamsArray::ParamsArray(::System::Object* _arg0, ::System::Object* _arg1, ::System::Object* _arg2, ::ArrayW<::System::Object*> _args) noexcept {
+  this->_arg0 = _arg0;
+  this->_arg1 = _arg1;
+  this->_arg2 = _arg2;
+  this->_args = _args;
 }
 // Ctor Parameters []
-constexpr ::System::ParamsArray::ParamsArray()   {
-}
+constexpr ::System::ParamsArray::ParamsArray() {}

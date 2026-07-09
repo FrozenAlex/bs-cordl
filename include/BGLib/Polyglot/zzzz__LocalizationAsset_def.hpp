@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "BGLib/Polyglot/LocalizationAsset.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -13,60 +13,59 @@ namespace BGLib::Polyglot {
 class LocalizationAsset;
 }
 // Write type traits
-MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationAsset);
+MARK_REF_T(::BGLib::Polyglot::LocalizationAsset*);
+DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::LocalizationAsset*, "BGLib.Polyglot", "LocalizationAsset");
 // Dependencies System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: BGLib.Polyglot.LocalizationAsset
 class CORDL_TYPE LocalizationAsset : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_TextAsset)) ::UnityW<::UnityEngine::TextAsset>  TextAsset;
+  // Declarations
+  __declspec(property(get = get_TextAsset)) ::UnityW<::UnityEngine::TextAsset> TextAsset;
 
-/// @brief Field textAsset, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_textAsset, put=__cordl_internal_set_textAsset)) ::UnityW<::UnityEngine::TextAsset>  textAsset;
+  /// @brief Field textAsset, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset)) ::UnityW<::UnityEngine::TextAsset> textAsset;
 
-static inline ::BGLib::Polyglot::LocalizationAsset* New_ctor(::UnityEngine::TextAsset*  textAsset) ;
+  static inline ::BGLib::Polyglot::LocalizationAsset* New_ctor(::UnityEngine::TextAsset* textAsset);
 
-constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_textAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_textAsset() const;
 
-constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_textAsset() ;
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_textAsset();
 
-constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset>  value) ;
+  constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-/// @brief Method .ctor, addr 0x3261a80, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::TextAsset*  textAsset) ;
+  /// @brief Method .ctor, addr 0x3261a80, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::TextAsset* textAsset);
 
-/// @brief Method get_TextAsset, addr 0x3261a78, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset() ;
+  /// @brief Method get_TextAsset, addr 0x3261a78, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LocalizationAsset() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalizationAsset();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LocalizationAsset(LocalizationAsset&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LocalizationAsset(LocalizationAsset && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LocalizationAsset(LocalizationAsset const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LocalizationAsset(LocalizationAsset const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22028 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22028};
+  /// @brief Field textAsset, offset: 0x10, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::TextAsset> ___textAsset;
 
-/// @brief Field textAsset, offset: 0x10, size: 0x8, def value: None
- ::UnityW<::UnityEngine::TextAsset>  ___textAsset;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BGLib::Polyglot::LocalizationAsset, ___textAsset) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationAsset, 0x18>, "Size mismatch!");
+static_assert(sizeof(::BGLib::Polyglot::LocalizationAsset) == 0x18, "Size mismatch!");
 
-} // namespace end def BGLib::Polyglot
-NEED_NO_BOX(::BGLib::Polyglot::LocalizationAsset);
-DEFINE_IL2CPP_ARG_TYPE(::BGLib::Polyglot::LocalizationAsset*, "BGLib.Polyglot", "LocalizationAsset");
+} // namespace BGLib::Polyglot

@@ -3,31 +3,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__HaltonSequence_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::HaltonSequence.Get
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::HaltonSequence::Get)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::HaltonSequence::Get)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x668244c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HaltonSequence*>::get(),
-                        "Get",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HaltonSequence*>(), { "Get", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline float_t UnityEngine::Rendering::HaltonSequence::Get(int32_t  index, int32_t  radix)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HaltonSequence*>::get(),
-                        "Get",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, index, radix);
+inline float_t UnityEngine::Rendering::HaltonSequence::Get(int32_t index, int32_t radix) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HaltonSequence*>(), { "Get", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, index, radix);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::HaltonSequence::HaltonSequence()   {
-}
+constexpr ::UnityEngine::Rendering::HaltonSequence::HaltonSequence() {}

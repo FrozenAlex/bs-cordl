@@ -6,65 +6,54 @@
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionReturnMessage_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Activation::RemoteActivator.Activate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage* (::System::Runtime::Remoting::Activation::RemoteActivator::*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&::System::Runtime::Remoting::Activation::RemoteActivator::Activate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage* (
+    ::System::Runtime::Remoting::Activation::RemoteActivator::*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
+    &::System::Runtime::Remoting::Activation::RemoteActivator::Activate)> {
   constexpr static std::size_t size = 0x444;
   constexpr static std::size_t addrs = 0x5a01df8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::RemoteActivator*>::get(),
-                        "Activate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Activation::RemoteActivator*>(),
+                                                             { "Activate", {}, { ::i2c::type_of<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Activation::RemoteActivator.get_NextActivator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (::System::Runtime::Remoting::Activation::RemoteActivator::*)()>(&::System::Runtime::Remoting::Activation::RemoteActivator::get_NextActivator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (::System::Runtime::Remoting::Activation::RemoteActivator::*)()>(
+    &::System::Runtime::Remoting::Activation::RemoteActivator::get_NextActivator)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x5a0223c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::RemoteActivator*>::get(),
-                        "get_NextActivator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Activation::RemoteActivator*>(), { "get_NextActivator", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* System::Runtime::Remoting::Activation::RemoteActivator::Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage*  msg)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::RemoteActivator*>::get(),
-                        "Activate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*, false>(this, ___internal_method, msg);
+inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage*
+System::Runtime::Remoting::Activation::RemoteActivator::Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Activation::RemoteActivator*>(),
+                                                           { "Activate", {}, { ::i2c::type_of<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(this, ___internal_method, msg);
 }
-inline ::System::Runtime::Remoting::Activation::IActivator* System::Runtime::Remoting::Activation::RemoteActivator::get_NextActivator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::RemoteActivator*>::get(),
-                        "get_NextActivator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Activation::IActivator*, false>(this, ___internal_method);
+inline ::System::Runtime::Remoting::Activation::IActivator* System::Runtime::Remoting::Activation::RemoteActivator::get_NextActivator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Activation::RemoteActivator*>(), { "get_NextActivator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Activation::IActivator*>(this, ___internal_method);
 }
 /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
-constexpr  System::Runtime::Remoting::Activation::RemoteActivator::operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept {
-return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
+constexpr System::Runtime::Remoting::Activation::RemoteActivator::operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
 constexpr ::System::Runtime::Remoting::Activation::IActivator* System::Runtime::Remoting::Activation::RemoteActivator::i___System__Runtime__Remoting__Activation__IActivator() noexcept {
-return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
+  return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Remoting::Activation::RemoteActivator::RemoteActivator()   {
-}
+constexpr ::System::Runtime::Remoting::Activation::RemoteActivator::RemoteActivator() {}

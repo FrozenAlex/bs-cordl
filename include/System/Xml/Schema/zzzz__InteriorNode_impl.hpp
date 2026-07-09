@@ -6,213 +6,161 @@
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::InteriorNode.get_LeftChild
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SyntaxTreeNode* (::System::Xml::Schema::InteriorNode::*)()>(&::System::Xml::Schema::InteriorNode::get_LeftChild)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::SyntaxTreeNode* (::System::Xml::Schema::InteriorNode::*)()>(&::System::Xml::Schema::InteriorNode::get_LeftChild)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61de5a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "get_LeftChild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { "get_LeftChild", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::InteriorNode.set_LeftChild
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::SyntaxTreeNode*)>(&::System::Xml::Schema::InteriorNode::set_LeftChild)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::SyntaxTreeNode*)>(&::System::Xml::Schema::InteriorNode::set_LeftChild)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61de5b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "set_LeftChild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SyntaxTreeNode*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { "set_LeftChild", {}, { ::i2c::type_of<::System::Xml::Schema::SyntaxTreeNode*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::InteriorNode.get_RightChild
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SyntaxTreeNode* (::System::Xml::Schema::InteriorNode::*)()>(&::System::Xml::Schema::InteriorNode::get_RightChild)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::SyntaxTreeNode* (::System::Xml::Schema::InteriorNode::*)()>(&::System::Xml::Schema::InteriorNode::get_RightChild)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61de5b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "get_RightChild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { "get_RightChild", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::InteriorNode.set_RightChild
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::SyntaxTreeNode*)>(&::System::Xml::Schema::InteriorNode::set_RightChild)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::SyntaxTreeNode*)>(&::System::Xml::Schema::InteriorNode::set_RightChild)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61de5c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "set_RightChild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SyntaxTreeNode*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { "set_RightChild", {}, { ::i2c::type_of<::System::Xml::Schema::SyntaxTreeNode*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::InteriorNode.ExpandTreeNoRecursive
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::InteriorNode::ExpandTreeNoRecursive)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*,
+                                                                                                     ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::InteriorNode::ExpandTreeNoRecursive)> {
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x61de5c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "ExpandTreeNoRecursive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::InteriorNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SymbolsDictionary*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::Positions*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(),
+                                                             { "ExpandTreeNoRecursive",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Xml::Schema::InteriorNode*>(), ::i2c::type_of<::System::Xml::Schema::SymbolsDictionary*>(),
+                                                                 ::i2c::type_of<::System::Xml::Schema::Positions*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::InteriorNode.ExpandTree
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::InteriorNode::ExpandTree)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*,
+                                                                                                     ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::InteriorNode::ExpandTree)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x61de7b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { ::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::InteriorNode._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)()>(&::System::Xml::Schema::InteriorNode::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::InteriorNode::*)()>(&::System::Xml::Schema::InteriorNode::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x61de818;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::SyntaxTreeNode*& System::Xml::Schema::InteriorNode::__cordl_internal_get_leftChild()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___leftChild;
+constexpr ::System::Xml::Schema::SyntaxTreeNode*& System::Xml::Schema::InteriorNode::__cordl_internal_get_leftChild() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___leftChild;
 }
 constexpr ::System::Xml::Schema::SyntaxTreeNode* const& System::Xml::Schema::InteriorNode::__cordl_internal_get_leftChild() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___leftChild;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___leftChild;
 }
-constexpr void System::Xml::Schema::InteriorNode::__cordl_internal_set_leftChild(::System::Xml::Schema::SyntaxTreeNode*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftChild)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::InteriorNode::__cordl_internal_set_leftChild(::System::Xml::Schema::SyntaxTreeNode* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___leftChild = value;
 }
-constexpr ::System::Xml::Schema::SyntaxTreeNode*& System::Xml::Schema::InteriorNode::__cordl_internal_get_rightChild()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___rightChild;
+constexpr ::System::Xml::Schema::SyntaxTreeNode*& System::Xml::Schema::InteriorNode::__cordl_internal_get_rightChild() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___rightChild;
 }
 constexpr ::System::Xml::Schema::SyntaxTreeNode* const& System::Xml::Schema::InteriorNode::__cordl_internal_get_rightChild() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___rightChild;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___rightChild;
 }
-constexpr void System::Xml::Schema::InteriorNode::__cordl_internal_set_rightChild(::System::Xml::Schema::SyntaxTreeNode*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightChild)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::InteriorNode::__cordl_internal_set_rightChild(::System::Xml::Schema::SyntaxTreeNode* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___rightChild = value;
 }
-inline ::System::Xml::Schema::SyntaxTreeNode* System::Xml::Schema::InteriorNode::get_LeftChild()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "get_LeftChild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SyntaxTreeNode*, false>(this, ___internal_method);
+inline ::System::Xml::Schema::SyntaxTreeNode* System::Xml::Schema::InteriorNode::get_LeftChild() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { "get_LeftChild", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SyntaxTreeNode*>(this, ___internal_method);
 }
-inline void System::Xml::Schema::InteriorNode::set_LeftChild(::System::Xml::Schema::SyntaxTreeNode*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "set_LeftChild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SyntaxTreeNode*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Xml::Schema::InteriorNode::set_LeftChild(::System::Xml::Schema::SyntaxTreeNode* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { "set_LeftChild", {}, { ::i2c::type_of<::System::Xml::Schema::SyntaxTreeNode*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::System::Xml::Schema::SyntaxTreeNode* System::Xml::Schema::InteriorNode::get_RightChild()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "get_RightChild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SyntaxTreeNode*, false>(this, ___internal_method);
+inline ::System::Xml::Schema::SyntaxTreeNode* System::Xml::Schema::InteriorNode::get_RightChild() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { "get_RightChild", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SyntaxTreeNode*>(this, ___internal_method);
 }
-inline void System::Xml::Schema::InteriorNode::set_RightChild(::System::Xml::Schema::SyntaxTreeNode*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "set_RightChild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SyntaxTreeNode*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Xml::Schema::InteriorNode::set_RightChild(::System::Xml::Schema::SyntaxTreeNode* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { "set_RightChild", {}, { ::i2c::type_of<::System::Xml::Schema::SyntaxTreeNode*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void System::Xml::Schema::InteriorNode::ExpandTreeNoRecursive(::System::Xml::Schema::InteriorNode*  parent, ::System::Xml::Schema::SymbolsDictionary*  symbols, ::System::Xml::Schema::Positions*  positions)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        "ExpandTreeNoRecursive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::InteriorNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SymbolsDictionary*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::Positions*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parent, symbols, positions);
+inline void System::Xml::Schema::InteriorNode::ExpandTreeNoRecursive(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols,
+                                                                     ::System::Xml::Schema::Positions* positions) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(),
+                                                           { "ExpandTreeNoRecursive",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Xml::Schema::InteriorNode*>(), ::i2c::type_of<::System::Xml::Schema::SymbolsDictionary*>(),
+                                                               ::i2c::type_of<::System::Xml::Schema::Positions*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parent, symbols, positions);
 }
-inline void System::Xml::Schema::InteriorNode::ExpandTree(::System::Xml::Schema::InteriorNode*  parent, ::System::Xml::Schema::SymbolsDictionary*  symbols, ::System::Xml::Schema::Positions*  positions)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parent, symbols, positions);
+inline void System::Xml::Schema::InteriorNode::ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parent, symbols, positions);
 }
-inline void System::Xml::Schema::InteriorNode::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::InteriorNode::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::InteriorNode*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::InteriorNode* System::Xml::Schema::InteriorNode::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::InteriorNode*>());
+inline ::System::Xml::Schema::InteriorNode* System::Xml::Schema::InteriorNode::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::InteriorNode*>());
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::InteriorNode::InteriorNode()   {
-}
+constexpr ::System::Xml::Schema::InteriorNode::InteriorNode() {}

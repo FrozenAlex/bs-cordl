@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Security/RemoteCertificateValidationCallback.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
@@ -25,44 +25,44 @@ namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Net::Security::RemoteCertificateValidationCallback);
+MARK_REF_T(::System::Net::Security::RemoteCertificateValidationCallback*);
+DEFINE_IL2CPP_CLASS(::System::Net::Security::RemoteCertificateValidationCallback*, "System.Net.Security", "RemoteCertificateValidationCallback");
 // Dependencies System.MulticastDelegate
 namespace System::Net::Security {
 // Is value type: false
 // CS Name: System.Net.Security.RemoteCertificateValidationCallback
 class CORDL_TYPE RemoteCertificateValidationCallback : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x62303c4, size 0x14, virtual true, abstract: false, final false
-inline bool Invoke(::System::Object*  sender, ::System::Security::Cryptography::X509Certificates::X509Certificate*  certificate, ::System::Security::Cryptography::X509Certificates::X509Chain*  chain, ::System::Net::Security::SslPolicyErrors  sslPolicyErrors) ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x62303c4, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(::System::Object* sender, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
+                     ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
-static inline ::System::Net::Security::RemoteCertificateValidationCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::System::Net::Security::RemoteCertificateValidationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x623027c, size 0x148, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x623027c, size 0x148, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RemoteCertificateValidationCallback() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RemoteCertificateValidationCallback();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteCertificateValidationCallback", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RemoteCertificateValidationCallback(RemoteCertificateValidationCallback&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RemoteCertificateValidationCallback", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RemoteCertificateValidationCallback(RemoteCertificateValidationCallback && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteCertificateValidationCallback", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RemoteCertificateValidationCallback(RemoteCertificateValidationCallback const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RemoteCertificateValidationCallback", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RemoteCertificateValidationCallback(RemoteCertificateValidationCallback const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11791 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11791};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Security::RemoteCertificateValidationCallback, 0x80>, "Size mismatch!");
+static_assert(sizeof(::System::Net::Security::RemoteCertificateValidationCallback) == 0x80, "Size mismatch!");
 
-} // namespace end def System::Net::Security
-NEED_NO_BOX(::System::Net::Security::RemoteCertificateValidationCallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::RemoteCertificateValidationCallback*, "System.Net.Security", "RemoteCertificateValidationCallback");
+} // namespace System::Net::Security

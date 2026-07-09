@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SwitchSettingsController.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
@@ -13,90 +13,89 @@ namespace GlobalNamespace {
 class SwitchSettingsController;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::SwitchSettingsController);
+MARK_REF_T(::GlobalNamespace::SwitchSettingsController*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::SwitchSettingsController*, "", "SwitchSettingsController");
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SwitchSettingsController
 class CORDL_TYPE SwitchSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _on, offset 0x28, size 0x1 
- __declspec(property(get=__cordl_internal_get__on, put=__cordl_internal_set__on)) bool  _on;
+  // Declarations
+  /// @brief Field _on, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__on, put = __cordl_internal_set__on)) bool _on;
 
-/// @brief Field _toggle, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__toggle, put=__cordl_internal_set__toggle)) ::UnityW<::UnityEngine::UI::Toggle>  _toggle;
+  /// @brief Field _toggle, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle)) ::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
-/// @brief Method ApplyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void ApplyValue(bool  value) ;
+  /// @brief Method ApplyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void ApplyValue(bool value);
 
-/// @brief Method Awake, addr 0x58f4be4, size 0xe8, virtual false, abstract: false, final false
-inline void Awake() ;
+  /// @brief Method Awake, addr 0x58f4be4, size 0xe8, virtual false, abstract: false, final false
+  inline void Awake();
 
-/// @brief Method GetInitValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool GetInitValue() ;
+  /// @brief Method GetInitValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool GetInitValue();
 
-/// @brief Method HandleToggleValueDidChange, addr 0x58f4e10, size 0xc, virtual false, abstract: false, final false
-inline void HandleToggleValueDidChange(bool  value) ;
+  /// @brief Method HandleToggleValueDidChange, addr 0x58f4e10, size 0xc, virtual false, abstract: false, final false
+  inline void HandleToggleValueDidChange(bool value);
 
-static inline ::GlobalNamespace::SwitchSettingsController* New_ctor() ;
+  static inline ::GlobalNamespace::SwitchSettingsController* New_ctor();
 
-/// @brief Method OnDestroy, addr 0x58f4ccc, size 0xe8, virtual false, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x58f4ccc, size 0xe8, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method OnEnable, addr 0x58f4db4, size 0x3c, virtual false, abstract: false, final false
-inline void OnEnable() ;
+  /// @brief Method OnEnable, addr 0x58f4db4, size 0x3c, virtual false, abstract: false, final false
+  inline void OnEnable();
 
-/// @brief Method RefreshUI, addr 0x58f4df0, size 0x20, virtual false, abstract: false, final false
-inline void RefreshUI() ;
+  /// @brief Method RefreshUI, addr 0x58f4df0, size 0x20, virtual false, abstract: false, final false
+  inline void RefreshUI();
 
-constexpr bool const& __cordl_internal_get__on() const;
+  constexpr bool const& __cordl_internal_get__on() const;
 
-constexpr bool& __cordl_internal_get__on() ;
+  constexpr bool& __cordl_internal_get__on();
 
-constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
 
-constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__toggle() ;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__toggle();
 
-constexpr void __cordl_internal_set__on(bool  value) ;
+  constexpr void __cordl_internal_set__on(bool value);
 
-constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle>  value) ;
+  constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-/// @brief Method .ctor, addr 0x58f4e1c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58f4e1c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SwitchSettingsController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SwitchSettingsController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchSettingsController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SwitchSettingsController(SwitchSettingsController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SwitchSettingsController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SwitchSettingsController(SwitchSettingsController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchSettingsController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SwitchSettingsController(SwitchSettingsController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SwitchSettingsController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SwitchSettingsController(SwitchSettingsController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23068 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23068};
+  /// @brief Field _toggle, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 
-/// @brief Field _toggle, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Toggle>  ____toggle;
+  /// @brief Field _on, offset: 0x28, size: 0x1, def value: None
+  bool ____on;
 
-/// @brief Field _on, offset: 0x28, size: 0x1, def value: None
- bool  ____on;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SwitchSettingsController, ____toggle) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SwitchSettingsController, ____on) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SwitchSettingsController, 0x30>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SwitchSettingsController) == 0x30, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::SwitchSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SwitchSettingsController*, "", "SwitchSettingsController");
+} // namespace GlobalNamespace

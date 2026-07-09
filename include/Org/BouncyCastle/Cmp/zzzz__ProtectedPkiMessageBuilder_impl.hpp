@@ -18,501 +18,412 @@
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(
+    ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::_ctor)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x35e49dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                         { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(int32_t, ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(
+    int32_t, ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::_ctor)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x35e4a58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+            { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.SetTransactionId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetTransactionId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t>)>(
+    &::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetTransactionId)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x35e4b20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetTransactionId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetTransactionId", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.SetFreeText
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetFreeText)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (
+    ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetFreeText)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x35e4b4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetFreeText",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                           { "SetFreeText", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.AddGeneralInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::AddGeneralInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (
+    ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::AddGeneralInfo)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x35e4b7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "AddGeneralInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                           { "AddGeneralInfo", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.SetMessageTime
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::DerGeneralizedTime*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetMessageTime)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (
+    ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::DerGeneralizedTime*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetMessageTime)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x35e4c3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetMessageTime",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                           { "SetMessageTime", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.SetRecipKID
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetRecipKID)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t>)>(
+    &::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetRecipKID)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x35e4c68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetRecipKID",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetRecipKID", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.SetRecipNonce
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetRecipNonce)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t>)>(
+    &::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetRecipNonce)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x35e4c94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetRecipNonce",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetRecipNonce", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.SetSenderKID
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetSenderKID)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t>)>(
+    &::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetSenderKID)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x35e4cc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetSenderKID",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetSenderKID", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.SetSenderNonce
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetSenderNonce)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::ArrayW<uint8_t>)>(
+    &::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetSenderNonce)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x35e4cf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetSenderNonce",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetSenderNonce", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.SetBody
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PkiBody*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetBody)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (
+    ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PkiBody*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetBody)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x35e4d1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetBody",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiBody*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetBody", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiBody*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.AddCmpCertificate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::AddCmpCertificate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* (
+    ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::AddCmpCertificate)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x35e4d24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "AddCmpCertificate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                           { "AddCmpCertificate", {}, { ::i2c::type_of<::Org::BouncyCastle::X509::X509Certificate*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.Build
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessage* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::Build)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessage* (
+    ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::Build)> {
   constexpr static std::size_t size = 0x2ec;
   constexpr static std::size_t addrs = 0x35e4de4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "Build",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                           { "Build", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::ISignatureFactory*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.Build
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessage* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Crypto::IMacFactory*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::Build)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessage* (
+    ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Crypto::IMacFactory*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::Build)> {
   constexpr static std::size_t size = 0x230;
   constexpr static std::size_t addrs = 0x35e5abc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "Build",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IMacFactory*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "Build", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::IMacFactory*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.FinalizeHeader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::FinalizeHeader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
+    &::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::FinalizeHeader)> {
   constexpr static std::size_t size = 0x2f0;
   constexpr static std::size_t addrs = 0x35e50d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "FinalizeHeader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                           { "FinalizeHeader", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.FinalizeMessage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessage* (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PkiHeader*, ::Org::BouncyCastle::Asn1::DerBitString*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::FinalizeMessage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::ProtectedPkiMessage* (
+    ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PkiHeader*, ::Org::BouncyCastle::Asn1::DerBitString*)>(
+    &::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::FinalizeMessage)> {
   constexpr static std::size_t size = 0x374;
   constexpr static std::size_t addrs = 0x35e5748;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "FinalizeMessage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerBitString*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                         { "FinalizeMessage", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::DerBitString*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder.CalculateSignature
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(::Org::BouncyCastle::Crypto::IStreamCalculator*, ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*, ::Org::BouncyCastle::Asn1::Cmp::PkiBody*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::CalculateSignature)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::*)(
+    ::Org::BouncyCastle::Crypto::IStreamCalculator*, ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*, ::Org::BouncyCastle::Asn1::Cmp::PkiBody*)>(
+    &::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::CalculateSignature)> {
   constexpr static std::size_t size = 0x388;
   constexpr static std::size_t addrs = 0x35e53c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "CalculateSignature",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IStreamCalculator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiBody*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                             { "CalculateSignature",
+                                                               {},
+                                                               { ::i2c::type_of<::Org::BouncyCastle::Crypto::IStreamCalculator*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*>(),
+                                                                 ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiBody*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder*& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_hdrBuilBuilder()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hdrBuilBuilder;
+constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder*& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_hdrBuilBuilder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hdrBuilBuilder;
 }
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* const& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_hdrBuilBuilder() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hdrBuilBuilder;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hdrBuilBuilder;
 }
-constexpr void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_set_hdrBuilBuilder(::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hdrBuilBuilder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_set_hdrBuilBuilder(::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___hdrBuilBuilder = value;
 }
-constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_body()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___body;
+constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_body() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___body;
 }
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody* const& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_body() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___body;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___body;
 }
-constexpr void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_set_body(::Org::BouncyCastle::Asn1::Cmp::PkiBody*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___body)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_set_body(::Org::BouncyCastle::Asn1::Cmp::PkiBody* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___body = value;
 }
-constexpr ::System::Collections::IList*& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_generalInfos()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___generalInfos;
+constexpr ::System::Collections::IList*& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_generalInfos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___generalInfos;
 }
 constexpr ::System::Collections::IList* const& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_generalInfos() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___generalInfos;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___generalInfos;
 }
-constexpr void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_set_generalInfos(::System::Collections::IList*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___generalInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_set_generalInfos(::System::Collections::IList* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___generalInfos = value;
 }
-constexpr ::System::Collections::IList*& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_extraCerts()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___extraCerts;
+constexpr ::System::Collections::IList*& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_extraCerts() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___extraCerts;
 }
 constexpr ::System::Collections::IList* const& Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_get_extraCerts() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___extraCerts;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___extraCerts;
 }
-constexpr void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_set_extraCerts(::System::Collections::IList*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___extraCerts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::__cordl_internal_set_extraCerts(::System::Collections::IList* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___extraCerts = value;
 }
-inline void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName*  sender, ::Org::BouncyCastle::Asn1::X509::GeneralName*  recipient)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender, recipient);
+inline void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                              { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sender, recipient);
 }
-inline void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::_ctor(int32_t  pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName*  sender, ::Org::BouncyCastle::Asn1::X509::GeneralName*  recipient)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pvno, sender, recipient);
+inline void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::_ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+          { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pvno, sender, recipient);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetTransactionId(::ArrayW<uint8_t,::Array<uint8_t>*>  tid)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetTransactionId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, tid);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetTransactionId(::ArrayW<uint8_t> tid) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetTransactionId", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, tid);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetFreeText(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*  freeText)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetFreeText",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, freeText);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetFreeText(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* freeText) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                         { "SetFreeText", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, freeText);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::AddGeneralInfo(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*  genInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "AddGeneralInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, genInfo);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::AddGeneralInfo(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* genInfo) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                         { "AddGeneralInfo", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, genInfo);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetMessageTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime*  generalizedTime)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetMessageTime",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, generalizedTime);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetMessageTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* generalizedTime) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                         { "SetMessageTime", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, generalizedTime);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetRecipKID(::ArrayW<uint8_t,::Array<uint8_t>*>  id)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetRecipKID",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, id);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetRecipKID(::ArrayW<uint8_t> id) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetRecipKID", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, id);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetRecipNonce(::ArrayW<uint8_t,::Array<uint8_t>*>  nonce)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetRecipNonce",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, nonce);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetRecipNonce(::ArrayW<uint8_t> nonce) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetRecipNonce", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, nonce);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetSenderKID(::ArrayW<uint8_t,::Array<uint8_t>*>  id)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetSenderKID",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, id);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetSenderKID(::ArrayW<uint8_t> id) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetSenderKID", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, id);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetSenderNonce(::ArrayW<uint8_t,::Array<uint8_t>*>  nonce)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetSenderNonce",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, nonce);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetSenderNonce(::ArrayW<uint8_t> nonce) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetSenderNonce", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, nonce);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetBody(::Org::BouncyCastle::Asn1::Cmp::PkiBody*  body)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "SetBody",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiBody*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, body);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::SetBody(::Org::BouncyCastle::Asn1::Cmp::PkiBody* body) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "SetBody", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiBody*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, body);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::AddCmpCertificate(::Org::BouncyCastle::X509::X509Certificate*  certificate)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "AddCmpCertificate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*, false>(this, ___internal_method, certificate);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::AddCmpCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                         { "AddCmpCertificate", {}, { ::i2c::type_of<::Org::BouncyCastle::X509::X509Certificate*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(this, ___internal_method, certificate);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::Build(::Org::BouncyCastle::Crypto::ISignatureFactory*  signatureFactory)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "Build",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*, false>(this, ___internal_method, signatureFactory);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureFactory) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                         { "Build", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::ISignatureFactory*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*>(this, ___internal_method, signatureFactory);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::Build(::Org::BouncyCastle::Crypto::IMacFactory*  factory)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "Build",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IMacFactory*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*, false>(this, ___internal_method, factory);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::Build(::Org::BouncyCastle::Crypto::IMacFactory* factory) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(), { "Build", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::IMacFactory*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*>(this, ___internal_method, factory);
 }
-inline void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::FinalizeHeader(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algorithmIdentifier)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "FinalizeHeader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, algorithmIdentifier);
+inline void Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::FinalizeHeader(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                                                         { "FinalizeHeader", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, algorithmIdentifier);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::FinalizeMessage(::Org::BouncyCastle::Asn1::Cmp::PkiHeader*  header, ::Org::BouncyCastle::Asn1::DerBitString*  protection)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "FinalizeMessage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerBitString*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*, false>(this, ___internal_method, header, protection);
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::FinalizeMessage(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header,
+                                                                                                                          ::Org::BouncyCastle::Asn1::DerBitString* protection) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                       { "FinalizeMessage", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::DerBitString*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*>(this, ___internal_method, header, protection);
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::CalculateSignature(::Org::BouncyCastle::Crypto::IStreamCalculator*  signer, ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*  header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody*  body)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>::get(),
-                        "CalculateSignature",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IStreamCalculator*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PkiBody*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method, signer, header, body);
+inline ::ArrayW<uint8_t> Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::CalculateSignature(::Org::BouncyCastle::Crypto::IStreamCalculator* signer,
+                                                                                                ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(),
+                                                           { "CalculateSignature",
+                                                             {},
+                                                             { ::i2c::type_of<::Org::BouncyCastle::Crypto::IStreamCalculator*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*>(),
+                                                               ::i2c::type_of<::Org::BouncyCastle::Asn1::Cmp::PkiBody*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method, signer, header, body);
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName*  sender, ::Org::BouncyCastle::Asn1::X509::GeneralName*  recipient)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(sender, recipient));
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender,
+                                                                                                                          ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(sender, recipient));
 }
-inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::New_ctor(int32_t  pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName*  sender, ::Org::BouncyCastle::Asn1::X509::GeneralName*  recipient)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(pvno, sender, recipient));
+inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::New_ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender,
+                                                                                                                          ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder*>(pvno, sender, recipient));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::ProtectedPkiMessageBuilder()   {
-}
+constexpr ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::ProtectedPkiMessageBuilder() {}

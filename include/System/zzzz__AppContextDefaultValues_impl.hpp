@@ -3,75 +3,58 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__AppContextDefaultValues_def.hpp"
 //  Writing Method size for method: ::System::AppContextDefaultValues.PopulateDefaultValues
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::AppContextDefaultValues::PopulateDefaultValues)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::AppContextDefaultValues::PopulateDefaultValues)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5b5039c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get(),
-                        "PopulateDefaultValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AppContextDefaultValues*>(), { "PopulateDefaultValues", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::AppContextDefaultValues.TryGetSwitchOverride
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<bool>)>(&::System::AppContextDefaultValues::TryGetSwitchOverride)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<bool>)>(&::System::AppContextDefaultValues::TryGetSwitchOverride)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5b503a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get(),
-                        "TryGetSwitchOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::AppContextDefaultValues*>(), { "TryGetSwitchOverride", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<bool>>() } })));
     return ___internal_method;
   }
 };
-inline void System::AppContextDefaultValues::setStaticF_SwitchEnforceJapaneseEraYearRanges(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "SwitchEnforceJapaneseEraYearRanges", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get>(std::forward<::StringW>(value));
+inline void System::AppContextDefaultValues::setStaticF_SwitchEnforceJapaneseEraYearRanges(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "SwitchEnforceJapaneseEraYearRanges", ::System::AppContextDefaultValues*>(std::forward<::StringW>(value));
 }
-inline ::StringW System::AppContextDefaultValues::getStaticF_SwitchEnforceJapaneseEraYearRanges()  {
-return ::cordl_internals::getStaticField<::StringW, "SwitchEnforceJapaneseEraYearRanges", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get>();
+inline ::StringW System::AppContextDefaultValues::getStaticF_SwitchEnforceJapaneseEraYearRanges() {
+  return ::cordl_internals::getStaticField<::StringW, "SwitchEnforceJapaneseEraYearRanges", ::System::AppContextDefaultValues*>();
 }
-inline void System::AppContextDefaultValues::setStaticF_SwitchFormatJapaneseFirstYearAsANumber(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "SwitchFormatJapaneseFirstYearAsANumber", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get>(std::forward<::StringW>(value));
+inline void System::AppContextDefaultValues::setStaticF_SwitchFormatJapaneseFirstYearAsANumber(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "SwitchFormatJapaneseFirstYearAsANumber", ::System::AppContextDefaultValues*>(std::forward<::StringW>(value));
 }
-inline ::StringW System::AppContextDefaultValues::getStaticF_SwitchFormatJapaneseFirstYearAsANumber()  {
-return ::cordl_internals::getStaticField<::StringW, "SwitchFormatJapaneseFirstYearAsANumber", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get>();
+inline ::StringW System::AppContextDefaultValues::getStaticF_SwitchFormatJapaneseFirstYearAsANumber() {
+  return ::cordl_internals::getStaticField<::StringW, "SwitchFormatJapaneseFirstYearAsANumber", ::System::AppContextDefaultValues*>();
 }
-inline void System::AppContextDefaultValues::setStaticF_SwitchEnforceLegacyJapaneseDateParsing(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "SwitchEnforceLegacyJapaneseDateParsing", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get>(std::forward<::StringW>(value));
+inline void System::AppContextDefaultValues::setStaticF_SwitchEnforceLegacyJapaneseDateParsing(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "SwitchEnforceLegacyJapaneseDateParsing", ::System::AppContextDefaultValues*>(std::forward<::StringW>(value));
 }
-inline ::StringW System::AppContextDefaultValues::getStaticF_SwitchEnforceLegacyJapaneseDateParsing()  {
-return ::cordl_internals::getStaticField<::StringW, "SwitchEnforceLegacyJapaneseDateParsing", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get>();
+inline ::StringW System::AppContextDefaultValues::getStaticF_SwitchEnforceLegacyJapaneseDateParsing() {
+  return ::cordl_internals::getStaticField<::StringW, "SwitchEnforceLegacyJapaneseDateParsing", ::System::AppContextDefaultValues*>();
 }
-inline void System::AppContextDefaultValues::PopulateDefaultValues()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get(),
-                        "PopulateDefaultValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void System::AppContextDefaultValues::PopulateDefaultValues() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AppContextDefaultValues*>(), { "PopulateDefaultValues", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline bool System::AppContextDefaultValues::TryGetSwitchOverride(::StringW  switchName, ::ByRef<bool>  overrideValue)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContextDefaultValues*>::get(),
-                        "TryGetSwitchOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, switchName, overrideValue);
+inline bool System::AppContextDefaultValues::TryGetSwitchOverride(::StringW switchName, ::by_ref<bool> overrideValue) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::AppContextDefaultValues*>(), { "TryGetSwitchOverride", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<bool>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, switchName, overrideValue);
 }
 // Ctor Parameters []
-constexpr ::System::AppContextDefaultValues::AppContextDefaultValues()   {
-}
+constexpr ::System::AppContextDefaultValues::AppContextDefaultValues() {}

@@ -9,256 +9,185 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::Color32Serializable._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::UnityEngine::Color32)>(&::GlobalNamespace::Color32Serializable::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::UnityEngine::Color32)>(&::GlobalNamespace::Color32Serializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x36c11e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::Color32Serializable.Serialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::Color32Serializable::Serialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::Color32Serializable::Serialize)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x36c11f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "Serialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataWriter*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "Serialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataWriter*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::Color32Serializable.Deserialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::Color32Serializable::Deserialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::Color32Serializable::Deserialize)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x36c1250;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "Deserialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "Deserialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::Color32Serializable.op_Implicit___UnityEngine__Color32
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::GlobalNamespace::Color32Serializable)>(&::GlobalNamespace::Color32Serializable::op_Implicit___UnityEngine__Color32)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::GlobalNamespace::Color32Serializable)>(
+    &::GlobalNamespace::Color32Serializable::op_Implicit___UnityEngine__Color32)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x36c12b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Color32Serializable>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "op_Implicit", {}, { ::i2c::type_of<::GlobalNamespace::Color32Serializable>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::Color32Serializable.op_Implicit___GlobalNamespace__Color32Serializable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Color32Serializable (*)(::UnityEngine::Color32)>(&::GlobalNamespace::Color32Serializable::op_Implicit___GlobalNamespace__Color32Serializable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Color32Serializable (*)(::UnityEngine::Color32)>(
+    &::GlobalNamespace::Color32Serializable::op_Implicit___GlobalNamespace__Color32Serializable)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x36c12b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::Color32Serializable.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Color32Serializable::*)(::GlobalNamespace::Color32Serializable)>(&::GlobalNamespace::Color32Serializable::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Color32Serializable::*)(::GlobalNamespace::Color32Serializable)>(&::GlobalNamespace::Color32Serializable::Equals)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x36c12bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Color32Serializable>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "Equals", {}, { ::i2c::type_of<::GlobalNamespace::Color32Serializable>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::Color32Serializable.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Color32Serializable::*)(::System::Object*)>(&::GlobalNamespace::Color32Serializable::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Color32Serializable::*)(::System::Object*)>(&::GlobalNamespace::Color32Serializable::Equals)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x36c1304;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { ::i2c::class_of<::GlobalNamespace::Color32Serializable>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::Color32Serializable.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Color32Serializable::*)()>(&::GlobalNamespace::Color32Serializable::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Color32Serializable::*)()>(&::GlobalNamespace::Color32Serializable::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x36c13b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { ::i2c::class_of<::GlobalNamespace::Color32Serializable>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::Color32Serializable.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::Color32Serializable::*)()>(&::GlobalNamespace::Color32Serializable::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::Color32Serializable::*)()>(&::GlobalNamespace::Color32Serializable::ToString)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x36c13b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { ::i2c::class_of<::GlobalNamespace::Color32Serializable>(), 3 }));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::Color32Serializable::_ctor(::UnityEngine::Color32  color)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
+inline void GlobalNamespace::Color32Serializable::_ctor(::UnityEngine::Color32 color) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, color);
 }
-inline void GlobalNamespace::Color32Serializable::Serialize(::LiteNetLib::Utils::NetDataWriter*  writer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "Serialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataWriter*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer);
+inline void GlobalNamespace::Color32Serializable::Serialize(::LiteNetLib::Utils::NetDataWriter* writer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "Serialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataWriter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, writer);
 }
-inline void GlobalNamespace::Color32Serializable::Deserialize(::LiteNetLib::Utils::NetDataReader*  reader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "Deserialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
+inline void GlobalNamespace::Color32Serializable::Deserialize(::LiteNetLib::Utils::NetDataReader* reader) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "Deserialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, reader);
 }
-inline ::UnityEngine::Color32 GlobalNamespace::Color32Serializable::op_Implicit___UnityEngine__Color32(::GlobalNamespace::Color32Serializable  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Color32Serializable>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32, false>(nullptr, ___internal_method, c);
+inline ::UnityEngine::Color32 GlobalNamespace::Color32Serializable::op_Implicit___UnityEngine__Color32(::GlobalNamespace::Color32Serializable c) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "op_Implicit", {}, { ::i2c::type_of<::GlobalNamespace::Color32Serializable>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32>(nullptr, ___internal_method, c);
 }
-inline ::GlobalNamespace::Color32Serializable GlobalNamespace::Color32Serializable::op_Implicit___GlobalNamespace__Color32Serializable(::UnityEngine::Color32  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "op_Implicit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::Color32Serializable, false>(nullptr, ___internal_method, c);
+inline ::GlobalNamespace::Color32Serializable GlobalNamespace::Color32Serializable::op_Implicit___GlobalNamespace__Color32Serializable(::UnityEngine::Color32 c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::Color32Serializable>(nullptr, ___internal_method, c);
 }
-inline bool GlobalNamespace::Color32Serializable::Equals(::GlobalNamespace::Color32Serializable  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Color32Serializable>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool GlobalNamespace::Color32Serializable::Equals(::GlobalNamespace::Color32Serializable other) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Color32Serializable>(), { "Equals", {}, { ::i2c::type_of<::GlobalNamespace::Color32Serializable>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool GlobalNamespace::Color32Serializable::Equals(::System::Object*  obj)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool GlobalNamespace::Color32Serializable::Equals(::System::Object* obj) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::Color32Serializable>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
 }
-inline int32_t GlobalNamespace::Color32Serializable::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::Color32Serializable::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::Color32Serializable>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::Color32Serializable::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Color32Serializable>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::Color32Serializable::ToString() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::Color32Serializable>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
 /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-constexpr  GlobalNamespace::Color32Serializable::operator ::LiteNetLib::Utils::INetSerializable*()  {
-return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr GlobalNamespace::Color32Serializable::operator ::LiteNetLib::Utils::INetSerializable*() {
+  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::Color32Serializable::i___LiteNetLib__Utils__INetSerializable()  {
-return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::Color32Serializable::i___LiteNetLib__Utils__INetSerializable() {
+  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Color32Serializable>"
-constexpr  GlobalNamespace::Color32Serializable::operator ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*()  {
-return static_cast<::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr GlobalNamespace::Color32Serializable::operator ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*() {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Color32Serializable>"
-constexpr ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>* GlobalNamespace::Color32Serializable::i___System__IEquatable_1___GlobalNamespace__Color32Serializable_()  {
-return static_cast<::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>* GlobalNamespace::Color32Serializable::i___System__IEquatable_1___GlobalNamespace__Color32Serializable_() {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::Color32Serializable::Color32Serializable(::UnityEngine::Color32  _color) noexcept  {
-this->_color = _color;
+constexpr ::GlobalNamespace::Color32Serializable::Color32Serializable(::UnityEngine::Color32 _color) noexcept {
+  this->_color = _color;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::Color32Serializable::Color32Serializable()   {
-}
+constexpr ::GlobalNamespace::Color32Serializable::Color32Serializable() {}

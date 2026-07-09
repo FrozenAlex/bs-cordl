@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/JsonException.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Exception_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(JsonException)
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
@@ -23,59 +23,58 @@ namespace Newtonsoft::Json {
 class JsonException;
 }
 // Write type traits
-MARK_REF_PTR_T(::Newtonsoft::Json::JsonException);
+MARK_REF_T(::Newtonsoft::Json::JsonException*);
+DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonException*, "Newtonsoft.Json", "JsonException");
 // Dependencies System.Exception
 namespace Newtonsoft::Json {
 // Is value type: false
 // CS Name: Newtonsoft.Json.JsonException
 class CORDL_TYPE JsonException : public ::System::Exception {
 public:
-// Declarations
-/// @brief Method Create, addr 0x5b9cc74, size 0xac, virtual false, abstract: false, final false
-static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo*  lineInfo, ::StringW  path, ::StringW  message) ;
+  // Declarations
+  /// @brief Method Create, addr 0x5b9cc74, size 0xac, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
-static inline ::Newtonsoft::Json::JsonException* New_ctor() ;
+  static inline ::Newtonsoft::Json::JsonException* New_ctor();
 
-static inline ::Newtonsoft::Json::JsonException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::Newtonsoft::Json::JsonException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW  message) ;
+  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message);
 
-static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
+  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-/// @brief Method .ctor, addr 0x5b9cab8, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5b9cab8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5b9cbf0, size 0x84, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5b9cbf0, size 0x84, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5b9cb10, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5b9cb10, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5b9cb7c, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
+  /// @brief Method .ctor, addr 0x5b9cb7c, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr JsonException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  JsonException(JsonException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-JsonException(JsonException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  JsonException(JsonException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-JsonException(JsonException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13239 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13239};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonException, 0x90>, "Size mismatch!");
+static_assert(sizeof(::Newtonsoft::Json::JsonException) == 0x90, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json
-NEED_NO_BOX(::Newtonsoft::Json::JsonException);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonException*, "Newtonsoft.Json", "JsonException");
+} // namespace Newtonsoft::Json

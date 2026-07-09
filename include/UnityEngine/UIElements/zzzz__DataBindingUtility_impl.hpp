@@ -11,191 +11,158 @@
 #include "UnityEngine/UIElements/zzzz__DataBindingUtility_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(&::UnityEngine::UIElements::DataBindingUtility___c::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(&::UnityEngine::UIElements::DataBindingUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6aede8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__23_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Internal::TypePathVisitor* (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(&::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Internal::TypePathVisitor* (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(
+    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_0)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6aede90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        "<.cctor>b__23_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_0", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__23_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)(::UnityEngine::UIElements::Internal::TypePathVisitor*)>(&::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)(::UnityEngine::UIElements::Internal::TypePathVisitor*)>(
+    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_1)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6aeded4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        "<.cctor>b__23_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Internal::TypePathVisitor*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(),
+                                                                                           { "<.cctor>b__23_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__23_2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(&::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(
+    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_2)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6aedefc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        "<.cctor>b__23_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_2", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__23_3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*)>(&::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_3)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*)>(
+    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_3)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x6aedf54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        "<.cctor>b__23_3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(),
+                                                             { "<.cctor>b__23_3", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::DataBindingUtility___c::setStaticF___9(::UnityEngine::UIElements::DataBindingUtility___c*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::UIElements::DataBindingUtility___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get>(std::forward<::UnityEngine::UIElements::DataBindingUtility___c*>(value));
+inline void UnityEngine::UIElements::DataBindingUtility___c::setStaticF___9(::UnityEngine::UIElements::DataBindingUtility___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::DataBindingUtility___c*, "<>9", ::UnityEngine::UIElements::DataBindingUtility___c*>(
+      std::forward<::UnityEngine::UIElements::DataBindingUtility___c*>(value));
 }
-inline ::UnityEngine::UIElements::DataBindingUtility___c* UnityEngine::UIElements::DataBindingUtility___c::getStaticF___9()  {
-return ::cordl_internals::getStaticField<::UnityEngine::UIElements::DataBindingUtility___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get>();
+inline ::UnityEngine::UIElements::DataBindingUtility___c* UnityEngine::UIElements::DataBindingUtility___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::DataBindingUtility___c*, "<>9", ::UnityEngine::UIElements::DataBindingUtility___c*>();
 }
-inline void UnityEngine::UIElements::DataBindingUtility___c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::DataBindingUtility___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::Internal::TypePathVisitor* UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        "<.cctor>b__23_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Internal::TypePathVisitor*, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::Internal::TypePathVisitor* UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_0", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Internal::TypePathVisitor*>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_1(::UnityEngine::UIElements::Internal::TypePathVisitor*  v)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        "<.cctor>b__23_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Internal::TypePathVisitor*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v);
+inline void UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_1(::UnityEngine::UIElements::Internal::TypePathVisitor* v) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(),
+                                                                                         { "<.cctor>b__23_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, v);
 }
-inline ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        "<.cctor>b__23_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_2() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_2", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_3(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*  v)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility___c*>::get(),
-                        "<.cctor>b__23_3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v);
+inline void UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_3(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* v) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(),
+                                                           { "<.cctor>b__23_3", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, v);
 }
-inline ::UnityEngine::UIElements::DataBindingUtility___c* UnityEngine::UIElements::DataBindingUtility___c::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DataBindingUtility___c*>());
+inline ::UnityEngine::UIElements::DataBindingUtility___c* UnityEngine::UIElements::DataBindingUtility___c::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::DataBindingUtility___c*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::DataBindingUtility___c::DataBindingUtility___c()   {
-}
+constexpr ::UnityEngine::UIElements::DataBindingUtility___c::DataBindingUtility___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility.TryGetBinding
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::ByRef<::UnityEngine::UIElements::BindingId>, ::ByRef<::UnityEngine::UIElements::BindingInfo>)>(&::UnityEngine::UIElements::DataBindingUtility::TryGetBinding)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>,
+                                                                ::by_ref<::UnityEngine::UIElements::BindingInfo>)>(&::UnityEngine::UIElements::DataBindingUtility::TryGetBinding)> {
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x6aed9a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility*>::get(),
-                        "TryGetBinding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BindingId>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BindingInfo>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility*>(),
+                                                             { "TryGetBinding",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingInfo>>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::DataBindingUtility::setStaticF_k_TypeVisitors(::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>*, "k_TypeVisitors", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility*>::get>(std::forward<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>*>(value));
+inline void UnityEngine::UIElements::DataBindingUtility::setStaticF_k_TypeVisitors(::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>*, "k_TypeVisitors", ::UnityEngine::UIElements::DataBindingUtility*>(
+      std::forward<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>*>(value));
 }
-inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>* UnityEngine::UIElements::DataBindingUtility::getStaticF_k_TypeVisitors()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>*, "k_TypeVisitors", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility*>::get>();
+inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>* UnityEngine::UIElements::DataBindingUtility::getStaticF_k_TypeVisitors() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::TypePathVisitor*>*, "k_TypeVisitors",
+                                           ::UnityEngine::UIElements::DataBindingUtility*>();
 }
-inline void UnityEngine::UIElements::DataBindingUtility::setStaticF_k_AutoCompleteVisitors(::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>*, "k_AutoCompleteVisitors", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility*>::get>(std::forward<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>*>(value));
+inline void UnityEngine::UIElements::DataBindingUtility::setStaticF_k_AutoCompleteVisitors(::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>*, "k_AutoCompleteVisitors",
+                                    ::UnityEngine::UIElements::DataBindingUtility*>(
+      std::forward<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>*>(value));
 }
-inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>* UnityEngine::UIElements::DataBindingUtility::getStaticF_k_AutoCompleteVisitors()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>*, "k_AutoCompleteVisitors", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility*>::get>();
+inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>* UnityEngine::UIElements::DataBindingUtility::getStaticF_k_AutoCompleteVisitors() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>*, "k_AutoCompleteVisitors",
+                                           ::UnityEngine::UIElements::DataBindingUtility*>();
 }
-inline void UnityEngine::UIElements::DataBindingUtility::setStaticF_s_ReplaceIndices(::System::Text::RegularExpressions::Regex*  value)  {
-::cordl_internals::setStaticField<::System::Text::RegularExpressions::Regex*, "s_ReplaceIndices", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility*>::get>(std::forward<::System::Text::RegularExpressions::Regex*>(value));
+inline void UnityEngine::UIElements::DataBindingUtility::setStaticF_s_ReplaceIndices(::System::Text::RegularExpressions::Regex* value) {
+  ::cordl_internals::setStaticField<::System::Text::RegularExpressions::Regex*, "s_ReplaceIndices", ::UnityEngine::UIElements::DataBindingUtility*>(
+      std::forward<::System::Text::RegularExpressions::Regex*>(value));
 }
-inline ::System::Text::RegularExpressions::Regex* UnityEngine::UIElements::DataBindingUtility::getStaticF_s_ReplaceIndices()  {
-return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::Regex*, "s_ReplaceIndices", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility*>::get>();
+inline ::System::Text::RegularExpressions::Regex* UnityEngine::UIElements::DataBindingUtility::getStaticF_s_ReplaceIndices() {
+  return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::Regex*, "s_ReplaceIndices", ::UnityEngine::UIElements::DataBindingUtility*>();
 }
-inline bool UnityEngine::UIElements::DataBindingUtility::TryGetBinding(::UnityEngine::UIElements::VisualElement*  element, ::ByRef<::UnityEngine::UIElements::BindingId>  bindingId, ::ByRef<::UnityEngine::UIElements::BindingInfo>  bindingInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DataBindingUtility*>::get(),
-                        "TryGetBinding",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BindingId>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::BindingInfo>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, element, bindingId, bindingInfo);
+inline bool UnityEngine::UIElements::DataBindingUtility::TryGetBinding(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+                                                                       ::by_ref<::UnityEngine::UIElements::BindingInfo> bindingInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility*>(),
+                                                           { "TryGetBinding",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingInfo>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, element, bindingId, bindingInfo);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::DataBindingUtility::DataBindingUtility()   {
-}
+constexpr ::UnityEngine::UIElements::DataBindingUtility::DataBindingUtility() {}

@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsAsyncLoader.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
@@ -19,50 +19,49 @@ namespace GlobalNamespace {
 class LocalLeaderboardsAsyncLoader;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardsAsyncLoader);
+MARK_REF_T(::GlobalNamespace::LocalLeaderboardsAsyncLoader*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::LocalLeaderboardsAsyncLoader*, "", "LocalLeaderboardsAsyncLoader");
 // Dependencies BGLib.AppFlow.Initialization.AsyncInstaller
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LocalLeaderboardsAsyncLoader
 class CORDL_TYPE LocalLeaderboardsAsyncLoader : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
-// Declarations
-/// @brief Method InstallBindings, addr 0x36b38ec, size 0x4, virtual true, abstract: false, final false
-inline void InstallBindings() ;
+  // Declarations
+  /// @brief Method InstallBindings, addr 0x36b38ec, size 0x4, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
-/// @brief Method LoadResourcesBeforeInstall, addr 0x36b382c, size 0x60, virtual true, abstract: false, final false
-inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry, ::Zenject::DiContainer*  container) ;
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x36b382c, size 0x60, virtual true, abstract: false, final false
+  inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-/// @brief Method LoadResourcesBeforeInstallAsync, addr 0x36b388c, size 0x60, virtual true, abstract: false, final false
-inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry, ::Zenject::DiContainer*  container) ;
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x36b388c, size 0x60, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-static inline ::GlobalNamespace::LocalLeaderboardsAsyncLoader* New_ctor() ;
+  static inline ::GlobalNamespace::LocalLeaderboardsAsyncLoader* New_ctor();
 
-/// @brief Method .ctor, addr 0x36b38f0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x36b38f0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LocalLeaderboardsAsyncLoader() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalLeaderboardsAsyncLoader();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsAsyncLoader", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LocalLeaderboardsAsyncLoader(LocalLeaderboardsAsyncLoader&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsAsyncLoader", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LocalLeaderboardsAsyncLoader(LocalLeaderboardsAsyncLoader && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsAsyncLoader", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LocalLeaderboardsAsyncLoader(LocalLeaderboardsAsyncLoader const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsAsyncLoader", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LocalLeaderboardsAsyncLoader(LocalLeaderboardsAsyncLoader const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20945 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20945};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalLeaderboardsAsyncLoader, 0x28>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::LocalLeaderboardsAsyncLoader) == 0x28, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::LocalLeaderboardsAsyncLoader);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalLeaderboardsAsyncLoader*, "", "LocalLeaderboardsAsyncLoader");
+} // namespace GlobalNamespace

@@ -9,226 +9,171 @@
 #include "Newtonsoft/Json/Linq/zzzz__MergeNullValueHandling_def.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonMergeSettings._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(&::Newtonsoft::Json::Linq::JsonMergeSettings::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(&::Newtonsoft::Json::Linq::JsonMergeSettings::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5c40a78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonMergeSettings.get_MergeArrayHandling
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::MergeArrayHandling (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(&::Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeArrayHandling)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::MergeArrayHandling (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(
+    &::Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeArrayHandling)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5c40a84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "get_MergeArrayHandling",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "get_MergeArrayHandling", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonMergeSettings.set_MergeArrayHandling
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::Newtonsoft::Json::Linq::MergeArrayHandling)>(&::Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeArrayHandling)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::Newtonsoft::Json::Linq::MergeArrayHandling)>(
+    &::Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeArrayHandling)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5c40a8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "set_MergeArrayHandling",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::MergeArrayHandling>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(),
+                                                                                           { "set_MergeArrayHandling", {}, { ::i2c::type_of<::Newtonsoft::Json::Linq::MergeArrayHandling>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonMergeSettings.get_MergeNullValueHandling
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::MergeNullValueHandling (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(&::Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeNullValueHandling)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::MergeNullValueHandling (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(
+    &::Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeNullValueHandling)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5c40ae8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "get_MergeNullValueHandling",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "get_MergeNullValueHandling", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonMergeSettings.set_MergeNullValueHandling
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::Newtonsoft::Json::Linq::MergeNullValueHandling)>(&::Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeNullValueHandling)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::Newtonsoft::Json::Linq::MergeNullValueHandling)>(
+    &::Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeNullValueHandling)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5c40af0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "set_MergeNullValueHandling",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::MergeNullValueHandling>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(),
+                                                             { "set_MergeNullValueHandling", {}, { ::i2c::type_of<::Newtonsoft::Json::Linq::MergeNullValueHandling>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonMergeSettings.get_PropertyNameComparison
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparison (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(&::Newtonsoft::Json::Linq::JsonMergeSettings::get_PropertyNameComparison)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::StringComparison (::Newtonsoft::Json::Linq::JsonMergeSettings::*)()>(
+    &::Newtonsoft::Json::Linq::JsonMergeSettings::get_PropertyNameComparison)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5c40b4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "get_PropertyNameComparison",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "get_PropertyNameComparison", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonMergeSettings.set_PropertyNameComparison
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::System::StringComparison)>(&::Newtonsoft::Json::Linq::JsonMergeSettings::set_PropertyNameComparison)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonMergeSettings::*)(::System::StringComparison)>(
+    &::Newtonsoft::Json::Linq::JsonMergeSettings::set_PropertyNameComparison)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5c40b54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "set_PropertyNameComparison",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::StringComparison>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "set_PropertyNameComparison", {}, { ::i2c::type_of<::System::StringComparison>() } })));
     return ___internal_method;
   }
 };
-constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling& Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_get__mergeArrayHandling()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____mergeArrayHandling;
+constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling& Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_get__mergeArrayHandling() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mergeArrayHandling;
 }
 constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling const& Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_get__mergeArrayHandling() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____mergeArrayHandling;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mergeArrayHandling;
 }
-constexpr void Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_set__mergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____mergeArrayHandling = value;
+constexpr void Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_set__mergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____mergeArrayHandling = value;
 }
-constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling& Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_get__mergeNullValueHandling()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____mergeNullValueHandling;
+constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling& Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_get__mergeNullValueHandling() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mergeNullValueHandling;
 }
 constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling const& Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_get__mergeNullValueHandling() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____mergeNullValueHandling;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mergeNullValueHandling;
 }
-constexpr void Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_set__mergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____mergeNullValueHandling = value;
+constexpr void Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_set__mergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____mergeNullValueHandling = value;
 }
-constexpr ::System::StringComparison& Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_get__propertyNameComparison()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____propertyNameComparison;
+constexpr ::System::StringComparison& Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_get__propertyNameComparison() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____propertyNameComparison;
 }
 constexpr ::System::StringComparison const& Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_get__propertyNameComparison() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____propertyNameComparison;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____propertyNameComparison;
 }
-constexpr void Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_set__propertyNameComparison(::System::StringComparison  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____propertyNameComparison = value;
+constexpr void Newtonsoft::Json::Linq::JsonMergeSettings::__cordl_internal_set__propertyNameComparison(::System::StringComparison value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____propertyNameComparison = value;
 }
-inline void Newtonsoft::Json::Linq::JsonMergeSettings::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Newtonsoft::Json::Linq::JsonMergeSettings::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Linq::MergeArrayHandling Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeArrayHandling()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "get_MergeArrayHandling",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::MergeArrayHandling, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::Linq::MergeArrayHandling Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeArrayHandling() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "get_MergeArrayHandling", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::MergeArrayHandling>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "set_MergeArrayHandling",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::MergeArrayHandling>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(),
+                                                                                         { "set_MergeArrayHandling", {}, { ::i2c::type_of<::Newtonsoft::Json::Linq::MergeArrayHandling>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Linq::MergeNullValueHandling Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeNullValueHandling()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "get_MergeNullValueHandling",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::MergeNullValueHandling, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::Linq::MergeNullValueHandling Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeNullValueHandling() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "get_MergeNullValueHandling", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::MergeNullValueHandling>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "set_MergeNullValueHandling",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::MergeNullValueHandling>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::Linq::JsonMergeSettings::set_MergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(),
+                                                           { "set_MergeNullValueHandling", {}, { ::i2c::type_of<::Newtonsoft::Json::Linq::MergeNullValueHandling>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::System::StringComparison Newtonsoft::Json::Linq::JsonMergeSettings::get_PropertyNameComparison()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "get_PropertyNameComparison",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::StringComparison, false>(this, ___internal_method);
+inline ::System::StringComparison Newtonsoft::Json::Linq::JsonMergeSettings::get_PropertyNameComparison() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "get_PropertyNameComparison", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::StringComparison>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::JsonMergeSettings::set_PropertyNameComparison(::System::StringComparison  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonMergeSettings*>::get(),
-                        "set_PropertyNameComparison",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::StringComparison>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::Linq::JsonMergeSettings::set_PropertyNameComparison(::System::StringComparison value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonMergeSettings*>(), { "set_PropertyNameComparison", {}, { ::i2c::type_of<::System::StringComparison>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Linq::JsonMergeSettings* Newtonsoft::Json::Linq::JsonMergeSettings::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JsonMergeSettings*>());
+inline ::Newtonsoft::Json::Linq::JsonMergeSettings* Newtonsoft::Json::Linq::JsonMergeSettings::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JsonMergeSettings*>());
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Linq::JsonMergeSettings::JsonMergeSettings()   {
-}
+constexpr ::Newtonsoft::Json::Linq::JsonMergeSettings::JsonMergeSettings() {}

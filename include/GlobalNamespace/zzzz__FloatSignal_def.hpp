@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/FloatSignal.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__GenericSignal_1_def.hpp"
@@ -11,41 +11,40 @@ namespace GlobalNamespace {
 class FloatSignal;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::FloatSignal);
+MARK_REF_T(::GlobalNamespace::FloatSignal*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::FloatSignal*, "", "FloatSignal");
 // Dependencies GenericSignal`1<T>
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FloatSignal
 class CORDL_TYPE FloatSignal : public ::GlobalNamespace::GenericSignal_1<float_t> {
 public:
-// Declarations
-static inline ::GlobalNamespace::FloatSignal* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::FloatSignal* New_ctor();
 
-/// @brief Method .ctor, addr 0x5713470, size 0x48, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5713470, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FloatSignal() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloatSignal();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FloatSignal", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FloatSignal(FloatSignal&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FloatSignal", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FloatSignal(FloatSignal && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FloatSignal", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FloatSignal(FloatSignal const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FloatSignal", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FloatSignal(FloatSignal const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20299 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20299};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatSignal, 0x28>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::FloatSignal) == 0x28, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::FloatSignal);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FloatSignal*, "", "FloatSignal");
+} // namespace GlobalNamespace

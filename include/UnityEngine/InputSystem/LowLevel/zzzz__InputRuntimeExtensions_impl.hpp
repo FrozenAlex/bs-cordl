@@ -3,20 +3,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputRuntimeExtensions_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputRuntime_def.hpp"
-template<typename TCommand>
-inline int64_t UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions::DeviceCommand(::UnityEngine::InputSystem::LowLevel::IInputRuntime*  runtime, int32_t  deviceId, ::ByRef<TCommand>  command)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions*>::get(),
-                    "DeviceCommand",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TCommand>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::IInputRuntime*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TCommand>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TCommand>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, runtime, deviceId, command);
+template <typename TCommand>
+inline int64_t UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions::DeviceCommand(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime, int32_t deviceId, ::by_ref<TCommand> command) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions*>(),
+                                              { "DeviceCommand",
+                                                { ::i2c::class_of<TCommand>() },
+                                                { ::i2c::type_of<::UnityEngine::InputSystem::LowLevel::IInputRuntime*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<TCommand>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TCommand>() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, runtime, deviceId, command);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions::InputRuntimeExtensions()   {
-}
+constexpr ::UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions::InputRuntimeExtensions() {}

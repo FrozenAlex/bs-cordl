@@ -3,141 +3,82 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__Aliasing_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::Aliasing.ExpectAliased
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*)>(&::Unity::Burst::CompilerServices::Aliasing::ExpectAliased)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*)>(&::Unity::Burst::CompilerServices::Aliasing::ExpectAliased)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x63651c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                        "ExpectAliased",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectAliased", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<void*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::Aliasing.ExpectNotAliased
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*)>(&::Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*)>(&::Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x63651c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                        "ExpectNotAliased",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectNotAliased", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<void*>() } })));
     return ___internal_method;
   }
 };
-inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(void*  a, void*  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                        "ExpectAliased",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);
+inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(void* a, void* b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectAliased", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<void*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template<typename A,typename B>
-inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(::ByRef<A>  a, ::ByRef<B>  b)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                    "ExpectAliased",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<A>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<B>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<A>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<B>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<A>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<B>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);
+template <typename A, typename B> inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(::by_ref<A> a, ::by_ref<B> b) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(),
+                                                           { "ExpectAliased", { ::i2c::class_of<A>(), ::i2c::class_of<B>() }, { ::i2c::type_of<::by_ref<A>>(), ::i2c::type_of<::by_ref<B>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<A>(), ::i2c::class_of<B>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template<typename B>
-inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(void*  a, ::ByRef<B>  b)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                    "ExpectAliased",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<B>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<B>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<B>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);
+template <typename B> inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(void* a, ::by_ref<B> b) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectAliased", { ::i2c::class_of<B>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<B>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<B>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template<typename A>
-inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(::ByRef<A>  a, void*  b)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                    "ExpectAliased",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<A>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<A>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<A>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);
+template <typename A> inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(::by_ref<A> a, void* b) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectAliased", { ::i2c::class_of<A>() }, { ::i2c::type_of<::by_ref<A>>(), ::i2c::type_of<void*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<A>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(void*  a, void*  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                        "ExpectNotAliased",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);
+inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(void* a, void* b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectNotAliased", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<void*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template<typename A,typename B>
-inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(::ByRef<A>  a, ::ByRef<B>  b)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                    "ExpectNotAliased",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<A>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<B>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<A>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<B>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<A>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<B>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);
+template <typename A, typename B> inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(::by_ref<A> a, ::by_ref<B> b) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(),
+                                                           { "ExpectNotAliased", { ::i2c::class_of<A>(), ::i2c::class_of<B>() }, { ::i2c::type_of<::by_ref<A>>(), ::i2c::type_of<::by_ref<B>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<A>(), ::i2c::class_of<B>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template<typename B>
-inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(void*  a, ::ByRef<B>  b)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                    "ExpectNotAliased",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<B>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<B>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<B>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);
+template <typename B> inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(void* a, ::by_ref<B> b) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(),
+                                                           { "ExpectNotAliased", { ::i2c::class_of<B>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<B>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<B>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template<typename A>
-inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(::ByRef<A>  a, void*  b)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::CompilerServices::Aliasing*>::get(),
-                    "ExpectNotAliased",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<A>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<A>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<A>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);
+template <typename A> inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(::by_ref<A> a, void* b) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(),
+                                                           { "ExpectNotAliased", { ::i2c::class_of<A>() }, { ::i2c::type_of<::by_ref<A>>(), ::i2c::type_of<void*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<A>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
 // Ctor Parameters []
-constexpr ::Unity::Burst::CompilerServices::Aliasing::Aliasing()   {
-}
+constexpr ::Unity::Burst::CompilerServices::Aliasing::Aliasing() {}

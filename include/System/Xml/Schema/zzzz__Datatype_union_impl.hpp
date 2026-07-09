@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/Schema/Datatype_union.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_union_def.hpp"
 #include "System/Xml/Schema/zzzz__DatatypeImplementation_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
@@ -15,361 +16,267 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.CreateValueConverter
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (::System::Xml::Schema::Datatype_union::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::Datatype_union::CreateValueConverter)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlValueConverter* (::System::Xml::Schema::Datatype_union::*)(::System::Xml::Schema::XmlSchemaType*)>(
+    &::System::Xml::Schema::Datatype_union::CreateValueConverter)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6083280;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                  25
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 25 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_union::*)(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>)>(&::System::Xml::Schema::Datatype_union::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_union::*)(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>)>(
+    &::System::Xml::Schema::Datatype_union::_ctor)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6081514;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.Compare
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Datatype_union::*)(::System::Object*, ::System::Object*)>(&::System::Xml::Schema::Datatype_union::Compare)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::Datatype_union::*)(::System::Object*, ::System::Object*)>(&::System::Xml::Schema::Datatype_union::Compare)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x608328c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.get_ValueType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_ValueType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_ValueType)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6083394;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.get_TypeCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_TypeCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60833f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.get_FacetsChecker
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_FacetsChecker)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x60833f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 18 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.get_ListValueType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_ListValueType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_ListValueType)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6083454;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                  26
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 26 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.get_ValidRestrictionFlags
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFlags (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_ValidRestrictionFlags)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::RestrictionFlags (::System::Xml::Schema::Datatype_union::*)()>(
+    &::System::Xml::Schema::Datatype_union::get_ValidRestrictionFlags)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60834b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                  27
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 27 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.get_BaseMemberTypes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::get_BaseMemberTypes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> (::System::Xml::Schema::Datatype_union::*)()>(
+    &::System::Xml::Schema::Datatype_union::get_BaseMemberTypes)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60834b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                        "get_BaseMemberTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { "get_BaseMemberTypes", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.HasAtomicMembers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::HasAtomicMembers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Datatype_union::*)()>(&::System::Xml::Schema::Datatype_union::HasAtomicMembers)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6081380;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                        "HasAtomicMembers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { "HasAtomicMembers", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.IsUnionBaseOf
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Datatype_union::*)(::System::Xml::Schema::DatatypeImplementation*)>(&::System::Xml::Schema::Datatype_union::IsUnionBaseOf)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Datatype_union::*)(::System::Xml::Schema::DatatypeImplementation*)>(
+    &::System::Xml::Schema::Datatype_union::IsUnionBaseOf)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6081778;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                        "IsUnionBaseOf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::DatatypeImplementation*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { "IsUnionBaseOf", {}, { ::i2c::type_of<::System::Xml::Schema::DatatypeImplementation*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.TryParseValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::Datatype_union::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::ByRef<::System::Object*>)>(&::System::Xml::Schema::Datatype_union::TryParseValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Exception* (::System::Xml::Schema::Datatype_union::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::by_ref<::System::Object*>)>(
+        &::System::Xml::Schema::Datatype_union::TryParseValue)> {
   constexpr static std::size_t size = 0x1e4;
   constexpr static std::size_t addrs = 0x60834c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 16 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_union.TryParseValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::Datatype_union::*)(::System::Object*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::ByRef<::System::Object*>)>(&::System::Xml::Schema::Datatype_union::TryParseValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Exception* (::System::Xml::Schema::Datatype_union::*)(::System::Object*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::by_ref<::System::Object*>)>(
+        &::System::Xml::Schema::Datatype_union::TryParseValue)> {
   constexpr static std::size_t size = 0x488;
   constexpr static std::size_t addrs = 0x60836a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                                  17
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 17 }));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>& System::Xml::Schema::Datatype_union::__cordl_internal_get_types()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___types;
+constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>& System::Xml::Schema::Datatype_union::__cordl_internal_get_types() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___types;
 }
-constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> const& System::Xml::Schema::Datatype_union::__cordl_internal_get_types() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___types;
+constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> const& System::Xml::Schema::Datatype_union::__cordl_internal_get_types() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___types;
 }
-constexpr void System::Xml::Schema::Datatype_union::__cordl_internal_set_types(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___types)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::Datatype_union::__cordl_internal_set_types(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___types = value;
 }
-inline void System::Xml::Schema::Datatype_union::setStaticF_atomicValueType(::System::Type*  value)  {
-::cordl_internals::setStaticField<::System::Type*, "atomicValueType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get>(std::forward<::System::Type*>(value));
+inline void System::Xml::Schema::Datatype_union::setStaticF_atomicValueType(::System::Type* value) {
+  ::cordl_internals::setStaticField<::System::Type*, "atomicValueType", ::System::Xml::Schema::Datatype_union*>(std::forward<::System::Type*>(value));
 }
-inline ::System::Type* System::Xml::Schema::Datatype_union::getStaticF_atomicValueType()  {
-return ::cordl_internals::getStaticField<::System::Type*, "atomicValueType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get>();
+inline ::System::Type* System::Xml::Schema::Datatype_union::getStaticF_atomicValueType() {
+  return ::cordl_internals::getStaticField<::System::Type*, "atomicValueType", ::System::Xml::Schema::Datatype_union*>();
 }
-inline void System::Xml::Schema::Datatype_union::setStaticF_listValueType(::System::Type*  value)  {
-::cordl_internals::setStaticField<::System::Type*, "listValueType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get>(std::forward<::System::Type*>(value));
+inline void System::Xml::Schema::Datatype_union::setStaticF_listValueType(::System::Type* value) {
+  ::cordl_internals::setStaticField<::System::Type*, "listValueType", ::System::Xml::Schema::Datatype_union*>(std::forward<::System::Type*>(value));
 }
-inline ::System::Type* System::Xml::Schema::Datatype_union::getStaticF_listValueType()  {
-return ::cordl_internals::getStaticField<::System::Type*, "listValueType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get>();
+inline ::System::Type* System::Xml::Schema::Datatype_union::getStaticF_listValueType() {
+  return ::cordl_internals::getStaticField<::System::Type*, "listValueType", ::System::Xml::Schema::Datatype_union*>();
 }
-inline ::System::Xml::Schema::XmlValueConverter* System::Xml::Schema::Datatype_union::CreateValueConverter(::System::Xml::Schema::XmlSchemaType*  schemaType)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                            25
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlValueConverter*, false>(this, ___internal_method, schemaType);
+inline ::System::Xml::Schema::XmlValueConverter* System::Xml::Schema::Datatype_union::CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 25 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlValueConverter*>(this, ___internal_method, schemaType);
 }
-inline void System::Xml::Schema::Datatype_union::_ctor(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>  types)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, types);
+inline void System::Xml::Schema::Datatype_union::_ctor(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> types) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, types);
 }
-inline int32_t System::Xml::Schema::Datatype_union::Compare(::System::Object*  value1, ::System::Object*  value2)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value1, value2);
+inline int32_t System::Xml::Schema::Datatype_union::Compare(::System::Object* value1, ::System::Object* value2) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, value1, value2);
 }
-inline ::System::Type* System::Xml::Schema::Datatype_union::get_ValueType()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+inline ::System::Type* System::Xml::Schema::Datatype_union::get_ValueType() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::Datatype_union::get_TypeCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlTypeCode, false>(this, ___internal_method);
+inline ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::Datatype_union::get_TypeCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlTypeCode>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::FacetsChecker* System::Xml::Schema::Datatype_union::get_FacetsChecker()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::FacetsChecker*, false>(this, ___internal_method);
+inline ::System::Xml::Schema::FacetsChecker* System::Xml::Schema::Datatype_union::get_FacetsChecker() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 18 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::FacetsChecker*>(this, ___internal_method);
 }
-inline ::System::Type* System::Xml::Schema::Datatype_union::get_ListValueType()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                            26
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+inline ::System::Type* System::Xml::Schema::Datatype_union::get_ListValueType() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 26 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::RestrictionFlags System::Xml::Schema::Datatype_union::get_ValidRestrictionFlags()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                            27
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::RestrictionFlags, false>(this, ___internal_method);
+inline ::System::Xml::Schema::RestrictionFlags System::Xml::Schema::Datatype_union::get_ValidRestrictionFlags() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 27 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::RestrictionFlags>(this, ___internal_method);
 }
-inline ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> System::Xml::Schema::Datatype_union::get_BaseMemberTypes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                        "get_BaseMemberTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> System::Xml::Schema::Datatype_union::get_BaseMemberTypes() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { "get_BaseMemberTypes", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>>(this, ___internal_method);
 }
-inline bool System::Xml::Schema::Datatype_union::HasAtomicMembers()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                        "HasAtomicMembers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Xml::Schema::Datatype_union::HasAtomicMembers() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { "HasAtomicMembers", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Xml::Schema::Datatype_union::IsUnionBaseOf(::System::Xml::Schema::DatatypeImplementation*  derivedType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                        "IsUnionBaseOf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::DatatypeImplementation*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, derivedType);
+inline bool System::Xml::Schema::Datatype_union::IsUnionBaseOf(::System::Xml::Schema::DatatypeImplementation* derivedType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), { "IsUnionBaseOf", {}, { ::i2c::type_of<::System::Xml::Schema::DatatypeImplementation*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, derivedType);
 }
-inline ::System::Exception* System::Xml::Schema::Datatype_union::TryParseValue(::StringW  s, ::System::Xml::XmlNameTable*  nameTable, ::System::Xml::IXmlNamespaceResolver*  nsmgr, ::ByRef<::System::Object*>  typedValue)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, s, nameTable, nsmgr, typedValue);
+inline ::System::Exception* System::Xml::Schema::Datatype_union::TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr,
+                                                                               ::by_ref<::System::Object*> typedValue) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 16 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Exception*>(this, ___internal_method, s, nameTable, nsmgr, typedValue);
 }
-inline ::System::Exception* System::Xml::Schema::Datatype_union::TryParseValue(::System::Object*  value, ::System::Xml::XmlNameTable*  nameTable, ::System::Xml::IXmlNamespaceResolver*  nsmgr, ::ByRef<::System::Object*>  typedValue)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_union*>::get(),
-                            17
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, value, nameTable, nsmgr, typedValue);
+inline ::System::Exception* System::Xml::Schema::Datatype_union::TryParseValue(::System::Object* value, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr,
+                                                                               ::by_ref<::System::Object*> typedValue) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::Datatype_union*>(), 17 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Exception*>(this, ___internal_method, value, nameTable, nsmgr, typedValue);
 }
-inline ::System::Xml::Schema::Datatype_union* System::Xml::Schema::Datatype_union::New_ctor(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*,::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>  types)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_union*>(types));
+inline ::System::Xml::Schema::Datatype_union* System::Xml::Schema::Datatype_union::New_ctor(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> types) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::Datatype_union*>(types));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::Datatype_union::Datatype_union()   {
-}
+constexpr ::System::Xml::Schema::Datatype_union::Datatype_union() {}

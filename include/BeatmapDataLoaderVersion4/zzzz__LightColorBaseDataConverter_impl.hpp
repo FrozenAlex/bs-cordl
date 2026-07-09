@@ -5,31 +5,25 @@
 #include "BeatmapSaveDataVersion4/zzzz__LightColorEvent_def.hpp"
 #include "GlobalNamespace/zzzz__LightColorBaseData_def.hpp"
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::LightColorBaseDataConverter.Convert
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightColorBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightColorEvent)>(&::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightColorBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightColorEvent)>(
+    &::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x36a4368;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*>::get(),
-                        "Convert",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightColorEvent>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*>(),
+                                                             { "Convert", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::BeatmapSaveDataVersion4::LightColorEvent>() } })));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::LightColorBaseData* BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert(float_t  beat, ::BeatmapSaveDataVersion4::LightColorEvent  lightColorEvent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*>::get(),
-                        "Convert",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightColorEvent>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LightColorBaseData*, false>(nullptr, ___internal_method, beat, lightColorEvent);
+inline ::GlobalNamespace::LightColorBaseData* BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert(float_t beat, ::BeatmapSaveDataVersion4::LightColorEvent lightColorEvent) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*>(),
+                                                           { "Convert", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::BeatmapSaveDataVersion4::LightColorEvent>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LightColorBaseData*>(nullptr, ___internal_method, beat, lightColorEvent);
 }
 // Ctor Parameters []
-constexpr ::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::LightColorBaseDataConverter()   {
-}
+constexpr ::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::LightColorBaseDataConverter() {}

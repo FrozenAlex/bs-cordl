@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/LongField.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__TextValueFieldTraits_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextValueField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LongField)
 namespace UnityEngine::UIElements {
@@ -41,226 +41,222 @@ namespace UnityEngine::UIElements {
 class LongField_UxmlTraits;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::UIElements::LongField);
-MARK_REF_PTR_T(::UnityEngine::UIElements::LongField_LongInput);
-MARK_REF_PTR_T(::UnityEngine::UIElements::LongField_UxmlFactory);
-MARK_REF_PTR_T(::UnityEngine::UIElements::LongField_UxmlTraits);
+MARK_REF_T(::UnityEngine::UIElements::LongField*);
+MARK_REF_T(::UnityEngine::UIElements::LongField_LongInput*);
+MARK_REF_T(::UnityEngine::UIElements::LongField_UxmlFactory*);
+MARK_REF_T(::UnityEngine::UIElements::LongField_UxmlTraits*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LongField*, "UnityEngine.UIElements", "LongField");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LongField_LongInput*, "UnityEngine.UIElements", "LongField/LongInput");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LongField_UxmlFactory*, "UnityEngine.UIElements", "LongField/UxmlFactory");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LongField_UxmlTraits*, "UnityEngine.UIElements", "LongField/UxmlTraits");
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.LongField/UxmlFactory
-class CORDL_TYPE LongField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::LongField*,::UnityEngine::UIElements::LongField_UxmlTraits*> {
+class CORDL_TYPE LongField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::LongField*, ::UnityEngine::UIElements::LongField_UxmlTraits*> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::LongField_UxmlFactory* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::LongField_UxmlFactory* New_ctor();
 
-/// @brief Method .ctor, addr 0x6bf8e58, size 0x68, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6bf8e58, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LongField_UxmlFactory() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LongField_UxmlFactory();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LongField_UxmlFactory(LongField_UxmlFactory&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlFactory", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LongField_UxmlFactory(LongField_UxmlFactory && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LongField_UxmlFactory(LongField_UxmlFactory const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlFactory", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LongField_UxmlFactory(LongField_UxmlFactory const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4242 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4242};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LongField_UxmlFactory, 0x18>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::LongField_UxmlFactory) == 0x18, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.LongField/UxmlTraits
-class CORDL_TYPE LongField_UxmlTraits : public ::UnityEngine::UIElements::TextValueFieldTraits_2<int64_t,::UnityEngine::UIElements::UxmlLongAttributeDescription*> {
+class CORDL_TYPE LongField_UxmlTraits : public ::UnityEngine::UIElements::TextValueFieldTraits_2<int64_t, ::UnityEngine::UIElements::UxmlLongAttributeDescription*> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::LongField_UxmlTraits* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::LongField_UxmlTraits* New_ctor();
 
-/// @brief Method .ctor, addr 0x6bf8ec0, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6bf8ec0, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LongField_UxmlTraits() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LongField_UxmlTraits();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LongField_UxmlTraits(LongField_UxmlTraits&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlTraits", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LongField_UxmlTraits(LongField_UxmlTraits && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LongField_UxmlTraits(LongField_UxmlTraits const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlTraits", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LongField_UxmlTraits(LongField_UxmlTraits const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4243 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4243};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LongField_UxmlTraits, 0xc0>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::LongField_UxmlTraits) == 0xc0, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1::TextValueInput<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.LongField/LongInput
 class CORDL_TYPE LongField_LongInput : public ::UnityEngine::UIElements::TextValueField_1_TextValueInput<int64_t> {
 public:
-// Declarations
- __declspec(property(get=get_allowedCharacters)) ::StringW  allowedCharacters;
+  // Declarations
+  __declspec(property(get = get_allowedCharacters)) ::StringW allowedCharacters;
 
- __declspec(property(get=get_parentLongField)) ::UnityEngine::UIElements::LongField*  parentLongField;
+  __declspec(property(get = get_parentLongField)) ::UnityEngine::UIElements::LongField* parentLongField;
 
-/// @brief Method ApplyInputDeviceDelta, addr 0x6bf8fe4, size 0x268, virtual true, abstract: false, final false
-inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, int64_t  startValue) ;
+  /// @brief Method ApplyInputDeviceDelta, addr 0x6bf8fe4, size 0x268, virtual true, abstract: false, final false
+  inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int64_t startValue);
 
-/// @brief Method ClampMinMaxLongValue, addr 0x6bf924c, size 0xa4, virtual false, abstract: false, final false
-inline int64_t ClampMinMaxLongValue(int64_t  niceDelta, int64_t  value) ;
+  /// @brief Method ClampMinMaxLongValue, addr 0x6bf924c, size 0xa4, virtual false, abstract: false, final false
+  inline int64_t ClampMinMaxLongValue(int64_t niceDelta, int64_t value);
 
-static inline ::UnityEngine::UIElements::LongField_LongInput* New_ctor() ;
+  static inline ::UnityEngine::UIElements::LongField_LongInput* New_ctor();
 
-/// @brief Method StringToValue, addr 0x6bf934c, size 0xa0, virtual true, abstract: false, final false
-inline int64_t StringToValue(::StringW  str) ;
+  /// @brief Method StringToValue, addr 0x6bf934c, size 0xa0, virtual true, abstract: false, final false
+  inline int64_t StringToValue(::StringW str);
 
-/// @brief Method ValueToString, addr 0x6bf92f0, size 0x5c, virtual true, abstract: false, final false
-inline ::StringW ValueToString(int64_t  v) ;
+  /// @brief Method ValueToString, addr 0x6bf92f0, size 0x5c, virtual true, abstract: false, final false
+  inline ::StringW ValueToString(int64_t v);
 
-/// @brief Method .ctor, addr 0x6bf8c5c, size 0x9c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6bf8c5c, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_allowedCharacters, addr 0x6bf8f88, size 0x5c, virtual true, abstract: false, final false
-inline ::StringW get_allowedCharacters() ;
+  /// @brief Method get_allowedCharacters, addr 0x6bf8f88, size 0x5c, virtual true, abstract: false, final false
+  inline ::StringW get_allowedCharacters();
 
-/// @brief Method get_parentLongField, addr 0x6bf8f0c, size 0x7c, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::LongField* get_parentLongField() ;
+  /// @brief Method get_parentLongField, addr 0x6bf8f0c, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::LongField* get_parentLongField();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LongField_LongInput() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LongField_LongInput();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_LongInput", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LongField_LongInput(LongField_LongInput&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LongField_LongInput", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LongField_LongInput(LongField_LongInput && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_LongInput", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LongField_LongInput(LongField_LongInput const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LongField_LongInput", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LongField_LongInput(LongField_LongInput const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4244 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4244};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LongField_LongInput, 0x4e8>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::LongField_LongInput) == 0x4e8, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.LongField
 class CORDL_TYPE LongField : public ::UnityEngine::UIElements::TextValueField_1<int64_t> {
 public:
-// Declarations
-using LongInput = ::UnityEngine::UIElements::LongField_LongInput;
+  // Declarations
+  using LongInput = ::UnityEngine::UIElements::LongField_LongInput;
 
-using UxmlFactory = ::UnityEngine::UIElements::LongField_UxmlFactory;
+  using UxmlFactory = ::UnityEngine::UIElements::LongField_UxmlFactory;
 
-using UxmlTraits = ::UnityEngine::UIElements::LongField_UxmlTraits;
+  using UxmlTraits = ::UnityEngine::UIElements::LongField_UxmlTraits;
 
-/// @brief Field inputUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_inputUssClassName, put=setStaticF_inputUssClassName)) ::StringW  inputUssClassName;
+  /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
-/// @brief Field labelUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_labelUssClassName, put=setStaticF_labelUssClassName)) ::StringW  labelUssClassName;
+  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
- __declspec(property(get=get_longInput)) ::UnityEngine::UIElements::LongField_LongInput*  longInput;
+  __declspec(property(get = get_longInput)) ::UnityEngine::UIElements::LongField_LongInput* longInput;
 
-/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
+  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-/// @brief Method ApplyInputDeviceDelta, addr 0x6bf8d18, size 0x64, virtual true, abstract: false, final false
-inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, int64_t  startValue) ;
+  /// @brief Method ApplyInputDeviceDelta, addr 0x6bf8d18, size 0x64, virtual true, abstract: false, final false
+  inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int64_t startValue);
 
-/// @brief Method CanTryParse, addr 0x6bf8cf8, size 0x20, virtual true, abstract: false, final false
-inline bool CanTryParse(::StringW  textString) ;
+  /// @brief Method CanTryParse, addr 0x6bf8cf8, size 0x20, virtual true, abstract: false, final false
+  inline bool CanTryParse(::StringW textString);
 
-static inline ::UnityEngine::UIElements::LongField* New_ctor() ;
+  static inline ::UnityEngine::UIElements::LongField* New_ctor();
 
-static inline ::UnityEngine::UIElements::LongField* New_ctor(::StringW  label, int32_t  maxLength) ;
+  static inline ::UnityEngine::UIElements::LongField* New_ctor(::StringW label, int32_t maxLength);
 
-/// @brief Method StringToValue, addr 0x6bf89f0, size 0xe0, virtual true, abstract: false, final false
-inline int64_t StringToValue(::StringW  str) ;
+  /// @brief Method StringToValue, addr 0x6bf89f0, size 0xe0, virtual true, abstract: false, final false
+  inline int64_t StringToValue(::StringW str);
 
-/// @brief Method ValueToString, addr 0x6bf8930, size 0xc0, virtual true, abstract: false, final false
-inline ::StringW ValueToString(int64_t  v) ;
+  /// @brief Method ValueToString, addr 0x6bf8930, size 0xc0, virtual true, abstract: false, final false
+  inline ::StringW ValueToString(int64_t v);
 
-/// @brief Method .ctor, addr 0x6bf8ad0, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6bf8ad0, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x6bf8adc, size 0x180, virtual false, abstract: false, final false
-inline void _ctor(::StringW  label, int32_t  maxLength) ;
+  /// @brief Method .ctor, addr 0x6bf8adc, size 0x180, virtual false, abstract: false, final false
+  inline void _ctor(::StringW label, int32_t maxLength);
 
-static inline ::StringW getStaticF_inputUssClassName() ;
+  static inline ::StringW getStaticF_inputUssClassName();
 
-static inline ::StringW getStaticF_labelUssClassName() ;
+  static inline ::StringW getStaticF_labelUssClassName();
 
-static inline ::StringW getStaticF_ussClassName() ;
+  static inline ::StringW getStaticF_ussClassName();
 
-/// @brief Method get_longInput, addr 0x6bf88a0, size 0x90, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::LongField_LongInput* get_longInput() ;
+  /// @brief Method get_longInput, addr 0x6bf88a0, size 0x90, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::LongField_LongInput* get_longInput();
 
-static inline void setStaticF_inputUssClassName(::StringW  value) ;
+  static inline void setStaticF_inputUssClassName(::StringW value);
 
-static inline void setStaticF_labelUssClassName(::StringW  value) ;
+  static inline void setStaticF_labelUssClassName(::StringW value);
 
-static inline void setStaticF_ussClassName(::StringW  value) ;
+  static inline void setStaticF_ussClassName(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LongField() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LongField();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LongField", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LongField(LongField&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LongField", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LongField(LongField && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LongField", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LongField(LongField const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LongField", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LongField(LongField const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4245 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4245};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::LongField, 0x540>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::LongField) == 0x540, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
-NEED_NO_BOX(::UnityEngine::UIElements::LongField);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LongField*, "UnityEngine.UIElements", "LongField");
-NEED_NO_BOX(::UnityEngine::UIElements::LongField_LongInput);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LongField_LongInput*, "UnityEngine.UIElements", "LongField/LongInput");
-NEED_NO_BOX(::UnityEngine::UIElements::LongField_UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LongField_UxmlFactory*, "UnityEngine.UIElements", "LongField/UxmlFactory");
-NEED_NO_BOX(::UnityEngine::UIElements::LongField_UxmlTraits);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::LongField_UxmlTraits*, "UnityEngine.UIElements", "LongField/UxmlTraits");
+} // namespace UnityEngine::UIElements

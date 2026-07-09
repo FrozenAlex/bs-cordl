@@ -7,149 +7,115 @@
 #include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::*)(::UnityEngine::InputSystem::HID::HID_UsagePage, int32_t)>(&::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::*)(::UnityEngine::InputSystem::HID::HID_UsagePage, int32_t)>(
+    &::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x646329c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::HID::HID_UsagePage>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::UnityEngine::InputSystem::HID::HID_UsagePage>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::*)(::UnityEngine::InputSystem::HID::HID_GenericDesktop)>(&::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::*)(::UnityEngine::InputSystem::HID::HID_GenericDesktop)>(
+    &::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6463404;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::HID::HID_GenericDesktop>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::InputSystem::HID::HID_GenericDesktop>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor(::UnityEngine::InputSystem::HID::HID_UsagePage  page, int32_t  usage)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::HID::HID_UsagePage>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, page, usage);
+inline void UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor(::UnityEngine::InputSystem::HID::HID_UsagePage page, int32_t usage) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::InputSystem::HID::HID_UsagePage>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, page, usage);
 }
-inline void UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor(::UnityEngine::InputSystem::HID::HID_GenericDesktop  usage)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::HID::HID_GenericDesktop>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, usage);
+inline void UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor(::UnityEngine::InputSystem::HID::HID_GenericDesktop usage) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::UnityEngine::InputSystem::HID::HID_GenericDesktop>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, usage);
 }
-// Ctor Parameters [CppParam { name: "page", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: Some("{}") }, CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::HIDSupport_HIDPageUsage(::UnityEngine::InputSystem::HID::HID_UsagePage  page, int32_t  usage) noexcept  {
-this->page = page;
-this->usage = usage;
+// Ctor Parameters [CppParam { name: "page", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: Some("{}") }, CppParam { name: "usage", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }]
+constexpr ::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::HIDSupport_HIDPageUsage(::UnityEngine::InputSystem::HID::HID_UsagePage page, int32_t usage) noexcept {
+  this->page = page;
+  this->usage = usage;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::HIDSupport_HIDPageUsage()   {
-}
+constexpr ::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::HIDSupport_HIDPageUsage() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::HID::HIDSupport.get_supportedHIDUsages
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> (*)()>(&::UnityEngine::InputSystem::HID::HIDSupport::get_supportedHIDUsages)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> (*)()>(
+    &::UnityEngine::InputSystem::HID::HIDSupport::get_supportedHIDUsages)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6462fe8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get(),
-                        "get_supportedHIDUsages",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport*>(), { "get_supportedHIDUsages", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::HID::HIDSupport.set_supportedHIDUsages
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>)>(&::UnityEngine::InputSystem::HID::HIDSupport::set_supportedHIDUsages)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>)>(
+    &::UnityEngine::InputSystem::HID::HIDSupport::set_supportedHIDUsages)> {
   constexpr static std::size_t size = 0x24c;
   constexpr static std::size_t addrs = 0x6463050;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get(),
-                        "set_supportedHIDUsages",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport*>(),
+                            { "set_supportedHIDUsages", {}, { ::i2c::type_of<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::HID::HIDSupport.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::HID::HIDSupport::Initialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::HID::HIDSupport::Initialize)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x64632a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport*>(), { "Initialize", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::InputSystem::HID::HIDSupport::setStaticF_s_SupportedHIDUsages(::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage,::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage,::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*>, "s_SupportedHIDUsages", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get>(std::forward<::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage,::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*>>(value));
+inline void UnityEngine::InputSystem::HID::HIDSupport::setStaticF_s_SupportedHIDUsages(::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>, "s_SupportedHIDUsages", ::UnityEngine::InputSystem::HID::HIDSupport*>(
+      std::forward<::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>>(value));
 }
-inline ::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage,::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*> UnityEngine::InputSystem::HID::HIDSupport::getStaticF_s_SupportedHIDUsages()  {
-return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage,::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*>, "s_SupportedHIDUsages", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get>();
+inline ::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> UnityEngine::InputSystem::HID::HIDSupport::getStaticF_s_SupportedHIDUsages() {
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>, "s_SupportedHIDUsages", ::UnityEngine::InputSystem::HID::HIDSupport*>();
 }
-inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> UnityEngine::InputSystem::HID::HIDSupport::get_supportedHIDUsages()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get(),
-                        "get_supportedHIDUsages",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>, false>(nullptr, ___internal_method);
+inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> UnityEngine::InputSystem::HID::HIDSupport::get_supportedHIDUsages() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport*>(), { "get_supportedHIDUsages", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>>(nullptr, ___internal_method);
 }
-inline void UnityEngine::InputSystem::HID::HIDSupport::set_supportedHIDUsages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get(),
-                        "set_supportedHIDUsages",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void UnityEngine::InputSystem::HID::HIDSupport::set_supportedHIDUsages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport*>(),
+                          { "set_supportedHIDUsages", {}, { ::i2c::type_of<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline void UnityEngine::InputSystem::HID::HIDSupport::Initialize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HID::HIDSupport*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void UnityEngine::InputSystem::HID::HIDSupport::Initialize() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport*>(), { "Initialize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::HID::HIDSupport::HIDSupport()   {
-}
+constexpr ::UnityEngine::InputSystem::HID::HIDSupport::HIDSupport() {}

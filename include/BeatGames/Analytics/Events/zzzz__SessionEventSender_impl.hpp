@@ -4,98 +4,70 @@
 #include "BeatGames/Analytics/Events/zzzz__SessionEventSender_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"
 //  Writing Method size for method: ::BeatGames::Analytics::Events::SessionEventSender._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)(::OSCE::Analytics::AnalyticsManager*)>(&::BeatGames::Analytics::Events::SessionEventSender::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)(::OSCE::Analytics::AnalyticsManager*)>(
+    &::BeatGames::Analytics::Events::SessionEventSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x31c4480;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::SessionEventSender*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OSCE::Analytics::AnalyticsManager*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::SessionEventSender*>(), { ".ctor", {}, { ::i2c::type_of<::OSCE::Analytics::AnalyticsManager*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatGames::Analytics::Events::SessionEventSender.SendSessionStart
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)()>(&::BeatGames::Analytics::Events::SessionEventSender::SendSessionStart)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)()>(&::BeatGames::Analytics::Events::SessionEventSender::SendSessionStart)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x31c4ca8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::SessionEventSender*>::get(),
-                        "SendSessionStart",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::SessionEventSender*>(), { "SendSessionStart", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatGames::Analytics::Events::SessionEventSender.SendSessionFinish
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)()>(&::BeatGames::Analytics::Events::SessionEventSender::SendSessionFinish)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)()>(&::BeatGames::Analytics::Events::SessionEventSender::SendSessionFinish)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x31c4d74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::SessionEventSender*>::get(),
-                        "SendSessionFinish",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::SessionEventSender*>(), { "SendSessionFinish", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager>& BeatGames::Analytics::Events::SessionEventSender::__cordl_internal_get__analyticsManager()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____analyticsManager;
+constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager>& BeatGames::Analytics::Events::SessionEventSender::__cordl_internal_get__analyticsManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____analyticsManager;
 }
 constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& BeatGames::Analytics::Events::SessionEventSender::__cordl_internal_get__analyticsManager() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____analyticsManager;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____analyticsManager;
 }
-constexpr void BeatGames::Analytics::Events::SessionEventSender::__cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____analyticsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatGames::Analytics::Events::SessionEventSender::__cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____analyticsManager = value;
 }
-inline void BeatGames::Analytics::Events::SessionEventSender::_ctor(::OSCE::Analytics::AnalyticsManager*  analyticsManager)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::SessionEventSender*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OSCE::Analytics::AnalyticsManager*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, analyticsManager);
+inline void BeatGames::Analytics::Events::SessionEventSender::_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::SessionEventSender*>(), { ".ctor", {}, { ::i2c::type_of<::OSCE::Analytics::AnalyticsManager*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, analyticsManager);
 }
-inline void BeatGames::Analytics::Events::SessionEventSender::SendSessionStart()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::SessionEventSender*>::get(),
-                        "SendSessionStart",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatGames::Analytics::Events::SessionEventSender::SendSessionStart() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::SessionEventSender*>(), { "SendSessionStart", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatGames::Analytics::Events::SessionEventSender::SendSessionFinish()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::SessionEventSender*>::get(),
-                        "SendSessionFinish",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatGames::Analytics::Events::SessionEventSender::SendSessionFinish() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::SessionEventSender*>(), { "SendSessionFinish", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::BeatGames::Analytics::Events::SessionEventSender* BeatGames::Analytics::Events::SessionEventSender::New_ctor(::OSCE::Analytics::AnalyticsManager*  analyticsManager)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatGames::Analytics::Events::SessionEventSender*>(analyticsManager));
+inline ::BeatGames::Analytics::Events::SessionEventSender* BeatGames::Analytics::Events::SessionEventSender::New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatGames::Analytics::Events::SessionEventSender*>(analyticsManager));
 }
 // Ctor Parameters []
-constexpr ::BeatGames::Analytics::Events::SessionEventSender::SessionEventSender()   {
-}
+constexpr ::BeatGames::Analytics::Events::SessionEventSender::SessionEventSender() {}

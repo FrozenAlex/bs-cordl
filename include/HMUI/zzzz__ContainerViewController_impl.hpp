@@ -18,1163 +18,988 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 //  Writing Method size for method: ::HMUI::ContainerViewController___c._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController___c::*)()>(&::HMUI::ContainerViewController___c::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController___c::*)()>(&::HMUI::ContainerViewController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x3237100;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController___c._IsChildInTransition_b__14_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ContainerViewController___c::*)(::HMUI::ViewController*)>(&::HMUI::ContainerViewController___c::_IsChildInTransition_b__14_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ContainerViewController___c::*)(::HMUI::ViewController*)>(&::HMUI::ContainerViewController___c::_IsChildInTransition_b__14_0)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x3237104;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController___c*>::get(),
-                        "<IsChildInTransition>b__14_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController___c*>(), { "<IsChildInTransition>b__14_0", {}, { ::i2c::type_of<::HMUI::ViewController*>() } })));
     return ___internal_method;
   }
 };
-inline void HMUI::ContainerViewController___c::setStaticF___9(::HMUI::ContainerViewController___c*  value)  {
-::cordl_internals::setStaticField<::HMUI::ContainerViewController___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController___c*>::get>(std::forward<::HMUI::ContainerViewController___c*>(value));
+inline void HMUI::ContainerViewController___c::setStaticF___9(::HMUI::ContainerViewController___c* value) {
+  ::cordl_internals::setStaticField<::HMUI::ContainerViewController___c*, "<>9", ::HMUI::ContainerViewController___c*>(std::forward<::HMUI::ContainerViewController___c*>(value));
 }
-inline ::HMUI::ContainerViewController___c* HMUI::ContainerViewController___c::getStaticF___9()  {
-return ::cordl_internals::getStaticField<::HMUI::ContainerViewController___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController___c*>::get>();
+inline ::HMUI::ContainerViewController___c* HMUI::ContainerViewController___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::HMUI::ContainerViewController___c*, "<>9", ::HMUI::ContainerViewController___c*>();
 }
-inline void HMUI::ContainerViewController___c::setStaticF___9__14_0(::System::Func_2<::UnityW<::HMUI::ViewController>,bool>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityW<::HMUI::ViewController>,bool>*, "<>9__14_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController___c*>::get>(std::forward<::System::Func_2<::UnityW<::HMUI::ViewController>,bool>*>(value));
+inline void HMUI::ContainerViewController___c::setStaticF___9__14_0(::System::Func_2<::UnityW<::HMUI::ViewController>, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::HMUI::ViewController>, bool>*, "<>9__14_0", ::HMUI::ContainerViewController___c*>(
+      std::forward<::System::Func_2<::UnityW<::HMUI::ViewController>, bool>*>(value));
 }
-inline ::System::Func_2<::UnityW<::HMUI::ViewController>,bool>* HMUI::ContainerViewController___c::getStaticF___9__14_0()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::HMUI::ViewController>,bool>*, "<>9__14_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController___c*>::get>();
+inline ::System::Func_2<::UnityW<::HMUI::ViewController>, bool>* HMUI::ContainerViewController___c::getStaticF___9__14_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::HMUI::ViewController>, bool>*, "<>9__14_0", ::HMUI::ContainerViewController___c*>();
 }
-inline void HMUI::ContainerViewController___c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ContainerViewController___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController___c*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool HMUI::ContainerViewController___c::_IsChildInTransition_b__14_0(::HMUI::ViewController*  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController___c*>::get(),
-                        "<IsChildInTransition>b__14_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+inline bool HMUI::ContainerViewController___c::_IsChildInTransition_b__14_0(::HMUI::ViewController* x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController___c*>(), { "<IsChildInTransition>b__14_0", {}, { ::i2c::type_of<::HMUI::ViewController*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
-inline ::HMUI::ContainerViewController___c* HMUI::ContainerViewController___c::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ContainerViewController___c*>());
+inline ::HMUI::ContainerViewController___c* HMUI::ContainerViewController___c::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ContainerViewController___c*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::ContainerViewController___c::ContainerViewController___c()   {
-}
+constexpr ::HMUI::ContainerViewController___c::ContainerViewController___c() {}
 //  Writing Method size for method: ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)(int32_t)>(&::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)(int32_t)>(
+    &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3236d58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16.System_IDisposable_Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(&::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
+    &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x3237118;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(&::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
+    &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x22c;
   constexpr static std::size_t addrs = 0x323711c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16.System_Collections_Generic_IEnumerator_System_Object__get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(&::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
+    &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3237348;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(),
+                                                                                           { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16.System_Collections_IEnumerator_Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(&::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
+    &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x3237350;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16.System_Collections_IEnumerator_get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(&::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
+    &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3237388;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get___1__state()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+constexpr int32_t& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
 constexpr int32_t const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get___1__state() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set___1__state(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____1__state = value;
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
 }
-constexpr ::System::Object*& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get___2__current()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::System::Object*& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
 constexpr ::System::Object* const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get___2__current() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set___2__current(::System::Object*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
 }
-constexpr ::UnityW<::HMUI::ContainerViewController>& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::UnityW<::HMUI::ContainerViewController>& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::UnityW<::HMUI::ContainerViewController> const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set___4__this(::UnityW<::HMUI::ContainerViewController>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set___4__this(::UnityW<::HMUI::ContainerViewController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
 }
-constexpr ::UnityW<::HMUI::ViewController>& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_newViewController()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___newViewController;
+constexpr ::UnityW<::HMUI::ViewController>& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_newViewController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___newViewController;
 }
 constexpr ::UnityW<::HMUI::ViewController> const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_newViewController() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___newViewController;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___newViewController;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___newViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___newViewController = value;
 }
-constexpr bool& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_immediately()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___immediately;
+constexpr bool& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_immediately() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___immediately;
 }
 constexpr bool const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_immediately() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___immediately;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___immediately;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set_immediately(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___immediately = value;
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set_immediately(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___immediately = value;
 }
-constexpr ::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_animationLayouter()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___animationLayouter;
+constexpr ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>*& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_animationLayouter() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___animationLayouter;
 }
-constexpr ::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>* const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_animationLayouter() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___animationLayouter;
+constexpr ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>* const&
+HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_animationLayouter() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___animationLayouter;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set_animationLayouter(::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___animationLayouter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set_animationLayouter(::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___animationLayouter = value;
 }
-constexpr ::System::Action*& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_finishedCallback()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___finishedCallback;
+constexpr ::System::Action*& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_finishedCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishedCallback;
 }
 constexpr ::System::Action* const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get_finishedCallback() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___finishedCallback;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishedCallback;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set_finishedCallback(::System::Action*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___finishedCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set_finishedCallback(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___finishedCallback = value;
 }
-constexpr ::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__viewControllers_5__2()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____viewControllers_5__2;
+constexpr ::ArrayW<::UnityW<::HMUI::ViewController>>& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__viewControllers_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____viewControllers_5__2;
 }
-constexpr ::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*> const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__viewControllers_5__2() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____viewControllers_5__2;
+constexpr ::ArrayW<::UnityW<::HMUI::ViewController>> const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__viewControllers_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____viewControllers_5__2;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set__viewControllers_5__2(::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____viewControllers_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set__viewControllers_5__2(::ArrayW<::UnityW<::HMUI::ViewController>> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____viewControllers_5__2 = value;
 }
-constexpr float_t& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__transitionDuration_5__3()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____transitionDuration_5__3;
+constexpr float_t& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__transitionDuration_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transitionDuration_5__3;
 }
 constexpr float_t const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__transitionDuration_5__3() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____transitionDuration_5__3;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transitionDuration_5__3;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set__transitionDuration_5__3(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____transitionDuration_5__3 = value;
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set__transitionDuration_5__3(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____transitionDuration_5__3 = value;
 }
-constexpr float_t& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__elapsedTime_5__4()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____elapsedTime_5__4;
+constexpr float_t& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__elapsedTime_5__4() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____elapsedTime_5__4;
 }
 constexpr float_t const& HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_get__elapsedTime_5__4() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____elapsedTime_5__4;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____elapsedTime_5__4;
 }
-constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set__elapsedTime_5__4(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____elapsedTime_5__4 = value;
+constexpr void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::__cordl_internal_set__elapsedTime_5__4(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____elapsedTime_5__4 = value;
 }
-inline void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::_ctor(int32_t  __1__state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_IDisposable_Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(),
+                                                                                         { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::New_ctor(int32_t  __1__state)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(__1__state));
+inline ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr  HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::operator ::System::Collections::IEnumerator*() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::i___System__Collections__IEnumerator() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::ContainerViewController__AddViewControllerCoroutine_d__16()   {
-}
+constexpr ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::ContainerViewController__AddViewControllerCoroutine_d__16() {}
 //  Writing Method size for method: ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)(int32_t)>(&::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)(int32_t)>(
+    &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3236e30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18.System_IDisposable_Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(&::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
+    &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x3237390;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(&::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
+    &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x360;
   constexpr static std::size_t addrs = 0x3237394;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18.System_Collections_Generic_IEnumerator_System_Object__get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(&::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
+    &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x32376f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(),
+                                                                                           { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18.System_Collections_IEnumerator_Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(&::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
+    &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x32376fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18.System_Collections_IEnumerator_get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(&::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
+    &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3237734;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get___1__state()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+constexpr int32_t& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
 constexpr int32_t const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get___1__state() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set___1__state(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____1__state = value;
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
 }
-constexpr ::System::Object*& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get___2__current()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::System::Object*& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
 constexpr ::System::Object* const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get___2__current() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set___2__current(::System::Object*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
 }
-constexpr ::UnityW<::HMUI::ContainerViewController>& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::UnityW<::HMUI::ContainerViewController>& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::UnityW<::HMUI::ContainerViewController> const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set___4__this(::UnityW<::HMUI::ContainerViewController>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set___4__this(::UnityW<::HMUI::ContainerViewController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
 }
-constexpr ::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_viewControllersToRemove()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___viewControllersToRemove;
+constexpr ::ArrayW<::UnityW<::HMUI::ViewController>>& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_viewControllersToRemove() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___viewControllersToRemove;
 }
-constexpr ::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*> const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_viewControllersToRemove() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___viewControllersToRemove;
+constexpr ::ArrayW<::UnityW<::HMUI::ViewController>> const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_viewControllersToRemove() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___viewControllersToRemove;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set_viewControllersToRemove(::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___viewControllersToRemove)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set_viewControllersToRemove(::ArrayW<::UnityW<::HMUI::ViewController>> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___viewControllersToRemove = value;
 }
-constexpr bool& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_immediately()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___immediately;
+constexpr bool& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_immediately() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___immediately;
 }
 constexpr bool const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_immediately() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___immediately;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___immediately;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set_immediately(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___immediately = value;
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set_immediately(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___immediately = value;
 }
-constexpr ::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_animationLayouter()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___animationLayouter;
+constexpr ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*&
+HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_animationLayouter() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___animationLayouter;
 }
-constexpr ::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_animationLayouter() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___animationLayouter;
+constexpr ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* const&
+HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_animationLayouter() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___animationLayouter;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set_animationLayouter(::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___animationLayouter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set_animationLayouter(
+    ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___animationLayouter = value;
 }
-constexpr ::System::Action*& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_finishedCallback()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___finishedCallback;
+constexpr ::System::Action*& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_finishedCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishedCallback;
 }
 constexpr ::System::Action* const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get_finishedCallback() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___finishedCallback;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishedCallback;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set_finishedCallback(::System::Action*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___finishedCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set_finishedCallback(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___finishedCallback = value;
 }
-constexpr ::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__viewControllers_5__2()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____viewControllers_5__2;
+constexpr ::ArrayW<::UnityW<::HMUI::ViewController>>& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__viewControllers_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____viewControllers_5__2;
 }
-constexpr ::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*> const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__viewControllers_5__2() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____viewControllers_5__2;
+constexpr ::ArrayW<::UnityW<::HMUI::ViewController>> const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__viewControllers_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____viewControllers_5__2;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set__viewControllers_5__2(::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____viewControllers_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set__viewControllers_5__2(::ArrayW<::UnityW<::HMUI::ViewController>> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____viewControllers_5__2 = value;
 }
-constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__viewControllersToRemoveSet_5__3()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____viewControllersToRemoveSet_5__3;
+constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*&
+HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__viewControllersToRemoveSet_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____viewControllersToRemoveSet_5__3;
 }
-constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__viewControllersToRemoveSet_5__3() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____viewControllersToRemoveSet_5__3;
+constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* const&
+HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__viewControllersToRemoveSet_5__3() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____viewControllersToRemoveSet_5__3;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set__viewControllersToRemoveSet_5__3(::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____viewControllersToRemoveSet_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set__viewControllersToRemoveSet_5__3(
+    ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____viewControllersToRemoveSet_5__3 = value;
 }
-constexpr float_t& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__transitionDuration_5__4()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____transitionDuration_5__4;
+constexpr float_t& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__transitionDuration_5__4() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transitionDuration_5__4;
 }
 constexpr float_t const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__transitionDuration_5__4() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____transitionDuration_5__4;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transitionDuration_5__4;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set__transitionDuration_5__4(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____transitionDuration_5__4 = value;
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set__transitionDuration_5__4(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____transitionDuration_5__4 = value;
 }
-constexpr float_t& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__elapsedTime_5__5()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____elapsedTime_5__5;
+constexpr float_t& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__elapsedTime_5__5() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____elapsedTime_5__5;
 }
 constexpr float_t const& HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_get__elapsedTime_5__5() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____elapsedTime_5__5;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____elapsedTime_5__5;
 }
-constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set__elapsedTime_5__5(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____elapsedTime_5__5 = value;
+constexpr void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::__cordl_internal_set__elapsedTime_5__5(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____elapsedTime_5__5 = value;
 }
-inline void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::_ctor(int32_t  __1__state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_IDisposable_Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(),
+                                                                                         { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::New_ctor(int32_t  __1__state)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(__1__state));
+inline ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr  HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::operator ::System::Collections::IEnumerator*() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::i___System__Collections__IEnumerator() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::ContainerViewController__RemoveViewControllersCoroutine_d__18()   {
-}
+constexpr ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::ContainerViewController__RemoveViewControllersCoroutine_d__18() {}
 //  Writing Method size for method: ::HMUI::ContainerViewController.get_controllersContainer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::get_controllersContainer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::get_controllersContainer)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3235f74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "get_controllersContainer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "get_controllersContainer", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.get_viewControllers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::get_viewControllers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* (::HMUI::ContainerViewController::*)()>(
+    &::HMUI::ContainerViewController::get_viewControllers)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3236024;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "get_viewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "get_viewControllers", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.__Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(::HMUI::Screen*, ::HMUI::ViewController*, ::HMUI::ContainerViewController*)>(&::HMUI::ContainerViewController::__Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(::HMUI::Screen*, ::HMUI::ViewController*, ::HMUI::ContainerViewController*)>(
+    &::HMUI::ContainerViewController::__Init)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x323602c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { ::i2c::class_of<::HMUI::ContainerViewController*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.LayoutViewControllers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*)>(&::HMUI::ContainerViewController::LayoutViewControllers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*)>(
+    &::HMUI::ContainerViewController::LayoutViewControllers)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { ::i2c::class_of<::HMUI::ContainerViewController*>(), 12 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.__Activate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(bool, bool)>(&::HMUI::ContainerViewController::__Activate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(bool, bool)>(&::HMUI::ContainerViewController::__Activate)> {
   constexpr static std::size_t size = 0x144;
   constexpr static std::size_t addrs = 0x3236224;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { ::i2c::class_of<::HMUI::ContainerViewController*>(), 9 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.__Deactivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(bool, bool, bool)>(&::HMUI::ContainerViewController::__Deactivate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(bool, bool, bool)>(&::HMUI::ContainerViewController::__Deactivate)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x3236430;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { ::i2c::class_of<::HMUI::ContainerViewController*>(), 10 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.DeactivateGameObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::DeactivateGameObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::DeactivateGameObject)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x32365bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { ::i2c::class_of<::HMUI::ContainerViewController*>(), 11 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.ClearChildViewControllers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::ClearChildViewControllers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::ClearChildViewControllers)> {
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x32366f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "ClearChildViewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "ClearChildViewControllers", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.SetChildViewController
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(::HMUI::ViewController*)>(&::HMUI::ContainerViewController::SetChildViewController)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(::HMUI::ViewController*)>(&::HMUI::ContainerViewController::SetChildViewController)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x323684c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "SetChildViewController",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "SetChildViewController", {}, { ::i2c::type_of<::HMUI::ViewController*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.SetChildViewControllers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>)>(&::HMUI::ContainerViewController::SetChildViewControllers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(::ArrayW<::HMUI::ViewController*>)>(&::HMUI::ContainerViewController::SetChildViewControllers)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x32368f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "SetChildViewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "SetChildViewControllers", {}, { ::i2c::type_of<::ArrayW<::HMUI::ViewController*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.IsChildInTransition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::IsChildInTransition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::IsChildInTransition)> {
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x3236a50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "IsChildInTransition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "IsChildInTransition", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.AddViewController
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(::HMUI::ViewController*, ::System::Action*, ::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*, bool)>(&::HMUI::ContainerViewController::AddViewController)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(
+    ::HMUI::ViewController*, ::System::Action*, ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>*, bool)>(&::HMUI::ContainerViewController::AddViewController)> {
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x3236b54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "AddViewController",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(),
+                                                             { "AddViewController",
+                                                               {},
+                                                               { ::i2c::type_of<::HMUI::ViewController*>(), ::i2c::type_of<::System::Action*>(),
+                                                                 ::i2c::type_of<::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.AddViewControllerCoroutine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HMUI::ContainerViewController::*)(::HMUI::ViewController*, ::System::Action*, ::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*, bool)>(&::HMUI::ContainerViewController::AddViewControllerCoroutine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (
+    ::HMUI::ContainerViewController::*)(::HMUI::ViewController*, ::System::Action*, ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>*, bool)>(
+    &::HMUI::ContainerViewController::AddViewControllerCoroutine)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x3236cd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "AddViewControllerCoroutine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(),
+                                                             { "AddViewControllerCoroutine",
+                                                               {},
+                                                               { ::i2c::type_of<::HMUI::ViewController*>(), ::i2c::type_of<::System::Action*>(),
+                                                                 ::i2c::type_of<::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.RemoveViewControllers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>, ::System::Action*, ::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*, bool)>(&::HMUI::ContainerViewController::RemoveViewControllers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(
+    ::ArrayW<::HMUI::ViewController*>, ::System::Action*,
+    ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*, bool)>(
+    &::HMUI::ContainerViewController::RemoveViewControllers)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x3236d60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "RemoveViewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::HMUI::ContainerViewController*>(),
+                         { "RemoveViewControllers",
+                           {},
+                           { ::i2c::type_of<::ArrayW<::HMUI::ViewController*>>(), ::i2c::type_of<::System::Action*>(),
+                             ::i2c::type_of<::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>(),
+                             ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.RemoveViewControllersCoroutine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HMUI::ContainerViewController::*)(::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>, ::System::Action*, ::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*, bool)>(&::HMUI::ContainerViewController::RemoveViewControllersCoroutine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (
+    ::HMUI::ContainerViewController::*)(::ArrayW<::HMUI::ViewController*>, ::System::Action*,
+                                        ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*, bool)>(
+    &::HMUI::ContainerViewController::RemoveViewControllersCoroutine)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x3236db0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "RemoveViewControllersCoroutine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::HMUI::ContainerViewController*>(),
+                         { "RemoveViewControllersCoroutine",
+                           {},
+                           { ::i2c::type_of<::ArrayW<::HMUI::ViewController*>>(), ::i2c::type_of<::System::Action*>(),
+                             ::i2c::type_of<::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>(),
+                             ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController.GetNewXPositionsForViewControllers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t,::Array<float_t>*> (::HMUI::ContainerViewController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*, int32_t)>(&::HMUI::ContainerViewController::GetNewXPositionsForViewControllers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (::HMUI::ContainerViewController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*, int32_t)>(
+    &::HMUI::ContainerViewController::GetNewXPositionsForViewControllers)> {
   constexpr static std::size_t size = 0x1f8;
   constexpr static std::size_t addrs = 0x3236e38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "GetNewXPositionsForViewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(),
+                            { "GetNewXPositionsForViewControllers", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ContainerViewController._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::_ctor)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x3237030;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::RectTransform>& HMUI::ContainerViewController::__cordl_internal_get__controllersContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____controllersContainer;
+constexpr ::UnityW<::UnityEngine::RectTransform>& HMUI::ContainerViewController::__cordl_internal_get__controllersContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____controllersContainer;
 }
 constexpr ::UnityW<::UnityEngine::RectTransform> const& HMUI::ContainerViewController::__cordl_internal_get__controllersContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____controllersContainer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____controllersContainer;
 }
-constexpr void HMUI::ContainerViewController::__cordl_internal_set__controllersContainer(::UnityW<::UnityEngine::RectTransform>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controllersContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController::__cordl_internal_set__controllersContainer(::UnityW<::UnityEngine::RectTransform> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____controllersContainer = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*& HMUI::ContainerViewController::__cordl_internal_get__viewControllers()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____viewControllers;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*& HMUI::ContainerViewController::__cordl_internal_get__viewControllers() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____viewControllers;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* const& HMUI::ContainerViewController::__cordl_internal_get__viewControllers() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____viewControllers;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____viewControllers;
 }
-constexpr void HMUI::ContainerViewController::__cordl_internal_set__viewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____viewControllers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ContainerViewController::__cordl_internal_set__viewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____viewControllers = value;
 }
-inline ::UnityW<::UnityEngine::RectTransform> HMUI::ContainerViewController::get_controllersContainer()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "get_controllersContainer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RectTransform>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::RectTransform> HMUI::ContainerViewController::get_controllersContainer() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "get_controllersContainer", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RectTransform>>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* HMUI::ContainerViewController::get_viewControllers()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "get_viewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* HMUI::ContainerViewController::get_viewControllers() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "get_viewControllers", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*>(this, ___internal_method);
 }
-inline void HMUI::ContainerViewController::__Init(::HMUI::Screen*  screen, ::HMUI::ViewController*  parentViewController, ::HMUI::ContainerViewController*  containerViewController)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, screen, parentViewController, containerViewController);
+inline void HMUI::ContainerViewController::__Init(::HMUI::Screen* screen, ::HMUI::ViewController* parentViewController, ::HMUI::ContainerViewController* containerViewController) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::HMUI::ContainerViewController*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, screen, parentViewController, containerViewController);
 }
-inline void HMUI::ContainerViewController::LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*  viewControllers)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewControllers);
+inline void HMUI::ContainerViewController::LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::HMUI::ContainerViewController*>(), 12 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, viewControllers);
 }
-inline void HMUI::ContainerViewController::__Activate(bool  addedToHierarchy, bool  screenSystemEnabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, addedToHierarchy, screenSystemEnabling);
+inline void HMUI::ContainerViewController::__Activate(bool addedToHierarchy, bool screenSystemEnabling) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::HMUI::ContainerViewController*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, addedToHierarchy, screenSystemEnabling);
 }
-inline void HMUI::ContainerViewController::__Deactivate(bool  removedFromHierarchy, bool  deactivateGameObject, bool  screenSystemDisabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, deactivateGameObject, screenSystemDisabling);
+inline void HMUI::ContainerViewController::__Deactivate(bool removedFromHierarchy, bool deactivateGameObject, bool screenSystemDisabling) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::HMUI::ContainerViewController*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, removedFromHierarchy, deactivateGameObject, screenSystemDisabling);
 }
-inline void HMUI::ContainerViewController::DeactivateGameObject()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ContainerViewController::DeactivateGameObject() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::HMUI::ContainerViewController*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::ContainerViewController::ClearChildViewControllers()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "ClearChildViewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ContainerViewController::ClearChildViewControllers() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "ClearChildViewControllers", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::ContainerViewController::SetChildViewController(::HMUI::ViewController*  viewController)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "SetChildViewController",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewController);
+inline void HMUI::ContainerViewController::SetChildViewController(::HMUI::ViewController* viewController) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "SetChildViewController", {}, { ::i2c::type_of<::HMUI::ViewController*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, viewController);
 }
-inline void HMUI::ContainerViewController::SetChildViewControllers(::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>  viewControllers)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "SetChildViewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewControllers);
+inline void HMUI::ContainerViewController::SetChildViewControllers(::ArrayW<::HMUI::ViewController*> viewControllers) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "SetChildViewControllers", {}, { ::i2c::type_of<::ArrayW<::HMUI::ViewController*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, viewControllers);
 }
-inline bool HMUI::ContainerViewController::IsChildInTransition()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "IsChildInTransition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool HMUI::ContainerViewController::IsChildInTransition() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "IsChildInTransition", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void HMUI::ContainerViewController::AddViewController(::HMUI::ViewController*  viewController, ::System::Action*  finishedCallback, ::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*  animationLayouter, bool  immediately)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "AddViewController",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewController, finishedCallback, animationLayouter, immediately);
+inline void HMUI::ContainerViewController::AddViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
+                                                             ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>* animationLayouter, bool immediately) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(),
+                                                           { "AddViewController",
+                                                             {},
+                                                             { ::i2c::type_of<::HMUI::ViewController*>(), ::i2c::type_of<::System::Action*>(),
+                                                               ::i2c::type_of<::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, viewController, finishedCallback, animationLayouter, immediately);
 }
-inline ::System::Collections::IEnumerator* HMUI::ContainerViewController::AddViewControllerCoroutine(::HMUI::ViewController*  newViewController, ::System::Action*  finishedCallback, ::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*  animationLayouter, bool  immediately)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "AddViewControllerCoroutine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, newViewController, finishedCallback, animationLayouter, immediately);
+inline ::System::Collections::IEnumerator* HMUI::ContainerViewController::AddViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
+                                                                                                     ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>* animationLayouter,
+                                                                                                     bool immediately) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(),
+                                                           { "AddViewControllerCoroutine",
+                                                             {},
+                                                             { ::i2c::type_of<::HMUI::ViewController*>(), ::i2c::type_of<::System::Action*>(),
+                                                               ::i2c::type_of<::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method, newViewController, finishedCallback, animationLayouter, immediately);
 }
-inline void HMUI::ContainerViewController::RemoveViewControllers(::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>  viewControllers, ::System::Action*  finishedCallback, ::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*  animationLayouter, bool  immediately)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "RemoveViewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewControllers, finishedCallback, animationLayouter, immediately);
+inline void HMUI::ContainerViewController::RemoveViewControllers(
+    ::ArrayW<::HMUI::ViewController*> viewControllers, ::System::Action* finishedCallback,
+    ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* animationLayouter, bool immediately) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(),
+                          { "RemoveViewControllers",
+                            {},
+                            { ::i2c::type_of<::ArrayW<::HMUI::ViewController*>>(), ::i2c::type_of<::System::Action*>(),
+                              ::i2c::type_of<::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>(),
+                              ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, viewControllers, finishedCallback, animationLayouter, immediately);
 }
-inline ::System::Collections::IEnumerator* HMUI::ContainerViewController::RemoveViewControllersCoroutine(::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>  viewControllersToRemove, ::System::Action*  finishedCallback, ::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*  animationLayouter, bool  immediately)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "RemoveViewControllersCoroutine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<float_t,::ArrayW<::UnityW<::HMUI::ViewController>,::Array<::UnityW<::HMUI::ViewController>>*>,::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, viewControllersToRemove, finishedCallback, animationLayouter, immediately);
+inline ::System::Collections::IEnumerator* HMUI::ContainerViewController::RemoveViewControllersCoroutine(
+    ::ArrayW<::HMUI::ViewController*> viewControllersToRemove, ::System::Action* finishedCallback,
+    ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* animationLayouter, bool immediately) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(),
+                          { "RemoveViewControllersCoroutine",
+                            {},
+                            { ::i2c::type_of<::ArrayW<::HMUI::ViewController*>>(), ::i2c::type_of<::System::Action*>(),
+                              ::i2c::type_of<::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>(),
+                              ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method, viewControllersToRemove, finishedCallback, animationLayouter, immediately);
 }
-inline ::ArrayW<float_t,::Array<float_t>*> HMUI::ContainerViewController::GetNewXPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*  viewControllers, int32_t  exludeFromEndCount)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        "GetNewXPositionsForViewControllers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t,::Array<float_t>*>, false>(this, ___internal_method, viewControllers, exludeFromEndCount);
+inline ::ArrayW<float_t> HMUI::ContainerViewController::GetNewXPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers,
+                                                                                           int32_t exludeFromEndCount) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(),
+                          { "GetNewXPositionsForViewControllers", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t>>(this, ___internal_method, viewControllers, exludeFromEndCount);
 }
-inline void HMUI::ContainerViewController::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ContainerViewController::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::HMUI::ContainerViewController* HMUI::ContainerViewController::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ContainerViewController*>());
+inline ::HMUI::ContainerViewController* HMUI::ContainerViewController::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ContainerViewController*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::ContainerViewController::ContainerViewController()   {
-}
+constexpr ::HMUI::ContainerViewController::ContainerViewController() {}

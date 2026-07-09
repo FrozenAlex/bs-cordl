@@ -10,107 +10,70 @@
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobRanges_def.hpp"
 #include "Unity/Jobs/zzzz__IJobForExtensions_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
-template<typename T>
-inline void Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+template <typename T> inline void Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-template<typename T>
-inline void Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>::Invoke(::ByRef<T>  data, ::System::IntPtr  additionalPtr, ::System::IntPtr  bufferRangePatchData, ::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges>  ranges, int32_t  jobIndex)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, additionalPtr, bufferRangePatchData, ranges, jobIndex);
+template <typename T>
+inline void Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>::Invoke(::by_ref<T> data, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData,
+                                                                                        ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, additionalPtr, bufferRangePatchData, ranges, jobIndex);
 }
-template<typename T>
-inline ::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>* Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>*>(object, method));
+template <typename T>
+inline ::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>* Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>::New_ctor(::System::Object* object,
+                                                                                                                                                            ::System::IntPtr method) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>*>(object, method));
 }
 // Ctor Parameters []
-template<typename T>
-constexpr ::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction()   {
+template <typename T> constexpr ::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction<T>::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction() {}
+template <typename T>
+inline void Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::setStaticF_jobReflectionData(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr> value) {
+  ::cordl_internals::setStaticField<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>, "jobReflectionData", ::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>>(
+      std::forward<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>>(value));
 }
-template<typename T>
-inline void Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::setStaticF_jobReflectionData(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>  value)  {
-::cordl_internals::setStaticField<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>, "jobReflectionData", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>>::get>(std::forward<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>>(value));
+template <typename T> inline ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr> Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::getStaticF_jobReflectionData() {
+  return ::cordl_internals::getStaticField<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>, "jobReflectionData",
+                                           ::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>>();
 }
-template<typename T>
-inline ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr> Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::getStaticF_jobReflectionData()  {
-return ::cordl_internals::getStaticField<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>, "jobReflectionData", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>>::get>();
+template <typename T> inline void Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::Initialize() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>>(), { "Initialize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-template<typename T>
-inline void Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::Initialize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
-}
-template<typename T>
-inline void Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::Execute(::ByRef<T>  jobData, ::System::IntPtr  additionalPtr, ::System::IntPtr  bufferRangePatchData, ::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges>  ranges, int32_t  jobIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>>::get(),
-                        "Execute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, jobData, additionalPtr, bufferRangePatchData, ranges, jobIndex);
+template <typename T>
+inline void Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::Execute(::by_ref<T> jobData, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData,
+                                                                      ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>>(),
+                                                                                         { "Execute",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                                             ::i2c::type_of<::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, jobData, additionalPtr, bufferRangePatchData, ranges, jobIndex);
 }
 // Ctor Parameters []
-template<typename T>
-constexpr ::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::IJobForExtensions_ForJobStruct_1()   {
+template <typename T> constexpr ::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>::IJobForExtensions_ForJobStruct_1() {}
+template <typename T> inline void Unity::Jobs::IJobForExtensions::EarlyJobInit() {
+  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::IJobForExtensions*>(), { "EarlyJobInit", { ::i2c::class_of<T>() }, {} })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-template<typename T>
-inline void Unity::Jobs::IJobForExtensions::EarlyJobInit()  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobForExtensions*>::get(),
-                    "EarlyJobInit",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::span<const Il2CppType* const, 0>()
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+template <typename T> inline ::System::IntPtr Unity::Jobs::IJobForExtensions::GetReflectionData() {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::IJobForExtensions*>(), { "GetReflectionData", { ::i2c::class_of<T>() }, {} })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
-template<typename T>
-inline ::System::IntPtr Unity::Jobs::IJobForExtensions::GetReflectionData()  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobForExtensions*>::get(),
-                    "GetReflectionData",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::span<const Il2CppType* const, 0>()
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method);
-}
-template<typename T>
-inline ::Unity::Jobs::JobHandle Unity::Jobs::IJobForExtensions::ScheduleParallel(T  jobData, int32_t  arrayLength, int32_t  innerloopBatchCount, ::Unity::Jobs::JobHandle  dependency)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobForExtensions*>::get(),
-                    "ScheduleParallel",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Jobs::JobHandle>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle, false>(nullptr, ___internal_method, jobData, arrayLength, innerloopBatchCount, dependency);
+template <typename T>
+inline ::Unity::Jobs::JobHandle Unity::Jobs::IJobForExtensions::ScheduleParallel(T jobData, int32_t arrayLength, int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependency) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Jobs::IJobForExtensions*>(),
+                       { "ScheduleParallel", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(nullptr, ___internal_method, jobData, arrayLength, innerloopBatchCount, dependency);
 }
 // Ctor Parameters []
-constexpr ::Unity::Jobs::IJobForExtensions::IJobForExtensions()   {
-}
+constexpr ::Unity::Jobs::IJobForExtensions::IJobForExtensions() {}

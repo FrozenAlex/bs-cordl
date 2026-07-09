@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "HMUI/CurvedCanvasSettings.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
@@ -23,92 +23,91 @@ namespace HMUI {
 class CurvedCanvasSettings;
 }
 // Write type traits
-MARK_REF_PTR_T(::HMUI::CurvedCanvasSettings);
+MARK_REF_T(::HMUI::CurvedCanvasSettings*);
+DEFINE_IL2CPP_CLASS(::HMUI::CurvedCanvasSettings*, "HMUI", "CurvedCanvasSettings");
 // Dependencies UnityEngine.UI.Graphic
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.CurvedCanvasSettings
 class CORDL_TYPE CurvedCanvasSettings : public ::UnityEngine::UI::Graphic {
 public:
-// Declarations
-/// @brief Field _radius, offset 0xa4, size 0x4 
- __declspec(property(get=__cordl_internal_get__radius, put=__cordl_internal_set__radius)) float_t  _radius;
+  // Declarations
+  /// @brief Field _radius, offset 0xa4, size 0x4
+  __declspec(property(get = __cordl_internal_get__radius, put = __cordl_internal_set__radius)) float_t _radius;
 
-/// @brief Field _useFlatInEditMode, offset 0xa8, size 0x1 
- __declspec(property(get=__cordl_internal_get__useFlatInEditMode, put=__cordl_internal_set__useFlatInEditMode)) bool  _useFlatInEditMode;
+  /// @brief Field _useFlatInEditMode, offset 0xa8, size 0x1
+  __declspec(property(get = __cordl_internal_get__useFlatInEditMode, put = __cordl_internal_set__useFlatInEditMode)) bool _useFlatInEditMode;
 
- __declspec(property(get=get_radius)) float_t  radius;
+  __declspec(property(get = get_radius)) float_t radius;
 
-static inline ::HMUI::CurvedCanvasSettings* New_ctor() ;
+  static inline ::HMUI::CurvedCanvasSettings* New_ctor();
 
-/// @brief Method OnPopulateMesh, addr 0x5733fb0, size 0x194, virtual true, abstract: false, final false
-inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper*  vh) ;
+  /// @brief Method OnPopulateMesh, addr 0x5733fb0, size 0x194, virtual true, abstract: false, final false
+  inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-/// @brief Method RebuildAndSetup, addr 0x5733e18, size 0xf8, virtual false, abstract: false, final false
-static inline void RebuildAndSetup(::UnityEngine::Transform*  t) ;
+  /// @brief Method RebuildAndSetup, addr 0x5733e18, size 0xf8, virtual false, abstract: false, final false
+  static inline void RebuildAndSetup(::UnityEngine::Transform* t);
 
-/// @brief Method SetRadius, addr 0x5733e00, size 0x18, virtual false, abstract: false, final false
-inline void SetRadius(float_t  value) ;
+  /// @brief Method SetRadius, addr 0x5733e00, size 0x18, virtual false, abstract: false, final false
+  inline void SetRadius(float_t value);
 
-/// @brief Method Start, addr 0x5733f10, size 0xa0, virtual true, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x5733f10, size 0xa0, virtual true, abstract: false, final false
+  inline void Start();
 
-/// @brief Method TransformPointFromCanvasTo3D, addr 0x5734144, size 0x40, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector3 TransformPointFromCanvasTo3D(::UnityEngine::Vector2  point) ;
+  /// @brief Method TransformPointFromCanvasTo3D, addr 0x5734144, size 0x40, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 TransformPointFromCanvasTo3D(::UnityEngine::Vector2 point);
 
-constexpr float_t const& __cordl_internal_get__radius() const;
+  constexpr float_t const& __cordl_internal_get__radius() const;
 
-constexpr float_t& __cordl_internal_get__radius() ;
+  constexpr float_t& __cordl_internal_get__radius();
 
-constexpr bool const& __cordl_internal_get__useFlatInEditMode() const;
+  constexpr bool const& __cordl_internal_get__useFlatInEditMode() const;
 
-constexpr bool& __cordl_internal_get__useFlatInEditMode() ;
+  constexpr bool& __cordl_internal_get__useFlatInEditMode();
 
-constexpr void __cordl_internal_set__radius(float_t  value) ;
+  constexpr void __cordl_internal_set__radius(float_t value);
 
-constexpr void __cordl_internal_set__useFlatInEditMode(bool  value) ;
+  constexpr void __cordl_internal_set__useFlatInEditMode(bool value);
 
-/// @brief Method .ctor, addr 0x5734184, size 0x64, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5734184, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_radius, addr 0x5733df8, size 0x8, virtual false, abstract: false, final false
-inline float_t get_radius() ;
+  /// @brief Method get_radius, addr 0x5733df8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_radius();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CurvedCanvasSettings() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CurvedCanvasSettings();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettings", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CurvedCanvasSettings(CurvedCanvasSettings&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettings", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CurvedCanvasSettings(CurvedCanvasSettings && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettings", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CurvedCanvasSettings(CurvedCanvasSettings const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettings", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CurvedCanvasSettings(CurvedCanvasSettings const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19146 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19146};
+  /// @brief Field kMaxElementWidth offset 0xffffffff size 0x4
+  static constexpr float_t kMaxElementWidth{ static_cast<float_t>(10.0f) };
 
-/// @brief Field kMaxElementWidth offset 0xffffffff size 0x4
-static constexpr float_t  kMaxElementWidth{static_cast<float_t>(10.0f)};
+  /// @brief Field _radius, offset: 0xa4, size: 0x4, def value: None
+  float_t ____radius;
 
-/// @brief Field _radius, offset: 0xa4, size: 0x4, def value: None
- float_t  ____radius;
+  /// @brief Field _useFlatInEditMode, offset: 0xa8, size: 0x1, def value: None
+  bool ____useFlatInEditMode;
 
-/// @brief Field _useFlatInEditMode, offset: 0xa8, size: 0x1, def value: None
- bool  ____useFlatInEditMode;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::CurvedCanvasSettings, ____radius) == 0xa4, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::CurvedCanvasSettings, ____useFlatInEditMode) == 0xa8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::HMUI::CurvedCanvasSettings, 0xb0>, "Size mismatch!");
+static_assert(sizeof(::HMUI::CurvedCanvasSettings) == 0xb0, "Size mismatch!");
 
-} // namespace end def HMUI
-NEED_NO_BOX(::HMUI::CurvedCanvasSettings);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::CurvedCanvasSettings*, "HMUI", "CurvedCanvasSettings");
+} // namespace HMUI

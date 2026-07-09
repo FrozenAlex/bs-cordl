@@ -4,71 +4,52 @@
 #include "GlobalNamespace/zzzz__EventsTestSceneSetup_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EventsTestSceneSetup.InstallBindings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestSceneSetup::*)()>(&::GlobalNamespace::EventsTestSceneSetup::InstallBindings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EventsTestSceneSetup::*)()>(&::GlobalNamespace::EventsTestSceneSetup::InstallBindings)> {
   constexpr static std::size_t size = 0xec4;
   constexpr static std::size_t addrs = 0x57e97c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestSceneSetup*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestSceneSetup*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EventsTestSceneSetup*>(), { ::i2c::class_of<::GlobalNamespace::EventsTestSceneSetup*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EventsTestSceneSetup._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestSceneSetup::*)()>(&::GlobalNamespace::EventsTestSceneSetup::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EventsTestSceneSetup::*)()>(&::GlobalNamespace::EventsTestSceneSetup::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x57ea684;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestSceneSetup*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EventsTestSceneSetup*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::EventsTestSceneSetup::__cordl_internal_get__sceneSetupData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sceneSetupData;
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::EventsTestSceneSetup::__cordl_internal_get__sceneSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sceneSetupData;
 }
 constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& GlobalNamespace::EventsTestSceneSetup::__cordl_internal_get__sceneSetupData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sceneSetupData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sceneSetupData;
 }
-constexpr void GlobalNamespace::EventsTestSceneSetup::__cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EventsTestSceneSetup::__cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____sceneSetupData = value;
 }
-inline void GlobalNamespace::EventsTestSceneSetup::InstallBindings()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestSceneSetup*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EventsTestSceneSetup::InstallBindings() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::EventsTestSceneSetup*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::EventsTestSceneSetup::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestSceneSetup*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EventsTestSceneSetup::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EventsTestSceneSetup*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EventsTestSceneSetup* GlobalNamespace::EventsTestSceneSetup::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EventsTestSceneSetup*>());
+inline ::GlobalNamespace::EventsTestSceneSetup* GlobalNamespace::EventsTestSceneSetup::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::EventsTestSceneSetup*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::EventsTestSceneSetup::EventsTestSceneSetup()   {
-}
+constexpr ::GlobalNamespace::EventsTestSceneSetup::EventsTestSceneSetup() {}

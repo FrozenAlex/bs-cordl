@@ -3,20 +3,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelMultiHashMapExtensions_def.hpp"
 #include "Unity/Collections/zzzz__NativeParallelMultiHashMap_2_def.hpp"
-template<typename TKey,typename TValue,typename U>
-inline void Unity::Collections::NativeParallelMultiHashMapExtensions::Initialize(::ByRef<::Unity::Collections::NativeParallelMultiHashMap_2<TKey,TValue>>  container, int32_t  capacity, ::ByRef<U>  allocator)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeParallelMultiHashMapExtensions*>::get(),
-                    "Initialize",
-                    std::array<const Il2CppClass*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::NativeParallelMultiHashMap_2<TKey,TValue>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<U>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, container, capacity, allocator);
+template <typename TKey, typename TValue, typename U>
+inline void Unity::Collections::NativeParallelMultiHashMapExtensions::Initialize(::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue>> container, int32_t capacity,
+                                                                                 ::by_ref<U> allocator) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeParallelMultiHashMapExtensions*>(),
+                          { "Initialize",
+                            { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>(), ::i2c::class_of<U>() },
+                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<U>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>(), ::i2c::class_of<U>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, capacity, allocator);
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::NativeParallelMultiHashMapExtensions::NativeParallelMultiHashMapExtensions()   {
-}
+constexpr ::Unity::Collections::NativeParallelMultiHashMapExtensions::NativeParallelMultiHashMapExtensions() {}

@@ -9,177 +9,141 @@
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderer_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectRendererFeature.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)()>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)()>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::Create)> {
   constexpr static std::size_t size = 0x1a4;
   constexpr static std::size_t addrs = 0x5e0cdb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectRendererFeature.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)(bool)>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)(bool)>(
+    &::GlobalNamespace::ScreenDisplacementEffectRendererFeature::Dispose)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x5e0d160;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 11 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectRendererFeature.AddRenderPasses
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)(::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::AddRenderPasses)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)(::UnityEngine::Rendering::Universal::ScriptableRenderer*,
+                                                                                                                            ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
+    &::GlobalNamespace::ScreenDisplacementEffectRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x5e0d19c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectRendererFeature.DestroySafe
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::DestroySafe)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::DestroySafe)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x5e0d23c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                        "DestroySafe",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), { "DestroySafe", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ScreenDisplacementEffectRendererFeature._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)()>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)()>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x5e0d2c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::LayerMask& GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_get_effectLayerMask()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___effectLayerMask;
+constexpr ::UnityEngine::LayerMask& GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_get_effectLayerMask() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___effectLayerMask;
 }
 constexpr ::UnityEngine::LayerMask const& GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_get_effectLayerMask() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___effectLayerMask;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___effectLayerMask;
 }
-constexpr void GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_set_effectLayerMask(::UnityEngine::LayerMask  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___effectLayerMask = value;
+constexpr void GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_set_effectLayerMask(::UnityEngine::LayerMask value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___effectLayerMask = value;
 }
-constexpr ::GlobalNamespace::ScreenDisplacementEffectGrabPass*& GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_get__grabPass()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____grabPass;
+constexpr ::GlobalNamespace::ScreenDisplacementEffectGrabPass*& GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_get__grabPass() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____grabPass;
 }
 constexpr ::GlobalNamespace::ScreenDisplacementEffectGrabPass* const& GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_get__grabPass() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____grabPass;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____grabPass;
 }
-constexpr void GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_set__grabPass(::GlobalNamespace::ScreenDisplacementEffectGrabPass*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____grabPass)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_set__grabPass(::GlobalNamespace::ScreenDisplacementEffectGrabPass* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____grabPass = value;
 }
-constexpr ::GlobalNamespace::ScreenDisplacementEffectDrawPass*& GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_get__drawPass()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____drawPass;
+constexpr ::GlobalNamespace::ScreenDisplacementEffectDrawPass*& GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_get__drawPass() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____drawPass;
 }
 constexpr ::GlobalNamespace::ScreenDisplacementEffectDrawPass* const& GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_get__drawPass() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____drawPass;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____drawPass;
 }
-constexpr void GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_set__drawPass(::GlobalNamespace::ScreenDisplacementEffectDrawPass*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____drawPass)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::ScreenDisplacementEffectRendererFeature::__cordl_internal_set__drawPass(::GlobalNamespace::ScreenDisplacementEffectDrawPass* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____drawPass = value;
 }
-inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::setStaticF_enabled(bool  value)  {
-::cordl_internals::setStaticField<bool, "enabled", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get>(std::forward<bool>(value));
+inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::setStaticF_enabled(bool value) {
+  ::cordl_internals::setStaticField<bool, "enabled", ::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(std::forward<bool>(value));
 }
-inline bool GlobalNamespace::ScreenDisplacementEffectRendererFeature::getStaticF_enabled()  {
-return ::cordl_internals::getStaticField<bool, "enabled", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get>();
+inline bool GlobalNamespace::ScreenDisplacementEffectRendererFeature::getStaticF_enabled() {
+  return ::cordl_internals::getStaticField<bool, "enabled", ::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>();
 }
-inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::Create()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::Create() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::Dispose(bool  disposing)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::Dispose(bool disposing) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
 }
-inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer*  renderer, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>  renderingData)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, renderer, renderingData);
+inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
+                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
 }
-inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::DestroySafe(::UnityEngine::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                        "DestroySafe",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
+inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::DestroySafe(::UnityEngine::Object* obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), { "DestroySafe", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj);
 }
-inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ScreenDisplacementEffectRendererFeature* GlobalNamespace::ScreenDisplacementEffectRendererFeature::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>());
+inline ::GlobalNamespace::ScreenDisplacementEffectRendererFeature* GlobalNamespace::ScreenDisplacementEffectRendererFeature::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ScreenDisplacementEffectRendererFeature::ScreenDisplacementEffectRendererFeature()   {
-}
+constexpr ::GlobalNamespace::ScreenDisplacementEffectRendererFeature::ScreenDisplacementEffectRendererFeature() {}

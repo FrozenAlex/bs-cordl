@@ -5,60 +5,41 @@
 #include "BeatmapSaveDataCommon/zzzz__BeatmapEventType_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions.GetSpecialEventTypes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* (*)()>(&::BeatmapSaveDataCommon::BeatmapEventTypeExtensions::GetSpecialEventTypes)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* (*)()>(
+    &::BeatmapSaveDataCommon::BeatmapEventTypeExtensions::GetSpecialEventTypes)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x369f584;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>::get(),
-                        "GetSpecialEventTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>(), { "GetSpecialEventTypes", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataCommon::BeatmapEventTypeExtensions::*)()>(&::BeatmapSaveDataCommon::BeatmapEventTypeExtensions::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataCommon::BeatmapEventTypeExtensions::*)()>(&::BeatmapSaveDataCommon::BeatmapEventTypeExtensions::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x369f684;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* BeatmapSaveDataCommon::BeatmapEventTypeExtensions::GetSpecialEventTypes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>::get(),
-                        "GetSpecialEventTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>*, false>(nullptr, ___internal_method);
+inline ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* BeatmapSaveDataCommon::BeatmapEventTypeExtensions::GetSpecialEventTypes() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>(), { "GetSpecialEventTypes", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>*>(nullptr, ___internal_method);
 }
-inline void BeatmapSaveDataCommon::BeatmapEventTypeExtensions::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatmapSaveDataCommon::BeatmapEventTypeExtensions::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions* BeatmapSaveDataCommon::BeatmapEventTypeExtensions::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>());
+inline ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions* BeatmapSaveDataCommon::BeatmapEventTypeExtensions::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatmapSaveDataCommon::BeatmapEventTypeExtensions*>());
 }
 // Ctor Parameters []
-constexpr ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions::BeatmapEventTypeExtensions()   {
-}
+constexpr ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions::BeatmapEventTypeExtensions() {}

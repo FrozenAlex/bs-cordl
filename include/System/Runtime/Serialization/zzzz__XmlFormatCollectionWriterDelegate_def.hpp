@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Serialization/XmlFormatCollectionWriterDelegate.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
@@ -25,44 +25,44 @@ namespace System::Runtime::Serialization {
 class XmlFormatCollectionWriterDelegate;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate);
+MARK_REF_T(::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate*);
+DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate*, "System.Runtime.Serialization", "XmlFormatCollectionWriterDelegate");
 // Dependencies System.MulticastDelegate
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.XmlFormatCollectionWriterDelegate
 class CORDL_TYPE XmlFormatCollectionWriterDelegate : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x6023e54, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::System::Runtime::Serialization::XmlWriterDelegator*  xmlWriter, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  context, ::System::Runtime::Serialization::CollectionDataContract*  dataContract) ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x6023e54, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context,
+                     ::System::Runtime::Serialization::CollectionDataContract* dataContract);
 
-static inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x6023d0c, size 0x148, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x6023d0c, size 0x148, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlFormatCollectionWriterDelegate() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlFormatCollectionWriterDelegate();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionWriterDelegate", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlFormatCollectionWriterDelegate(XmlFormatCollectionWriterDelegate&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionWriterDelegate", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlFormatCollectionWriterDelegate(XmlFormatCollectionWriterDelegate && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionWriterDelegate", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlFormatCollectionWriterDelegate(XmlFormatCollectionWriterDelegate const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionWriterDelegate", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlFormatCollectionWriterDelegate(XmlFormatCollectionWriterDelegate const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17113 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17113};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate, 0x80>, "Size mismatch!");
+static_assert(sizeof(::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate) == 0x80, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
-NEED_NO_BOX(::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate*, "System.Runtime.Serialization", "XmlFormatCollectionWriterDelegate");
+} // namespace System::Runtime::Serialization

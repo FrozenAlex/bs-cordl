@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Unity/Properties/Internal/Vector4PropertyBag.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Vector4PropertyBag)
 namespace Unity::Properties::Internal {
@@ -41,265 +41,260 @@ namespace Unity::Properties::Internal {
 class Vector4PropertyBag_ZProperty;
 }
 // Write type traits
-MARK_REF_PTR_T(::Unity::Properties::Internal::Vector4PropertyBag);
-MARK_REF_PTR_T(::Unity::Properties::Internal::Vector4PropertyBag_WProperty);
-MARK_REF_PTR_T(::Unity::Properties::Internal::Vector4PropertyBag_XProperty);
-MARK_REF_PTR_T(::Unity::Properties::Internal::Vector4PropertyBag_YProperty);
-MARK_REF_PTR_T(::Unity::Properties::Internal::Vector4PropertyBag_ZProperty);
+MARK_REF_T(::Unity::Properties::Internal::Vector4PropertyBag*);
+MARK_REF_T(::Unity::Properties::Internal::Vector4PropertyBag_WProperty*);
+MARK_REF_T(::Unity::Properties::Internal::Vector4PropertyBag_XProperty*);
+MARK_REF_T(::Unity::Properties::Internal::Vector4PropertyBag_YProperty*);
+MARK_REF_T(::Unity::Properties::Internal::Vector4PropertyBag_ZProperty*);
+DEFINE_IL2CPP_CLASS(::Unity::Properties::Internal::Vector4PropertyBag*, "Unity.Properties.Internal", "Vector4PropertyBag");
+DEFINE_IL2CPP_CLASS(::Unity::Properties::Internal::Vector4PropertyBag_WProperty*, "Unity.Properties.Internal", "Vector4PropertyBag/WProperty");
+DEFINE_IL2CPP_CLASS(::Unity::Properties::Internal::Vector4PropertyBag_XProperty*, "Unity.Properties.Internal", "Vector4PropertyBag/XProperty");
+DEFINE_IL2CPP_CLASS(::Unity::Properties::Internal::Vector4PropertyBag_YProperty*, "Unity.Properties.Internal", "Vector4PropertyBag/YProperty");
+DEFINE_IL2CPP_CLASS(::Unity::Properties::Internal::Vector4PropertyBag_ZProperty*, "Unity.Properties.Internal", "Vector4PropertyBag/ZProperty");
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Vector4
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.Vector4PropertyBag/XProperty
-class CORDL_TYPE Vector4PropertyBag_XProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector4,float_t> {
+class CORDL_TYPE Vector4PropertyBag_XProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector4, float_t> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Method GetValue, addr 0x6a5c9d0, size 0x8, virtual true, abstract: false, final false
-inline float_t GetValue(::ByRef<::UnityEngine::Vector4>  container) ;
+  /// @brief Method GetValue, addr 0x6a5c9d0, size 0x8, virtual true, abstract: false, final false
+  inline float_t GetValue(::by_ref<::UnityEngine::Vector4> container);
 
-static inline ::Unity::Properties::Internal::Vector4PropertyBag_XProperty* New_ctor() ;
+  static inline ::Unity::Properties::Internal::Vector4PropertyBag_XProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a5c9d8, size 0x8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::Vector4>  container, float_t  value) ;
+  /// @brief Method SetValue, addr 0x6a5c9d8, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::by_ref<::UnityEngine::Vector4> container, float_t value);
 
-/// @brief Method .ctor, addr 0x6a5c894, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6a5c894, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a5c9c8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6a5c9c8, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a5c984, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6a5c984, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Vector4PropertyBag_XProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Vector4PropertyBag_XProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_XProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Vector4PropertyBag_XProperty(Vector4PropertyBag_XProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_XProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Vector4PropertyBag_XProperty(Vector4PropertyBag_XProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_XProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Vector4PropertyBag_XProperty(Vector4PropertyBag_XProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_XProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Vector4PropertyBag_XProperty(Vector4PropertyBag_XProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19460 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19460};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::Vector4PropertyBag_XProperty, 0x18>, "Size mismatch!");
+static_assert(sizeof(::Unity::Properties::Internal::Vector4PropertyBag_XProperty) == 0x18, "Size mismatch!");
 
-} // namespace end def Unity::Properties::Internal
+} // namespace Unity::Properties::Internal
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Vector4
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.Vector4PropertyBag/YProperty
-class CORDL_TYPE Vector4PropertyBag_YProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector4,float_t> {
+class CORDL_TYPE Vector4PropertyBag_YProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector4, float_t> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Method GetValue, addr 0x6a5ca2c, size 0x8, virtual true, abstract: false, final false
-inline float_t GetValue(::ByRef<::UnityEngine::Vector4>  container) ;
+  /// @brief Method GetValue, addr 0x6a5ca2c, size 0x8, virtual true, abstract: false, final false
+  inline float_t GetValue(::by_ref<::UnityEngine::Vector4> container);
 
-static inline ::Unity::Properties::Internal::Vector4PropertyBag_YProperty* New_ctor() ;
+  static inline ::Unity::Properties::Internal::Vector4PropertyBag_YProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a5ca34, size 0x8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::Vector4>  container, float_t  value) ;
+  /// @brief Method SetValue, addr 0x6a5ca34, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::by_ref<::UnityEngine::Vector4> container, float_t value);
 
-/// @brief Method .ctor, addr 0x6a5c8d0, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6a5c8d0, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a5ca24, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6a5ca24, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a5c9e0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6a5c9e0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Vector4PropertyBag_YProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Vector4PropertyBag_YProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_YProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Vector4PropertyBag_YProperty(Vector4PropertyBag_YProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_YProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Vector4PropertyBag_YProperty(Vector4PropertyBag_YProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_YProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Vector4PropertyBag_YProperty(Vector4PropertyBag_YProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_YProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Vector4PropertyBag_YProperty(Vector4PropertyBag_YProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19461 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19461};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::Vector4PropertyBag_YProperty, 0x18>, "Size mismatch!");
+static_assert(sizeof(::Unity::Properties::Internal::Vector4PropertyBag_YProperty) == 0x18, "Size mismatch!");
 
-} // namespace end def Unity::Properties::Internal
+} // namespace Unity::Properties::Internal
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Vector4
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.Vector4PropertyBag/ZProperty
-class CORDL_TYPE Vector4PropertyBag_ZProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector4,float_t> {
+class CORDL_TYPE Vector4PropertyBag_ZProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector4, float_t> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Method GetValue, addr 0x6a5ca88, size 0x8, virtual true, abstract: false, final false
-inline float_t GetValue(::ByRef<::UnityEngine::Vector4>  container) ;
+  /// @brief Method GetValue, addr 0x6a5ca88, size 0x8, virtual true, abstract: false, final false
+  inline float_t GetValue(::by_ref<::UnityEngine::Vector4> container);
 
-static inline ::Unity::Properties::Internal::Vector4PropertyBag_ZProperty* New_ctor() ;
+  static inline ::Unity::Properties::Internal::Vector4PropertyBag_ZProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a5ca90, size 0x8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::Vector4>  container, float_t  value) ;
+  /// @brief Method SetValue, addr 0x6a5ca90, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::by_ref<::UnityEngine::Vector4> container, float_t value);
 
-/// @brief Method .ctor, addr 0x6a5c90c, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6a5c90c, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a5ca80, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6a5ca80, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a5ca3c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6a5ca3c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Vector4PropertyBag_ZProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Vector4PropertyBag_ZProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_ZProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Vector4PropertyBag_ZProperty(Vector4PropertyBag_ZProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_ZProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Vector4PropertyBag_ZProperty(Vector4PropertyBag_ZProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_ZProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Vector4PropertyBag_ZProperty(Vector4PropertyBag_ZProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_ZProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Vector4PropertyBag_ZProperty(Vector4PropertyBag_ZProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19462 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19462};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::Vector4PropertyBag_ZProperty, 0x18>, "Size mismatch!");
+static_assert(sizeof(::Unity::Properties::Internal::Vector4PropertyBag_ZProperty) == 0x18, "Size mismatch!");
 
-} // namespace end def Unity::Properties::Internal
+} // namespace Unity::Properties::Internal
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Vector4
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.Vector4PropertyBag/WProperty
-class CORDL_TYPE Vector4PropertyBag_WProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector4,float_t> {
+class CORDL_TYPE Vector4PropertyBag_WProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector4, float_t> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Method GetValue, addr 0x6a5cae4, size 0x8, virtual true, abstract: false, final false
-inline float_t GetValue(::ByRef<::UnityEngine::Vector4>  container) ;
+  /// @brief Method GetValue, addr 0x6a5cae4, size 0x8, virtual true, abstract: false, final false
+  inline float_t GetValue(::by_ref<::UnityEngine::Vector4> container);
 
-static inline ::Unity::Properties::Internal::Vector4PropertyBag_WProperty* New_ctor() ;
+  static inline ::Unity::Properties::Internal::Vector4PropertyBag_WProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a5caec, size 0x8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::Vector4>  container, float_t  value) ;
+  /// @brief Method SetValue, addr 0x6a5caec, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::by_ref<::UnityEngine::Vector4> container, float_t value);
 
-/// @brief Method .ctor, addr 0x6a5c948, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6a5c948, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a5cadc, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6a5cadc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a5ca98, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6a5ca98, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Vector4PropertyBag_WProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Vector4PropertyBag_WProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_WProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Vector4PropertyBag_WProperty(Vector4PropertyBag_WProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_WProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Vector4PropertyBag_WProperty(Vector4PropertyBag_WProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_WProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Vector4PropertyBag_WProperty(Vector4PropertyBag_WProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_WProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Vector4PropertyBag_WProperty(Vector4PropertyBag_WProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19463 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19463};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::Vector4PropertyBag_WProperty, 0x18>, "Size mismatch!");
+static_assert(sizeof(::Unity::Properties::Internal::Vector4PropertyBag_WProperty) == 0x18, "Size mismatch!");
 
-} // namespace end def Unity::Properties::Internal
+} // namespace Unity::Properties::Internal
 // Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.Vector4
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.Vector4PropertyBag
 class CORDL_TYPE Vector4PropertyBag : public ::Unity::Properties::ContainerPropertyBag_1<::UnityEngine::Vector4> {
 public:
-// Declarations
-using WProperty = ::Unity::Properties::Internal::Vector4PropertyBag_WProperty;
+  // Declarations
+  using WProperty = ::Unity::Properties::Internal::Vector4PropertyBag_WProperty;
 
-using XProperty = ::Unity::Properties::Internal::Vector4PropertyBag_XProperty;
+  using XProperty = ::Unity::Properties::Internal::Vector4PropertyBag_XProperty;
 
-using YProperty = ::Unity::Properties::Internal::Vector4PropertyBag_YProperty;
+  using YProperty = ::Unity::Properties::Internal::Vector4PropertyBag_YProperty;
 
-using ZProperty = ::Unity::Properties::Internal::Vector4PropertyBag_ZProperty;
+  using ZProperty = ::Unity::Properties::Internal::Vector4PropertyBag_ZProperty;
 
-static inline ::Unity::Properties::Internal::Vector4PropertyBag* New_ctor() ;
+  static inline ::Unity::Properties::Internal::Vector4PropertyBag* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a5b638, size 0x204, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6a5b638, size 0x204, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Vector4PropertyBag() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Vector4PropertyBag();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Vector4PropertyBag(Vector4PropertyBag&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Vector4PropertyBag(Vector4PropertyBag && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Vector4PropertyBag(Vector4PropertyBag const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Vector4PropertyBag(Vector4PropertyBag const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19464 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19464};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::Vector4PropertyBag, 0x28>, "Size mismatch!");
+static_assert(sizeof(::Unity::Properties::Internal::Vector4PropertyBag) == 0x28, "Size mismatch!");
 
-} // namespace end def Unity::Properties::Internal
-NEED_NO_BOX(::Unity::Properties::Internal::Vector4PropertyBag);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::Vector4PropertyBag*, "Unity.Properties.Internal", "Vector4PropertyBag");
-NEED_NO_BOX(::Unity::Properties::Internal::Vector4PropertyBag_WProperty);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::Vector4PropertyBag_WProperty*, "Unity.Properties.Internal", "Vector4PropertyBag/WProperty");
-NEED_NO_BOX(::Unity::Properties::Internal::Vector4PropertyBag_XProperty);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::Vector4PropertyBag_XProperty*, "Unity.Properties.Internal", "Vector4PropertyBag/XProperty");
-NEED_NO_BOX(::Unity::Properties::Internal::Vector4PropertyBag_YProperty);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::Vector4PropertyBag_YProperty*, "Unity.Properties.Internal", "Vector4PropertyBag/YProperty");
-NEED_NO_BOX(::Unity::Properties::Internal::Vector4PropertyBag_ZProperty);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::Vector4PropertyBag_ZProperty*, "Unity.Properties.Internal", "Vector4PropertyBag/ZProperty");
+} // namespace Unity::Properties::Internal

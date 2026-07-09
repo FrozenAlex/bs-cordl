@@ -7,109 +7,73 @@
 #include "Oculus/Platform/zzzz__Request_def.hpp"
 #include "Oculus/Platform/zzzz__RichPresenceOptions_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::RichPresence.Clear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::RichPresence::Clear)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::RichPresence::Clear)> {
   constexpr static std::size_t size = 0x144;
   constexpr static std::size_t addrs = 0x5cb0720;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RichPresence*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "Clear", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::RichPresence.GetDestinations
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* (*)()>(&::Oculus::Platform::RichPresence::GetDestinations)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* (*)()>(&::Oculus::Platform::RichPresence::GetDestinations)> {
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x5cb0864;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RichPresence*>::get(),
-                        "GetDestinations",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "GetDestinations", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::RichPresence.Set
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::RichPresenceOptions*)>(&::Oculus::Platform::RichPresence::Set)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::RichPresenceOptions*)>(&::Oculus::Platform::RichPresence::Set)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x5cb09bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RichPresence*>::get(),
-                        "Set",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::RichPresenceOptions*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "Set", {}, { ::i2c::type_of<::Oculus::Platform::RichPresenceOptions*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::RichPresence.GetNextDestinationListPage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* (*)(::Oculus::Platform::Models::DestinationList*)>(&::Oculus::Platform::RichPresence::GetNextDestinationListPage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* (*)(::Oculus::Platform::Models::DestinationList*)>(
+    &::Oculus::Platform::RichPresence::GetNextDestinationListPage)> {
   constexpr static std::size_t size = 0x1f0;
   constexpr static std::size_t addrs = 0x5cb0b24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RichPresence*>::get(),
-                        "GetNextDestinationListPage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::DestinationList*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(),
+                                                                                           { "GetNextDestinationListPage", {}, { ::i2c::type_of<::Oculus::Platform::Models::DestinationList*>() } })));
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::Request* Oculus::Platform::RichPresence::Clear()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RichPresence*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request*, false>(nullptr, ___internal_method);
+inline ::Oculus::Platform::Request* Oculus::Platform::RichPresence::Clear() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "Clear", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request*>(nullptr, ___internal_method);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* Oculus::Platform::RichPresence::GetDestinations()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RichPresence*>::get(),
-                        "GetDestinations",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>*, false>(nullptr, ___internal_method);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* Oculus::Platform::RichPresence::GetDestinations() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "GetDestinations", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>*>(nullptr, ___internal_method);
 }
-inline ::Oculus::Platform::Request* Oculus::Platform::RichPresence::Set(::Oculus::Platform::RichPresenceOptions*  richPresenceOptions)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RichPresence*>::get(),
-                        "Set",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::RichPresenceOptions*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request*, false>(nullptr, ___internal_method, richPresenceOptions);
+inline ::Oculus::Platform::Request* Oculus::Platform::RichPresence::Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "Set", {}, { ::i2c::type_of<::Oculus::Platform::RichPresenceOptions*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request*>(nullptr, ___internal_method, richPresenceOptions);
 }
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* Oculus::Platform::RichPresence::GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList*  list)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RichPresence*>::get(),
-                        "GetNextDestinationListPage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::DestinationList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>*, false>(nullptr, ___internal_method, list);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* Oculus::Platform::RichPresence::GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(),
+                                                                                         { "GetNextDestinationListPage", {}, { ::i2c::type_of<::Oculus::Platform::Models::DestinationList*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>*>(nullptr, ___internal_method, list);
 }
 // Ctor Parameters []
-constexpr ::Oculus::Platform::RichPresence::RichPresence()   {
-}
+constexpr ::Oculus::Platform::RichPresence::RichPresence() {}

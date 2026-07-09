@@ -2,16 +2,10 @@
 // IWYU pragma private; include "Unity/Properties/IDictionaryPropertyBagVisitor.hpp"
 #include "Unity/Properties/zzzz__IDictionaryPropertyBagVisitor_def.hpp"
 #include "Unity/Properties/zzzz__IDictionaryPropertyBag_3_def.hpp"
-template<typename TDictionary,typename TKey,typename TValue>
-inline void Unity::Properties::IDictionaryPropertyBagVisitor::Visit(::Unity::Properties::IDictionaryPropertyBag_3<TDictionary,TKey,TValue>*  properties, ::ByRef<TDictionary>  container)  {
-auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                        il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::IDictionaryPropertyBagVisitor*>::get(),
-                        0
-                    )));
-auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                        ___internal_method_base,
-                        std::array<const Il2CppClass*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDictionary>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}
-                    ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, properties, container);
+template <typename TDictionary, typename TKey, typename TValue>
+inline void Unity::Properties::IDictionaryPropertyBagVisitor::Visit(::Unity::Properties::IDictionaryPropertyBag_3<TDictionary, TKey, TValue>* properties, ::by_ref<TDictionary> container) {
+  auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Properties::IDictionaryPropertyBagVisitor*>(), 0 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDictionary>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() }));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, properties, container);
 }

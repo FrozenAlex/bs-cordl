@@ -4,31 +4,22 @@
 #include "UnityEngine/Timeline/zzzz__WeightUtility_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::WeightUtility.NormalizeMixer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Playables::Playable)>(&::UnityEngine::Timeline::WeightUtility::NormalizeMixer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Playables::Playable)>(&::UnityEngine::Timeline::WeightUtility::NormalizeMixer)> {
   constexpr static std::size_t size = 0x198;
   constexpr static std::size_t addrs = 0x688cfa0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::WeightUtility*>::get(),
-                        "NormalizeMixer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::Playable>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::WeightUtility*>(), { "NormalizeMixer", {}, { ::i2c::type_of<::UnityEngine::Playables::Playable>() } })));
     return ___internal_method;
   }
 };
-inline float_t UnityEngine::Timeline::WeightUtility::NormalizeMixer(::UnityEngine::Playables::Playable  mixer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::WeightUtility*>::get(),
-                        "NormalizeMixer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::Playable>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, mixer);
+inline float_t UnityEngine::Timeline::WeightUtility::NormalizeMixer(::UnityEngine::Playables::Playable mixer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::WeightUtility*>(), { "NormalizeMixer", {}, { ::i2c::type_of<::UnityEngine::Playables::Playable>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, mixer);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Timeline::WeightUtility::WeightUtility()   {
-}
+constexpr ::UnityEngine::Timeline::WeightUtility::WeightUtility() {}

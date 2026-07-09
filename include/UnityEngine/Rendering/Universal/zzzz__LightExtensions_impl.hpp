@@ -5,31 +5,23 @@
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalAdditionalLightData_def.hpp"
 #include "UnityEngine/zzzz__Light_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::LightExtensions.GetUniversalAdditionalLightData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData> (*)(::UnityEngine::Light*)>(&::UnityEngine::Rendering::Universal::LightExtensions::GetUniversalAdditionalLightData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData> (*)(::UnityEngine::Light*)>(
+    &::UnityEngine::Rendering::Universal::LightExtensions::GetUniversalAdditionalLightData)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x67853b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::LightExtensions*>::get(),
-                        "GetUniversalAdditionalLightData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Light*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightExtensions*>(),
+                                                                                           { "GetUniversalAdditionalLightData", {}, { ::i2c::type_of<::UnityEngine::Light*>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData> UnityEngine::Rendering::Universal::LightExtensions::GetUniversalAdditionalLightData(::UnityEngine::Light*  light)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::LightExtensions*>::get(),
-                        "GetUniversalAdditionalLightData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Light*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData>, false>(nullptr, ___internal_method, light);
+inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData> UnityEngine::Rendering::Universal::LightExtensions::GetUniversalAdditionalLightData(::UnityEngine::Light* light) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightExtensions*>(),
+                                                                                         { "GetUniversalAdditionalLightData", {}, { ::i2c::type_of<::UnityEngine::Light*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData>>(nullptr, ___internal_method, light);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::LightExtensions::LightExtensions()   {
-}
+constexpr ::UnityEngine::Rendering::Universal::LightExtensions::LightExtensions() {}

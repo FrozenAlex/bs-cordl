@@ -6,89 +6,77 @@
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::MaterialManager.GetFallbackMaterial
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(&::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(
+    &::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x40c;
   constexpr static std::size_t addrs = 0x6a70270;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::MaterialManager*>::get(),
-                        "GetFallbackMaterial",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MaterialManager*>(),
+                                                             { "GetFallbackMaterial", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::MaterialManager.GetFallbackMaterial
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::Material*, int32_t)>(&::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::Material*, int32_t)>(
+    &::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x26c;
   constexpr static std::size_t addrs = 0x6a708d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::MaterialManager*>::get(),
-                        "GetFallbackMaterial",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MaterialManager*>(),
+                            { "GetFallbackMaterial", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::FontAsset*>(), ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::MaterialManager.CopyMaterialPresetProperties
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(&::UnityEngine::TextCore::Text::MaterialManager::CopyMaterialPresetProperties)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(&::UnityEngine::TextCore::Text::MaterialManager::CopyMaterialPresetProperties)> {
   constexpr static std::size_t size = 0x254;
   constexpr static std::size_t addrs = 0x6a7067c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::MaterialManager*>::get(),
-                        "CopyMaterialPresetProperties",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MaterialManager*>(),
+                                                             { "CopyMaterialPresetProperties", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::TextCore::Text::MaterialManager::setStaticF_s_FallbackMaterials(::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::UnityEngine::Material>>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::UnityEngine::Material>>*, "s_FallbackMaterials", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::MaterialManager*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::UnityEngine::Material>>*>(value));
+inline void UnityEngine::TextCore::Text::MaterialManager::setStaticF_s_FallbackMaterials(::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>*, "s_FallbackMaterials", ::UnityEngine::TextCore::Text::MaterialManager*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::UnityEngine::Material>>* UnityEngine::TextCore::Text::MaterialManager::getStaticF_s_FallbackMaterials()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::UnityEngine::Material>>*, "s_FallbackMaterials", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::MaterialManager*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* UnityEngine::TextCore::Text::MaterialManager::getStaticF_s_FallbackMaterials() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>*, "s_FallbackMaterials",
+                                           ::UnityEngine::TextCore::Text::MaterialManager*>();
 }
-inline ::UnityW<::UnityEngine::Material> UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial(::UnityEngine::Material*  sourceMaterial, ::UnityEngine::Material*  targetMaterial)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::MaterialManager*>::get(),
-                        "GetFallbackMaterial",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method, sourceMaterial, targetMaterial);
+inline ::UnityW<::UnityEngine::Material> UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MaterialManager*>(),
+                                                           { "GetFallbackMaterial", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>>(nullptr, ___internal_method, sourceMaterial, targetMaterial);
 }
-inline ::UnityW<::UnityEngine::Material> UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial(::UnityEngine::TextCore::Text::FontAsset*  fontAsset, ::UnityEngine::Material*  sourceMaterial, int32_t  atlasIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::MaterialManager*>::get(),
-                        "GetFallbackMaterial",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method, fontAsset, sourceMaterial, atlasIndex);
+inline ::UnityW<::UnityEngine::Material> UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial,
+                                                                                                           int32_t atlasIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MaterialManager*>(),
+                          { "GetFallbackMaterial", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::FontAsset*>(), ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>>(nullptr, ___internal_method, fontAsset, sourceMaterial, atlasIndex);
 }
-inline void UnityEngine::TextCore::Text::MaterialManager::CopyMaterialPresetProperties(::UnityEngine::Material*  source, ::UnityEngine::Material*  destination)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::MaterialManager*>::get(),
-                        "CopyMaterialPresetProperties",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, source, destination);
+inline void UnityEngine::TextCore::Text::MaterialManager::CopyMaterialPresetProperties(::UnityEngine::Material* source, ::UnityEngine::Material* destination) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MaterialManager*>(),
+                                                           { "CopyMaterialPresetProperties", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, destination);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::TextCore::Text::MaterialManager::MaterialManager()   {
-}
+constexpr ::UnityEngine::TextCore::Text::MaterialManager::MaterialManager() {}

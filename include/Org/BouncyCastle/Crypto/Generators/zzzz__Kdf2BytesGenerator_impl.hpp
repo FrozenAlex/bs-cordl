@@ -4,34 +4,27 @@
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__Kdf2BytesGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
+    &::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::_ctor)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x331d07c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IDigest*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::IDigest*>() } })));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::_ctor(::Org::BouncyCastle::Crypto::IDigest*  digest)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IDigest*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, digest);
+inline void Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Crypto::IDigest*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, digest);
 }
-inline ::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator* Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::New_ctor(::Org::BouncyCastle::Crypto::IDigest*  digest)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator*>(digest));
+inline ::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator* Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator*>(digest));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::Kdf2BytesGenerator()   {
-}
+constexpr ::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::Kdf2BytesGenerator() {}

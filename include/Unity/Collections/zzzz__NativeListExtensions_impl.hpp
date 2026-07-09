@@ -5,90 +5,56 @@
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeList_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_def.hpp"
-template<typename T,typename U>
-inline bool Unity::Collections::NativeListExtensions::Contains(::Unity::Collections::NativeList_1<T>  list, U  value)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeListExtensions*>::get(),
-                    "Contains",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeList_1<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<U>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, list, value);
+template <typename T, typename U> inline bool Unity::Collections::NativeListExtensions::Contains(::Unity::Collections::NativeList_1<T> list, U value) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeListExtensions*>(),
+                                              { "Contains", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::Unity::Collections::NativeList_1<T>>(), ::i2c::type_of<U>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, list, value);
 }
-template<typename T,typename U>
-inline int32_t Unity::Collections::NativeListExtensions::IndexOf(::Unity::Collections::NativeList_1<T>  list, U  value)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeListExtensions*>::get(),
-                    "IndexOf",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeList_1<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<U>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, list, value);
+template <typename T, typename U> inline int32_t Unity::Collections::NativeListExtensions::IndexOf(::Unity::Collections::NativeList_1<T> list, U value) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeListExtensions*>(),
+                                              { "IndexOf", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::Unity::Collections::NativeList_1<T>>(), ::i2c::type_of<U>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, list, value);
 }
-template<typename T>
-inline bool Unity::Collections::NativeListExtensions::ArraysEqual(::Unity::Collections::NativeArray_1<T>  container, ::ByRef<::Unity::Collections::NativeList_1<T>>  other)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeListExtensions*>::get(),
-                    "ArraysEqual",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::NativeList_1<T>>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, container, other);
+template <typename T> inline bool Unity::Collections::NativeListExtensions::ArraysEqual(::Unity::Collections::NativeArray_1<T> container, ::by_ref<::Unity::Collections::NativeList_1<T>> other) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Collections::NativeListExtensions*>(),
+                       { "ArraysEqual", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<T>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, container, other);
 }
-template<typename T>
-inline bool Unity::Collections::NativeListExtensions::ArraysEqual(::Unity::Collections::NativeList_1<T>  container, ::ByRef<::Unity::Collections::NativeArray_1<T>>  other)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeListExtensions*>::get(),
-                    "ArraysEqual",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeList_1<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::NativeArray_1<T>>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, container, other);
+template <typename T> inline bool Unity::Collections::NativeListExtensions::ArraysEqual(::Unity::Collections::NativeList_1<T> container, ::by_ref<::Unity::Collections::NativeArray_1<T>> other) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Collections::NativeListExtensions*>(),
+                       { "ArraysEqual", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeList_1<T>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, container, other);
 }
-template<typename T>
-inline bool Unity::Collections::NativeListExtensions::ArraysEqual(::Unity::Collections::NativeList_1<T>  container, ::ByRef<::Unity::Collections::NativeList_1<T>>  other)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeListExtensions*>::get(),
-                    "ArraysEqual",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeList_1<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::NativeList_1<T>>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, container, other);
+template <typename T> inline bool Unity::Collections::NativeListExtensions::ArraysEqual(::Unity::Collections::NativeList_1<T> container, ::by_ref<::Unity::Collections::NativeList_1<T>> other) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Collections::NativeListExtensions*>(),
+                       { "ArraysEqual", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeList_1<T>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<T>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, container, other);
 }
-template<typename T>
-inline bool Unity::Collections::NativeListExtensions::ArraysEqual(::Unity::Collections::NativeList_1<T>  container, ::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>>  other)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeListExtensions*>::get(),
-                    "ArraysEqual",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeList_1<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, container, other);
+template <typename T>
+inline bool Unity::Collections::NativeListExtensions::ArraysEqual(::Unity::Collections::NativeList_1<T> container, ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>> other) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeListExtensions*>(),
+                                              { "ArraysEqual",
+                                                { ::i2c::class_of<T>() },
+                                                { ::i2c::type_of<::Unity::Collections::NativeList_1<T>>(), ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, container, other);
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::NativeListExtensions::NativeListExtensions()   {
-}
+constexpr ::Unity::Collections::NativeListExtensions::NativeListExtensions() {}

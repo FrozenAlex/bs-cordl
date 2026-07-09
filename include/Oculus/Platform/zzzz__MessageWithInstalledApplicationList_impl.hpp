@@ -5,84 +5,64 @@
 #include "Oculus/Platform/Models/zzzz__InstalledApplicationList_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::MessageWithInstalledApplicationList._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithInstalledApplicationList::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithInstalledApplicationList::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithInstalledApplicationList::*)(::System::IntPtr)>(
+    &::Oculus::Platform::MessageWithInstalledApplicationList::_ctor)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5ca0a44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInstalledApplicationList*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithInstalledApplicationList*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::MessageWithInstalledApplicationList.GetInstalledApplicationList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InstalledApplicationList* (::Oculus::Platform::MessageWithInstalledApplicationList::*)()>(&::Oculus::Platform::MessageWithInstalledApplicationList::GetInstalledApplicationList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::InstalledApplicationList* (::Oculus::Platform::MessageWithInstalledApplicationList::*)()>(
+    &::Oculus::Platform::MessageWithInstalledApplicationList::GetInstalledApplicationList)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x5ca0aa0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInstalledApplicationList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInstalledApplicationList*>::get(),
-                                  32
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithInstalledApplicationList*>(),
+                                                                                          { ::i2c::class_of<::Oculus::Platform::MessageWithInstalledApplicationList*>(), 32 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::MessageWithInstalledApplicationList.GetDataFromMessage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InstalledApplicationList* (::Oculus::Platform::MessageWithInstalledApplicationList::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithInstalledApplicationList::GetDataFromMessage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::InstalledApplicationList* (::Oculus::Platform::MessageWithInstalledApplicationList::*)(::System::IntPtr)>(
+    &::Oculus::Platform::MessageWithInstalledApplicationList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x5ca0ae4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInstalledApplicationList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInstalledApplicationList*>::get(),
-                                  74
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithInstalledApplicationList*>(),
+                                                                                          { ::i2c::class_of<::Oculus::Platform::MessageWithInstalledApplicationList*>(), 74 }));
     return ___internal_method;
   }
 };
-inline void Oculus::Platform::MessageWithInstalledApplicationList::_ctor(::System::IntPtr  c_message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInstalledApplicationList*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, c_message);
+inline void Oculus::Platform::MessageWithInstalledApplicationList::_ctor(::System::IntPtr c_message) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithInstalledApplicationList*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, c_message);
 }
-inline ::Oculus::Platform::Models::InstalledApplicationList* Oculus::Platform::MessageWithInstalledApplicationList::GetInstalledApplicationList()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInstalledApplicationList*>::get(),
-                            32
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::InstalledApplicationList*, false>(this, ___internal_method);
+inline ::Oculus::Platform::Models::InstalledApplicationList* Oculus::Platform::MessageWithInstalledApplicationList::GetInstalledApplicationList() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Oculus::Platform::MessageWithInstalledApplicationList*>(), 32 })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::InstalledApplicationList*>(this, ___internal_method);
 }
-inline ::Oculus::Platform::Models::InstalledApplicationList* Oculus::Platform::MessageWithInstalledApplicationList::GetDataFromMessage(::System::IntPtr  c_message)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithInstalledApplicationList*>::get(),
-                            74
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::InstalledApplicationList*, false>(this, ___internal_method, c_message);
+inline ::Oculus::Platform::Models::InstalledApplicationList* Oculus::Platform::MessageWithInstalledApplicationList::GetDataFromMessage(::System::IntPtr c_message) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Oculus::Platform::MessageWithInstalledApplicationList*>(), 74 })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::InstalledApplicationList*>(this, ___internal_method, c_message);
 }
-inline ::Oculus::Platform::MessageWithInstalledApplicationList* Oculus::Platform::MessageWithInstalledApplicationList::New_ctor(::System::IntPtr  c_message)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithInstalledApplicationList*>(c_message));
+inline ::Oculus::Platform::MessageWithInstalledApplicationList* Oculus::Platform::MessageWithInstalledApplicationList::New_ctor(::System::IntPtr c_message) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Oculus::Platform::MessageWithInstalledApplicationList*>(c_message));
 }
 // Ctor Parameters []
-constexpr ::Oculus::Platform::MessageWithInstalledApplicationList::MessageWithInstalledApplicationList()   {
-}
+constexpr ::Oculus::Platform::MessageWithInstalledApplicationList::MessageWithInstalledApplicationList() {}

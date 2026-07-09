@@ -5,31 +5,20 @@
 #include "Oculus/Platform/Models/zzzz__PushNotificationResult_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::PushNotification.Register
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PushNotificationResult*>* (*)()>(&::Oculus::Platform::PushNotification::Register)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PushNotificationResult*>* (*)()>(&::Oculus::Platform::PushNotification::Register)> {
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x5cb05c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PushNotification*>::get(),
-                        "Register",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::PushNotification*>(), { "Register", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PushNotificationResult*>* Oculus::Platform::PushNotification::Register()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PushNotification*>::get(),
-                        "Register",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PushNotificationResult*>*, false>(nullptr, ___internal_method);
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PushNotificationResult*>* Oculus::Platform::PushNotification::Register() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::PushNotification*>(), { "Register", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PushNotificationResult*>*>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::Oculus::Platform::PushNotification::PushNotification()   {
-}
+constexpr ::Oculus::Platform::PushNotification::PushNotification() {}

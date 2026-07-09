@@ -4,140 +4,108 @@
 #include "System/Linq/Expressions/Interpreter/zzzz__ValueTypeCopyInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction.get_ConsumedStack
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(&::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ConsumedStack)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(
+    &::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e72464;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(),
+                                                                                          { ::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction.get_ProducedStack
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(&::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ProducedStack)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(
+    &::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e7246c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(),
+                                                                                          { ::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction.get_InstructionName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(&::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_InstructionName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(
+    &::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x5e72474;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(),
+                                                                                          { ::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), 9 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction.Run
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::Run)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
+    &::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::Run)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x5e724b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(),
+                                                                                          { ::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(&::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::*)()>(
+    &::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e7250c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::setStaticF_Instruction(::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*  value)  {
-::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*, "Instruction", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get>(std::forward<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(value));
+inline void System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::setStaticF_Instruction(::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* value) {
+  ::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*, "Instruction", ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(
+      std::forward<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(value));
 }
-inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::getStaticF_Instruction()  {
-return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*, "Instruction", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get>();
+inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::getStaticF_Instruction() {
+  return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*, "Instruction", ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>();
 }
-inline int32_t System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ConsumedStack()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ConsumedStack() {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ProducedStack()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_ProducedStack() {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::StringW System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_InstructionName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::get_InstructionName() {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline int32_t System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+inline int32_t System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
 }
-inline void System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>());
+inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*>());
 }
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::ValueTypeCopyInstruction()   {
-}
+constexpr ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction::ValueTypeCopyInstruction() {}

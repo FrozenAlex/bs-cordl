@@ -11,373 +11,290 @@
 #include "System/Resources/zzzz__ResourceReader_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::RuntimeResourceSet::*)(::StringW)>(&::System::Resources::RuntimeResourceSet::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::RuntimeResourceSet::*)(::StringW)>(&::System::Resources::RuntimeResourceSet::_ctor)> {
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x5a37480;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::RuntimeResourceSet::*)(::System::IO::Stream*)>(&::System::Resources::RuntimeResourceSet::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::RuntimeResourceSet::*)(::System::IO::Stream*)>(&::System::Resources::RuntimeResourceSet::_ctor)> {
   constexpr static std::size_t size = 0x114;
   constexpr static std::size_t addrs = 0x5a376c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ".ctor", {}, { ::i2c::type_of<::System::IO::Stream*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::RuntimeResourceSet::*)(bool)>(&::System::Resources::RuntimeResourceSet::Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::RuntimeResourceSet::*)(bool)>(&::System::Resources::RuntimeResourceSet::Dispose)> {
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x5a377dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Resources::RuntimeResourceSet::*)()>(&::System::Resources::RuntimeResourceSet::GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Resources::RuntimeResourceSet::*)()>(
+    &::System::Resources::RuntimeResourceSet::GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5a37a10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.System_Collections_IEnumerable_GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Resources::RuntimeResourceSet::*)()>(&::System::Resources::RuntimeResourceSet::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Resources::RuntimeResourceSet::*)()>(
+    &::System::Resources::RuntimeResourceSet::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5a37b14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.GetEnumeratorHelper
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Resources::RuntimeResourceSet::*)()>(&::System::Resources::RuntimeResourceSet::GetEnumeratorHelper)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Resources::RuntimeResourceSet::*)()>(
+    &::System::Resources::RuntimeResourceSet::GetEnumeratorHelper)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x5a37a14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        "GetEnumeratorHelper",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { "GetEnumeratorHelper", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.GetString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::RuntimeResourceSet::*)(::StringW)>(&::System::Resources::RuntimeResourceSet::GetString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Resources::RuntimeResourceSet::*)(::StringW)>(&::System::Resources::RuntimeResourceSet::GetString)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x5a37b18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.GetString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::RuntimeResourceSet::*)(::StringW, bool)>(&::System::Resources::RuntimeResourceSet::GetString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Resources::RuntimeResourceSet::*)(::StringW, bool)>(&::System::Resources::RuntimeResourceSet::GetString)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x5a38438;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 9 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.GetObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::StringW)>(&::System::Resources::RuntimeResourceSet::GetObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::StringW)>(&::System::Resources::RuntimeResourceSet::GetObject)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5a38468;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 10 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.GetObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::StringW, bool)>(&::System::Resources::RuntimeResourceSet::GetObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::StringW, bool)>(&::System::Resources::RuntimeResourceSet::GetObject)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5a38474;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 11 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.GetObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::StringW, bool, bool)>(&::System::Resources::RuntimeResourceSet::GetObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::StringW, bool, bool)>(&::System::Resources::RuntimeResourceSet::GetObject)> {
   constexpr static std::size_t size = 0x8ec;
   constexpr static std::size_t addrs = 0x5a37b4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        "GetObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(),
+                                                                                           { "GetObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet.ResolveResourceLocator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::System::Resources::ResourceLocator, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*, bool)>(&::System::Resources::RuntimeResourceSet::ResolveResourceLocator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
+    ::System::Resources::RuntimeResourceSet::*)(::System::Resources::ResourceLocator, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*, bool)>(
+    &::System::Resources::RuntimeResourceSet::ResolveResourceLocator)> {
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x5a38c70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        "ResolveResourceLocator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Resources::ResourceLocator>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(),
+                                                { "ResolveResourceLocator",
+                                                  {},
+                                                  { ::i2c::type_of<::System::Resources::ResourceLocator>(), ::i2c::type_of<::StringW>(),
+                                                    ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*& System::Resources::RuntimeResourceSet::__cordl_internal_get__resCache()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____resCache;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& System::Resources::RuntimeResourceSet::__cordl_internal_get__resCache() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____resCache;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>* const& System::Resources::RuntimeResourceSet::__cordl_internal_get__resCache() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____resCache;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* const& System::Resources::RuntimeResourceSet::__cordl_internal_get__resCache() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____resCache;
 }
-constexpr void System::Resources::RuntimeResourceSet::__cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Resources::RuntimeResourceSet::__cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____resCache = value;
 }
-constexpr ::System::Resources::ResourceReader*& System::Resources::RuntimeResourceSet::__cordl_internal_get__defaultReader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultReader;
+constexpr ::System::Resources::ResourceReader*& System::Resources::RuntimeResourceSet::__cordl_internal_get__defaultReader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultReader;
 }
 constexpr ::System::Resources::ResourceReader* const& System::Resources::RuntimeResourceSet::__cordl_internal_get__defaultReader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultReader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultReader;
 }
-constexpr void System::Resources::RuntimeResourceSet::__cordl_internal_set__defaultReader(::System::Resources::ResourceReader*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Resources::RuntimeResourceSet::__cordl_internal_set__defaultReader(::System::Resources::ResourceReader* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____defaultReader = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*& System::Resources::RuntimeResourceSet::__cordl_internal_get__caseInsensitiveTable()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____caseInsensitiveTable;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& System::Resources::RuntimeResourceSet::__cordl_internal_get__caseInsensitiveTable() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____caseInsensitiveTable;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>* const& System::Resources::RuntimeResourceSet::__cordl_internal_get__caseInsensitiveTable() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____caseInsensitiveTable;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* const&
+System::Resources::RuntimeResourceSet::__cordl_internal_get__caseInsensitiveTable() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____caseInsensitiveTable;
 }
-constexpr void System::Resources::RuntimeResourceSet::__cordl_internal_set__caseInsensitiveTable(::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____caseInsensitiveTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Resources::RuntimeResourceSet::__cordl_internal_set__caseInsensitiveTable(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____caseInsensitiveTable = value;
 }
-constexpr bool& System::Resources::RuntimeResourceSet::__cordl_internal_get__haveReadFromReader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____haveReadFromReader;
+constexpr bool& System::Resources::RuntimeResourceSet::__cordl_internal_get__haveReadFromReader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____haveReadFromReader;
 }
 constexpr bool const& System::Resources::RuntimeResourceSet::__cordl_internal_get__haveReadFromReader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____haveReadFromReader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____haveReadFromReader;
 }
-constexpr void System::Resources::RuntimeResourceSet::__cordl_internal_set__haveReadFromReader(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____haveReadFromReader = value;
+constexpr void System::Resources::RuntimeResourceSet::__cordl_internal_set__haveReadFromReader(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____haveReadFromReader = value;
 }
-inline void System::Resources::RuntimeResourceSet::_ctor(::StringW  fileName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fileName);
+inline void System::Resources::RuntimeResourceSet::_ctor(::StringW fileName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, fileName);
 }
-inline void System::Resources::RuntimeResourceSet::_ctor(::System::IO::Stream*  stream)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stream);
+inline void System::Resources::RuntimeResourceSet::_ctor(::System::IO::Stream* stream) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { ".ctor", {}, { ::i2c::type_of<::System::IO::Stream*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stream);
 }
-inline void System::Resources::RuntimeResourceSet::Dispose(bool  disposing)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+inline void System::Resources::RuntimeResourceSet::Dispose(bool disposing) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
 }
-inline ::System::Collections::IDictionaryEnumerator* System::Resources::RuntimeResourceSet::GetEnumerator()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IDictionaryEnumerator* System::Resources::RuntimeResourceSet::GetEnumerator() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* System::Resources::RuntimeResourceSet::System_Collections_IEnumerable_GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* System::Resources::RuntimeResourceSet::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-inline ::System::Collections::IDictionaryEnumerator* System::Resources::RuntimeResourceSet::GetEnumeratorHelper()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        "GetEnumeratorHelper",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IDictionaryEnumerator* System::Resources::RuntimeResourceSet::GetEnumeratorHelper() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { "GetEnumeratorHelper", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*>(this, ___internal_method);
 }
-inline ::StringW System::Resources::RuntimeResourceSet::GetString(::StringW  key)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key);
+inline ::StringW System::Resources::RuntimeResourceSet::GetString(::StringW key) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, key);
 }
-inline ::StringW System::Resources::RuntimeResourceSet::GetString(::StringW  key, bool  ignoreCase)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key, ignoreCase);
+inline ::StringW System::Resources::RuntimeResourceSet::GetString(::StringW key, bool ignoreCase) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, key, ignoreCase);
 }
-inline ::System::Object* System::Resources::RuntimeResourceSet::GetObject(::StringW  key)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, key);
+inline ::System::Object* System::Resources::RuntimeResourceSet::GetObject(::StringW key) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, key);
 }
-inline ::System::Object* System::Resources::RuntimeResourceSet::GetObject(::StringW  key, bool  ignoreCase)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, key, ignoreCase);
+inline ::System::Object* System::Resources::RuntimeResourceSet::GetObject(::StringW key, bool ignoreCase) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, key, ignoreCase);
 }
-inline ::System::Object* System::Resources::RuntimeResourceSet::GetObject(::StringW  key, bool  ignoreCase, bool  isString)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        "GetObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, key, ignoreCase, isString);
+inline ::System::Object* System::Resources::RuntimeResourceSet::GetObject(::StringW key, bool ignoreCase, bool isString) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(),
+                                                                                         { "GetObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, key, ignoreCase, isString);
 }
-inline ::System::Object* System::Resources::RuntimeResourceSet::ResolveResourceLocator(::System::Resources::ResourceLocator  resLocation, ::StringW  key, ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  copyOfCache, bool  keyInWrongCase)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::RuntimeResourceSet*>::get(),
-                        "ResolveResourceLocator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Resources::ResourceLocator>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, resLocation, key, copyOfCache, keyInWrongCase);
+inline ::System::Object* System::Resources::RuntimeResourceSet::ResolveResourceLocator(::System::Resources::ResourceLocator resLocation, ::StringW key,
+                                                                                       ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* copyOfCache,
+                                                                                       bool keyInWrongCase) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(),
+                                              { "ResolveResourceLocator",
+                                                {},
+                                                { ::i2c::type_of<::System::Resources::ResourceLocator>(), ::i2c::type_of<::StringW>(),
+                                                  ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, resLocation, key, copyOfCache, keyInWrongCase);
 }
-inline ::System::Resources::RuntimeResourceSet* System::Resources::RuntimeResourceSet::New_ctor(::StringW  fileName)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Resources::RuntimeResourceSet*>(fileName));
+inline ::System::Resources::RuntimeResourceSet* System::Resources::RuntimeResourceSet::New_ctor(::StringW fileName) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Resources::RuntimeResourceSet*>(fileName));
 }
-inline ::System::Resources::RuntimeResourceSet* System::Resources::RuntimeResourceSet::New_ctor(::System::IO::Stream*  stream)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Resources::RuntimeResourceSet*>(stream));
+inline ::System::Resources::RuntimeResourceSet* System::Resources::RuntimeResourceSet::New_ctor(::System::IO::Stream* stream) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Resources::RuntimeResourceSet*>(stream));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr  System::Resources::RuntimeResourceSet::operator ::System::Collections::IEnumerable*() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+constexpr System::Resources::RuntimeResourceSet::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 constexpr ::System::Collections::IEnumerable* System::Resources::RuntimeResourceSet::i___System__Collections__IEnumerable() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Resources::RuntimeResourceSet::RuntimeResourceSet()   {
-}
+constexpr ::System::Resources::RuntimeResourceSet::RuntimeResourceSet() {}

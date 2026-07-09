@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "OVR/OpenVR/RenderModel_TextureMap_t_Packed.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
@@ -16,6 +16,7 @@ struct RenderModel_TextureMap_t_Packed;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::RenderModel_TextureMap_t_Packed);
+DEFINE_IL2CPP_CLASS(::OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");
 // Dependencies System.IntPtr
 namespace OVR::OpenVR {
 // Is value type: true
@@ -23,36 +24,37 @@ namespace OVR::OpenVR {
 #pragma pack(push, 4)
 struct CORDL_TYPE RenderModel_TextureMap_t_Packed {
 public:
-// Declarations
-/// @brief Method Unpack, addr 0x5d0dd04, size 0x14, virtual false, abstract: false, final false
-inline void Unpack(::ByRef<::OVR::OpenVR::RenderModel_TextureMap_t>  unpacked) ;
+  // Declarations
+  /// @brief Method Unpack, addr 0x5d0dd04, size 0x14, virtual false, abstract: false, final false
+  inline void Unpack(::by_ref<::OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
 
-/// @brief Method .ctor, addr 0x5d0dcf0, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t  unpacked) ;
+  /// @brief Method .ctor, addr 0x5d0dcf0, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr RenderModel_TextureMap_t_Packed() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderModel_TextureMap_t_Packed();
 
-// Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "rubTextureMapData", ty: "::System::IntPtr", modifiers: "", def_value: None }]
-constexpr RenderModel_TextureMap_t_Packed(uint16_t  unWidth, uint16_t  unHeight, ::System::IntPtr  rubTextureMapData) noexcept;
+  // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
+  // "rubTextureMapData", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth, uint16_t unHeight, ::System::IntPtr rubTextureMapData) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8524};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8524 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
-/// @brief Field unWidth, offset: 0x0, size: 0x2, def value: None
- uint16_t  unWidth;
+  /// @brief Field unWidth, offset: 0x0, size: 0x2, def value: None
+  uint16_t unWidth;
 
-/// @brief Field unHeight, offset: 0x2, size: 0x2, def value: None
- uint16_t  unHeight;
+  /// @brief Field unHeight, offset: 0x2, size: 0x2, def value: None
+  uint16_t unHeight;
 
-/// @brief Field rubTextureMapData, offset: 0x4, size: 0x8, def value: None
- ::System::IntPtr  rubTextureMapData;
+  /// @brief Field rubTextureMapData, offset: 0x4, size: 0x8, def value: None
+  ::System::IntPtr rubTextureMapData;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
@@ -62,7 +64,6 @@ static_assert(offsetof(::OVR::OpenVR::RenderModel_TextureMap_t_Packed, unHeight)
 
 static_assert(offsetof(::OVR::OpenVR::RenderModel_TextureMap_t_Packed, rubTextureMapData) == 0x4, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::RenderModel_TextureMap_t_Packed, 0xc>, "Size mismatch!");
+static_assert(sizeof(::OVR::OpenVR::RenderModel_TextureMap_t_Packed) == 0xc, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");
+} // namespace OVR::OpenVR

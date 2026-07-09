@@ -4,83 +4,57 @@
 #include "System/Xml/XmlConfiguration/zzzz__XmlReaderSection_def.hpp"
 #include "System/Xml/zzzz__XmlResolver_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlConfiguration::XmlReaderSection.get_ProhibitDefaultUrlResolver
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_ProhibitDefaultUrlResolver)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_ProhibitDefaultUrlResolver)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61d5e04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlConfiguration::XmlReaderSection*>::get(),
-                        "get_ProhibitDefaultUrlResolver",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlConfiguration::XmlReaderSection*>(), { "get_ProhibitDefaultUrlResolver", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::XmlConfiguration::XmlReaderSection.CreateDefaultResolver
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlResolver* (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::CreateDefaultResolver)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlResolver* (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::CreateDefaultResolver)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x61d5e0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlConfiguration::XmlReaderSection*>::get(),
-                        "CreateDefaultResolver",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlConfiguration::XmlReaderSection*>(), { "CreateDefaultResolver", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::XmlConfiguration::XmlReaderSection.get_CollapseWhiteSpaceIntoEmptyString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_CollapseWhiteSpaceIntoEmptyString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_CollapseWhiteSpaceIntoEmptyString)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61d5e50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlConfiguration::XmlReaderSection*>::get(),
-                        "get_CollapseWhiteSpaceIntoEmptyString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlConfiguration::XmlReaderSection*>(), { "get_CollapseWhiteSpaceIntoEmptyString", {}, {} })));
     return ___internal_method;
   }
 };
-inline bool System::Xml::XmlConfiguration::XmlReaderSection::get_ProhibitDefaultUrlResolver()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlConfiguration::XmlReaderSection*>::get(),
-                        "get_ProhibitDefaultUrlResolver",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool System::Xml::XmlConfiguration::XmlReaderSection::get_ProhibitDefaultUrlResolver() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlConfiguration::XmlReaderSection*>(), { "get_ProhibitDefaultUrlResolver", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-inline ::System::Xml::XmlResolver* System::Xml::XmlConfiguration::XmlReaderSection::CreateDefaultResolver()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlConfiguration::XmlReaderSection*>::get(),
-                        "CreateDefaultResolver",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlResolver*, false>(nullptr, ___internal_method);
+inline ::System::Xml::XmlResolver* System::Xml::XmlConfiguration::XmlReaderSection::CreateDefaultResolver() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlConfiguration::XmlReaderSection*>(), { "CreateDefaultResolver", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlResolver*>(nullptr, ___internal_method);
 }
-inline bool System::Xml::XmlConfiguration::XmlReaderSection::get_CollapseWhiteSpaceIntoEmptyString()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlConfiguration::XmlReaderSection*>::get(),
-                        "get_CollapseWhiteSpaceIntoEmptyString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool System::Xml::XmlConfiguration::XmlReaderSection::get_CollapseWhiteSpaceIntoEmptyString() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlConfiguration::XmlReaderSection*>(), { "get_CollapseWhiteSpaceIntoEmptyString", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Xml::XmlConfiguration::XmlReaderSection::XmlReaderSection()   {
-}
+constexpr ::System::Xml::XmlConfiguration::XmlReaderSection::XmlReaderSection() {}

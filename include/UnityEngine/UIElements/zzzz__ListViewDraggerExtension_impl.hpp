@@ -5,57 +5,48 @@
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerExtension.GetRecycledItemFromId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (*)(::UnityEngine::UIElements::BaseVerticalCollectionView*, int32_t)>(&::UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (*)(::UnityEngine::UIElements::BaseVerticalCollectionView*, int32_t)>(
+    &::UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromId)> {
   constexpr static std::size_t size = 0x2fc;
   constexpr static std::size_t addrs = 0x6c386e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewDraggerExtension*>::get(),
-                        "GetRecycledItemFromId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerExtension*>(),
+                                                { "GetRecycledItemFromId", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerExtension.GetRecycledItemFromIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (*)(::UnityEngine::UIElements::BaseVerticalCollectionView*, int32_t)>(&::UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (*)(::UnityEngine::UIElements::BaseVerticalCollectionView*, int32_t)>(
+    &::UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromIndex)> {
   constexpr static std::size_t size = 0x2fc;
   constexpr static std::size_t addrs = 0x6c389e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewDraggerExtension*>::get(),
-                        "GetRecycledItemFromIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerExtension*>(),
+                                                { "GetRecycledItemFromIndex", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::ReusableCollectionItem* UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView, int32_t  id)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewDraggerExtension*>::get(),
-                        "GetRecycledItemFromId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ReusableCollectionItem*, false>(nullptr, ___internal_method, listView, id);
+inline ::UnityEngine::UIElements::ReusableCollectionItem* UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView* listView,
+                                                                                                                                   int32_t id) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerExtension*>(),
+                                                           { "GetRecycledItemFromId", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ReusableCollectionItem*>(nullptr, ___internal_method, listView, id);
 }
-inline ::UnityEngine::UIElements::ReusableCollectionItem* UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView, int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewDraggerExtension*>::get(),
-                        "GetRecycledItemFromIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ReusableCollectionItem*, false>(nullptr, ___internal_method, listView, index);
+inline ::UnityEngine::UIElements::ReusableCollectionItem* UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView,
+                                                                                                                                      int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerExtension*>(),
+                                              { "GetRecycledItemFromIndex", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ReusableCollectionItem*>(nullptr, ___internal_method, listView, index);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::ListViewDraggerExtension::ListViewDraggerExtension()   {
-}
+constexpr ::UnityEngine::UIElements::ListViewDraggerExtension::ListViewDraggerExtension() {}

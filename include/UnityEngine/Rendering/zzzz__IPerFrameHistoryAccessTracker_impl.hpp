@@ -1,16 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/IPerFrameHistoryAccessTracker.hpp"
 #include "UnityEngine/Rendering/zzzz__IPerFrameHistoryAccessTracker_def.hpp"
-template<typename Type>
-inline void UnityEngine::Rendering::IPerFrameHistoryAccessTracker::RequestAccess()  {
-auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                        il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::IPerFrameHistoryAccessTracker*>::get(),
-                        0
-                    )));
-auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                        ___internal_method_base,
-                        std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Type>::get()}
-                    ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+template <typename Type> inline void UnityEngine::Rendering::IPerFrameHistoryAccessTracker::RequestAccess() {
+  auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::IPerFrameHistoryAccessTracker*>(), 0 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<Type>() }));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }

@@ -8,147 +8,112 @@
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext.FromInternalContext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::FromInternalContext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)(
+    ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::FromInternalContext)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6698db8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "FromInternalContext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(),
+                                                             { "FromInternalContext", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext.get_renderContext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ScriptableRenderContext (::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)()>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_renderContext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ScriptableRenderContext (::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_renderContext)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x6698dc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "get_renderContext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(), { "get_renderContext", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext.get_cmd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CommandBuffer* (::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)()>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_cmd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CommandBuffer* (::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_cmd)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x6698d74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "get_cmd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(), { "get_cmd", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext.get_renderGraphPool
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* (::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)()>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_renderGraphPool)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* (::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_renderGraphPool)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x6698dd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "get_renderGraphPool",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(), { "get_renderGraphPool", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext.get_defaultResources
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* (::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)()>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_defaultResources)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* (
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::*)()>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_defaultResources)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x6698df0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "get_defaultResources",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(), { "get_defaultResources", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*  context)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "FromInternalContext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context);
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(),
+                                                           { "FromInternalContext", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, context);
 }
-inline ::UnityEngine::Rendering::ScriptableRenderContext UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_renderContext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "get_renderContext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ScriptableRenderContext, false>(this, ___internal_method);
+inline ::UnityEngine::Rendering::ScriptableRenderContext UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_renderContext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(), { "get_renderContext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ScriptableRenderContext>(*this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::CommandBuffer* UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_cmd()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "get_cmd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CommandBuffer*, false>(this, ___internal_method);
+inline ::UnityEngine::Rendering::CommandBuffer* UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_cmd() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(), { "get_cmd", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CommandBuffer*>(*this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_renderGraphPool()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "get_renderGraphPool",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool*, false>(this, ___internal_method);
+inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_renderGraphPool() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(), { "get_renderGraphPool", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool*>(*this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_defaultResources()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>::get(),
-                        "get_defaultResources",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources*, false>(this, ___internal_method);
+inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::get_defaultResources() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>(), { "get_defaultResources", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources*>(*this, ___internal_method);
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
-constexpr  UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*()  {
-return static_cast<::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*() {
+  return static_cast<::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
-constexpr ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext* UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::i___UnityEngine__Rendering__RenderGraphModule__IDerivedRendergraphContext()  {
-return static_cast<::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*
+UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::i___UnityEngine__Rendering__RenderGraphModule__IDerivedRendergraphContext() {
+  return static_cast<::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "wrappedContext", ty: "::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::RenderGraphContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*  wrappedContext) noexcept  {
-this->wrappedContext = wrappedContext;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::RenderGraphContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* wrappedContext) noexcept {
+  this->wrappedContext = wrappedContext;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::RenderGraphContext()   {
-}
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext::RenderGraphContext() {}

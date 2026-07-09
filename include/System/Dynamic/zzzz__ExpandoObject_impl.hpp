@@ -29,3396 +29,2776 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters []
-constexpr ::System::Dynamic::ExpandoObject_KeyCollectionDebugView::ExpandoObject_KeyCollectionDebugView()   {
-}
+constexpr ::System::Dynamic::ExpandoObject_KeyCollectionDebugView::ExpandoObject_KeyCollectionDebugView() {}
 //  Writing Method size for method: ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)(int32_t)>(&::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)(int32_t)>(
+    &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e857a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15.System_IDisposable_Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e857b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x5e857b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15.System_Collections_Generic_IEnumerator_System_String__get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e85934;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.String>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(),
+                                                                                           { "System.Collections.Generic.IEnumerator<System.String>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15.System_Collections_IEnumerator_Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x5e8593c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15.System_Collections_IEnumerator_get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e85974;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___1__state()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+constexpr int32_t& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
 constexpr int32_t const& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___1__state() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
-constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___1__state(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____1__state = value;
+constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
 }
-constexpr ::StringW& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___2__current()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::StringW& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
 constexpr ::StringW const& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___2__current() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___2__current(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___2__current(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
 }
-constexpr ::System::Dynamic::ExpandoObject_KeyCollection*& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::System::Dynamic::ExpandoObject_KeyCollection*& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::System::Dynamic::ExpandoObject_KeyCollection* const& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___4__this(::System::Dynamic::ExpandoObject_KeyCollection*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___4__this(::System::Dynamic::ExpandoObject_KeyCollection* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
 }
-constexpr int32_t& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__i_5__2()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____i_5__2;
+constexpr int32_t& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__i_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__2;
 }
 constexpr int32_t const& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__i_5__2() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____i_5__2;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__2;
 }
-constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set__i_5__2(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____i_5__2 = value;
+constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set__i_5__2(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____i_5__2 = value;
 }
-constexpr int32_t& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__n_5__3()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____n_5__3;
+constexpr int32_t& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__n_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____n_5__3;
 }
 constexpr int32_t const& System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__n_5__3() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____n_5__3;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____n_5__3;
 }
-constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set__n_5__3(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____n_5__3 = value;
+constexpr void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set__n_5__3(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____n_5__3 = value;
 }
-inline void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::_ctor(int32_t  __1__state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::StringW System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_String__get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.String>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_String__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(),
+                                                                                         { "System.Collections.Generic.IEnumerator<System.String>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15* System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::New_ctor(int32_t  __1__state)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(__1__state));
+inline ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15* System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::StringW>"
-constexpr  System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
+constexpr System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::StringW>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>* System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>*
+System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::Collections::IEnumerator*() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::i___System__Collections__IEnumerator() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::KeyCollection_ExpandoObject__GetEnumerator_d__15()   {
-}
+constexpr ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::KeyCollection_ExpandoObject__GetEnumerator_d__15() {}
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)(::System::Dynamic::ExpandoObject*)>(&::System::Dynamic::ExpandoObject_KeyCollection::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)(::System::Dynamic::ExpandoObject*)>(
+    &::System::Dynamic::ExpandoObject_KeyCollection::_ctor)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x5e844a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { ".ctor", {}, { ::i2c::type_of<::System::Dynamic::ExpandoObject*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.CheckVersion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::CheckVersion)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::CheckVersion)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x5e852e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "CheckVersion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "CheckVersion", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)(::StringW)>(&::System::Dynamic::ExpandoObject_KeyCollection::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)(::StringW)>(&::System::Dynamic::ExpandoObject_KeyCollection::Add)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e85340;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "Add", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.Clear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::Clear)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::Clear)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e85368;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "Clear", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.Contains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject_KeyCollection::*)(::StringW)>(&::System::Dynamic::ExpandoObject_KeyCollection::Contains)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_KeyCollection::*)(::StringW)>(&::System::Dynamic::ExpandoObject_KeyCollection::Contains)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x5e85390;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "Contains", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.CopyTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)(::ArrayW<::StringW,::Array<::StringW>*>, int32_t)>(&::System::Dynamic::ExpandoObject_KeyCollection::CopyTo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)(::ArrayW<::StringW>, int32_t)>(
+    &::System::Dynamic::ExpandoObject_KeyCollection::CopyTo)> {
   constexpr static std::size_t size = 0x288;
   constexpr static std::size_t addrs = 0x5e85480;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW,::Array<::StringW>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "CopyTo", {}, { ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.get_Count
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::get_Count)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::get_Count)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5e85708;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "get_Count", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.get_IsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e85720;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "get_IsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "get_IsReadOnly", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.Remove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject_KeyCollection::*)(::StringW)>(&::System::Dynamic::ExpandoObject_KeyCollection::Remove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_KeyCollection::*)(::StringW)>(&::System::Dynamic::ExpandoObject_KeyCollection::Remove)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e85728;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "Remove", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(
+    &::System::Dynamic::ExpandoObject_KeyCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x5e85750;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_KeyCollection.System_Collections_IEnumerable_GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(
+    &::System::Dynamic::ExpandoObject_KeyCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e857a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Dynamic::ExpandoObject*& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expando()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expando;
+constexpr ::System::Dynamic::ExpandoObject*& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expando() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expando;
 }
 constexpr ::System::Dynamic::ExpandoObject* const& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expando() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expando;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expando;
 }
-constexpr void System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_set__expando(::System::Dynamic::ExpandoObject*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____expando)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_set__expando(::System::Dynamic::ExpandoObject* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____expando = value;
 }
-constexpr int32_t& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expandoVersion()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoVersion;
+constexpr int32_t& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expandoVersion() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoVersion;
 }
 constexpr int32_t const& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expandoVersion() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoVersion;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoVersion;
 }
-constexpr void System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_set__expandoVersion(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____expandoVersion = value;
+constexpr void System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_set__expandoVersion(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____expandoVersion = value;
 }
-constexpr int32_t& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expandoCount()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoCount;
+constexpr int32_t& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expandoCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoCount;
 }
 constexpr int32_t const& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expandoCount() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoCount;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoCount;
 }
-constexpr void System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_set__expandoCount(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____expandoCount = value;
+constexpr void System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_set__expandoCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____expandoCount = value;
 }
-constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expandoData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoData;
+constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expandoData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoData;
 }
 constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_get__expandoData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoData;
 }
-constexpr void System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_set__expandoData(::System::Dynamic::ExpandoObject_ExpandoData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____expandoData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject_KeyCollection::__cordl_internal_set__expandoData(::System::Dynamic::ExpandoObject_ExpandoData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____expandoData = value;
 }
-inline void System::Dynamic::ExpandoObject_KeyCollection::_ctor(::System::Dynamic::ExpandoObject*  expando)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, expando);
+inline void System::Dynamic::ExpandoObject_KeyCollection::_ctor(::System::Dynamic::ExpandoObject* expando) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { ".ctor", {}, { ::i2c::type_of<::System::Dynamic::ExpandoObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, expando);
 }
-inline void System::Dynamic::ExpandoObject_KeyCollection::CheckVersion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "CheckVersion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoObject_KeyCollection::CheckVersion() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "CheckVersion", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Dynamic::ExpandoObject_KeyCollection::Add(::StringW  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
+inline void System::Dynamic::ExpandoObject_KeyCollection::Add(::StringW item) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "Add", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
 }
-inline void System::Dynamic::ExpandoObject_KeyCollection::Clear()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoObject_KeyCollection::Clear() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "Clear", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject_KeyCollection::Contains(::StringW  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+inline bool System::Dynamic::ExpandoObject_KeyCollection::Contains(::StringW item) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "Contains", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item);
 }
-inline void System::Dynamic::ExpandoObject_KeyCollection::CopyTo(::ArrayW<::StringW,::Array<::StringW>*>  array, int32_t  arrayIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW,::Array<::StringW>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, arrayIndex);
+inline void System::Dynamic::ExpandoObject_KeyCollection::CopyTo(::ArrayW<::StringW> array, int32_t arrayIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "CopyTo", {}, { ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array, arrayIndex);
 }
-inline int32_t System::Dynamic::ExpandoObject_KeyCollection::get_Count()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Dynamic::ExpandoObject_KeyCollection::get_Count() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "get_Count", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject_KeyCollection::get_IsReadOnly()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "get_IsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Dynamic::ExpandoObject_KeyCollection::get_IsReadOnly() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "get_IsReadOnly", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject_KeyCollection::Remove(::StringW  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+inline bool System::Dynamic::ExpandoObject_KeyCollection::Remove(::StringW item) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "Remove", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item);
 }
-inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System::Dynamic::ExpandoObject_KeyCollection::GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::StringW>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System::Dynamic::ExpandoObject_KeyCollection::GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::StringW>*>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* System::Dynamic::ExpandoObject_KeyCollection::System_Collections_IEnumerable_GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_KeyCollection*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* System::Dynamic::ExpandoObject_KeyCollection::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-inline ::System::Dynamic::ExpandoObject_KeyCollection* System::Dynamic::ExpandoObject_KeyCollection::New_ctor(::System::Dynamic::ExpandoObject*  expando)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoObject_KeyCollection*>(expando));
+inline ::System::Dynamic::ExpandoObject_KeyCollection* System::Dynamic::ExpandoObject_KeyCollection::New_ctor(::System::Dynamic::ExpandoObject* expando) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::ExpandoObject_KeyCollection*>(expando));
 }
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::StringW>"
-constexpr  System::Dynamic::ExpandoObject_KeyCollection::operator ::System::Collections::Generic::ICollection_1<::StringW>*() noexcept {
-return static_cast<::System::Collections::Generic::ICollection_1<::StringW>*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject_KeyCollection::operator ::System::Collections::Generic::ICollection_1<::StringW>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::ICollection_1<::StringW>"
 constexpr ::System::Collections::Generic::ICollection_1<::StringW>* System::Dynamic::ExpandoObject_KeyCollection::i___System__Collections__Generic__ICollection_1___StringW_() noexcept {
-return static_cast<::System::Collections::Generic::ICollection_1<::StringW>*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::Generic::ICollection_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::StringW>"
-constexpr  System::Dynamic::ExpandoObject_KeyCollection::operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject_KeyCollection::operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* System::Dynamic::ExpandoObject_KeyCollection::i___System__Collections__Generic__IEnumerable_1___StringW_() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr  System::Dynamic::ExpandoObject_KeyCollection::operator ::System::Collections::IEnumerable*() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject_KeyCollection::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 constexpr ::System::Collections::IEnumerable* System::Dynamic::ExpandoObject_KeyCollection::i___System__Collections__IEnumerable() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::ExpandoObject_KeyCollection::ExpandoObject_KeyCollection()   {
-}
+constexpr ::System::Dynamic::ExpandoObject_KeyCollection::ExpandoObject_KeyCollection() {}
 // Ctor Parameters []
-constexpr ::System::Dynamic::ExpandoObject_ValueCollectionDebugView::ExpandoObject_ValueCollectionDebugView()   {
-}
+constexpr ::System::Dynamic::ExpandoObject_ValueCollectionDebugView::ExpandoObject_ValueCollectionDebugView() {}
 //  Writing Method size for method: ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)(int32_t)>(&::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)(int32_t)>(
+    &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e86004;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15.System_IDisposable_Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e86010;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x5e86014;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15.System_Collections_Generic_IEnumerator_System_Object__get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e86138;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(),
+                                                                                           { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15.System_Collections_IEnumerator_Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x5e86140;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15.System_Collections_IEnumerator_get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(&::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
+    &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e86178;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___1__state()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+constexpr int32_t& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
 constexpr int32_t const& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___1__state() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
-constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___1__state(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____1__state = value;
+constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
 }
-constexpr ::System::Object*& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___2__current()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::System::Object*& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
 constexpr ::System::Object* const& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___2__current() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___2__current(::System::Object*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
 }
-constexpr ::System::Dynamic::ExpandoObject_ValueCollection*& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::System::Dynamic::ExpandoObject_ValueCollection*& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::System::Dynamic::ExpandoObject_ValueCollection* const& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___4__this(::System::Dynamic::ExpandoObject_ValueCollection*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set___4__this(::System::Dynamic::ExpandoObject_ValueCollection* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
 }
-constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__data_5__2()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____data_5__2;
+constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__data_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____data_5__2;
 }
 constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__data_5__2() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____data_5__2;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____data_5__2;
 }
-constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set__data_5__2(::System::Dynamic::ExpandoObject_ExpandoData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set__data_5__2(::System::Dynamic::ExpandoObject_ExpandoData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____data_5__2 = value;
 }
-constexpr int32_t& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__i_5__3()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____i_5__3;
+constexpr int32_t& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__i_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__3;
 }
 constexpr int32_t const& System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_get__i_5__3() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____i_5__3;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__3;
 }
-constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set__i_5__3(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____i_5__3 = value;
+constexpr void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::__cordl_internal_set__i_5__3(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____i_5__3 = value;
 }
-inline void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::_ctor(int32_t  __1__state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(),
+                                                                                         { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15* System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::New_ctor(int32_t  __1__state)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(__1__state));
+inline ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15* System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr  System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::Collections::IEnumerator*() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::i___System__Collections__IEnumerator() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::ValueCollection_ExpandoObject__GetEnumerator_d__15()   {
-}
+constexpr ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::ValueCollection_ExpandoObject__GetEnumerator_d__15() {}
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Dynamic::ExpandoObject*)>(&::System::Dynamic::ExpandoObject_ValueCollection::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Dynamic::ExpandoObject*)>(
+    &::System::Dynamic::ExpandoObject_ValueCollection::_ctor)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x5e8597c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { ".ctor", {}, { ::i2c::type_of<::System::Dynamic::ExpandoObject*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.CheckVersion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::CheckVersion)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::CheckVersion)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x5e85a5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "CheckVersion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "CheckVersion", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Object*)>(&::System::Dynamic::ExpandoObject_ValueCollection::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Object*)>(&::System::Dynamic::ExpandoObject_ValueCollection::Add)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e85abc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "Add", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.Clear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::Clear)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::Clear)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e85ae4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "Clear", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.Contains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Object*)>(&::System::Dynamic::ExpandoObject_ValueCollection::Contains)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Object*)>(&::System::Dynamic::ExpandoObject_ValueCollection::Contains)> {
   constexpr static std::size_t size = 0x170;
   constexpr static std::size_t addrs = 0x5e85b0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "Contains", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.CopyTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)(::ArrayW<::System::Object*,::Array<::System::Object*>*>, int32_t)>(&::System::Dynamic::ExpandoObject_ValueCollection::CopyTo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)(::ArrayW<::System::Object*>, int32_t)>(
+    &::System::Dynamic::ExpandoObject_ValueCollection::CopyTo)> {
   constexpr static std::size_t size = 0x2a0;
   constexpr static std::size_t addrs = 0x5e85c7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(),
+                                                                                           { "CopyTo", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.get_Count
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::get_Count)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::get_Count)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5e85f68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "get_Count", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.get_IsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e85f80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "get_IsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "get_IsReadOnly", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.Remove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Object*)>(&::System::Dynamic::ExpandoObject_ValueCollection::Remove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Object*)>(&::System::Dynamic::ExpandoObject_ValueCollection::Remove)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e85f88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "Remove", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>* (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>* (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(
+    &::System::Dynamic::ExpandoObject_ValueCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x5e85fb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ValueCollection.System_Collections_IEnumerable_GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(
+    &::System::Dynamic::ExpandoObject_ValueCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e8600c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Dynamic::ExpandoObject*& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expando()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expando;
+constexpr ::System::Dynamic::ExpandoObject*& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expando() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expando;
 }
 constexpr ::System::Dynamic::ExpandoObject* const& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expando() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expando;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expando;
 }
-constexpr void System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_set__expando(::System::Dynamic::ExpandoObject*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____expando)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_set__expando(::System::Dynamic::ExpandoObject* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____expando = value;
 }
-constexpr int32_t& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expandoVersion()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoVersion;
+constexpr int32_t& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expandoVersion() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoVersion;
 }
 constexpr int32_t const& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expandoVersion() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoVersion;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoVersion;
 }
-constexpr void System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_set__expandoVersion(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____expandoVersion = value;
+constexpr void System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_set__expandoVersion(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____expandoVersion = value;
 }
-constexpr int32_t& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expandoCount()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoCount;
+constexpr int32_t& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expandoCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoCount;
 }
 constexpr int32_t const& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expandoCount() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoCount;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoCount;
 }
-constexpr void System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_set__expandoCount(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____expandoCount = value;
+constexpr void System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_set__expandoCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____expandoCount = value;
 }
-constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expandoData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoData;
+constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expandoData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoData;
 }
 constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_get__expandoData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoData;
 }
-constexpr void System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_set__expandoData(::System::Dynamic::ExpandoObject_ExpandoData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____expandoData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject_ValueCollection::__cordl_internal_set__expandoData(::System::Dynamic::ExpandoObject_ExpandoData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____expandoData = value;
 }
-inline void System::Dynamic::ExpandoObject_ValueCollection::_ctor(::System::Dynamic::ExpandoObject*  expando)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, expando);
+inline void System::Dynamic::ExpandoObject_ValueCollection::_ctor(::System::Dynamic::ExpandoObject* expando) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { ".ctor", {}, { ::i2c::type_of<::System::Dynamic::ExpandoObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, expando);
 }
-inline void System::Dynamic::ExpandoObject_ValueCollection::CheckVersion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "CheckVersion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoObject_ValueCollection::CheckVersion() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "CheckVersion", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Dynamic::ExpandoObject_ValueCollection::Add(::System::Object*  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
+inline void System::Dynamic::ExpandoObject_ValueCollection::Add(::System::Object* item) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "Add", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
 }
-inline void System::Dynamic::ExpandoObject_ValueCollection::Clear()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoObject_ValueCollection::Clear() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "Clear", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject_ValueCollection::Contains(::System::Object*  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+inline bool System::Dynamic::ExpandoObject_ValueCollection::Contains(::System::Object* item) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "Contains", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item);
 }
-inline void System::Dynamic::ExpandoObject_ValueCollection::CopyTo(::ArrayW<::System::Object*,::Array<::System::Object*>*>  array, int32_t  arrayIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, arrayIndex);
+inline void System::Dynamic::ExpandoObject_ValueCollection::CopyTo(::ArrayW<::System::Object*> array, int32_t arrayIndex) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(),
+                                                                                         { "CopyTo", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array, arrayIndex);
 }
-inline int32_t System::Dynamic::ExpandoObject_ValueCollection::get_Count()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Dynamic::ExpandoObject_ValueCollection::get_Count() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "get_Count", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject_ValueCollection::get_IsReadOnly()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "get_IsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Dynamic::ExpandoObject_ValueCollection::get_IsReadOnly() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "get_IsReadOnly", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject_ValueCollection::Remove(::System::Object*  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+inline bool System::Dynamic::ExpandoObject_ValueCollection::Remove(::System::Object* item) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "Remove", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item);
 }
-inline ::System::Collections::Generic::IEnumerator_1<::System::Object*>* System::Dynamic::ExpandoObject_ValueCollection::GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Object*>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerator_1<::System::Object*>* System::Dynamic::ExpandoObject_ValueCollection::GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* System::Dynamic::ExpandoObject_ValueCollection::System_Collections_IEnumerable_GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ValueCollection*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* System::Dynamic::ExpandoObject_ValueCollection::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-inline ::System::Dynamic::ExpandoObject_ValueCollection* System::Dynamic::ExpandoObject_ValueCollection::New_ctor(::System::Dynamic::ExpandoObject*  expando)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoObject_ValueCollection*>(expando));
+inline ::System::Dynamic::ExpandoObject_ValueCollection* System::Dynamic::ExpandoObject_ValueCollection::New_ctor(::System::Dynamic::ExpandoObject* expando) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::ExpandoObject_ValueCollection*>(expando));
 }
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Object*>"
-constexpr  System::Dynamic::ExpandoObject_ValueCollection::operator ::System::Collections::Generic::ICollection_1<::System::Object*>*() noexcept {
-return static_cast<::System::Collections::Generic::ICollection_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject_ValueCollection::operator ::System::Collections::Generic::ICollection_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Object*>"
-constexpr ::System::Collections::Generic::ICollection_1<::System::Object*>* System::Dynamic::ExpandoObject_ValueCollection::i___System__Collections__Generic__ICollection_1___System__Object__() noexcept {
-return static_cast<::System::Collections::Generic::ICollection_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::ICollection_1<::System::Object*>*
+System::Dynamic::ExpandoObject_ValueCollection::i___System__Collections__Generic__ICollection_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Object*>"
-constexpr  System::Dynamic::ExpandoObject_ValueCollection::operator ::System::Collections::Generic::IEnumerable_1<::System::Object*>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject_ValueCollection::operator ::System::Collections::Generic::IEnumerable_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Object*>* System::Dynamic::ExpandoObject_ValueCollection::i___System__Collections__Generic__IEnumerable_1___System__Object__() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Object*>*
+System::Dynamic::ExpandoObject_ValueCollection::i___System__Collections__Generic__IEnumerable_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr  System::Dynamic::ExpandoObject_ValueCollection::operator ::System::Collections::IEnumerable*() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject_ValueCollection::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 constexpr ::System::Collections::IEnumerable* System::Dynamic::ExpandoObject_ValueCollection::i___System__Collections__IEnumerable() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::ExpandoObject_ValueCollection::ExpandoObject_ValueCollection()   {
-}
+constexpr ::System::Dynamic::ExpandoObject_ValueCollection::ExpandoObject_ValueCollection() {}
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::*)()>(&::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::*)()>(
+    &::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e86db8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0._BindInvokeMember_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::*)(::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_BindInvokeMember_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::*)(::System::Dynamic::DynamicMetaObject*)>(
+        &::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_BindInvokeMember_b__0)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5e87650;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>::get(),
-                        "<BindInvokeMember>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>(),
+                                                                                           { "<BindInvokeMember>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Dynamic::InvokeMemberBinder*& System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_get_binder()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___binder;
+constexpr ::System::Dynamic::InvokeMemberBinder*& System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_get_binder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___binder;
 }
 constexpr ::System::Dynamic::InvokeMemberBinder* const& System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_get_binder() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___binder;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___binder;
 }
-constexpr void System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_set_binder(::System::Dynamic::InvokeMemberBinder*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_set_binder(::System::Dynamic::InvokeMemberBinder* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___binder = value;
 }
-constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>& System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_get_args()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___args;
+constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*>& System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_get_args() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___args;
 }
-constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*> const& System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_get_args() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___args;
+constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*> const& System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_get_args() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___args;
 }
-constexpr void System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_set_args(::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___args)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::__cordl_internal_set_args(::ArrayW<::System::Dynamic::DynamicMetaObject*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___args = value;
 }
-inline void System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_BindInvokeMember_b__0(::System::Dynamic::DynamicMetaObject*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>::get(),
-                        "<BindInvokeMember>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, value);
+inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_BindInvokeMember_b__0(::System::Dynamic::DynamicMetaObject* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>(),
+                                                                                         { "<BindInvokeMember>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, value);
 }
-inline ::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0* System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>());
+inline ::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0* System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>());
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::MetaExpando_ExpandoObject___c__DisplayClass3_0()   {
-}
+constexpr ::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::MetaExpando_ExpandoObject___c__DisplayClass3_0() {}
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)(int32_t)>(&::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)(int32_t)>(
+    &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::_ctor)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5e87574;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6.System_IDisposable_Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(&::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
+    &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e87678;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(&::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
+    &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x5e8767c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6.System_Collections_Generic_IEnumerator_System_String__get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(&::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
+    &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e877b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.String>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(),
+                                                                                           { "System.Collections.Generic.IEnumerator<System.String>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6.System_Collections_IEnumerator_Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(&::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
+    &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x5e877c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6.System_Collections_IEnumerator_get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(&::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
+    &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e877f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6.System_Collections_Generic_IEnumerable_System_String__GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(&::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
+    &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5e87800;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(),
+                                                                                           { "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6.System_Collections_IEnumerable_GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(&::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
+    &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e87898;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___1__state()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+constexpr int32_t& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
 constexpr int32_t const& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___1__state() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
-constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set___1__state(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____1__state = value;
+constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
 }
-constexpr ::StringW& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___2__current()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::StringW& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
 constexpr ::StringW const& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___2__current() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set___2__current(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set___2__current(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
 }
-constexpr int32_t& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___l__initialThreadId()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____l__initialThreadId;
+constexpr int32_t& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___l__initialThreadId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
 }
 constexpr int32_t const& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___l__initialThreadId() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____l__initialThreadId;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
 }
-constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____l__initialThreadId = value;
+constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set___l__initialThreadId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____l__initialThreadId = value;
 }
-constexpr ::System::Dynamic::ExpandoObject_MetaExpando*& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::System::Dynamic::ExpandoObject_MetaExpando*& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::System::Dynamic::ExpandoObject_MetaExpando* const& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set___4__this(::System::Dynamic::ExpandoObject_MetaExpando*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set___4__this(::System::Dynamic::ExpandoObject_MetaExpando* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
 }
-constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get__expandoData_5__2()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoData_5__2;
+constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get__expandoData_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoData_5__2;
 }
 constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get__expandoData_5__2() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____expandoData_5__2;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____expandoData_5__2;
 }
-constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set__expandoData_5__2(::System::Dynamic::ExpandoObject_ExpandoData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____expandoData_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set__expandoData_5__2(::System::Dynamic::ExpandoObject_ExpandoData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____expandoData_5__2 = value;
 }
-constexpr ::System::Dynamic::ExpandoClass*& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get__klass_5__3()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____klass_5__3;
+constexpr ::System::Dynamic::ExpandoClass*& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get__klass_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____klass_5__3;
 }
 constexpr ::System::Dynamic::ExpandoClass* const& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get__klass_5__3() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____klass_5__3;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____klass_5__3;
 }
-constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set__klass_5__3(::System::Dynamic::ExpandoClass*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____klass_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set__klass_5__3(::System::Dynamic::ExpandoClass* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____klass_5__3 = value;
 }
-constexpr int32_t& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get__i_5__4()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____i_5__4;
+constexpr int32_t& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get__i_5__4() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__4;
 }
 constexpr int32_t const& System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_get__i_5__4() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____i_5__4;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__4;
 }
-constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set__i_5__4(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____i_5__4 = value;
+constexpr void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::__cordl_internal_set__i_5__4(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____i_5__4 = value;
 }
-inline void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::_ctor(int32_t  __1__state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::_ctor(int32_t __1__state) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_IDisposable_Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::StringW System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerator_System_String__get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.String>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerator_System_String__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(),
+                                                                                         { "System.Collections.Generic.IEnumerator<System.String>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerable_System_String__GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::StringW>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerator_1<::StringW>*
+System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerable_System_String__GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(),
+                                                                                         { "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::StringW>*>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerable_GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-inline ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::New_ctor(int32_t  __1__state)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(__1__state));
+inline ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::StringW>"
-constexpr  System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
+constexpr System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::i___System__Collections__Generic__IEnumerable_1___StringW_() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*
+System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::i___System__Collections__Generic__IEnumerable_1___StringW_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr  System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::Collections::IEnumerable*() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+constexpr System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 constexpr ::System::Collections::IEnumerable* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::i___System__Collections__IEnumerable() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::StringW>"
-constexpr  System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
+constexpr System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::StringW>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>*
+System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::Collections::IEnumerator*() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::i___System__Collections__IEnumerator() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6()   {
-}
+constexpr ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6() {}
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Linq::Expressions::Expression*, ::System::Dynamic::ExpandoObject*)>(&::System::Dynamic::ExpandoObject_MetaExpando::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Linq::Expressions::Expression*, ::System::Dynamic::ExpandoObject*)>(
+    &::System::Dynamic::ExpandoObject_MetaExpando::_ctor)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x5e86180;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::System::Linq::Expressions::Expression*>(), ::i2c::type_of<::System::Dynamic::ExpandoObject*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.BindGetOrInvokeMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::DynamicMetaObjectBinder*, ::StringW, bool, ::System::Dynamic::DynamicMetaObject*, ::System::Func_2<::System::Dynamic::DynamicMetaObject*,::System::Dynamic::DynamicMetaObject*>*)>(&::System::Dynamic::ExpandoObject_MetaExpando::BindGetOrInvokeMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (
+    ::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::DynamicMetaObjectBinder*, ::StringW, bool, ::System::Dynamic::DynamicMetaObject*,
+                                                     ::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*>*)>(
+    &::System::Dynamic::ExpandoObject_MetaExpando::BindGetOrInvokeMember)> {
   constexpr static std::size_t size = 0x5b0;
   constexpr static std::size_t addrs = 0x5e86230;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "BindGetOrInvokeMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObjectBinder*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::Dynamic::DynamicMetaObject*,::System::Dynamic::DynamicMetaObject*>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(),
+                                                             { "BindGetOrInvokeMember",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Dynamic::DynamicMetaObjectBinder*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(),
+                                                                 ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>(),
+                                                                 ::i2c::type_of<::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.BindGetMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::GetMemberBinder*)>(&::System::Dynamic::ExpandoObject_MetaExpando::BindGetMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::GetMemberBinder*)>(
+    &::System::Dynamic::ExpandoObject_MetaExpando::BindGetMember)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x5e86bdc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.BindInvokeMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::InvokeMemberBinder*, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>)>(&::System::Dynamic::ExpandoObject_MetaExpando::BindInvokeMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::InvokeMemberBinder*, ::ArrayW<::System::Dynamic::DynamicMetaObject*>)>(
+        &::System::Dynamic::ExpandoObject_MetaExpando::BindInvokeMember)> {
   constexpr static std::size_t size = 0x130;
   constexpr static std::size_t addrs = 0x5e86c88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 11 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.BindSetMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::SetMemberBinder*, ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::ExpandoObject_MetaExpando::BindSetMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (
+    ::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::SetMemberBinder*, ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::ExpandoObject_MetaExpando::BindSetMember)> {
   constexpr static std::size_t size = 0x3d8;
   constexpr static std::size_t addrs = 0x5e86dcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.BindDeleteMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::DeleteMemberBinder*)>(&::System::Dynamic::ExpandoObject_MetaExpando::BindDeleteMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::DeleteMemberBinder*)>(
+    &::System::Dynamic::ExpandoObject_MetaExpando::BindDeleteMember)> {
   constexpr static std::size_t size = 0x2a8;
   constexpr static std::size_t addrs = 0x5e8725c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.GetDynamicMemberNames
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(&::System::Dynamic::ExpandoObject_MetaExpando::GetDynamicMemberNames)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(
+    &::System::Dynamic::ExpandoObject_MetaExpando::GetDynamicMemberNames)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x5e87504;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 16 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.AddDynamicTestAndDefer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::DynamicMetaObjectBinder*, ::System::Dynamic::ExpandoClass*, ::System::Dynamic::ExpandoClass*, ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::ExpandoObject_MetaExpando::AddDynamicTestAndDefer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (
+    ::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::DynamicMetaObjectBinder*, ::System::Dynamic::ExpandoClass*, ::System::Dynamic::ExpandoClass*,
+                                                     ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::ExpandoObject_MetaExpando::AddDynamicTestAndDefer)> {
   constexpr static std::size_t size = 0x29c;
   constexpr static std::size_t addrs = 0x5e86940;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "AddDynamicTestAndDefer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObjectBinder*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(),
+                                                             { "AddDynamicTestAndDefer",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Dynamic::DynamicMetaObjectBinder*>(), ::i2c::type_of<::System::Dynamic::ExpandoClass*>(),
+                                                                 ::i2c::type_of<::System::Dynamic::ExpandoClass*>(), ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.GetClassEnsureIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoClass* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::StringW, bool, ::System::Dynamic::ExpandoObject*, ::ByRef<::System::Dynamic::ExpandoClass*>, ::ByRef<int32_t>)>(&::System::Dynamic::ExpandoObject_MetaExpando::GetClassEnsureIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::ExpandoClass* (
+    ::System::Dynamic::ExpandoObject_MetaExpando::*)(::StringW, bool, ::System::Dynamic::ExpandoObject*, ::by_ref<::System::Dynamic::ExpandoClass*>, ::by_ref<int32_t>)>(
+    &::System::Dynamic::ExpandoObject_MetaExpando::GetClassEnsureIndex)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x5e871a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "GetClassEnsureIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Dynamic::ExpandoClass*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(),
+                                                                                           { "GetClassEnsureIndex",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Dynamic::ExpandoObject*>(),
+                                                                                               ::i2c::type_of<::by_ref<::System::Dynamic::ExpandoClass*>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.GetLimitedSelf
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(&::System::Dynamic::ExpandoObject_MetaExpando::GetLimitedSelf)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(
+    &::System::Dynamic::ExpandoObject_MetaExpando::GetLimitedSelf)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x5e86850;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "GetLimitedSelf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { "GetLimitedSelf", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.GetRestrictions
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(&::System::Dynamic::ExpandoObject_MetaExpando::GetRestrictions)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::BindingRestrictions* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(
+    &::System::Dynamic::ExpandoObject_MetaExpando::GetRestrictions)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5e87594;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "GetRestrictions",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { "GetRestrictions", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_MetaExpando.get_Value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(&::System::Dynamic::ExpandoObject_MetaExpando::get_Value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::ExpandoObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(
+    &::System::Dynamic::ExpandoObject_MetaExpando::get_Value)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x5e867e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "get_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { "get_Value", {}, {} })));
     return ___internal_method;
   }
 };
-inline void System::Dynamic::ExpandoObject_MetaExpando::_ctor(::System::Linq::Expressions::Expression*  expression, ::System::Dynamic::ExpandoObject*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, expression, value);
+inline void System::Dynamic::ExpandoObject_MetaExpando::_ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::ExpandoObject* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::System::Linq::Expressions::Expression*>(), ::i2c::type_of<::System::Dynamic::ExpandoObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, expression, value);
 }
-inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::BindGetOrInvokeMember(::System::Dynamic::DynamicMetaObjectBinder*  binder, ::StringW  name, bool  ignoreCase, ::System::Dynamic::DynamicMetaObject*  fallback, ::System::Func_2<::System::Dynamic::DynamicMetaObject*,::System::Dynamic::DynamicMetaObject*>*  fallbackInvoke)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "BindGetOrInvokeMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObjectBinder*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::Dynamic::DynamicMetaObject*,::System::Dynamic::DynamicMetaObject*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, binder, name, ignoreCase, fallback, fallbackInvoke);
+inline ::System::Dynamic::DynamicMetaObject*
+System::Dynamic::ExpandoObject_MetaExpando::BindGetOrInvokeMember(::System::Dynamic::DynamicMetaObjectBinder* binder, ::StringW name, bool ignoreCase, ::System::Dynamic::DynamicMetaObject* fallback,
+                                                                  ::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*>* fallbackInvoke) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(),
+                                                           { "BindGetOrInvokeMember",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Dynamic::DynamicMetaObjectBinder*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(),
+                                                               ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>(),
+                                                               ::i2c::type_of<::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, binder, name, ignoreCase, fallback, fallbackInvoke);
 }
-inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::BindGetMember(::System::Dynamic::GetMemberBinder*  binder)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, binder);
+inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::BindGetMember(::System::Dynamic::GetMemberBinder* binder) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, binder);
 }
-inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::BindInvokeMember(::System::Dynamic::InvokeMemberBinder*  binder, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  args)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, binder, args);
+inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::BindInvokeMember(::System::Dynamic::InvokeMemberBinder* binder,
+                                                                                                          ::ArrayW<::System::Dynamic::DynamicMetaObject*> args) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, binder, args);
 }
-inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::BindSetMember(::System::Dynamic::SetMemberBinder*  binder, ::System::Dynamic::DynamicMetaObject*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, binder, value);
+inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::BindSetMember(::System::Dynamic::SetMemberBinder* binder, ::System::Dynamic::DynamicMetaObject* value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, binder, value);
 }
-inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::BindDeleteMember(::System::Dynamic::DeleteMemberBinder*  binder)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, binder);
+inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::BindDeleteMember(::System::Dynamic::DeleteMemberBinder* binder) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, binder);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::StringW>* System::Dynamic::ExpandoObject_MetaExpando::GetDynamicMemberNames()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::StringW>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerable_1<::StringW>* System::Dynamic::ExpandoObject_MetaExpando::GetDynamicMemberNames() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), 16 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::StringW>*>(this, ___internal_method);
 }
-inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::AddDynamicTestAndDefer(::System::Dynamic::DynamicMetaObjectBinder*  binder, ::System::Dynamic::ExpandoClass*  klass, ::System::Dynamic::ExpandoClass*  originalClass, ::System::Dynamic::DynamicMetaObject*  succeeds)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "AddDynamicTestAndDefer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObjectBinder*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, binder, klass, originalClass, succeeds);
+inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject_MetaExpando::AddDynamicTestAndDefer(::System::Dynamic::DynamicMetaObjectBinder* binder,
+                                                                                                                ::System::Dynamic::ExpandoClass* klass, ::System::Dynamic::ExpandoClass* originalClass,
+                                                                                                                ::System::Dynamic::DynamicMetaObject* succeeds) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(),
+                                                           { "AddDynamicTestAndDefer",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Dynamic::DynamicMetaObjectBinder*>(), ::i2c::type_of<::System::Dynamic::ExpandoClass*>(),
+                                                               ::i2c::type_of<::System::Dynamic::ExpandoClass*>(), ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, binder, klass, originalClass, succeeds);
 }
-inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoObject_MetaExpando::GetClassEnsureIndex(::StringW  name, bool  caseInsensitive, ::System::Dynamic::ExpandoObject*  obj, ::ByRef<::System::Dynamic::ExpandoClass*>  klass, ::ByRef<int32_t>  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "GetClassEnsureIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Dynamic::ExpandoClass*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoClass*, false>(this, ___internal_method, name, caseInsensitive, obj, klass, index);
+inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoObject_MetaExpando::GetClassEnsureIndex(::StringW name, bool caseInsensitive, ::System::Dynamic::ExpandoObject* obj,
+                                                                                                        ::by_ref<::System::Dynamic::ExpandoClass*> klass, ::by_ref<int32_t> index) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(),
+                                                                                         { "GetClassEnsureIndex",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Dynamic::ExpandoObject*>(),
+                                                                                             ::i2c::type_of<::by_ref<::System::Dynamic::ExpandoClass*>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoClass*>(this, ___internal_method, name, caseInsensitive, obj, klass, index);
 }
-inline ::System::Linq::Expressions::Expression* System::Dynamic::ExpandoObject_MetaExpando::GetLimitedSelf()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "GetLimitedSelf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+inline ::System::Linq::Expressions::Expression* System::Dynamic::ExpandoObject_MetaExpando::GetLimitedSelf() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { "GetLimitedSelf", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method);
 }
-inline ::System::Dynamic::BindingRestrictions* System::Dynamic::ExpandoObject_MetaExpando::GetRestrictions()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "GetRestrictions",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::BindingRestrictions*, false>(this, ___internal_method);
+inline ::System::Dynamic::BindingRestrictions* System::Dynamic::ExpandoObject_MetaExpando::GetRestrictions() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { "GetRestrictions", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::BindingRestrictions*>(this, ___internal_method);
 }
-inline ::System::Dynamic::ExpandoObject* System::Dynamic::ExpandoObject_MetaExpando::get_Value()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_MetaExpando*>::get(),
-                        "get_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoObject*, false>(this, ___internal_method);
+inline ::System::Dynamic::ExpandoObject* System::Dynamic::ExpandoObject_MetaExpando::get_Value() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { "get_Value", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoObject*>(this, ___internal_method);
 }
-inline ::System::Dynamic::ExpandoObject_MetaExpando* System::Dynamic::ExpandoObject_MetaExpando::New_ctor(::System::Linq::Expressions::Expression*  expression, ::System::Dynamic::ExpandoObject*  value)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoObject_MetaExpando*>(expression, value));
+inline ::System::Dynamic::ExpandoObject_MetaExpando* System::Dynamic::ExpandoObject_MetaExpando::New_ctor(::System::Linq::Expressions::Expression* expression,
+                                                                                                          ::System::Dynamic::ExpandoObject* value) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::ExpandoObject_MetaExpando*>(expression, value));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::ExpandoObject_MetaExpando::ExpandoObject_MetaExpando()   {
-}
+constexpr ::System::Dynamic::ExpandoObject_MetaExpando::ExpandoObject_MetaExpando() {}
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ExpandoData.get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject_ExpandoData::*)(int32_t)>(&::System::Dynamic::ExpandoObject_ExpandoData::get_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject_ExpandoData::*)(int32_t)>(&::System::Dynamic::ExpandoObject_ExpandoData::get_Item)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x5e85904;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ExpandoData.set_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_ExpandoData::*)(int32_t, ::System::Object*)>(&::System::Dynamic::ExpandoObject_ExpandoData::set_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ExpandoData::*)(int32_t, ::System::Object*)>(&::System::Dynamic::ExpandoObject_ExpandoData::set_Item)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x5e8789c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "set_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "set_Item", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ExpandoData.get_Version
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoObject_ExpandoData::*)()>(&::System::Dynamic::ExpandoObject_ExpandoData::get_Version)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject_ExpandoData::*)()>(&::System::Dynamic::ExpandoObject_ExpandoData::get_Version)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e8790c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "get_Version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "get_Version", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ExpandoData.get_Length
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoObject_ExpandoData::*)()>(&::System::Dynamic::ExpandoObject_ExpandoData::get_Length)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject_ExpandoData::*)()>(&::System::Dynamic::ExpandoObject_ExpandoData::get_Length)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5e87914;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "get_Length",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "get_Length", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ExpandoData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_ExpandoData::*)()>(&::System::Dynamic::ExpandoObject_ExpandoData::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ExpandoData::*)()>(&::System::Dynamic::ExpandoObject_ExpandoData::_ctor)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x5e8792c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ExpandoData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject_ExpandoData::*)(::System::Dynamic::ExpandoClass*, ::ArrayW<::System::Object*,::Array<::System::Object*>*>, int32_t)>(&::System::Dynamic::ExpandoObject_ExpandoData::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ExpandoData::*)(::System::Dynamic::ExpandoClass*, ::ArrayW<::System::Object*>, int32_t)>(
+    &::System::Dynamic::ExpandoObject_ExpandoData::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5e87a04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(),
+                                                { ".ctor", {}, { ::i2c::type_of<::System::Dynamic::ExpandoClass*>(), ::i2c::type_of<::ArrayW<::System::Object*>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ExpandoData.UpdateClass
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoObject_ExpandoData* (::System::Dynamic::ExpandoObject_ExpandoData::*)(::System::Dynamic::ExpandoClass*)>(&::System::Dynamic::ExpandoObject_ExpandoData::UpdateClass)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::ExpandoObject_ExpandoData* (::System::Dynamic::ExpandoObject_ExpandoData::*)(::System::Dynamic::ExpandoClass*)>(
+    &::System::Dynamic::ExpandoObject_ExpandoData::UpdateClass)> {
   constexpr static std::size_t size = 0x194;
   constexpr static std::size_t addrs = 0x5e87a10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "UpdateClass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "UpdateClass", {}, { ::i2c::type_of<::System::Dynamic::ExpandoClass*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject_ExpandoData.GetAlignedSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Dynamic::ExpandoObject_ExpandoData::GetAlignedSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Dynamic::ExpandoObject_ExpandoData::GetAlignedSize)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5e87ba4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "GetAlignedSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "GetAlignedSize", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Dynamic::ExpandoClass*& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get_Class()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Class;
+constexpr ::System::Dynamic::ExpandoClass*& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get_Class() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Class;
 }
 constexpr ::System::Dynamic::ExpandoClass* const& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get_Class() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Class;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Class;
 }
-constexpr void System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_set_Class(::System::Dynamic::ExpandoClass*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Class)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_set_Class(::System::Dynamic::ExpandoClass* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___Class = value;
 }
-constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*>& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get__dataArray()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____dataArray;
+constexpr ::ArrayW<::System::Object*>& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get__dataArray() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____dataArray;
 }
-constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*> const& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get__dataArray() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____dataArray;
+constexpr ::ArrayW<::System::Object*> const& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get__dataArray() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____dataArray;
 }
-constexpr void System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_set__dataArray(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_set__dataArray(::ArrayW<::System::Object*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____dataArray = value;
 }
-constexpr int32_t& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get__version()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____version;
+constexpr int32_t& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get__version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____version;
 }
 constexpr int32_t const& System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_get__version() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____version;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____version;
 }
-constexpr void System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_set__version(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____version = value;
+constexpr void System::Dynamic::ExpandoObject_ExpandoData::__cordl_internal_set__version(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____version = value;
 }
-inline void System::Dynamic::ExpandoObject_ExpandoData::setStaticF_Empty(::System::Dynamic::ExpandoObject_ExpandoData*  value)  {
-::cordl_internals::setStaticField<::System::Dynamic::ExpandoObject_ExpandoData*, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get>(std::forward<::System::Dynamic::ExpandoObject_ExpandoData*>(value));
+inline void System::Dynamic::ExpandoObject_ExpandoData::setStaticF_Empty(::System::Dynamic::ExpandoObject_ExpandoData* value) {
+  ::cordl_internals::setStaticField<::System::Dynamic::ExpandoObject_ExpandoData*, "Empty", ::System::Dynamic::ExpandoObject_ExpandoData*>(
+      std::forward<::System::Dynamic::ExpandoObject_ExpandoData*>(value));
 }
-inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject_ExpandoData::getStaticF_Empty()  {
-return ::cordl_internals::getStaticField<::System::Dynamic::ExpandoObject_ExpandoData*, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get>();
+inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject_ExpandoData::getStaticF_Empty() {
+  return ::cordl_internals::getStaticField<::System::Dynamic::ExpandoObject_ExpandoData*, "Empty", ::System::Dynamic::ExpandoObject_ExpandoData*>();
 }
-inline ::System::Object* System::Dynamic::ExpandoObject_ExpandoData::get_Item(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
+inline ::System::Object* System::Dynamic::ExpandoObject_ExpandoData::get_Item(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, index);
 }
-inline void System::Dynamic::ExpandoObject_ExpandoData::set_Item(int32_t  index, ::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "set_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
+inline void System::Dynamic::ExpandoObject_ExpandoData::set_Item(int32_t index, ::System::Object* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "set_Item", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, value);
 }
-inline int32_t System::Dynamic::ExpandoObject_ExpandoData::get_Version()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "get_Version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Dynamic::ExpandoObject_ExpandoData::get_Version() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "get_Version", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t System::Dynamic::ExpandoObject_ExpandoData::get_Length()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "get_Length",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Dynamic::ExpandoObject_ExpandoData::get_Length() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "get_Length", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void System::Dynamic::ExpandoObject_ExpandoData::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoObject_ExpandoData::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Dynamic::ExpandoObject_ExpandoData::_ctor(::System::Dynamic::ExpandoClass*  klass, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  data, int32_t  version)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, klass, data, version);
+inline void System::Dynamic::ExpandoObject_ExpandoData::_ctor(::System::Dynamic::ExpandoClass* klass, ::ArrayW<::System::Object*> data, int32_t version) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(),
+                                              { ".ctor", {}, { ::i2c::type_of<::System::Dynamic::ExpandoClass*>(), ::i2c::type_of<::ArrayW<::System::Object*>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, klass, data, version);
 }
-inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject_ExpandoData::UpdateClass(::System::Dynamic::ExpandoClass*  newClass)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "UpdateClass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoObject_ExpandoData*, false>(this, ___internal_method, newClass);
+inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject_ExpandoData::UpdateClass(::System::Dynamic::ExpandoClass* newClass) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "UpdateClass", {}, { ::i2c::type_of<::System::Dynamic::ExpandoClass*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoObject_ExpandoData*>(this, ___internal_method, newClass);
 }
-inline int32_t System::Dynamic::ExpandoObject_ExpandoData::GetAlignedSize(int32_t  len)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject_ExpandoData*>::get(),
-                        "GetAlignedSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, len);
+inline int32_t System::Dynamic::ExpandoObject_ExpandoData::GetAlignedSize(int32_t len) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "GetAlignedSize", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, len);
 }
-inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject_ExpandoData::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoObject_ExpandoData*>());
+inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject_ExpandoData::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::ExpandoObject_ExpandoData*>());
 }
-inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject_ExpandoData::New_ctor(::System::Dynamic::ExpandoClass*  klass, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  data, int32_t  version)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoObject_ExpandoData*>(klass, data, version));
+inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject_ExpandoData::New_ctor(::System::Dynamic::ExpandoClass* klass, ::ArrayW<::System::Object*> data, int32_t version) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::ExpandoObject_ExpandoData*>(klass, data, version));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::ExpandoObject_ExpandoData::ExpandoObject_ExpandoData()   {
-}
+constexpr ::System::Dynamic::ExpandoObject_ExpandoData::ExpandoObject_ExpandoData() {}
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)(int32_t)>(&::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)(int32_t)>(
+    &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e87c0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51.System_IDisposable_Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(&::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
+    &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e87c14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(&::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
+    &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::MoveNext)> {
   constexpr static std::size_t size = 0x188;
   constexpr static std::size_t addrs = 0x5e87c18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51.System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current
-template<>
+//  Writing Method size for method:
+//  ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51.System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*> (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(&::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
+        &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5e87da0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(),
+                                                             { "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51.System_Collections_IEnumerator_Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(&::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
+    &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x5e87dac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51.System_Collections_IEnumerator_get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(&::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
+    &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x5e87de4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___1__state()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+constexpr int32_t& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
 constexpr int32_t const& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___1__state() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
-constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set___1__state(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____1__state = value;
+constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
 }
-constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___2__current()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*> const& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___2__current() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> const& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____2__current = value;
+constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
 }
-constexpr ::System::Dynamic::ExpandoObject*& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::System::Dynamic::ExpandoObject*& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::System::Dynamic::ExpandoObject* const& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set___4__this(::System::Dynamic::ExpandoObject*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set___4__this(::System::Dynamic::ExpandoObject* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
 }
-constexpr int32_t& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get_version()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___version;
+constexpr int32_t& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get_version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
 }
 constexpr int32_t const& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get_version() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___version;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
 }
-constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set_version(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___version = value;
+constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set_version(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___version = value;
 }
-constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get_data()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___data;
+constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get_data() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___data;
 }
 constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get_data() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___data;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___data;
 }
-constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set_data(::System::Dynamic::ExpandoObject_ExpandoData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set_data(::System::Dynamic::ExpandoObject_ExpandoData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___data = value;
 }
-constexpr int32_t& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get__i_5__2()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____i_5__2;
+constexpr int32_t& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get__i_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__2;
 }
 constexpr int32_t const& System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_get__i_5__2() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____i_5__2;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____i_5__2;
 }
-constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set__i_5__2(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____i_5__2 = value;
+constexpr void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::__cordl_internal_set__i_5__2(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____i_5__2 = value;
 }
-inline void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::_ctor(int32_t  __1__state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_IDisposable_Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*> System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>, false>(this, ___internal_method);
+inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>
+System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(),
+                                                           { "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>(this, ___internal_method);
 }
-inline void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51* System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::New_ctor(int32_t  __1__state)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(__1__state));
+inline ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51* System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
-constexpr  System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::operator ::System::Collections::Generic::IEnumerator_1<
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>* System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Object___() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
+System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Object___() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::operator ::System::Collections::IEnumerator*() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::i___System__Collections__IEnumerator() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::ExpandoObject__GetExpandoEnumerator_d__51()   {
-}
+constexpr ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::ExpandoObject__GetExpandoEnumerator_d__51() {}
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::_ctor)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x5e84254;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.TryGetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::StringW, bool, ::ByRef<::System::Object*>)>(&::System::Dynamic::ExpandoObject::TryGetValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::StringW, bool, ::by_ref<::System::Object*>)>(
+    &::System::Dynamic::ExpandoObject::TryGetValue)> {
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x5e803b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TryGetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "TryGetValue",
+                                                                                                        {},
+                                                                                                        { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(),
+                                                                                                          ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.TrySetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::System::Object*, ::StringW, bool, bool)>(&::System::Dynamic::ExpandoObject::TrySetValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::System::Object*, ::StringW, bool, bool)>(
+    &::System::Dynamic::ExpandoObject::TrySetValue)> {
   constexpr static std::size_t size = 0x3a4;
   constexpr static std::size_t addrs = 0x5e80510;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TrySetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "TrySetValue",
+                                                                                                 {},
+                                                                                                 { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>(),
+                                                                                                   ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.TryDeleteValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::StringW, bool, ::System::Object*)>(&::System::Dynamic::ExpandoObject::TryDeleteValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::StringW, bool, ::System::Object*)>(
+    &::System::Dynamic::ExpandoObject::TryDeleteValue)> {
   constexpr static std::size_t size = 0x31c;
   constexpr static std::size_t addrs = 0x5e80950;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TryDeleteValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+            { "TryDeleteValue", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.IsDeletedMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(int32_t)>(&::System::Dynamic::ExpandoObject::IsDeletedMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(int32_t)>(&::System::Dynamic::ExpandoObject::IsDeletedMember)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x5e84140;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "IsDeletedMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "IsDeletedMember", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.get_Class
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoClass* (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::get_Class)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::ExpandoClass* (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::get_Class)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5e80c94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "get_Class",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "get_Class", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.PromoteClassCore
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoObject_ExpandoData* (::System::Dynamic::ExpandoObject::*)(::System::Dynamic::ExpandoClass*, ::System::Dynamic::ExpandoClass*)>(&::System::Dynamic::ExpandoObject::PromoteClassCore)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::ExpandoObject_ExpandoData* (
+    ::System::Dynamic::ExpandoObject::*)(::System::Dynamic::ExpandoClass*, ::System::Dynamic::ExpandoClass*)>(&::System::Dynamic::ExpandoObject::PromoteClassCore)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x5e842dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "PromoteClassCore",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "PromoteClassCore", {}, { ::i2c::type_of<::System::Dynamic::ExpandoClass*>(), ::i2c::type_of<::System::Dynamic::ExpandoClass*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.PromoteClass
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Object*, ::System::Object*)>(&::System::Dynamic::ExpandoObject::PromoteClass)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Object*, ::System::Object*)>(&::System::Dynamic::ExpandoObject::PromoteClass)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x5e80cbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "PromoteClass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "PromoteClass", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Dynamic_IDynamicMetaObjectProvider_GetMetaObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject::*)(::System::Linq::Expressions::Expression*)>(&::System::Dynamic::ExpandoObject::System_Dynamic_IDynamicMetaObjectProvider_GetMetaObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject::*)(::System::Linq::Expressions::Expression*)>(
+    &::System::Dynamic::ExpandoObject::System_Dynamic_IDynamicMetaObjectProvider_GetMetaObject)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x5e84314;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject", {}, { ::i2c::type_of<::System::Linq::Expressions::Expression*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.TryAddMember
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(&::System::Dynamic::ExpandoObject::TryAddMember)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(&::System::Dynamic::ExpandoObject::TryAddMember)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5e84384;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TryAddMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "TryAddMember", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.TryGetValueForKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW, ::ByRef<::System::Object*>)>(&::System::Dynamic::ExpandoObject::TryGetValueForKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW, ::by_ref<::System::Object*>)>(&::System::Dynamic::ExpandoObject::TryGetValueForKey)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5e84404;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TryGetValueForKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "TryGetValueForKey", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.ExpandoContainsKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(&::System::Dynamic::ExpandoObject::ExpandoContainsKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(&::System::Dynamic::ExpandoObject::ExpandoContainsKey)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x5e8441c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "ExpandoContainsKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "ExpandoContainsKey", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_IDictionary_System_String_System_Object__get_Keys
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Keys)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (::System::Dynamic::ExpandoObject::*)()>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Keys)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x5e84448;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Keys",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Keys", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_IDictionary_System_String_System_Object__get_Values
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::System::Object*>* (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Values)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::System::Object*>* (::System::Dynamic::ExpandoObject::*)()>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Values)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x5e84584;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Values",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Values", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_IDictionary_System_String_System_Object__get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject::*)(::StringW)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject::*)(::StringW)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Item)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x5e845e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_IDictionary_System_String_System_Object__set_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__set_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__set_Item)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x5e84648;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.set_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                            { "System.Collections.Generic.IDictionary<System.String,System.Object>.set_Item", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_IDictionary_System_String_System_Object__Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Add)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5e846c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                         { "System.Collections.Generic.IDictionary<System.String,System.Object>.Add", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_IDictionary_System_String_System_Object__ContainsKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__ContainsKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__ContainsKey)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x5e846cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_IDictionary_System_String_System_Object__Remove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Remove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Remove)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x5e847a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "System.Collections.Generic.IDictionary<System.String,System.Object>.Remove", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW, ::ByRef<::System::Object*>)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW, ::by_ref<::System::Object*>)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5e84850;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue",
+                                                                                                        {},
+                                                                                                        { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject::*)()>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e84868;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Count", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_IsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_IsReadOnly)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)()>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e84870;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_IsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_IsReadOnly", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x5e84878;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add",
+                                                                                    {},
+                                                                                    { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)()>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear)> {
   constexpr static std::size_t size = 0x22c;
   constexpr static std::size_t addrs = 0x5e848e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x5e84b14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>,::Array<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>, int32_t)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>, int32_t)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo)> {
   constexpr static std::size_t size = 0x3ec;
   constexpr static std::size_t addrs = 0x5e84bec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>,::Array<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo",
+                                                  {},
+                                                  { ::i2c::type_of<::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>)>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>)>(
+    &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5e84fd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>* (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* (::System::Dynamic::ExpandoObject::*)()>(
+        &::System::Dynamic::ExpandoObject::System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5e85054;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                { "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.System_Collections_IEnumerable_GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject::*)()>(
+    &::System::Dynamic::ExpandoObject::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x5e850d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoObject.GetExpandoEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>* (::System::Dynamic::ExpandoObject::*)(::System::Dynamic::ExpandoObject_ExpandoData*, int32_t)>(&::System::Dynamic::ExpandoObject::GetExpandoEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* (
+    ::System::Dynamic::ExpandoObject::*)(::System::Dynamic::ExpandoObject_ExpandoData*, int32_t)>(&::System::Dynamic::ExpandoObject::GetExpandoEnumerator)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5e8506c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "GetExpandoEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject_ExpandoData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                             { "GetExpandoEnumerator", {}, { ::i2c::type_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Object*& System::Dynamic::ExpandoObject::__cordl_internal_get_LockObject()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___LockObject;
+constexpr ::System::Object*& System::Dynamic::ExpandoObject::__cordl_internal_get_LockObject() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___LockObject;
 }
 constexpr ::System::Object* const& System::Dynamic::ExpandoObject::__cordl_internal_get_LockObject() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___LockObject;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___LockObject;
 }
-constexpr void System::Dynamic::ExpandoObject::__cordl_internal_set_LockObject(::System::Object*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LockObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject::__cordl_internal_set_LockObject(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___LockObject = value;
 }
-constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ExpandoObject::__cordl_internal_get__data()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____data;
+constexpr ::System::Dynamic::ExpandoObject_ExpandoData*& System::Dynamic::ExpandoObject::__cordl_internal_get__data() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____data;
 }
 constexpr ::System::Dynamic::ExpandoObject_ExpandoData* const& System::Dynamic::ExpandoObject::__cordl_internal_get__data() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____data;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____data;
 }
-constexpr void System::Dynamic::ExpandoObject::__cordl_internal_set__data(::System::Dynamic::ExpandoObject_ExpandoData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject::__cordl_internal_set__data(::System::Dynamic::ExpandoObject_ExpandoData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____data = value;
 }
-constexpr int32_t& System::Dynamic::ExpandoObject::__cordl_internal_get__count()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____count;
+constexpr int32_t& System::Dynamic::ExpandoObject::__cordl_internal_get__count() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____count;
 }
 constexpr int32_t const& System::Dynamic::ExpandoObject::__cordl_internal_get__count() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____count;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____count;
 }
-constexpr void System::Dynamic::ExpandoObject::__cordl_internal_set__count(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____count = value;
+constexpr void System::Dynamic::ExpandoObject::__cordl_internal_set__count(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____count = value;
 }
-constexpr ::System::ComponentModel::PropertyChangedEventHandler*& System::Dynamic::ExpandoObject::__cordl_internal_get__propertyChanged()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____propertyChanged;
+constexpr ::System::ComponentModel::PropertyChangedEventHandler*& System::Dynamic::ExpandoObject::__cordl_internal_get__propertyChanged() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____propertyChanged;
 }
 constexpr ::System::ComponentModel::PropertyChangedEventHandler* const& System::Dynamic::ExpandoObject::__cordl_internal_get__propertyChanged() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____propertyChanged;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____propertyChanged;
 }
-constexpr void System::Dynamic::ExpandoObject::__cordl_internal_set__propertyChanged(::System::ComponentModel::PropertyChangedEventHandler*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____propertyChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoObject::__cordl_internal_set__propertyChanged(::System::ComponentModel::PropertyChangedEventHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____propertyChanged = value;
 }
-inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoTryGetValue(::System::Reflection::MethodInfo*  value)  {
-::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoTryGetValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>(std::forward<::System::Reflection::MethodInfo*>(value));
+inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoTryGetValue(::System::Reflection::MethodInfo* value) {
+  ::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoTryGetValue", ::System::Dynamic::ExpandoObject*>(std::forward<::System::Reflection::MethodInfo*>(value));
 }
-inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoTryGetValue()  {
-return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoTryGetValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>();
+inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoTryGetValue() {
+  return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoTryGetValue", ::System::Dynamic::ExpandoObject*>();
 }
-inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoTrySetValue(::System::Reflection::MethodInfo*  value)  {
-::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoTrySetValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>(std::forward<::System::Reflection::MethodInfo*>(value));
+inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoTrySetValue(::System::Reflection::MethodInfo* value) {
+  ::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoTrySetValue", ::System::Dynamic::ExpandoObject*>(std::forward<::System::Reflection::MethodInfo*>(value));
 }
-inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoTrySetValue()  {
-return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoTrySetValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>();
+inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoTrySetValue() {
+  return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoTrySetValue", ::System::Dynamic::ExpandoObject*>();
 }
-inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoTryDeleteValue(::System::Reflection::MethodInfo*  value)  {
-::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoTryDeleteValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>(std::forward<::System::Reflection::MethodInfo*>(value));
+inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoTryDeleteValue(::System::Reflection::MethodInfo* value) {
+  ::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoTryDeleteValue", ::System::Dynamic::ExpandoObject*>(std::forward<::System::Reflection::MethodInfo*>(value));
 }
-inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoTryDeleteValue()  {
-return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoTryDeleteValue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>();
+inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoTryDeleteValue() {
+  return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoTryDeleteValue", ::System::Dynamic::ExpandoObject*>();
 }
-inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoPromoteClass(::System::Reflection::MethodInfo*  value)  {
-::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoPromoteClass", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>(std::forward<::System::Reflection::MethodInfo*>(value));
+inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoPromoteClass(::System::Reflection::MethodInfo* value) {
+  ::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoPromoteClass", ::System::Dynamic::ExpandoObject*>(std::forward<::System::Reflection::MethodInfo*>(value));
 }
-inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoPromoteClass()  {
-return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoPromoteClass", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>();
+inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoPromoteClass() {
+  return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoPromoteClass", ::System::Dynamic::ExpandoObject*>();
 }
-inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoCheckVersion(::System::Reflection::MethodInfo*  value)  {
-::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoCheckVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>(std::forward<::System::Reflection::MethodInfo*>(value));
+inline void System::Dynamic::ExpandoObject::setStaticF_s_expandoCheckVersion(::System::Reflection::MethodInfo* value) {
+  ::cordl_internals::setStaticField<::System::Reflection::MethodInfo*, "s_expandoCheckVersion", ::System::Dynamic::ExpandoObject*>(std::forward<::System::Reflection::MethodInfo*>(value));
 }
-inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoCheckVersion()  {
-return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoCheckVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>();
+inline ::System::Reflection::MethodInfo* System::Dynamic::ExpandoObject::getStaticF_s_expandoCheckVersion() {
+  return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "s_expandoCheckVersion", ::System::Dynamic::ExpandoObject*>();
 }
-inline void System::Dynamic::ExpandoObject::setStaticF_Uninitialized(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "Uninitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>(std::forward<::System::Object*>(value));
+inline void System::Dynamic::ExpandoObject::setStaticF_Uninitialized(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "Uninitialized", ::System::Dynamic::ExpandoObject*>(std::forward<::System::Object*>(value));
 }
-inline ::System::Object* System::Dynamic::ExpandoObject::getStaticF_Uninitialized()  {
-return ::cordl_internals::getStaticField<::System::Object*, "Uninitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get>();
+inline ::System::Object* System::Dynamic::ExpandoObject::getStaticF_Uninitialized() {
+  return ::cordl_internals::getStaticField<::System::Object*, "Uninitialized", ::System::Dynamic::ExpandoObject*>();
 }
-inline void System::Dynamic::ExpandoObject::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoObject::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject::TryGetValue(::System::Object*  indexClass, int32_t  index, ::StringW  name, bool  ignoreCase, ::ByRef<::System::Object*>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TryGetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, indexClass, index, name, ignoreCase, value);
+inline bool System::Dynamic::ExpandoObject::TryGetValue(::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ::by_ref<::System::Object*> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "TryGetValue",
+                                                                                                      {},
+                                                                                                      { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(),
+                                                                                                        ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, indexClass, index, name, ignoreCase, value);
 }
-inline void System::Dynamic::ExpandoObject::TrySetValue(::System::Object*  indexClass, int32_t  index, ::System::Object*  value, ::StringW  name, bool  ignoreCase, bool  add)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TrySetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indexClass, index, value, name, ignoreCase, add);
+inline void System::Dynamic::ExpandoObject::TrySetValue(::System::Object* indexClass, int32_t index, ::System::Object* value, ::StringW name, bool ignoreCase, bool add) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "TrySetValue",
+                                                                                               {},
+                                                                                               { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>(),
+                                                                                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indexClass, index, value, name, ignoreCase, add);
 }
-inline bool System::Dynamic::ExpandoObject::TryDeleteValue(::System::Object*  indexClass, int32_t  index, ::StringW  name, bool  ignoreCase, ::System::Object*  deleteValue)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TryDeleteValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, indexClass, index, name, ignoreCase, deleteValue);
+inline bool System::Dynamic::ExpandoObject::TryDeleteValue(::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ::System::Object* deleteValue) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+          { "TryDeleteValue", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, indexClass, index, name, ignoreCase, deleteValue);
 }
-inline bool System::Dynamic::ExpandoObject::IsDeletedMember(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "IsDeletedMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, index);
+inline bool System::Dynamic::ExpandoObject::IsDeletedMember(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "IsDeletedMember", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, index);
 }
-inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoObject::get_Class()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "get_Class",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoClass*, false>(this, ___internal_method);
+inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoObject::get_Class() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "get_Class", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoClass*>(this, ___internal_method);
 }
-inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject::PromoteClassCore(::System::Dynamic::ExpandoClass*  oldClass, ::System::Dynamic::ExpandoClass*  newClass)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "PromoteClassCore",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoClass*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoObject_ExpandoData*, false>(this, ___internal_method, oldClass, newClass);
+inline ::System::Dynamic::ExpandoObject_ExpandoData* System::Dynamic::ExpandoObject::PromoteClassCore(::System::Dynamic::ExpandoClass* oldClass, ::System::Dynamic::ExpandoClass* newClass) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "PromoteClassCore", {}, { ::i2c::type_of<::System::Dynamic::ExpandoClass*>(), ::i2c::type_of<::System::Dynamic::ExpandoClass*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoObject_ExpandoData*>(this, ___internal_method, oldClass, newClass);
 }
-inline void System::Dynamic::ExpandoObject::PromoteClass(::System::Object*  oldClass, ::System::Object*  newClass)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "PromoteClass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oldClass, newClass);
+inline void System::Dynamic::ExpandoObject::PromoteClass(::System::Object* oldClass, ::System::Object* newClass) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "PromoteClass", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, oldClass, newClass);
 }
-inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject::System_Dynamic_IDynamicMetaObjectProvider_GetMetaObject(::System::Linq::Expressions::Expression*  parameter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, parameter);
+inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::ExpandoObject::System_Dynamic_IDynamicMetaObjectProvider_GetMetaObject(::System::Linq::Expressions::Expression* parameter) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject", {}, { ::i2c::type_of<::System::Linq::Expressions::Expression*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, parameter);
 }
-inline void System::Dynamic::ExpandoObject::TryAddMember(::StringW  key, ::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TryAddMember",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
+inline void System::Dynamic::ExpandoObject::TryAddMember(::StringW key, ::System::Object* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "TryAddMember", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key, value);
 }
-inline bool System::Dynamic::ExpandoObject::TryGetValueForKey(::StringW  key, ::ByRef<::System::Object*>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "TryGetValueForKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, value);
+inline bool System::Dynamic::ExpandoObject::TryGetValueForKey(::StringW key, ::by_ref<::System::Object*> value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                                                         { "TryGetValueForKey", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key, value);
 }
-inline bool System::Dynamic::ExpandoObject::ExpandoContainsKey(::StringW  key)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "ExpandoContainsKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
+inline bool System::Dynamic::ExpandoObject::ExpandoContainsKey(::StringW key) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "ExpandoContainsKey", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key);
 }
-inline ::System::Collections::Generic::ICollection_1<::StringW>* System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Keys()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Keys",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::ICollection_1<::StringW>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::ICollection_1<::StringW>* System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Keys() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Keys", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::ICollection_1<::StringW>*>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::ICollection_1<::System::Object*>* System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Values()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Values",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::ICollection_1<::System::Object*>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::ICollection_1<::System::Object*>* System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Values() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Values", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::ICollection_1<::System::Object*>*>(this, ___internal_method);
 }
-inline ::System::Object* System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Item(::StringW  key)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, key);
+inline ::System::Object* System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Item(::StringW key) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, key);
 }
-inline void System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__set_Item(::StringW  key, ::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.set_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
+inline void System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__set_Item(::StringW key, ::System::Object* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                       { "System.Collections.Generic.IDictionary<System.String,System.Object>.set_Item", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key, value);
 }
-inline void System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Add(::StringW  key, ::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
+inline void System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Add(::StringW key, ::System::Object* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                       { "System.Collections.Generic.IDictionary<System.String,System.Object>.Add", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key, value);
 }
-inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__ContainsKey(::StringW  key)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
+inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__ContainsKey(::StringW key) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key);
 }
-inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Remove(::StringW  key)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
+inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Remove(::StringW key) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "System.Collections.Generic.IDictionary<System.String,System.Object>.Remove", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key);
 }
-inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue(::StringW  key, ::ByRef<::System::Object*>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, value);
+inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue(::StringW key, ::by_ref<::System::Object*> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                          { "System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key, value);
 }
-inline int32_t System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Count", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_IsReadOnly()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_IsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_IsReadOnly() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_IsReadOnly", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add(::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
+inline void System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add(
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> item) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add",
+                                                                                  {},
+                                                                                  { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
 }
-inline void System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains(::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains(
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> item) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item);
 }
-inline void System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>,::Array<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>  array, int32_t  arrayIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>,::Array<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, arrayIndex);
+inline void System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo(
+    ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>> array, int32_t arrayIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                              { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo",
+                                                {},
+                                                { ::i2c::type_of<::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array, arrayIndex);
 }
-inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove(::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+inline bool System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove(
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> item) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove",
+                                                                                  {},
+                                                                                  { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item);
 }
-inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>* System::Dynamic::ExpandoObject::System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
+System::Dynamic::ExpandoObject::System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* System::Dynamic::ExpandoObject::System_Collections_IEnumerable_GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* System::Dynamic::ExpandoObject::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>* System::Dynamic::ExpandoObject::GetExpandoEnumerator(::System::Dynamic::ExpandoObject_ExpandoData*  data, int32_t  version)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
-                        "GetExpandoEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject_ExpandoData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*, false>(this, ___internal_method, data, version);
+inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
+System::Dynamic::ExpandoObject::GetExpandoEnumerator(::System::Dynamic::ExpandoObject_ExpandoData* data, int32_t version) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(),
+                                                           { "GetExpandoEnumerator", {}, { ::i2c::type_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*>(this, ___internal_method,
+                                                                                                                                                                           data, version);
 }
-inline ::System::Dynamic::ExpandoObject* System::Dynamic::ExpandoObject::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoObject*>());
+inline ::System::Dynamic::ExpandoObject* System::Dynamic::ExpandoObject::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Dynamic::ExpandoObject*>());
 }
 /// @brief Convert operator to "::System::Dynamic::IDynamicMetaObjectProvider"
-constexpr  System::Dynamic::ExpandoObject::operator ::System::Dynamic::IDynamicMetaObjectProvider*() noexcept {
-return static_cast<::System::Dynamic::IDynamicMetaObjectProvider*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject::operator ::System::Dynamic::IDynamicMetaObjectProvider*() noexcept {
+  return static_cast<::System::Dynamic::IDynamicMetaObjectProvider*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Dynamic::IDynamicMetaObjectProvider"
 constexpr ::System::Dynamic::IDynamicMetaObjectProvider* System::Dynamic::ExpandoObject::i___System__Dynamic__IDynamicMetaObjectProvider() noexcept {
-return static_cast<::System::Dynamic::IDynamicMetaObjectProvider*>(static_cast<void*>(this));
+  return static_cast<::System::Dynamic::IDynamicMetaObjectProvider*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IDictionary_2<::StringW,::System::Object*>"
-constexpr  System::Dynamic::ExpandoObject::operator ::System::Collections::Generic::IDictionary_2<::StringW,::System::Object*>*() noexcept {
-return static_cast<::System::Collections::Generic::IDictionary_2<::StringW,::System::Object*>*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject::operator ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IDictionary_2<::StringW,::System::Object*>"
-constexpr ::System::Collections::Generic::IDictionary_2<::StringW,::System::Object*>* System::Dynamic::ExpandoObject::i___System__Collections__Generic__IDictionary_2___StringW___System__Object__() noexcept {
-return static_cast<::System::Collections::Generic::IDictionary_2<::StringW,::System::Object*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>*
+System::Dynamic::ExpandoObject::i___System__Collections__Generic__IDictionary_2___StringW___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
-constexpr  System::Dynamic::ExpandoObject::operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*() noexcept {
-return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject::operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
-constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>* System::Dynamic::ExpandoObject::i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Object___() noexcept {
-return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
+System::Dynamic::ExpandoObject::i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Object___() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
-constexpr  System::Dynamic::ExpandoObject::operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject::operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>* System::Dynamic::ExpandoObject::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Object___() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
+System::Dynamic::ExpandoObject::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___System__Object___() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr  System::Dynamic::ExpandoObject::operator ::System::Collections::IEnumerable*() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 constexpr ::System::Collections::IEnumerable* System::Dynamic::ExpandoObject::i___System__Collections__IEnumerable() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::ComponentModel::INotifyPropertyChanged"
-constexpr  System::Dynamic::ExpandoObject::operator ::System::ComponentModel::INotifyPropertyChanged*() noexcept {
-return static_cast<::System::ComponentModel::INotifyPropertyChanged*>(static_cast<void*>(this));
+constexpr System::Dynamic::ExpandoObject::operator ::System::ComponentModel::INotifyPropertyChanged*() noexcept {
+  return static_cast<::System::ComponentModel::INotifyPropertyChanged*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::ComponentModel::INotifyPropertyChanged"
 constexpr ::System::ComponentModel::INotifyPropertyChanged* System::Dynamic::ExpandoObject::i___System__ComponentModel__INotifyPropertyChanged() noexcept {
-return static_cast<::System::ComponentModel::INotifyPropertyChanged*>(static_cast<void*>(this));
+  return static_cast<::System::ComponentModel::INotifyPropertyChanged*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::ExpandoObject::ExpandoObject()   {
-}
+constexpr ::System::Dynamic::ExpandoObject::ExpandoObject() {}

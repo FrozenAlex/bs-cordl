@@ -8,162 +8,122 @@
 #include "UnityEngine/EventSystems/zzzz__MoveDirection_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::AxisEventData.get_moveVector
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::AxisEventData::*)()>(&::UnityEngine::EventSystems::AxisEventData::get_moveVector)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::AxisEventData::*)()>(&::UnityEngine::EventSystems::AxisEventData::get_moveVector)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6cc0950;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        "get_moveVector",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "get_moveVector", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::EventSystems::AxisEventData.set_moveVector
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::Vector2)>(&::UnityEngine::EventSystems::AxisEventData::set_moveVector)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::Vector2)>(&::UnityEngine::EventSystems::AxisEventData::set_moveVector)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6cc0958;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        "set_moveVector",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "set_moveVector", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::EventSystems::AxisEventData.get_moveDir
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::MoveDirection (::UnityEngine::EventSystems::AxisEventData::*)()>(&::UnityEngine::EventSystems::AxisEventData::get_moveDir)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::MoveDirection (::UnityEngine::EventSystems::AxisEventData::*)()>(
+    &::UnityEngine::EventSystems::AxisEventData::get_moveDir)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6cc0960;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        "get_moveDir",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "get_moveDir", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::EventSystems::AxisEventData.set_moveDir
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::EventSystems::MoveDirection)>(&::UnityEngine::EventSystems::AxisEventData::set_moveDir)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::EventSystems::MoveDirection)>(
+    &::UnityEngine::EventSystems::AxisEventData::set_moveDir)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6cc0968;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        "set_moveDir",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::MoveDirection>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "set_moveDir", {}, { ::i2c::type_of<::UnityEngine::EventSystems::MoveDirection>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::EventSystems::AxisEventData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(&::UnityEngine::EventSystems::AxisEventData::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
+    &::UnityEngine::EventSystems::AxisEventData::_ctor)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x6cc0970;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::EventSystem*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::EventSystems::EventSystem*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::AxisEventData::__cordl_internal_get__moveVector_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____moveVector_k__BackingField;
+constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::AxisEventData::__cordl_internal_get__moveVector_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____moveVector_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::AxisEventData::__cordl_internal_get__moveVector_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____moveVector_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____moveVector_k__BackingField;
 }
-constexpr void UnityEngine::EventSystems::AxisEventData::__cordl_internal_set__moveVector_k__BackingField(::UnityEngine::Vector2  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____moveVector_k__BackingField = value;
+constexpr void UnityEngine::EventSystems::AxisEventData::__cordl_internal_set__moveVector_k__BackingField(::UnityEngine::Vector2 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____moveVector_k__BackingField = value;
 }
-constexpr ::UnityEngine::EventSystems::MoveDirection& UnityEngine::EventSystems::AxisEventData::__cordl_internal_get__moveDir_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____moveDir_k__BackingField;
+constexpr ::UnityEngine::EventSystems::MoveDirection& UnityEngine::EventSystems::AxisEventData::__cordl_internal_get__moveDir_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____moveDir_k__BackingField;
 }
 constexpr ::UnityEngine::EventSystems::MoveDirection const& UnityEngine::EventSystems::AxisEventData::__cordl_internal_get__moveDir_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____moveDir_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____moveDir_k__BackingField;
 }
-constexpr void UnityEngine::EventSystems::AxisEventData::__cordl_internal_set__moveDir_k__BackingField(::UnityEngine::EventSystems::MoveDirection  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____moveDir_k__BackingField = value;
+constexpr void UnityEngine::EventSystems::AxisEventData::__cordl_internal_set__moveDir_k__BackingField(::UnityEngine::EventSystems::MoveDirection value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____moveDir_k__BackingField = value;
 }
-inline ::UnityEngine::Vector2 UnityEngine::EventSystems::AxisEventData::get_moveVector()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        "get_moveVector",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
+inline ::UnityEngine::Vector2 UnityEngine::EventSystems::AxisEventData::get_moveVector() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "get_moveVector", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
 }
-inline void UnityEngine::EventSystems::AxisEventData::set_moveVector(::UnityEngine::Vector2  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        "set_moveVector",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::EventSystems::AxisEventData::set_moveVector(::UnityEngine::Vector2 value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "set_moveVector", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::EventSystems::MoveDirection UnityEngine::EventSystems::AxisEventData::get_moveDir()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        "get_moveDir",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::MoveDirection, false>(this, ___internal_method);
+inline ::UnityEngine::EventSystems::MoveDirection UnityEngine::EventSystems::AxisEventData::get_moveDir() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "get_moveDir", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::MoveDirection>(this, ___internal_method);
 }
-inline void UnityEngine::EventSystems::AxisEventData::set_moveDir(::UnityEngine::EventSystems::MoveDirection  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        "set_moveDir",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::MoveDirection>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::EventSystems::AxisEventData::set_moveDir(::UnityEngine::EventSystems::MoveDirection value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "set_moveDir", {}, { ::i2c::type_of<::UnityEngine::EventSystems::MoveDirection>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::EventSystems::AxisEventData::_ctor(::UnityEngine::EventSystems::EventSystem*  eventSystem)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::EventSystem*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventSystem);
+inline void UnityEngine::EventSystems::AxisEventData::_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::EventSystems::EventSystem*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventSystem);
 }
-inline ::UnityEngine::EventSystems::AxisEventData* UnityEngine::EventSystems::AxisEventData::New_ctor(::UnityEngine::EventSystems::EventSystem*  eventSystem)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::AxisEventData*>(eventSystem));
+inline ::UnityEngine::EventSystems::AxisEventData* UnityEngine::EventSystems::AxisEventData::New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::EventSystems::AxisEventData*>(eventSystem));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::EventSystems::AxisEventData::AxisEventData()   {
-}
+constexpr ::UnityEngine::EventSystems::AxisEventData::AxisEventData() {}

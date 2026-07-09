@@ -14,325 +14,257 @@
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutStyleData_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.get_IsValid
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)()>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::get_IsValid)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)()>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::get_IsValid)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6ba8564;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "get_IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(), { "get_IsValid", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(int32_t, ::UnityEngine::UIElements::Layout::LayoutDataStore, ::UnityEngine::UIElements::Layout::LayoutDataStore)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(
+    int32_t, ::UnityEngine::UIElements::Layout::LayoutDataStore, ::UnityEngine::UIElements::Layout::LayoutDataStore)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::_ctor)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6ba7bac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutDataStore>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutDataStore>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                           { ".ctor",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
+                                                                                               ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutDataStore>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.GetNodeData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::UIElements::Layout::LayoutNodeData> (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetNodeData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::UIElements::Layout::LayoutNodeData> (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(
+    ::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetNodeData)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x6bab98c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetNodeData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                           { "GetNodeData", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.GetStyleData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::UIElements::Layout::LayoutStyleData> (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetStyleData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::UIElements::Layout::LayoutStyleData> (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(
+    ::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetStyleData)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6bab9ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetStyleData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                           { "GetStyleData", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.GetComputedData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::UIElements::Layout::LayoutComputedData> (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetComputedData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::UIElements::Layout::LayoutComputedData> (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(
+    ::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetComputedData)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6baba50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetComputedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                           { "GetComputedData", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.GetConfigData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::UIElements::Layout::LayoutConfigData> (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetConfigData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::UIElements::Layout::LayoutConfigData> (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(
+    ::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetConfigData)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x6babab4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetConfigData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                           { "GetConfigData", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.GetMeasureFunction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Layout::LayoutMeasureFunction* (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetMeasureFunction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutMeasureFunction* (
+    ::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetMeasureFunction)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x6babb14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetMeasureFunction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                           { "GetMeasureFunction", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.SetMeasureFunction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle, ::UnityEngine::UIElements::Layout::LayoutMeasureFunction*)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::SetMeasureFunction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(
+    ::UnityEngine::UIElements::Layout::LayoutHandle, ::UnityEngine::UIElements::Layout::LayoutMeasureFunction*)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::SetMeasureFunction)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6babb8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "SetMeasureFunction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutMeasureFunction*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+            { "SetMeasureFunction", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>(), ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutMeasureFunction*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.GetOwner
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetOwner)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (
+    ::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetOwner)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x6babc0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetOwner",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                           { "GetOwner", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.SetOwner
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::SetOwner)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(
+    ::UnityEngine::UIElements::Layout::LayoutHandle, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::SetOwner)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6babc84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "SetOwner",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                         { "SetOwner", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataAccess.GetBaselineFunction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Layout::LayoutBaselineFunction* (::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetBaselineFunction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutBaselineFunction* (
+    ::UnityEngine::UIElements::Layout::LayoutDataAccess::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutDataAccess::GetBaselineFunction)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x6babd04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetBaselineFunction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                           { "GetBaselineFunction", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::UIElements::Layout::LayoutDataAccess::get_IsValid()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "get_IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::UIElements::Layout::LayoutDataAccess::get_IsValid() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(), { "get_IsValid", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline void UnityEngine::UIElements::Layout::LayoutDataAccess::_ctor(int32_t  manager, ::UnityEngine::UIElements::Layout::LayoutDataStore  nodes, ::UnityEngine::UIElements::Layout::LayoutDataStore  configs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutDataStore>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutDataStore>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, manager, nodes, configs);
+inline void UnityEngine::UIElements::Layout::LayoutDataAccess::_ctor(int32_t manager, ::UnityEngine::UIElements::Layout::LayoutDataStore nodes,
+                                                                     ::UnityEngine::UIElements::Layout::LayoutDataStore configs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+          { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutDataStore>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, manager, nodes, configs);
 }
-template<typename T>
-inline ::ByRef<T> UnityEngine::UIElements::Layout::LayoutDataAccess::GetTypedNodeDataRef(::UnityEngine::UIElements::Layout::LayoutHandle  handle, ::UnityEngine::UIElements::Layout::LayoutNodeDataType  type)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                    "GetTypedNodeDataRef",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutNodeDataType>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::ByRef<T>, false>(this, ___internal_method, handle, type);
+template <typename T>
+inline ::by_ref<T> UnityEngine::UIElements::Layout::LayoutDataAccess::GetTypedNodeDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle,
+                                                                                          ::UnityEngine::UIElements::Layout::LayoutNodeDataType type) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                              { "GetTypedNodeDataRef",
+                                                { ::i2c::class_of<T>() },
+                                                { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>(), ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutNodeDataType>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method, handle, type);
 }
-template<typename T>
-inline ::ByRef<T> UnityEngine::UIElements::Layout::LayoutDataAccess::GetTypedConfigDataRef(::UnityEngine::UIElements::Layout::LayoutHandle  handle, ::UnityEngine::UIElements::Layout::LayoutConfigDataType  type)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                    "GetTypedConfigDataRef",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutConfigDataType>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::ByRef<T>, false>(this, ___internal_method, handle, type);
+template <typename T>
+inline ::by_ref<T> UnityEngine::UIElements::Layout::LayoutDataAccess::GetTypedConfigDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle,
+                                                                                            ::UnityEngine::UIElements::Layout::LayoutConfigDataType type) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                              { "GetTypedConfigDataRef",
+                                                { ::i2c::class_of<T>() },
+                                                { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>(), ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutConfigDataType>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method, handle, type);
 }
-inline ::ByRef<::UnityEngine::UIElements::Layout::LayoutNodeData> UnityEngine::UIElements::Layout::LayoutDataAccess::GetNodeData(::UnityEngine::UIElements::Layout::LayoutHandle  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetNodeData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ByRef<::UnityEngine::UIElements::Layout::LayoutNodeData>, false>(this, ___internal_method, handle);
+inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutNodeData> UnityEngine::UIElements::Layout::LayoutDataAccess::GetNodeData(::UnityEngine::UIElements::Layout::LayoutHandle handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                         { "GetNodeData", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::UIElements::Layout::LayoutNodeData>>(*this, ___internal_method, handle);
 }
-inline ::ByRef<::UnityEngine::UIElements::Layout::LayoutStyleData> UnityEngine::UIElements::Layout::LayoutDataAccess::GetStyleData(::UnityEngine::UIElements::Layout::LayoutHandle  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetStyleData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ByRef<::UnityEngine::UIElements::Layout::LayoutStyleData>, false>(this, ___internal_method, handle);
+inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutStyleData> UnityEngine::UIElements::Layout::LayoutDataAccess::GetStyleData(::UnityEngine::UIElements::Layout::LayoutHandle handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                         { "GetStyleData", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::UIElements::Layout::LayoutStyleData>>(*this, ___internal_method, handle);
 }
-inline ::ByRef<::UnityEngine::UIElements::Layout::LayoutComputedData> UnityEngine::UIElements::Layout::LayoutDataAccess::GetComputedData(::UnityEngine::UIElements::Layout::LayoutHandle  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetComputedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ByRef<::UnityEngine::UIElements::Layout::LayoutComputedData>, false>(this, ___internal_method, handle);
+inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutComputedData> UnityEngine::UIElements::Layout::LayoutDataAccess::GetComputedData(::UnityEngine::UIElements::Layout::LayoutHandle handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                         { "GetComputedData", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::UIElements::Layout::LayoutComputedData>>(*this, ___internal_method, handle);
 }
-inline ::ByRef<::UnityEngine::UIElements::Layout::LayoutConfigData> UnityEngine::UIElements::Layout::LayoutDataAccess::GetConfigData(::UnityEngine::UIElements::Layout::LayoutHandle  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetConfigData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ByRef<::UnityEngine::UIElements::Layout::LayoutConfigData>, false>(this, ___internal_method, handle);
+inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutConfigData> UnityEngine::UIElements::Layout::LayoutDataAccess::GetConfigData(::UnityEngine::UIElements::Layout::LayoutHandle handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                         { "GetConfigData", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::UIElements::Layout::LayoutConfigData>>(*this, ___internal_method, handle);
 }
-inline ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* UnityEngine::UIElements::Layout::LayoutDataAccess::GetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetMeasureFunction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutMeasureFunction*, false>(this, ___internal_method, handle);
+inline ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* UnityEngine::UIElements::Layout::LayoutDataAccess::GetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                         { "GetMeasureFunction", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutMeasureFunction*>(*this, ___internal_method, handle);
 }
-inline void UnityEngine::UIElements::Layout::LayoutDataAccess::SetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle  handle, ::UnityEngine::UIElements::Layout::LayoutMeasureFunction*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "SetMeasureFunction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutMeasureFunction*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, handle, value);
+inline void UnityEngine::UIElements::Layout::LayoutDataAccess::SetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle,
+                                                                                  ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+          { "SetMeasureFunction", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>(), ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutMeasureFunction*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, handle, value);
 }
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Layout::LayoutDataAccess::GetOwner(::UnityEngine::UIElements::Layout::LayoutHandle  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetOwner",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(this, ___internal_method, handle);
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Layout::LayoutDataAccess::GetOwner(::UnityEngine::UIElements::Layout::LayoutHandle handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                         { "GetOwner", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(*this, ___internal_method, handle);
 }
-inline void UnityEngine::UIElements::Layout::LayoutDataAccess::SetOwner(::UnityEngine::UIElements::Layout::LayoutHandle  handle, ::UnityEngine::UIElements::VisualElement*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "SetOwner",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, handle, value);
+inline void UnityEngine::UIElements::Layout::LayoutDataAccess::SetOwner(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::VisualElement* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                              { "SetOwner", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, handle, value);
 }
-inline ::UnityEngine::UIElements::Layout::LayoutBaselineFunction* UnityEngine::UIElements::Layout::LayoutDataAccess::GetBaselineFunction(::UnityEngine::UIElements::Layout::LayoutHandle  handle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutDataAccess>::get(),
-                        "GetBaselineFunction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Layout::LayoutHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutBaselineFunction*, false>(this, ___internal_method, handle);
+inline ::UnityEngine::UIElements::Layout::LayoutBaselineFunction* UnityEngine::UIElements::Layout::LayoutDataAccess::GetBaselineFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataAccess>(),
+                                                                                         { "GetBaselineFunction", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutBaselineFunction*>(*this, ___internal_method, handle);
 }
-// Ctor Parameters [CppParam { name: "m_Manager", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Nodes", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Configs", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::Layout::LayoutDataAccess::LayoutDataAccess(int32_t  m_Manager, ::UnityEngine::UIElements::Layout::LayoutDataStore  m_Nodes, ::UnityEngine::UIElements::Layout::LayoutDataStore  m_Configs) noexcept  {
-this->m_Manager = m_Manager;
-this->m_Nodes = m_Nodes;
-this->m_Configs = m_Configs;
+// Ctor Parameters [CppParam { name: "m_Manager", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Nodes", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Configs", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::Layout::LayoutDataAccess::LayoutDataAccess(int32_t m_Manager, ::UnityEngine::UIElements::Layout::LayoutDataStore m_Nodes,
+                                                                                ::UnityEngine::UIElements::Layout::LayoutDataStore m_Configs) noexcept {
+  this->m_Manager = m_Manager;
+  this->m_Nodes = m_Nodes;
+  this->m_Configs = m_Configs;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::Layout::LayoutDataAccess::LayoutDataAccess()   {
-}
+constexpr ::UnityEngine::UIElements::Layout::LayoutDataAccess::LayoutDataAccess() {}

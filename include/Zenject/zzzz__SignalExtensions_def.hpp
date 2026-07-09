@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/SignalExtensions.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -9,8 +9,7 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-template<typename TSignal>
-class BindSignalIdToBinder_1;
+template <typename TSignal> class BindSignalIdToBinder_1;
 }
 namespace Zenject {
 class DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder;
@@ -26,47 +25,44 @@ namespace Zenject {
 class SignalExtensions;
 }
 // Write type traits
-MARK_REF_PTR_T(::Zenject::SignalExtensions);
+MARK_REF_T(::Zenject::SignalExtensions*);
+DEFINE_IL2CPP_CLASS(::Zenject::SignalExtensions*, "Zenject", "SignalExtensions");
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.SignalExtensions
 class CORDL_TYPE SignalExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method BindSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TSignal>
-static inline ::Zenject::BindSignalIdToBinder_1<TSignal>* BindSignal(::Zenject::DiContainer*  container) ;
+  // Declarations
+  /// @brief Method BindSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> static inline ::Zenject::BindSignalIdToBinder_1<TSignal>* BindSignal(::Zenject::DiContainer* container);
 
-/// @brief Method CreateDefaultSignalDeclarationBindInfo, addr 0x6cee9d0, size 0x8c, virtual false, abstract: false, final false
-static inline ::Zenject::SignalDeclarationBindInfo* CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer*  container, ::System::Type*  signalType) ;
+  /// @brief Method CreateDefaultSignalDeclarationBindInfo, addr 0x6cee9d0, size 0x8c, virtual false, abstract: false, final false
+  static inline ::Zenject::SignalDeclarationBindInfo* CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer* container, ::System::Type* signalType);
 
-/// @brief Method DeclareSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TSignal>
-static inline ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder* DeclareSignal(::Zenject::DiContainer*  container) ;
+  /// @brief Method DeclareSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> static inline ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder* DeclareSignal(::Zenject::DiContainer* container);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SignalExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignalExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SignalExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SignalExtensions(SignalExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SignalExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SignalExtensions(SignalExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SignalExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SignalExtensions(SignalExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SignalExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SignalExtensions(SignalExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13994 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13994};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::SignalExtensions, 0x10>, "Size mismatch!");
+static_assert(sizeof(::Zenject::SignalExtensions) == 0x10, "Size mismatch!");
 
-} // namespace end def Zenject
-NEED_NO_BOX(::Zenject::SignalExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SignalExtensions*, "Zenject", "SignalExtensions");
+} // namespace Zenject

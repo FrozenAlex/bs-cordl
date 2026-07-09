@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MockPause.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -16,111 +16,112 @@ namespace GlobalNamespace {
 class MockPause;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::MockPause);
+MARK_REF_T(::GlobalNamespace::MockPause*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::MockPause*, "", "MockPause");
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MockPause
 class CORDL_TYPE MockPause : public ::System::Object {
 public:
-// Declarations
-/// @brief Field didPauseEvent, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_didPauseEvent, put=__cordl_internal_set_didPauseEvent)) ::System::Action*  didPauseEvent;
+  // Declarations
+  /// @brief Field didPauseEvent, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_didPauseEvent, put = __cordl_internal_set_didPauseEvent)) ::System::Action* didPauseEvent;
 
-/// @brief Field didResumeEvent, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_didResumeEvent, put=__cordl_internal_set_didResumeEvent)) ::System::Action*  didResumeEvent;
+  /// @brief Field didResumeEvent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_didResumeEvent, put = __cordl_internal_set_didResumeEvent)) ::System::Action* didResumeEvent;
 
- __declspec(property(get=get_isPaused)) bool  isPaused;
+  __declspec(property(get = get_isPaused)) bool isPaused;
 
-/// @brief Field willResumeEvent, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_willResumeEvent, put=__cordl_internal_set_willResumeEvent)) ::System::Action*  willResumeEvent;
+  /// @brief Field willResumeEvent, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_willResumeEvent, put = __cordl_internal_set_willResumeEvent)) ::System::Action* willResumeEvent;
 
-/// @brief Convert operator to "::GlobalNamespace::IGamePause"
-constexpr operator  ::GlobalNamespace::IGamePause*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::IGamePause"
+  constexpr operator ::GlobalNamespace::IGamePause*() noexcept;
 
-static inline ::GlobalNamespace::MockPause* New_ctor() ;
+  static inline ::GlobalNamespace::MockPause* New_ctor();
 
-/// @brief Method Pause, addr 0x58754e4, size 0x38, virtual true, abstract: false, final true
-inline void Pause() ;
+  /// @brief Method Pause, addr 0x58754e4, size 0x38, virtual true, abstract: false, final true
+  inline void Pause();
 
-/// @brief Method Resume, addr 0x5875554, size 0x38, virtual true, abstract: false, final true
-inline void Resume() ;
+  /// @brief Method Resume, addr 0x5875554, size 0x38, virtual true, abstract: false, final true
+  inline void Resume();
 
-/// @brief Method WillResume, addr 0x587551c, size 0x38, virtual true, abstract: false, final true
-inline void WillResume() ;
+  /// @brief Method WillResume, addr 0x587551c, size 0x38, virtual true, abstract: false, final true
+  inline void WillResume();
 
-constexpr ::System::Action* const& __cordl_internal_get_didPauseEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didPauseEvent() const;
 
-constexpr ::System::Action*& __cordl_internal_get_didPauseEvent() ;
+  constexpr ::System::Action*& __cordl_internal_get_didPauseEvent();
 
-constexpr ::System::Action* const& __cordl_internal_get_didResumeEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didResumeEvent() const;
 
-constexpr ::System::Action*& __cordl_internal_get_didResumeEvent() ;
+  constexpr ::System::Action*& __cordl_internal_get_didResumeEvent();
 
-constexpr ::System::Action* const& __cordl_internal_get_willResumeEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_willResumeEvent() const;
 
-constexpr ::System::Action*& __cordl_internal_get_willResumeEvent() ;
+  constexpr ::System::Action*& __cordl_internal_get_willResumeEvent();
 
-constexpr void __cordl_internal_set_didPauseEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_didPauseEvent(::System::Action* value);
 
-constexpr void __cordl_internal_set_didResumeEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_didResumeEvent(::System::Action* value);
 
-constexpr void __cordl_internal_set_willResumeEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-/// @brief Method .ctor, addr 0x587558c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x587558c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_didPauseEvent, addr 0x58750dc, size 0xac, virtual true, abstract: false, final true
-inline void add_didPauseEvent(::System::Action*  value) ;
+  /// @brief Method add_didPauseEvent, addr 0x58750dc, size 0xac, virtual true, abstract: false, final true
+  inline void add_didPauseEvent(::System::Action* value);
 
-/// @brief Method add_didResumeEvent, addr 0x587538c, size 0xac, virtual true, abstract: false, final true
-inline void add_didResumeEvent(::System::Action*  value) ;
+  /// @brief Method add_didResumeEvent, addr 0x587538c, size 0xac, virtual true, abstract: false, final true
+  inline void add_didResumeEvent(::System::Action* value);
 
-/// @brief Method add_willResumeEvent, addr 0x5875234, size 0xac, virtual true, abstract: false, final true
-inline void add_willResumeEvent(::System::Action*  value) ;
+  /// @brief Method add_willResumeEvent, addr 0x5875234, size 0xac, virtual true, abstract: false, final true
+  inline void add_willResumeEvent(::System::Action* value);
 
-/// @brief Method get_isPaused, addr 0x58750d4, size 0x8, virtual true, abstract: false, final true
-inline bool get_isPaused() ;
+  /// @brief Method get_isPaused, addr 0x58750d4, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isPaused();
 
-/// @brief Convert to "::GlobalNamespace::IGamePause"
-constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
+  /// @brief Convert to "::GlobalNamespace::IGamePause"
+  constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
-/// @brief Method remove_didPauseEvent, addr 0x5875188, size 0xac, virtual true, abstract: false, final true
-inline void remove_didPauseEvent(::System::Action*  value) ;
+  /// @brief Method remove_didPauseEvent, addr 0x5875188, size 0xac, virtual true, abstract: false, final true
+  inline void remove_didPauseEvent(::System::Action* value);
 
-/// @brief Method remove_didResumeEvent, addr 0x5875438, size 0xac, virtual true, abstract: false, final true
-inline void remove_didResumeEvent(::System::Action*  value) ;
+  /// @brief Method remove_didResumeEvent, addr 0x5875438, size 0xac, virtual true, abstract: false, final true
+  inline void remove_didResumeEvent(::System::Action* value);
 
-/// @brief Method remove_willResumeEvent, addr 0x58752e0, size 0xac, virtual true, abstract: false, final true
-inline void remove_willResumeEvent(::System::Action*  value) ;
+  /// @brief Method remove_willResumeEvent, addr 0x58752e0, size 0xac, virtual true, abstract: false, final true
+  inline void remove_willResumeEvent(::System::Action* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MockPause() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockPause();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MockPause", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MockPause(MockPause&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockPause", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MockPause(MockPause && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MockPause", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MockPause(MockPause const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockPause", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MockPause(MockPause const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6016 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6016};
+  /// @brief Field didPauseEvent, offset: 0x10, size: 0x8, def value: None
+  ::System::Action* ___didPauseEvent;
 
-/// @brief Field didPauseEvent, offset: 0x10, size: 0x8, def value: None
- ::System::Action*  ___didPauseEvent;
+  /// @brief Field willResumeEvent, offset: 0x18, size: 0x8, def value: None
+  ::System::Action* ___willResumeEvent;
 
-/// @brief Field willResumeEvent, offset: 0x18, size: 0x8, def value: None
- ::System::Action*  ___willResumeEvent;
+  /// @brief Field didResumeEvent, offset: 0x20, size: 0x8, def value: None
+  ::System::Action* ___didResumeEvent;
 
-/// @brief Field didResumeEvent, offset: 0x20, size: 0x8, def value: None
- ::System::Action*  ___didResumeEvent;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MockPause, ___didPauseEvent) == 0x10, "Offset mismatch!");
@@ -129,8 +130,6 @@ static_assert(offsetof(::GlobalNamespace::MockPause, ___willResumeEvent) == 0x18
 
 static_assert(offsetof(::GlobalNamespace::MockPause, ___didResumeEvent) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPause, 0x28>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::MockPause) == 0x28, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::MockPause);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPause*, "", "MockPause");
+} // namespace GlobalNamespace

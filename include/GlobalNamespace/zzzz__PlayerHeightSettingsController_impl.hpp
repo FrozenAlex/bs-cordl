@@ -9,300 +9,228 @@
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightSettingsController.add_valueDidChangeEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)(::System::Action_1<float_t>*)>(&::GlobalNamespace::PlayerHeightSettingsController::add_valueDidChangeEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)(::System::Action_1<float_t>*)>(
+    &::GlobalNamespace::PlayerHeightSettingsController::add_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x58e5a98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "add_valueDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(),
+                                                                                           { "add_valueDidChangeEvent", {}, { ::i2c::type_of<::System::Action_1<float_t>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightSettingsController.remove_valueDidChangeEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)(::System::Action_1<float_t>*)>(&::GlobalNamespace::PlayerHeightSettingsController::remove_valueDidChangeEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)(::System::Action_1<float_t>*)>(
+    &::GlobalNamespace::PlayerHeightSettingsController::remove_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x58e5b58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "remove_valueDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(),
+                                                                                           { "remove_valueDidChangeEvent", {}, { ::i2c::type_of<::System::Action_1<float_t>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightSettingsController.get_value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::get_value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::get_value)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x58e5c18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "get_value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "get_value", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightSettingsController.Awake
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::Awake)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::Awake)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x58e5c20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "Awake", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightSettingsController.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)(float_t)>(&::GlobalNamespace::PlayerHeightSettingsController::Init)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)(float_t)>(&::GlobalNamespace::PlayerHeightSettingsController::Init)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x58e5ce8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "Init", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightSettingsController.AutoSetHeight
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::AutoSetHeight)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::AutoSetHeight)> {
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x58e5dac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "AutoSetHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "AutoSetHeight", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightSettingsController.RefreshUI
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::RefreshUI)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::RefreshUI)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x58e5cf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "RefreshUI",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "RefreshUI", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightSettingsController._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightSettingsController::*)()>(&::GlobalNamespace::PlayerHeightSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58e5ec4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__text()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____text;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__text() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____text;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__text() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____text;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____text;
 }
-constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____text = value;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__setButton()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____setButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__setButton() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____setButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__setButton() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____setButton;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____setButton;
 }
-constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__setButton(::UnityW<::UnityEngine::UI::Button>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____setButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__setButton(::UnityW<::UnityEngine::UI::Button> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____setButton = value;
 }
-constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__vrPlatformHelper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____vrPlatformHelper;
+constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__vrPlatformHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____vrPlatformHelper;
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__vrPlatformHelper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____vrPlatformHelper;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____vrPlatformHelper;
 }
-constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____vrPlatformHelper = value;
 }
-constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__settingsManager()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____settingsManager;
+constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__settingsManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsManager;
 }
 constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__settingsManager() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____settingsManager;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsManager;
 }
-constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____settingsManager = value;
 }
-constexpr ::System::Action_1<float_t>*& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get_valueDidChangeEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___valueDidChangeEvent;
+constexpr ::System::Action_1<float_t>*& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get_valueDidChangeEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___valueDidChangeEvent;
 }
 constexpr ::System::Action_1<float_t>* const& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get_valueDidChangeEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___valueDidChangeEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___valueDidChangeEvent;
 }
-constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set_valueDidChangeEvent(::System::Action_1<float_t>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___valueDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set_valueDidChangeEvent(::System::Action_1<float_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___valueDidChangeEvent = value;
 }
-constexpr ::HMUI::ButtonBinder*& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__buttonBinder()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buttonBinder;
+constexpr ::HMUI::ButtonBinder*& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__buttonBinder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buttonBinder;
 }
 constexpr ::HMUI::ButtonBinder* const& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__buttonBinder() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buttonBinder;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buttonBinder;
 }
-constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__buttonBinder(::HMUI::ButtonBinder*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____buttonBinder = value;
 }
-constexpr float_t& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__value()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____value;
+constexpr float_t& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__value() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____value;
 }
 constexpr float_t const& GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_get__value() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____value;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____value;
 }
-constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__value(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____value = value;
+constexpr void GlobalNamespace::PlayerHeightSettingsController::__cordl_internal_set__value(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____value = value;
 }
-inline void GlobalNamespace::PlayerHeightSettingsController::add_valueDidChangeEvent(::System::Action_1<float_t>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "add_valueDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::PlayerHeightSettingsController::add_valueDidChangeEvent(::System::Action_1<float_t>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "add_valueDidChangeEvent", {}, { ::i2c::type_of<::System::Action_1<float_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::PlayerHeightSettingsController::remove_valueDidChangeEvent(::System::Action_1<float_t>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "remove_valueDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::PlayerHeightSettingsController::remove_valueDidChangeEvent(::System::Action_1<float_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(),
+                                                                                         { "remove_valueDidChangeEvent", {}, { ::i2c::type_of<::System::Action_1<float_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline float_t GlobalNamespace::PlayerHeightSettingsController::get_value()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "get_value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::PlayerHeightSettingsController::get_value() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "get_value", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerHeightSettingsController::Awake()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayerHeightSettingsController::Awake() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "Awake", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerHeightSettingsController::Init(float_t  playerHeight)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playerHeight);
+inline void GlobalNamespace::PlayerHeightSettingsController::Init(float_t playerHeight) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "Init", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, playerHeight);
 }
-inline void GlobalNamespace::PlayerHeightSettingsController::AutoSetHeight()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "AutoSetHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayerHeightSettingsController::AutoSetHeight() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "AutoSetHeight", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerHeightSettingsController::RefreshUI()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        "RefreshUI",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayerHeightSettingsController::RefreshUI() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { "RefreshUI", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerHeightSettingsController::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightSettingsController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayerHeightSettingsController::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightSettingsController*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PlayerHeightSettingsController* GlobalNamespace::PlayerHeightSettingsController::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayerHeightSettingsController*>());
+inline ::GlobalNamespace::PlayerHeightSettingsController* GlobalNamespace::PlayerHeightSettingsController::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlayerHeightSettingsController*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlayerHeightSettingsController::PlayerHeightSettingsController()   {
-}
+constexpr ::GlobalNamespace::PlayerHeightSettingsController::PlayerHeightSettingsController() {}

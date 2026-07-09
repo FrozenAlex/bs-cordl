@@ -4,59 +4,46 @@
 #include "UnityEngine/InputSystem/UI/zzzz__ExtendedAxisEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::UI::ExtendedAxisEventData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(&::UnityEngine::InputSystem::UI::ExtendedAxisEventData::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
+    &::UnityEngine::InputSystem::UI::ExtendedAxisEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x644fd1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::EventSystem*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::EventSystems::EventSystem*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::UI::ExtendedAxisEventData.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)()>(&::UnityEngine::InputSystem::UI::ExtendedAxisEventData::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)()>(&::UnityEngine::InputSystem::UI::ExtendedAxisEventData::ToString)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x644fd24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(), 3 }));
     return ___internal_method;
   }
 };
-inline void UnityEngine::InputSystem::UI::ExtendedAxisEventData::_ctor(::UnityEngine::EventSystems::EventSystem*  eventSystem)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::EventSystem*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventSystem);
+inline void UnityEngine::InputSystem::UI::ExtendedAxisEventData::_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::EventSystems::EventSystem*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventSystem);
 }
-inline ::StringW UnityEngine::InputSystem::UI::ExtendedAxisEventData::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::InputSystem::UI::ExtendedAxisEventData::ToString() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* UnityEngine::InputSystem::UI::ExtendedAxisEventData::New_ctor(::UnityEngine::EventSystems::EventSystem*  eventSystem)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(eventSystem));
+inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* UnityEngine::InputSystem::UI::ExtendedAxisEventData::New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(eventSystem));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::UI::ExtendedAxisEventData::ExtendedAxisEventData()   {
-}
+constexpr ::UnityEngine::InputSystem::UI::ExtendedAxisEventData::ExtendedAxisEventData() {}

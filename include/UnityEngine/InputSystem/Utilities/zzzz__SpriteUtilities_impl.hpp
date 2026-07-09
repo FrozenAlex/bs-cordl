@@ -5,31 +5,23 @@
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::SpriteUtilities.CreateCircleSprite
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(int32_t, ::UnityEngine::Color32)>(&::UnityEngine::InputSystem::Utilities::SpriteUtilities::CreateCircleSprite)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(int32_t, ::UnityEngine::Color32)>(
+    &::UnityEngine::InputSystem::Utilities::SpriteUtilities::CreateCircleSprite)> {
   constexpr static std::size_t size = 0x1c8;
   constexpr static std::size_t addrs = 0x63c67b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::SpriteUtilities*>::get(),
-                        "CreateCircleSprite",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::SpriteUtilities*>(),
+                                                                                           { "CreateCircleSprite", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Color32>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityW<::UnityEngine::Sprite> UnityEngine::InputSystem::Utilities::SpriteUtilities::CreateCircleSprite(int32_t  radius, ::UnityEngine::Color32  colour)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::SpriteUtilities*>::get(),
-                        "CreateCircleSprite",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, radius, colour);
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::InputSystem::Utilities::SpriteUtilities::CreateCircleSprite(int32_t radius, ::UnityEngine::Color32 colour) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::SpriteUtilities*>(),
+                                                                                         { "CreateCircleSprite", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Color32>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>>(nullptr, ___internal_method, radius, colour);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::Utilities::SpriteUtilities::SpriteUtilities()   {
-}
+constexpr ::UnityEngine::InputSystem::Utilities::SpriteUtilities::SpriteUtilities() {}

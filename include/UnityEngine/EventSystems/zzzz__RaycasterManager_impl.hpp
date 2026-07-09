@@ -5,89 +5,66 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::RaycasterManager.AddRaycaster
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(&::UnityEngine::EventSystems::RaycasterManager::AddRaycaster)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(&::UnityEngine::EventSystems::RaycasterManager::AddRaycaster)> {
   constexpr static std::size_t size = 0x11c;
   constexpr static std::size_t addrs = 0x6ccbb74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get(),
-                        "AddRaycaster",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::BaseRaycaster*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycasterManager*>(),
+                                                                                           { "AddRaycaster", {}, { ::i2c::type_of<::UnityEngine::EventSystems::BaseRaycaster*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::EventSystems::RaycasterManager.GetRaycasters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* (*)()>(&::UnityEngine::EventSystems::RaycasterManager::GetRaycasters)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* (*)()>(
+    &::UnityEngine::EventSystems::RaycasterManager::GetRaycasters)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6ccbc90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get(),
-                        "GetRaycasters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycasterManager*>(), { "GetRaycasters", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::EventSystems::RaycasterManager.RemoveRaycasters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(&::UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(&::UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x6ccbcec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get(),
-                        "RemoveRaycasters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::BaseRaycaster*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycasterManager*>(),
+                                                                                           { "RemoveRaycasters", {}, { ::i2c::type_of<::UnityEngine::EventSystems::BaseRaycaster*>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::EventSystems::RaycasterManager::setStaticF_s_Raycasters(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>*, "s_Raycasters", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get>(std::forward<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>*>(value));
+inline void UnityEngine::EventSystems::RaycasterManager::setStaticF_s_Raycasters(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>*, "s_Raycasters", ::UnityEngine::EventSystems::RaycasterManager*>(
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* UnityEngine::EventSystems::RaycasterManager::getStaticF_s_Raycasters()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>*, "s_Raycasters", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get>();
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* UnityEngine::EventSystems::RaycasterManager::getStaticF_s_Raycasters() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>*, "s_Raycasters",
+                                           ::UnityEngine::EventSystems::RaycasterManager*>();
 }
-inline void UnityEngine::EventSystems::RaycasterManager::AddRaycaster(::UnityEngine::EventSystems::BaseRaycaster*  baseRaycaster)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get(),
-                        "AddRaycaster",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::BaseRaycaster*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, baseRaycaster);
+inline void UnityEngine::EventSystems::RaycasterManager::AddRaycaster(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycasterManager*>(), { "AddRaycaster", {}, { ::i2c::type_of<::UnityEngine::EventSystems::BaseRaycaster*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, baseRaycaster);
 }
-inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* UnityEngine::EventSystems::RaycasterManager::GetRaycasters()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get(),
-                        "GetRaycasters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>*, false>(nullptr, ___internal_method);
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* UnityEngine::EventSystems::RaycasterManager::GetRaycasters() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycasterManager*>(), { "GetRaycasters", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>*>(nullptr, ___internal_method);
 }
-inline void UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters(::UnityEngine::EventSystems::BaseRaycaster*  baseRaycaster)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get(),
-                        "RemoveRaycasters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::BaseRaycaster*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, baseRaycaster);
+inline void UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycasterManager*>(),
+                                                                                         { "RemoveRaycasters", {}, { ::i2c::type_of<::UnityEngine::EventSystems::BaseRaycaster*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, baseRaycaster);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::EventSystems::RaycasterManager::RaycasterManager()   {
-}
+constexpr ::UnityEngine::EventSystems::RaycasterManager::RaycasterManager() {}

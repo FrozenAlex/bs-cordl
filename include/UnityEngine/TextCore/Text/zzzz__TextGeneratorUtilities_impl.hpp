@@ -20,1253 +20,1097 @@
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.Approximately
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t, float_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::Approximately)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::Approximately)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6ab0950;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "Approximately",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                           { "Approximately", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.HexCharsToColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::ArrayW<char16_t,::Array<char16_t>*>, int32_t, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::HexCharsToColor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::HexCharsToColor)> {
   constexpr static std::size_t size = 0x41c;
   constexpr static std::size_t addrs = 0x6ab0978;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "HexCharsToColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "HexCharsToColor", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.HexToInt
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::HexToInt)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::HexToInt)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x6ab0d94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "HexToInt",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "HexToInt", {}, { ::i2c::type_of<char16_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ConvertToFloat
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ArrayW<char16_t,::Array<char16_t>*>, int32_t, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6ab0dc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ConvertToFloat",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "ConvertToFloat", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ConvertToFloat
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ArrayW<char16_t,::Array<char16_t>*>, int32_t, int32_t, ::ByRef<int32_t>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::ArrayW<char16_t>, int32_t, int32_t, ::by_ref<int32_t>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x6ab0e40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ConvertToFloat",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                            { "ConvertToFloat", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.InsertOpeningTextStyle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TextCore::Text::TextStyle*, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningTextStyle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::UnityEngine::TextCore::Text::TextStyle*, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>, ::by_ref<int32_t>, ::by_ref<int32_t>,
+                         ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>, ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(
+        &::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningTextStyle)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x6ab0f9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertOpeningTextStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextStyle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                { "InsertOpeningTextStyle",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::TextCore::Text::TextStyle*>(),
+                                                    ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                    ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.InsertClosingTextStyle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TextCore::Text::TextStyle*, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingTextStyle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::UnityEngine::TextCore::Text::TextStyle*, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>, ::by_ref<int32_t>, ::by_ref<int32_t>,
+                         ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>, ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(
+        &::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingTextStyle)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x6ab1538;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertClosingTextStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextStyle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                { "InsertClosingTextStyle",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::TextCore::Text::TextStyle*>(),
+                                                    ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                    ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ReplaceOpeningStyleTag
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::TextCore::Text::TextBackingContainer>, int32_t, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(
+    ::by_ref<::UnityEngine::TextCore::Text::TextBackingContainer>, int32_t, ::by_ref<int32_t>, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>, ::by_ref<int32_t>,
+    ::by_ref<int32_t>, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>, ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x6ab1640;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ReplaceOpeningStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 8>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextBackingContainer>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                { "ReplaceOpeningStyleTag",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextBackingContainer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                    ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                    ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ReplaceOpeningStyleTag
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>, int32_t, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<bool (*)(::by_ref<::ArrayW<uint32_t>>, int32_t, ::by_ref<int32_t>, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>, ::by_ref<int32_t>, ::by_ref<int32_t>,
+                         ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>, ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(
+        &::UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x6ab1978;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ReplaceOpeningStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 8>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                { "ReplaceOpeningStyleTag",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::ArrayW<uint32_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                    ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                    ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ReplaceClosingStyleTag
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceClosingStyleTag)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>,
+    ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceClosingStyleTag)> {
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x6ab1bac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ReplaceClosingStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                { "ReplaceClosingStyleTag",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                    ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.InsertOpeningStyleTag
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TextCore::Text::TextStyle*, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningStyleTag)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::UnityEngine::TextCore::Text::TextStyle*, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>, ::by_ref<int32_t>, ::by_ref<int32_t>,
+                         ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>, ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(
+        &::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningStyleTag)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x6ab1ce0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertOpeningStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextStyle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                { "InsertOpeningStyleTag",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::TextCore::Text::TextStyle*>(),
+                                                    ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                    ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.InsertClosingStyleTag
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingStyleTag)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>,
+    ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingStyleTag)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x6ab1dc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertClosingStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                { "InsertClosingStyleTag",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                    ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.InsertTextStyleInTextProcessingArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ArrayW<uint32_t,::Array<uint32_t>*>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertTextStyleInTextProcessingArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>, ::by_ref<int32_t>, ::ArrayW<uint32_t>, ::by_ref<int32_t>,
+                         ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>, ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(
+        &::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertTextStyleInTextProcessingArray)> {
   constexpr static std::size_t size = 0x494;
   constexpr static std::size_t addrs = 0x6ab10a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertTextStyleInTextProcessingArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                            { "InsertTextStyleInTextProcessingArray",
+                              {},
+                              { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::ArrayW<uint32_t>>(),
+                                ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetStyle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::TextStyle* (*)(::UnityEngine::TextCore::Text::TextGenerationSettings*, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::TextStyle* (*)(::UnityEngine::TextCore::Text::TextGenerationSettings*, int32_t)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyle)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x6ab1890;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "GetStyle", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextGenerationSettings*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetStyleHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>, int32_t, ::ByRef<int32_t>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::ArrayW<uint32_t>>, int32_t, ::by_ref<int32_t>)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x6ab1ad8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetStyleHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                { "GetStyleHashCode", {}, { ::i2c::type_of<::by_ref<::ArrayW<uint32_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetStyleHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<::UnityEngine::TextCore::Text::TextBackingContainer>, int32_t, ::ByRef<int32_t>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::TextCore::Text::TextBackingContainer>, int32_t, ::by_ref<int32_t>)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x6ab17a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetStyleHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextBackingContainer>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+            { "GetStyleHashCode", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextBackingContainer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetUTF16
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<uint32_t>, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x6ab1eb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetUTF16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                           { "GetUTF16", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetUTF16
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x6ab22a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetUTF16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "GetUTF16", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetUTF32
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<uint32_t>, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32)> {
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x6ab1fa0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetUTF32",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                           { "GetUTF32", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetUTF32
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32)> {
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x6ab2368;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetUTF32",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "GetUTF32", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.FillCharacterVertexBuffers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, bool, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::FillCharacterVertexBuffers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, bool, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::FillCharacterVertexBuffers)> {
   constexpr static std::size_t size = 0x1228;
   constexpr static std::size_t addrs = 0x6ab2478;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "FillCharacterVertexBuffers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "FillCharacterVertexBuffers",
+                                                               {},
+                                                               { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::TextCore::Text::TextGenerationSettings*>(),
+                                                                 ::i2c::type_of<::UnityEngine::TextCore::Text::TextInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.FillSpriteVertexBuffers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, bool, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::FillSpriteVertexBuffers)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, bool, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::FillSpriteVertexBuffers)> {
   constexpr static std::size_t size = 0x113c;
   constexpr static std::size_t addrs = 0x6ab3738;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "FillSpriteVertexBuffers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "FillSpriteVertexBuffers",
+                                                               {},
+                                                               { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::TextCore::Text::TextGenerationSettings*>(),
+                                                                 ::i2c::type_of<::UnityEngine::TextCore::Text::TextInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.AdjustLineOffset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, float_t, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::AdjustLineOffset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, float_t, ::UnityEngine::TextCore::Text::TextInfo*)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::AdjustLineOffset)> {
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x6ab4874;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "AdjustLineOffset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                         { "AdjustLineOffset", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::TextCore::Text::TextInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ResizeLineExtents
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeLineExtents)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeLineExtents)> {
   constexpr static std::size_t size = 0x1b4;
   constexpr static std::size_t addrs = 0x6ab49f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ResizeLineExtents",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "ResizeLineExtents", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::Text::TextInfo*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.LegacyStyleToNewStyle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::FontStyles (*)(::UnityEngine::FontStyle)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyStyleToNewStyle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::FontStyles (*)(::UnityEngine::FontStyle)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyStyleToNewStyle)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x6ab4bac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "LegacyStyleToNewStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FontStyle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "LegacyStyleToNewStyle", {}, { ::i2c::type_of<::UnityEngine::FontStyle>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.LegacyAlignmentToNewAlignment
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::TextAlignment (*)(::UnityEngine::TextAnchor)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyAlignmentToNewAlignment)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::TextAlignment (*)(::UnityEngine::TextAnchor)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyAlignmentToNewAlignment)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x6ab4bbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "LegacyAlignmentToNewAlignment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                           { "LegacyAlignmentToNewAlignment", {}, { ::i2c::type_of<::UnityEngine::TextAnchor>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetHorizontalAlignment
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::HorizontalAlignment (*)(::UnityEngine::TextAnchor)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetHorizontalAlignment)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::HorizontalAlignment (*)(::UnityEngine::TextAnchor)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetHorizontalAlignment)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x6ab4be0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetHorizontalAlignment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                           { "GetHorizontalAlignment", {}, { ::i2c::type_of<::UnityEngine::TextAnchor>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetVerticalAlignment
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::VerticalAlignment (*)(::UnityEngine::TextAnchor)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetVerticalAlignment)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::VerticalAlignment (*)(::UnityEngine::TextAnchor)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetVerticalAlignment)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x6ab4c04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetVerticalAlignment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "GetVerticalAlignment", {}, { ::i2c::type_of<::UnityEngine::TextAnchor>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ConvertToUTF32
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToUTF32)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToUTF32)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6ab4c28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ConvertToUTF32",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                           { "ConvertToUTF32", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetMarkupTagHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x6ab4c3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetMarkupTagHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "GetMarkupTagHashCode", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetMarkupTagHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint32_t,::Array<uint32_t>*>, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint32_t>, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode)> {
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x6ab2124;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetMarkupTagHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                           { "GetMarkupTagHashCode", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ToUpperASCIIFast
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6ab2228;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ToUpperASCIIFast",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "ToUpperASCIIFast", {}, { ::i2c::type_of<char16_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ToUpperASCIIFast
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6ab4d30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ToUpperASCIIFast",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "ToUpperASCIIFast", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ToUpperFast
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperFast)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperFast)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6ab4db0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ToUpperFast",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "ToUpperFast", {}, { ::i2c::type_of<char16_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetAttributeParameters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<char16_t,::Array<char16_t>*>, int32_t, int32_t, ::ByRef<::ArrayW<float_t,::Array<float_t>*>>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetAttributeParameters)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<char16_t>, int32_t, int32_t, ::by_ref<::ArrayW<float_t>>)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetAttributeParameters)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x6ab4e30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetAttributeParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<float_t,::Array<float_t>*>>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+            { "GetAttributeParameters", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::ArrayW<float_t>>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsBitmapRendering
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextCore::LowLevel::GlyphRenderMode)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBitmapRendering)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::LowLevel::GlyphRenderMode)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBitmapRendering)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x6ab4f18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsBitmapRendering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                           { "IsBitmapRendering", {}, { ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsBaseGlyph
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBaseGlyph)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBaseGlyph)> {
   constexpr static std::size_t size = 0x180;
   constexpr static std::size_t addrs = 0x6ab4f4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsBaseGlyph",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsBaseGlyph", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.MinAlpha
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::MinAlpha)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::MinAlpha)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6ab50cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "MinAlpha",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                           { "MinAlpha", {}, { ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GammaToLinear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x6ab36a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GammaToLinear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "GammaToLinear", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GammaToLinear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint8_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(uint8_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x6ab50d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GammaToLinear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "GammaToLinear", {}, { ::i2c::type_of<uint8_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsValidUTF16
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF16)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF16)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6ab5178;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsValidUTF16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "IsValidUTF16", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsValidUTF32
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF32)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF32)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6ab5214;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsValidUTF32",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                             { "IsValidUTF32", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsEmoji
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmoji)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmoji)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x6ab52b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsEmoji",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsEmoji", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsEmojiPresentationForm
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmojiPresentationForm)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmojiPresentationForm)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x6ab5338;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsEmojiPresentationForm",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsEmojiPresentationForm", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsHangul
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsHangul)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsHangul)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6ab53c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsHangul",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsHangul", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsCJK
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsCJK)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsCJK)> {
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x6ab5454;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsCJK",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsCJK", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_largePositiveVector2(::UnityEngine::Vector2  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Vector2, "largePositiveVector2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>(std::forward<::UnityEngine::Vector2>(value));
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_largePositiveVector2(::UnityEngine::Vector2 value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Vector2, "largePositiveVector2", ::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(std::forward<::UnityEngine::Vector2>(value));
 }
-inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_largePositiveVector2()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "largePositiveVector2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>();
+inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_largePositiveVector2() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "largePositiveVector2", ::UnityEngine::TextCore::Text::TextGeneratorUtilities*>();
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_largeNegativeVector2(::UnityEngine::Vector2  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Vector2, "largeNegativeVector2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>(std::forward<::UnityEngine::Vector2>(value));
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_largeNegativeVector2(::UnityEngine::Vector2 value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Vector2, "largeNegativeVector2", ::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(std::forward<::UnityEngine::Vector2>(value));
 }
-inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_largeNegativeVector2()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "largeNegativeVector2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>();
+inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_largeNegativeVector2() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "largeNegativeVector2", ::UnityEngine::TextCore::Text::TextGeneratorUtilities*>();
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_k_EmojiLookup(::System::Collections::Generic::HashSet_1<uint32_t>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiLookup", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>(std::forward<::System::Collections::Generic::HashSet_1<uint32_t>*>(value));
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_k_EmojiLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiLookup", ::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(
+      std::forward<::System::Collections::Generic::HashSet_1<uint32_t>*>(value));
 }
-inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_k_EmojiLookup()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiLookup", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>();
+inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_k_EmojiLookup() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiLookup", ::UnityEngine::TextCore::Text::TextGeneratorUtilities*>();
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_k_EmojiPresentationFormLookup(::System::Collections::Generic::HashSet_1<uint32_t>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiPresentationFormLookup", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>(std::forward<::System::Collections::Generic::HashSet_1<uint32_t>*>(value));
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_k_EmojiPresentationFormLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiPresentationFormLookup", ::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(
+      std::forward<::System::Collections::Generic::HashSet_1<uint32_t>*>(value));
 }
-inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_k_EmojiPresentationFormLookup()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiPresentationFormLookup", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>();
+inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_k_EmojiPresentationFormLookup() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiPresentationFormLookup", ::UnityEngine::TextCore::Text::TextGeneratorUtilities*>();
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::Approximately(float_t  a, float_t  b)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "Approximately",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, a, b);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::Approximately(float_t a, float_t b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "Approximately", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline ::UnityEngine::Color32 UnityEngine::TextCore::Text::TextGeneratorUtilities::HexCharsToColor(::ArrayW<char16_t,::Array<char16_t>*>  hexChars, int32_t  startIndex, int32_t  tagCount)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "HexCharsToColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32, false>(nullptr, ___internal_method, hexChars, startIndex, tagCount);
+inline ::UnityEngine::Color32 UnityEngine::TextCore::Text::TextGeneratorUtilities::HexCharsToColor(::ArrayW<char16_t> hexChars, int32_t startIndex, int32_t tagCount) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "HexCharsToColor", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32>(nullptr, ___internal_method, hexChars, startIndex, tagCount);
 }
-inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::HexToInt(char16_t  hex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "HexToInt",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, hex);
+inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::HexToInt(char16_t hex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "HexToInt", {}, { ::i2c::type_of<char16_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, hex);
 }
-inline float_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat(::ArrayW<char16_t,::Array<char16_t>*>  chars, int32_t  startIndex, int32_t  length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ConvertToFloat",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, chars, startIndex, length);
+inline float_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat(::ArrayW<char16_t> chars, int32_t startIndex, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "ConvertToFloat", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, chars, startIndex, length);
 }
-inline float_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat(::ArrayW<char16_t,::Array<char16_t>*>  chars, int32_t  startIndex, int32_t  length, ::ByRef<int32_t>  lastIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ConvertToFloat",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, chars, startIndex, length, lastIndex);
+inline float_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat(::ArrayW<char16_t> chars, int32_t startIndex, int32_t length, ::by_ref<int32_t> lastIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                       { "ConvertToFloat", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, chars, startIndex, length, lastIndex);
 }
-template<typename T>
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeInternalArray(::ByRef<::ArrayW<T,::Array<T>*>>  array)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                    "ResizeInternalArray",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<T,::Array<T>*>>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array);
+template <typename T> inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeInternalArray(::by_ref<::ArrayW<T>> array) {
+  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                              { "ResizeInternalArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<::ArrayW<T>>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array);
 }
-template<typename T>
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeInternalArray(::ByRef<::ArrayW<T,::Array<T>*>>  array, int32_t  size)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                    "ResizeInternalArray",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<T,::Array<T>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, size);
+template <typename T> inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeInternalArray(::by_ref<::ArrayW<T>> array, int32_t size) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "ResizeInternalArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<::ArrayW<T>>>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, size);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningTextStyle(::UnityEngine::TextCore::Text::TextStyle*  style, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>  charBuffer, ::ByRef<int32_t>  writeIndex, ::ByRef<int32_t>  textStyleStackDepth, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>  textStyleStacks, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>  generationSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertOpeningTextStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextStyle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, style, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningTextStyle(::UnityEngine::TextCore::Text::TextStyle* style,
+                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>> charBuffer,
+                                                                                        ::by_ref<int32_t> writeIndex, ::by_ref<int32_t> textStyleStackDepth,
+                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>> textStyleStacks,
+                                                                                        ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "InsertOpeningTextStyle",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::TextCore::Text::TextStyle*>(),
+                                                               ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                               ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, style, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingTextStyle(::UnityEngine::TextCore::Text::TextStyle*  style, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>  charBuffer, ::ByRef<int32_t>  writeIndex, ::ByRef<int32_t>  textStyleStackDepth, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>  textStyleStacks, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>  generationSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertClosingTextStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextStyle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, style, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingTextStyle(::UnityEngine::TextCore::Text::TextStyle* style,
+                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>> charBuffer,
+                                                                                        ::by_ref<int32_t> writeIndex, ::by_ref<int32_t> textStyleStackDepth,
+                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>> textStyleStacks,
+                                                                                        ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "InsertClosingTextStyle",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::TextCore::Text::TextStyle*>(),
+                                                               ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                               ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, style, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag(::ByRef<::UnityEngine::TextCore::Text::TextBackingContainer>  sourceText, int32_t  srcIndex, ::ByRef<int32_t>  srcOffset, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>  charBuffer, ::ByRef<int32_t>  writeIndex, ::ByRef<int32_t>  textStyleStackDepth, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>  textStyleStacks, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>  generationSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ReplaceOpeningStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 8>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextBackingContainer>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, sourceText, srcIndex, srcOffset, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag(::by_ref<::UnityEngine::TextCore::Text::TextBackingContainer> sourceText, int32_t srcIndex,
+                                                                                        ::by_ref<int32_t> srcOffset,
+                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>> charBuffer,
+                                                                                        ::by_ref<int32_t> writeIndex, ::by_ref<int32_t> textStyleStackDepth,
+                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>> textStyleStacks,
+                                                                                        ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                              { "ReplaceOpeningStyleTag",
+                                                {},
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextBackingContainer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                  ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                  ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, sourceText, srcIndex, srcOffset, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag(::ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>  sourceText, int32_t  srcIndex, ::ByRef<int32_t>  srcOffset, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>  charBuffer, ::ByRef<int32_t>  writeIndex, ::ByRef<int32_t>  textStyleStackDepth, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>  textStyleStacks, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>  generationSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ReplaceOpeningStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 8>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, sourceText, srcIndex, srcOffset, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag(::by_ref<::ArrayW<uint32_t>> sourceText, int32_t srcIndex, ::by_ref<int32_t> srcOffset,
+                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>> charBuffer,
+                                                                                        ::by_ref<int32_t> writeIndex, ::by_ref<int32_t> textStyleStackDepth,
+                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>> textStyleStacks,
+                                                                                        ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "ReplaceOpeningStyleTag",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::ArrayW<uint32_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                               ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                               ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, sourceText, srcIndex, srcOffset, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceClosingStyleTag(::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>  charBuffer, ::ByRef<int32_t>  writeIndex, ::ByRef<int32_t>  textStyleStackDepth, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>  textStyleStacks, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>  generationSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ReplaceClosingStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceClosingStyleTag(::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>> charBuffer,
+                                                                                        ::by_ref<int32_t> writeIndex, ::by_ref<int32_t> textStyleStackDepth,
+                                                                                        ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>> textStyleStacks,
+                                                                                        ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "ReplaceClosingStyleTag",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                               ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningStyleTag(::UnityEngine::TextCore::Text::TextStyle*  style, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>  charBuffer, ::ByRef<int32_t>  writeIndex, ::ByRef<int32_t>  textStyleStackDepth, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>  textStyleStacks, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>  generationSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertOpeningStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextStyle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, style, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningStyleTag(::UnityEngine::TextCore::Text::TextStyle* style,
+                                                                                       ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>> charBuffer,
+                                                                                       ::by_ref<int32_t> writeIndex, ::by_ref<int32_t> textStyleStackDepth,
+                                                                                       ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>> textStyleStacks,
+                                                                                       ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "InsertOpeningStyleTag",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::TextCore::Text::TextStyle*>(),
+                                                               ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                               ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, style, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingStyleTag(::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>  charBuffer, ::ByRef<int32_t>  writeIndex, ::ByRef<int32_t>  textStyleStackDepth, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>  textStyleStacks, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>  generationSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertClosingStyleTag",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingStyleTag(::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>> charBuffer,
+                                                                                       ::by_ref<int32_t> writeIndex, ::by_ref<int32_t> textStyleStackDepth,
+                                                                                       ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>> textStyleStacks,
+                                                                                       ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "InsertClosingStyleTag",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                               ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, charBuffer, writeIndex, textStyleStackDepth, textStyleStacks, generationSettings);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertTextStyleInTextProcessingArray(::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>  charBuffer, ::ByRef<int32_t>  writeIndex, ::ArrayW<uint32_t,::Array<uint32_t>*>  styleDefinition, ::ByRef<int32_t>  textStyleStackDepth, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>  textStyleStacks, ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>  generationSettings)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "InsertTextStyleInTextProcessingArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement,::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>,::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, charBuffer, writeIndex, styleDefinition, textStyleStackDepth, textStyleStacks, generationSettings);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertTextStyleInTextProcessingArray(::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>> charBuffer,
+                                                                                                      ::by_ref<int32_t> writeIndex, ::ArrayW<uint32_t> styleDefinition,
+                                                                                                      ::by_ref<int32_t> textStyleStackDepth,
+                                                                                                      ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>> textStyleStacks,
+                                                                                                      ::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*> generationSettings) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                          { "InsertTextStyleInTextProcessingArray",
+                            {},
+                            { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement>>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::ArrayW<uint32_t>>(),
+                              ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextGenerationSettings*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, charBuffer, writeIndex, styleDefinition, textStyleStackDepth, textStyleStacks, generationSettings);
 }
-inline ::UnityEngine::TextCore::Text::TextStyle* UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyle(::UnityEngine::TextCore::Text::TextGenerationSettings*  generationSetting, int32_t  hashCode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::TextStyle*, false>(nullptr, ___internal_method, generationSetting, hashCode);
+inline ::UnityEngine::TextCore::Text::TextStyle* UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyle(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSetting,
+                                                                                                               int32_t hashCode) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "GetStyle", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextGenerationSettings*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::TextStyle*>(nullptr, ___internal_method, generationSetting, hashCode);
 }
-inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode(::ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>  text, int32_t  index, ::ByRef<int32_t>  closeIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetStyleHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, text, index, closeIndex);
+inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode(::by_ref<::ArrayW<uint32_t>> text, int32_t index, ::by_ref<int32_t> closeIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                              { "GetStyleHashCode", {}, { ::i2c::type_of<::by_ref<::ArrayW<uint32_t>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, text, index, closeIndex);
 }
-inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode(::ByRef<::UnityEngine::TextCore::Text::TextBackingContainer>  text, int32_t  index, ::ByRef<int32_t>  closeIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetStyleHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::TextCore::Text::TextBackingContainer>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, text, index, closeIndex);
+inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode(::by_ref<::UnityEngine::TextCore::Text::TextBackingContainer> text, int32_t index, ::by_ref<int32_t> closeIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+          { "GetStyleHashCode", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::TextBackingContainer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, text, index, closeIndex);
 }
-inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16(::ArrayW<uint32_t,::Array<uint32_t>*>  text, int32_t  i)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetUTF16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, text, i);
+inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16(::ArrayW<uint32_t> text, int32_t i) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                         { "GetUTF16", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, text, i);
 }
-inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16(::UnityEngine::TextCore::Text::TextBackingContainer  text, int32_t  i)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetUTF16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, text, i);
+inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16(::UnityEngine::TextCore::Text::TextBackingContainer text, int32_t i) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "GetUTF16", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, text, i);
 }
-inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32(::ArrayW<uint32_t,::Array<uint32_t>*>  text, int32_t  i)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetUTF32",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, text, i);
+inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32(::ArrayW<uint32_t> text, int32_t i) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                         { "GetUTF32", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, text, i);
 }
-inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32(::UnityEngine::TextCore::Text::TextBackingContainer  text, int32_t  i)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetUTF32",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, text, i);
+inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32(::UnityEngine::TextCore::Text::TextBackingContainer text, int32_t i) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "GetUTF32", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, text, i);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::FillCharacterVertexBuffers(int32_t  i, bool  convertToLinearSpace, ::UnityEngine::TextCore::Text::TextGenerationSettings*  generationSettings, ::UnityEngine::TextCore::Text::TextInfo*  textInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "FillCharacterVertexBuffers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, i, convertToLinearSpace, generationSettings, textInfo);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::FillCharacterVertexBuffers(int32_t i, bool convertToLinearSpace,
+                                                                                            ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
+                                                                                            ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "FillCharacterVertexBuffers",
+                                                             {},
+                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::TextCore::Text::TextGenerationSettings*>(),
+                                                               ::i2c::type_of<::UnityEngine::TextCore::Text::TextInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, i, convertToLinearSpace, generationSettings, textInfo);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::FillSpriteVertexBuffers(int32_t  i, bool  convertToLinearSpace, ::UnityEngine::TextCore::Text::TextGenerationSettings*  generationSettings, ::UnityEngine::TextCore::Text::TextInfo*  textInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "FillSpriteVertexBuffers",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, i, convertToLinearSpace, generationSettings, textInfo);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::FillSpriteVertexBuffers(int32_t i, bool convertToLinearSpace,
+                                                                                         ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
+                                                                                         ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "FillSpriteVertexBuffers",
+                                                             {},
+                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::TextCore::Text::TextGenerationSettings*>(),
+                                                               ::i2c::type_of<::UnityEngine::TextCore::Text::TextInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, i, convertToLinearSpace, generationSettings, textInfo);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::AdjustLineOffset(int32_t  startIndex, int32_t  endIndex, float_t  offset, ::UnityEngine::TextCore::Text::TextInfo*  textInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "AdjustLineOffset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, startIndex, endIndex, offset, textInfo);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::AdjustLineOffset(int32_t startIndex, int32_t endIndex, float_t offset, ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                       { "AdjustLineOffset", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::TextCore::Text::TextInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, startIndex, endIndex, offset, textInfo);
 }
-inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeLineExtents(int32_t  size, ::UnityEngine::TextCore::Text::TextInfo*  textInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ResizeLineExtents",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, size, textInfo);
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeLineExtents(int32_t size, ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "ResizeLineExtents", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::Text::TextInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, size, textInfo);
 }
-inline ::UnityEngine::TextCore::Text::FontStyles UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyStyleToNewStyle(::UnityEngine::FontStyle  fontStyle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "LegacyStyleToNewStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FontStyle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::FontStyles, false>(nullptr, ___internal_method, fontStyle);
+inline ::UnityEngine::TextCore::Text::FontStyles UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyStyleToNewStyle(::UnityEngine::FontStyle fontStyle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "LegacyStyleToNewStyle", {}, { ::i2c::type_of<::UnityEngine::FontStyle>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::FontStyles>(nullptr, ___internal_method, fontStyle);
 }
-inline ::UnityEngine::TextCore::Text::TextAlignment UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyAlignmentToNewAlignment(::UnityEngine::TextAnchor  anchor)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "LegacyAlignmentToNewAlignment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::TextAlignment, false>(nullptr, ___internal_method, anchor);
+inline ::UnityEngine::TextCore::Text::TextAlignment UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyAlignmentToNewAlignment(::UnityEngine::TextAnchor anchor) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                         { "LegacyAlignmentToNewAlignment", {}, { ::i2c::type_of<::UnityEngine::TextAnchor>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::TextAlignment>(nullptr, ___internal_method, anchor);
 }
-inline ::UnityEngine::TextCore::HorizontalAlignment UnityEngine::TextCore::Text::TextGeneratorUtilities::GetHorizontalAlignment(::UnityEngine::TextAnchor  anchor)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetHorizontalAlignment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::HorizontalAlignment, false>(nullptr, ___internal_method, anchor);
+inline ::UnityEngine::TextCore::HorizontalAlignment UnityEngine::TextCore::Text::TextGeneratorUtilities::GetHorizontalAlignment(::UnityEngine::TextAnchor anchor) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "GetHorizontalAlignment", {}, { ::i2c::type_of<::UnityEngine::TextAnchor>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::HorizontalAlignment>(nullptr, ___internal_method, anchor);
 }
-inline ::UnityEngine::TextCore::VerticalAlignment UnityEngine::TextCore::Text::TextGeneratorUtilities::GetVerticalAlignment(::UnityEngine::TextAnchor  anchor)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetVerticalAlignment",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::VerticalAlignment, false>(nullptr, ___internal_method, anchor);
+inline ::UnityEngine::TextCore::VerticalAlignment UnityEngine::TextCore::Text::TextGeneratorUtilities::GetVerticalAlignment(::UnityEngine::TextAnchor anchor) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "GetVerticalAlignment", {}, { ::i2c::type_of<::UnityEngine::TextAnchor>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::VerticalAlignment>(nullptr, ___internal_method, anchor);
 }
-inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToUTF32(uint32_t  highSurrogate, uint32_t  lowSurrogate)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ConvertToUTF32",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, highSurrogate, lowSurrogate);
+inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToUTF32(uint32_t highSurrogate, uint32_t lowSurrogate) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                         { "ConvertToUTF32", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, highSurrogate, lowSurrogate);
 }
-inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode(::UnityEngine::TextCore::Text::TextBackingContainer  styleDefinition, int32_t  readIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetMarkupTagHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, styleDefinition, readIndex);
+inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode(::UnityEngine::TextCore::Text::TextBackingContainer styleDefinition, int32_t readIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "GetMarkupTagHashCode", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, styleDefinition, readIndex);
 }
-inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode(::ArrayW<uint32_t,::Array<uint32_t>*>  styleDefinition, int32_t  readIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetMarkupTagHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, styleDefinition, readIndex);
+inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode(::ArrayW<uint32_t> styleDefinition, int32_t readIndex) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                         { "GetMarkupTagHashCode", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, styleDefinition, readIndex);
 }
-inline char16_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast(char16_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ToUpperASCIIFast",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, c);
+inline char16_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast(char16_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "ToUpperASCIIFast", {}, { ::i2c::type_of<char16_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, c);
 }
-inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast(uint32_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ToUpperASCIIFast",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, c);
+inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast(uint32_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "ToUpperASCIIFast", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, c);
 }
-inline char16_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperFast(char16_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "ToUpperFast",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, c);
+inline char16_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperFast(char16_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "ToUpperFast", {}, { ::i2c::type_of<char16_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, c);
 }
-inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetAttributeParameters(::ArrayW<char16_t,::Array<char16_t>*>  chars, int32_t  startIndex, int32_t  length, ::ByRef<::ArrayW<float_t,::Array<float_t>*>>  parameters)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GetAttributeParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<float_t,::Array<float_t>*>>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, chars, startIndex, length, parameters);
+inline int32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GetAttributeParameters(::ArrayW<char16_t> chars, int32_t startIndex, int32_t length, ::by_ref<::ArrayW<float_t>> parameters) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+          { "GetAttributeParameters", {}, { ::i2c::type_of<::ArrayW<char16_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::ArrayW<float_t>>>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, chars, startIndex, length, parameters);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBitmapRendering(::UnityEngine::TextCore::LowLevel::GlyphRenderMode  glyphRenderMode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsBitmapRendering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, glyphRenderMode);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBitmapRendering(::UnityEngine::TextCore::LowLevel::GlyphRenderMode glyphRenderMode) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                         { "IsBitmapRendering", {}, { ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, glyphRenderMode);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBaseGlyph(uint32_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsBaseGlyph",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBaseGlyph(uint32_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsBaseGlyph", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
 }
-inline ::UnityEngine::Color UnityEngine::TextCore::Text::TextGeneratorUtilities::MinAlpha(::UnityEngine::Color  c1, ::UnityEngine::Color  c2)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "MinAlpha",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(nullptr, ___internal_method, c1, c2);
+inline ::UnityEngine::Color UnityEngine::TextCore::Text::TextGeneratorUtilities::MinAlpha(::UnityEngine::Color c1, ::UnityEngine::Color c2) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                                                         { "MinAlpha", {}, { ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Color>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(nullptr, ___internal_method, c1, c2);
 }
-inline ::UnityEngine::Color32 UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear(::UnityEngine::Color32  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GammaToLinear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32, false>(nullptr, ___internal_method, c);
+inline ::UnityEngine::Color32 UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear(::UnityEngine::Color32 c) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "GammaToLinear", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32>(nullptr, ___internal_method, c);
 }
-inline uint8_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear(uint8_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "GammaToLinear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method, value);
+inline uint8_t UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear(uint8_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "GammaToLinear", {}, { ::i2c::type_of<uint8_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t>(nullptr, ___internal_method, value);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF16(::UnityEngine::TextCore::Text::TextBackingContainer  text, int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsValidUTF16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, text, index);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF16(::UnityEngine::TextCore::Text::TextBackingContainer text, int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "IsValidUTF16", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, text, index);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF32(::UnityEngine::TextCore::Text::TextBackingContainer  text, int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsValidUTF32",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, text, index);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF32(::UnityEngine::TextCore::Text::TextBackingContainer text, int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(),
+                                                           { "IsValidUTF32", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, text, index);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmoji(uint32_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsEmoji",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmoji(uint32_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsEmoji", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmojiPresentationForm(uint32_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsEmojiPresentationForm",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmojiPresentationForm(uint32_t c) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsEmojiPresentationForm", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsHangul(uint32_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsHangul",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsHangul(uint32_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsHangul", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
 }
-inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsCJK(uint32_t  c)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(),
-                        "IsCJK",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsCJK(uint32_t c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>(), { "IsCJK", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::TextCore::Text::TextGeneratorUtilities::TextGeneratorUtilities()   {
-}
+constexpr ::UnityEngine::TextCore::Text::TextGeneratorUtilities::TextGeneratorUtilities() {}

@@ -9,98 +9,87 @@
 #include "OVR/OpenVR/zzzz__NotificationBitmap_t_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRNotifications._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRNotifications::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRNotifications::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRNotifications::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRNotifications::_ctor)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x5d0c7c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRNotifications*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRNotifications*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRNotifications.CreateNotification
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::CVRNotifications::*)(uint64_t, uint64_t, ::OVR::OpenVR::EVRNotificationType, ::StringW, ::OVR::OpenVR::EVRNotificationStyle, ::ByRef<::OVR::OpenVR::NotificationBitmap_t>, ::ByRef<uint32_t>)>(&::OVR::OpenVR::CVRNotifications::CreateNotification)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::CVRNotifications::*)(
+    uint64_t, uint64_t, ::OVR::OpenVR::EVRNotificationType, ::StringW, ::OVR::OpenVR::EVRNotificationStyle, ::by_ref<::OVR::OpenVR::NotificationBitmap_t>, ::by_ref<uint32_t>)>(
+    &::OVR::OpenVR::CVRNotifications::CreateNotification)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x5d0c8b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRNotifications*>::get(),
-                        "CreateNotification",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRNotificationType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRNotificationStyle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::NotificationBitmap_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRNotifications*>(),
+                            { "CreateNotification",
+                              {},
+                              { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<::OVR::OpenVR::EVRNotificationType>(), ::i2c::type_of<::StringW>(),
+                                ::i2c::type_of<::OVR::OpenVR::EVRNotificationStyle>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::NotificationBitmap_t>>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::CVRNotifications.RemoveNotification
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::CVRNotifications::*)(uint32_t)>(&::OVR::OpenVR::CVRNotifications::RemoveNotification)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::CVRNotifications::*)(uint32_t)>(&::OVR::OpenVR::CVRNotifications::RemoveNotification)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5d0c8e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRNotifications*>::get(),
-                        "RemoveNotification",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRNotifications*>(), { "RemoveNotification", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
-constexpr ::OVR::OpenVR::IVRNotifications& OVR::OpenVR::CVRNotifications::__cordl_internal_get_FnTable()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___FnTable;
+constexpr ::OVR::OpenVR::IVRNotifications& OVR::OpenVR::CVRNotifications::__cordl_internal_get_FnTable() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRNotifications const& OVR::OpenVR::CVRNotifications::__cordl_internal_get_FnTable() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___FnTable;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___FnTable;
 }
-constexpr void OVR::OpenVR::CVRNotifications::__cordl_internal_set_FnTable(::OVR::OpenVR::IVRNotifications  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___FnTable = value;
+constexpr void OVR::OpenVR::CVRNotifications::__cordl_internal_set_FnTable(::OVR::OpenVR::IVRNotifications value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___FnTable = value;
 }
-inline void OVR::OpenVR::CVRNotifications::_ctor(::System::IntPtr  pInterface)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRNotifications*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pInterface);
+inline void OVR::OpenVR::CVRNotifications::_ctor(::System::IntPtr pInterface) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRNotifications*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pInterface);
 }
-inline ::OVR::OpenVR::EVRNotificationError OVR::OpenVR::CVRNotifications::CreateNotification(uint64_t  ulOverlayHandle, uint64_t  ulUserValue, ::OVR::OpenVR::EVRNotificationType  type, ::StringW  pchText, ::OVR::OpenVR::EVRNotificationStyle  style, ::ByRef<::OVR::OpenVR::NotificationBitmap_t>  pImage, ::ByRef<uint32_t>  pNotificationId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRNotifications*>::get(),
-                        "CreateNotification",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRNotificationType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::EVRNotificationStyle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::NotificationBitmap_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRNotificationError, false>(this, ___internal_method, ulOverlayHandle, ulUserValue, type, pchText, style, pImage, pNotificationId);
+inline ::OVR::OpenVR::EVRNotificationError OVR::OpenVR::CVRNotifications::CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText,
+                                                                                             ::OVR::OpenVR::EVRNotificationStyle style, ::by_ref<::OVR::OpenVR::NotificationBitmap_t> pImage,
+                                                                                             ::by_ref<uint32_t> pNotificationId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRNotifications*>(),
+                          { "CreateNotification",
+                            {},
+                            { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<::OVR::OpenVR::EVRNotificationType>(), ::i2c::type_of<::StringW>(),
+                              ::i2c::type_of<::OVR::OpenVR::EVRNotificationStyle>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::NotificationBitmap_t>>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRNotificationError>(this, ___internal_method, ulOverlayHandle, ulUserValue, type, pchText, style, pImage, pNotificationId);
 }
-inline ::OVR::OpenVR::EVRNotificationError OVR::OpenVR::CVRNotifications::RemoveNotification(uint32_t  notificationId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRNotifications*>::get(),
-                        "RemoveNotification",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRNotificationError, false>(this, ___internal_method, notificationId);
+inline ::OVR::OpenVR::EVRNotificationError OVR::OpenVR::CVRNotifications::RemoveNotification(uint32_t notificationId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRNotifications*>(), { "RemoveNotification", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRNotificationError>(this, ___internal_method, notificationId);
 }
-inline ::OVR::OpenVR::CVRNotifications* OVR::OpenVR::CVRNotifications::New_ctor(::System::IntPtr  pInterface)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::CVRNotifications*>(pInterface));
+inline ::OVR::OpenVR::CVRNotifications* OVR::OpenVR::CVRNotifications::New_ctor(::System::IntPtr pInterface) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVR::OpenVR::CVRNotifications*>(pInterface));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::CVRNotifications::CVRNotifications()   {
-}
+constexpr ::OVR::OpenVR::CVRNotifications::CVRNotifications() {}

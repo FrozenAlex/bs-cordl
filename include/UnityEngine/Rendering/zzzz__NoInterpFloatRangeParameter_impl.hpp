@@ -5,108 +5,91 @@
 #include "UnityEngine/Rendering/zzzz__NoInterpFloatRangeParameter_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::NoInterpFloatRangeParameter.get_value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::NoInterpFloatRangeParameter::*)()>(&::UnityEngine::Rendering::NoInterpFloatRangeParameter::get_value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::NoInterpFloatRangeParameter::*)()>(
+    &::UnityEngine::Rendering::NoInterpFloatRangeParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x668a148;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::NoInterpFloatRangeParameter.set_value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::NoInterpFloatRangeParameter::*)(::UnityEngine::Vector2)>(&::UnityEngine::Rendering::NoInterpFloatRangeParameter::set_value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpFloatRangeParameter::*)(::UnityEngine::Vector2)>(
+    &::UnityEngine::Rendering::NoInterpFloatRangeParameter::set_value)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x668a150;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(), 15 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::NoInterpFloatRangeParameter._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::NoInterpFloatRangeParameter::*)(::UnityEngine::Vector2, float_t, float_t, bool)>(&::UnityEngine::Rendering::NoInterpFloatRangeParameter::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpFloatRangeParameter::*)(::UnityEngine::Vector2, float_t, float_t, bool)>(
+    &::UnityEngine::Rendering::NoInterpFloatRangeParameter::_ctor)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x668a17c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(),
+                                                { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-constexpr float_t& UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_get_min()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___min;
+constexpr float_t& UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_get_min() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___min;
 }
 constexpr float_t const& UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_get_min() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___min;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___min;
 }
-constexpr void UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_set_min(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___min = value;
+constexpr void UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_set_min(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___min = value;
 }
-constexpr float_t& UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_get_max()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___max;
+constexpr float_t& UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_get_max() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___max;
 }
 constexpr float_t const& UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_get_max() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___max;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___max;
 }
-constexpr void UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_set_max(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___max = value;
+constexpr void UnityEngine::Rendering::NoInterpFloatRangeParameter::__cordl_internal_set_max(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___max = value;
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::NoInterpFloatRangeParameter::get_value()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::NoInterpFloatRangeParameter::get_value() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::NoInterpFloatRangeParameter::set_value(::UnityEngine::Vector2  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::NoInterpFloatRangeParameter::set_value(::UnityEngine::Vector2 value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::Rendering::NoInterpFloatRangeParameter::_ctor(::UnityEngine::Vector2  value, float_t  min, float_t  max, bool  overrideState)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, min, max, overrideState);
+inline void UnityEngine::Rendering::NoInterpFloatRangeParameter::_ctor(::UnityEngine::Vector2 value, float_t min, float_t max, bool overrideState) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(),
+                                              { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, min, max, overrideState);
 }
-inline ::UnityEngine::Rendering::NoInterpFloatRangeParameter* UnityEngine::Rendering::NoInterpFloatRangeParameter::New_ctor(::UnityEngine::Vector2  value, float_t  min, float_t  max, bool  overrideState)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(value, min, max, overrideState));
+inline ::UnityEngine::Rendering::NoInterpFloatRangeParameter* UnityEngine::Rendering::NoInterpFloatRangeParameter::New_ctor(::UnityEngine::Vector2 value, float_t min, float_t max,
+                                                                                                                            bool overrideState) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::NoInterpFloatRangeParameter*>(value, min, max, overrideState));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::NoInterpFloatRangeParameter::NoInterpFloatRangeParameter()   {
-}
+constexpr ::UnityEngine::Rendering::NoInterpFloatRangeParameter::NoInterpFloatRangeParameter() {}

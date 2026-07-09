@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalDrawDBufferSystem.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawSystem_def.hpp"
@@ -17,44 +17,43 @@ namespace UnityEngine::Rendering::Universal {
 class DecalDrawDBufferSystem;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem);
+MARK_REF_T(::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem*, "UnityEngine.Rendering.Universal", "DecalDrawDBufferSystem");
 // Dependencies UnityEngine.Rendering.Universal.DecalDrawSystem
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DecalDrawDBufferSystem
 class CORDL_TYPE DecalDrawDBufferSystem : public ::UnityEngine::Rendering::Universal::DecalDrawSystem {
 public:
-// Declarations
-/// @brief Method GetPassIndex, addr 0x670f664, size 0x14, virtual true, abstract: false, final false
-inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk*  decalCachedChunk) ;
+  // Declarations
+  /// @brief Method GetPassIndex, addr 0x670f664, size 0x14, virtual true, abstract: false, final false
+  inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk);
 
-static inline ::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager*  entityManager) ;
+  static inline ::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
-/// @brief Method .ctor, addr 0x670f4c0, size 0x84, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager*  entityManager) ;
+  /// @brief Method .ctor, addr 0x670f4c0, size 0x84, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DecalDrawDBufferSystem() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DecalDrawDBufferSystem();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DecalDrawDBufferSystem", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DecalDrawDBufferSystem(DecalDrawDBufferSystem&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DecalDrawDBufferSystem", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DecalDrawDBufferSystem(DecalDrawDBufferSystem && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DecalDrawDBufferSystem", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DecalDrawDBufferSystem(DecalDrawDBufferSystem const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DecalDrawDBufferSystem", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DecalDrawDBufferSystem(DecalDrawDBufferSystem const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12658 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12658};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem, 0x40>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem) == 0x40, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
-NEED_NO_BOX(::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DecalDrawDBufferSystem*, "UnityEngine.Rendering.Universal", "DecalDrawDBufferSystem");
+} // namespace UnityEngine::Rendering::Universal

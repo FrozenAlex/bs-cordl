@@ -5,337 +5,239 @@
 #include "System/Net/zzzz__HttpListener_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::ListenerPrefix._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerPrefix::*)(::StringW)>(&::System::Net::ListenerPrefix::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ListenerPrefix::*)(::StringW)>(&::System::Net::ListenerPrefix::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61f8578;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ListenerPrefix.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::ToString)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61f8884;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { ::i2c::class_of<::System::Net::ListenerPrefix*>(), 3 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ListenerPrefix.get_Secure
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Secure)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Secure)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61f888c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "get_Secure",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "get_Secure", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ListenerPrefix.get_Host
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Host)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Host)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61f8894;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "get_Host",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "get_Host", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ListenerPrefix.get_Port
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Port)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Port)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61f889c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "get_Port",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "get_Port", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ListenerPrefix.get_Path
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Path)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Path)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x61f88a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "get_Path",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "get_Path", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ListenerPrefix.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ListenerPrefix::*)(::System::Object*)>(&::System::Net::ListenerPrefix::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ListenerPrefix::*)(::System::Object*)>(&::System::Net::ListenerPrefix::Equals)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x61f88ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { ::i2c::class_of<::System::Net::ListenerPrefix*>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ListenerPrefix.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x61f892c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { ::i2c::class_of<::System::Net::ListenerPrefix*>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ListenerPrefix.Parse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerPrefix::*)(::StringW)>(&::System::Net::ListenerPrefix::Parse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ListenerPrefix::*)(::StringW)>(&::System::Net::ListenerPrefix::Parse)> {
   constexpr static std::size_t size = 0x304;
   constexpr static std::size_t addrs = 0x61f8580;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "Parse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ListenerPrefix.CheckUri
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Net::ListenerPrefix::CheckUri)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Net::ListenerPrefix::CheckUri)> {
   constexpr static std::size_t size = 0x344;
   constexpr static std::size_t addrs = 0x61f8948;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "CheckUri",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "CheckUri", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Net::ListenerPrefix::__cordl_internal_get_original()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___original;
+constexpr ::StringW& System::Net::ListenerPrefix::__cordl_internal_get_original() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___original;
 }
 constexpr ::StringW const& System::Net::ListenerPrefix::__cordl_internal_get_original() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___original;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___original;
 }
-constexpr void System::Net::ListenerPrefix::__cordl_internal_set_original(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___original)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::ListenerPrefix::__cordl_internal_set_original(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___original = value;
 }
-constexpr ::StringW& System::Net::ListenerPrefix::__cordl_internal_get_host()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___host;
+constexpr ::StringW& System::Net::ListenerPrefix::__cordl_internal_get_host() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___host;
 }
 constexpr ::StringW const& System::Net::ListenerPrefix::__cordl_internal_get_host() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___host;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___host;
 }
-constexpr void System::Net::ListenerPrefix::__cordl_internal_set_host(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___host)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::ListenerPrefix::__cordl_internal_set_host(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___host = value;
 }
-constexpr uint16_t& System::Net::ListenerPrefix::__cordl_internal_get_port()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___port;
+constexpr uint16_t& System::Net::ListenerPrefix::__cordl_internal_get_port() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___port;
 }
 constexpr uint16_t const& System::Net::ListenerPrefix::__cordl_internal_get_port() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___port;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___port;
 }
-constexpr void System::Net::ListenerPrefix::__cordl_internal_set_port(uint16_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___port = value;
+constexpr void System::Net::ListenerPrefix::__cordl_internal_set_port(uint16_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___port = value;
 }
-constexpr ::StringW& System::Net::ListenerPrefix::__cordl_internal_get_path()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___path;
+constexpr ::StringW& System::Net::ListenerPrefix::__cordl_internal_get_path() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___path;
 }
 constexpr ::StringW const& System::Net::ListenerPrefix::__cordl_internal_get_path() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___path;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___path;
 }
-constexpr void System::Net::ListenerPrefix::__cordl_internal_set_path(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::ListenerPrefix::__cordl_internal_set_path(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___path = value;
 }
-constexpr bool& System::Net::ListenerPrefix::__cordl_internal_get_secure()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___secure;
+constexpr bool& System::Net::ListenerPrefix::__cordl_internal_get_secure() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___secure;
 }
 constexpr bool const& System::Net::ListenerPrefix::__cordl_internal_get_secure() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___secure;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___secure;
 }
-constexpr void System::Net::ListenerPrefix::__cordl_internal_set_secure(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___secure = value;
+constexpr void System::Net::ListenerPrefix::__cordl_internal_set_secure(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___secure = value;
 }
-constexpr ::System::Net::HttpListener*& System::Net::ListenerPrefix::__cordl_internal_get_Listener()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Listener;
+constexpr ::System::Net::HttpListener*& System::Net::ListenerPrefix::__cordl_internal_get_Listener() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Listener;
 }
 constexpr ::System::Net::HttpListener* const& System::Net::ListenerPrefix::__cordl_internal_get_Listener() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Listener;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Listener;
 }
-constexpr void System::Net::ListenerPrefix::__cordl_internal_set_Listener(::System::Net::HttpListener*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Listener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::ListenerPrefix::__cordl_internal_set_Listener(::System::Net::HttpListener* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___Listener = value;
 }
-inline void System::Net::ListenerPrefix::_ctor(::StringW  prefix)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefix);
+inline void System::Net::ListenerPrefix::_ctor(::StringW prefix) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, prefix);
 }
-inline ::StringW System::Net::ListenerPrefix::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Net::ListenerPrefix::ToString() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::ListenerPrefix*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline bool System::Net::ListenerPrefix::get_Secure()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "get_Secure",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Net::ListenerPrefix::get_Secure() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "get_Secure", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::StringW System::Net::ListenerPrefix::get_Host()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "get_Host",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Net::ListenerPrefix::get_Host() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "get_Host", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline int32_t System::Net::ListenerPrefix::get_Port()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "get_Port",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Net::ListenerPrefix::get_Port() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "get_Port", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::StringW System::Net::ListenerPrefix::get_Path()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "get_Path",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Net::ListenerPrefix::get_Path() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "get_Path", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline bool System::Net::ListenerPrefix::Equals(::System::Object*  o)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, o);
+inline bool System::Net::ListenerPrefix::Equals(::System::Object* o) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::ListenerPrefix*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, o);
 }
-inline int32_t System::Net::ListenerPrefix::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Net::ListenerPrefix::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::ListenerPrefix*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void System::Net::ListenerPrefix::Parse(::StringW  uri)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "Parse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uri);
+inline void System::Net::ListenerPrefix::Parse(::StringW uri) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uri);
 }
-inline void System::Net::ListenerPrefix::CheckUri(::StringW  uri)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(),
-                        "CheckUri",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, uri);
+inline void System::Net::ListenerPrefix::CheckUri(::StringW uri) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ListenerPrefix*>(), { "CheckUri", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, uri);
 }
-inline ::System::Net::ListenerPrefix* System::Net::ListenerPrefix::New_ctor(::StringW  prefix)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::ListenerPrefix*>(prefix));
+inline ::System::Net::ListenerPrefix* System::Net::ListenerPrefix::New_ctor(::StringW prefix) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::ListenerPrefix*>(prefix));
 }
 // Ctor Parameters []
-constexpr ::System::Net::ListenerPrefix::ListenerPrefix()   {
-}
+constexpr ::System::Net::ListenerPrefix::ListenerPrefix() {}

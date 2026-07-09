@@ -1,14 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Serialization/ObjectReferenceStack.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectReferenceStack)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Object;
@@ -19,56 +20,60 @@ struct ObjectReferenceStack;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::ObjectReferenceStack);
-// Dependencies 
+DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::ObjectReferenceStack, "System.Runtime.Serialization", "ObjectReferenceStack");
+// Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: true
 // CS Name: System.Runtime.Serialization.ObjectReferenceStack
 struct CORDL_TYPE ObjectReferenceStack {
 public:
-// Declarations
- __declspec(property(get=get_Count)) int32_t  Count;
+  // Declarations
+  __declspec(property(get = get_Count)) int32_t Count;
 
-/// @brief Method Contains, addr 0x6019438, size 0xf8, virtual false, abstract: false, final false
-inline bool Contains(::System::Object*  obj) ;
+  /// @brief Method Contains, addr 0x6019438, size 0xf8, virtual false, abstract: false, final false
+  inline bool Contains(::System::Object* obj);
 
-/// @brief Method EnsureSetAsIsReference, addr 0x6019274, size 0x144, virtual false, abstract: false, final false
-inline void EnsureSetAsIsReference(::System::Object*  obj) ;
+  /// @brief Method EnsureSetAsIsReference, addr 0x6019274, size 0x144, virtual false, abstract: false, final false
+  inline void EnsureSetAsIsReference(::System::Object* obj);
 
-/// @brief Method Pop, addr 0x60193b8, size 0x80, virtual false, abstract: false, final false
-inline void Pop(::System::Object*  obj) ;
+  /// @brief Method Pop, addr 0x60193b8, size 0x80, virtual false, abstract: false, final false
+  inline void Pop(::System::Object* obj);
 
-/// @brief Method Push, addr 0x601905c, size 0x218, virtual false, abstract: false, final false
-inline void Push(::System::Object*  obj) ;
+  /// @brief Method Push, addr 0x601905c, size 0x218, virtual false, abstract: false, final false
+  inline void Push(::System::Object* obj);
 
-/// @brief Method get_Count, addr 0x6019530, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_Count() ;
+  /// @brief Method get_Count, addr 0x6019530, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Count();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ObjectReferenceStack() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObjectReferenceStack();
 
-// Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "objectArray", ty: "::ArrayW<::System::Object*,::Array<::System::Object*>*>", modifiers: "", def_value: None }, CppParam { name: "isReferenceArray", ty: "::ArrayW<bool,::Array<bool>*>", modifiers: "", def_value: None }, CppParam { name: "objectDictionary", ty: "::System::Collections::Generic::Dictionary_2<::System::Object*,::System::Object*>*", modifiers: "", def_value: None }]
-constexpr ObjectReferenceStack(int32_t  count, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  objectArray, ::ArrayW<bool,::Array<bool>*>  isReferenceArray, ::System::Collections::Generic::Dictionary_2<::System::Object*,::System::Object*>*  objectDictionary) noexcept;
+  // Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "objectArray", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: None },
+  // CppParam { name: "isReferenceArray", ty: "::ArrayW<bool>", modifiers: "", def_value: None }, CppParam { name: "objectDictionary", ty:
+  // "::System::Collections::Generic::Dictionary_2<::System::Object*,::System::Object*>*", modifiers: "", def_value: None }]
+  constexpr ObjectReferenceStack(int32_t count, ::ArrayW<::System::Object*> objectArray, ::ArrayW<bool> isReferenceArray,
+                                 ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* objectDictionary) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17040};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17040 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field count, offset: 0x0, size: 0x4, def value: None
- int32_t  count;
+  /// @brief Field count, offset: 0x0, size: 0x4, def value: None
+  int32_t count;
 
-/// @brief Field objectArray, offset: 0x8, size: 0x8, def value: None
- ::ArrayW<::System::Object*,::Array<::System::Object*>*>  objectArray;
+  /// @brief Field objectArray, offset: 0x8, size: 0x8, def value: None
+  ::ArrayW<::System::Object*> objectArray;
 
-/// @brief Field isReferenceArray, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<bool,::Array<bool>*>  isReferenceArray;
+  /// @brief Field isReferenceArray, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<bool> isReferenceArray;
 
-/// @brief Field objectDictionary, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::Generic::Dictionary_2<::System::Object*,::System::Object*>*  objectDictionary;
+  /// @brief Field objectDictionary, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* objectDictionary;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::ObjectReferenceStack, count) == 0x0, "Offset mismatch!");
@@ -79,7 +84,6 @@ static_assert(offsetof(::System::Runtime::Serialization::ObjectReferenceStack, i
 
 static_assert(offsetof(::System::Runtime::Serialization::ObjectReferenceStack, objectDictionary) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::ObjectReferenceStack, 0x20>, "Size mismatch!");
+static_assert(sizeof(::System::Runtime::Serialization::ObjectReferenceStack) == 0x20, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ObjectReferenceStack, "System.Runtime.Serialization", "ObjectReferenceStack");
+} // namespace System::Runtime::Serialization

@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/BerTaggedObject.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__DerTaggedObject_def.hpp"
@@ -17,54 +17,53 @@ namespace Org::BouncyCastle::Asn1 {
 class BerTaggedObject;
 }
 // Write type traits
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerTaggedObject);
+MARK_REF_T(::Org::BouncyCastle::Asn1::BerTaggedObject*);
+DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Asn1::BerTaggedObject*, "Org.BouncyCastle.Asn1", "BerTaggedObject");
 // Dependencies Org.BouncyCastle.Asn1.DerTaggedObject
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.BerTaggedObject
 class CORDL_TYPE BerTaggedObject : public ::Org::BouncyCastle::Asn1::DerTaggedObject {
 public:
-// Declarations
-/// @brief Method Encode, addr 0x35cddb8, size 0x5b4, virtual true, abstract: false, final false
-inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream*  derOut) ;
+  // Declarations
+  /// @brief Method Encode, addr 0x35cddb8, size 0x5b4, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(bool  explicitly, int32_t  tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable*  obj) ;
+  static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(int32_t  tagNo) ;
+  static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(int32_t tagNo);
 
-static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(int32_t  tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable*  obj) ;
+  static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-/// @brief Method .ctor, addr 0x35c938c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(bool  explicitly, int32_t  tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable*  obj) ;
+  /// @brief Method .ctor, addr 0x35c938c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-/// @brief Method .ctor, addr 0x35cdd40, size 0x78, virtual false, abstract: false, final false
-inline void _ctor(int32_t  tagNo) ;
+  /// @brief Method .ctor, addr 0x35cdd40, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(int32_t tagNo);
 
-/// @brief Method .ctor, addr 0x35cdd2c, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(int32_t  tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable*  obj) ;
+  /// @brief Method .ctor, addr 0x35cdd2c, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BerTaggedObject() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerTaggedObject();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BerTaggedObject", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BerTaggedObject(BerTaggedObject&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BerTaggedObject", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BerTaggedObject(BerTaggedObject && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BerTaggedObject", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BerTaggedObject(BerTaggedObject const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BerTaggedObject", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BerTaggedObject(BerTaggedObject const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 496 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{496};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerTaggedObject, 0x20>, "Size mismatch!");
+static_assert(sizeof(::Org::BouncyCastle::Asn1::BerTaggedObject) == 0x20, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerTaggedObject);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerTaggedObject*, "Org.BouncyCastle.Asn1", "BerTaggedObject");
+} // namespace Org::BouncyCastle::Asn1

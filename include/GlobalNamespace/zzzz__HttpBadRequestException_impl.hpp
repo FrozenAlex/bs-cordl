@@ -3,34 +3,25 @@
 #include "System/zzzz__Exception_impl.hpp"
 #include "GlobalNamespace/zzzz__HttpBadRequestException_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HttpBadRequestException._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HttpBadRequestException::*)(::StringW)>(&::GlobalNamespace::HttpBadRequestException::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HttpBadRequestException::*)(::StringW)>(&::GlobalNamespace::HttpBadRequestException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x3274008;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HttpBadRequestException*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HttpBadRequestException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::HttpBadRequestException::_ctor(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HttpBadRequestException*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
+inline void GlobalNamespace::HttpBadRequestException::_ctor(::StringW message) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HttpBadRequestException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
-inline ::GlobalNamespace::HttpBadRequestException* GlobalNamespace::HttpBadRequestException::New_ctor(::StringW  message)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HttpBadRequestException*>(message));
+inline ::GlobalNamespace::HttpBadRequestException* GlobalNamespace::HttpBadRequestException::New_ctor(::StringW message) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::HttpBadRequestException*>(message));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::HttpBadRequestException::HttpBadRequestException()   {
-}
+constexpr ::GlobalNamespace::HttpBadRequestException::HttpBadRequestException() {}

@@ -5,80 +5,59 @@
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
 //  Writing Method size for method: ::Zenject::PrefabProviderResource._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PrefabProviderResource::*)(::StringW)>(&::Zenject::PrefabProviderResource::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::PrefabProviderResource::*)(::StringW)>(&::Zenject::PrefabProviderResource::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6d30eb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabProviderResource*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabProviderResource*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::PrefabProviderResource.GetPrefab
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::Zenject::PrefabProviderResource::*)()>(&::Zenject::PrefabProviderResource::GetPrefab)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::Zenject::PrefabProviderResource::*)()>(&::Zenject::PrefabProviderResource::GetPrefab)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x6d30ebc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabProviderResource*>::get(),
-                        "GetPrefab",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabProviderResource*>(), { "GetPrefab", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Zenject::PrefabProviderResource::__cordl_internal_get__resourcePath()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____resourcePath;
+constexpr ::StringW& Zenject::PrefabProviderResource::__cordl_internal_get__resourcePath() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____resourcePath;
 }
 constexpr ::StringW const& Zenject::PrefabProviderResource::__cordl_internal_get__resourcePath() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____resourcePath;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____resourcePath;
 }
-constexpr void Zenject::PrefabProviderResource::__cordl_internal_set__resourcePath(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resourcePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Zenject::PrefabProviderResource::__cordl_internal_set__resourcePath(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____resourcePath = value;
 }
-inline void Zenject::PrefabProviderResource::_ctor(::StringW  resourcePath)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabProviderResource*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, resourcePath);
+inline void Zenject::PrefabProviderResource::_ctor(::StringW resourcePath) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabProviderResource*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, resourcePath);
 }
-inline ::UnityW<::UnityEngine::Object> Zenject::PrefabProviderResource::GetPrefab()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabProviderResource*>::get(),
-                        "GetPrefab",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Object> Zenject::PrefabProviderResource::GetPrefab() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabProviderResource*>(), { "GetPrefab", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(this, ___internal_method);
 }
-inline ::Zenject::PrefabProviderResource* Zenject::PrefabProviderResource::New_ctor(::StringW  resourcePath)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PrefabProviderResource*>(resourcePath));
+inline ::Zenject::PrefabProviderResource* Zenject::PrefabProviderResource::New_ctor(::StringW resourcePath) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::PrefabProviderResource*>(resourcePath));
 }
 /// @brief Convert operator to "::Zenject::IPrefabProvider"
-constexpr  Zenject::PrefabProviderResource::operator ::Zenject::IPrefabProvider*() noexcept {
-return static_cast<::Zenject::IPrefabProvider*>(static_cast<void*>(this));
+constexpr Zenject::PrefabProviderResource::operator ::Zenject::IPrefabProvider*() noexcept {
+  return static_cast<::Zenject::IPrefabProvider*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Zenject::IPrefabProvider"
 constexpr ::Zenject::IPrefabProvider* Zenject::PrefabProviderResource::i___Zenject__IPrefabProvider() noexcept {
-return static_cast<::Zenject::IPrefabProvider*>(static_cast<void*>(this));
+  return static_cast<::Zenject::IPrefabProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::Zenject::PrefabProviderResource::PrefabProviderResource()   {
-}
+constexpr ::Zenject::PrefabProviderResource::PrefabProviderResource() {}

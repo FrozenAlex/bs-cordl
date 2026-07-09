@@ -4,31 +4,20 @@
 #include "Mono/Security/Interface/zzzz__MonoTlsProviderFactory_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoTlsProvider_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Interface::MonoTlsProviderFactory.GetProvider
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsProvider* (*)()>(&::Mono::Security::Interface::MonoTlsProviderFactory::GetProvider)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoTlsProvider* (*)()>(&::Mono::Security::Interface::MonoTlsProviderFactory::GetProvider)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5963504;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsProviderFactory*>::get(),
-                        "GetProvider",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsProviderFactory*>(), { "GetProvider", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::Mono::Security::Interface::MonoTlsProvider* Mono::Security::Interface::MonoTlsProviderFactory::GetProvider()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsProviderFactory*>::get(),
-                        "GetProvider",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Mono::Security::Interface::MonoTlsProvider*, false>(nullptr, ___internal_method);
+inline ::Mono::Security::Interface::MonoTlsProvider* Mono::Security::Interface::MonoTlsProviderFactory::GetProvider() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsProviderFactory*>(), { "GetProvider", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Security::Interface::MonoTlsProvider*>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::Mono::Security::Interface::MonoTlsProviderFactory::MonoTlsProviderFactory()   {
-}
+constexpr ::Mono::Security::Interface::MonoTlsProviderFactory::MonoTlsProviderFactory() {}

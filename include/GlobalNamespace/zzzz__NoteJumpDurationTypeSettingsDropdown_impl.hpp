@@ -7,59 +7,44 @@
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown.GetNamedValues
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings,::StringW>*>* (::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* (
+    ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x58e5778;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::_ctor)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x58e5870;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings,::StringW>*>* GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings,::StringW>*>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>*
+GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>*>(this,
+                                                                                                                                                                               ___internal_method);
 }
-inline void GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>());
+inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::NoteJumpDurationTypeSettingsDropdown()   {
-}
+constexpr ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::NoteJumpDurationTypeSettingsDropdown() {}

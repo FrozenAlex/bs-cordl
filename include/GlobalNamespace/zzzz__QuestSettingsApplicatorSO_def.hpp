@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/QuestSettingsApplicatorSO.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
@@ -22,47 +22,47 @@ namespace GlobalNamespace {
 class QuestSettingsApplicatorSO;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::QuestSettingsApplicatorSO);
+MARK_REF_T(::GlobalNamespace::QuestSettingsApplicatorSO*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::QuestSettingsApplicatorSO*, "", "QuestSettingsApplicatorSO");
 // Dependencies SettingsApplicatorSO
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: QuestSettingsApplicatorSO
 class CORDL_TYPE QuestSettingsApplicatorSO : public ::GlobalNamespace::SettingsApplicatorSO {
 public:
-// Declarations
-/// @brief Method ApplyGraphicSettings, addr 0x57df3e4, size 0x358, virtual true, abstract: false, final false
-inline void ApplyGraphicSettings(::ByRef<::BeatSaber::Settings::Settings>  settings, ::GlobalNamespace::SceneType  sceneType) ;
+  // Declarations
+  /// @brief Method ApplyGraphicSettings, addr 0x57df3e4, size 0x358, virtual true, abstract: false, final false
+  inline void ApplyGraphicSettings(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
 
-static inline ::GlobalNamespace::QuestSettingsApplicatorSO* New_ctor() ;
+  static inline ::GlobalNamespace::QuestSettingsApplicatorSO* New_ctor();
 
-/// @brief Method <ApplyGraphicSettings>g__ConvertProcessorPerformanceLevel|0_0, addr 0x57dfa2c, size 0x1c, virtual false, abstract: false, final false
-static inline bool _ApplyGraphicSettings_g__ConvertProcessorPerformanceLevel_0_0(::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel  settings, ::ByRef<::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel>  result) ;
+  /// @brief Method <ApplyGraphicSettings>g__ConvertProcessorPerformanceLevel|0_0, addr 0x57dfa2c, size 0x1c, virtual false, abstract: false, final false
+  static inline bool _ApplyGraphicSettings_g__ConvertProcessorPerformanceLevel_0_0(::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel settings,
+                                                                                   ::by_ref<::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel> result);
 
-/// @brief Method .ctor, addr 0x57dfa48, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57dfa48, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr QuestSettingsApplicatorSO() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QuestSettingsApplicatorSO();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "QuestSettingsApplicatorSO", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  QuestSettingsApplicatorSO(QuestSettingsApplicatorSO&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QuestSettingsApplicatorSO", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-QuestSettingsApplicatorSO(QuestSettingsApplicatorSO && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "QuestSettingsApplicatorSO", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  QuestSettingsApplicatorSO(QuestSettingsApplicatorSO const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QuestSettingsApplicatorSO", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-QuestSettingsApplicatorSO(QuestSettingsApplicatorSO const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6755 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6755};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::QuestSettingsApplicatorSO, 0x68>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::QuestSettingsApplicatorSO) == 0x68, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::QuestSettingsApplicatorSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuestSettingsApplicatorSO*, "", "QuestSettingsApplicatorSO");
+} // namespace GlobalNamespace

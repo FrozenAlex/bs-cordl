@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/DTSweepDebugContext.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationDebugContext_def.hpp"
@@ -25,145 +25,146 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepDebugContext;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext);
+MARK_REF_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepDebugContext");
 // Dependencies UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.DTSweepDebugContext
 class CORDL_TYPE DTSweepDebugContext : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext {
 public:
-// Declarations
- __declspec(property(get=get_ActiveConstraint, put=set_ActiveConstraint)) ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*  ActiveConstraint;
+  // Declarations
+  __declspec(property(get = get_ActiveConstraint, put = set_ActiveConstraint)) ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ActiveConstraint;
 
- __declspec(property(get=get_ActiveNode, put=set_ActiveNode)) ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  ActiveNode;
+  __declspec(property(get = get_ActiveNode, put = set_ActiveNode)) ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ActiveNode;
 
- __declspec(property(get=get_ActivePoint, put=set_ActivePoint)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*  ActivePoint;
+  __declspec(property(get = get_ActivePoint, put = set_ActivePoint)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ActivePoint;
 
- __declspec(property(get=get_IsDebugContext)) bool  IsDebugContext;
+  __declspec(property(get = get_IsDebugContext)) bool IsDebugContext;
 
- __declspec(property(get=get_PrimaryTriangle, put=set_PrimaryTriangle)) ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  PrimaryTriangle;
+  __declspec(property(get = get_PrimaryTriangle, put = set_PrimaryTriangle)) ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* PrimaryTriangle;
 
- __declspec(property(get=get_SecondaryTriangle, put=set_SecondaryTriangle)) ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  SecondaryTriangle;
+  __declspec(property(get = get_SecondaryTriangle, put = set_SecondaryTriangle)) ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* SecondaryTriangle;
 
-/// @brief Field _activeConstraint, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__activeConstraint, put=__cordl_internal_set__activeConstraint)) ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*  _activeConstraint;
+  /// @brief Field _activeConstraint, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__activeConstraint, put = __cordl_internal_set__activeConstraint)) ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* _activeConstraint;
 
-/// @brief Field _activeNode, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__activeNode, put=__cordl_internal_set__activeNode)) ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  _activeNode;
+  /// @brief Field _activeNode, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__activeNode, put = __cordl_internal_set__activeNode)) ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _activeNode;
 
-/// @brief Field _activePoint, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__activePoint, put=__cordl_internal_set__activePoint)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*  _activePoint;
+  /// @brief Field _activePoint, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__activePoint, put = __cordl_internal_set__activePoint)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _activePoint;
 
-/// @brief Field _primaryTriangle, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__primaryTriangle, put=__cordl_internal_set__primaryTriangle)) ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  _primaryTriangle;
+  /// @brief Field _primaryTriangle, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__primaryTriangle, put = __cordl_internal_set__primaryTriangle)) ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _primaryTriangle;
 
-/// @brief Field _secondaryTriangle, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__secondaryTriangle, put=__cordl_internal_set__secondaryTriangle)) ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  _secondaryTriangle;
+  /// @brief Field _secondaryTriangle, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__secondaryTriangle, put = __cordl_internal_set__secondaryTriangle)) ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _secondaryTriangle;
 
-/// @brief Method Clear, addr 0x656e708, size 0x44, virtual true, abstract: false, final false
-inline void Clear() ;
+  /// @brief Method Clear, addr 0x656e708, size 0x44, virtual true, abstract: false, final false
+  inline void Clear();
 
-static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*  tcx) ;
+  static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* const& __cordl_internal_get__activeConstraint() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* const& __cordl_internal_get__activeConstraint() const;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& __cordl_internal_get__activeConstraint() ;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& __cordl_internal_get__activeConstraint();
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& __cordl_internal_get__activeNode() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& __cordl_internal_get__activeNode() const;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get__activeNode() ;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get__activeNode();
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& __cordl_internal_get__activePoint() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& __cordl_internal_get__activePoint() const;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get__activePoint() ;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get__activePoint();
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* const& __cordl_internal_get__primaryTriangle() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* const& __cordl_internal_get__primaryTriangle() const;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& __cordl_internal_get__primaryTriangle() ;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& __cordl_internal_get__primaryTriangle();
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* const& __cordl_internal_get__secondaryTriangle() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* const& __cordl_internal_get__secondaryTriangle() const;
 
-constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& __cordl_internal_get__secondaryTriangle() ;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& __cordl_internal_get__secondaryTriangle();
 
-constexpr void __cordl_internal_set__activeConstraint(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*  value) ;
+  constexpr void __cordl_internal_set__activeConstraint(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
 
-constexpr void __cordl_internal_set__activeNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  value) ;
+  constexpr void __cordl_internal_set__activeNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-constexpr void __cordl_internal_set__activePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*  value) ;
+  constexpr void __cordl_internal_set__activePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-constexpr void __cordl_internal_set__primaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  value) ;
+  constexpr void __cordl_internal_set__primaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
 
-constexpr void __cordl_internal_set__secondaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  value) ;
+  constexpr void __cordl_internal_set__secondaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
 
-/// @brief Method .ctor, addr 0x656e058, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*  tcx) ;
+  /// @brief Method .ctor, addr 0x656e058, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
 
-/// @brief Method get_ActiveConstraint, addr 0x656e6f0, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* get_ActiveConstraint() ;
+  /// @brief Method get_ActiveConstraint, addr 0x656e6f0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* get_ActiveConstraint();
 
-/// @brief Method get_ActiveNode, addr 0x656e6e8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* get_ActiveNode() ;
+  /// @brief Method get_ActiveNode, addr 0x656e6e8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* get_ActiveNode();
 
-/// @brief Method get_ActivePoint, addr 0x656e684, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_ActivePoint() ;
+  /// @brief Method get_ActivePoint, addr 0x656e684, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_ActivePoint();
 
-/// @brief Method get_IsDebugContext, addr 0x656e700, size 0x8, virtual false, abstract: false, final false
-inline bool get_IsDebugContext() ;
+  /// @brief Method get_IsDebugContext, addr 0x656e700, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsDebugContext();
 
-/// @brief Method get_PrimaryTriangle, addr 0x656e674, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* get_PrimaryTriangle() ;
+  /// @brief Method get_PrimaryTriangle, addr 0x656e674, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* get_PrimaryTriangle();
 
-/// @brief Method get_SecondaryTriangle, addr 0x656e67c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* get_SecondaryTriangle() ;
+  /// @brief Method get_SecondaryTriangle, addr 0x656e67c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* get_SecondaryTriangle();
 
-/// @brief Method set_ActiveConstraint, addr 0x656afb4, size 0x5c, virtual false, abstract: false, final false
-inline void set_ActiveConstraint(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*  value) ;
+  /// @brief Method set_ActiveConstraint, addr 0x656afb4, size 0x5c, virtual false, abstract: false, final false
+  inline void set_ActiveConstraint(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
 
-/// @brief Method set_ActiveNode, addr 0x656b9c0, size 0x5c, virtual false, abstract: false, final false
-inline void set_ActiveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  value) ;
+  /// @brief Method set_ActiveNode, addr 0x656b9c0, size 0x5c, virtual false, abstract: false, final false
+  inline void set_ActiveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-/// @brief Method set_ActivePoint, addr 0x656e68c, size 0x5c, virtual false, abstract: false, final false
-inline void set_ActivePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*  value) ;
+  /// @brief Method set_ActivePoint, addr 0x656e68c, size 0x5c, virtual false, abstract: false, final false
+  inline void set_ActivePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-/// @brief Method set_PrimaryTriangle, addr 0x656c208, size 0x5c, virtual false, abstract: false, final false
-inline void set_PrimaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  value) ;
+  /// @brief Method set_PrimaryTriangle, addr 0x656c208, size 0x5c, virtual false, abstract: false, final false
+  inline void set_PrimaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
 
-/// @brief Method set_SecondaryTriangle, addr 0x656d3ac, size 0x5c, virtual false, abstract: false, final false
-inline void set_SecondaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  value) ;
+  /// @brief Method set_SecondaryTriangle, addr 0x656d3ac, size 0x5c, virtual false, abstract: false, final false
+  inline void set_SecondaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DTSweepDebugContext() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DTSweepDebugContext();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweepDebugContext", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DTSweepDebugContext(DTSweepDebugContext&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DTSweepDebugContext", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DTSweepDebugContext(DTSweepDebugContext && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweepDebugContext", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DTSweepDebugContext(DTSweepDebugContext const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DTSweepDebugContext", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DTSweepDebugContext(DTSweepDebugContext const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21596 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21596};
+  /// @brief Field _primaryTriangle, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ____primaryTriangle;
 
-/// @brief Field _primaryTriangle, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  ____primaryTriangle;
+  /// @brief Field _secondaryTriangle, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ____secondaryTriangle;
 
-/// @brief Field _secondaryTriangle, offset: 0x20, size: 0x8, def value: None
- ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*  ____secondaryTriangle;
+  /// @brief Field _activePoint, offset: 0x28, size: 0x8, def value: None
+  ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ____activePoint;
 
-/// @brief Field _activePoint, offset: 0x28, size: 0x8, def value: None
- ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*  ____activePoint;
+  /// @brief Field _activeNode, offset: 0x30, size: 0x8, def value: None
+  ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ____activeNode;
 
-/// @brief Field _activeNode, offset: 0x30, size: 0x8, def value: None
- ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  ____activeNode;
+  /// @brief Field _activeConstraint, offset: 0x38, size: 0x8, def value: None
+  ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ____activeConstraint;
 
-/// @brief Field _activeConstraint, offset: 0x38, size: 0x8, def value: None
- ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*  ____activeConstraint;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext, ____primaryTriangle) == 0x18, "Offset mismatch!");
@@ -176,8 +177,6 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext,
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext, ____activeConstraint) == 0x38, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext, 0x40>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext) == 0x40, "Size mismatch!");
 
-} // namespace end def UnityEngine::ProBuilder::Poly2Tri
-NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepDebugContext");
+} // namespace UnityEngine::ProBuilder::Poly2Tri

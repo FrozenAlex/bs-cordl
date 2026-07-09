@@ -8,86 +8,70 @@
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataAddTestSlidersTransform.CreateTransformedData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&::GlobalNamespace::BeatmapDataAddTestSlidersTransform::CreateTransformedData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
+    &::GlobalNamespace::BeatmapDataAddTestSlidersTransform::CreateTransformedData)> {
   constexpr static std::size_t size = 0x334;
   constexpr static std::size_t addrs = 0x3645b5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>::get(),
-                        "CreateTransformedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>(),
+                                                                                           { "CreateTransformedData", {}, { ::i2c::type_of<::GlobalNamespace::IReadonlyBeatmapData*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataAddTestSlidersTransform.FindNextSameColorTypeNote
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteData* (*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*, int32_t, ::GlobalNamespace::ColorType)>(&::GlobalNamespace::BeatmapDataAddTestSlidersTransform::FindNextSameColorTypeNote)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::GlobalNamespace::NoteData* (*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*, int32_t, ::GlobalNamespace::ColorType)>(
+        &::GlobalNamespace::BeatmapDataAddTestSlidersTransform::FindNextSameColorTypeNote)> {
   constexpr static std::size_t size = 0x1f8;
   constexpr static std::size_t addrs = 0x36462dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>::get(),
-                        "FindNextSameColorTypeNote",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>(),
+                                                                                           { "FindNextSameColorTypeNote",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*>(),
+                                                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::ColorType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataAddTestSlidersTransform._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDataAddTestSlidersTransform::*)()>(&::GlobalNamespace::BeatmapDataAddTestSlidersTransform::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataAddTestSlidersTransform::*)()>(&::GlobalNamespace::BeatmapDataAddTestSlidersTransform::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x36464d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::IReadonlyBeatmapData* GlobalNamespace::BeatmapDataAddTestSlidersTransform::CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData*  beatmapData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>::get(),
-                        "CreateTransformedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadonlyBeatmapData*, false>(nullptr, ___internal_method, beatmapData);
+inline ::GlobalNamespace::IReadonlyBeatmapData* GlobalNamespace::BeatmapDataAddTestSlidersTransform::CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>(),
+                                                                                         { "CreateTransformedData", {}, { ::i2c::type_of<::GlobalNamespace::IReadonlyBeatmapData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadonlyBeatmapData*>(nullptr, ___internal_method, beatmapData);
 }
-inline ::GlobalNamespace::NoteData* GlobalNamespace::BeatmapDataAddTestSlidersTransform::FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*  beatmapDataItems, int32_t  startIndex, ::GlobalNamespace::ColorType  colorType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>::get(),
-                        "FindNextSameColorTypeNote",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteData*, false>(nullptr, ___internal_method, beatmapDataItems, startIndex, colorType);
+inline ::GlobalNamespace::NoteData*
+GlobalNamespace::BeatmapDataAddTestSlidersTransform::FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems,
+                                                                               int32_t startIndex, ::GlobalNamespace::ColorType colorType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>(),
+                                                                                         { "FindNextSameColorTypeNote",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*>(),
+                                                                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::ColorType>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteData*>(nullptr, ___internal_method, beatmapDataItems, startIndex, colorType);
 }
-inline void GlobalNamespace::BeatmapDataAddTestSlidersTransform::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::BeatmapDataAddTestSlidersTransform::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapDataAddTestSlidersTransform* GlobalNamespace::BeatmapDataAddTestSlidersTransform::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>());
+inline ::GlobalNamespace::BeatmapDataAddTestSlidersTransform* GlobalNamespace::BeatmapDataAddTestSlidersTransform::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BeatmapDataAddTestSlidersTransform::BeatmapDataAddTestSlidersTransform()   {
-}
+constexpr ::GlobalNamespace::BeatmapDataAddTestSlidersTransform::BeatmapDataAddTestSlidersTransform() {}

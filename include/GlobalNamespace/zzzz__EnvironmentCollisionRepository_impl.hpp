@@ -6,98 +6,80 @@
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentCollisionRepository.RegisterColliderEventEffect
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentCollisionRepository::*)(::GlobalNamespace::ColliderEventEffect*)>(&::GlobalNamespace::EnvironmentCollisionRepository::RegisterColliderEventEffect)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentCollisionRepository::*)(::GlobalNamespace::ColliderEventEffect*)>(
+    &::GlobalNamespace::EnvironmentCollisionRepository::RegisterColliderEventEffect)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5861f0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentCollisionRepository*>::get(),
-                        "RegisterColliderEventEffect",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColliderEventEffect*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentCollisionRepository*>(),
+                                                                                           { "RegisterColliderEventEffect", {}, { ::i2c::type_of<::GlobalNamespace::ColliderEventEffect*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentCollisionRepository.TryGetColliderEventEffect
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnvironmentCollisionRepository::*)(::UnityEngine::Collider*, ::ByRef<::GlobalNamespace::ColliderEventEffect*>)>(&::GlobalNamespace::EnvironmentCollisionRepository::TryGetColliderEventEffect)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnvironmentCollisionRepository::*)(::UnityEngine::Collider*, ::by_ref<::GlobalNamespace::ColliderEventEffect*>)>(
+    &::GlobalNamespace::EnvironmentCollisionRepository::TryGetColliderEventEffect)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x5861f9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentCollisionRepository*>::get(),
-                        "TryGetColliderEventEffect",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Collider*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::ColliderEventEffect*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentCollisionRepository*>(),
+                                         { "TryGetColliderEventEffect", {}, { ::i2c::type_of<::UnityEngine::Collider*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::ColliderEventEffect*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentCollisionRepository._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentCollisionRepository::*)()>(&::GlobalNamespace::EnvironmentCollisionRepository::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentCollisionRepository::*)()>(&::GlobalNamespace::EnvironmentCollisionRepository::_ctor)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x586205c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentCollisionRepository*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentCollisionRepository*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>,::UnityW<::GlobalNamespace::ColliderEventEffect>>*& GlobalNamespace::EnvironmentCollisionRepository::__cordl_internal_get__colliders()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____colliders;
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>*&
+GlobalNamespace::EnvironmentCollisionRepository::__cordl_internal_get__colliders() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____colliders;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>,::UnityW<::GlobalNamespace::ColliderEventEffect>>* const& GlobalNamespace::EnvironmentCollisionRepository::__cordl_internal_get__colliders() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____colliders;
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* const&
+GlobalNamespace::EnvironmentCollisionRepository::__cordl_internal_get__colliders() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____colliders;
 }
-constexpr void GlobalNamespace::EnvironmentCollisionRepository::__cordl_internal_set__colliders(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>,::UnityW<::GlobalNamespace::ColliderEventEffect>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colliders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnvironmentCollisionRepository::__cordl_internal_set__colliders(
+    ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____colliders = value;
 }
-inline void GlobalNamespace::EnvironmentCollisionRepository::RegisterColliderEventEffect(::GlobalNamespace::ColliderEventEffect*  colliderEventEffect)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentCollisionRepository*>::get(),
-                        "RegisterColliderEventEffect",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColliderEventEffect*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, colliderEventEffect);
+inline void GlobalNamespace::EnvironmentCollisionRepository::RegisterColliderEventEffect(::GlobalNamespace::ColliderEventEffect* colliderEventEffect) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentCollisionRepository*>(),
+                                                                                         { "RegisterColliderEventEffect", {}, { ::i2c::type_of<::GlobalNamespace::ColliderEventEffect*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, colliderEventEffect);
 }
-inline bool GlobalNamespace::EnvironmentCollisionRepository::TryGetColliderEventEffect(::UnityEngine::Collider*  collider, ::ByRef<::GlobalNamespace::ColliderEventEffect*>  colliderEventEffect)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentCollisionRepository*>::get(),
-                        "TryGetColliderEventEffect",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Collider*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::ColliderEventEffect*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, collider, colliderEventEffect);
+inline bool GlobalNamespace::EnvironmentCollisionRepository::TryGetColliderEventEffect(::UnityEngine::Collider* collider, ::by_ref<::GlobalNamespace::ColliderEventEffect*> colliderEventEffect) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentCollisionRepository*>(),
+                                       { "TryGetColliderEventEffect", {}, { ::i2c::type_of<::UnityEngine::Collider*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::ColliderEventEffect*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, collider, colliderEventEffect);
 }
-inline void GlobalNamespace::EnvironmentCollisionRepository::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentCollisionRepository*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnvironmentCollisionRepository::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentCollisionRepository*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EnvironmentCollisionRepository* GlobalNamespace::EnvironmentCollisionRepository::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentCollisionRepository*>());
+inline ::GlobalNamespace::EnvironmentCollisionRepository* GlobalNamespace::EnvironmentCollisionRepository::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::EnvironmentCollisionRepository*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::EnvironmentCollisionRepository::EnvironmentCollisionRepository()   {
-}
+constexpr ::GlobalNamespace::EnvironmentCollisionRepository::EnvironmentCollisionRepository() {}

@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Data/DataColumnCollection.hpp"
+#include "System/Data/zzzz__DataColumn_impl.hpp"
 #include "System/Data/zzzz__InternalDataCollectionBase_impl.hpp"
 #include "System/Data/zzzz__DataColumnCollection_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -9,1139 +10,866 @@
 #include "System/Data/zzzz__DataColumn_def.hpp"
 #include "System/Data/zzzz__DataTable_def.hpp"
 //  Writing Method size for method: ::System::Data::DataColumnCollection._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataColumnCollection::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataColumnCollection::_ctor)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x5edff44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { ".ctor", {}, { ::i2c::type_of<::System::Data::DataTable*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.get_List
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::get_List)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::get_List)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5ee00c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { ::i2c::class_of<::System::Data::DataColumnCollection*>(), 12 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.get_ColumnsImplementingIChangeTracking
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*> (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTracking)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataColumnCollection::*)()>(
+    &::System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTracking)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5ee00c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_ColumnsImplementingIChangeTracking",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_ColumnsImplementingIChangeTracking", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.get_ColumnsImplementingIChangeTrackingCount
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTrackingCount)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTrackingCount)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5ee00d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_ColumnsImplementingIChangeTrackingCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_ColumnsImplementingIChangeTrackingCount", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.get_ColumnsImplementingIRevertibleChangeTrackingCount
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::get_ColumnsImplementingIRevertibleChangeTrackingCount)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataColumnCollection::*)()>(
+    &::System::Data::DataColumnCollection::get_ColumnsImplementingIRevertibleChangeTrackingCount)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5ee00d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_ColumnsImplementingIRevertibleChangeTrackingCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_ColumnsImplementingIRevertibleChangeTrackingCount", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnCollection::*)(int32_t)>(&::System::Data::DataColumnCollection::get_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnCollection::*)(int32_t)>(&::System::Data::DataColumnCollection::get_Item)> {
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x5ee00e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::get_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::get_Item)> {
   constexpr static std::size_t size = 0x14c;
   constexpr static std::size_t addrs = 0x5ee0220;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_Item", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnCollection::*)(::StringW, ::StringW)>(&::System::Data::DataColumnCollection::get_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnCollection::*)(::StringW, ::StringW)>(&::System::Data::DataColumnCollection::get_Item)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5ee04c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_Item", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::Add)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5ee056c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Add", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.AddAt
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(int32_t, ::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::AddAt)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(int32_t, ::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::AddAt)> {
   constexpr static std::size_t size = 0x250;
   constexpr static std::size_t addrs = 0x5ee0578;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "AddAt",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "AddAt", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.add_CollectionChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(&::System::Data::DataColumnCollection::add_CollectionChanged)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
+    &::System::Data::DataColumnCollection::add_CollectionChanged)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5ee0be4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "add_CollectionChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventHandler*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "add_CollectionChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventHandler*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.remove_CollectionChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(&::System::Data::DataColumnCollection::remove_CollectionChanged)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
+    &::System::Data::DataColumnCollection::remove_CollectionChanged)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5ee0c90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "remove_CollectionChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventHandler*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                             { "remove_CollectionChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventHandler*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.add_ColumnPropertyChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(&::System::Data::DataColumnCollection::add_ColumnPropertyChanged)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
+    &::System::Data::DataColumnCollection::add_ColumnPropertyChanged)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5ee0d3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "add_ColumnPropertyChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventHandler*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                             { "add_ColumnPropertyChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventHandler*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.remove_ColumnPropertyChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(&::System::Data::DataColumnCollection::remove_ColumnPropertyChanged)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
+    &::System::Data::DataColumnCollection::remove_ColumnPropertyChanged)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5ee0de8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "remove_ColumnPropertyChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventHandler*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                             { "remove_ColumnPropertyChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventHandler*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.ArrayAdd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::ArrayAdd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::ArrayAdd)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5ee0acc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "ArrayAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "ArrayAdd", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.ArrayAdd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(int32_t, ::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::ArrayAdd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(int32_t, ::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::ArrayAdd)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x5ee0a8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "ArrayAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "ArrayAdd", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.ArrayRemove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::ArrayRemove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::ArrayRemove)> {
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x5ee0ed4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "ArrayRemove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "ArrayRemove", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.AssignName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::AssignName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::AssignName)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x5ee1110;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "AssignName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "AssignName", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.BaseAdd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::BaseAdd)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::BaseAdd)> {
   constexpr static std::size_t size = 0x29c;
   constexpr static std::size_t addrs = 0x5ee07f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "BaseAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "BaseAdd", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.BaseGroupSwitch
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>, int32_t, ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>, int32_t)>(&::System::Data::DataColumnCollection::BaseGroupSwitch)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::ArrayW<::System::Data::DataColumn*>, int32_t, ::ArrayW<::System::Data::DataColumn*>, int32_t)>(
+    &::System::Data::DataColumnCollection::BaseGroupSwitch)> {
   constexpr static std::size_t size = 0x1e4;
   constexpr static std::size_t addrs = 0x5ee1524;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "BaseGroupSwitch",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "BaseGroupSwitch",
+                                                                                                            {},
+                                                                                                            { ::i2c::type_of<::ArrayW<::System::Data::DataColumn*>>(), ::i2c::type_of<int32_t>(),
+                                                                                                              ::i2c::type_of<::ArrayW<::System::Data::DataColumn*>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.BaseRemove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::BaseRemove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::BaseRemove)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x5ee1708;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "BaseRemove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "BaseRemove", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.CanRemove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*, bool)>(&::System::Data::DataColumnCollection::CanRemove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*, bool)>(&::System::Data::DataColumnCollection::CanRemove)> {
   constexpr static std::size_t size = 0x644;
   constexpr static std::size_t addrs = 0x5ee17c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "CanRemove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "CanRemove", {}, { ::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.CheckIChangeTracking
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::CheckIChangeTracking)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::CheckIChangeTracking)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x5ee0e94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "CheckIChangeTracking",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "CheckIChangeTracking", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.Clear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::Clear)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::Clear)> {
   constexpr static std::size_t size = 0x2dc;
   constexpr static std::size_t addrs = 0x5ee2014;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Clear", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.Contains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::Contains)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::Contains)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x5ee22f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Contains", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.Contains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataColumnCollection::*)(::StringW, bool)>(&::System::Data::DataColumnCollection::Contains)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataColumnCollection::*)(::StringW, bool)>(&::System::Data::DataColumnCollection::Contains)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x5ee2388;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Contains", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.IndexOf
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::IndexOf)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::IndexOf)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x5ee2430;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "IndexOf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "IndexOf", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.IndexOfCaseInsensitive
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::IndexOfCaseInsensitive)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::IndexOfCaseInsensitive)> {
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0x5ee036c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "IndexOfCaseInsensitive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "IndexOfCaseInsensitive", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.MakeName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataColumnCollection::*)(int32_t)>(&::System::Data::DataColumnCollection::MakeName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataColumnCollection::*)(int32_t)>(&::System::Data::DataColumnCollection::MakeName)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x5ee11b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "MakeName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "MakeName", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.OnCollectionChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(&::System::Data::DataColumnCollection::OnCollectionChanged)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
+    &::System::Data::DataColumnCollection::OnCollectionChanged)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5ee0b38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "OnCollectionChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventArgs*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                                                           { "OnCollectionChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventArgs*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.OnCollectionChanging
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(&::System::Data::DataColumnCollection::OnCollectionChanging)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
+    &::System::Data::DataColumnCollection::OnCollectionChanging)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x5ee07c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "OnCollectionChanging",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventArgs*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "OnCollectionChanging", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventArgs*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.OnColumnPropertyChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(&::System::Data::DataColumnCollection::OnColumnPropertyChanged)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
+    &::System::Data::DataColumnCollection::OnColumnPropertyChanged)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x5ee2530;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "OnColumnPropertyChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventArgs*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "OnColumnPropertyChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventArgs*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.RegisterColumnName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::StringW, ::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::RegisterColumnName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::StringW, ::System::Data::DataColumn*)>(
+    &::System::Data::DataColumnCollection::RegisterColumnName)> {
   constexpr static std::size_t size = 0x1d8;
   constexpr static std::size_t addrs = 0x5ee1288;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "RegisterColumnName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "RegisterColumnName", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.CanRegisterName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::CanRegisterName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::CanRegisterName)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x5ee256c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "CanRegisterName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "CanRegisterName", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.Remove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::Remove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::Remove)> {
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x5ee25e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Remove", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.UnregisterName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::UnregisterName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::UnregisterName)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x5ee1460;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "UnregisterName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "UnregisterName", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.AddColumnsImplementingIChangeTrackingList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::AddColumnsImplementingIChangeTrackingList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(
+    &::System::Data::DataColumnCollection::AddColumnsImplementingIChangeTrackingList)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x5ee1f48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "AddColumnsImplementingIChangeTrackingList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                                                           { "AddColumnsImplementingIChangeTrackingList", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::DataColumnCollection.RemoveColumnsImplementingIChangeTrackingList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::RemoveColumnsImplementingIChangeTrackingList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(
+    &::System::Data::DataColumnCollection::RemoveColumnsImplementingIChangeTrackingList)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x5ee1008;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "RemoveColumnsImplementingIChangeTrackingList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                                                           { "RemoveColumnsImplementingIChangeTrackingList", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Data::DataTable*& System::Data::DataColumnCollection::__cordl_internal_get__table()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____table;
+constexpr ::System::Data::DataTable*& System::Data::DataColumnCollection::__cordl_internal_get__table() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____table;
 }
 constexpr ::System::Data::DataTable* const& System::Data::DataColumnCollection::__cordl_internal_get__table() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____table;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____table;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set__table(::System::Data::DataTable*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set__table(::System::Data::DataTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____table = value;
 }
-constexpr ::System::Collections::ArrayList*& System::Data::DataColumnCollection::__cordl_internal_get__list()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____list;
+constexpr ::System::Collections::ArrayList*& System::Data::DataColumnCollection::__cordl_internal_get__list() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____list;
 }
 constexpr ::System::Collections::ArrayList* const& System::Data::DataColumnCollection::__cordl_internal_get__list() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____list;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____list;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set__list(::System::Collections::ArrayList*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set__list(::System::Collections::ArrayList* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____list = value;
 }
-constexpr int32_t& System::Data::DataColumnCollection::__cordl_internal_get__defaultNameIndex()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultNameIndex;
+constexpr int32_t& System::Data::DataColumnCollection::__cordl_internal_get__defaultNameIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultNameIndex;
 }
 constexpr int32_t const& System::Data::DataColumnCollection::__cordl_internal_get__defaultNameIndex() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultNameIndex;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultNameIndex;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set__defaultNameIndex(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____defaultNameIndex = value;
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set__defaultNameIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____defaultNameIndex = value;
 }
-constexpr ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>& System::Data::DataColumnCollection::__cordl_internal_get__delayedAddRangeColumns()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____delayedAddRangeColumns;
+constexpr ::ArrayW<::System::Data::DataColumn*>& System::Data::DataColumnCollection::__cordl_internal_get__delayedAddRangeColumns() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____delayedAddRangeColumns;
 }
-constexpr ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*> const& System::Data::DataColumnCollection::__cordl_internal_get__delayedAddRangeColumns() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____delayedAddRangeColumns;
+constexpr ::ArrayW<::System::Data::DataColumn*> const& System::Data::DataColumnCollection::__cordl_internal_get__delayedAddRangeColumns() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____delayedAddRangeColumns;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set__delayedAddRangeColumns(::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____delayedAddRangeColumns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set__delayedAddRangeColumns(::ArrayW<::System::Data::DataColumn*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____delayedAddRangeColumns = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Data::DataColumn*>*& System::Data::DataColumnCollection::__cordl_internal_get__columnFromName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____columnFromName;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Data::DataColumn*>*& System::Data::DataColumnCollection::__cordl_internal_get__columnFromName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____columnFromName;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Data::DataColumn*>* const& System::Data::DataColumnCollection::__cordl_internal_get__columnFromName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____columnFromName;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Data::DataColumn*>* const& System::Data::DataColumnCollection::__cordl_internal_get__columnFromName() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____columnFromName;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set__columnFromName(::System::Collections::Generic::Dictionary_2<::StringW,::System::Data::DataColumn*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____columnFromName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set__columnFromName(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Data::DataColumn*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____columnFromName = value;
 }
-constexpr bool& System::Data::DataColumnCollection::__cordl_internal_get__fInClear()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fInClear;
+constexpr bool& System::Data::DataColumnCollection::__cordl_internal_get__fInClear() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fInClear;
 }
 constexpr bool const& System::Data::DataColumnCollection::__cordl_internal_get__fInClear() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fInClear;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fInClear;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set__fInClear(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____fInClear = value;
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set__fInClear(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____fInClear = value;
 }
-constexpr ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>& System::Data::DataColumnCollection::__cordl_internal_get__columnsImplementingIChangeTracking()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____columnsImplementingIChangeTracking;
+constexpr ::ArrayW<::System::Data::DataColumn*>& System::Data::DataColumnCollection::__cordl_internal_get__columnsImplementingIChangeTracking() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____columnsImplementingIChangeTracking;
 }
-constexpr ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*> const& System::Data::DataColumnCollection::__cordl_internal_get__columnsImplementingIChangeTracking() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____columnsImplementingIChangeTracking;
+constexpr ::ArrayW<::System::Data::DataColumn*> const& System::Data::DataColumnCollection::__cordl_internal_get__columnsImplementingIChangeTracking() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____columnsImplementingIChangeTracking;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set__columnsImplementingIChangeTracking(::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____columnsImplementingIChangeTracking)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set__columnsImplementingIChangeTracking(::ArrayW<::System::Data::DataColumn*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____columnsImplementingIChangeTracking = value;
 }
-constexpr int32_t& System::Data::DataColumnCollection::__cordl_internal_get__nColumnsImplementingIChangeTracking()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____nColumnsImplementingIChangeTracking;
+constexpr int32_t& System::Data::DataColumnCollection::__cordl_internal_get__nColumnsImplementingIChangeTracking() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nColumnsImplementingIChangeTracking;
 }
 constexpr int32_t const& System::Data::DataColumnCollection::__cordl_internal_get__nColumnsImplementingIChangeTracking() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____nColumnsImplementingIChangeTracking;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nColumnsImplementingIChangeTracking;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set__nColumnsImplementingIChangeTracking(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____nColumnsImplementingIChangeTracking = value;
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set__nColumnsImplementingIChangeTracking(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____nColumnsImplementingIChangeTracking = value;
 }
-constexpr int32_t& System::Data::DataColumnCollection::__cordl_internal_get__nColumnsImplementingIRevertibleChangeTracking()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____nColumnsImplementingIRevertibleChangeTracking;
+constexpr int32_t& System::Data::DataColumnCollection::__cordl_internal_get__nColumnsImplementingIRevertibleChangeTracking() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nColumnsImplementingIRevertibleChangeTracking;
 }
 constexpr int32_t const& System::Data::DataColumnCollection::__cordl_internal_get__nColumnsImplementingIRevertibleChangeTracking() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____nColumnsImplementingIRevertibleChangeTracking;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nColumnsImplementingIRevertibleChangeTracking;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set__nColumnsImplementingIRevertibleChangeTracking(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____nColumnsImplementingIRevertibleChangeTracking = value;
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set__nColumnsImplementingIRevertibleChangeTracking(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____nColumnsImplementingIRevertibleChangeTracking = value;
 }
-constexpr ::System::ComponentModel::CollectionChangeEventHandler*& System::Data::DataColumnCollection::__cordl_internal_get_CollectionChanged()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CollectionChanged;
+constexpr ::System::ComponentModel::CollectionChangeEventHandler*& System::Data::DataColumnCollection::__cordl_internal_get_CollectionChanged() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CollectionChanged;
 }
 constexpr ::System::ComponentModel::CollectionChangeEventHandler* const& System::Data::DataColumnCollection::__cordl_internal_get_CollectionChanged() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CollectionChanged;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CollectionChanged;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CollectionChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___CollectionChanged = value;
 }
-constexpr ::System::ComponentModel::CollectionChangeEventHandler*& System::Data::DataColumnCollection::__cordl_internal_get_CollectionChanging()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CollectionChanging;
+constexpr ::System::ComponentModel::CollectionChangeEventHandler*& System::Data::DataColumnCollection::__cordl_internal_get_CollectionChanging() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CollectionChanging;
 }
 constexpr ::System::ComponentModel::CollectionChangeEventHandler* const& System::Data::DataColumnCollection::__cordl_internal_get_CollectionChanging() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CollectionChanging;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CollectionChanging;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set_CollectionChanging(::System::ComponentModel::CollectionChangeEventHandler*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CollectionChanging)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set_CollectionChanging(::System::ComponentModel::CollectionChangeEventHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___CollectionChanging = value;
 }
-constexpr ::System::ComponentModel::CollectionChangeEventHandler*& System::Data::DataColumnCollection::__cordl_internal_get_ColumnPropertyChanged()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ColumnPropertyChanged;
+constexpr ::System::ComponentModel::CollectionChangeEventHandler*& System::Data::DataColumnCollection::__cordl_internal_get_ColumnPropertyChanged() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ColumnPropertyChanged;
 }
 constexpr ::System::ComponentModel::CollectionChangeEventHandler* const& System::Data::DataColumnCollection::__cordl_internal_get_ColumnPropertyChanged() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ColumnPropertyChanged;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ColumnPropertyChanged;
 }
-constexpr void System::Data::DataColumnCollection::__cordl_internal_set_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ColumnPropertyChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::DataColumnCollection::__cordl_internal_set_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___ColumnPropertyChanged = value;
 }
-inline void System::Data::DataColumnCollection::_ctor(::System::Data::DataTable*  table)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, table);
+inline void System::Data::DataColumnCollection::_ctor(::System::Data::DataTable* table) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { ".ctor", {}, { ::i2c::type_of<::System::Data::DataTable*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table);
 }
-inline ::System::Collections::ArrayList* System::Data::DataColumnCollection::get_List()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*, false>(this, ___internal_method);
+inline ::System::Collections::ArrayList* System::Data::DataColumnCollection::get_List() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Data::DataColumnCollection*>(), 12 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*>(this, ___internal_method);
 }
-inline ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*> System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTracking()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_ColumnsImplementingIChangeTracking",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::System::Data::DataColumn*> System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTracking() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_ColumnsImplementingIChangeTracking", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Data::DataColumn*>>(this, ___internal_method);
 }
-inline int32_t System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTrackingCount()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_ColumnsImplementingIChangeTrackingCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTrackingCount() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_ColumnsImplementingIChangeTrackingCount", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t System::Data::DataColumnCollection::get_ColumnsImplementingIRevertibleChangeTrackingCount()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_ColumnsImplementingIRevertibleChangeTrackingCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Data::DataColumnCollection::get_ColumnsImplementingIRevertibleChangeTrackingCount() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_ColumnsImplementingIRevertibleChangeTrackingCount", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::System::Data::DataColumn* System::Data::DataColumnCollection::get_Item(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::DataColumn*, false>(this, ___internal_method, index);
+inline ::System::Data::DataColumn* System::Data::DataColumnCollection::get_Item(int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::DataColumn*>(this, ___internal_method, index);
 }
-inline ::System::Data::DataColumn* System::Data::DataColumnCollection::get_Item(::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::DataColumn*, false>(this, ___internal_method, name);
+inline ::System::Data::DataColumn* System::Data::DataColumnCollection::get_Item(::StringW name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_Item", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::DataColumn*>(this, ___internal_method, name);
 }
-inline ::System::Data::DataColumn* System::Data::DataColumnCollection::get_Item(::StringW  name, ::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::DataColumn*, false>(this, ___internal_method, name, ns);
+inline ::System::Data::DataColumn* System::Data::DataColumnCollection::get_Item(::StringW name, ::StringW ns) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "get_Item", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::DataColumn*>(this, ___internal_method, name, ns);
 }
-inline void System::Data::DataColumnCollection::Add(::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
+inline void System::Data::DataColumnCollection::Add(::System::Data::DataColumn* column) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Add", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column);
 }
-inline void System::Data::DataColumnCollection::AddAt(int32_t  index, ::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "AddAt",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, column);
+inline void System::Data::DataColumnCollection::AddAt(int32_t index, ::System::Data::DataColumn* column) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "AddAt", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, column);
 }
-inline void System::Data::DataColumnCollection::add_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "add_CollectionChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventHandler*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Data::DataColumnCollection::add_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "add_CollectionChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventHandler*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void System::Data::DataColumnCollection::remove_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "remove_CollectionChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventHandler*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Data::DataColumnCollection::remove_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                           { "remove_CollectionChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventHandler*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void System::Data::DataColumnCollection::add_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "add_ColumnPropertyChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventHandler*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Data::DataColumnCollection::add_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                           { "add_ColumnPropertyChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventHandler*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void System::Data::DataColumnCollection::remove_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "remove_ColumnPropertyChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventHandler*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Data::DataColumnCollection::remove_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                           { "remove_ColumnPropertyChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventHandler*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void System::Data::DataColumnCollection::ArrayAdd(::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "ArrayAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
+inline void System::Data::DataColumnCollection::ArrayAdd(::System::Data::DataColumn* column) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "ArrayAdd", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column);
 }
-inline void System::Data::DataColumnCollection::ArrayAdd(int32_t  index, ::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "ArrayAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, column);
+inline void System::Data::DataColumnCollection::ArrayAdd(int32_t index, ::System::Data::DataColumn* column) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "ArrayAdd", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, column);
 }
-inline void System::Data::DataColumnCollection::ArrayRemove(::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "ArrayRemove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
+inline void System::Data::DataColumnCollection::ArrayRemove(::System::Data::DataColumn* column) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "ArrayRemove", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column);
 }
-inline ::StringW System::Data::DataColumnCollection::AssignName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "AssignName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Data::DataColumnCollection::AssignName() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "AssignName", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void System::Data::DataColumnCollection::BaseAdd(::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "BaseAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
+inline void System::Data::DataColumnCollection::BaseAdd(::System::Data::DataColumn* column) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "BaseAdd", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column);
 }
-inline void System::Data::DataColumnCollection::BaseGroupSwitch(::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  oldArray, int32_t  oldLength, ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  newArray, int32_t  newLength)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "BaseGroupSwitch",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oldArray, oldLength, newArray, newLength);
+inline void System::Data::DataColumnCollection::BaseGroupSwitch(::ArrayW<::System::Data::DataColumn*> oldArray, int32_t oldLength, ::ArrayW<::System::Data::DataColumn*> newArray, int32_t newLength) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "BaseGroupSwitch",
+                                                                                                          {},
+                                                                                                          { ::i2c::type_of<::ArrayW<::System::Data::DataColumn*>>(), ::i2c::type_of<int32_t>(),
+                                                                                                            ::i2c::type_of<::ArrayW<::System::Data::DataColumn*>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, oldArray, oldLength, newArray, newLength);
 }
-inline void System::Data::DataColumnCollection::BaseRemove(::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "BaseRemove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
+inline void System::Data::DataColumnCollection::BaseRemove(::System::Data::DataColumn* column) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "BaseRemove", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column);
 }
-inline bool System::Data::DataColumnCollection::CanRemove(::System::Data::DataColumn*  column, bool  fThrowException)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "CanRemove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, column, fThrowException);
+inline bool System::Data::DataColumnCollection::CanRemove(::System::Data::DataColumn* column, bool fThrowException) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "CanRemove", {}, { ::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, column, fThrowException);
 }
-inline void System::Data::DataColumnCollection::CheckIChangeTracking(::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "CheckIChangeTracking",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
+inline void System::Data::DataColumnCollection::CheckIChangeTracking(::System::Data::DataColumn* column) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "CheckIChangeTracking", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column);
 }
-inline void System::Data::DataColumnCollection::Clear()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Data::DataColumnCollection::Clear() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Clear", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool System::Data::DataColumnCollection::Contains(::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name);
+inline bool System::Data::DataColumnCollection::Contains(::StringW name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Contains", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, name);
 }
-inline bool System::Data::DataColumnCollection::Contains(::StringW  name, bool  caseSensitive)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name, caseSensitive);
+inline bool System::Data::DataColumnCollection::Contains(::StringW name, bool caseSensitive) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Contains", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, name, caseSensitive);
 }
-inline int32_t System::Data::DataColumnCollection::IndexOf(::StringW  columnName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "IndexOf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, columnName);
+inline int32_t System::Data::DataColumnCollection::IndexOf(::StringW columnName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "IndexOf", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, columnName);
 }
-inline int32_t System::Data::DataColumnCollection::IndexOfCaseInsensitive(::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "IndexOfCaseInsensitive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, name);
+inline int32_t System::Data::DataColumnCollection::IndexOfCaseInsensitive(::StringW name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "IndexOfCaseInsensitive", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, name);
 }
-inline ::StringW System::Data::DataColumnCollection::MakeName(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "MakeName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, index);
+inline ::StringW System::Data::DataColumnCollection::MakeName(int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "MakeName", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, index);
 }
-inline void System::Data::DataColumnCollection::OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs*  ccevent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "OnCollectionChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventArgs*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ccevent);
+inline void System::Data::DataColumnCollection::OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                                                         { "OnCollectionChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventArgs*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ccevent);
 }
-inline void System::Data::DataColumnCollection::OnCollectionChanging(::System::ComponentModel::CollectionChangeEventArgs*  ccevent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "OnCollectionChanging",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventArgs*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ccevent);
+inline void System::Data::DataColumnCollection::OnCollectionChanging(::System::ComponentModel::CollectionChangeEventArgs* ccevent) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                                                         { "OnCollectionChanging", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventArgs*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ccevent);
 }
-inline void System::Data::DataColumnCollection::OnColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventArgs*  ccevent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "OnColumnPropertyChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::CollectionChangeEventArgs*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ccevent);
+inline void System::Data::DataColumnCollection::OnColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "OnColumnPropertyChanged", {}, { ::i2c::type_of<::System::ComponentModel::CollectionChangeEventArgs*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ccevent);
 }
-inline void System::Data::DataColumnCollection::RegisterColumnName(::StringW  name, ::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "RegisterColumnName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, column);
+inline void System::Data::DataColumnCollection::RegisterColumnName(::StringW name, ::System::Data::DataColumn* column) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "RegisterColumnName", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, column);
 }
-inline bool System::Data::DataColumnCollection::CanRegisterName(::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "CanRegisterName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name);
+inline bool System::Data::DataColumnCollection::CanRegisterName(::StringW name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "CanRegisterName", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, name);
 }
-inline void System::Data::DataColumnCollection::Remove(::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
+inline void System::Data::DataColumnCollection::Remove(::System::Data::DataColumn* column) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Remove", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column);
 }
-inline void System::Data::DataColumnCollection::UnregisterName(::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "UnregisterName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
+inline void System::Data::DataColumnCollection::UnregisterName(::StringW name) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "UnregisterName", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name);
 }
-inline void System::Data::DataColumnCollection::AddColumnsImplementingIChangeTrackingList(::System::Data::DataColumn*  dataColumn)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "AddColumnsImplementingIChangeTrackingList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dataColumn);
+inline void System::Data::DataColumnCollection::AddColumnsImplementingIChangeTrackingList(::System::Data::DataColumn* dataColumn) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                                                         { "AddColumnsImplementingIChangeTrackingList", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dataColumn);
 }
-inline void System::Data::DataColumnCollection::RemoveColumnsImplementingIChangeTrackingList(::System::Data::DataColumn*  dataColumn)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnCollection*>::get(),
-                        "RemoveColumnsImplementingIChangeTrackingList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dataColumn);
+inline void System::Data::DataColumnCollection::RemoveColumnsImplementingIChangeTrackingList(::System::Data::DataColumn* dataColumn) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
+                                                                                         { "RemoveColumnsImplementingIChangeTrackingList", {}, { ::i2c::type_of<::System::Data::DataColumn*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dataColumn);
 }
-inline ::System::Data::DataColumnCollection* System::Data::DataColumnCollection::New_ctor(::System::Data::DataTable*  table)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::DataColumnCollection*>(table));
+inline ::System::Data::DataColumnCollection* System::Data::DataColumnCollection::New_ctor(::System::Data::DataTable* table) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::DataColumnCollection*>(table));
 }
 // Ctor Parameters []
-constexpr ::System::Data::DataColumnCollection::DataColumnCollection()   {
-}
+constexpr ::System::Data::DataColumnCollection::DataColumnCollection() {}

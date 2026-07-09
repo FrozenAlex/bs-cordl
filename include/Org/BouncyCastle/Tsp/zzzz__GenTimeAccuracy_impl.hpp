@@ -5,175 +5,124 @@
 #include "Org/BouncyCastle/Asn1/Tsp/zzzz__Accuracy_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::GenTimeAccuracy._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)(::Org::BouncyCastle::Asn1::Tsp::Accuracy*)>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)(::Org::BouncyCastle::Asn1::Tsp::Accuracy*)>(
+    &::Org::BouncyCastle::Tsp::GenTimeAccuracy::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3560a54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::GenTimeAccuracy.get_Seconds
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Seconds)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Seconds)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x3560a5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        "get_Seconds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "get_Seconds", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::GenTimeAccuracy.get_Millis
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Millis)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Millis)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x3560a98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        "get_Millis",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "get_Millis", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::GenTimeAccuracy.get_Micros
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Micros)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Micros)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x3560abc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        "get_Micros",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "get_Micros", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::GenTimeAccuracy.GetTimeComponent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)(::Org::BouncyCastle::Asn1::DerInteger*)>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::GetTimeComponent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)(::Org::BouncyCastle::Asn1::DerInteger*)>(
+    &::Org::BouncyCastle::Tsp::GenTimeAccuracy::GetTimeComponent)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x3560a80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        "GetTimeComponent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerInteger*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "GetTimeComponent", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::DerInteger*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::GenTimeAccuracy.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::ToString)> {
   constexpr static std::size_t size = 0x1b0;
   constexpr static std::size_t addrs = 0x3560ae0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { ::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), 3 }));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy*& Org::BouncyCastle::Tsp::GenTimeAccuracy::__cordl_internal_get_accuracy()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___accuracy;
+constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy*& Org::BouncyCastle::Tsp::GenTimeAccuracy::__cordl_internal_get_accuracy() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___accuracy;
 }
 constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy* const& Org::BouncyCastle::Tsp::GenTimeAccuracy::__cordl_internal_get_accuracy() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___accuracy;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___accuracy;
 }
-constexpr void Org::BouncyCastle::Tsp::GenTimeAccuracy::__cordl_internal_set_accuracy(::Org::BouncyCastle::Asn1::Tsp::Accuracy*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___accuracy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Tsp::GenTimeAccuracy::__cordl_internal_set_accuracy(::Org::BouncyCastle::Asn1::Tsp::Accuracy* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___accuracy = value;
 }
-inline void Org::BouncyCastle::Tsp::GenTimeAccuracy::_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy*  accuracy)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, accuracy);
+inline void Org::BouncyCastle::Tsp::GenTimeAccuracy::_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Tsp::Accuracy*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, accuracy);
 }
-inline int32_t Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Seconds()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        "get_Seconds",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Seconds() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "get_Seconds", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Millis()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        "get_Millis",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Millis() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "get_Millis", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Micros()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        "get_Micros",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Micros() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "get_Micros", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Tsp::GenTimeAccuracy::GetTimeComponent(::Org::BouncyCastle::Asn1::DerInteger*  time)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                        "GetTimeComponent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerInteger*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, time);
+inline int32_t Org::BouncyCastle::Tsp::GenTimeAccuracy::GetTimeComponent(::Org::BouncyCastle::Asn1::DerInteger* time) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), { "GetTimeComponent", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::DerInteger*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, time);
 }
-inline ::StringW Org::BouncyCastle::Tsp::GenTimeAccuracy::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Org::BouncyCastle::Tsp::GenTimeAccuracy::ToString() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* Org::BouncyCastle::Tsp::GenTimeAccuracy::New_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy*  accuracy)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(accuracy));
+inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* Org::BouncyCastle::Tsp::GenTimeAccuracy::New_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>(accuracy));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Tsp::GenTimeAccuracy::GenTimeAccuracy()   {
-}
+constexpr ::Org::BouncyCastle::Tsp::GenTimeAccuracy::GenTimeAccuracy() {}

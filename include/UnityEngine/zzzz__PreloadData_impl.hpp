@@ -3,31 +3,20 @@
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__PreloadData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::PreloadData.PreloadDataDontStripMe
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PreloadData::*)()>(&::UnityEngine::PreloadData::PreloadDataDontStripMe)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PreloadData::*)()>(&::UnityEngine::PreloadData::PreloadDataDontStripMe)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6999a54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PreloadData*>::get(),
-                        "PreloadDataDontStripMe",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PreloadData*>(), { "PreloadDataDontStripMe", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::PreloadData::PreloadDataDontStripMe()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PreloadData*>::get(),
-                        "PreloadDataDontStripMe",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::PreloadData::PreloadDataDontStripMe() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PreloadData*>(), { "PreloadDataDontStripMe", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::PreloadData::PreloadData()   {
-}
+constexpr ::UnityEngine::PreloadData::PreloadData() {}

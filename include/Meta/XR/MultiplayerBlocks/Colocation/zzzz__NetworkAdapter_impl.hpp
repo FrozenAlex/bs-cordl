@@ -5,147 +5,122 @@
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__INetworkData_def.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__INetworkMessenger_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter.get_NetworkData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* (*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* (*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkData)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x5941d80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "get_NetworkData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(), { "get_NetworkData", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter.set_NetworkData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*)>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkData)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x5941dcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "set_NetworkData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(),
+                                                                                           { "set_NetworkData", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter.get_NetworkMessenger
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* (*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkMessenger)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* (*)()>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkMessenger)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x5941e1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "get_NetworkMessenger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(), { "get_NetworkMessenger", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter.set_NetworkMessenger
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkMessenger)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkMessenger)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x5941e68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "set_NetworkMessenger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(),
+                                                             { "set_NetworkMessenger", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter.SetConfig
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::SetConfig)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::SetConfig)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x5936f50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "SetConfig",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(),
+            { "SetConfig", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>(), ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>() } })));
     return ___internal_method;
   }
 };
-inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::setStaticF__NetworkData_k__BackingField(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*  value)  {
-::cordl_internals::setStaticField<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, "<NetworkData>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get>(std::forward<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>(value));
+inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::setStaticF__NetworkData_k__BackingField(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* value) {
+  ::cordl_internals::setStaticField<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, "<NetworkData>k__BackingField", ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(
+      std::forward<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>(value));
 }
-inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::getStaticF__NetworkData_k__BackingField()  {
-return ::cordl_internals::getStaticField<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, "<NetworkData>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get>();
+inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::getStaticF__NetworkData_k__BackingField() {
+  return ::cordl_internals::getStaticField<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, "<NetworkData>k__BackingField", ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>();
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::setStaticF__NetworkMessenger_k__BackingField(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*  value)  {
-::cordl_internals::setStaticField<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*, "<NetworkMessenger>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get>(std::forward<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>(value));
+inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::setStaticF__NetworkMessenger_k__BackingField(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* value) {
+  ::cordl_internals::setStaticField<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*, "<NetworkMessenger>k__BackingField", ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(
+      std::forward<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>(value));
 }
-inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::getStaticF__NetworkMessenger_k__BackingField()  {
-return ::cordl_internals::getStaticField<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*, "<NetworkMessenger>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get>();
+inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::getStaticF__NetworkMessenger_k__BackingField() {
+  return ::cordl_internals::getStaticField<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*, "<NetworkMessenger>k__BackingField",
+                                           ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>();
 }
-inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "get_NetworkData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, false>(nullptr, ___internal_method);
+inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkData() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(), { "get_NetworkData", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>(nullptr, ___internal_method);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkData(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "set_NetworkData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkData(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(),
+                                                                                         { "set_NetworkData", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkMessenger()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "get_NetworkMessenger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*, false>(nullptr, ___internal_method);
+inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkMessenger() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(), { "get_NetworkMessenger", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>(nullptr, ___internal_method);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkMessenger(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "set_NetworkMessenger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkMessenger(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(),
+                                                           { "set_NetworkMessenger", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::SetConfig(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*  networkData, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*  networkMessenger)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>::get(),
-                        "SetConfig",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, networkData, networkMessenger);
+inline void Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::SetConfig(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* networkData,
+                                                                               ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* networkMessenger) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(),
+          { "SetConfig", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*>(), ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, networkData, networkMessenger);
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::NetworkAdapter()   {
-}
+constexpr ::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::NetworkAdapter() {}

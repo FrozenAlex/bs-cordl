@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/InputActions.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
@@ -19,70 +19,69 @@ namespace GlobalNamespace {
 class InputActions;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::InputActions);
+MARK_REF_T(::GlobalNamespace::InputActions*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InputActions*, "", "InputActions");
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: InputActions
 class CORDL_TYPE InputActions : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _keyboardManager, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__keyboardManager, put=__cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager>  _keyboardManager;
+  // Declarations
+  /// @brief Field _keyboardManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__keyboardManager, put = __cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager> _keyboardManager;
 
-/// @brief Method HasInputFocus, addr 0x57c0e5c, size 0x104, virtual false, abstract: false, final false
-static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem*  eventSystem, ::GlobalNamespace::UIKeyboardManager*  keyboardManager) ;
+  /// @brief Method HasInputFocus, addr 0x57c0e5c, size 0x104, virtual false, abstract: false, final false
+  static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem* eventSystem, ::GlobalNamespace::UIKeyboardManager* keyboardManager);
 
-static inline ::GlobalNamespace::InputActions* New_ctor() ;
+  static inline ::GlobalNamespace::InputActions* New_ctor();
 
-/// @brief Method ResolveGameplayCoreSceneContext, addr 0x57c1118, size 0x3a4, virtual false, abstract: false, final false
-static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext() ;
+  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x57c1118, size 0x3a4, virtual false, abstract: false, final false
+  static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext();
 
-/// @brief Method ToggleAutopilot, addr 0x57c0f60, size 0x1b4, virtual false, abstract: false, final false
-static inline void ToggleAutopilot() ;
+  /// @brief Method ToggleAutopilot, addr 0x57c0f60, size 0x1b4, virtual false, abstract: false, final false
+  static inline void ToggleAutopilot();
 
-/// @brief Method ToggleLevelFreeze, addr 0x57c1114, size 0x4, virtual false, abstract: false, final false
-static inline void ToggleLevelFreeze() ;
+  /// @brief Method ToggleLevelFreeze, addr 0x57c1114, size 0x4, virtual false, abstract: false, final false
+  static inline void ToggleLevelFreeze();
 
-/// @brief Method Update, addr 0x57c0b84, size 0x2d8, virtual false, abstract: false, final false
-inline void Update() ;
+  /// @brief Method Update, addr 0x57c0b84, size 0x2d8, virtual false, abstract: false, final false
+  inline void Update();
 
-constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get__keyboardManager() const;
+  constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get__keyboardManager() const;
 
-constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager>& __cordl_internal_get__keyboardManager() ;
+  constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager>& __cordl_internal_get__keyboardManager();
 
-constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager>  value) ;
+  constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager> value);
 
-/// @brief Method .ctor, addr 0x57c14bc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57c14bc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InputActions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputActions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InputActions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InputActions(InputActions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputActions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InputActions(InputActions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InputActions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InputActions(InputActions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputActions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InputActions(InputActions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6621 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6621};
+  /// @brief Field _keyboardManager, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::UIKeyboardManager> ____keyboardManager;
 
-/// @brief Field _keyboardManager, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::UIKeyboardManager>  ____keyboardManager;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::InputActions, ____keyboardManager) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InputActions, 0x28>, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InputActions) == 0x28, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::InputActions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InputActions*, "", "InputActions");
+} // namespace GlobalNamespace

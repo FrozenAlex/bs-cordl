@@ -5,171 +5,133 @@
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::TypeAsInstruction._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)(::System::Type*)>(&::System::Linq::Expressions::Interpreter::TypeAsInstruction::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)(::System::Type*)>(
+    &::System::Linq::Expressions::Interpreter::TypeAsInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e7e234;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::TypeAsInstruction.get_ConsumedStack
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)()>(&::System::Linq::Expressions::Interpreter::TypeAsInstruction::get_ConsumedStack)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)()>(
+    &::System::Linq::Expressions::Interpreter::TypeAsInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e7e23c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(),
+                                                                                          { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::TypeAsInstruction.get_ProducedStack
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)()>(&::System::Linq::Expressions::Interpreter::TypeAsInstruction::get_ProducedStack)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)()>(
+    &::System::Linq::Expressions::Interpreter::TypeAsInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5e7e244;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(),
+                                                                                          { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::TypeAsInstruction.get_InstructionName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)()>(&::System::Linq::Expressions::Interpreter::TypeAsInstruction::get_InstructionName)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)()>(
+    &::System::Linq::Expressions::Interpreter::TypeAsInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x5e7e24c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(),
+                                                                                          { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 9 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::TypeAsInstruction.Run
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::TypeAsInstruction::Run)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
+    &::System::Linq::Expressions::Interpreter::TypeAsInstruction::Run)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5e7e290;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(),
+                                                                                          { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 8 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::TypeAsInstruction.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)()>(&::System::Linq::Expressions::Interpreter::TypeAsInstruction::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::TypeAsInstruction::*)()>(
+    &::System::Linq::Expressions::Interpreter::TypeAsInstruction::ToString)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x5e7e2fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(),
+                                                                                          { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 3 }));
     return ___internal_method;
   }
 };
-constexpr ::System::Type*& System::Linq::Expressions::Interpreter::TypeAsInstruction::__cordl_internal_get__type()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____type;
+constexpr ::System::Type*& System::Linq::Expressions::Interpreter::TypeAsInstruction::__cordl_internal_get__type() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____type;
 }
 constexpr ::System::Type* const& System::Linq::Expressions::Interpreter::TypeAsInstruction::__cordl_internal_get__type() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____type;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____type;
 }
-constexpr void System::Linq::Expressions::Interpreter::TypeAsInstruction::__cordl_internal_set__type(::System::Type*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Linq::Expressions::Interpreter::TypeAsInstruction::__cordl_internal_set__type(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____type = value;
 }
-inline void System::Linq::Expressions::Interpreter::TypeAsInstruction::_ctor(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
+inline void System::Linq::Expressions::Interpreter::TypeAsInstruction::_ctor(::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type);
 }
-inline int32_t System::Linq::Expressions::Interpreter::TypeAsInstruction::get_ConsumedStack()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Linq::Expressions::Interpreter::TypeAsInstruction::get_ConsumedStack() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t System::Linq::Expressions::Interpreter::TypeAsInstruction::get_ProducedStack()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Linq::Expressions::Interpreter::TypeAsInstruction::get_ProducedStack() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::StringW System::Linq::Expressions::Interpreter::TypeAsInstruction::get_InstructionName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Linq::Expressions::Interpreter::TypeAsInstruction::get_InstructionName() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline int32_t System::Linq::Expressions::Interpreter::TypeAsInstruction::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+inline int32_t System::Linq::Expressions::Interpreter::TypeAsInstruction::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 8 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
 }
-inline ::StringW System::Linq::Expressions::Interpreter::TypeAsInstruction::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Linq::Expressions::Interpreter::TypeAsInstruction::ToString() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Interpreter::TypeAsInstruction* System::Linq::Expressions::Interpreter::TypeAsInstruction::New_ctor(::System::Type*  type)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(type));
+inline ::System::Linq::Expressions::Interpreter::TypeAsInstruction* System::Linq::Expressions::Interpreter::TypeAsInstruction::New_ctor(::System::Type* type) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Expressions::Interpreter::TypeAsInstruction*>(type));
 }
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::Interpreter::TypeAsInstruction::TypeAsInstruction()   {
-}
+constexpr ::System::Linq::Expressions::Interpreter::TypeAsInstruction::TypeAsInstruction() {}

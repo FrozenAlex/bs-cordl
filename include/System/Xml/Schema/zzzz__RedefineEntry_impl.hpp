@@ -5,58 +5,52 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaRedefine_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchema_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::RedefineEntry._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::RedefineEntry::*)(::System::Xml::Schema::XmlSchemaRedefine*, ::System::Xml::Schema::XmlSchema*)>(&::System::Xml::Schema::RedefineEntry::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::RedefineEntry::*)(::System::Xml::Schema::XmlSchemaRedefine*, ::System::Xml::Schema::XmlSchema*)>(
+    &::System::Xml::Schema::RedefineEntry::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60a0534;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::RedefineEntry*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaRedefine*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::RedefineEntry*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaRedefine*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchema*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::XmlSchemaRedefine*& System::Xml::Schema::RedefineEntry::__cordl_internal_get_redefine()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___redefine;
+constexpr ::System::Xml::Schema::XmlSchemaRedefine*& System::Xml::Schema::RedefineEntry::__cordl_internal_get_redefine() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___redefine;
 }
 constexpr ::System::Xml::Schema::XmlSchemaRedefine* const& System::Xml::Schema::RedefineEntry::__cordl_internal_get_redefine() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___redefine;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___redefine;
 }
-constexpr void System::Xml::Schema::RedefineEntry::__cordl_internal_set_redefine(::System::Xml::Schema::XmlSchemaRedefine*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___redefine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::RedefineEntry::__cordl_internal_set_redefine(::System::Xml::Schema::XmlSchemaRedefine* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___redefine = value;
 }
-constexpr ::System::Xml::Schema::XmlSchema*& System::Xml::Schema::RedefineEntry::__cordl_internal_get_schemaToUpdate()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemaToUpdate;
+constexpr ::System::Xml::Schema::XmlSchema*& System::Xml::Schema::RedefineEntry::__cordl_internal_get_schemaToUpdate() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemaToUpdate;
 }
 constexpr ::System::Xml::Schema::XmlSchema* const& System::Xml::Schema::RedefineEntry::__cordl_internal_get_schemaToUpdate() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___schemaToUpdate;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___schemaToUpdate;
 }
-constexpr void System::Xml::Schema::RedefineEntry::__cordl_internal_set_schemaToUpdate(::System::Xml::Schema::XmlSchema*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaToUpdate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::RedefineEntry::__cordl_internal_set_schemaToUpdate(::System::Xml::Schema::XmlSchema* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___schemaToUpdate = value;
 }
-inline void System::Xml::Schema::RedefineEntry::_ctor(::System::Xml::Schema::XmlSchemaRedefine*  external, ::System::Xml::Schema::XmlSchema*  schema)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::RedefineEntry*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaRedefine*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, external, schema);
+inline void System::Xml::Schema::RedefineEntry::_ctor(::System::Xml::Schema::XmlSchemaRedefine* external, ::System::Xml::Schema::XmlSchema* schema) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::RedefineEntry*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::System::Xml::Schema::XmlSchemaRedefine*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchema*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, external, schema);
 }
-inline ::System::Xml::Schema::RedefineEntry* System::Xml::Schema::RedefineEntry::New_ctor(::System::Xml::Schema::XmlSchemaRedefine*  external, ::System::Xml::Schema::XmlSchema*  schema)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::RedefineEntry*>(external, schema));
+inline ::System::Xml::Schema::RedefineEntry* System::Xml::Schema::RedefineEntry::New_ctor(::System::Xml::Schema::XmlSchemaRedefine* external, ::System::Xml::Schema::XmlSchema* schema) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::RedefineEntry*>(external, schema));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::RedefineEntry::RedefineEntry()   {
-}
+constexpr ::System::Xml::Schema::RedefineEntry::RedefineEntry() {}

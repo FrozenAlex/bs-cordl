@@ -5,31 +5,22 @@
 #include "System/zzzz__IOSelectorJob_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::System::IOSelector.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IOSelectorJob*)>(&::System::IOSelector::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IOSelectorJob*)>(&::System::IOSelector::Add)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6239f38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOSelector*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IOSelectorJob*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IOSelector*>(), { "Add", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IOSelectorJob*>() } })));
     return ___internal_method;
   }
 };
-inline void System::IOSelector::Add(::System::IntPtr  handle, ::System::IOSelectorJob*  job)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOSelector*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IOSelectorJob*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, handle, job);
+inline void System::IOSelector::Add(::System::IntPtr handle, ::System::IOSelectorJob* job) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IOSelector*>(), { "Add", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IOSelectorJob*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, job);
 }
 // Ctor Parameters []
-constexpr ::System::IOSelector::IOSelector()   {
-}
+constexpr ::System::IOSelector::IOSelector() {}

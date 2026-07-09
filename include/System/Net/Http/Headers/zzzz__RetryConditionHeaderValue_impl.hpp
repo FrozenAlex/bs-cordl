@@ -11,326 +11,247 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::DateTimeOffset)>(&::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::DateTimeOffset)>(
+    &::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x5faea60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::DateTimeOffset>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { ".ctor", {}, { ::i2c::type_of<::System::DateTimeOffset>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::TimeSpan)>(&::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::TimeSpan)>(
+    &::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5faeac4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { ".ctor", {}, { ::i2c::type_of<::System::TimeSpan>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue.get_Date
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&::System::Net::Http::Headers::RetryConditionHeaderValue::get_Date)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
+    &::System::Net::Http::Headers::RetryConditionHeaderValue::get_Date)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5faeba8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "get_Date",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { "get_Date", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue.set_Date
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::DateTimeOffset>)>(&::System::Net::Http::Headers::RetryConditionHeaderValue::set_Date)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::DateTimeOffset>)>(
+    &::System::Net::Http::Headers::RetryConditionHeaderValue::set_Date)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5faebbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "set_Date",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::System::DateTimeOffset>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
+                                                                                           { "set_Date", {}, { ::i2c::type_of<::System::Nullable_1<::System::DateTimeOffset>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue.get_Delta
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&::System::Net::Http::Headers::RetryConditionHeaderValue::get_Delta)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
+    &::System::Net::Http::Headers::RetryConditionHeaderValue::get_Delta)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5faebd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "get_Delta",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { "get_Delta", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue.set_Delta
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(&::System::Net::Http::Headers::RetryConditionHeaderValue::set_Delta)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
+    &::System::Net::Http::Headers::RetryConditionHeaderValue::set_Delta)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5faebdc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "set_Delta",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::System::TimeSpan>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
+                                                                                           { "set_Delta", {}, { ::i2c::type_of<::System::Nullable_1<::System::TimeSpan>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue.System_ICloneable_Clone
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&::System::Net::Http::Headers::RetryConditionHeaderValue::System_ICloneable_Clone)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
+    &::System::Net::Http::Headers::RetryConditionHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x5faebe4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "System.ICloneable.Clone",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { "System.ICloneable.Clone", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Object*)>(&::System::Net::Http::Headers::RetryConditionHeaderValue::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Object*)>(
+    &::System::Net::Http::Headers::RetryConditionHeaderValue::Equals)> {
   constexpr static std::size_t size = 0x1b0;
   constexpr static std::size_t addrs = 0x5faebe8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
+                                                                                          { ::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), 0 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&::System::Net::Http::Headers::RetryConditionHeaderValue::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&::System::Net::Http::Headers::RetryConditionHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x5faed98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
+                                                                                          { ::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue.TryParse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::Net::Http::Headers::RetryConditionHeaderValue*>)>(&::System::Net::Http::Headers::RetryConditionHeaderValue::TryParse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::Net::Http::Headers::RetryConditionHeaderValue*>)>(
+    &::System::Net::Http::Headers::RetryConditionHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x1e8;
   constexpr static std::size_t addrs = 0x5faee34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "TryParse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::RetryConditionHeaderValue*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
+                                                { "TryParse", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Net::Http::Headers::RetryConditionHeaderValue*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&::System::Net::Http::Headers::RetryConditionHeaderValue::ToString)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&::System::Net::Http::Headers::RetryConditionHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x5faf01c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
+                                                                                          { ::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), 3 }));
     return ___internal_method;
   }
 };
-constexpr ::System::Nullable_1<::System::DateTimeOffset>& System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_get__Date_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Date_k__BackingField;
+constexpr ::System::Nullable_1<::System::DateTimeOffset>& System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_get__Date_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Date_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::DateTimeOffset> const& System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_get__Date_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Date_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Date_k__BackingField;
 }
-constexpr void System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____Date_k__BackingField = value;
+constexpr void System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____Date_k__BackingField = value;
 }
-constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_get__Delta_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Delta_k__BackingField;
+constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_get__Delta_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Delta_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan> const& System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_get__Delta_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Delta_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Delta_k__BackingField;
 }
-constexpr void System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_set__Delta_k__BackingField(::System::Nullable_1<::System::TimeSpan>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____Delta_k__BackingField = value;
+constexpr void System::Net::Http::Headers::RetryConditionHeaderValue::__cordl_internal_set__Delta_k__BackingField(::System::Nullable_1<::System::TimeSpan> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____Delta_k__BackingField = value;
 }
-inline void System::Net::Http::Headers::RetryConditionHeaderValue::_ctor(::System::DateTimeOffset  date)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::DateTimeOffset>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, date);
+inline void System::Net::Http::Headers::RetryConditionHeaderValue::_ctor(::System::DateTimeOffset date) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { ".ctor", {}, { ::i2c::type_of<::System::DateTimeOffset>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, date);
 }
-inline void System::Net::Http::Headers::RetryConditionHeaderValue::_ctor(::System::TimeSpan  delta)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta);
+inline void System::Net::Http::Headers::RetryConditionHeaderValue::_ctor(::System::TimeSpan delta) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { ".ctor", {}, { ::i2c::type_of<::System::TimeSpan>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta);
 }
-inline ::System::Nullable_1<::System::DateTimeOffset> System::Net::Http::Headers::RetryConditionHeaderValue::get_Date()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "get_Date",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::System::DateTimeOffset>, false>(this, ___internal_method);
+inline ::System::Nullable_1<::System::DateTimeOffset> System::Net::Http::Headers::RetryConditionHeaderValue::get_Date() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { "get_Date", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::System::DateTimeOffset>>(this, ___internal_method);
 }
-inline void System::Net::Http::Headers::RetryConditionHeaderValue::set_Date(::System::Nullable_1<::System::DateTimeOffset>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "set_Date",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::System::DateTimeOffset>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Net::Http::Headers::RetryConditionHeaderValue::set_Date(::System::Nullable_1<::System::DateTimeOffset> value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
+                                                                                         { "set_Date", {}, { ::i2c::type_of<::System::Nullable_1<::System::DateTimeOffset>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::System::Nullable_1<::System::TimeSpan> System::Net::Http::Headers::RetryConditionHeaderValue::get_Delta()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "get_Delta",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::System::TimeSpan>, false>(this, ___internal_method);
+inline ::System::Nullable_1<::System::TimeSpan> System::Net::Http::Headers::RetryConditionHeaderValue::get_Delta() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { "get_Delta", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::System::TimeSpan>>(this, ___internal_method);
 }
-inline void System::Net::Http::Headers::RetryConditionHeaderValue::set_Delta(::System::Nullable_1<::System::TimeSpan>  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "set_Delta",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::System::TimeSpan>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Net::Http::Headers::RetryConditionHeaderValue::set_Delta(::System::Nullable_1<::System::TimeSpan> value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
+                                                                                         { "set_Delta", {}, { ::i2c::type_of<::System::Nullable_1<::System::TimeSpan>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::System::Object* System::Net::Http::Headers::RetryConditionHeaderValue::System_ICloneable_Clone()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "System.ICloneable.Clone",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* System::Net::Http::Headers::RetryConditionHeaderValue::System_ICloneable_Clone() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { "System.ICloneable.Clone", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline bool System::Net::Http::Headers::RetryConditionHeaderValue::Equals(::System::Object*  obj)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool System::Net::Http::Headers::RetryConditionHeaderValue::Equals(::System::Object* obj) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, obj);
 }
-inline int32_t System::Net::Http::Headers::RetryConditionHeaderValue::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Net::Http::Headers::RetryConditionHeaderValue::GetHashCode() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool System::Net::Http::Headers::RetryConditionHeaderValue::TryParse(::StringW  input, ::ByRef<::System::Net::Http::Headers::RetryConditionHeaderValue*>  parsedValue)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                        "TryParse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::RetryConditionHeaderValue*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, input, parsedValue);
+inline bool System::Net::Http::Headers::RetryConditionHeaderValue::TryParse(::StringW input, ::by_ref<::System::Net::Http::Headers::RetryConditionHeaderValue*> parsedValue) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
+                                                           { "TryParse", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Net::Http::Headers::RetryConditionHeaderValue*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, input, parsedValue);
 }
-inline ::StringW System::Net::Http::Headers::RetryConditionHeaderValue::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Net::Http::Headers::RetryConditionHeaderValue::ToString() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::System::Net::Http::Headers::RetryConditionHeaderValue* System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor(::System::DateTimeOffset  date)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::RetryConditionHeaderValue*>(date));
+inline ::System::Net::Http::Headers::RetryConditionHeaderValue* System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor(::System::DateTimeOffset date) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Http::Headers::RetryConditionHeaderValue*>(date));
 }
-inline ::System::Net::Http::Headers::RetryConditionHeaderValue* System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor(::System::TimeSpan  delta)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::RetryConditionHeaderValue*>(delta));
+inline ::System::Net::Http::Headers::RetryConditionHeaderValue* System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor(::System::TimeSpan delta) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Http::Headers::RetryConditionHeaderValue*>(delta));
 }
 /// @brief Convert operator to "::System::ICloneable"
-constexpr  System::Net::Http::Headers::RetryConditionHeaderValue::operator ::System::ICloneable*() noexcept {
-return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+constexpr System::Net::Http::Headers::RetryConditionHeaderValue::operator ::System::ICloneable*() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::ICloneable"
 constexpr ::System::ICloneable* System::Net::Http::Headers::RetryConditionHeaderValue::i___System__ICloneable() noexcept {
-return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Net::Http::Headers::RetryConditionHeaderValue::RetryConditionHeaderValue()   {
-}
+constexpr ::System::Net::Http::Headers::RetryConditionHeaderValue::RetryConditionHeaderValue() {}

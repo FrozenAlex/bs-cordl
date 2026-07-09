@@ -10,349 +10,266 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "background", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "knob", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }]
-constexpr ::TMPro::TMP_DefaultControls_Resources::TMP_DefaultControls_Resources(::UnityW<::UnityEngine::Sprite>  standard, ::UnityW<::UnityEngine::Sprite>  background, ::UnityW<::UnityEngine::Sprite>  inputField, ::UnityW<::UnityEngine::Sprite>  knob, ::UnityW<::UnityEngine::Sprite>  checkmark, ::UnityW<::UnityEngine::Sprite>  dropdown, ::UnityW<::UnityEngine::Sprite>  mask) noexcept  {
-this->standard = standard;
-this->background = background;
-this->inputField = inputField;
-this->knob = knob;
-this->checkmark = checkmark;
-this->dropdown = dropdown;
-this->mask = mask;
+// Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "background", ty: "::UnityW<::UnityEngine::Sprite>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "knob", ty:
+// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}")
+// }]
+constexpr ::TMPro::TMP_DefaultControls_Resources::TMP_DefaultControls_Resources(::UnityW<::UnityEngine::Sprite> standard, ::UnityW<::UnityEngine::Sprite> background,
+                                                                                ::UnityW<::UnityEngine::Sprite> inputField, ::UnityW<::UnityEngine::Sprite> knob,
+                                                                                ::UnityW<::UnityEngine::Sprite> checkmark, ::UnityW<::UnityEngine::Sprite> dropdown,
+                                                                                ::UnityW<::UnityEngine::Sprite> mask) noexcept {
+  this->standard = standard;
+  this->background = background;
+  this->inputField = inputField;
+  this->knob = knob;
+  this->checkmark = checkmark;
+  this->dropdown = dropdown;
+  this->mask = mask;
 }
 // Ctor Parameters []
-constexpr ::TMPro::TMP_DefaultControls_Resources::TMP_DefaultControls_Resources()   {
-}
+constexpr ::TMPro::TMP_DefaultControls_Resources::TMP_DefaultControls_Resources() {}
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.CreateUIElementRoot
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::Vector2)>(&::TMPro::TMP_DefaultControls::CreateUIElementRoot)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::Vector2)>(&::TMPro::TMP_DefaultControls::CreateUIElementRoot)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x68069d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateUIElementRoot",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateUIElementRoot", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.CreateUIObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::GameObject*)>(&::TMPro::TMP_DefaultControls::CreateUIObject)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::GameObject*)>(&::TMPro::TMP_DefaultControls::CreateUIObject)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x6806a84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateUIObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateUIObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::GameObject*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.SetDefaultTextValues
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_DefaultControls::SetDefaultTextValues)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_DefaultControls::SetDefaultTextValues)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x6806c58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "SetDefaultTextValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "SetDefaultTextValues", {}, { ::i2c::type_of<::TMPro::TMP_Text*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.SetDefaultColorTransitionValues
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Selectable*)>(&::TMPro::TMP_DefaultControls::SetDefaultColorTransitionValues)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::Selectable*)>(&::TMPro::TMP_DefaultControls::SetDefaultColorTransitionValues)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6806ce4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "SetDefaultColorTransitionValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::Selectable*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "SetDefaultColorTransitionValues", {}, { ::i2c::type_of<::UnityEngine::UI::Selectable*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.SetParentAndAlign
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(&::TMPro::TMP_DefaultControls::SetParentAndAlign)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(&::TMPro::TMP_DefaultControls::SetParentAndAlign)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x6806b50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "SetParentAndAlign",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(),
+                                                             { "SetParentAndAlign", {}, { ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<::UnityEngine::GameObject*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.SetLayerRecursively
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, int32_t)>(&::TMPro::TMP_DefaultControls::SetLayerRecursively)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, int32_t)>(&::TMPro::TMP_DefaultControls::SetLayerRecursively)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x6806d48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "SetLayerRecursively",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "SetLayerRecursively", {}, { ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.CreateScrollbar
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateScrollbar)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateScrollbar)> {
   constexpr static std::size_t size = 0x2f0;
   constexpr static std::size_t addrs = 0x6806e30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateScrollbar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateScrollbar", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.CreateButton
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateButton)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateButton)> {
   constexpr static std::size_t size = 0x328;
   constexpr static std::size_t addrs = 0x6807120;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateButton",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateButton", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.CreateText
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateText)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateText)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6807448;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateText",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateText", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.CreateInputField
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateInputField)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateInputField)> {
   constexpr static std::size_t size = 0x7d8;
   constexpr static std::size_t addrs = 0x68074ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateInputField",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateInputField", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_DefaultControls.CreateDropdown
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateDropdown)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateDropdown)> {
   constexpr static std::size_t size = 0xe84;
   constexpr static std::size_t addrs = 0x6807cc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateDropdown",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateDropdown", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
     return ___internal_method;
   }
 };
-inline void TMPro::TMP_DefaultControls::setStaticF_s_TextElementSize(::UnityEngine::Vector2  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Vector2, "s_TextElementSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>(std::forward<::UnityEngine::Vector2>(value));
+inline void TMPro::TMP_DefaultControls::setStaticF_s_TextElementSize(::UnityEngine::Vector2 value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Vector2, "s_TextElementSize", ::TMPro::TMP_DefaultControls*>(std::forward<::UnityEngine::Vector2>(value));
 }
-inline ::UnityEngine::Vector2 TMPro::TMP_DefaultControls::getStaticF_s_TextElementSize()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "s_TextElementSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>();
+inline ::UnityEngine::Vector2 TMPro::TMP_DefaultControls::getStaticF_s_TextElementSize() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "s_TextElementSize", ::TMPro::TMP_DefaultControls*>();
 }
-inline void TMPro::TMP_DefaultControls::setStaticF_s_ThickElementSize(::UnityEngine::Vector2  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Vector2, "s_ThickElementSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>(std::forward<::UnityEngine::Vector2>(value));
+inline void TMPro::TMP_DefaultControls::setStaticF_s_ThickElementSize(::UnityEngine::Vector2 value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Vector2, "s_ThickElementSize", ::TMPro::TMP_DefaultControls*>(std::forward<::UnityEngine::Vector2>(value));
 }
-inline ::UnityEngine::Vector2 TMPro::TMP_DefaultControls::getStaticF_s_ThickElementSize()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "s_ThickElementSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>();
+inline ::UnityEngine::Vector2 TMPro::TMP_DefaultControls::getStaticF_s_ThickElementSize() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "s_ThickElementSize", ::TMPro::TMP_DefaultControls*>();
 }
-inline void TMPro::TMP_DefaultControls::setStaticF_s_ThinElementSize(::UnityEngine::Vector2  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Vector2, "s_ThinElementSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>(std::forward<::UnityEngine::Vector2>(value));
+inline void TMPro::TMP_DefaultControls::setStaticF_s_ThinElementSize(::UnityEngine::Vector2 value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Vector2, "s_ThinElementSize", ::TMPro::TMP_DefaultControls*>(std::forward<::UnityEngine::Vector2>(value));
 }
-inline ::UnityEngine::Vector2 TMPro::TMP_DefaultControls::getStaticF_s_ThinElementSize()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "s_ThinElementSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>();
+inline ::UnityEngine::Vector2 TMPro::TMP_DefaultControls::getStaticF_s_ThinElementSize() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "s_ThinElementSize", ::TMPro::TMP_DefaultControls*>();
 }
-inline void TMPro::TMP_DefaultControls::setStaticF_s_DefaultSelectableColor(::UnityEngine::Color  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Color, "s_DefaultSelectableColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>(std::forward<::UnityEngine::Color>(value));
+inline void TMPro::TMP_DefaultControls::setStaticF_s_DefaultSelectableColor(::UnityEngine::Color value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Color, "s_DefaultSelectableColor", ::TMPro::TMP_DefaultControls*>(std::forward<::UnityEngine::Color>(value));
 }
-inline ::UnityEngine::Color TMPro::TMP_DefaultControls::getStaticF_s_DefaultSelectableColor()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Color, "s_DefaultSelectableColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>();
+inline ::UnityEngine::Color TMPro::TMP_DefaultControls::getStaticF_s_DefaultSelectableColor() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Color, "s_DefaultSelectableColor", ::TMPro::TMP_DefaultControls*>();
 }
-inline void TMPro::TMP_DefaultControls::setStaticF_s_TextColor(::UnityEngine::Color  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Color, "s_TextColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>(std::forward<::UnityEngine::Color>(value));
+inline void TMPro::TMP_DefaultControls::setStaticF_s_TextColor(::UnityEngine::Color value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Color, "s_TextColor", ::TMPro::TMP_DefaultControls*>(std::forward<::UnityEngine::Color>(value));
 }
-inline ::UnityEngine::Color TMPro::TMP_DefaultControls::getStaticF_s_TextColor()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Color, "s_TextColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get>();
+inline ::UnityEngine::Color TMPro::TMP_DefaultControls::getStaticF_s_TextColor() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Color, "s_TextColor", ::TMPro::TMP_DefaultControls*>();
 }
-inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateUIElementRoot(::StringW  name, ::UnityEngine::Vector2  size)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateUIElementRoot",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, name, size);
+inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateUIElementRoot", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, name, size);
 }
-inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateUIObject(::StringW  name, ::UnityEngine::GameObject*  parent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateUIObject",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, name, parent);
+inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateUIObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::GameObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, name, parent);
 }
-inline void TMPro::TMP_DefaultControls::SetDefaultTextValues(::TMPro::TMP_Text*  lbl)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "SetDefaultTextValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, lbl);
+inline void TMPro::TMP_DefaultControls::SetDefaultTextValues(::TMPro::TMP_Text* lbl) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "SetDefaultTextValues", {}, { ::i2c::type_of<::TMPro::TMP_Text*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lbl);
 }
-inline void TMPro::TMP_DefaultControls::SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable*  slider)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "SetDefaultColorTransitionValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::Selectable*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, slider);
+inline void TMPro::TMP_DefaultControls::SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "SetDefaultColorTransitionValues", {}, { ::i2c::type_of<::UnityEngine::UI::Selectable*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, slider);
 }
-inline void TMPro::TMP_DefaultControls::SetParentAndAlign(::UnityEngine::GameObject*  child, ::UnityEngine::GameObject*  parent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "SetParentAndAlign",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, child, parent);
+inline void TMPro::TMP_DefaultControls::SetParentAndAlign(::UnityEngine::GameObject* child, ::UnityEngine::GameObject* parent) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(),
+                                                           { "SetParentAndAlign", {}, { ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<::UnityEngine::GameObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, child, parent);
 }
-inline void TMPro::TMP_DefaultControls::SetLayerRecursively(::UnityEngine::GameObject*  go, int32_t  layer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "SetLayerRecursively",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, go, layer);
+inline void TMPro::TMP_DefaultControls::SetLayerRecursively(::UnityEngine::GameObject* go, int32_t layer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "SetLayerRecursively", {}, { ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, go, layer);
 }
-inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateScrollbar(::TMPro::TMP_DefaultControls_Resources  resources)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateScrollbar",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
+inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateScrollbar(::TMPro::TMP_DefaultControls_Resources resources) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateScrollbar", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateButton(::TMPro::TMP_DefaultControls_Resources  resources)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateButton",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
+inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateButton(::TMPro::TMP_DefaultControls_Resources resources) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateButton", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateText(::TMPro::TMP_DefaultControls_Resources  resources)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateText",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
+inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateText(::TMPro::TMP_DefaultControls_Resources resources) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateText", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateInputField(::TMPro::TMP_DefaultControls_Resources  resources)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateInputField",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
+inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateInputField(::TMPro::TMP_DefaultControls_Resources resources) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateInputField", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateDropdown(::TMPro::TMP_DefaultControls_Resources  resources)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                        "CreateDropdown",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
+inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateDropdown(::TMPro::TMP_DefaultControls_Resources resources) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateDropdown", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, resources);
 }
-template<typename T>
-inline T TMPro::TMP_DefaultControls::AddComponent(::UnityEngine::GameObject*  go)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(),
-                    "AddComponent",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, go);
+template <typename T> inline T TMPro::TMP_DefaultControls::AddComponent(::UnityEngine::GameObject* go) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "AddComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, go);
 }
 // Ctor Parameters []
-constexpr ::TMPro::TMP_DefaultControls::TMP_DefaultControls()   {
-}
+constexpr ::TMPro::TMP_DefaultControls::TMP_DefaultControls() {}

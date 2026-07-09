@@ -7,83 +7,58 @@
 #include "UnityEngine/zzzz__TransferFunction_def.hpp"
 #include "UnityEngine/zzzz__WhitePoint_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ColorGamutUtility.GetColorPrimaries
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ColorPrimaries (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetColorPrimaries)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ColorPrimaries (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetColorPrimaries)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6933690;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ColorGamutUtility*>::get(),
-                        "GetColorPrimaries",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ColorGamut>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorGamutUtility*>(), { "GetColorPrimaries", {}, { ::i2c::type_of<::UnityEngine::ColorGamut>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ColorGamutUtility.GetWhitePoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::WhitePoint (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetWhitePoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::WhitePoint (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetWhitePoint)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x69336cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ColorGamutUtility*>::get(),
-                        "GetWhitePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ColorGamut>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorGamutUtility*>(), { "GetWhitePoint", {}, { ::i2c::type_of<::UnityEngine::ColorGamut>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ColorGamutUtility.GetTransferFunction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TransferFunction (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetTransferFunction)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TransferFunction (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetTransferFunction)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6933708;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ColorGamutUtility*>::get(),
-                        "GetTransferFunction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ColorGamut>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorGamutUtility*>(), { "GetTransferFunction", {}, { ::i2c::type_of<::UnityEngine::ColorGamut>() } })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::ColorPrimaries UnityEngine::ColorGamutUtility::GetColorPrimaries(::UnityEngine::ColorGamut  gamut)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ColorGamutUtility*>::get(),
-                        "GetColorPrimaries",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ColorGamut>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::ColorPrimaries, false>(nullptr, ___internal_method, gamut);
+inline ::UnityEngine::ColorPrimaries UnityEngine::ColorGamutUtility::GetColorPrimaries(::UnityEngine::ColorGamut gamut) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorGamutUtility*>(), { "GetColorPrimaries", {}, { ::i2c::type_of<::UnityEngine::ColorGamut>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ColorPrimaries>(nullptr, ___internal_method, gamut);
 }
-inline ::UnityEngine::WhitePoint UnityEngine::ColorGamutUtility::GetWhitePoint(::UnityEngine::ColorGamut  gamut)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ColorGamutUtility*>::get(),
-                        "GetWhitePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ColorGamut>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::WhitePoint, false>(nullptr, ___internal_method, gamut);
+inline ::UnityEngine::WhitePoint UnityEngine::ColorGamutUtility::GetWhitePoint(::UnityEngine::ColorGamut gamut) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorGamutUtility*>(), { "GetWhitePoint", {}, { ::i2c::type_of<::UnityEngine::ColorGamut>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::WhitePoint>(nullptr, ___internal_method, gamut);
 }
-inline ::UnityEngine::TransferFunction UnityEngine::ColorGamutUtility::GetTransferFunction(::UnityEngine::ColorGamut  gamut)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ColorGamutUtility*>::get(),
-                        "GetTransferFunction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ColorGamut>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TransferFunction, false>(nullptr, ___internal_method, gamut);
+inline ::UnityEngine::TransferFunction UnityEngine::ColorGamutUtility::GetTransferFunction(::UnityEngine::ColorGamut gamut) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorGamutUtility*>(), { "GetTransferFunction", {}, { ::i2c::type_of<::UnityEngine::ColorGamut>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TransferFunction>(nullptr, ___internal_method, gamut);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ColorGamutUtility::ColorGamutUtility()   {
-}
+constexpr ::UnityEngine::ColorGamutUtility::ColorGamutUtility() {}

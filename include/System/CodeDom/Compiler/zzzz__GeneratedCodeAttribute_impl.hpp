@@ -3,58 +3,51 @@
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/CodeDom/Compiler/zzzz__GeneratedCodeAttribute_def.hpp"
 //  Writing Method size for method: ::System::CodeDom::Compiler::GeneratedCodeAttribute._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CodeDom::Compiler::GeneratedCodeAttribute::*)(::StringW, ::StringW)>(&::System::CodeDom::Compiler::GeneratedCodeAttribute::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CodeDom::Compiler::GeneratedCodeAttribute::*)(::StringW, ::StringW)>(
+    &::System::CodeDom::Compiler::GeneratedCodeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x625545c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CodeDom::Compiler::GeneratedCodeAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::System::CodeDom::Compiler::GeneratedCodeAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_get_tool()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___tool;
+constexpr ::StringW& System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_get_tool() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tool;
 }
 constexpr ::StringW const& System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_get_tool() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___tool;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tool;
 }
-constexpr void System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_set_tool(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_set_tool(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___tool = value;
 }
-constexpr ::StringW& System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_get_version()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___version;
+constexpr ::StringW& System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_get_version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
 }
 constexpr ::StringW const& System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_get_version() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___version;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
 }
-constexpr void System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_set_version(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::CodeDom::Compiler::GeneratedCodeAttribute::__cordl_internal_set_version(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___version = value;
 }
-inline void System::CodeDom::Compiler::GeneratedCodeAttribute::_ctor(::StringW  tool, ::StringW  version)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CodeDom::Compiler::GeneratedCodeAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tool, version);
+inline void System::CodeDom::Compiler::GeneratedCodeAttribute::_ctor(::StringW tool, ::StringW version) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::CodeDom::Compiler::GeneratedCodeAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tool, version);
 }
-inline ::System::CodeDom::Compiler::GeneratedCodeAttribute* System::CodeDom::Compiler::GeneratedCodeAttribute::New_ctor(::StringW  tool, ::StringW  version)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::CodeDom::Compiler::GeneratedCodeAttribute*>(tool, version));
+inline ::System::CodeDom::Compiler::GeneratedCodeAttribute* System::CodeDom::Compiler::GeneratedCodeAttribute::New_ctor(::StringW tool, ::StringW version) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::CodeDom::Compiler::GeneratedCodeAttribute*>(tool, version));
 }
 // Ctor Parameters []
-constexpr ::System::CodeDom::Compiler::GeneratedCodeAttribute::GeneratedCodeAttribute()   {
-}
+constexpr ::System::CodeDom::Compiler::GeneratedCodeAttribute::GeneratedCodeAttribute() {}

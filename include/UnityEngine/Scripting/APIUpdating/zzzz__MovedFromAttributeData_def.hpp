@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Scripting/APIUpdating/MovedFromAttributeData.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(MovedFromAttributeData)
 // Forward declare root types
@@ -12,51 +12,55 @@ struct MovedFromAttributeData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData);
-// Dependencies 
+DEFINE_IL2CPP_CLASS(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");
+// Dependencies
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: true
 // CS Name: UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
 struct CORDL_TYPE MovedFromAttributeData {
 public:
-// Declarations
-/// @brief Method Set, addr 0x69a862c, size 0x34, virtual false, abstract: false, final false
-inline void Set(bool  autoUpdateAPI, ::StringW  sourceNamespace, ::StringW  sourceAssembly, ::StringW  sourceClassName) ;
+  // Declarations
+  /// @brief Method Set, addr 0x69a862c, size 0x34, virtual false, abstract: false, final false
+  inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr MovedFromAttributeData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MovedFromAttributeData();
 
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameSpace", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assembly", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "classHasChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nameSpaceHasChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "assemblyHasChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "autoUdpateAPI", ty: "bool", modifiers: "", def_value: None }]
-constexpr MovedFromAttributeData(::StringW  className, ::StringW  nameSpace, ::StringW  assembly, bool  classHasChanged, bool  nameSpaceHasChanged, bool  assemblyHasChanged, bool  autoUdpateAPI) noexcept;
+  // Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameSpace", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
+  // "assembly", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "classHasChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nameSpaceHasChanged", ty:
+  // "bool", modifiers: "", def_value: None }, CppParam { name: "assemblyHasChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "autoUdpateAPI", ty: "bool", modifiers: "",
+  // def_value: None }]
+  constexpr MovedFromAttributeData(::StringW className, ::StringW nameSpace, ::StringW assembly, bool classHasChanged, bool nameSpaceHasChanged, bool assemblyHasChanged, bool autoUdpateAPI) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10472};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10472 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field className, offset: 0x0, size: 0x8, def value: None
- ::StringW  className;
+  /// @brief Field className, offset: 0x0, size: 0x8, def value: None
+  ::StringW className;
 
-/// @brief Field nameSpace, offset: 0x8, size: 0x8, def value: None
- ::StringW  nameSpace;
+  /// @brief Field nameSpace, offset: 0x8, size: 0x8, def value: None
+  ::StringW nameSpace;
 
-/// @brief Field assembly, offset: 0x10, size: 0x8, def value: None
- ::StringW  assembly;
+  /// @brief Field assembly, offset: 0x10, size: 0x8, def value: None
+  ::StringW assembly;
 
-/// @brief Field classHasChanged, offset: 0x18, size: 0x1, def value: None
- bool  classHasChanged;
+  /// @brief Field classHasChanged, offset: 0x18, size: 0x1, def value: None
+  bool classHasChanged;
 
-/// @brief Field nameSpaceHasChanged, offset: 0x19, size: 0x1, def value: None
- bool  nameSpaceHasChanged;
+  /// @brief Field nameSpaceHasChanged, offset: 0x19, size: 0x1, def value: None
+  bool nameSpaceHasChanged;
 
-/// @brief Field assemblyHasChanged, offset: 0x1a, size: 0x1, def value: None
- bool  assemblyHasChanged;
+  /// @brief Field assemblyHasChanged, offset: 0x1a, size: 0x1, def value: None
+  bool assemblyHasChanged;
 
-/// @brief Field autoUdpateAPI, offset: 0x1b, size: 0x1, def value: None
- bool  autoUdpateAPI;
+  /// @brief Field autoUdpateAPI, offset: 0x1b, size: 0x1, def value: None
+  bool autoUdpateAPI;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, className) == 0x0, "Offset mismatch!");
@@ -73,7 +77,6 @@ static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute
 
 static_assert(offsetof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, autoUdpateAPI) == 0x1b, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, 0x20>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData) == 0x20, "Size mismatch!");
 
-} // namespace end def UnityEngine::Scripting::APIUpdating
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");
+} // namespace UnityEngine::Scripting::APIUpdating

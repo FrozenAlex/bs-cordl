@@ -6,135 +6,84 @@
 #include "System/zzzz__NotImplementedException_def.hpp"
 #include "System/zzzz__NotSupportedException_def.hpp"
 //  Writing Method size for method: ::System::Net::ExceptionHelper.get_MethodNotImplementedException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NotImplementedException* (*)()>(&::System::Net::ExceptionHelper::get_MethodNotImplementedException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::NotImplementedException* (*)()>(&::System::Net::ExceptionHelper::get_MethodNotImplementedException)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62ca2c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_MethodNotImplementedException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_MethodNotImplementedException", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ExceptionHelper.get_PropertyNotImplementedException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NotImplementedException* (*)()>(&::System::Net::ExceptionHelper::get_PropertyNotImplementedException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::NotImplementedException* (*)()>(&::System::Net::ExceptionHelper::get_PropertyNotImplementedException)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62ca220;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_PropertyNotImplementedException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_PropertyNotImplementedException", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ExceptionHelper.get_TimeoutException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebException* (*)()>(&::System::Net::ExceptionHelper::get_TimeoutException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebException* (*)()>(&::System::Net::ExceptionHelper::get_TimeoutException)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x62c3bc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_TimeoutException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_TimeoutException", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ExceptionHelper.get_PropertyNotSupportedException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NotSupportedException* (*)()>(&::System::Net::ExceptionHelper::get_PropertyNotSupportedException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::NotSupportedException* (*)()>(&::System::Net::ExceptionHelper::get_PropertyNotSupportedException)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62c8e58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_PropertyNotSupportedException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_PropertyNotSupportedException", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ExceptionHelper.get_RequestAbortedException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebException* (*)()>(&::System::Net::ExceptionHelper::get_RequestAbortedException)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebException* (*)()>(&::System::Net::ExceptionHelper::get_RequestAbortedException)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x62c1504;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_RequestAbortedException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_RequestAbortedException", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::System::NotImplementedException* System::Net::ExceptionHelper::get_MethodNotImplementedException()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_MethodNotImplementedException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::NotImplementedException*, false>(nullptr, ___internal_method);
+inline ::System::NotImplementedException* System::Net::ExceptionHelper::get_MethodNotImplementedException() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_MethodNotImplementedException", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::NotImplementedException*>(nullptr, ___internal_method);
 }
-inline ::System::NotImplementedException* System::Net::ExceptionHelper::get_PropertyNotImplementedException()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_PropertyNotImplementedException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::NotImplementedException*, false>(nullptr, ___internal_method);
+inline ::System::NotImplementedException* System::Net::ExceptionHelper::get_PropertyNotImplementedException() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_PropertyNotImplementedException", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::NotImplementedException*>(nullptr, ___internal_method);
 }
-inline ::System::Net::WebException* System::Net::ExceptionHelper::get_TimeoutException()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_TimeoutException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::WebException*, false>(nullptr, ___internal_method);
+inline ::System::Net::WebException* System::Net::ExceptionHelper::get_TimeoutException() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_TimeoutException", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::WebException*>(nullptr, ___internal_method);
 }
-inline ::System::NotSupportedException* System::Net::ExceptionHelper::get_PropertyNotSupportedException()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_PropertyNotSupportedException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::NotSupportedException*, false>(nullptr, ___internal_method);
+inline ::System::NotSupportedException* System::Net::ExceptionHelper::get_PropertyNotSupportedException() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_PropertyNotSupportedException", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::NotSupportedException*>(nullptr, ___internal_method);
 }
-inline ::System::Net::WebException* System::Net::ExceptionHelper::get_RequestAbortedException()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),
-                        "get_RequestAbortedException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::WebException*, false>(nullptr, ___internal_method);
+inline ::System::Net::WebException* System::Net::ExceptionHelper::get_RequestAbortedException() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_RequestAbortedException", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::WebException*>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Net::ExceptionHelper::ExceptionHelper()   {
-}
+constexpr ::System::Net::ExceptionHelper::ExceptionHelper() {}

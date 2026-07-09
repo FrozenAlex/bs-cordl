@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/HashUnsafeUtilities.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -14,42 +14,41 @@ namespace UnityEngine {
 class HashUnsafeUtilities;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::HashUnsafeUtilities);
+MARK_REF_T(::UnityEngine::HashUnsafeUtilities*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::HashUnsafeUtilities*, "UnityEngine", "HashUnsafeUtilities");
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.HashUnsafeUtilities
 class CORDL_TYPE HashUnsafeUtilities : public ::System::Object {
 public:
-// Declarations
-/// @brief Method ComputeHash128, addr 0x6971a38, size 0x3c, virtual false, abstract: false, final false
-static inline void ComputeHash128(void*  data, uint64_t  dataSize, ::UnityEngine::Hash128*  hash) ;
+  // Declarations
+  /// @brief Method ComputeHash128, addr 0x6971a38, size 0x3c, virtual false, abstract: false, final false
+  static inline void ComputeHash128(void* data, uint64_t dataSize, ::UnityEngine::Hash128* hash);
 
-/// @brief Method ComputeHash128, addr 0x6971a74, size 0x80, virtual false, abstract: false, final false
-static inline void ComputeHash128(void*  data, uint64_t  dataSize, uint64_t*  hash1, uint64_t*  hash2) ;
+  /// @brief Method ComputeHash128, addr 0x6971a74, size 0x80, virtual false, abstract: false, final false
+  static inline void ComputeHash128(void* data, uint64_t dataSize, uint64_t* hash1, uint64_t* hash2);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HashUnsafeUtilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HashUnsafeUtilities();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HashUnsafeUtilities", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HashUnsafeUtilities(HashUnsafeUtilities&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HashUnsafeUtilities", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HashUnsafeUtilities(HashUnsafeUtilities && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HashUnsafeUtilities", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HashUnsafeUtilities(HashUnsafeUtilities const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HashUnsafeUtilities", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HashUnsafeUtilities(HashUnsafeUtilities const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10226 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10226};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::HashUnsafeUtilities, 0x10>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::HashUnsafeUtilities) == 0x10, "Size mismatch!");
 
-} // namespace end def UnityEngine
-NEED_NO_BOX(::UnityEngine::HashUnsafeUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HashUnsafeUtilities*, "UnityEngine", "HashUnsafeUtilities");
+} // namespace UnityEngine

@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Ocsp/SingleResp.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_def.hpp"
@@ -28,79 +28,78 @@ namespace Org::BouncyCastle::Ocsp {
 class SingleResp;
 }
 // Write type traits
-MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::SingleResp);
+MARK_REF_T(::Org::BouncyCastle::Ocsp::SingleResp*);
+DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Ocsp::SingleResp*, "Org.BouncyCastle.Ocsp", "SingleResp");
 // Dependencies Org.BouncyCastle.X509.X509ExtensionBase
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Ocsp.SingleResp
 class CORDL_TYPE SingleResp : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
-// Declarations
- __declspec(property(get=get_NextUpdate)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject*  NextUpdate;
+  // Declarations
+  __declspec(property(get = get_NextUpdate)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject* NextUpdate;
 
- __declspec(property(get=get_SingleExtensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions*  SingleExtensions;
+  __declspec(property(get = get_SingleExtensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* SingleExtensions;
 
- __declspec(property(get=get_ThisUpdate)) ::System::DateTime  ThisUpdate;
+  __declspec(property(get = get_ThisUpdate)) ::System::DateTime ThisUpdate;
 
-/// @brief Field resp, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_resp, put=__cordl_internal_set_resp)) ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*  resp;
+  /// @brief Field resp, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp)) ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp;
 
-/// @brief Method GetCertID, addr 0x34bc768, size 0x6c, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID() ;
+  /// @brief Method GetCertID, addr 0x34bc768, size 0x6c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
 
-/// @brief Method GetCertStatus, addr 0x34bc7d4, size 0xc8, virtual false, abstract: false, final false
-inline ::System::Object* GetCertStatus() ;
+  /// @brief Method GetCertStatus, addr 0x34bc7d4, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Object* GetCertStatus();
 
-/// @brief Method GetX509Extensions, addr 0x34bc9a4, size 0x18, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions() ;
+  /// @brief Method GetX509Extensions, addr 0x34bc9a4, size 0x18, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
-static inline ::Org::BouncyCastle::Ocsp::SingleResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*  resp) ;
+  static inline ::Org::BouncyCastle::Ocsp::SingleResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
 
-constexpr ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* const& __cordl_internal_get_resp() const;
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* const& __cordl_internal_get_resp() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*& __cordl_internal_get_resp() ;
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*& __cordl_internal_get_resp();
 
-constexpr void __cordl_internal_set_resp(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*  value) ;
+  constexpr void __cordl_internal_set_resp(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* value);
 
-/// @brief Method .ctor, addr 0x34b3980, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*  resp) ;
+  /// @brief Method .ctor, addr 0x34b3980, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
 
-/// @brief Method get_NextUpdate, addr 0x34bc918, size 0x74, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate() ;
+  /// @brief Method get_NextUpdate, addr 0x34bc918, size 0x74, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate();
 
-/// @brief Method get_SingleExtensions, addr 0x34bc98c, size 0x18, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleExtensions() ;
+  /// @brief Method get_SingleExtensions, addr 0x34bc98c, size 0x18, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleExtensions();
 
-/// @brief Method get_ThisUpdate, addr 0x34bc8f4, size 0x24, virtual false, abstract: false, final false
-inline ::System::DateTime get_ThisUpdate() ;
+  /// @brief Method get_ThisUpdate, addr 0x34bc8f4, size 0x24, virtual false, abstract: false, final false
+  inline ::System::DateTime get_ThisUpdate();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SingleResp() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SingleResp();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SingleResp", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SingleResp(SingleResp&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SingleResp", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SingleResp(SingleResp && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SingleResp", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SingleResp(SingleResp const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SingleResp", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SingleResp(SingleResp const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1625 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1625};
+  /// @brief Field resp, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* ___resp;
 
-/// @brief Field resp, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*  ___resp;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Ocsp::SingleResp, ___resp) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Ocsp::SingleResp, 0x18>, "Size mismatch!");
+static_assert(sizeof(::Org::BouncyCastle::Ocsp::SingleResp) == 0x18, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Ocsp
-NEED_NO_BOX(::Org::BouncyCastle::Ocsp::SingleResp);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::SingleResp*, "Org.BouncyCastle.Ocsp", "SingleResp");
+} // namespace Org::BouncyCastle::Ocsp

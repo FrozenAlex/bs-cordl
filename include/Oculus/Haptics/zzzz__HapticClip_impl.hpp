@@ -3,46 +3,35 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Oculus/Haptics/zzzz__HapticClip_def.hpp"
 //  Writing Method size for method: ::Oculus::Haptics::HapticClip._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::HapticClip::*)()>(&::Oculus::Haptics::HapticClip::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClip::*)()>(&::Oculus::Haptics::HapticClip::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5c75d80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Haptics::HapticClip*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClip*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Oculus::Haptics::HapticClip::__cordl_internal_get_json()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___json;
+constexpr ::StringW& Oculus::Haptics::HapticClip::__cordl_internal_get_json() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___json;
 }
 constexpr ::StringW const& Oculus::Haptics::HapticClip::__cordl_internal_get_json() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___json;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___json;
 }
-constexpr void Oculus::Haptics::HapticClip::__cordl_internal_set_json(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___json)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Oculus::Haptics::HapticClip::__cordl_internal_set_json(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___json = value;
 }
-inline void Oculus::Haptics::HapticClip::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Haptics::HapticClip*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Oculus::Haptics::HapticClip::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClip*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Oculus::Haptics::HapticClip* Oculus::Haptics::HapticClip::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Haptics::HapticClip*>());
+inline ::Oculus::Haptics::HapticClip* Oculus::Haptics::HapticClip::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Oculus::Haptics::HapticClip*>());
 }
 // Ctor Parameters []
-constexpr ::Oculus::Haptics::HapticClip::HapticClip()   {
-}
+constexpr ::Oculus::Haptics::HapticClip::HapticClip() {}

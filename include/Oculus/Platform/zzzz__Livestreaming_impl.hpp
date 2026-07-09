@@ -5,31 +5,27 @@
 #include "Oculus/Platform/Models/zzzz__LivestreamingStatus_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Livestreaming.SetStatusUpdateNotificationCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>*)>(&::Oculus::Platform::Livestreaming::SetStatusUpdateNotificationCallback)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>*)>(
+    &::Oculus::Platform::Livestreaming::SetStatusUpdateNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x5caffac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Livestreaming*>::get(),
-                        "SetStatusUpdateNotificationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Livestreaming*>(),
+                            { "SetStatusUpdateNotificationCallback", {}, { ::i2c::type_of<::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>*>() } })));
     return ___internal_method;
   }
 };
-inline void Oculus::Platform::Livestreaming::SetStatusUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>*  callback)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Livestreaming*>::get(),
-                        "SetStatusUpdateNotificationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callback);
+inline void Oculus::Platform::Livestreaming::SetStatusUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>* callback) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Livestreaming*>(),
+                          { "SetStatusUpdateNotificationCallback", {}, { ::i2c::type_of<::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, callback);
 }
 // Ctor Parameters []
-constexpr ::Oculus::Platform::Livestreaming::Livestreaming()   {
-}
+constexpr ::Oculus::Platform::Livestreaming::Livestreaming() {}

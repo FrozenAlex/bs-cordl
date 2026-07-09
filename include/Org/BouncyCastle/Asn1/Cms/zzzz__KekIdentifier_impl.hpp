@@ -10,254 +10,201 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::KekIdentifier._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*)>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)(
+    ::ArrayW<uint8_t>, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*)>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x329c69c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(),
+                                                                                           { ".ctor",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>(),
+                                                                                               ::i2c::type_of<::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::KekIdentifier._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
+    &::Org::BouncyCastle::Asn1::Cms::KekIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x2a8;
   constexpr static std::size_t addrs = 0x329c718;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::KekIdentifier.GetInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::KekIdentifier* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::GetInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::KekIdentifier* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
+    &::Org::BouncyCastle::Asn1::Cms::KekIdentifier::GetInstance)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x329cb44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(),
+                                                             { "GetInstance", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::KekIdentifier.GetInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::KekIdentifier* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::GetInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::KekIdentifier* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::GetInstance)> {
   constexpr static std::size_t size = 0x170;
   constexpr static std::size_t addrs = 0x329cb58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::KekIdentifier.get_KeyIdentifier
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)()>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_KeyIdentifier)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)()>(
+    &::Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_KeyIdentifier)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x329ccc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "get_KeyIdentifier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { "get_KeyIdentifier", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::KekIdentifier.get_Date
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)()>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_Date)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)()>(
+    &::Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_Date)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x329ccd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "get_Date",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { "get_Date", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::KekIdentifier.get_Other
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)()>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_Other)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)()>(
+    &::Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_Other)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x329ccd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "get_Other",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { "get_Other", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::KekIdentifier.ToAsn1Object
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)()>(&::Org::BouncyCastle::Asn1::Cms::KekIdentifier::ToAsn1Object)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::KekIdentifier::*)()>(
+    &::Org::BouncyCastle::Asn1::Cms::KekIdentifier::ToAsn1Object)> {
   constexpr static std::size_t size = 0x180;
   constexpr static std::size_t addrs = 0x329cce0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { ::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), 5 }));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_get_keyIdentifier()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___keyIdentifier;
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_get_keyIdentifier() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___keyIdentifier;
 }
 constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_get_keyIdentifier() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___keyIdentifier;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___keyIdentifier;
 }
-constexpr void Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_set_keyIdentifier(::Org::BouncyCastle::Asn1::Asn1OctetString*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyIdentifier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_set_keyIdentifier(::Org::BouncyCastle::Asn1::Asn1OctetString* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___keyIdentifier = value;
 }
-constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_get_date()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___date;
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_get_date() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___date;
 }
 constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_get_date() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___date;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___date;
 }
-constexpr void Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_set_date(::Org::BouncyCastle::Asn1::DerGeneralizedTime*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___date)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_set_date(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___date = value;
 }
-constexpr ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*& Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_get_other()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___other;
+constexpr ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*& Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_get_other() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___other;
 }
 constexpr ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* const& Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_get_other() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___other;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___other;
 }
-constexpr void Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_set_other(::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___other)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::Cms::KekIdentifier::__cordl_internal_set_other(::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___other = value;
 }
-inline void Org::BouncyCastle::Asn1::Cms::KekIdentifier::_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*  date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyIdentifier, date, other);
+inline void Org::BouncyCastle::Asn1::Cms::KekIdentifier::_ctor(::ArrayW<uint8_t> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date,
+                                                               ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(),
+                                                                                         { ".ctor",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>(),
+                                                                                             ::i2c::type_of<::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyIdentifier, date, other);
 }
-inline void Org::BouncyCastle::Asn1::Cms::KekIdentifier::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
+inline void Org::BouncyCastle::Asn1::Cms::KekIdentifier::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, seq);
 }
-inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* Org::BouncyCastle::Asn1::Cms::KekIdentifier::GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*, false>(nullptr, ___internal_method, obj, explicitly);
+inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* Org::BouncyCastle::Asn1::Cms::KekIdentifier::GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(),
+                                                           { "GetInstance", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(nullptr, ___internal_method, obj, explicitly);
 }
-inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* Org::BouncyCastle::Asn1::Cms::KekIdentifier::GetInstance(::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*, false>(nullptr, ___internal_method, obj);
+inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* Org::BouncyCastle::Asn1::Cms::KekIdentifier::GetInstance(::System::Object* obj) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1OctetString* Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_KeyIdentifier()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "get_KeyIdentifier",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1OctetString*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::Asn1OctetString* Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_KeyIdentifier() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { "get_KeyIdentifier", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1OctetString*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_Date()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "get_Date",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerGeneralizedTime*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_Date() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { "get_Date", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_Other()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                        "get_Other",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* Org::BouncyCastle::Asn1::Cms::KekIdentifier::get_Other() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), { "get_Other", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::KekIdentifier::ToAsn1Object()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::KekIdentifier::ToAsn1Object() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* Org::BouncyCastle::Asn1::Cms::KekIdentifier::New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*  date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*  other)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(keyIdentifier, date, other));
+inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* Org::BouncyCastle::Asn1::Cms::KekIdentifier::New_ctor(::ArrayW<uint8_t> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date,
+                                                                                                            ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(keyIdentifier, date, other));
 }
-inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* Org::BouncyCastle::Asn1::Cms::KekIdentifier::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(seq));
+inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* Org::BouncyCastle::Asn1::Cms::KekIdentifier::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::KekIdentifier*>(seq));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::Cms::KekIdentifier::KekIdentifier()   {
-}
+constexpr ::Org::BouncyCastle::Asn1::Cms::KekIdentifier::KekIdentifier() {}

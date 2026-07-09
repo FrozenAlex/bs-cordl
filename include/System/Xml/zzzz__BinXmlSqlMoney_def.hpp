@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/BinXmlSqlMoney.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinXmlSqlMoney)
@@ -16,47 +16,47 @@ struct BinXmlSqlMoney;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::BinXmlSqlMoney);
-// Dependencies 
+DEFINE_IL2CPP_CLASS(::System::Xml::BinXmlSqlMoney, "System.Xml", "BinXmlSqlMoney");
+// Dependencies
 namespace System::Xml {
 // Is value type: true
 // CS Name: System.Xml.BinXmlSqlMoney
 struct CORDL_TYPE BinXmlSqlMoney {
 public:
-// Declarations
-/// @brief Method ToDecimal, addr 0x6053924, size 0x1c, virtual false, abstract: false, final false
-inline ::System::Decimal ToDecimal() ;
+  // Declarations
+  /// @brief Method ToDecimal, addr 0x6053924, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Decimal ToDecimal();
 
-/// @brief Method ToString, addr 0x6053940, size 0x104, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x6053940, size 0x104, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x6053910, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(int32_t  v) ;
+  /// @brief Method .ctor, addr 0x6053910, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(int32_t v);
 
-/// @brief Method .ctor, addr 0x605391c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int64_t  v) ;
+  /// @brief Method .ctor, addr 0x605391c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int64_t v);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr BinXmlSqlMoney() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinXmlSqlMoney();
 
-// Ctor Parameters [CppParam { name: "data", ty: "int64_t", modifiers: "", def_value: None }]
-constexpr BinXmlSqlMoney(int64_t  data) noexcept;
+  // Ctor Parameters [CppParam { name: "data", ty: "int64_t", modifiers: "", def_value: None }]
+  constexpr BinXmlSqlMoney(int64_t data) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9239};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9239 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field data, offset: 0x0, size: 0x8, def value: None
- int64_t  data;
+  /// @brief Field data, offset: 0x0, size: 0x8, def value: None
+  int64_t data;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::BinXmlSqlMoney, data) == 0x0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::System::Xml::BinXmlSqlMoney, 0x8>, "Size mismatch!");
+static_assert(sizeof(::System::Xml::BinXmlSqlMoney) == 0x8, "Size mismatch!");
 
-} // namespace end def System::Xml
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::BinXmlSqlMoney, "System.Xml", "BinXmlSqlMoney");
+} // namespace System::Xml

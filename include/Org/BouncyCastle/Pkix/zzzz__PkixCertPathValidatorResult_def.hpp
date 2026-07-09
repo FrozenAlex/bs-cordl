@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixCertPathValidatorResult.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(PkixCertPathValidatorResult)
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -23,94 +23,96 @@ namespace Org::BouncyCastle::Pkix {
 class PkixCertPathValidatorResult;
 }
 // Write type traits
-MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult);
+MARK_REF_T(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*);
+DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*, "Org.BouncyCastle.Pkix", "PkixCertPathValidatorResult");
 // Dependencies System.Object
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Pkix.PkixCertPathValidatorResult
 class CORDL_TYPE PkixCertPathValidatorResult : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_PolicyTree)) ::Org::BouncyCastle::Pkix::PkixPolicyNode*  PolicyTree;
+  // Declarations
+  __declspec(property(get = get_PolicyTree)) ::Org::BouncyCastle::Pkix::PkixPolicyNode* PolicyTree;
 
- __declspec(property(get=get_SubjectPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  SubjectPublicKey;
+  __declspec(property(get = get_SubjectPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* SubjectPublicKey;
 
- __declspec(property(get=get_TrustAnchor)) ::Org::BouncyCastle::Pkix::TrustAnchor*  TrustAnchor;
+  __declspec(property(get = get_TrustAnchor)) ::Org::BouncyCastle::Pkix::TrustAnchor* TrustAnchor;
 
-/// @brief Field policyTree, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_policyTree, put=__cordl_internal_set_policyTree)) ::Org::BouncyCastle::Pkix::PkixPolicyNode*  policyTree;
+  /// @brief Field policyTree, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_policyTree, put = __cordl_internal_set_policyTree)) ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree;
 
-/// @brief Field subjectPublicKey, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_subjectPublicKey, put=__cordl_internal_set_subjectPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  subjectPublicKey;
+  /// @brief Field subjectPublicKey, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_subjectPublicKey, put = __cordl_internal_set_subjectPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey;
 
-/// @brief Field trustAnchor, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_trustAnchor, put=__cordl_internal_set_trustAnchor)) ::Org::BouncyCastle::Pkix::TrustAnchor*  trustAnchor;
+  /// @brief Field trustAnchor, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_trustAnchor, put = __cordl_internal_set_trustAnchor)) ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor;
 
-/// @brief Method Clone, addr 0x350938c, size 0x74, virtual false, abstract: false, final false
-inline ::System::Object* Clone() ;
+  /// @brief Method Clone, addr 0x350938c, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Object* Clone();
 
-static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* New_ctor(::Org::BouncyCastle::Pkix::TrustAnchor*  trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode*  policyTree, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  subjectPublicKey) ;
+  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* New_ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
+                                                                                 ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-/// @brief Method ToString, addr 0x3509400, size 0x1a0, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x3509400, size 0x1a0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode* const& __cordl_internal_get_policyTree() const;
+  constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode* const& __cordl_internal_get_policyTree() const;
 
-constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode*& __cordl_internal_get_policyTree() ;
+  constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode*& __cordl_internal_get_policyTree();
 
-constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_subjectPublicKey() const;
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_subjectPublicKey() const;
 
-constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_subjectPublicKey() ;
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_subjectPublicKey();
 
-constexpr ::Org::BouncyCastle::Pkix::TrustAnchor* const& __cordl_internal_get_trustAnchor() const;
+  constexpr ::Org::BouncyCastle::Pkix::TrustAnchor* const& __cordl_internal_get_trustAnchor() const;
 
-constexpr ::Org::BouncyCastle::Pkix::TrustAnchor*& __cordl_internal_get_trustAnchor() ;
+  constexpr ::Org::BouncyCastle::Pkix::TrustAnchor*& __cordl_internal_get_trustAnchor();
 
-constexpr void __cordl_internal_set_policyTree(::Org::BouncyCastle::Pkix::PkixPolicyNode*  value) ;
+  constexpr void __cordl_internal_set_policyTree(::Org::BouncyCastle::Pkix::PkixPolicyNode* value);
 
-constexpr void __cordl_internal_set_subjectPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  value) ;
+  constexpr void __cordl_internal_set_subjectPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-constexpr void __cordl_internal_set_trustAnchor(::Org::BouncyCastle::Pkix::TrustAnchor*  value) ;
+  constexpr void __cordl_internal_set_trustAnchor(::Org::BouncyCastle::Pkix::TrustAnchor* value);
 
-/// @brief Method .ctor, addr 0x3509308, size 0x84, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Pkix::TrustAnchor*  trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode*  policyTree, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  subjectPublicKey) ;
+  /// @brief Method .ctor, addr 0x3509308, size 0x84, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-/// @brief Method get_PolicyTree, addr 0x35092f0, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_PolicyTree() ;
+  /// @brief Method get_PolicyTree, addr 0x35092f0, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_PolicyTree();
 
-/// @brief Method get_SubjectPublicKey, addr 0x3509300, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_SubjectPublicKey() ;
+  /// @brief Method get_SubjectPublicKey, addr 0x3509300, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_SubjectPublicKey();
 
-/// @brief Method get_TrustAnchor, addr 0x35092f8, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Pkix::TrustAnchor* get_TrustAnchor() ;
+  /// @brief Method get_TrustAnchor, addr 0x35092f8, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Pkix::TrustAnchor* get_TrustAnchor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PkixCertPathValidatorResult() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkixCertPathValidatorResult();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PkixCertPathValidatorResult(PkixCertPathValidatorResult&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PkixCertPathValidatorResult(PkixCertPathValidatorResult && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PkixCertPathValidatorResult(PkixCertPathValidatorResult const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PkixCertPathValidatorResult(PkixCertPathValidatorResult const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1719 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1719};
+  /// @brief Field trustAnchor, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Pkix::TrustAnchor* ___trustAnchor;
 
-/// @brief Field trustAnchor, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Pkix::TrustAnchor*  ___trustAnchor;
+  /// @brief Field policyTree, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Pkix::PkixPolicyNode* ___policyTree;
 
-/// @brief Field policyTree, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Pkix::PkixPolicyNode*  ___policyTree;
+  /// @brief Field subjectPublicKey, offset: 0x20, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ___subjectPublicKey;
 
-/// @brief Field subjectPublicKey, offset: 0x20, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  ___subjectPublicKey;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult, ___trustAnchor) == 0x10, "Offset mismatch!");
@@ -119,8 +121,6 @@ static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult, _
 
 static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult, ___subjectPublicKey) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult, 0x28>, "Size mismatch!");
+static_assert(sizeof(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult) == 0x28, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Pkix
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*, "Org.BouncyCastle.Pkix", "PkixCertPathValidatorResult");
+} // namespace Org::BouncyCastle::Pkix

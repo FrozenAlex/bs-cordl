@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/AudioBehaviour.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
@@ -10,41 +10,40 @@ namespace UnityEngine {
 class AudioBehaviour;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::AudioBehaviour);
+MARK_REF_T(::UnityEngine::AudioBehaviour*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::AudioBehaviour*, "UnityEngine", "AudioBehaviour");
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.AudioBehaviour
 class CORDL_TYPE AudioBehaviour : public ::UnityEngine::Behaviour {
 public:
-// Declarations
-static inline ::UnityEngine::AudioBehaviour* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::AudioBehaviour* New_ctor();
 
-/// @brief Method .ctor, addr 0x68f22fc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x68f22fc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AudioBehaviour() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AudioBehaviour();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AudioBehaviour", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AudioBehaviour(AudioBehaviour&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AudioBehaviour", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AudioBehaviour(AudioBehaviour && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AudioBehaviour", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AudioBehaviour(AudioBehaviour const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AudioBehaviour", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AudioBehaviour(AudioBehaviour const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20596 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20596};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioBehaviour, 0x18>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AudioBehaviour) == 0x18, "Size mismatch!");
 
-} // namespace end def UnityEngine
-NEED_NO_BOX(::UnityEngine::AudioBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioBehaviour*, "UnityEngine", "AudioBehaviour");
+} // namespace UnityEngine

@@ -1,12 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/INetworkPacketSerializer_1.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INetworkPacketSerializer_1)
 namespace GlobalNamespace {
-template<typename TData>
-class INetworkPacketProcessor_1;
+template <typename TData> class INetworkPacketProcessor_1;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
@@ -19,41 +18,40 @@ class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template<typename TData>
-class INetworkPacketSerializer_1;
+template <typename TData> class INetworkPacketSerializer_1;
 }
 // Write type traits
-MARK_GEN_REF_PTR_T(::GlobalNamespace::INetworkPacketSerializer_1);
-// Dependencies 
+MARK_GEN_REF_T_PTR(::GlobalNamespace::INetworkPacketSerializer_1);
+DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::INetworkPacketSerializer_1, "", "INetworkPacketSerializer`1");
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
-template<typename TData>
+template <typename TData>
 // Is value type: false
 // CS Name: INetworkPacketSerializer`1<TData>
 class CORDL_TYPE INetworkPacketSerializer_1 {
 public:
-// Declarations
-/// @brief Convert operator to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
-constexpr operator  ::GlobalNamespace::INetworkPacketProcessor_1<TData>*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
+  constexpr operator ::GlobalNamespace::INetworkPacketProcessor_1<TData>*() noexcept;
 
-/// @brief Method ProcessAllPackets, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void ProcessAllPackets(::LiteNetLib::Utils::NetDataReader*  reader, TData  data) ;
+  /// @brief Method ProcessAllPackets, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void ProcessAllPackets(::LiteNetLib::Utils::NetDataReader* reader, TData data);
 
-/// @brief Method SerializePacket, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void SerializePacket(::LiteNetLib::Utils::NetDataWriter*  writer, ::LiteNetLib::Utils::INetSerializable*  packet) ;
+  /// @brief Method SerializePacket, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SerializePacket(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
 
-/// @brief Convert to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
-constexpr ::GlobalNamespace::INetworkPacketProcessor_1<TData>* i___GlobalNamespace__INetworkPacketProcessor_1_TData_() noexcept;
+  /// @brief Convert to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
+  constexpr ::GlobalNamespace::INetworkPacketProcessor_1<TData>* i___GlobalNamespace__INetworkPacketProcessor_1_TData_() noexcept;
 
-// Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSerializer_1", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-INetworkPacketSerializer_1(INetworkPacketSerializer_1 const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSerializer_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  INetworkPacketSerializer_1(INetworkPacketSerializer_1 const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18208};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18208 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::INetworkPacketSerializer_1, "", "INetworkPacketSerializer`1");
+} // namespace GlobalNamespace

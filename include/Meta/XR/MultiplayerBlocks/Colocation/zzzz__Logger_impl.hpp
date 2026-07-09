@@ -4,269 +4,201 @@
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__Logger_def.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__LogLevel_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Logger.Log
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Meta::XR::MultiplayerBlocks::Colocation::LogLevel)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::Log)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::Meta::XR::MultiplayerBlocks::Colocation::LogLevel)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::Log)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x59365d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "Log",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(),
+                                                             { "Log", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Logger.LogVerbose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogVerbose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogVerbose)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5946664;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogVerbose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogVerbose", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Logger.LogInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogInfo)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5946710;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogInfo", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Logger.LogWarning
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogWarning)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogWarning)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x59467bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogWarning",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogWarning", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Logger.LogError
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogError)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogError)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5946868;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogError", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Logger.LogSharedSpatialAnchorsError
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogSharedSpatialAnchorsError)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogSharedSpatialAnchorsError)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x5946914;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogSharedSpatialAnchorsError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogSharedSpatialAnchorsError", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Logger.GetPrefixMessage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::GetPrefixMessage)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::GetPrefixMessage)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x59469c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "GetPrefixMessage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(),
+                                                                                           { "GetPrefixMessage", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Logger.SetLogLevelVisibility
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel, bool)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::SetLogLevelVisibility)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel, bool)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::Logger::SetLogLevelVisibility)> {
   constexpr static std::size_t size = 0x180;
   constexpr static std::size_t addrs = 0x5935888;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "SetLogLevelVisibility",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(),
+                                                             { "SetLogLevelVisibility", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Logger.SetAllLogsVisibility
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::SetAllLogsVisibility)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::SetAllLogsVisibility)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x5935828;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "SetAllLogsVisibility",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "SetAllLogsVisibility", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isVerboseLogVisible(bool  value)  {
-::cordl_internals::setStaticField<bool, "_isVerboseLogVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>(std::forward<bool>(value));
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isVerboseLogVisible(bool value) {
+  ::cordl_internals::setStaticField<bool, "_isVerboseLogVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(std::forward<bool>(value));
 }
-inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isVerboseLogVisible()  {
-return ::cordl_internals::getStaticField<bool, "_isVerboseLogVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>();
+inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isVerboseLogVisible() {
+  return ::cordl_internals::getStaticField<bool, "_isVerboseLogVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>();
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isInfoLogVisible(bool  value)  {
-::cordl_internals::setStaticField<bool, "_isInfoLogVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>(std::forward<bool>(value));
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isInfoLogVisible(bool value) {
+  ::cordl_internals::setStaticField<bool, "_isInfoLogVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(std::forward<bool>(value));
 }
-inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isInfoLogVisible()  {
-return ::cordl_internals::getStaticField<bool, "_isInfoLogVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>();
+inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isInfoLogVisible() {
+  return ::cordl_internals::getStaticField<bool, "_isInfoLogVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>();
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isWarningLogVisible(bool  value)  {
-::cordl_internals::setStaticField<bool, "_isWarningLogVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>(std::forward<bool>(value));
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isWarningLogVisible(bool value) {
+  ::cordl_internals::setStaticField<bool, "_isWarningLogVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(std::forward<bool>(value));
 }
-inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isWarningLogVisible()  {
-return ::cordl_internals::getStaticField<bool, "_isWarningLogVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>();
+inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isWarningLogVisible() {
+  return ::cordl_internals::getStaticField<bool, "_isWarningLogVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>();
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isErrorLogVisible(bool  value)  {
-::cordl_internals::setStaticField<bool, "_isErrorLogVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>(std::forward<bool>(value));
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isErrorLogVisible(bool value) {
+  ::cordl_internals::setStaticField<bool, "_isErrorLogVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(std::forward<bool>(value));
 }
-inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isErrorLogVisible()  {
-return ::cordl_internals::getStaticField<bool, "_isErrorLogVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>();
+inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isErrorLogVisible() {
+  return ::cordl_internals::getStaticField<bool, "_isErrorLogVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>();
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isSharedSpatialAnchorsErrorVisible(bool  value)  {
-::cordl_internals::setStaticField<bool, "_isSharedSpatialAnchorsErrorVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>(std::forward<bool>(value));
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::setStaticF__isSharedSpatialAnchorsErrorVisible(bool value) {
+  ::cordl_internals::setStaticField<bool, "_isSharedSpatialAnchorsErrorVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(std::forward<bool>(value));
 }
-inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isSharedSpatialAnchorsErrorVisible()  {
-return ::cordl_internals::getStaticField<bool, "_isSharedSpatialAnchorsErrorVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get>();
+inline bool Meta::XR::MultiplayerBlocks::Colocation::Logger::getStaticF__isSharedSpatialAnchorsErrorVisible() {
+  return ::cordl_internals::getStaticField<bool, "_isSharedSpatialAnchorsErrorVisible", ::Meta::XR::MultiplayerBlocks::Colocation::Logger*>();
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::Log(::StringW  message, ::Meta::XR::MultiplayerBlocks::Colocation::LogLevel  logLevel)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "Log",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message, logLevel);
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::Log(::StringW message, ::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(),
+                                                           { "Log", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, logLevel);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogVerbose(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogVerbose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogVerbose(::StringW message) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogVerbose", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogInfo(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogInfo(::StringW message) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogInfo", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogWarning(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogWarning",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogWarning(::StringW message) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogWarning", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogError(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogError(::StringW message) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogError", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogSharedSpatialAnchorsError(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "LogSharedSpatialAnchorsError",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::LogSharedSpatialAnchorsError(::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "LogSharedSpatialAnchorsError", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline ::StringW Meta::XR::MultiplayerBlocks::Colocation::Logger::GetPrefixMessage(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel  logLevel)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "GetPrefixMessage",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, logLevel);
+inline ::StringW Meta::XR::MultiplayerBlocks::Colocation::Logger::GetPrefixMessage(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(),
+                                                                                         { "GetPrefixMessage", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, logLevel);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::SetLogLevelVisibility(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel  logLevel, bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "SetLogLevelVisibility",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, logLevel, value);
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::SetLogLevelVisibility(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel, bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(),
+                                                           { "SetLogLevelVisibility", {}, { ::i2c::type_of<::Meta::XR::MultiplayerBlocks::Colocation::LogLevel>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, logLevel, value);
 }
-inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::SetAllLogsVisibility(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>::get(),
-                        "SetAllLogsVisibility",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void Meta::XR::MultiplayerBlocks::Colocation::Logger::SetAllLogsVisibility(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(), { "SetAllLogsVisibility", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::MultiplayerBlocks::Colocation::Logger::Logger()   {
-}
+constexpr ::Meta::XR::MultiplayerBlocks::Colocation::Logger::Logger() {}

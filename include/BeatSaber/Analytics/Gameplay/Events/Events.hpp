@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BeatSaber/Analytics/Gameplay/Events/SpaceshipCustomEvent.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/SpaceshipEventType.hpp"
@@ -14,6 +14,5 @@
 #include "BeatSaber/Analytics/Gameplay/Events/SpaceshipSegmentType.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/SpaceshipUserEventBase.hpp"
 #ifdef __cpp_modules
-                    export module Events;
-                    #endif
-                
+export module Events;
+#endif

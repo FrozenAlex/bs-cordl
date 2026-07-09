@@ -5,58 +5,50 @@
 #include "GlobalNamespace/zzzz__LocalPlayerInGameMenuInitData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LocalPlayerInGameMenuInitData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalPlayerInGameMenuInitData::*)(::ByRef<::GlobalNamespace::BeatmapKey>, bool)>(&::GlobalNamespace::LocalPlayerInGameMenuInitData::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalPlayerInGameMenuInitData::*)(::by_ref<::GlobalNamespace::BeatmapKey>, bool)>(
+    &::GlobalNamespace::LocalPlayerInGameMenuInitData::_ctor)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x5874c04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalPlayerInGameMenuInitData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::BeatmapKey>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalPlayerInGameMenuInitData*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_get_beatmapKey()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___beatmapKey;
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_get_beatmapKey() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapKey;
 }
 constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_get_beatmapKey() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___beatmapKey;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapKey;
 }
-constexpr void GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___beatmapKey = value;
+constexpr void GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___beatmapKey = value;
 }
-constexpr bool& GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_get_hasSong()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hasSong;
+constexpr bool& GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_get_hasSong() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hasSong;
 }
 constexpr bool const& GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_get_hasSong() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hasSong;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hasSong;
 }
-constexpr void GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_set_hasSong(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___hasSong = value;
+constexpr void GlobalNamespace::LocalPlayerInGameMenuInitData::__cordl_internal_set_hasSong(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___hasSong = value;
 }
-inline void GlobalNamespace::LocalPlayerInGameMenuInitData::_ctor(::ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, bool  hasSong)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalPlayerInGameMenuInitData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::BeatmapKey>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey, hasSong);
+inline void GlobalNamespace::LocalPlayerInGameMenuInitData::_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalPlayerInGameMenuInitData*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey, hasSong);
 }
-inline ::GlobalNamespace::LocalPlayerInGameMenuInitData* GlobalNamespace::LocalPlayerInGameMenuInitData::New_ctor(::ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, bool  hasSong)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LocalPlayerInGameMenuInitData*>(beatmapKey, hasSong));
+inline ::GlobalNamespace::LocalPlayerInGameMenuInitData* GlobalNamespace::LocalPlayerInGameMenuInitData::New_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LocalPlayerInGameMenuInitData*>(beatmapKey, hasSong));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LocalPlayerInGameMenuInitData::LocalPlayerInGameMenuInitData()   {
-}
+constexpr ::GlobalNamespace::LocalPlayerInGameMenuInitData::LocalPlayerInGameMenuInitData() {}

@@ -6,109 +6,83 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils.GetOculusIdOfColocatedGroupOwnerFromColocationGroupId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<uint64_t> (*)(uint32_t)>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetOculusIdOfColocatedGroupOwnerFromColocationGroupId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<uint64_t> (*)(uint32_t)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetOculusIdOfColocatedGroupOwnerFromColocationGroupId)> {
   constexpr static std::size_t size = 0x1e0;
   constexpr static std::size_t addrs = 0x5941eb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>::get(),
-                        "GetOculusIdOfColocatedGroupOwnerFromColocationGroupId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(),
+                                                                                           { "GetOculusIdOfColocatedGroupOwnerFromColocationGroupId", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils.GetAllPlayersFromColocationGroupId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* (*)(uint32_t)>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersFromColocationGroupId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* (*)(uint32_t)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersFromColocationGroupId)> {
   constexpr static std::size_t size = 0x2b0;
   constexpr static std::size_t addrs = 0x5942098;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>::get(),
-                        "GetAllPlayersFromColocationGroupId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(),
+                                                                                           { "GetAllPlayersFromColocationGroupId", {}, { ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils.GetAllPlayersColocatedWith
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* (*)(uint64_t, bool)>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersColocatedWith)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* (*)(uint64_t, bool)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersColocatedWith)> {
   constexpr static std::size_t size = 0x388;
   constexpr static std::size_t addrs = 0x5942348;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>::get(),
-                        "GetAllPlayersColocatedWith",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(),
+                                                                                           { "GetAllPlayersColocatedWith", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils.GetPlayerFromOculusId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player> (*)(uint64_t)>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetPlayerFromOculusId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player> (*)(uint64_t)>(
+    &::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetPlayerFromOculusId)> {
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x59426d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>::get(),
-                        "GetPlayerFromOculusId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(), { "GetPlayerFromOculusId", {}, { ::i2c::type_of<uint64_t>() } })));
     return ___internal_method;
   }
 };
-inline ::System::Nullable_1<uint64_t> Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetOculusIdOfColocatedGroupOwnerFromColocationGroupId(uint32_t  colocationGroupId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>::get(),
-                        "GetOculusIdOfColocatedGroupOwnerFromColocationGroupId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<uint64_t>, false>(nullptr, ___internal_method, colocationGroupId);
+inline ::System::Nullable_1<uint64_t> Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetOculusIdOfColocatedGroupOwnerFromColocationGroupId(uint32_t colocationGroupId) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(),
+                                                                                         { "GetOculusIdOfColocatedGroupOwnerFromColocationGroupId", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<uint64_t>>(nullptr, ___internal_method, colocationGroupId);
 }
-inline ::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersFromColocationGroupId(uint32_t  colocationGroupId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>::get(),
-                        "GetAllPlayersFromColocationGroupId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>*, false>(nullptr, ___internal_method, colocationGroupId);
+inline ::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>*
+Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersFromColocationGroupId(uint32_t colocationGroupId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(), { "GetAllPlayersFromColocationGroupId", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>*>(nullptr, ___internal_method, colocationGroupId);
 }
-inline ::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersColocatedWith(uint64_t  oculusId, bool  includeMyself)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>::get(),
-                        "GetAllPlayersColocatedWith",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>*, false>(nullptr, ___internal_method, oculusId, includeMyself);
+inline ::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>*
+Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetAllPlayersColocatedWith(uint64_t oculusId, bool includeMyself) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(),
+                                                                                         { "GetAllPlayersColocatedWith", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>*>(nullptr, ___internal_method, oculusId, includeMyself);
 }
-inline ::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player> Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetPlayerFromOculusId(uint64_t  oculusId)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>::get(),
-                        "GetPlayerFromOculusId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>, false>(nullptr, ___internal_method, oculusId);
+inline ::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player> Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::GetPlayerFromOculusId(uint64_t oculusId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils*>(), { "GetPlayerFromOculusId", {}, { ::i2c::type_of<uint64_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>>(nullptr, ___internal_method, oculusId);
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::NetworkDataUtils()   {
-}
+constexpr ::Meta::XR::MultiplayerBlocks::Colocation::NetworkDataUtils::NetworkDataUtils() {}

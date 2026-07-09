@@ -4,31 +4,20 @@
 #include "System/Net/NetworkInformation/zzzz__IPGlobalPropertiesFactoryPal_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPGlobalProperties_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal::Create)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal::Create)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x6211988;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal*>(), { "Create", {}, {} })));
     return ___internal_method;
   }
 };
-inline ::System::Net::NetworkInformation::IPGlobalProperties* System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal::Create()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal*>::get(),
-                        "Create",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::IPGlobalProperties*, false>(nullptr, ___internal_method);
+inline ::System::Net::NetworkInformation::IPGlobalProperties* System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal::Create() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal*>(), { "Create", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::IPGlobalProperties*>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal::IPGlobalPropertiesFactoryPal()   {
-}
+constexpr ::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal::IPGlobalPropertiesFactoryPal() {}

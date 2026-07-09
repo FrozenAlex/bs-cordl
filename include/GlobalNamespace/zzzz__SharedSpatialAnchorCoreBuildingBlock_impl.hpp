@@ -3,34 +3,23 @@
 #include "Meta/XR/BuildingBlocks/zzzz__BuildingBlock_impl.hpp"
 #include "GlobalNamespace/zzzz__SharedSpatialAnchorCoreBuildingBlock_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::*)()>(&::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::*)()>(&::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x58f767c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock* GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock*>());
+inline ::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock* GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::SharedSpatialAnchorCoreBuildingBlock()   {
-}
+constexpr ::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock::SharedSpatialAnchorCoreBuildingBlock() {}

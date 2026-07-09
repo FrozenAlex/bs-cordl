@@ -6,90 +6,72 @@
 #include "System/Xml/zzzz__XmlDictionaryString_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryWriter_def.hpp"
 //  Writing Method size for method: ::System::Xml::Int32ArrayHelperWithDictionaryString.ReadArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Int32ArrayHelperWithDictionaryString::*)(::System::Xml::XmlDictionaryReader*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int32_t,::Array<int32_t>*>, int32_t, int32_t)>(&::System::Xml::Int32ArrayHelperWithDictionaryString::ReadArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Int32ArrayHelperWithDictionaryString::*)(::System::Xml::XmlDictionaryReader*, ::System::Xml::XmlDictionaryString*,
+                                                                                                                        ::System::Xml::XmlDictionaryString*, ::ArrayW<int32_t>, int32_t, int32_t)>(
+    &::System::Xml::Int32ArrayHelperWithDictionaryString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x5fbdd30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Int32ArrayHelperWithDictionaryString*>(),
+                                                                                          { ::i2c::class_of<::System::Xml::Int32ArrayHelperWithDictionaryString*>(), 4 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Int32ArrayHelperWithDictionaryString.WriteArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Int32ArrayHelperWithDictionaryString::*)(::System::Xml::XmlDictionaryWriter*, ::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int32_t,::Array<int32_t>*>, int32_t, int32_t)>(&::System::Xml::Int32ArrayHelperWithDictionaryString::WriteArray)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Int32ArrayHelperWithDictionaryString::*)(
+    ::System::Xml::XmlDictionaryWriter*, ::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int32_t>, int32_t, int32_t)>(
+    &::System::Xml::Int32ArrayHelperWithDictionaryString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x5fbdd68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Int32ArrayHelperWithDictionaryString*>(),
+                                                                                          { ::i2c::class_of<::System::Xml::Int32ArrayHelperWithDictionaryString*>(), 5 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Int32ArrayHelperWithDictionaryString._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Int32ArrayHelperWithDictionaryString::*)()>(&::System::Xml::Int32ArrayHelperWithDictionaryString::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Int32ArrayHelperWithDictionaryString::*)()>(&::System::Xml::Int32ArrayHelperWithDictionaryString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x5fbdda4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Int32ArrayHelperWithDictionaryString*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void System::Xml::Int32ArrayHelperWithDictionaryString::setStaticF_Instance(::System::Xml::Int32ArrayHelperWithDictionaryString*  value)  {
-::cordl_internals::setStaticField<::System::Xml::Int32ArrayHelperWithDictionaryString*, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get>(std::forward<::System::Xml::Int32ArrayHelperWithDictionaryString*>(value));
+inline void System::Xml::Int32ArrayHelperWithDictionaryString::setStaticF_Instance(::System::Xml::Int32ArrayHelperWithDictionaryString* value) {
+  ::cordl_internals::setStaticField<::System::Xml::Int32ArrayHelperWithDictionaryString*, "Instance", ::System::Xml::Int32ArrayHelperWithDictionaryString*>(
+      std::forward<::System::Xml::Int32ArrayHelperWithDictionaryString*>(value));
 }
-inline ::System::Xml::Int32ArrayHelperWithDictionaryString* System::Xml::Int32ArrayHelperWithDictionaryString::getStaticF_Instance()  {
-return ::cordl_internals::getStaticField<::System::Xml::Int32ArrayHelperWithDictionaryString*, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get>();
+inline ::System::Xml::Int32ArrayHelperWithDictionaryString* System::Xml::Int32ArrayHelperWithDictionaryString::getStaticF_Instance() {
+  return ::cordl_internals::getStaticField<::System::Xml::Int32ArrayHelperWithDictionaryString*, "Instance", ::System::Xml::Int32ArrayHelperWithDictionaryString*>();
 }
-inline int32_t System::Xml::Int32ArrayHelperWithDictionaryString::ReadArray(::System::Xml::XmlDictionaryReader*  reader, ::System::Xml::XmlDictionaryString*  localName, ::System::Xml::XmlDictionaryString*  namespaceUri, ::ArrayW<int32_t,::Array<int32_t>*>  array, int32_t  offset, int32_t  count)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, reader, localName, namespaceUri, array, offset, count);
+inline int32_t System::Xml::Int32ArrayHelperWithDictionaryString::ReadArray(::System::Xml::XmlDictionaryReader* reader, ::System::Xml::XmlDictionaryString* localName,
+                                                                            ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int32_t> array, int32_t offset, int32_t count) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Int32ArrayHelperWithDictionaryString*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, reader, localName, namespaceUri, array, offset, count);
 }
-inline void System::Xml::Int32ArrayHelperWithDictionaryString::WriteArray(::System::Xml::XmlDictionaryWriter*  writer, ::StringW  prefix, ::System::Xml::XmlDictionaryString*  localName, ::System::Xml::XmlDictionaryString*  namespaceUri, ::ArrayW<int32_t,::Array<int32_t>*>  array, int32_t  offset, int32_t  count)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer, prefix, localName, namespaceUri, array, offset, count);
+inline void System::Xml::Int32ArrayHelperWithDictionaryString::WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::System::Xml::XmlDictionaryString* localName,
+                                                                          ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int32_t> array, int32_t offset, int32_t count) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Int32ArrayHelperWithDictionaryString*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, prefix, localName, namespaceUri, array, offset, count);
 }
-inline void System::Xml::Int32ArrayHelperWithDictionaryString::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithDictionaryString*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Int32ArrayHelperWithDictionaryString::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Int32ArrayHelperWithDictionaryString*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Xml::Int32ArrayHelperWithDictionaryString* System::Xml::Int32ArrayHelperWithDictionaryString::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Int32ArrayHelperWithDictionaryString*>());
+inline ::System::Xml::Int32ArrayHelperWithDictionaryString* System::Xml::Int32ArrayHelperWithDictionaryString::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Int32ArrayHelperWithDictionaryString*>());
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Int32ArrayHelperWithDictionaryString::Int32ArrayHelperWithDictionaryString()   {
-}
+constexpr ::System::Xml::Int32ArrayHelperWithDictionaryString::Int32ArrayHelperWithDictionaryString() {}

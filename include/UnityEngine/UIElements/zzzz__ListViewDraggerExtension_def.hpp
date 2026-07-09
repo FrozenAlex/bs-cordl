@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/ListViewDraggerExtension.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -17,42 +17,41 @@ namespace UnityEngine::UIElements {
 class ListViewDraggerExtension;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewDraggerExtension);
+MARK_REF_T(::UnityEngine::UIElements::ListViewDraggerExtension*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ListViewDraggerExtension*, "UnityEngine.UIElements", "ListViewDraggerExtension");
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ListViewDraggerExtension
 class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetRecycledItemFromId, addr 0x6c386e8, size 0x2fc, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView, int32_t  id) ;
+  // Declarations
+  /// @brief Method GetRecycledItemFromId, addr 0x6c386e8, size 0x2fc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t id);
 
-/// @brief Method GetRecycledItemFromIndex, addr 0x6c389e4, size 0x2fc, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView, int32_t  index) ;
+  /// @brief Method GetRecycledItemFromIndex, addr 0x6c389e4, size 0x2fc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ListViewDraggerExtension() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ListViewDraggerExtension();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ListViewDraggerExtension(ListViewDraggerExtension&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ListViewDraggerExtension(ListViewDraggerExtension && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ListViewDraggerExtension(ListViewDraggerExtension const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ListViewDraggerExtension(ListViewDraggerExtension const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4408 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4408};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListViewDraggerExtension, 0x10>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::ListViewDraggerExtension) == 0x10, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
-NEED_NO_BOX(::UnityEngine::UIElements::ListViewDraggerExtension);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListViewDraggerExtension*, "UnityEngine.UIElements", "ListViewDraggerExtension");
+} // namespace UnityEngine::UIElements

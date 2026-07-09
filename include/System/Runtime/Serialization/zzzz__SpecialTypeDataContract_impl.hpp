@@ -6,103 +6,96 @@
 #include "System/Xml/zzzz__XmlDictionaryString_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::*)(::System::Type*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::*)(
+    ::System::Type*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
+    &::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x6020188;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*>(),
+                            { ".ctor", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>() } })));
     return ___internal_method;
   }
 };
-inline void System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::_ctor(::System::Type*  type, ::System::Xml::XmlDictionaryString*  name, ::System::Xml::XmlDictionaryString*  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, name, ns);
+inline void System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::_ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name,
+                                                                                                                 ::System::Xml::XmlDictionaryString* ns) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*>(),
+                          { ".ctor", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type, name, ns);
 }
-inline ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper* System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::New_ctor(::System::Type*  type, ::System::Xml::XmlDictionaryString*  name, ::System::Xml::XmlDictionaryString*  ns)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*>(type, name, ns));
+inline ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*
+System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::New_ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name,
+                                                                                                        ::System::Xml::XmlDictionaryString* ns) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*>(type, name, ns));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper()   {
-}
+constexpr ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper() {}
 //  Writing Method size for method: ::System::Runtime::Serialization::SpecialTypeDataContract._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SpecialTypeDataContract::*)(::System::Type*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::SpecialTypeDataContract::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::SpecialTypeDataContract::*)(
+    ::System::Type*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::SpecialTypeDataContract::_ctor)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x60200c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SpecialTypeDataContract*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SpecialTypeDataContract*>(),
+                            { ".ctor", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::SpecialTypeDataContract.get_IsBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::SpecialTypeDataContract::*)()>(&::System::Runtime::Serialization::SpecialTypeDataContract::get_IsBuiltInDataContract)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::SpecialTypeDataContract::*)()>(
+    &::System::Runtime::Serialization::SpecialTypeDataContract::get_IsBuiltInDataContract)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6020218;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SpecialTypeDataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SpecialTypeDataContract*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SpecialTypeDataContract*>(),
+                                                                                          { ::i2c::class_of<::System::Runtime::Serialization::SpecialTypeDataContract*>(), 4 }));
     return ___internal_method;
   }
 };
-constexpr ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*& System::Runtime::Serialization::SpecialTypeDataContract::__cordl_internal_get_helper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___helper;
+constexpr ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*& System::Runtime::Serialization::SpecialTypeDataContract::__cordl_internal_get_helper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___helper;
 }
-constexpr ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper* const& System::Runtime::Serialization::SpecialTypeDataContract::__cordl_internal_get_helper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___helper;
+constexpr ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper* const&
+System::Runtime::Serialization::SpecialTypeDataContract::__cordl_internal_get_helper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___helper;
 }
-constexpr void System::Runtime::Serialization::SpecialTypeDataContract::__cordl_internal_set_helper(::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___helper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+System::Runtime::Serialization::SpecialTypeDataContract::__cordl_internal_set_helper(::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___helper = value;
 }
-inline void System::Runtime::Serialization::SpecialTypeDataContract::_ctor(::System::Type*  type, ::System::Xml::XmlDictionaryString*  name, ::System::Xml::XmlDictionaryString*  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SpecialTypeDataContract*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, name, ns);
+inline void System::Runtime::Serialization::SpecialTypeDataContract::_ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SpecialTypeDataContract*>(),
+                          { ".ctor", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>(), ::i2c::type_of<::System::Xml::XmlDictionaryString*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type, name, ns);
 }
-inline bool System::Runtime::Serialization::SpecialTypeDataContract::get_IsBuiltInDataContract()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SpecialTypeDataContract*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Runtime::Serialization::SpecialTypeDataContract::get_IsBuiltInDataContract() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Runtime::Serialization::SpecialTypeDataContract*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Runtime::Serialization::SpecialTypeDataContract* System::Runtime::Serialization::SpecialTypeDataContract::New_ctor(::System::Type*  type, ::System::Xml::XmlDictionaryString*  name, ::System::Xml::XmlDictionaryString*  ns)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SpecialTypeDataContract*>(type, name, ns));
+inline ::System::Runtime::Serialization::SpecialTypeDataContract* System::Runtime::Serialization::SpecialTypeDataContract::New_ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name,
+                                                                                                                                    ::System::Xml::XmlDictionaryString* ns) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::SpecialTypeDataContract*>(type, name, ns));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Serialization::SpecialTypeDataContract::SpecialTypeDataContract()   {
-}
+constexpr ::System::Runtime::Serialization::SpecialTypeDataContract::SpecialTypeDataContract() {}

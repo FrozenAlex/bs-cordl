@@ -3,31 +3,24 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/zzzz__IntegerExtensions_def.hpp"
 //  Writing Method size for method: ::BGLib::DotnetExtension::IntegerExtensions.ToUInt
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::ByRef<uint32_t>, ::ByRef<bool>)>(&::BGLib::DotnetExtension::IntegerExtensions::ToUInt)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<uint32_t>, ::by_ref<bool>)>(&::BGLib::DotnetExtension::IntegerExtensions::ToUInt)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x3252f2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::IntegerExtensions*>::get(),
-                        "ToUInt",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::IntegerExtensions*>(),
+                                                             { "ToUInt", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::by_ref<bool>>() } })));
     return ___internal_method;
   }
 };
-inline void BGLib::DotnetExtension::IntegerExtensions::ToUInt(int32_t  number, ::ByRef<uint32_t>  uNumber, ::ByRef<bool>  isNegative)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::IntegerExtensions*>::get(),
-                        "ToUInt",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, number, uNumber, isNegative);
+inline void BGLib::DotnetExtension::IntegerExtensions::ToUInt(int32_t number, ::by_ref<uint32_t> uNumber, ::by_ref<bool> isNegative) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::IntegerExtensions*>(),
+                                                           { "ToUInt", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::by_ref<bool>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, number, uNumber, isNegative);
 }
 // Ctor Parameters []
-constexpr ::BGLib::DotnetExtension::IntegerExtensions::IntegerExtensions()   {
-}
+constexpr ::BGLib::DotnetExtension::IntegerExtensions::IntegerExtensions() {}

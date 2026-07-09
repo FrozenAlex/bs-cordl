@@ -3,34 +3,26 @@
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeContainerIsReadOnlyAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::*)()>(&::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::*)()>(
+    &::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6907294;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute* Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute*>());
+inline ::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute* Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute*>());
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::NativeContainerIsReadOnlyAttribute()   {
-}
+constexpr ::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::NativeContainerIsReadOnlyAttribute() {}

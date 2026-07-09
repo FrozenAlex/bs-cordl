@@ -7,110 +7,83 @@
 #include "GlobalNamespace/zzzz__IReadOnlyTextStyle_def.hpp"
 #include "GlobalNamespace/zzzz__TextStyle_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TextStyleSO.get_textStyle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadOnlyTextStyle* (::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::get_textStyle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IReadOnlyTextStyle* (::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::get_textStyle)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3232c24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextStyleSO*>::get(),
-                        "get_textStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextStyleSO*>(), { "get_textStyle", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::TextStyleSO.get_languageOverrides
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage,::GlobalNamespace::TextStyle*>* (::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::get_languageOverrides)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* (
+    ::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::get_languageOverrides)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3232c2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextStyleSO*>::get(),
-                        "get_languageOverrides",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextStyleSO*>(), { "get_languageOverrides", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::TextStyleSO._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3232c34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextStyleSO*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextStyleSO*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::TextStyle*& GlobalNamespace::TextStyleSO::__cordl_internal_get__textStyle()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____textStyle;
+constexpr ::GlobalNamespace::TextStyle*& GlobalNamespace::TextStyleSO::__cordl_internal_get__textStyle() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____textStyle;
 }
 constexpr ::GlobalNamespace::TextStyle* const& GlobalNamespace::TextStyleSO::__cordl_internal_get__textStyle() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____textStyle;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____textStyle;
 }
-constexpr void GlobalNamespace::TextStyleSO::__cordl_internal_set__textStyle(::GlobalNamespace::TextStyle*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textStyle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::TextStyleSO::__cordl_internal_set__textStyle(::GlobalNamespace::TextStyle* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____textStyle = value;
 }
-constexpr ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage,::GlobalNamespace::TextStyle*>*& GlobalNamespace::TextStyleSO::__cordl_internal_get__languageOverrides()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____languageOverrides;
+constexpr ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>*&
+GlobalNamespace::TextStyleSO::__cordl_internal_get__languageOverrides() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____languageOverrides;
 }
-constexpr ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage,::GlobalNamespace::TextStyle*>* const& GlobalNamespace::TextStyleSO::__cordl_internal_get__languageOverrides() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____languageOverrides;
+constexpr ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* const&
+GlobalNamespace::TextStyleSO::__cordl_internal_get__languageOverrides() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____languageOverrides;
 }
-constexpr void GlobalNamespace::TextStyleSO::__cordl_internal_set__languageOverrides(::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage,::GlobalNamespace::TextStyle*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____languageOverrides)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::TextStyleSO::__cordl_internal_set__languageOverrides(
+    ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____languageOverrides = value;
 }
-inline ::GlobalNamespace::IReadOnlyTextStyle* GlobalNamespace::TextStyleSO::get_textStyle()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextStyleSO*>::get(),
-                        "get_textStyle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadOnlyTextStyle*, false>(this, ___internal_method);
+inline ::GlobalNamespace::IReadOnlyTextStyle* GlobalNamespace::TextStyleSO::get_textStyle() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextStyleSO*>(), { "get_textStyle", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadOnlyTextStyle*>(this, ___internal_method);
 }
-inline ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage,::GlobalNamespace::TextStyle*>* GlobalNamespace::TextStyleSO::get_languageOverrides()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextStyleSO*>::get(),
-                        "get_languageOverrides",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage,::GlobalNamespace::TextStyle*>*, false>(this, ___internal_method);
+inline ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* GlobalNamespace::TextStyleSO::get_languageOverrides() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextStyleSO*>(), { "get_languageOverrides", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>*>(this, ___internal_method);
 }
-inline void GlobalNamespace::TextStyleSO::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextStyleSO*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::TextStyleSO::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextStyleSO*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::TextStyleSO* GlobalNamespace::TextStyleSO::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TextStyleSO*>());
+inline ::GlobalNamespace::TextStyleSO* GlobalNamespace::TextStyleSO::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::TextStyleSO*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::TextStyleSO::TextStyleSO()   {
-}
+constexpr ::GlobalNamespace::TextStyleSO::TextStyleSO() {}

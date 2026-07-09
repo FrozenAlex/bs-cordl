@@ -5,224 +5,161 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaFacet_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetType_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaFacet.get_Value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaFacet::*)()>(&::System::Xml::Schema::XmlSchemaFacet::get_Value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaFacet::*)()>(&::System::Xml::Schema::XmlSchemaFacet::get_Value)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60f0c98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        "get_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { "get_Value", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaFacet.set_Value
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaFacet::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaFacet::set_Value)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaFacet::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaFacet::set_Value)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60f0ca0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        "set_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { "set_Value", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaFacet.get_IsFixed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaFacet::*)()>(&::System::Xml::Schema::XmlSchemaFacet::get_IsFixed)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaFacet::*)()>(&::System::Xml::Schema::XmlSchemaFacet::get_IsFixed)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60f0ca8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { ::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), 14 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaFacet.set_IsFixed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaFacet::*)(bool)>(&::System::Xml::Schema::XmlSchemaFacet::set_IsFixed)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaFacet::*)(bool)>(&::System::Xml::Schema::XmlSchemaFacet::set_IsFixed)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x60f0cb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { ::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), 15 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaFacet.get_FacetType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetType (::System::Xml::Schema::XmlSchemaFacet::*)()>(&::System::Xml::Schema::XmlSchemaFacet::get_FacetType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::FacetType (::System::Xml::Schema::XmlSchemaFacet::*)()>(&::System::Xml::Schema::XmlSchemaFacet::get_FacetType)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60f0d74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        "get_FacetType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { "get_FacetType", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaFacet.set_FacetType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaFacet::*)(::System::Xml::Schema::FacetType)>(&::System::Xml::Schema::XmlSchemaFacet::set_FacetType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaFacet::*)(::System::Xml::Schema::FacetType)>(&::System::Xml::Schema::XmlSchemaFacet::set_FacetType)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x60f0d7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        "set_FacetType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::FacetType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { "set_FacetType", {}, { ::i2c::type_of<::System::Xml::Schema::FacetType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaFacet._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaFacet::*)()>(&::System::Xml::Schema::XmlSchemaFacet::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaFacet::*)()>(&::System::Xml::Schema::XmlSchemaFacet::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x60f0d84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Xml::Schema::XmlSchemaFacet::__cordl_internal_get_value()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___value;
+constexpr ::StringW& System::Xml::Schema::XmlSchemaFacet::__cordl_internal_get_value() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___value;
 }
 constexpr ::StringW const& System::Xml::Schema::XmlSchemaFacet::__cordl_internal_get_value() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___value;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___value;
 }
-constexpr void System::Xml::Schema::XmlSchemaFacet::__cordl_internal_set_value(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::Schema::XmlSchemaFacet::__cordl_internal_set_value(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___value = value;
 }
-constexpr bool& System::Xml::Schema::XmlSchemaFacet::__cordl_internal_get_isFixed()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isFixed;
+constexpr bool& System::Xml::Schema::XmlSchemaFacet::__cordl_internal_get_isFixed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isFixed;
 }
 constexpr bool const& System::Xml::Schema::XmlSchemaFacet::__cordl_internal_get_isFixed() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isFixed;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isFixed;
 }
-constexpr void System::Xml::Schema::XmlSchemaFacet::__cordl_internal_set_isFixed(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___isFixed = value;
+constexpr void System::Xml::Schema::XmlSchemaFacet::__cordl_internal_set_isFixed(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isFixed = value;
 }
-constexpr ::System::Xml::Schema::FacetType& System::Xml::Schema::XmlSchemaFacet::__cordl_internal_get_facetType()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___facetType;
+constexpr ::System::Xml::Schema::FacetType& System::Xml::Schema::XmlSchemaFacet::__cordl_internal_get_facetType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___facetType;
 }
 constexpr ::System::Xml::Schema::FacetType const& System::Xml::Schema::XmlSchemaFacet::__cordl_internal_get_facetType() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___facetType;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___facetType;
 }
-constexpr void System::Xml::Schema::XmlSchemaFacet::__cordl_internal_set_facetType(::System::Xml::Schema::FacetType  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___facetType = value;
+constexpr void System::Xml::Schema::XmlSchemaFacet::__cordl_internal_set_facetType(::System::Xml::Schema::FacetType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___facetType = value;
 }
-inline ::StringW System::Xml::Schema::XmlSchemaFacet::get_Value()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        "get_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Xml::Schema::XmlSchemaFacet::get_Value() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { "get_Value", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void System::Xml::Schema::XmlSchemaFacet::set_Value(::StringW  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        "set_Value",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Xml::Schema::XmlSchemaFacet::set_Value(::StringW value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { "set_Value", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline bool System::Xml::Schema::XmlSchemaFacet::get_IsFixed()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Xml::Schema::XmlSchemaFacet::get_IsFixed() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), 14 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void System::Xml::Schema::XmlSchemaFacet::set_IsFixed(bool  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Xml::Schema::XmlSchemaFacet::set_IsFixed(bool value) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), 15 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::System::Xml::Schema::FacetType System::Xml::Schema::XmlSchemaFacet::get_FacetType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        "get_FacetType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::FacetType, false>(this, ___internal_method);
+inline ::System::Xml::Schema::FacetType System::Xml::Schema::XmlSchemaFacet::get_FacetType() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { "get_FacetType", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::FacetType>(this, ___internal_method);
 }
-inline void System::Xml::Schema::XmlSchemaFacet::set_FacetType(::System::Xml::Schema::FacetType  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        "set_FacetType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::FacetType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Xml::Schema::XmlSchemaFacet::set_FacetType(::System::Xml::Schema::FacetType value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { "set_FacetType", {}, { ::i2c::type_of<::System::Xml::Schema::FacetType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void System::Xml::Schema::XmlSchemaFacet::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaFacet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::Schema::XmlSchemaFacet::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaFacet*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::XmlSchemaFacet* System::Xml::Schema::XmlSchemaFacet::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaFacet*>());
+inline ::System::Xml::Schema::XmlSchemaFacet* System::Xml::Schema::XmlSchemaFacet::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::XmlSchemaFacet*>());
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::XmlSchemaFacet::XmlSchemaFacet()   {
-}
+constexpr ::System::Xml::Schema::XmlSchemaFacet::XmlSchemaFacet() {}

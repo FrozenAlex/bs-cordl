@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/ECPointFormat.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -11,50 +11,49 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class ECPointFormat;
 }
 // Write type traits
-MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ECPointFormat);
+MARK_REF_T(::Org::BouncyCastle::Crypto::Tls::ECPointFormat*);
+DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Crypto::Tls::ECPointFormat*, "Org.BouncyCastle.Crypto.Tls", "ECPointFormat");
 // Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.ECPointFormat
 class CORDL_TYPE ECPointFormat : public ::System::Object {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::Crypto::Tls::ECPointFormat* New_ctor() ;
+  // Declarations
+  static inline ::Org::BouncyCastle::Crypto::Tls::ECPointFormat* New_ctor();
 
-/// @brief Method .ctor, addr 0x33acb38, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x33acb38, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ECPointFormat() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ECPointFormat();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ECPointFormat", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ECPointFormat(ECPointFormat&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ECPointFormat", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ECPointFormat(ECPointFormat && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ECPointFormat", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ECPointFormat(ECPointFormat const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ECPointFormat", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ECPointFormat(ECPointFormat const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1240 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1240};
+  /// @brief Field ansiX962_compressed_char2 offset 0xffffffff size 0x1
+  static constexpr uint8_t ansiX962_compressed_char2{ static_cast<uint8_t>(0x2u) };
 
-/// @brief Field ansiX962_compressed_char2 offset 0xffffffff size 0x1
-static constexpr uint8_t  ansiX962_compressed_char2{static_cast<uint8_t>(0x2u)};
+  /// @brief Field ansiX962_compressed_prime offset 0xffffffff size 0x1
+  static constexpr uint8_t ansiX962_compressed_prime{ static_cast<uint8_t>(0x1u) };
 
-/// @brief Field ansiX962_compressed_prime offset 0xffffffff size 0x1
-static constexpr uint8_t  ansiX962_compressed_prime{static_cast<uint8_t>(0x1u)};
+  /// @brief Field uncompressed offset 0xffffffff size 0x1
+  static constexpr uint8_t uncompressed{ static_cast<uint8_t>(0x0u) };
 
-/// @brief Field uncompressed offset 0xffffffff size 0x1
-static constexpr uint8_t  uncompressed{static_cast<uint8_t>(0x0u)};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::ECPointFormat, 0x10>, "Size mismatch!");
+static_assert(sizeof(::Org::BouncyCastle::Crypto::Tls::ECPointFormat) == 0x10, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Tls
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::ECPointFormat);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::ECPointFormat*, "Org.BouncyCastle.Crypto.Tls", "ECPointFormat");
+} // namespace Org::BouncyCastle::Crypto::Tls

@@ -14,571 +14,435 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: ::System::Net::ServicePointManager_SPKey._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointManager_SPKey::*)(::System::Uri*, ::System::Uri*, bool)>(&::System::Net::ServicePointManager_SPKey::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointManager_SPKey::*)(::System::Uri*, ::System::Uri*, bool)>(&::System::Net::ServicePointManager_SPKey::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x61fd8c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::System::Uri*>(), ::i2c::type_of<::System::Uri*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager_SPKey.get_UsesProxy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePointManager_SPKey::*)()>(&::System::Net::ServicePointManager_SPKey::get_UsesProxy)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ServicePointManager_SPKey::*)()>(&::System::Net::ServicePointManager_SPKey::get_UsesProxy)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x61fdd40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                        "get_UsesProxy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(), { "get_UsesProxy", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager_SPKey.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::ServicePointManager_SPKey::*)()>(&::System::Net::ServicePointManager_SPKey::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::ServicePointManager_SPKey::*)()>(&::System::Net::ServicePointManager_SPKey::GetHashCode)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x61fdda0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(), { ::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(), 2 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager_SPKey.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePointManager_SPKey::*)(::System::Object*)>(&::System::Net::ServicePointManager_SPKey::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ServicePointManager_SPKey::*)(::System::Object*)>(&::System::Net::ServicePointManager_SPKey::Equals)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x61fde60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(), { ::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(), 0 }));
     return ___internal_method;
   }
 };
-constexpr ::System::Uri*& System::Net::ServicePointManager_SPKey::__cordl_internal_get_uri()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___uri;
+constexpr ::System::Uri*& System::Net::ServicePointManager_SPKey::__cordl_internal_get_uri() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___uri;
 }
 constexpr ::System::Uri* const& System::Net::ServicePointManager_SPKey::__cordl_internal_get_uri() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___uri;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___uri;
 }
-constexpr void System::Net::ServicePointManager_SPKey::__cordl_internal_set_uri(::System::Uri*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::ServicePointManager_SPKey::__cordl_internal_set_uri(::System::Uri* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___uri = value;
 }
-constexpr ::System::Uri*& System::Net::ServicePointManager_SPKey::__cordl_internal_get_proxy()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___proxy;
+constexpr ::System::Uri*& System::Net::ServicePointManager_SPKey::__cordl_internal_get_proxy() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___proxy;
 }
 constexpr ::System::Uri* const& System::Net::ServicePointManager_SPKey::__cordl_internal_get_proxy() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___proxy;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___proxy;
 }
-constexpr void System::Net::ServicePointManager_SPKey::__cordl_internal_set_proxy(::System::Uri*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___proxy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::ServicePointManager_SPKey::__cordl_internal_set_proxy(::System::Uri* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___proxy = value;
 }
-constexpr bool& System::Net::ServicePointManager_SPKey::__cordl_internal_get_use_connect()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___use_connect;
+constexpr bool& System::Net::ServicePointManager_SPKey::__cordl_internal_get_use_connect() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___use_connect;
 }
 constexpr bool const& System::Net::ServicePointManager_SPKey::__cordl_internal_get_use_connect() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___use_connect;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___use_connect;
 }
-constexpr void System::Net::ServicePointManager_SPKey::__cordl_internal_set_use_connect(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___use_connect = value;
+constexpr void System::Net::ServicePointManager_SPKey::__cordl_internal_set_use_connect(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___use_connect = value;
 }
-inline void System::Net::ServicePointManager_SPKey::_ctor(::System::Uri*  uri, ::System::Uri*  proxy, bool  use_connect)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uri, proxy, use_connect);
+inline void System::Net::ServicePointManager_SPKey::_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::System::Uri*>(), ::i2c::type_of<::System::Uri*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uri, proxy, use_connect);
 }
-inline bool System::Net::ServicePointManager_SPKey::get_UsesProxy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                        "get_UsesProxy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Net::ServicePointManager_SPKey::get_UsesProxy() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(), { "get_UsesProxy", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline int32_t System::Net::ServicePointManager_SPKey::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Net::ServicePointManager_SPKey::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool System::Net::ServicePointManager_SPKey::Equals(::System::Object*  obj)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager_SPKey*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool System::Net::ServicePointManager_SPKey::Equals(::System::Object* obj) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, obj);
 }
-inline ::System::Net::ServicePointManager_SPKey* System::Net::ServicePointManager_SPKey::New_ctor(::System::Uri*  uri, ::System::Uri*  proxy, bool  use_connect)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::ServicePointManager_SPKey*>(uri, proxy, use_connect));
+inline ::System::Net::ServicePointManager_SPKey* System::Net::ServicePointManager_SPKey::New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::ServicePointManager_SPKey*>(uri, proxy, use_connect));
 }
 // Ctor Parameters []
-constexpr ::System::Net::ServicePointManager_SPKey::ServicePointManager_SPKey()   {
-}
+constexpr ::System::Net::ServicePointManager_SPKey::ServicePointManager_SPKey() {}
 //  Writing Method size for method: ::System::Net::ServicePointManager.GetLegacyCertificatePolicy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ICertificatePolicy* (*)()>(&::System::Net::ServicePointManager::GetLegacyCertificatePolicy)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ICertificatePolicy* (*)()>(&::System::Net::ServicePointManager::GetLegacyCertificatePolicy)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x61fd44c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "GetLegacyCertificatePolicy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "GetLegacyCertificatePolicy", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.get_CheckCertificateRevocationList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Net::ServicePointManager::get_CheckCertificateRevocationList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Net::ServicePointManager::get_CheckCertificateRevocationList)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x61fd4a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_CheckCertificateRevocationList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_CheckCertificateRevocationList", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.set_DefaultConnectionLimit
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::System::Net::ServicePointManager::set_DefaultConnectionLimit)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::Net::ServicePointManager::set_DefaultConnectionLimit)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x61fd504;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "set_DefaultConnectionLimit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "set_DefaultConnectionLimit", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.get_DnsRefreshTimeout
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Net::ServicePointManager::get_DnsRefreshTimeout)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Net::ServicePointManager::get_DnsRefreshTimeout)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x61fd5b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_DnsRefreshTimeout",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_DnsRefreshTimeout", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.get_SecurityProtocol
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::SecurityProtocolType (*)()>(&::System::Net::ServicePointManager::get_SecurityProtocol)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::SecurityProtocolType (*)()>(&::System::Net::ServicePointManager::get_SecurityProtocol)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x61fd610;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_SecurityProtocol",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_SecurityProtocol", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.get_ServerCertValidationCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServerCertValidationCallback* (*)()>(&::System::Net::ServicePointManager::get_ServerCertValidationCallback)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServerCertValidationCallback* (*)()>(&::System::Net::ServicePointManager::get_ServerCertValidationCallback)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x61fd66c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_ServerCertValidationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_ServerCertValidationCallback", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.get_ServerCertificateValidationCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::RemoteCertificateValidationCallback* (*)()>(&::System::Net::ServicePointManager::get_ServerCertificateValidationCallback)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Security::RemoteCertificateValidationCallback* (*)()>(
+    &::System::Net::ServicePointManager::get_ServerCertificateValidationCallback)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x61fd6c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_ServerCertificateValidationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_ServerCertificateValidationCallback", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.set_ServerCertificateValidationCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(&::System::Net::ServicePointManager::set_ServerCertificateValidationCallback)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(
+    &::System::Net::ServicePointManager::set_ServerCertificateValidationCallback)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x61fd754;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "set_ServerCertificateValidationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Security::RemoteCertificateValidationCallback*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(),
+                                                             { "set_ServerCertificateValidationCallback", {}, { ::i2c::type_of<::System::Net::Security::RemoteCertificateValidationCallback*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.set_Expect100Continue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::System::Net::ServicePointManager::set_Expect100Continue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::System::Net::ServicePointManager::set_Expect100Continue)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x61fd800;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "set_Expect100Continue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "set_Expect100Continue", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.FindServicePoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePoint* (*)(::System::Uri*)>(&::System::Net::ServicePointManager::FindServicePoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServicePoint* (*)(::System::Uri*)>(&::System::Net::ServicePointManager::FindServicePoint)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x61fd864;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "FindServicePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "FindServicePoint", {}, { ::i2c::type_of<::System::Uri*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.FindServicePoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePoint* (*)(::System::Uri*, ::System::Net::IWebProxy*)>(&::System::Net::ServicePointManager::FindServicePoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServicePoint* (*)(::System::Uri*, ::System::Net::IWebProxy*)>(&::System::Net::ServicePointManager::FindServicePoint)> {
   constexpr static std::size_t size = 0x678;
   constexpr static std::size_t addrs = 0x61f1220;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "FindServicePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebProxy*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "FindServicePoint", {}, { ::i2c::type_of<::System::Uri*>(), ::i2c::type_of<::System::Net::IWebProxy*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.CloseConnectionGroup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Net::ServicePointManager::CloseConnectionGroup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Net::ServicePointManager::CloseConnectionGroup)> {
   constexpr static std::size_t size = 0x3d8;
   constexpr static std::size_t addrs = 0x61fd8cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "CloseConnectionGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "CloseConnectionGroup", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::ServicePointManager.RemoveServicePoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Net::ServicePoint*)>(&::System::Net::ServicePointManager::RemoveServicePoint)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Net::ServicePoint*)>(&::System::Net::ServicePointManager::RemoveServicePoint)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x61fdca4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "RemoveServicePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ServicePoint*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "RemoveServicePoint", {}, { ::i2c::type_of<::System::Net::ServicePoint*>() } })));
     return ___internal_method;
   }
 };
-inline void System::Net::ServicePointManager::setStaticF_servicePoints(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*,::System::Net::ServicePoint*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*,::System::Net::ServicePoint*>*, "servicePoints", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*,::System::Net::ServicePoint*>*>(value));
+inline void
+System::Net::ServicePointManager::setStaticF_servicePoints(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>*, "servicePoints",
+                                    ::System::Net::ServicePointManager*>(
+      std::forward<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>*>(value));
 }
-inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*,::System::Net::ServicePoint*>* System::Net::ServicePointManager::getStaticF_servicePoints()  {
-return ::cordl_internals::getStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*,::System::Net::ServicePoint*>*, "servicePoints", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>*
+System::Net::ServicePointManager::getStaticF_servicePoints() {
+  return ::cordl_internals::getStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>*, "servicePoints",
+                                           ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_policy(::System::Net::ICertificatePolicy*  value)  {
-::cordl_internals::setStaticField<::System::Net::ICertificatePolicy*, "policy", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<::System::Net::ICertificatePolicy*>(value));
+inline void System::Net::ServicePointManager::setStaticF_policy(::System::Net::ICertificatePolicy* value) {
+  ::cordl_internals::setStaticField<::System::Net::ICertificatePolicy*, "policy", ::System::Net::ServicePointManager*>(std::forward<::System::Net::ICertificatePolicy*>(value));
 }
-inline ::System::Net::ICertificatePolicy* System::Net::ServicePointManager::getStaticF_policy()  {
-return ::cordl_internals::getStaticField<::System::Net::ICertificatePolicy*, "policy", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline ::System::Net::ICertificatePolicy* System::Net::ServicePointManager::getStaticF_policy() {
+  return ::cordl_internals::getStaticField<::System::Net::ICertificatePolicy*, "policy", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_defaultConnectionLimit(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "defaultConnectionLimit", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<int32_t>(value));
+inline void System::Net::ServicePointManager::setStaticF_defaultConnectionLimit(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "defaultConnectionLimit", ::System::Net::ServicePointManager*>(std::forward<int32_t>(value));
 }
-inline int32_t System::Net::ServicePointManager::getStaticF_defaultConnectionLimit()  {
-return ::cordl_internals::getStaticField<int32_t, "defaultConnectionLimit", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline int32_t System::Net::ServicePointManager::getStaticF_defaultConnectionLimit() {
+  return ::cordl_internals::getStaticField<int32_t, "defaultConnectionLimit", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_maxServicePointIdleTime(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "maxServicePointIdleTime", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<int32_t>(value));
+inline void System::Net::ServicePointManager::setStaticF_maxServicePointIdleTime(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "maxServicePointIdleTime", ::System::Net::ServicePointManager*>(std::forward<int32_t>(value));
 }
-inline int32_t System::Net::ServicePointManager::getStaticF_maxServicePointIdleTime()  {
-return ::cordl_internals::getStaticField<int32_t, "maxServicePointIdleTime", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline int32_t System::Net::ServicePointManager::getStaticF_maxServicePointIdleTime() {
+  return ::cordl_internals::getStaticField<int32_t, "maxServicePointIdleTime", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_maxServicePoints(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "maxServicePoints", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<int32_t>(value));
+inline void System::Net::ServicePointManager::setStaticF_maxServicePoints(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "maxServicePoints", ::System::Net::ServicePointManager*>(std::forward<int32_t>(value));
 }
-inline int32_t System::Net::ServicePointManager::getStaticF_maxServicePoints()  {
-return ::cordl_internals::getStaticField<int32_t, "maxServicePoints", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline int32_t System::Net::ServicePointManager::getStaticF_maxServicePoints() {
+  return ::cordl_internals::getStaticField<int32_t, "maxServicePoints", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_dnsRefreshTimeout(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "dnsRefreshTimeout", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<int32_t>(value));
+inline void System::Net::ServicePointManager::setStaticF_dnsRefreshTimeout(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "dnsRefreshTimeout", ::System::Net::ServicePointManager*>(std::forward<int32_t>(value));
 }
-inline int32_t System::Net::ServicePointManager::getStaticF_dnsRefreshTimeout()  {
-return ::cordl_internals::getStaticField<int32_t, "dnsRefreshTimeout", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline int32_t System::Net::ServicePointManager::getStaticF_dnsRefreshTimeout() {
+  return ::cordl_internals::getStaticField<int32_t, "dnsRefreshTimeout", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF__checkCRL(bool  value)  {
-::cordl_internals::setStaticField<bool, "_checkCRL", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<bool>(value));
+inline void System::Net::ServicePointManager::setStaticF__checkCRL(bool value) {
+  ::cordl_internals::setStaticField<bool, "_checkCRL", ::System::Net::ServicePointManager*>(std::forward<bool>(value));
 }
-inline bool System::Net::ServicePointManager::getStaticF__checkCRL()  {
-return ::cordl_internals::getStaticField<bool, "_checkCRL", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline bool System::Net::ServicePointManager::getStaticF__checkCRL() {
+  return ::cordl_internals::getStaticField<bool, "_checkCRL", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF__securityProtocol(::System::Net::SecurityProtocolType  value)  {
-::cordl_internals::setStaticField<::System::Net::SecurityProtocolType, "_securityProtocol", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<::System::Net::SecurityProtocolType>(value));
+inline void System::Net::ServicePointManager::setStaticF__securityProtocol(::System::Net::SecurityProtocolType value) {
+  ::cordl_internals::setStaticField<::System::Net::SecurityProtocolType, "_securityProtocol", ::System::Net::ServicePointManager*>(std::forward<::System::Net::SecurityProtocolType>(value));
 }
-inline ::System::Net::SecurityProtocolType System::Net::ServicePointManager::getStaticF__securityProtocol()  {
-return ::cordl_internals::getStaticField<::System::Net::SecurityProtocolType, "_securityProtocol", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline ::System::Net::SecurityProtocolType System::Net::ServicePointManager::getStaticF__securityProtocol() {
+  return ::cordl_internals::getStaticField<::System::Net::SecurityProtocolType, "_securityProtocol", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_expectContinue(bool  value)  {
-::cordl_internals::setStaticField<bool, "expectContinue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<bool>(value));
+inline void System::Net::ServicePointManager::setStaticF_expectContinue(bool value) {
+  ::cordl_internals::setStaticField<bool, "expectContinue", ::System::Net::ServicePointManager*>(std::forward<bool>(value));
 }
-inline bool System::Net::ServicePointManager::getStaticF_expectContinue()  {
-return ::cordl_internals::getStaticField<bool, "expectContinue", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline bool System::Net::ServicePointManager::getStaticF_expectContinue() {
+  return ::cordl_internals::getStaticField<bool, "expectContinue", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_useNagle(bool  value)  {
-::cordl_internals::setStaticField<bool, "useNagle", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<bool>(value));
+inline void System::Net::ServicePointManager::setStaticF_useNagle(bool value) {
+  ::cordl_internals::setStaticField<bool, "useNagle", ::System::Net::ServicePointManager*>(std::forward<bool>(value));
 }
-inline bool System::Net::ServicePointManager::getStaticF_useNagle()  {
-return ::cordl_internals::getStaticField<bool, "useNagle", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline bool System::Net::ServicePointManager::getStaticF_useNagle() {
+  return ::cordl_internals::getStaticField<bool, "useNagle", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_server_cert_cb(::System::Net::ServerCertValidationCallback*  value)  {
-::cordl_internals::setStaticField<::System::Net::ServerCertValidationCallback*, "server_cert_cb", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<::System::Net::ServerCertValidationCallback*>(value));
+inline void System::Net::ServicePointManager::setStaticF_server_cert_cb(::System::Net::ServerCertValidationCallback* value) {
+  ::cordl_internals::setStaticField<::System::Net::ServerCertValidationCallback*, "server_cert_cb", ::System::Net::ServicePointManager*>(
+      std::forward<::System::Net::ServerCertValidationCallback*>(value));
 }
-inline ::System::Net::ServerCertValidationCallback* System::Net::ServicePointManager::getStaticF_server_cert_cb()  {
-return ::cordl_internals::getStaticField<::System::Net::ServerCertValidationCallback*, "server_cert_cb", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline ::System::Net::ServerCertValidationCallback* System::Net::ServicePointManager::getStaticF_server_cert_cb() {
+  return ::cordl_internals::getStaticField<::System::Net::ServerCertValidationCallback*, "server_cert_cb", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_tcp_keepalive(bool  value)  {
-::cordl_internals::setStaticField<bool, "tcp_keepalive", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<bool>(value));
+inline void System::Net::ServicePointManager::setStaticF_tcp_keepalive(bool value) {
+  ::cordl_internals::setStaticField<bool, "tcp_keepalive", ::System::Net::ServicePointManager*>(std::forward<bool>(value));
 }
-inline bool System::Net::ServicePointManager::getStaticF_tcp_keepalive()  {
-return ::cordl_internals::getStaticField<bool, "tcp_keepalive", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline bool System::Net::ServicePointManager::getStaticF_tcp_keepalive() {
+  return ::cordl_internals::getStaticField<bool, "tcp_keepalive", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_tcp_keepalive_time(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "tcp_keepalive_time", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<int32_t>(value));
+inline void System::Net::ServicePointManager::setStaticF_tcp_keepalive_time(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "tcp_keepalive_time", ::System::Net::ServicePointManager*>(std::forward<int32_t>(value));
 }
-inline int32_t System::Net::ServicePointManager::getStaticF_tcp_keepalive_time()  {
-return ::cordl_internals::getStaticField<int32_t, "tcp_keepalive_time", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline int32_t System::Net::ServicePointManager::getStaticF_tcp_keepalive_time() {
+  return ::cordl_internals::getStaticField<int32_t, "tcp_keepalive_time", ::System::Net::ServicePointManager*>();
 }
-inline void System::Net::ServicePointManager::setStaticF_tcp_keepalive_interval(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "tcp_keepalive_interval", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>(std::forward<int32_t>(value));
+inline void System::Net::ServicePointManager::setStaticF_tcp_keepalive_interval(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "tcp_keepalive_interval", ::System::Net::ServicePointManager*>(std::forward<int32_t>(value));
 }
-inline int32_t System::Net::ServicePointManager::getStaticF_tcp_keepalive_interval()  {
-return ::cordl_internals::getStaticField<int32_t, "tcp_keepalive_interval", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get>();
+inline int32_t System::Net::ServicePointManager::getStaticF_tcp_keepalive_interval() {
+  return ::cordl_internals::getStaticField<int32_t, "tcp_keepalive_interval", ::System::Net::ServicePointManager*>();
 }
-inline ::System::Net::ICertificatePolicy* System::Net::ServicePointManager::GetLegacyCertificatePolicy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "GetLegacyCertificatePolicy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::ICertificatePolicy*, false>(nullptr, ___internal_method);
+inline ::System::Net::ICertificatePolicy* System::Net::ServicePointManager::GetLegacyCertificatePolicy() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "GetLegacyCertificatePolicy", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::ICertificatePolicy*>(nullptr, ___internal_method);
 }
-inline bool System::Net::ServicePointManager::get_CheckCertificateRevocationList()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_CheckCertificateRevocationList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool System::Net::ServicePointManager::get_CheckCertificateRevocationList() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_CheckCertificateRevocationList", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-inline void System::Net::ServicePointManager::set_DefaultConnectionLimit(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "set_DefaultConnectionLimit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void System::Net::ServicePointManager::set_DefaultConnectionLimit(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "set_DefaultConnectionLimit", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline int32_t System::Net::ServicePointManager::get_DnsRefreshTimeout()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_DnsRefreshTimeout",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t System::Net::ServicePointManager::get_DnsRefreshTimeout() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_DnsRefreshTimeout", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
-inline ::System::Net::SecurityProtocolType System::Net::ServicePointManager::get_SecurityProtocol()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_SecurityProtocol",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::SecurityProtocolType, false>(nullptr, ___internal_method);
+inline ::System::Net::SecurityProtocolType System::Net::ServicePointManager::get_SecurityProtocol() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_SecurityProtocol", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::SecurityProtocolType>(nullptr, ___internal_method);
 }
-inline ::System::Net::ServerCertValidationCallback* System::Net::ServicePointManager::get_ServerCertValidationCallback()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_ServerCertValidationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::ServerCertValidationCallback*, false>(nullptr, ___internal_method);
+inline ::System::Net::ServerCertValidationCallback* System::Net::ServicePointManager::get_ServerCertValidationCallback() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_ServerCertValidationCallback", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::ServerCertValidationCallback*>(nullptr, ___internal_method);
 }
-inline ::System::Net::Security::RemoteCertificateValidationCallback* System::Net::ServicePointManager::get_ServerCertificateValidationCallback()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "get_ServerCertificateValidationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::Security::RemoteCertificateValidationCallback*, false>(nullptr, ___internal_method);
+inline ::System::Net::Security::RemoteCertificateValidationCallback* System::Net::ServicePointManager::get_ServerCertificateValidationCallback() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_ServerCertificateValidationCallback", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::Security::RemoteCertificateValidationCallback*>(nullptr, ___internal_method);
 }
-inline void System::Net::ServicePointManager::set_ServerCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "set_ServerCertificateValidationCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Security::RemoteCertificateValidationCallback*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void System::Net::ServicePointManager::set_ServerCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(),
+                                                           { "set_ServerCertificateValidationCallback", {}, { ::i2c::type_of<::System::Net::Security::RemoteCertificateValidationCallback*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline void System::Net::ServicePointManager::set_Expect100Continue(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "set_Expect100Continue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void System::Net::ServicePointManager::set_Expect100Continue(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "set_Expect100Continue", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline ::System::Net::ServicePoint* System::Net::ServicePointManager::FindServicePoint(::System::Uri*  address)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "FindServicePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::ServicePoint*, false>(nullptr, ___internal_method, address);
+inline ::System::Net::ServicePoint* System::Net::ServicePointManager::FindServicePoint(::System::Uri* address) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "FindServicePoint", {}, { ::i2c::type_of<::System::Uri*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::ServicePoint*>(nullptr, ___internal_method, address);
 }
-inline ::System::Net::ServicePoint* System::Net::ServicePointManager::FindServicePoint(::System::Uri*  address, ::System::Net::IWebProxy*  proxy)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "FindServicePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebProxy*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::ServicePoint*, false>(nullptr, ___internal_method, address, proxy);
+inline ::System::Net::ServicePoint* System::Net::ServicePointManager::FindServicePoint(::System::Uri* address, ::System::Net::IWebProxy* proxy) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "FindServicePoint", {}, { ::i2c::type_of<::System::Uri*>(), ::i2c::type_of<::System::Net::IWebProxy*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::ServicePoint*>(nullptr, ___internal_method, address, proxy);
 }
-inline void System::Net::ServicePointManager::CloseConnectionGroup(::StringW  connectionGroupName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "CloseConnectionGroup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, connectionGroupName);
+inline void System::Net::ServicePointManager::CloseConnectionGroup(::StringW connectionGroupName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "CloseConnectionGroup", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, connectionGroupName);
 }
-inline void System::Net::ServicePointManager::RemoveServicePoint(::System::Net::ServicePoint*  sp)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointManager*>::get(),
-                        "RemoveServicePoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ServicePoint*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sp);
+inline void System::Net::ServicePointManager::RemoveServicePoint(::System::Net::ServicePoint* sp) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "RemoveServicePoint", {}, { ::i2c::type_of<::System::Net::ServicePoint*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sp);
 }
 // Ctor Parameters []
-constexpr ::System::Net::ServicePointManager::ServicePointManager()   {
-}
+constexpr ::System::Net::ServicePointManager::ServicePointManager() {}

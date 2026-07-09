@@ -9,226 +9,194 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions.GetInstance
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::GetInstance)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* (*)(::System::Object*)>(
+    &::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::GetInstance)> {
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x3392868;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
+    &::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::_ctor)> {
   constexpr static std::size_t size = 0x6d0;
   constexpr static std::size_t addrs = 0x33929ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*, ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*,::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>*>)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)(
+    ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*, ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>)>(
+    &::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::_ctor)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x3393138;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*,::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(),
+                                                { ".ctor",
+                                                  {},
+                                                  { ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*>(),
+                                                    ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions.get_AdmissionAuthority
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::get_AdmissionAuthority)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)()>(
+    &::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::get_AdmissionAuthority)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x33931b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(),
+                                                                                          { ::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), 6 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions.get_NamingAuthority
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::get_NamingAuthority)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)()>(
+    &::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::get_NamingAuthority)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x33931bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(),
+                                                                                          { ::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), 7 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions.GetProfessionInfos
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*,::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>*> (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::GetProfessionInfos)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*> (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)()>(
+    &::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::GetProfessionInfos)> {
   constexpr static std::size_t size = 0x3a0;
   constexpr static std::size_t addrs = 0x33931c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                        "GetProfessionInfos",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), { "GetProfessionInfos", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions.ToAsn1Object
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::ToAsn1Object)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::*)()>(
+    &::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::ToAsn1Object)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x33936e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(),
+                                                                                          { ::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), 5 }));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_get_admissionAuthority()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___admissionAuthority;
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_get_admissionAuthority() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___admissionAuthority;
 }
 constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_get_admissionAuthority() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___admissionAuthority;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___admissionAuthority;
 }
-constexpr void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_set_admissionAuthority(::Org::BouncyCastle::Asn1::X509::GeneralName*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___admissionAuthority)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_set_admissionAuthority(::Org::BouncyCastle::Asn1::X509::GeneralName* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___admissionAuthority = value;
 }
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*& Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_get_namingAuthority()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___namingAuthority;
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*& Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_get_namingAuthority() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___namingAuthority;
 }
 constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* const& Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_get_namingAuthority() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___namingAuthority;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___namingAuthority;
 }
-constexpr void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_set_namingAuthority(::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___namingAuthority)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_set_namingAuthority(::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___namingAuthority = value;
 }
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_get_professionInfos()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___professionInfos;
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_get_professionInfos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___professionInfos;
 }
 constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_get_professionInfos() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___professionInfos;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___professionInfos;
 }
-constexpr void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_set_professionInfos(::Org::BouncyCastle::Asn1::Asn1Sequence*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___professionInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::__cordl_internal_set_professionInfos(::Org::BouncyCastle::Asn1::Asn1Sequence* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___professionInfos = value;
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::GetInstance(::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                        "GetInstance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*, false>(nullptr, ___internal_method, obj);
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::GetInstance(::System::Object* obj) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(nullptr, ___internal_method, obj);
 }
-inline void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
+inline void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, seq);
 }
-inline void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName*  admissionAuthority, ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*  namingAuthority, ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*,::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>*>  professionInfos)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*,::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, admissionAuthority, namingAuthority, professionInfos);
+inline void Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority,
+                                                                      ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* namingAuthority,
+                                                                      ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*> professionInfos) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(),
+                                              { ".ctor",
+                                                {},
+                                                { ::i2c::type_of<::Org::BouncyCastle::Asn1::X509::GeneralName*>(), ::i2c::type_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*>(),
+                                                  ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, admissionAuthority, namingAuthority, professionInfos);
 }
-inline ::Org::BouncyCastle::Asn1::X509::GeneralName* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::get_AdmissionAuthority()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::GeneralName*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::X509::GeneralName* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::get_AdmissionAuthority() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::GeneralName*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::get_NamingAuthority()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::get_NamingAuthority() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*>(this, ___internal_method);
 }
-inline ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*,::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>*> Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::GetProfessionInfos()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                        "GetProfessionInfos",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*,::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*> Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::GetProfessionInfos() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), { "GetProfessionInfos", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::ToAsn1Object()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::ToAsn1Object() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(seq));
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName*  admissionAuthority, ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*  namingAuthority, ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*,::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>*>  professionInfos)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(admissionAuthority, namingAuthority, professionInfos));
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*
+Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority,
+                                                             ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* namingAuthority,
+                                                             ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*> professionInfos) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>(admissionAuthority, namingAuthority, professionInfos));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::Admissions()   {
-}
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions::Admissions() {}

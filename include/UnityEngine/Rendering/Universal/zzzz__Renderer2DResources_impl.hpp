@@ -7,626 +7,490 @@
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.get_version
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::get_version)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::get_version)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x67728dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_version", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x67728e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                           { "UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.get_lightShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::get_lightShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::get_lightShader)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x67728ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_lightShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_lightShader", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.set_lightShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::Renderer2DResources::set_lightShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::set_lightShader)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x67728f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_lightShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "set_lightShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.get_projectedShadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::get_projectedShadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::get_projectedShadowShader)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6772964;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_projectedShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_projectedShadowShader", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.set_projectedShadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::Renderer2DResources::set_projectedShadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::set_projectedShadowShader)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x677296c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_projectedShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                           { "set_projectedShadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.get_spriteShadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::get_spriteShadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::get_spriteShadowShader)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x67729dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_spriteShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_spriteShadowShader", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.set_spriteShadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::Renderer2DResources::set_spriteShadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::set_spriteShadowShader)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x67729e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_spriteShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                           { "set_spriteShadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.get_spriteUnshadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::get_spriteUnshadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::get_spriteUnshadowShader)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6772a54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_spriteUnshadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_spriteUnshadowShader", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.set_spriteUnshadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::Renderer2DResources::set_spriteUnshadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::set_spriteUnshadowShader)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6772a5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_spriteUnshadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                           { "set_spriteUnshadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.get_geometryShadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::get_geometryShadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::get_geometryShadowShader)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6772acc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_geometryShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_geometryShadowShader", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.set_geometryShadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::Renderer2DResources::set_geometryShadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::set_geometryShadowShader)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6772ad4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_geometryShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                           { "set_geometryShadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.get_geometryUnshadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::get_geometryUnshadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::get_geometryUnshadowShader)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6772b44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_geometryUnshadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_geometryUnshadowShader", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.set_geometryUnshadowShader
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::Renderer2DResources::set_geometryUnshadowShader)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::set_geometryUnshadowShader)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6772b4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_geometryUnshadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                           { "set_geometryUnshadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.get_fallOffLookup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::get_fallOffLookup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::get_fallOffLookup)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6772bbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_fallOffLookup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_fallOffLookup", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.set_fallOffLookup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Texture2D*)>(&::UnityEngine::Rendering::Universal::Renderer2DResources::set_fallOffLookup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Texture2D*)>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::set_fallOffLookup)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6772bc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_fallOffLookup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "set_fallOffLookup", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.get_copyDepthPS
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::get_copyDepthPS)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::get_copyDepthPS)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6772c34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_copyDepthPS",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_copyDepthPS", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources.set_copyDepthPS
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::Renderer2DResources::set_copyDepthPS)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)(::UnityEngine::Shader*)>(
+    &::UnityEngine::Rendering::Universal::Renderer2DResources::set_copyDepthPS)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6772c3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_copyDepthPS",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "set_copyDepthPS", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Renderer2DResources._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Renderer2DResources::*)()>(&::UnityEngine::Rendering::Universal::Renderer2DResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6772cac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_Version()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Version;
+constexpr int32_t& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_Version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Version;
 }
 constexpr int32_t const& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_Version() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Version;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Version;
 }
-constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_Version(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Version = value;
+constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_Version(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Version = value;
 }
-constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_LightShader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_LightShader;
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_LightShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LightShader;
 }
 constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_LightShader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_LightShader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LightShader;
 }
-constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_LightShader(::UnityW<::UnityEngine::Shader>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LightShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_LightShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_LightShader = value;
 }
-constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_ProjectedShadowShader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ProjectedShadowShader;
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_ProjectedShadowShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ProjectedShadowShader;
 }
 constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_ProjectedShadowShader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ProjectedShadowShader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ProjectedShadowShader;
 }
-constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_ProjectedShadowShader(::UnityW<::UnityEngine::Shader>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ProjectedShadowShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_ProjectedShadowShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ProjectedShadowShader = value;
 }
-constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_SpriteShadowShader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SpriteShadowShader;
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_SpriteShadowShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SpriteShadowShader;
 }
 constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_SpriteShadowShader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SpriteShadowShader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SpriteShadowShader;
 }
-constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_SpriteShadowShader(::UnityW<::UnityEngine::Shader>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SpriteShadowShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_SpriteShadowShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SpriteShadowShader = value;
 }
-constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_SpriteUnshadowShader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SpriteUnshadowShader;
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_SpriteUnshadowShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SpriteUnshadowShader;
 }
 constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_SpriteUnshadowShader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SpriteUnshadowShader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SpriteUnshadowShader;
 }
-constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_SpriteUnshadowShader(::UnityW<::UnityEngine::Shader>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SpriteUnshadowShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_SpriteUnshadowShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SpriteUnshadowShader = value;
 }
-constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_GeometryShadowShader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_GeometryShadowShader;
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_GeometryShadowShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_GeometryShadowShader;
 }
 constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_GeometryShadowShader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_GeometryShadowShader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_GeometryShadowShader;
 }
-constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_GeometryShadowShader(::UnityW<::UnityEngine::Shader>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GeometryShadowShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_GeometryShadowShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_GeometryShadowShader = value;
 }
-constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_GeometryUnshadowShader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_GeometryUnshadowShader;
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_GeometryUnshadowShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_GeometryUnshadowShader;
 }
 constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_GeometryUnshadowShader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_GeometryUnshadowShader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_GeometryUnshadowShader;
 }
-constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_GeometryUnshadowShader(::UnityW<::UnityEngine::Shader>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GeometryUnshadowShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_GeometryUnshadowShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_GeometryUnshadowShader = value;
 }
-constexpr ::UnityW<::UnityEngine::Texture2D>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_FallOffLookup()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_FallOffLookup;
+constexpr ::UnityW<::UnityEngine::Texture2D>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_FallOffLookup() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FallOffLookup;
 }
 constexpr ::UnityW<::UnityEngine::Texture2D> const& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_FallOffLookup() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_FallOffLookup;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FallOffLookup;
 }
-constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_FallOffLookup(::UnityW<::UnityEngine::Texture2D>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FallOffLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_FallOffLookup(::UnityW<::UnityEngine::Texture2D> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FallOffLookup = value;
 }
-constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_CopyDepthPS()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_CopyDepthPS;
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_CopyDepthPS() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CopyDepthPS;
 }
 constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_get_m_CopyDepthPS() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_CopyDepthPS;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CopyDepthPS;
 }
-constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_CopyDepthPS(::UnityW<::UnityEngine::Shader>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CopyDepthPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::Renderer2DResources::__cordl_internal_set_m_CopyDepthPS(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_CopyDepthPS = value;
 }
-inline int32_t UnityEngine::Rendering::Universal::Renderer2DResources::get_version()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::Universal::Renderer2DResources::get_version() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_version", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::Universal::Renderer2DResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::Universal::Renderer2DResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                         { "UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_lightShader()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_lightShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_lightShader() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_lightShader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_lightShader(::UnityEngine::Shader*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_lightShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_lightShader(::UnityEngine::Shader* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "set_lightShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_projectedShadowShader()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_projectedShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_projectedShadowShader() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_projectedShadowShader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_projectedShadowShader(::UnityEngine::Shader*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_projectedShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_projectedShadowShader(::UnityEngine::Shader* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                         { "set_projectedShadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_spriteShadowShader()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_spriteShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_spriteShadowShader() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_spriteShadowShader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_spriteShadowShader(::UnityEngine::Shader*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_spriteShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_spriteShadowShader(::UnityEngine::Shader* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "set_spriteShadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_spriteUnshadowShader()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_spriteUnshadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_spriteUnshadowShader() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_spriteUnshadowShader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_spriteUnshadowShader(::UnityEngine::Shader*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_spriteUnshadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_spriteUnshadowShader(::UnityEngine::Shader* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                         { "set_spriteUnshadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_geometryShadowShader()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_geometryShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_geometryShadowShader() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_geometryShadowShader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_geometryShadowShader(::UnityEngine::Shader*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_geometryShadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_geometryShadowShader(::UnityEngine::Shader* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                         { "set_geometryShadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_geometryUnshadowShader()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_geometryUnshadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_geometryUnshadowShader() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_geometryUnshadowShader", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_geometryUnshadowShader(::UnityEngine::Shader*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_geometryUnshadowShader",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_geometryUnshadowShader(::UnityEngine::Shader* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(),
+                                                                                         { "set_geometryUnshadowShader", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::Rendering::Universal::Renderer2DResources::get_fallOffLookup()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_fallOffLookup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::Rendering::Universal::Renderer2DResources::get_fallOffLookup() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_fallOffLookup", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_fallOffLookup(::UnityEngine::Texture2D*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_fallOffLookup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_fallOffLookup(::UnityEngine::Texture2D* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "set_fallOffLookup", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_copyDepthPS()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "get_copyDepthPS",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Rendering::Universal::Renderer2DResources::get_copyDepthPS() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "get_copyDepthPS", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_copyDepthPS(::UnityEngine::Shader*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        "set_copyDepthPS",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::Renderer2DResources::set_copyDepthPS(::UnityEngine::Shader* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { "set_copyDepthPS", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::Rendering::Universal::Renderer2DResources::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::Renderer2DResources*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::Universal::Renderer2DResources::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Renderer2DResources*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::Universal::Renderer2DResources* UnityEngine::Rendering::Universal::Renderer2DResources::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::Universal::Renderer2DResources*>());
+inline ::UnityEngine::Rendering::Universal::Renderer2DResources* UnityEngine::Rendering::Universal::Renderer2DResources::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::Renderer2DResources*>());
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineResources"
-constexpr  UnityEngine::Rendering::Universal::Renderer2DResources::operator ::UnityEngine::Rendering::IRenderPipelineResources*() noexcept {
-return static_cast<::UnityEngine::Rendering::IRenderPipelineResources*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::Universal::Renderer2DResources::operator ::UnityEngine::Rendering::IRenderPipelineResources*() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineResources*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
 constexpr ::UnityEngine::Rendering::IRenderPipelineResources* UnityEngine::Rendering::Universal::Renderer2DResources::i___UnityEngine__Rendering__IRenderPipelineResources() noexcept {
-return static_cast<::UnityEngine::Rendering::IRenderPipelineResources*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineResources*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
-constexpr  UnityEngine::Rendering::Universal::Renderer2DResources::operator ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept {
-return static_cast<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::Universal::Renderer2DResources::operator ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept {
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
 constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* UnityEngine::Rendering::Universal::Renderer2DResources::i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept {
-return static_cast<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::Renderer2DResources::Renderer2DResources()   {
-}
+constexpr ::UnityEngine::Rendering::Universal::Renderer2DResources::Renderer2DResources() {}

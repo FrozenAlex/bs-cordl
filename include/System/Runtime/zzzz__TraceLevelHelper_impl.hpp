@@ -1,68 +1,55 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/TraceLevelHelper.hpp"
+#include "System/Diagnostics/zzzz__TraceEventType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__TraceLevelHelper_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
 #include "System/Runtime/zzzz__TraceEventLevel_def.hpp"
 #include "System/Runtime/zzzz__TraceEventOpcode_def.hpp"
 //  Writing Method size for method: ::System::Runtime::TraceLevelHelper.GetTraceEventType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceEventType (*)(::System::Runtime::TraceEventLevel)>(&::System::Runtime::TraceLevelHelper::GetTraceEventType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::TraceEventType (*)(::System::Runtime::TraceEventLevel)>(&::System::Runtime::TraceLevelHelper::GetTraceEventType)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x60470bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::TraceLevelHelper*>::get(),
-                        "GetTraceEventType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::TraceEventLevel>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::TraceLevelHelper*>(), { "GetTraceEventType", {}, { ::i2c::type_of<::System::Runtime::TraceEventLevel>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::TraceLevelHelper.LookupSeverity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Runtime::TraceEventLevel, ::System::Runtime::TraceEventOpcode)>(&::System::Runtime::TraceLevelHelper::LookupSeverity)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Runtime::TraceEventLevel, ::System::Runtime::TraceEventOpcode)>(&::System::Runtime::TraceLevelHelper::LookupSeverity)> {
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x604713c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::TraceLevelHelper*>::get(),
-                        "LookupSeverity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::TraceEventLevel>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::TraceEventOpcode>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::TraceLevelHelper*>(),
+                                                { "LookupSeverity", {}, { ::i2c::type_of<::System::Runtime::TraceEventLevel>(), ::i2c::type_of<::System::Runtime::TraceEventOpcode>() } })));
     return ___internal_method;
   }
 };
-inline void System::Runtime::TraceLevelHelper::setStaticF_EtwLevelToTraceEventType(::ArrayW<::System::Diagnostics::TraceEventType,::Array<::System::Diagnostics::TraceEventType>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::System::Diagnostics::TraceEventType,::Array<::System::Diagnostics::TraceEventType>*>, "EtwLevelToTraceEventType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::TraceLevelHelper*>::get>(std::forward<::ArrayW<::System::Diagnostics::TraceEventType,::Array<::System::Diagnostics::TraceEventType>*>>(value));
+inline void System::Runtime::TraceLevelHelper::setStaticF_EtwLevelToTraceEventType(::ArrayW<::System::Diagnostics::TraceEventType> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Diagnostics::TraceEventType>, "EtwLevelToTraceEventType", ::System::Runtime::TraceLevelHelper*>(
+      std::forward<::ArrayW<::System::Diagnostics::TraceEventType>>(value));
 }
-inline ::ArrayW<::System::Diagnostics::TraceEventType,::Array<::System::Diagnostics::TraceEventType>*> System::Runtime::TraceLevelHelper::getStaticF_EtwLevelToTraceEventType()  {
-return ::cordl_internals::getStaticField<::ArrayW<::System::Diagnostics::TraceEventType,::Array<::System::Diagnostics::TraceEventType>*>, "EtwLevelToTraceEventType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::TraceLevelHelper*>::get>();
+inline ::ArrayW<::System::Diagnostics::TraceEventType> System::Runtime::TraceLevelHelper::getStaticF_EtwLevelToTraceEventType() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Diagnostics::TraceEventType>, "EtwLevelToTraceEventType", ::System::Runtime::TraceLevelHelper*>();
 }
-inline ::System::Diagnostics::TraceEventType System::Runtime::TraceLevelHelper::GetTraceEventType(::System::Runtime::TraceEventLevel  level)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::TraceLevelHelper*>::get(),
-                        "GetTraceEventType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::TraceEventLevel>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::TraceEventType, false>(nullptr, ___internal_method, level);
+inline ::System::Diagnostics::TraceEventType System::Runtime::TraceLevelHelper::GetTraceEventType(::System::Runtime::TraceEventLevel level) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::TraceLevelHelper*>(), { "GetTraceEventType", {}, { ::i2c::type_of<::System::Runtime::TraceEventLevel>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::TraceEventType>(nullptr, ___internal_method, level);
 }
-inline ::StringW System::Runtime::TraceLevelHelper::LookupSeverity(::System::Runtime::TraceEventLevel  level, ::System::Runtime::TraceEventOpcode  opcode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::TraceLevelHelper*>::get(),
-                        "LookupSeverity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::TraceEventLevel>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::TraceEventOpcode>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, level, opcode);
+inline ::StringW System::Runtime::TraceLevelHelper::LookupSeverity(::System::Runtime::TraceEventLevel level, ::System::Runtime::TraceEventOpcode opcode) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::TraceLevelHelper*>(),
+                                                           { "LookupSeverity", {}, { ::i2c::type_of<::System::Runtime::TraceEventLevel>(), ::i2c::type_of<::System::Runtime::TraceEventOpcode>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, level, opcode);
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::TraceLevelHelper::TraceLevelHelper()   {
-}
+constexpr ::System::Runtime::TraceLevelHelper::TraceLevelHelper() {}

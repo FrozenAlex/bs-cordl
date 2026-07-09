@@ -9,178 +9,135 @@
 #include "Zenject/zzzz__SceneContextRegistry_def.hpp"
 #include "Zenject/zzzz__SceneContext_def.hpp"
 //  Writing Method size for method: ::Zenject::SceneContextRegistryAdderAndRemover._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)(::Zenject::SceneContext*, ::Zenject::SceneContextRegistry*)>(&::Zenject::SceneContextRegistryAdderAndRemover::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)(::Zenject::SceneContext*, ::Zenject::SceneContextRegistry*)>(
+    &::Zenject::SceneContextRegistryAdderAndRemover::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6d3efc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SceneContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SceneContextRegistry*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::Zenject::SceneContext*>(), ::i2c::type_of<::Zenject::SceneContextRegistry*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::SceneContextRegistryAdderAndRemover.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::Initialize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::Initialize)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6d3efc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "Initialize", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::SceneContextRegistryAdderAndRemover.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::Dispose)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6d3efe4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::SceneContextRegistryAdderAndRemover.__zenCreate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*,::Array<::System::Object*>*>)>(&::Zenject::SceneContextRegistryAdderAndRemover::__zenCreate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::SceneContextRegistryAdderAndRemover::__zenCreate)> {
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x6d3f000;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        "__zenCreate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::SceneContextRegistryAdderAndRemover.__zenCreateInjectTypeInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2d8;
   constexpr static std::size_t addrs = 0x6d3f110;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        "__zenCreateInjectTypeInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::SceneContextRegistry*& Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_get__registry()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____registry;
+constexpr ::Zenject::SceneContextRegistry*& Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_get__registry() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____registry;
 }
 constexpr ::Zenject::SceneContextRegistry* const& Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_get__registry() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____registry;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____registry;
 }
-constexpr void Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_set__registry(::Zenject::SceneContextRegistry*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____registry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_set__registry(::Zenject::SceneContextRegistry* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____registry = value;
 }
-constexpr ::UnityW<::Zenject::SceneContext>& Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_get__sceneContext()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sceneContext;
+constexpr ::UnityW<::Zenject::SceneContext>& Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_get__sceneContext() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sceneContext;
 }
 constexpr ::UnityW<::Zenject::SceneContext> const& Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_get__sceneContext() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sceneContext;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sceneContext;
 }
-constexpr void Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_set__sceneContext(::UnityW<::Zenject::SceneContext>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Zenject::SceneContextRegistryAdderAndRemover::__cordl_internal_set__sceneContext(::UnityW<::Zenject::SceneContext> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____sceneContext = value;
 }
-inline void Zenject::SceneContextRegistryAdderAndRemover::_ctor(::Zenject::SceneContext*  sceneContext, ::Zenject::SceneContextRegistry*  registry)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SceneContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SceneContextRegistry*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sceneContext, registry);
+inline void Zenject::SceneContextRegistryAdderAndRemover::_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::Zenject::SceneContext*>(), ::i2c::type_of<::Zenject::SceneContextRegistry*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sceneContext, registry);
 }
-inline void Zenject::SceneContextRegistryAdderAndRemover::Initialize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Zenject::SceneContextRegistryAdderAndRemover::Initialize() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "Initialize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Zenject::SceneContextRegistryAdderAndRemover::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Zenject::SceneContextRegistryAdderAndRemover::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* Zenject::SceneContextRegistryAdderAndRemover::__zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        "__zenCreate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*,::Array<::System::Object*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
+inline ::System::Object* Zenject::SceneContextRegistryAdderAndRemover::__zenCreate(::ArrayW<::System::Object*> P_0) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::SceneContextRegistryAdderAndRemover::__zenCreateInjectTypeInfo()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
-                        "__zenCreateInjectTypeInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+inline ::Zenject::InjectTypeInfo* Zenject::SceneContextRegistryAdderAndRemover::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::SceneContextRegistryAdderAndRemover* Zenject::SceneContextRegistryAdderAndRemover::New_ctor(::Zenject::SceneContext*  sceneContext, ::Zenject::SceneContextRegistry*  registry)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SceneContextRegistryAdderAndRemover*>(sceneContext, registry));
+inline ::Zenject::SceneContextRegistryAdderAndRemover* Zenject::SceneContextRegistryAdderAndRemover::New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::SceneContextRegistryAdderAndRemover*>(sceneContext, registry));
 }
 /// @brief Convert operator to "::Zenject::IInitializable"
-constexpr  Zenject::SceneContextRegistryAdderAndRemover::operator ::Zenject::IInitializable*() noexcept {
-return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
+constexpr Zenject::SceneContextRegistryAdderAndRemover::operator ::Zenject::IInitializable*() noexcept {
+  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Zenject::IInitializable"
 constexpr ::Zenject::IInitializable* Zenject::SceneContextRegistryAdderAndRemover::i___Zenject__IInitializable() noexcept {
-return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
+  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  Zenject::SceneContextRegistryAdderAndRemover::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr Zenject::SceneContextRegistryAdderAndRemover::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* Zenject::SceneContextRegistryAdderAndRemover::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::Zenject::SceneContextRegistryAdderAndRemover::SceneContextRegistryAdderAndRemover()   {
-}
+constexpr ::Zenject::SceneContextRegistryAdderAndRemover::SceneContextRegistryAdderAndRemover() {}

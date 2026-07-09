@@ -4,83 +4,58 @@
 #include "GlobalNamespace/zzzz__BeatmapLevelOrPackIdFilterExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelOrPackIdFilter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions.ShouldAllowPacks
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowPacks)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowPacks)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x368e9dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>::get(),
-                        "ShouldAllowPacks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelOrPackIdFilter>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
+                                                                                           { "ShouldAllowPacks", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions.ShouldAllowLevels
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowLevels)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowLevels)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x368e9f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>::get(),
-                        "ShouldAllowLevels",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelOrPackIdFilter>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
+                                                                                           { "ShouldAllowLevels", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions.ShouldAllowEmpty
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowEmpty)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowEmpty)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x368ea04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>::get(),
-                        "ShouldAllowEmpty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelOrPackIdFilter>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
+                                                                                           { "ShouldAllowEmpty", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
     return ___internal_method;
   }
 };
-inline bool GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowPacks(::GlobalNamespace::BeatmapLevelOrPackIdFilter  filter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>::get(),
-                        "ShouldAllowPacks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelOrPackIdFilter>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, filter);
+inline bool GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowPacks(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
+                                                                                         { "ShouldAllowPacks", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, filter);
 }
-inline bool GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowLevels(::GlobalNamespace::BeatmapLevelOrPackIdFilter  filter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>::get(),
-                        "ShouldAllowLevels",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelOrPackIdFilter>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, filter);
+inline bool GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowLevels(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
+                                                                                         { "ShouldAllowLevels", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, filter);
 }
-inline bool GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowEmpty(::GlobalNamespace::BeatmapLevelOrPackIdFilter  filter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>::get(),
-                        "ShouldAllowEmpty",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelOrPackIdFilter>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, filter);
+inline bool GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowEmpty(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
+                                                                                         { "ShouldAllowEmpty", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, filter);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::BeatmapLevelOrPackIdFilterExtensions()   {
-}
+constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::BeatmapLevelOrPackIdFilterExtensions() {}

@@ -5,71 +5,56 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::MarkerPacket._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::MarkerPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(&::Org::BouncyCastle::Bcpg::MarkerPacket::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::MarkerPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
+    &::Org::BouncyCastle::Bcpg::MarkerPacket::_ctor)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x35dcf20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::MarkerPacket*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Bcpg::BcpgInputStream*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::MarkerPacket*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Bcpg::BcpgInputStream*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::MarkerPacket.Encode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::MarkerPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(&::Org::BouncyCastle::Bcpg::MarkerPacket::Encode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::MarkerPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
+    &::Org::BouncyCastle::Bcpg::MarkerPacket::Encode)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x35dffa4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::MarkerPacket*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::MarkerPacket*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::MarkerPacket*>(), { ::i2c::class_of<::Org::BouncyCastle::Bcpg::MarkerPacket*>(), 4 }));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Org::BouncyCastle::Bcpg::MarkerPacket::__cordl_internal_get_marker()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___marker;
+constexpr ::ArrayW<uint8_t>& Org::BouncyCastle::Bcpg::MarkerPacket::__cordl_internal_get_marker() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___marker;
 }
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Org::BouncyCastle::Bcpg::MarkerPacket::__cordl_internal_get_marker() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___marker;
+constexpr ::ArrayW<uint8_t> const& Org::BouncyCastle::Bcpg::MarkerPacket::__cordl_internal_get_marker() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___marker;
 }
-constexpr void Org::BouncyCastle::Bcpg::MarkerPacket::__cordl_internal_set_marker(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___marker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Bcpg::MarkerPacket::__cordl_internal_set_marker(::ArrayW<uint8_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___marker = value;
 }
-inline void Org::BouncyCastle::Bcpg::MarkerPacket::_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream*  bcpgIn)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::MarkerPacket*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Bcpg::BcpgInputStream*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bcpgIn);
+inline void Org::BouncyCastle::Bcpg::MarkerPacket::_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::MarkerPacket*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Bcpg::BcpgInputStream*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bcpgIn);
 }
-inline void Org::BouncyCastle::Bcpg::MarkerPacket::Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream*  bcpgOut)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::MarkerPacket*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bcpgOut);
+inline void Org::BouncyCastle::Bcpg::MarkerPacket::Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Bcpg::MarkerPacket*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bcpgOut);
 }
-inline ::Org::BouncyCastle::Bcpg::MarkerPacket* Org::BouncyCastle::Bcpg::MarkerPacket::New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream*  bcpgIn)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::MarkerPacket*>(bcpgIn));
+inline ::Org::BouncyCastle::Bcpg::MarkerPacket* Org::BouncyCastle::Bcpg::MarkerPacket::New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Bcpg::MarkerPacket*>(bcpgIn));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Bcpg::MarkerPacket::MarkerPacket()   {
-}
+constexpr ::Org::BouncyCastle::Bcpg::MarkerPacket::MarkerPacket() {}

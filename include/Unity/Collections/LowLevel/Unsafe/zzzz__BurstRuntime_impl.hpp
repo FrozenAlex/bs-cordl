@@ -3,58 +3,37 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstRuntime_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstRuntime_def.hpp"
-template<typename T>
-inline void Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>::setStaticF_Value(int64_t  value)  {
-::cordl_internals::setStaticField<int64_t, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>>::get>(std::forward<int64_t>(value));
+template <typename T> inline void Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>::setStaticF_Value(int64_t value) {
+  ::cordl_internals::setStaticField<int64_t, "Value", ::Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>>(std::forward<int64_t>(value));
 }
-template<typename T>
-inline int64_t Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>::getStaticF_Value()  {
-return ::cordl_internals::getStaticField<int64_t, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>>::get>();
+template <typename T> inline int64_t Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>::getStaticF_Value() {
+  return ::cordl_internals::getStaticField<int64_t, "Value", ::Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>>();
 }
 // Ctor Parameters []
-template<typename T>
-constexpr ::Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>::BurstRuntime_HashCode64_1()   {
-}
+template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::BurstRuntime_HashCode64_1<T>::BurstRuntime_HashCode64_1() {}
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::BurstRuntime.HashStringWithFNV1A64
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW)>(&::Unity::Collections::LowLevel::Unsafe::BurstRuntime::HashStringWithFNV1A64)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::StringW)>(&::Unity::Collections::LowLevel::Unsafe::BurstRuntime::HashStringWithFNV1A64)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x6907230;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::BurstRuntime*>::get(),
-                        "HashStringWithFNV1A64",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::BurstRuntime*>(), { "HashStringWithFNV1A64", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-template<typename T>
-inline int64_t Unity::Collections::LowLevel::Unsafe::BurstRuntime::GetHashCode64()  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::BurstRuntime*>::get(),
-                    "GetHashCode64",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::span<const Il2CppType* const, 0>()
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method);
+template <typename T> inline int64_t Unity::Collections::LowLevel::Unsafe::BurstRuntime::GetHashCode64() {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::BurstRuntime*>(), { "GetHashCode64", { ::i2c::class_of<T>() }, {} })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method);
 }
-inline int64_t Unity::Collections::LowLevel::Unsafe::BurstRuntime::HashStringWithFNV1A64(::StringW  text)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::BurstRuntime*>::get(),
-                        "HashStringWithFNV1A64",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, text);
+inline int64_t Unity::Collections::LowLevel::Unsafe::BurstRuntime::HashStringWithFNV1A64(::StringW text) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::BurstRuntime*>(), { "HashStringWithFNV1A64", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, text);
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::LowLevel::Unsafe::BurstRuntime::BurstRuntime()   {
-}
+constexpr ::Unity::Collections::LowLevel::Unsafe::BurstRuntime::BurstRuntime() {}

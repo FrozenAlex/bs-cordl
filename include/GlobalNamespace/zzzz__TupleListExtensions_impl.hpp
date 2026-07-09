@@ -6,48 +6,37 @@
 #include "System/zzzz__Tuple_2_def.hpp"
 #include "System/zzzz__Tuple_3_def.hpp"
 #include "System/zzzz__Tuple_4_def.hpp"
-template<typename T1,typename T2>
-inline void GlobalNamespace::TupleListExtensions::Add(::System::Collections::Generic::IList_1<::System::Tuple_2<T1,T2>*>*  list, T1  item1, T2  item2)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TupleListExtensions*>::get(),
-                    "Add",
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Tuple_2<T1,T2>*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T2>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, list, item1, item2);
+template <typename T1, typename T2> inline void GlobalNamespace::TupleListExtensions::Add(::System::Collections::Generic::IList_1<::System::Tuple_2<T1, T2>*>* list, T1 item1, T2 item2) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TupleListExtensions*>(),
+                                              { "Add",
+                                                { ::i2c::class_of<T1>(), ::i2c::class_of<T2>() },
+                                                { ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Tuple_2<T1, T2>*>*>(), ::i2c::type_of<T1>(), ::i2c::type_of<T2>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T1>(), ::i2c::class_of<T2>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, list, item1, item2);
 }
-template<typename T1,typename T2,typename T3>
-inline void GlobalNamespace::TupleListExtensions::Add(::System::Collections::Generic::IList_1<::System::Tuple_3<T1,T2,T3>*>*  list, T1  item1, T2  item2, T3  item3)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TupleListExtensions*>::get(),
-                    "Add",
-                    std::array<const Il2CppClass*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get()},
-                    ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Tuple_3<T1,T2,T3>*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T3>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, list, item1, item2, item3);
+template <typename T1, typename T2, typename T3>
+inline void GlobalNamespace::TupleListExtensions::Add(::System::Collections::Generic::IList_1<::System::Tuple_3<T1, T2, T3>*>* list, T1 item1, T2 item2, T3 item3) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TupleListExtensions*>(),
+                          { "Add",
+                            { ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>() },
+                            { ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Tuple_3<T1, T2, T3>*>*>(), ::i2c::type_of<T1>(), ::i2c::type_of<T2>(), ::i2c::type_of<T3>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, list, item1, item2, item3);
 }
-template<typename T1,typename T2,typename T3,typename T4>
-inline void GlobalNamespace::TupleListExtensions::Add(::System::Collections::Generic::IList_1<::System::Tuple_4<T1,T2,T3,T4>*>*  list, T1  item1, T2  item2, T3  item3, T4  item4)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TupleListExtensions*>::get(),
-                    "Add",
-                    std::array<const Il2CppClass*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get()},
-                    ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Tuple_4<T1,T2,T3,T4>*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T4>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, list, item1, item2, item3, item4);
+template <typename T1, typename T2, typename T3, typename T4>
+inline void GlobalNamespace::TupleListExtensions::Add(::System::Collections::Generic::IList_1<::System::Tuple_4<T1, T2, T3, T4>*>* list, T1 item1, T2 item2, T3 item3, T4 item4) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TupleListExtensions*>(), { "Add",
+                                                                                                     { ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(), ::i2c::class_of<T4>() },
+                                                                                                     { ::i2c::type_of<::System::Collections::Generic::IList_1<::System::Tuple_4<T1, T2, T3, T4>*>*>(),
+                                                                                                       ::i2c::type_of<T1>(), ::i2c::type_of<T2>(), ::i2c::type_of<T3>(), ::i2c::type_of<T4>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>(), ::i2c::class_of<T4>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, list, item1, item2, item3, item4);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::TupleListExtensions::TupleListExtensions()   {
-}
+constexpr ::GlobalNamespace::TupleListExtensions::TupleListExtensions() {}

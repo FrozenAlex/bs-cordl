@@ -4,46 +4,39 @@
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformationSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformation_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayAdditionalInformationSetupData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayAdditionalInformationSetupData::*)(::GlobalNamespace::GameplayAdditionalInformation*)>(&::GlobalNamespace::GameplayAdditionalInformationSetupData::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayAdditionalInformationSetupData::*)(::GlobalNamespace::GameplayAdditionalInformation*)>(
+    &::GlobalNamespace::GameplayAdditionalInformationSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x57ed3b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayAdditionalInformationSetupData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayAdditionalInformation*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayAdditionalInformationSetupData*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::GameplayAdditionalInformation*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::GameplayAdditionalInformation*& GlobalNamespace::GameplayAdditionalInformationSetupData::__cordl_internal_get_additionalInformation()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___additionalInformation;
+constexpr ::GlobalNamespace::GameplayAdditionalInformation*& GlobalNamespace::GameplayAdditionalInformationSetupData::__cordl_internal_get_additionalInformation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___additionalInformation;
 }
 constexpr ::GlobalNamespace::GameplayAdditionalInformation* const& GlobalNamespace::GameplayAdditionalInformationSetupData::__cordl_internal_get_additionalInformation() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___additionalInformation;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___additionalInformation;
 }
-constexpr void GlobalNamespace::GameplayAdditionalInformationSetupData::__cordl_internal_set_additionalInformation(::GlobalNamespace::GameplayAdditionalInformation*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___additionalInformation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameplayAdditionalInformationSetupData::__cordl_internal_set_additionalInformation(::GlobalNamespace::GameplayAdditionalInformation* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___additionalInformation = value;
 }
-inline void GlobalNamespace::GameplayAdditionalInformationSetupData::_ctor(::GlobalNamespace::GameplayAdditionalInformation*  additionalInformation)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayAdditionalInformationSetupData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayAdditionalInformation*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, additionalInformation);
+inline void GlobalNamespace::GameplayAdditionalInformationSetupData::_ctor(::GlobalNamespace::GameplayAdditionalInformation* additionalInformation) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayAdditionalInformationSetupData*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::GameplayAdditionalInformation*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, additionalInformation);
 }
-inline ::GlobalNamespace::GameplayAdditionalInformationSetupData* GlobalNamespace::GameplayAdditionalInformationSetupData::New_ctor(::GlobalNamespace::GameplayAdditionalInformation*  additionalInformation)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayAdditionalInformationSetupData*>(additionalInformation));
+inline ::GlobalNamespace::GameplayAdditionalInformationSetupData*
+GlobalNamespace::GameplayAdditionalInformationSetupData::New_ctor(::GlobalNamespace::GameplayAdditionalInformation* additionalInformation) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameplayAdditionalInformationSetupData*>(additionalInformation));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData::GameplayAdditionalInformationSetupData()   {
-}
+constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData::GameplayAdditionalInformationSetupData() {}

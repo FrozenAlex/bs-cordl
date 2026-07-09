@@ -9,261 +9,193 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::MonoTlsProviderFactory.GetProviderInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal)> {
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x5e98458;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "GetProviderInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "GetProviderInternal", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Net::Security::MonoTlsProviderFactory.InitializeInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::InitializeInternal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::InitializeInternal)> {
   constexpr static std::size_t size = 0x414;
   constexpr static std::size_t addrs = 0x5e9c770;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "InitializeInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "InitializeInternal", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Net::Security::MonoTlsProviderFactory.LookupProvider
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)(::StringW, bool)>(&::Mono::Net::Security::MonoTlsProviderFactory::LookupProvider)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)(::StringW, bool)>(&::Mono::Net::Security::MonoTlsProviderFactory::LookupProvider)> {
   constexpr static std::size_t size = 0x5e4;
   constexpr static std::size_t addrs = 0x5e9cf50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "LookupProvider",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "LookupProvider", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Net::Security::MonoTlsProviderFactory.InitializeProviderRegistration
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::InitializeProviderRegistration)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::InitializeProviderRegistration)> {
   constexpr static std::size_t size = 0x244;
   constexpr static std::size_t addrs = 0x5e9cb84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "InitializeProviderRegistration",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "InitializeProviderRegistration", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Net::Security::MonoTlsProviderFactory.PopulateUnityProviders
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::PopulateUnityProviders)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::PopulateUnityProviders)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x5e9d534;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "PopulateUnityProviders",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "PopulateUnityProviders", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Net::Security::MonoTlsProviderFactory.PopulateProviders
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::PopulateProviders)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::PopulateProviders)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x5e9d69c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "PopulateProviders",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "PopulateProviders", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Net::Security::MonoTlsProviderFactory.CreateDefaultProviderImpl
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::CreateDefaultProviderImpl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::CreateDefaultProviderImpl)> {
   constexpr static std::size_t size = 0x188;
   constexpr static std::size_t addrs = 0x5e9cdc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "CreateDefaultProviderImpl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "CreateDefaultProviderImpl", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Net::Security::MonoTlsProviderFactory.GetProvider
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::GetProvider)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::GetProvider)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x5e9d714;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "GetProvider",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "GetProvider", {}, {} })));
     return ___internal_method;
   }
 };
-inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_locker(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "locker", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>(std::forward<::System::Object*>(value));
+inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_locker(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "locker", ::Mono::Net::Security::MonoTlsProviderFactory*>(std::forward<::System::Object*>(value));
 }
-inline ::System::Object* Mono::Net::Security::MonoTlsProviderFactory::getStaticF_locker()  {
-return ::cordl_internals::getStaticField<::System::Object*, "locker", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>();
+inline ::System::Object* Mono::Net::Security::MonoTlsProviderFactory::getStaticF_locker() {
+  return ::cordl_internals::getStaticField<::System::Object*, "locker", ::Mono::Net::Security::MonoTlsProviderFactory*>();
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_initialized(bool  value)  {
-::cordl_internals::setStaticField<bool, "initialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>(std::forward<bool>(value));
+inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_initialized(bool value) {
+  ::cordl_internals::setStaticField<bool, "initialized", ::Mono::Net::Security::MonoTlsProviderFactory*>(std::forward<bool>(value));
 }
-inline bool Mono::Net::Security::MonoTlsProviderFactory::getStaticF_initialized()  {
-return ::cordl_internals::getStaticField<bool, "initialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>();
+inline bool Mono::Net::Security::MonoTlsProviderFactory::getStaticF_initialized() {
+  return ::cordl_internals::getStaticField<bool, "initialized", ::Mono::Net::Security::MonoTlsProviderFactory*>();
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_defaultProvider(::Mono::Net::Security::MobileTlsProvider*  value)  {
-::cordl_internals::setStaticField<::Mono::Net::Security::MobileTlsProvider*, "defaultProvider", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>(std::forward<::Mono::Net::Security::MobileTlsProvider*>(value));
+inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_defaultProvider(::Mono::Net::Security::MobileTlsProvider* value) {
+  ::cordl_internals::setStaticField<::Mono::Net::Security::MobileTlsProvider*, "defaultProvider", ::Mono::Net::Security::MonoTlsProviderFactory*>(
+      std::forward<::Mono::Net::Security::MobileTlsProvider*>(value));
 }
-inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::getStaticF_defaultProvider()  {
-return ::cordl_internals::getStaticField<::Mono::Net::Security::MobileTlsProvider*, "defaultProvider", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>();
+inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::getStaticF_defaultProvider() {
+  return ::cordl_internals::getStaticField<::Mono::Net::Security::MobileTlsProvider*, "defaultProvider", ::Mono::Net::Security::MonoTlsProviderFactory*>();
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_providerRegistration(::System::Collections::Generic::Dictionary_2<::StringW,::System::Tuple_2<::System::Guid,::StringW>*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::Tuple_2<::System::Guid,::StringW>*>*, "providerRegistration", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::StringW,::System::Tuple_2<::System::Guid,::StringW>*>*>(value));
+inline void
+Mono::Net::Security::MonoTlsProviderFactory::setStaticF_providerRegistration(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>*, "providerRegistration",
+                                    ::Mono::Net::Security::MonoTlsProviderFactory*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Tuple_2<::System::Guid,::StringW>*>* Mono::Net::Security::MonoTlsProviderFactory::getStaticF_providerRegistration()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::Tuple_2<::System::Guid,::StringW>*>*, "providerRegistration", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>* Mono::Net::Security::MonoTlsProviderFactory::getStaticF_providerRegistration() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>*, "providerRegistration",
+                                           ::Mono::Net::Security::MonoTlsProviderFactory*>();
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_providerCache(::System::Collections::Generic::Dictionary_2<::System::Guid,::Mono::Net::Security::MobileTlsProvider*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid,::Mono::Net::Security::MobileTlsProvider*>*, "providerCache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Guid,::Mono::Net::Security::MobileTlsProvider*>*>(value));
+inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_providerCache(::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Net::Security::MobileTlsProvider*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Net::Security::MobileTlsProvider*>*, "providerCache",
+                                    ::Mono::Net::Security::MonoTlsProviderFactory*>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Net::Security::MobileTlsProvider*>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Guid,::Mono::Net::Security::MobileTlsProvider*>* Mono::Net::Security::MonoTlsProviderFactory::getStaticF_providerCache()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid,::Mono::Net::Security::MobileTlsProvider*>*, "providerCache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Net::Security::MobileTlsProvider*>* Mono::Net::Security::MonoTlsProviderFactory::getStaticF_providerCache() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Net::Security::MobileTlsProvider*>*, "providerCache",
+                                           ::Mono::Net::Security::MonoTlsProviderFactory*>();
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_UnityTlsId(::System::Guid  value)  {
-::cordl_internals::setStaticField<::System::Guid, "UnityTlsId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>(std::forward<::System::Guid>(value));
+inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_UnityTlsId(::System::Guid value) {
+  ::cordl_internals::setStaticField<::System::Guid, "UnityTlsId", ::Mono::Net::Security::MonoTlsProviderFactory*>(std::forward<::System::Guid>(value));
 }
-inline ::System::Guid Mono::Net::Security::MonoTlsProviderFactory::getStaticF_UnityTlsId()  {
-return ::cordl_internals::getStaticField<::System::Guid, "UnityTlsId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>();
+inline ::System::Guid Mono::Net::Security::MonoTlsProviderFactory::getStaticF_UnityTlsId() {
+  return ::cordl_internals::getStaticField<::System::Guid, "UnityTlsId", ::Mono::Net::Security::MonoTlsProviderFactory*>();
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_AppleTlsId(::System::Guid  value)  {
-::cordl_internals::setStaticField<::System::Guid, "AppleTlsId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>(std::forward<::System::Guid>(value));
+inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_AppleTlsId(::System::Guid value) {
+  ::cordl_internals::setStaticField<::System::Guid, "AppleTlsId", ::Mono::Net::Security::MonoTlsProviderFactory*>(std::forward<::System::Guid>(value));
 }
-inline ::System::Guid Mono::Net::Security::MonoTlsProviderFactory::getStaticF_AppleTlsId()  {
-return ::cordl_internals::getStaticField<::System::Guid, "AppleTlsId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>();
+inline ::System::Guid Mono::Net::Security::MonoTlsProviderFactory::getStaticF_AppleTlsId() {
+  return ::cordl_internals::getStaticField<::System::Guid, "AppleTlsId", ::Mono::Net::Security::MonoTlsProviderFactory*>();
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_BtlsId(::System::Guid  value)  {
-::cordl_internals::setStaticField<::System::Guid, "BtlsId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>(std::forward<::System::Guid>(value));
+inline void Mono::Net::Security::MonoTlsProviderFactory::setStaticF_BtlsId(::System::Guid value) {
+  ::cordl_internals::setStaticField<::System::Guid, "BtlsId", ::Mono::Net::Security::MonoTlsProviderFactory*>(std::forward<::System::Guid>(value));
 }
-inline ::System::Guid Mono::Net::Security::MonoTlsProviderFactory::getStaticF_BtlsId()  {
-return ::cordl_internals::getStaticField<::System::Guid, "BtlsId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get>();
+inline ::System::Guid Mono::Net::Security::MonoTlsProviderFactory::getStaticF_BtlsId() {
+  return ::cordl_internals::getStaticField<::System::Guid, "BtlsId", ::Mono::Net::Security::MonoTlsProviderFactory*>();
 }
-inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "GetProviderInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsProvider*, false>(nullptr, ___internal_method);
+inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "GetProviderInternal", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsProvider*>(nullptr, ___internal_method);
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::InitializeInternal()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "InitializeInternal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void Mono::Net::Security::MonoTlsProviderFactory::InitializeInternal() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "InitializeInternal", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::LookupProvider(::StringW  name, bool  throwOnError)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "LookupProvider",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsProvider*, false>(nullptr, ___internal_method, name, throwOnError);
+inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::LookupProvider(::StringW name, bool throwOnError) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "LookupProvider", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsProvider*>(nullptr, ___internal_method, name, throwOnError);
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::InitializeProviderRegistration()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "InitializeProviderRegistration",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void Mono::Net::Security::MonoTlsProviderFactory::InitializeProviderRegistration() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "InitializeProviderRegistration", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::PopulateUnityProviders()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "PopulateUnityProviders",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void Mono::Net::Security::MonoTlsProviderFactory::PopulateUnityProviders() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "PopulateUnityProviders", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline void Mono::Net::Security::MonoTlsProviderFactory::PopulateProviders()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "PopulateProviders",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void Mono::Net::Security::MonoTlsProviderFactory::PopulateProviders() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "PopulateProviders", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::CreateDefaultProviderImpl()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "CreateDefaultProviderImpl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsProvider*, false>(nullptr, ___internal_method);
+inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::CreateDefaultProviderImpl() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "CreateDefaultProviderImpl", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsProvider*>(nullptr, ___internal_method);
 }
-inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::GetProvider()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
-                        "GetProvider",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsProvider*, false>(nullptr, ___internal_method);
+inline ::Mono::Net::Security::MobileTlsProvider* Mono::Net::Security::MonoTlsProviderFactory::GetProvider() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "GetProvider", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsProvider*>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::Mono::Net::Security::MonoTlsProviderFactory::MonoTlsProviderFactory()   {
-}
+constexpr ::Mono::Net::Security::MonoTlsProviderFactory::MonoTlsProviderFactory() {}

@@ -4,59 +4,44 @@
 #include "UnityEngine/Rendering/zzzz__RenderTextureParameter_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderTextureParameter._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTextureParameter::*)(::UnityEngine::RenderTexture*, bool)>(&::UnityEngine::Rendering::RenderTextureParameter::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderTextureParameter::*)(::UnityEngine::RenderTexture*, bool)>(
+    &::UnityEngine::Rendering::RenderTextureParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x668ae1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTextureParameter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTextureParameter*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderTextureParameter.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderTextureParameter::*)()>(&::UnityEngine::Rendering::RenderTextureParameter::GetHashCode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderTextureParameter::*)()>(&::UnityEngine::Rendering::RenderTextureParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x668ae80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTextureParameter*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTextureParameter*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTextureParameter*>(), { ::i2c::class_of<::UnityEngine::Rendering::RenderTextureParameter*>(), 2 }));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::RenderTextureParameter::_ctor(::UnityEngine::RenderTexture*  value, bool  overrideState)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTextureParameter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, overrideState);
+inline void UnityEngine::Rendering::RenderTextureParameter::_ctor(::UnityEngine::RenderTexture* value, bool overrideState) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTextureParameter*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, overrideState);
 }
-inline int32_t UnityEngine::Rendering::RenderTextureParameter::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTextureParameter*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::RenderTextureParameter::GetHashCode() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderTextureParameter*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::RenderTextureParameter* UnityEngine::Rendering::RenderTextureParameter::New_ctor(::UnityEngine::RenderTexture*  value, bool  overrideState)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::RenderTextureParameter*>(value, overrideState));
+inline ::UnityEngine::Rendering::RenderTextureParameter* UnityEngine::Rendering::RenderTextureParameter::New_ctor(::UnityEngine::RenderTexture* value, bool overrideState) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::RenderTextureParameter*>(value, overrideState));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RenderTextureParameter::RenderTextureParameter()   {
-}
+constexpr ::UnityEngine::Rendering::RenderTextureParameter::RenderTextureParameter() {}

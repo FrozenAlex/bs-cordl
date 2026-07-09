@@ -4,81 +4,65 @@
 #include "GlobalNamespace/zzzz__BombExecutionRating_def.hpp"
 #include "GlobalNamespace/zzzz__BombExecutionRating_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::BombExecutionRating_Rating::BombExecutionRating_Rating(int32_t  value__) noexcept  {
-this->value__ = value__;
+constexpr ::GlobalNamespace::BombExecutionRating_Rating::BombExecutionRating_Rating(int32_t value__) noexcept {
+  this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BombExecutionRating_Rating::BombExecutionRating_Rating()   {
-}
-constexpr ::GlobalNamespace::BombExecutionRating_Rating  GlobalNamespace::BombExecutionRating_Rating::OK{static_cast<int32_t>(0x0)};
-constexpr ::GlobalNamespace::BombExecutionRating_Rating  GlobalNamespace::BombExecutionRating_Rating::NotGood{static_cast<int32_t>(0x1)};
+constexpr ::GlobalNamespace::BombExecutionRating_Rating::BombExecutionRating_Rating() {}
+constexpr ::GlobalNamespace::BombExecutionRating_Rating GlobalNamespace::BombExecutionRating_Rating::OK{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::BombExecutionRating_Rating GlobalNamespace::BombExecutionRating_Rating::NotGood{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::BombExecutionRating.get_rating
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BombExecutionRating_Rating (::GlobalNamespace::BombExecutionRating::*)()>(&::GlobalNamespace::BombExecutionRating::get_rating)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BombExecutionRating_Rating (::GlobalNamespace::BombExecutionRating::*)()>(
+    &::GlobalNamespace::BombExecutionRating::get_rating)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x36485b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombExecutionRating*>::get(),
-                        "get_rating",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombExecutionRating*>(), { "get_rating", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BombExecutionRating._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombExecutionRating::*)(float_t, ::GlobalNamespace::BombExecutionRating_Rating)>(&::GlobalNamespace::BombExecutionRating::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombExecutionRating::*)(float_t, ::GlobalNamespace::BombExecutionRating_Rating)>(
+    &::GlobalNamespace::BombExecutionRating::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x36485b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombExecutionRating*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BombExecutionRating_Rating>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombExecutionRating*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::BombExecutionRating_Rating>() } })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BombExecutionRating_Rating& GlobalNamespace::BombExecutionRating::__cordl_internal_get__rating_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____rating_k__BackingField;
+constexpr ::GlobalNamespace::BombExecutionRating_Rating& GlobalNamespace::BombExecutionRating::__cordl_internal_get__rating_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rating_k__BackingField;
 }
 constexpr ::GlobalNamespace::BombExecutionRating_Rating const& GlobalNamespace::BombExecutionRating::__cordl_internal_get__rating_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____rating_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rating_k__BackingField;
 }
-constexpr void GlobalNamespace::BombExecutionRating::__cordl_internal_set__rating_k__BackingField(::GlobalNamespace::BombExecutionRating_Rating  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____rating_k__BackingField = value;
+constexpr void GlobalNamespace::BombExecutionRating::__cordl_internal_set__rating_k__BackingField(::GlobalNamespace::BombExecutionRating_Rating value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____rating_k__BackingField = value;
 }
-inline ::GlobalNamespace::BombExecutionRating_Rating GlobalNamespace::BombExecutionRating::get_rating()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombExecutionRating*>::get(),
-                        "get_rating",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BombExecutionRating_Rating, false>(this, ___internal_method);
+inline ::GlobalNamespace::BombExecutionRating_Rating GlobalNamespace::BombExecutionRating::get_rating() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombExecutionRating*>(), { "get_rating", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BombExecutionRating_Rating>(this, ___internal_method);
 }
-inline void GlobalNamespace::BombExecutionRating::_ctor(float_t  time, ::GlobalNamespace::BombExecutionRating_Rating  rating)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombExecutionRating*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BombExecutionRating_Rating>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time, rating);
+inline void GlobalNamespace::BombExecutionRating::_ctor(float_t time, ::GlobalNamespace::BombExecutionRating_Rating rating) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombExecutionRating*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::BombExecutionRating_Rating>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, time, rating);
 }
-inline ::GlobalNamespace::BombExecutionRating* GlobalNamespace::BombExecutionRating::New_ctor(float_t  time, ::GlobalNamespace::BombExecutionRating_Rating  rating)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BombExecutionRating*>(time, rating));
+inline ::GlobalNamespace::BombExecutionRating* GlobalNamespace::BombExecutionRating::New_ctor(float_t time, ::GlobalNamespace::BombExecutionRating_Rating rating) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BombExecutionRating*>(time, rating));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BombExecutionRating::BombExecutionRating()   {
-}
+constexpr ::GlobalNamespace::BombExecutionRating::BombExecutionRating() {}

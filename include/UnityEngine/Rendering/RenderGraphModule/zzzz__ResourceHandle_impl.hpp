@@ -5,369 +5,274 @@
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphResourceType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.get_index
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_index)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_index)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x66a6d78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_index",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_index", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.get_iType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_iType)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_iType)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x66a6d80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_iType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_iType", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.get_version
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_version)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_version)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x66a6dd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_version", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.set_version
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::set_version)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(int32_t)>(
+    &::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::set_version)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x66a6de0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "set_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "set_version", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.get_type
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_type)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_type)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x66a6de8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_type",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_type", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.set_type
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType)>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::set_type)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType)>(
+    &::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::set_type)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x66a6df0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "set_type",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(),
+                                                             { "set_type", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(int32_t, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType, bool)>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(
+    int32_t, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType, bool)>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x66a10f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(),
+                            { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(::ByRef<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x66a363c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.IsValid
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::IsValid)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::IsValid)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x66a6df8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "IsValid", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.IsNull
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::IsNull)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::IsNull)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x66a6e9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "IsNull",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "IsNull", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.NewFrame
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::NewFrame)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::NewFrame)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x66a2f7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "NewFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "NewFrame", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.get_IsVersioned
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_IsVersioned)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)()>(
+    &::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_IsVersioned)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x66a6efc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_IsVersioned",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_IsVersioned", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle)>(&::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::*)(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle)>(
+    &::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::Equals)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x66a6f0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(),
+                                                                                           { "Equals", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::setStaticF_s_CurrentValidBit(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_CurrentValidBit", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get>(std::forward<uint32_t>(value));
+inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::setStaticF_s_CurrentValidBit(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_CurrentValidBit", ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(std::forward<uint32_t>(value));
 }
-inline uint32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::getStaticF_s_CurrentValidBit()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_CurrentValidBit", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get>();
+inline uint32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::getStaticF_s_CurrentValidBit() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_CurrentValidBit", ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>();
 }
-inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::setStaticF_s_SharedResourceValidBit(uint32_t  value)  {
-::cordl_internals::setStaticField<uint32_t, "s_SharedResourceValidBit", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get>(std::forward<uint32_t>(value));
+inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::setStaticF_s_SharedResourceValidBit(uint32_t value) {
+  ::cordl_internals::setStaticField<uint32_t, "s_SharedResourceValidBit", ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(std::forward<uint32_t>(value));
 }
-inline uint32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::getStaticF_s_SharedResourceValidBit()  {
-return ::cordl_internals::getStaticField<uint32_t, "s_SharedResourceValidBit", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get>();
+inline uint32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::getStaticF_s_SharedResourceValidBit() {
+  return ::cordl_internals::getStaticField<uint32_t, "s_SharedResourceValidBit", ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>();
 }
-inline int32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_index()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_index",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_index() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_index", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_iType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_iType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_iType() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_iType", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_version()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_version() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_version", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::set_version(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "set_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::set_version(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "set_version", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_type()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_type",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType, false>(this, ___internal_method);
+inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_type() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_type", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::set_type(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "set_type",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::set_type(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(),
+                                                           { "set_type", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor(int32_t  value, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType  type, bool  shared)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, type, shared);
+inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor(int32_t value, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type, bool shared) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(),
+                          { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value, type, shared);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor(::ByRef<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>  h, int32_t  version)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, h, version);
+inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t version) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, h, version);
 }
-inline bool UnityEngine::Rendering::RenderGraphModule::ResourceHandle::IsValid()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::RenderGraphModule::ResourceHandle::IsValid() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "IsValid", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::RenderGraphModule::ResourceHandle::IsNull()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "IsNull",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::RenderGraphModule::ResourceHandle::IsNull() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "IsNull", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::NewFrame(int32_t  executionIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "NewFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, executionIndex);
+inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::NewFrame(int32_t executionIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "NewFrame", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, executionIndex);
 }
-inline bool UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_IsVersioned()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "get_IsVersioned",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::RenderGraphModule::ResourceHandle::get_IsVersioned() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), { "get_IsVersioned", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::RenderGraphModule::ResourceHandle::Equals(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  hdl)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, hdl);
+inline bool UnityEngine::Rendering::RenderGraphModule::ResourceHandle::Equals(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle hdl) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(),
+                                                                                         { "Equals", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, hdl);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>"
-constexpr  UnityEngine::Rendering::RenderGraphModule::ResourceHandle::operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*()  {
-return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr UnityEngine::Rendering::RenderGraphModule::ResourceHandle::operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>"
-constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>* UnityEngine::Rendering::RenderGraphModule::ResourceHandle::i___System__IEquatable_1___UnityEngine__Rendering__RenderGraphModule__ResourceHandle_()  {
-return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*
+UnityEngine::Rendering::RenderGraphModule::ResourceHandle::i___System__IEquatable_1___UnityEngine__Rendering__RenderGraphModule__ResourceHandle_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_type_k__BackingField", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::ResourceHandle(uint32_t  m_Value, int32_t  m_Version, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType  _type_k__BackingField) noexcept  {
-this->m_Value = m_Value;
-this->m_Version = m_Version;
-this->_type_k__BackingField = _type_k__BackingField;
+// Ctor Parameters [CppParam { name: "m_Value", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "_type_k__BackingField", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::ResourceHandle(uint32_t m_Value, int32_t m_Version,
+                                                                                      ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType _type_k__BackingField) noexcept {
+  this->m_Value = m_Value;
+  this->m_Version = m_Version;
+  this->_type_k__BackingField = _type_k__BackingField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::ResourceHandle()   {
-}
+constexpr ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::ResourceHandle() {}

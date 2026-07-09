@@ -4,31 +4,25 @@
 #include "BeatmapDataLoaderVersion4/zzzz__BeatmapLevelSaveDataUtils_def.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__BeatmapLevelSaveData_def.hpp"
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils.MigrateBeatmapLevelSaveData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*)>(&::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils::MigrateBeatmapLevelSaveData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*)>(
+    &::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils::MigrateBeatmapLevelSaveData)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x36a4ce8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils*>::get(),
-                        "MigrateBeatmapLevelSaveData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils*>(),
+                                                             { "MigrateBeatmapLevelSaveData", {}, { ::i2c::type_of<::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils::MigrateBeatmapLevelSaveData(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*  beatmapLevelSaveData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils*>::get(),
-                        "MigrateBeatmapLevelSaveData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, beatmapLevelSaveData);
+inline void BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils::MigrateBeatmapLevelSaveData(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData* beatmapLevelSaveData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils*>(),
+                                                           { "MigrateBeatmapLevelSaveData", {}, { ::i2c::type_of<::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, beatmapLevelSaveData);
 }
 // Ctor Parameters []
-constexpr ::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils::BeatmapLevelSaveDataUtils()   {
-}
+constexpr ::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils::BeatmapLevelSaveDataUtils() {}

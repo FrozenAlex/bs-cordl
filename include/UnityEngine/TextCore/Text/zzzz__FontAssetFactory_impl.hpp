@@ -7,95 +7,80 @@
 #include "UnityEngine/zzzz__Font_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetFactory.CreateDefaultEditorFontAsset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (*)(::UnityEngine::Font*, ::UnityEngine::Shader*)>(&::UnityEngine::TextCore::Text::FontAssetFactory::CreateDefaultEditorFontAsset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (*)(::UnityEngine::Font*, ::UnityEngine::Shader*)>(
+    &::UnityEngine::TextCore::Text::FontAssetFactory::CreateDefaultEditorFontAsset)> {
   constexpr static std::size_t size = 0x834;
   constexpr static std::size_t addrs = 0x6aa6c34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get(),
-                        "CreateDefaultEditorFontAsset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetFactory*>(),
+                                                             { "CreateDefaultEditorFontAsset", {}, { ::i2c::type_of<::UnityEngine::Font*>(), ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetFactory.SetupFontAssetSettings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::Shader*)>(&::UnityEngine::TextCore::Text::FontAssetFactory::SetupFontAssetSettings)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::Shader*)>(
+    &::UnityEngine::TextCore::Text::FontAssetFactory::SetupFontAssetSettings)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x6aa7468;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get(),
-                        "SetupFontAssetSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetFactory*>(),
+                                                { "SetupFontAssetSettings", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::FontAsset*>(), ::i2c::type_of<::UnityEngine::Shader*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetFactory.SetHideFlags
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TextCore::Text::FontAsset*)>(&::UnityEngine::TextCore::Text::FontAssetFactory::SetHideFlags)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TextCore::Text::FontAsset*)>(&::UnityEngine::TextCore::Text::FontAssetFactory::SetHideFlags)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x6aa7530;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get(),
-                        "SetHideFlags",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetFactory*>(),
+                                                                                           { "SetHideFlags", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::FontAsset*>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::TextCore::Text::FontAssetFactory::setStaticF_visitedFontAssets(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, "visitedFontAssets", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get>(std::forward<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>(value));
+inline void UnityEngine::TextCore::Text::FontAssetFactory::setStaticF_visitedFontAssets(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, "visitedFontAssets",
+                                    ::UnityEngine::TextCore::Text::FontAssetFactory*>(
+      std::forward<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>(value));
 }
-inline ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* UnityEngine::TextCore::Text::FontAssetFactory::getStaticF_visitedFontAssets()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, "visitedFontAssets", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get>();
+inline ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* UnityEngine::TextCore::Text::FontAssetFactory::getStaticF_visitedFontAssets() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, "visitedFontAssets",
+                                           ::UnityEngine::TextCore::Text::FontAssetFactory*>();
 }
-inline void UnityEngine::TextCore::Text::FontAssetFactory::setStaticF_k_SystemFontName(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "k_SystemFontName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get>(std::forward<::StringW>(value));
+inline void UnityEngine::TextCore::Text::FontAssetFactory::setStaticF_k_SystemFontName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_SystemFontName", ::UnityEngine::TextCore::Text::FontAssetFactory*>(std::forward<::StringW>(value));
 }
-inline ::StringW UnityEngine::TextCore::Text::FontAssetFactory::getStaticF_k_SystemFontName()  {
-return ::cordl_internals::getStaticField<::StringW, "k_SystemFontName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get>();
+inline ::StringW UnityEngine::TextCore::Text::FontAssetFactory::getStaticF_k_SystemFontName() {
+  return ::cordl_internals::getStaticField<::StringW, "k_SystemFontName", ::UnityEngine::TextCore::Text::FontAssetFactory*>();
 }
-inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> UnityEngine::TextCore::Text::FontAssetFactory::CreateDefaultEditorFontAsset(::UnityEngine::Font*  font, ::UnityEngine::Shader*  shader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get(),
-                        "CreateDefaultEditorFontAsset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::FontAsset>, false>(nullptr, ___internal_method, font, shader);
+inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> UnityEngine::TextCore::Text::FontAssetFactory::CreateDefaultEditorFontAsset(::UnityEngine::Font* font, ::UnityEngine::Shader* shader) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetFactory*>(),
+                                                           { "CreateDefaultEditorFontAsset", {}, { ::i2c::type_of<::UnityEngine::Font*>(), ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>(nullptr, ___internal_method, font, shader);
 }
-inline void UnityEngine::TextCore::Text::FontAssetFactory::SetupFontAssetSettings(::UnityEngine::TextCore::Text::FontAsset*  fontAsset, ::UnityEngine::Shader*  shader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get(),
-                        "SetupFontAssetSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fontAsset, shader);
+inline void UnityEngine::TextCore::Text::FontAssetFactory::SetupFontAssetSettings(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Shader* shader) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetFactory*>(),
+                                              { "SetupFontAssetSettings", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::FontAsset*>(), ::i2c::type_of<::UnityEngine::Shader*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, fontAsset, shader);
 }
-inline void UnityEngine::TextCore::Text::FontAssetFactory::SetHideFlags(::UnityEngine::TextCore::Text::FontAsset*  fontAsset)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetFactory*>::get(),
-                        "SetHideFlags",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fontAsset);
+inline void UnityEngine::TextCore::Text::FontAssetFactory::SetHideFlags(::UnityEngine::TextCore::Text::FontAsset* fontAsset) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetFactory*>(), { "SetHideFlags", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::FontAsset*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, fontAsset);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::TextCore::Text::FontAssetFactory::FontAssetFactory()   {
-}
+constexpr ::UnityEngine::TextCore::Text::FontAssetFactory::FontAssetFactory() {}

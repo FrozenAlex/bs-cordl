@@ -1,9 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Serialization/XmlFormatReaderGenerator.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlFormatReaderGenerator)
 namespace System::Runtime::Serialization {
@@ -62,287 +63,289 @@ namespace System::Runtime::Serialization {
 class XmlFormatReaderGenerator_CriticalHelper;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0);
-MARK_REF_PTR_T(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0);
-MARK_REF_PTR_T(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0);
-MARK_REF_PTR_T(::System::Runtime::Serialization::XmlFormatReaderGenerator);
-MARK_REF_PTR_T(::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper);
+MARK_REF_T(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0*);
+MARK_REF_T(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0*);
+MARK_REF_T(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0*);
+MARK_REF_T(::System::Runtime::Serialization::XmlFormatReaderGenerator*);
+MARK_REF_T(::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper*);
+DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0*, "System.Runtime.Serialization",
+                    "XmlFormatReaderGenerator/CriticalHelper/<>c__DisplayClass0_0");
+DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0*, "System.Runtime.Serialization",
+                    "XmlFormatReaderGenerator/CriticalHelper/<>c__DisplayClass1_0");
+DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0*, "System.Runtime.Serialization",
+                    "XmlFormatReaderGenerator/CriticalHelper/<>c__DisplayClass2_0");
+DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::XmlFormatReaderGenerator*, "System.Runtime.Serialization", "XmlFormatReaderGenerator");
+DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper*, "System.Runtime.Serialization", "XmlFormatReaderGenerator/CriticalHelper");
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.XmlFormatReaderGenerator/CriticalHelper/<>c__DisplayClass0_0
 class CORDL_TYPE CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field classContract, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_classContract, put=__cordl_internal_set_classContract)) ::System::Runtime::Serialization::ClassDataContract*  classContract;
+  // Declarations
+  /// @brief Field classContract, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_classContract, put = __cordl_internal_set_classContract)) ::System::Runtime::Serialization::ClassDataContract* classContract;
 
-static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0* New_ctor() ;
+  static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0* New_ctor();
 
-/// @brief Method <GenerateClassReader>b__0, addr 0x6023a18, size 0x88, virtual false, abstract: false, final false
-inline ::System::Object* _GenerateClassReader_b__0(::System::Runtime::Serialization::XmlReaderDelegator*  xr, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  ctx, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  memberNames, ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  memberNamespaces) ;
+  /// @brief Method <GenerateClassReader>b__0, addr 0x6023a18, size 0x88, virtual false, abstract: false, final false
+  inline ::System::Object* _GenerateClassReader_b__0(::System::Runtime::Serialization::XmlReaderDelegator* xr, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* ctx,
+                                                     ::ArrayW<::System::Xml::XmlDictionaryString*> memberNames, ::ArrayW<::System::Xml::XmlDictionaryString*> memberNamespaces);
 
-constexpr ::System::Runtime::Serialization::ClassDataContract* const& __cordl_internal_get_classContract() const;
+  constexpr ::System::Runtime::Serialization::ClassDataContract* const& __cordl_internal_get_classContract() const;
 
-constexpr ::System::Runtime::Serialization::ClassDataContract*& __cordl_internal_get_classContract() ;
+  constexpr ::System::Runtime::Serialization::ClassDataContract*& __cordl_internal_get_classContract();
 
-constexpr void __cordl_internal_set_classContract(::System::Runtime::Serialization::ClassDataContract*  value) ;
+  constexpr void __cordl_internal_set_classContract(::System::Runtime::Serialization::ClassDataContract* value);
 
-/// @brief Method .ctor, addr 0x6023a0c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6023a0c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17107 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17107};
+  /// @brief Field classContract, offset: 0x10, size: 0x8, def value: None
+  ::System::Runtime::Serialization::ClassDataContract* ___classContract;
 
-/// @brief Field classContract, offset: 0x10, size: 0x8, def value: None
- ::System::Runtime::Serialization::ClassDataContract*  ___classContract;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0, ___classContract) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0, 0x18>, "Size mismatch!");
+static_assert(sizeof(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.XmlFormatReaderGenerator/CriticalHelper/<>c__DisplayClass1_0
 class CORDL_TYPE CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field collectionContract, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_collectionContract, put=__cordl_internal_set_collectionContract)) ::System::Runtime::Serialization::CollectionDataContract*  collectionContract;
+  // Declarations
+  /// @brief Field collectionContract, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_collectionContract, put = __cordl_internal_set_collectionContract)) ::System::Runtime::Serialization::CollectionDataContract* collectionContract;
 
-static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0* New_ctor() ;
+  static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0* New_ctor();
 
-/// @brief Method <GenerateCollectionReader>b__0, addr 0x6023aa0, size 0x8c, virtual false, abstract: false, final false
-inline ::System::Object* _GenerateCollectionReader_b__0(::System::Runtime::Serialization::XmlReaderDelegator*  xr, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  ctx, ::System::Xml::XmlDictionaryString*  inm, ::System::Xml::XmlDictionaryString*  ins, ::System::Runtime::Serialization::CollectionDataContract*  cc) ;
+  /// @brief Method <GenerateCollectionReader>b__0, addr 0x6023aa0, size 0x8c, virtual false, abstract: false, final false
+  inline ::System::Object* _GenerateCollectionReader_b__0(::System::Runtime::Serialization::XmlReaderDelegator* xr, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* ctx,
+                                                          ::System::Xml::XmlDictionaryString* inm, ::System::Xml::XmlDictionaryString* ins,
+                                                          ::System::Runtime::Serialization::CollectionDataContract* cc);
 
-constexpr ::System::Runtime::Serialization::CollectionDataContract* const& __cordl_internal_get_collectionContract() const;
+  constexpr ::System::Runtime::Serialization::CollectionDataContract* const& __cordl_internal_get_collectionContract() const;
 
-constexpr ::System::Runtime::Serialization::CollectionDataContract*& __cordl_internal_get_collectionContract() ;
+  constexpr ::System::Runtime::Serialization::CollectionDataContract*& __cordl_internal_get_collectionContract();
 
-constexpr void __cordl_internal_set_collectionContract(::System::Runtime::Serialization::CollectionDataContract*  value) ;
+  constexpr void __cordl_internal_set_collectionContract(::System::Runtime::Serialization::CollectionDataContract* value);
 
-/// @brief Method .ctor, addr 0x6023a10, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6023a10, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17108 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17108};
+  /// @brief Field collectionContract, offset: 0x10, size: 0x8, def value: None
+  ::System::Runtime::Serialization::CollectionDataContract* ___collectionContract;
 
-/// @brief Field collectionContract, offset: 0x10, size: 0x8, def value: None
- ::System::Runtime::Serialization::CollectionDataContract*  ___collectionContract;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0, ___collectionContract) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0, 0x18>, "Size mismatch!");
+static_assert(sizeof(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0) == 0x18, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.XmlFormatReaderGenerator/CriticalHelper/<>c__DisplayClass2_0
 class CORDL_TYPE CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field collectionContract, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_collectionContract, put=__cordl_internal_set_collectionContract)) ::System::Runtime::Serialization::CollectionDataContract*  collectionContract;
+  // Declarations
+  /// @brief Field collectionContract, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_collectionContract, put = __cordl_internal_set_collectionContract)) ::System::Runtime::Serialization::CollectionDataContract* collectionContract;
 
-static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0* New_ctor() ;
+  static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0* New_ctor();
 
-/// @brief Method <GenerateGetOnlyCollectionReader>b__0, addr 0x6023b2c, size 0x84, virtual false, abstract: false, final false
-inline void _GenerateGetOnlyCollectionReader_b__0(::System::Runtime::Serialization::XmlReaderDelegator*  xr, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  ctx, ::System::Xml::XmlDictionaryString*  inm, ::System::Xml::XmlDictionaryString*  ins, ::System::Runtime::Serialization::CollectionDataContract*  cc) ;
+  /// @brief Method <GenerateGetOnlyCollectionReader>b__0, addr 0x6023b2c, size 0x84, virtual false, abstract: false, final false
+  inline void _GenerateGetOnlyCollectionReader_b__0(::System::Runtime::Serialization::XmlReaderDelegator* xr, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* ctx,
+                                                    ::System::Xml::XmlDictionaryString* inm, ::System::Xml::XmlDictionaryString* ins, ::System::Runtime::Serialization::CollectionDataContract* cc);
 
-constexpr ::System::Runtime::Serialization::CollectionDataContract* const& __cordl_internal_get_collectionContract() const;
+  constexpr ::System::Runtime::Serialization::CollectionDataContract* const& __cordl_internal_get_collectionContract() const;
 
-constexpr ::System::Runtime::Serialization::CollectionDataContract*& __cordl_internal_get_collectionContract() ;
+  constexpr ::System::Runtime::Serialization::CollectionDataContract*& __cordl_internal_get_collectionContract();
 
-constexpr void __cordl_internal_set_collectionContract(::System::Runtime::Serialization::CollectionDataContract*  value) ;
+  constexpr void __cordl_internal_set_collectionContract(::System::Runtime::Serialization::CollectionDataContract* value);
 
-/// @brief Method .ctor, addr 0x6023a14, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6023a14, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17109 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17109};
+  /// @brief Field collectionContract, offset: 0x10, size: 0x8, def value: None
+  ::System::Runtime::Serialization::CollectionDataContract* ___collectionContract;
 
-/// @brief Field collectionContract, offset: 0x10, size: 0x8, def value: None
- ::System::Runtime::Serialization::CollectionDataContract*  ___collectionContract;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0, ___collectionContract) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0, 0x18>, "Size mismatch!");
+static_assert(sizeof(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0) == 0x18, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.XmlFormatReaderGenerator/CriticalHelper
 class CORDL_TYPE XmlFormatReaderGenerator_CriticalHelper : public ::System::Object {
 public:
-// Declarations
-using __c__DisplayClass0_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0;
+  // Declarations
+  using __c__DisplayClass0_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0;
 
-using __c__DisplayClass1_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0;
+  using __c__DisplayClass1_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0;
 
-using __c__DisplayClass2_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0;
+  using __c__DisplayClass2_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0;
 
-/// @brief Method GenerateClassReader, addr 0x6023468, size 0xa8, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatClassReaderDelegate* GenerateClassReader(::System::Runtime::Serialization::ClassDataContract*  classContract) ;
+  /// @brief Method GenerateClassReader, addr 0x6023468, size 0xa8, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatClassReaderDelegate* GenerateClassReader(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-/// @brief Method GenerateCollectionReader, addr 0x60236a8, size 0xa8, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* GenerateCollectionReader(::System::Runtime::Serialization::CollectionDataContract*  collectionContract) ;
+  /// @brief Method GenerateCollectionReader, addr 0x60236a8, size 0xa8, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* GenerateCollectionReader(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
-/// @brief Method GenerateGetOnlyCollectionReader, addr 0x60238e8, size 0xa8, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* GenerateGetOnlyCollectionReader(::System::Runtime::Serialization::CollectionDataContract*  collectionContract) ;
+  /// @brief Method GenerateGetOnlyCollectionReader, addr 0x60238e8, size 0xa8, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* GenerateGetOnlyCollectionReader(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
-static inline ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* New_ctor() ;
+  static inline ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* New_ctor();
 
-/// @brief Method .ctor, addr 0x60232cc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60232cc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlFormatReaderGenerator_CriticalHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlFormatReaderGenerator_CriticalHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator_CriticalHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlFormatReaderGenerator_CriticalHelper(XmlFormatReaderGenerator_CriticalHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator_CriticalHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlFormatReaderGenerator_CriticalHelper(XmlFormatReaderGenerator_CriticalHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator_CriticalHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlFormatReaderGenerator_CriticalHelper(XmlFormatReaderGenerator_CriticalHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator_CriticalHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlFormatReaderGenerator_CriticalHelper(XmlFormatReaderGenerator_CriticalHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17110 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17110};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper, 0x10>, "Size mismatch!");
+static_assert(sizeof(::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper) == 0x10, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.XmlFormatReaderGenerator
 class CORDL_TYPE XmlFormatReaderGenerator : public ::System::Object {
 public:
-// Declarations
-using CriticalHelper = ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper;
+  // Declarations
+  using CriticalHelper = ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper;
 
-/// @brief Field helper, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_helper, put=__cordl_internal_set_helper)) ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper*  helper;
+  /// @brief Field helper, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* helper;
 
-/// @brief Method GenerateClassReader, addr 0x60232d0, size 0x198, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatClassReaderDelegate* GenerateClassReader(::System::Runtime::Serialization::ClassDataContract*  classContract) ;
+  /// @brief Method GenerateClassReader, addr 0x60232d0, size 0x198, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatClassReaderDelegate* GenerateClassReader(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-/// @brief Method GenerateCollectionReader, addr 0x6023510, size 0x198, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* GenerateCollectionReader(::System::Runtime::Serialization::CollectionDataContract*  collectionContract) ;
+  /// @brief Method GenerateCollectionReader, addr 0x6023510, size 0x198, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* GenerateCollectionReader(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
-/// @brief Method GenerateGetOnlyCollectionReader, addr 0x6023750, size 0x198, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* GenerateGetOnlyCollectionReader(::System::Runtime::Serialization::CollectionDataContract*  collectionContract) ;
+  /// @brief Method GenerateGetOnlyCollectionReader, addr 0x6023750, size 0x198, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* GenerateGetOnlyCollectionReader(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
-static inline ::System::Runtime::Serialization::XmlFormatReaderGenerator* New_ctor() ;
+  static inline ::System::Runtime::Serialization::XmlFormatReaderGenerator* New_ctor();
 
-/// @brief Method UnsafeGetUninitializedObject, addr 0x6023990, size 0x7c, virtual false, abstract: false, final false
-static inline ::System::Object* UnsafeGetUninitializedObject(int32_t  id) ;
+  /// @brief Method UnsafeGetUninitializedObject, addr 0x6023990, size 0x7c, virtual false, abstract: false, final false
+  static inline ::System::Object* UnsafeGetUninitializedObject(int32_t id);
 
-constexpr ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* const& __cordl_internal_get_helper() const;
+  constexpr ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* const& __cordl_internal_get_helper() const;
 
-constexpr ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper*& __cordl_internal_get_helper() ;
+  constexpr ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper*& __cordl_internal_get_helper();
 
-constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper*  value) ;
+  constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* value);
 
-/// @brief Method .ctor, addr 0x602327c, size 0x50, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x602327c, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlFormatReaderGenerator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlFormatReaderGenerator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlFormatReaderGenerator(XmlFormatReaderGenerator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlFormatReaderGenerator(XmlFormatReaderGenerator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlFormatReaderGenerator(XmlFormatReaderGenerator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlFormatReaderGenerator(XmlFormatReaderGenerator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17111 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17111};
+  /// @brief Field helper, offset: 0x10, size: 0x8, def value: None
+  ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* ___helper;
 
-/// @brief Field helper, offset: 0x10, size: 0x8, def value: None
- ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper*  ___helper;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::XmlFormatReaderGenerator, ___helper) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::XmlFormatReaderGenerator, 0x18>, "Size mismatch!");
+static_assert(sizeof(::System::Runtime::Serialization::XmlFormatReaderGenerator) == 0x18, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
-NEED_NO_BOX(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0*, "System.Runtime.Serialization", "XmlFormatReaderGenerator/CriticalHelper/<>c__DisplayClass0_0");
-NEED_NO_BOX(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0*, "System.Runtime.Serialization", "XmlFormatReaderGenerator/CriticalHelper/<>c__DisplayClass1_0");
-NEED_NO_BOX(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0*, "System.Runtime.Serialization", "XmlFormatReaderGenerator/CriticalHelper/<>c__DisplayClass2_0");
-NEED_NO_BOX(::System::Runtime::Serialization::XmlFormatReaderGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::XmlFormatReaderGenerator*, "System.Runtime.Serialization", "XmlFormatReaderGenerator");
-NEED_NO_BOX(::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper*, "System.Runtime.Serialization", "XmlFormatReaderGenerator/CriticalHelper");
+} // namespace System::Runtime::Serialization

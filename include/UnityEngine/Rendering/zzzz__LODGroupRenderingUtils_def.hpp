@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/LODGroupRenderingUtils.hpp"
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
@@ -20,60 +20,59 @@ namespace UnityEngine::Rendering {
 class LODGroupRenderingUtils;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::Rendering::LODGroupRenderingUtils);
+MARK_REF_T(::UnityEngine::Rendering::LODGroupRenderingUtils*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LODGroupRenderingUtils*, "UnityEngine.Rendering", "LODGroupRenderingUtils");
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.LODGroupRenderingUtils
 class CORDL_TYPE LODGroupRenderingUtils : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CalculateFOVHalfAngle, addr 0x66ef24c, size 0x18, virtual false, abstract: false, final false
-static inline float_t CalculateFOVHalfAngle(float_t  fieldOfView) ;
+  // Declarations
+  /// @brief Method CalculateFOVHalfAngle, addr 0x66ef24c, size 0x18, virtual false, abstract: false, final false
+  static inline float_t CalculateFOVHalfAngle(float_t fieldOfView);
 
-/// @brief Method CalculateLODDistance, addr 0x66ee188, size 0x8, virtual false, abstract: false, final false
-static inline float_t CalculateLODDistance(float_t  relativeScreenHeight, float_t  size) ;
+  /// @brief Method CalculateLODDistance, addr 0x66ee188, size 0x8, virtual false, abstract: false, final false
+  static inline float_t CalculateLODDistance(float_t relativeScreenHeight, float_t size);
 
-/// @brief Method CalculatePerspectiveDistance, addr 0x66ef2b8, size 0x2c, virtual false, abstract: false, final false
-static inline float_t CalculatePerspectiveDistance(::UnityEngine::Vector3  objPosition, ::UnityEngine::Vector3  camPosition, float_t  sqrScreenRelativeMetric) ;
+  /// @brief Method CalculatePerspectiveDistance, addr 0x66ef2b8, size 0x2c, virtual false, abstract: false, final false
+  static inline float_t CalculatePerspectiveDistance(::UnityEngine::Vector3 objPosition, ::UnityEngine::Vector3 camPosition, float_t sqrScreenRelativeMetric);
 
-/// @brief Method CalculateScreenRelativeMetric, addr 0x66ef264, size 0x54, virtual false, abstract: false, final false
-static inline float_t CalculateScreenRelativeMetric(::UnityEngine::Rendering::LODParameters  lodParams, float_t  lodBias) ;
+  /// @brief Method CalculateScreenRelativeMetric, addr 0x66ef264, size 0x54, virtual false, abstract: false, final false
+  static inline float_t CalculateScreenRelativeMetric(::UnityEngine::Rendering::LODParameters lodParams, float_t lodBias);
 
-/// @brief Method CalculateSqrPerspectiveDistance, addr 0x66ef2e4, size 0x28, virtual false, abstract: false, final false
-static inline float_t CalculateSqrPerspectiveDistance(::UnityEngine::Vector3  objPosition, ::UnityEngine::Vector3  camPosition, float_t  sqrScreenRelativeMetric) ;
+  /// @brief Method CalculateSqrPerspectiveDistance, addr 0x66ef2e4, size 0x28, virtual false, abstract: false, final false
+  static inline float_t CalculateSqrPerspectiveDistance(::UnityEngine::Vector3 objPosition, ::UnityEngine::Vector3 camPosition, float_t sqrScreenRelativeMetric);
 
-/// @brief Method GetWorldReferencePoint, addr 0x66ef30c, size 0x44, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector3 GetWorldReferencePoint(::UnityEngine::LODGroup*  lodGroup) ;
+  /// @brief Method GetWorldReferencePoint, addr 0x66ef30c, size 0x44, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 GetWorldReferencePoint(::UnityEngine::LODGroup* lodGroup);
 
-/// @brief Method GetWorldSpaceScale, addr 0x66ef350, size 0x44, virtual false, abstract: false, final false
-static inline float_t GetWorldSpaceScale(::UnityEngine::LODGroup*  lodGroup) ;
+  /// @brief Method GetWorldSpaceScale, addr 0x66ef350, size 0x44, virtual false, abstract: false, final false
+  static inline float_t GetWorldSpaceScale(::UnityEngine::LODGroup* lodGroup);
 
-/// @brief Method GetWorldSpaceSize, addr 0x66ef394, size 0x38, virtual false, abstract: false, final false
-static inline float_t GetWorldSpaceSize(::UnityEngine::LODGroup*  lodGroup) ;
+  /// @brief Method GetWorldSpaceSize, addr 0x66ef394, size 0x38, virtual false, abstract: false, final false
+  static inline float_t GetWorldSpaceSize(::UnityEngine::LODGroup* lodGroup);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LODGroupRenderingUtils() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LODGroupRenderingUtils();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroupRenderingUtils", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LODGroupRenderingUtils(LODGroupRenderingUtils&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LODGroupRenderingUtils", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LODGroupRenderingUtils(LODGroupRenderingUtils && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroupRenderingUtils", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LODGroupRenderingUtils(LODGroupRenderingUtils const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LODGroupRenderingUtils", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LODGroupRenderingUtils(LODGroupRenderingUtils const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17745 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17745};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::LODGroupRenderingUtils, 0x10>, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::LODGroupRenderingUtils) == 0x10, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
-NEED_NO_BOX(::UnityEngine::Rendering::LODGroupRenderingUtils);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::LODGroupRenderingUtils*, "UnityEngine.Rendering", "LODGroupRenderingUtils");
+} // namespace UnityEngine::Rendering

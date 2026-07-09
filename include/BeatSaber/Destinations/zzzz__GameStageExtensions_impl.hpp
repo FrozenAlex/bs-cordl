@@ -4,31 +4,22 @@
 #include "BeatSaber/Destinations/zzzz__GameStageExtensions_def.hpp"
 #include "BeatSaber/Destinations/zzzz__DestinationTarget_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Destinations::GameStageExtensions.RequiresShaderWarmup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::BeatSaber::Destinations::DestinationTarget)>(&::BeatSaber::Destinations::GameStageExtensions::RequiresShaderWarmup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::BeatSaber::Destinations::DestinationTarget)>(&::BeatSaber::Destinations::GameStageExtensions::RequiresShaderWarmup)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x31e9068;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::GameStageExtensions*>::get(),
-                        "RequiresShaderWarmup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::Destinations::DestinationTarget>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::GameStageExtensions*>(),
+                                                                                           { "RequiresShaderWarmup", {}, { ::i2c::type_of<::BeatSaber::Destinations::DestinationTarget>() } })));
     return ___internal_method;
   }
 };
-inline bool BeatSaber::Destinations::GameStageExtensions::RequiresShaderWarmup(::BeatSaber::Destinations::DestinationTarget  stage)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::GameStageExtensions*>::get(),
-                        "RequiresShaderWarmup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::Destinations::DestinationTarget>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, stage);
+inline bool BeatSaber::Destinations::GameStageExtensions::RequiresShaderWarmup(::BeatSaber::Destinations::DestinationTarget stage) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::GameStageExtensions*>(),
+                                                                                         { "RequiresShaderWarmup", {}, { ::i2c::type_of<::BeatSaber::Destinations::DestinationTarget>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, stage);
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::Destinations::GameStageExtensions::GameStageExtensions()   {
-}
+constexpr ::BeatSaber::Destinations::GameStageExtensions::GameStageExtensions() {}

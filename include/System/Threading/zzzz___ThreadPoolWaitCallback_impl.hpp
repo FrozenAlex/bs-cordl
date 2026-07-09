@@ -3,31 +3,20 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz___ThreadPoolWaitCallback_def.hpp"
 //  Writing Method size for method: ::System::Threading::_ThreadPoolWaitCallback.PerformWaitCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x5b7a1ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::_ThreadPoolWaitCallback*>::get(),
-                        "PerformWaitCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::_ThreadPoolWaitCallback*>(), { "PerformWaitCallback", {}, {} })));
     return ___internal_method;
   }
 };
-inline bool System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::_ThreadPoolWaitCallback*>::get(),
-                        "PerformWaitCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::_ThreadPoolWaitCallback*>(), { "PerformWaitCallback", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Threading::_ThreadPoolWaitCallback::_ThreadPoolWaitCallback()   {
-}
+constexpr ::System::Threading::_ThreadPoolWaitCallback::_ThreadPoolWaitCallback() {}

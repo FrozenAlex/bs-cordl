@@ -3,31 +3,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FileUtility_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FileUtility.GetPlatformPersistentDataPath
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(bool)>(&::GlobalNamespace::FileUtility::GetPlatformPersistentDataPath)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(bool)>(&::GlobalNamespace::FileUtility::GetPlatformPersistentDataPath)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x325b29c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileUtility*>::get(),
-                        "GetPlatformPersistentDataPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileUtility*>(), { "GetPlatformPersistentDataPath", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-inline ::StringW GlobalNamespace::FileUtility::GetPlatformPersistentDataPath(bool  local)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileUtility*>::get(),
-                        "GetPlatformPersistentDataPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, local);
+inline ::StringW GlobalNamespace::FileUtility::GetPlatformPersistentDataPath(bool local) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileUtility*>(), { "GetPlatformPersistentDataPath", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, local);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::FileUtility::FileUtility()   {
-}
+constexpr ::GlobalNamespace::FileUtility::FileUtility() {}

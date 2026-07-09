@@ -8,633 +8,469 @@
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Collections::SortedList*)>(&::GlobalNamespace::SortedList_SyncSortedList::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Collections::SortedList*)>(
+    &::GlobalNamespace::SortedList_SyncSortedList::_ctor)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x5aabedc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::SortedList*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::SortedList*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.get_Count
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_Count)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_Count)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x5aabf20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  23
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 23 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.get_SyncRoot
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_SyncRoot)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5aabffc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  29
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 29 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.get_IsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5aac004;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  26
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 26 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.get_IsFixedSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_IsFixedSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5aac024;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  27
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 27 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.get_IsSynchronized
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_IsSynchronized)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x5aac044;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  28
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 28 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::get_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(
+    &::GlobalNamespace::SortedList_SyncSortedList::get_Item)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5aac04c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  41
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 41 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.set_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*, ::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::set_Item)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*, ::System::Object*)>(
+    &::GlobalNamespace::SortedList_SyncSortedList::set_Item)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x5aac130;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  42
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 42 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*, ::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*, ::System::Object*)>(
+    &::GlobalNamespace::SortedList_SyncSortedList::Add)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x5aac210;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  21
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 21 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.Clear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::Clear)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::Clear)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x5aac2f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  30
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 30 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.Clone
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::Clone)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::Clone)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x5aac3b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  31
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 31 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.Contains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::Contains)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::Contains)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5aac494;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  32
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 32 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.ContainsKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::ContainsKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::ContainsKey)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5aac578;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  33
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 33 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.ContainsValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::ContainsValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::ContainsValue)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5aac65c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  34
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 34 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.CopyTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Array*, int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::CopyTo)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Array*, int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::CopyTo)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x5aac740;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  35
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 35 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.GetByIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::GetByIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::GetByIndex)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5aac820;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  36
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 36 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::GetEnumerator)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
+    &::GlobalNamespace::SortedList_SyncSortedList::GetEnumerator)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x5aac904;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  37
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 37 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.GetKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::GetKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::GetKey)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5aac9e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  38
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 38 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.GetKeyList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::GetKeyList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::GetKeyList)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x5aacac4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  39
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 39 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.GetValueList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::GetValueList)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
+    &::GlobalNamespace::SortedList_SyncSortedList::GetValueList)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x5aacba0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  40
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 40 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.IndexOfKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::IndexOfKey)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::IndexOfKey)> {
   constexpr static std::size_t size = 0x148;
   constexpr static std::size_t addrs = 0x5aacc7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  43
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 43 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.IndexOfValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::IndexOfValue)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::IndexOfValue)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5aacdc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  44
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 44 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.RemoveAt
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::RemoveAt)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::RemoveAt)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x5aacea8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  45
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 45 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SortedList_SyncSortedList.Remove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::Remove)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::Remove)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x5aacf7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                                  46
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 46 }));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::SortedList*& GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_get__list()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____list;
+constexpr ::System::Collections::SortedList*& GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_get__list() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____list;
 }
 constexpr ::System::Collections::SortedList* const& GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_get__list() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____list;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____list;
 }
-constexpr void GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_set__list(::System::Collections::SortedList*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_set__list(::System::Collections::SortedList* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____list = value;
 }
-constexpr ::System::Object*& GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_get__root()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____root;
+constexpr ::System::Object*& GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_get__root() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____root;
 }
 constexpr ::System::Object* const& GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_get__root() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____root;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____root;
 }
-constexpr void GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_set__root(::System::Object*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SortedList_SyncSortedList::__cordl_internal_set__root(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____root = value;
 }
-inline void GlobalNamespace::SortedList_SyncSortedList::_ctor(::System::Collections::SortedList*  list)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::SortedList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list);
+inline void GlobalNamespace::SortedList_SyncSortedList::_ctor(::System::Collections::SortedList* list) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::SortedList*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, list);
 }
-inline int32_t GlobalNamespace::SortedList_SyncSortedList::get_Count()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            23
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::SortedList_SyncSortedList::get_Count() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 23 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::get_SyncRoot()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            29
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::get_SyncRoot() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 29 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline bool GlobalNamespace::SortedList_SyncSortedList::get_IsReadOnly()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            26
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::SortedList_SyncSortedList::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 26 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool GlobalNamespace::SortedList_SyncSortedList::get_IsFixedSize()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            27
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::SortedList_SyncSortedList::get_IsFixedSize() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 27 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool GlobalNamespace::SortedList_SyncSortedList::get_IsSynchronized()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            28
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::SortedList_SyncSortedList::get_IsSynchronized() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 28 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::get_Item(::System::Object*  key)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            41
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, key);
+inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::get_Item(::System::Object* key) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 41 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, key);
 }
-inline void GlobalNamespace::SortedList_SyncSortedList::set_Item(::System::Object*  key, ::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            42
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
+inline void GlobalNamespace::SortedList_SyncSortedList::set_Item(::System::Object* key, ::System::Object* value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 42 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key, value);
 }
-inline void GlobalNamespace::SortedList_SyncSortedList::Add(::System::Object*  key, ::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            21
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
+inline void GlobalNamespace::SortedList_SyncSortedList::Add(::System::Object* key, ::System::Object* value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 21 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key, value);
 }
-inline void GlobalNamespace::SortedList_SyncSortedList::Clear()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            30
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SortedList_SyncSortedList::Clear() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 30 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::Clone()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            31
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::Clone() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 31 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline bool GlobalNamespace::SortedList_SyncSortedList::Contains(::System::Object*  key)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            32
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
+inline bool GlobalNamespace::SortedList_SyncSortedList::Contains(::System::Object* key) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 32 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key);
 }
-inline bool GlobalNamespace::SortedList_SyncSortedList::ContainsKey(::System::Object*  key)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            33
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
+inline bool GlobalNamespace::SortedList_SyncSortedList::ContainsKey(::System::Object* key) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 33 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key);
 }
-inline bool GlobalNamespace::SortedList_SyncSortedList::ContainsValue(::System::Object*  key)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            34
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
+inline bool GlobalNamespace::SortedList_SyncSortedList::ContainsValue(::System::Object* key) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 34 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key);
 }
-inline void GlobalNamespace::SortedList_SyncSortedList::CopyTo(::System::Array*  array, int32_t  index)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            35
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, index);
+inline void GlobalNamespace::SortedList_SyncSortedList::CopyTo(::System::Array* array, int32_t index) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 35 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array, index);
 }
-inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::GetByIndex(int32_t  index)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            36
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
+inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::GetByIndex(int32_t index) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 36 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, index);
 }
-inline ::System::Collections::IDictionaryEnumerator* GlobalNamespace::SortedList_SyncSortedList::GetEnumerator()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            37
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IDictionaryEnumerator* GlobalNamespace::SortedList_SyncSortedList::GetEnumerator() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 37 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::GetKey(int32_t  index)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            38
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
+inline ::System::Object* GlobalNamespace::SortedList_SyncSortedList::GetKey(int32_t index) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 38 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, index);
 }
-inline ::System::Collections::IList* GlobalNamespace::SortedList_SyncSortedList::GetKeyList()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            39
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IList*, false>(this, ___internal_method);
+inline ::System::Collections::IList* GlobalNamespace::SortedList_SyncSortedList::GetKeyList() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 39 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IList*>(this, ___internal_method);
 }
-inline ::System::Collections::IList* GlobalNamespace::SortedList_SyncSortedList::GetValueList()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            40
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IList*, false>(this, ___internal_method);
+inline ::System::Collections::IList* GlobalNamespace::SortedList_SyncSortedList::GetValueList() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 40 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IList*>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::SortedList_SyncSortedList::IndexOfKey(::System::Object*  key)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            43
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, key);
+inline int32_t GlobalNamespace::SortedList_SyncSortedList::IndexOfKey(::System::Object* key) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 43 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, key);
 }
-inline int32_t GlobalNamespace::SortedList_SyncSortedList::IndexOfValue(::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            44
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value);
+inline int32_t GlobalNamespace::SortedList_SyncSortedList::IndexOfValue(::System::Object* value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 44 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SortedList_SyncSortedList::RemoveAt(int32_t  index)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            45
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
+inline void GlobalNamespace::SortedList_SyncSortedList::RemoveAt(int32_t index) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 45 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index);
 }
-inline void GlobalNamespace::SortedList_SyncSortedList::Remove(::System::Object*  key)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_SyncSortedList*>::get(),
-                            46
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key);
+inline void GlobalNamespace::SortedList_SyncSortedList::Remove(::System::Object* key) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SortedList_SyncSortedList*>(), 46 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key);
 }
-inline ::GlobalNamespace::SortedList_SyncSortedList* GlobalNamespace::SortedList_SyncSortedList::New_ctor(::System::Collections::SortedList*  list)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SortedList_SyncSortedList*>(list));
+inline ::GlobalNamespace::SortedList_SyncSortedList* GlobalNamespace::SortedList_SyncSortedList::New_ctor(::System::Collections::SortedList* list) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SortedList_SyncSortedList*>(list));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SortedList_SyncSortedList::SortedList_SyncSortedList()   {
-}
+constexpr ::GlobalNamespace::SortedList_SyncSortedList::SortedList_SyncSortedList() {}

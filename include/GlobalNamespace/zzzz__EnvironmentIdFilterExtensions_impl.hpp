@@ -4,57 +4,40 @@
 #include "GlobalNamespace/zzzz__EnvironmentIdFilterExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentIdFilter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentIdFilterExtensions.ShouldExcludeTutorial
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::EnvironmentIdFilter)>(&::GlobalNamespace::EnvironmentIdFilterExtensions::ShouldExcludeTutorial)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::EnvironmentIdFilter)>(&::GlobalNamespace::EnvironmentIdFilterExtensions::ShouldExcludeTutorial)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x366dfa8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentIdFilterExtensions*>::get(),
-                        "ShouldExcludeTutorial",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentIdFilter>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentIdFilterExtensions*>(),
+                                                                                           { "ShouldExcludeTutorial", {}, { ::i2c::type_of<::GlobalNamespace::EnvironmentIdFilter>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentIdFilterExtensions.ShouldExcludeMultiplayer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::EnvironmentIdFilter)>(&::GlobalNamespace::EnvironmentIdFilterExtensions::ShouldExcludeMultiplayer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::EnvironmentIdFilter)>(&::GlobalNamespace::EnvironmentIdFilterExtensions::ShouldExcludeMultiplayer)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x366dfb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentIdFilterExtensions*>::get(),
-                        "ShouldExcludeMultiplayer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentIdFilter>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentIdFilterExtensions*>(),
+                                                                                           { "ShouldExcludeMultiplayer", {}, { ::i2c::type_of<::GlobalNamespace::EnvironmentIdFilter>() } })));
     return ___internal_method;
   }
 };
-inline bool GlobalNamespace::EnvironmentIdFilterExtensions::ShouldExcludeTutorial(::GlobalNamespace::EnvironmentIdFilter  filter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentIdFilterExtensions*>::get(),
-                        "ShouldExcludeTutorial",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentIdFilter>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, filter);
+inline bool GlobalNamespace::EnvironmentIdFilterExtensions::ShouldExcludeTutorial(::GlobalNamespace::EnvironmentIdFilter filter) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentIdFilterExtensions*>(),
+                                                                                         { "ShouldExcludeTutorial", {}, { ::i2c::type_of<::GlobalNamespace::EnvironmentIdFilter>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, filter);
 }
-inline bool GlobalNamespace::EnvironmentIdFilterExtensions::ShouldExcludeMultiplayer(::GlobalNamespace::EnvironmentIdFilter  filter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentIdFilterExtensions*>::get(),
-                        "ShouldExcludeMultiplayer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentIdFilter>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, filter);
+inline bool GlobalNamespace::EnvironmentIdFilterExtensions::ShouldExcludeMultiplayer(::GlobalNamespace::EnvironmentIdFilter filter) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentIdFilterExtensions*>(),
+                                                                                         { "ShouldExcludeMultiplayer", {}, { ::i2c::type_of<::GlobalNamespace::EnvironmentIdFilter>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, filter);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::EnvironmentIdFilterExtensions::EnvironmentIdFilterExtensions()   {
-}
+constexpr ::GlobalNamespace::EnvironmentIdFilterExtensions::EnvironmentIdFilterExtensions() {}

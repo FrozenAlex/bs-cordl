@@ -7,250 +7,181 @@
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RectangleFakeGlow.set_color
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)(::UnityEngine::Color)>(&::GlobalNamespace::RectangleFakeGlow::set_color)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)(::UnityEngine::Color)>(&::GlobalNamespace::RectangleFakeGlow::set_color)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x5865f70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "set_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "set_color", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RectangleFakeGlow.get_color
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::get_color)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::get_color)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5866034;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "get_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "get_color", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RectangleFakeGlow.Awake
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::Awake)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::Awake)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x5866040;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "Awake", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RectangleFakeGlow.OnEnable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::OnEnable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::OnEnable)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x58660a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "OnEnable", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RectangleFakeGlow.OnDisable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::OnDisable)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::OnDisable)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x5866218;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "OnDisable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "OnDisable", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RectangleFakeGlow.Refresh
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::Refresh)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::Refresh)> {
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x5866108;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "Refresh",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "Refresh", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RectangleFakeGlow._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::_ctor)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5866278;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector2& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__size()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____size;
+constexpr ::UnityEngine::Vector2& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__size() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____size;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__size() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____size;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____size;
 }
-constexpr void GlobalNamespace::RectangleFakeGlow::__cordl_internal_set__size(::UnityEngine::Vector2  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____size = value;
+constexpr void GlobalNamespace::RectangleFakeGlow::__cordl_internal_set__size(::UnityEngine::Vector2 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____size = value;
 }
-constexpr float_t& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__edgeSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____edgeSize;
+constexpr float_t& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__edgeSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____edgeSize;
 }
 constexpr float_t const& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__edgeSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____edgeSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____edgeSize;
 }
-constexpr void GlobalNamespace::RectangleFakeGlow::__cordl_internal_set__edgeSize(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____edgeSize = value;
+constexpr void GlobalNamespace::RectangleFakeGlow::__cordl_internal_set__edgeSize(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____edgeSize = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__color()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____color;
+constexpr ::UnityEngine::Color& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__color() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__color() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____color;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____color;
 }
-constexpr void GlobalNamespace::RectangleFakeGlow::__cordl_internal_set__color(::UnityEngine::Color  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____color = value;
+constexpr void GlobalNamespace::RectangleFakeGlow::__cordl_internal_set__color(::UnityEngine::Color value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____color = value;
 }
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__materialPropertyBlockController()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____materialPropertyBlockController;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__materialPropertyBlockController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____materialPropertyBlockController;
 }
 constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& GlobalNamespace::RectangleFakeGlow::__cordl_internal_get__materialPropertyBlockController() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____materialPropertyBlockController;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____materialPropertyBlockController;
 }
-constexpr void GlobalNamespace::RectangleFakeGlow::__cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::RectangleFakeGlow::__cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____materialPropertyBlockController = value;
 }
-inline void GlobalNamespace::RectangleFakeGlow::setStaticF__colorID(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "_colorID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get>(std::forward<int32_t>(value));
+inline void GlobalNamespace::RectangleFakeGlow::setStaticF__colorID(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_colorID", ::GlobalNamespace::RectangleFakeGlow*>(std::forward<int32_t>(value));
 }
-inline int32_t GlobalNamespace::RectangleFakeGlow::getStaticF__colorID()  {
-return ::cordl_internals::getStaticField<int32_t, "_colorID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get>();
+inline int32_t GlobalNamespace::RectangleFakeGlow::getStaticF__colorID() {
+  return ::cordl_internals::getStaticField<int32_t, "_colorID", ::GlobalNamespace::RectangleFakeGlow*>();
 }
-inline void GlobalNamespace::RectangleFakeGlow::setStaticF__sizeParamsID(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "_sizeParamsID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get>(std::forward<int32_t>(value));
+inline void GlobalNamespace::RectangleFakeGlow::setStaticF__sizeParamsID(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_sizeParamsID", ::GlobalNamespace::RectangleFakeGlow*>(std::forward<int32_t>(value));
 }
-inline int32_t GlobalNamespace::RectangleFakeGlow::getStaticF__sizeParamsID()  {
-return ::cordl_internals::getStaticField<int32_t, "_sizeParamsID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get>();
+inline int32_t GlobalNamespace::RectangleFakeGlow::getStaticF__sizeParamsID() {
+  return ::cordl_internals::getStaticField<int32_t, "_sizeParamsID", ::GlobalNamespace::RectangleFakeGlow*>();
 }
-inline void GlobalNamespace::RectangleFakeGlow::set_color(::UnityEngine::Color  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "set_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::RectangleFakeGlow::set_color(::UnityEngine::Color value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "set_color", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Color GlobalNamespace::RectangleFakeGlow::get_color()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "get_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
+inline ::UnityEngine::Color GlobalNamespace::RectangleFakeGlow::get_color() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "get_color", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
-inline void GlobalNamespace::RectangleFakeGlow::Awake()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RectangleFakeGlow::Awake() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "Awake", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::RectangleFakeGlow::OnEnable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RectangleFakeGlow::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "OnEnable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::RectangleFakeGlow::OnDisable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "OnDisable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RectangleFakeGlow::OnDisable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "OnDisable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::RectangleFakeGlow::Refresh()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        "Refresh",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RectangleFakeGlow::Refresh() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "Refresh", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::RectangleFakeGlow::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlow*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RectangleFakeGlow::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::RectangleFakeGlow* GlobalNamespace::RectangleFakeGlow::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RectangleFakeGlow*>());
+inline ::GlobalNamespace::RectangleFakeGlow* GlobalNamespace::RectangleFakeGlow::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RectangleFakeGlow*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::RectangleFakeGlow::RectangleFakeGlow()   {
-}
+constexpr ::GlobalNamespace::RectangleFakeGlow::RectangleFakeGlow() {}

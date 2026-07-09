@@ -4,31 +4,22 @@
 #include "GlobalNamespace/zzzz__ArrayExtension_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ArrayExtension.IsValidIndex
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Array*, int32_t)>(&::GlobalNamespace::ArrayExtension::IsValidIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Array*, int32_t)>(&::GlobalNamespace::ArrayExtension::IsValidIndex)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x32514dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayExtension*>::get(),
-                        "IsValidIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArrayExtension*>(), { "IsValidIndex", {}, { ::i2c::type_of<::System::Array*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-inline bool GlobalNamespace::ArrayExtension::IsValidIndex(::System::Array*  array, int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayExtension*>::get(),
-                        "IsValidIndex",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, array, index);
+inline bool GlobalNamespace::ArrayExtension::IsValidIndex(::System::Array* array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArrayExtension*>(), { "IsValidIndex", {}, { ::i2c::type_of<::System::Array*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, array, index);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ArrayExtension::ArrayExtension()   {
-}
+constexpr ::GlobalNamespace::ArrayExtension::ArrayExtension() {}

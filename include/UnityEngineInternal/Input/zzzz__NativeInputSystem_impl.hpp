@@ -9,471 +9,340 @@
 #include "UnityEngineInternal/Input/zzzz__NativeInputUpdateType_def.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeUpdateCallback_def.hpp"
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.get_onDeviceDiscovered
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_2<int32_t,::StringW>* (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_onDeviceDiscovered)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action_2<int32_t, ::StringW>* (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_onDeviceDiscovered)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6a0c9f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "get_onDeviceDiscovered",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_onDeviceDiscovered", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.set_onDeviceDiscovered
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_2<int32_t,::StringW>*)>(&::UnityEngineInternal::Input::NativeInputSystem::set_onDeviceDiscovered)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_2<int32_t, ::StringW>*)>(&::UnityEngineInternal::Input::NativeInputSystem::set_onDeviceDiscovered)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x6a0ca4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "set_onDeviceDiscovered",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<int32_t,::StringW>*>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                                                           { "set_onDeviceDiscovered", {}, { ::i2c::type_of<::System::Action_2<int32_t, ::StringW>*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.NotifyBeforeUpdate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType)>(&::UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType)>(&::UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x6a0cb40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "NotifyBeforeUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                                                           { "NotifyBeforeUpdate", {}, { ::i2c::type_of<::UnityEngineInternal::Input::NativeInputUpdateType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.NotifyUpdate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::System::IntPtr)>(&::UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::System::IntPtr)>(
+    &::UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x6a0cbc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "NotifyUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                             { "NotifyUpdate", {}, { ::i2c::type_of<::UnityEngineInternal::Input::NativeInputUpdateType>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.NotifyDeviceDiscovered
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::StringW)>(&::UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::StringW)>(&::UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6a0cc60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "NotifyDeviceDiscovered",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                                                           { "NotifyDeviceDiscovered", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.ShouldRunUpdate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::ByRef<bool>)>(&::UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::by_ref<bool>)>(
+    &::UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6a0ccf4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "ShouldRunUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                             { "ShouldRunUpdate", {}, { ::i2c::type_of<::UnityEngineInternal::Input::NativeInputUpdateType>(), ::i2c::type_of<::by_ref<bool>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.set_hasDeviceDiscoveredCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngineInternal::Input::NativeInputSystem::set_hasDeviceDiscoveredCallback)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngineInternal::Input::NativeInputSystem::set_hasDeviceDiscoveredCallback)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6a0cad4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "set_hasDeviceDiscoveredCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "set_hasDeviceDiscoveredCallback", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.get_currentTime
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_currentTime)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_currentTime)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6a0cd88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "get_currentTime",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_currentTime", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.get_currentTimeOffsetToRealtimeSinceStartup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_currentTimeOffsetToRealtimeSinceStartup)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_currentTimeOffsetToRealtimeSinceStartup)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6a0cdb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "get_currentTimeOffsetToRealtimeSinceStartup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_currentTimeOffsetToRealtimeSinceStartup", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.AllocateDeviceId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::AllocateDeviceId)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::AllocateDeviceId)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6a0cdd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "AllocateDeviceId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "AllocateDeviceId", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.QueueInputEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngineInternal::Input::NativeInputSystem::QueueInputEvent)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngineInternal::Input::NativeInputSystem::QueueInputEvent)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6a0ce00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "QueueInputEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "QueueInputEvent", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.IOCTL
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int32_t, int32_t, ::System::IntPtr, int32_t)>(&::UnityEngineInternal::Input::NativeInputSystem::IOCTL)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t, int32_t, ::System::IntPtr, int32_t)>(&::UnityEngineInternal::Input::NativeInputSystem::IOCTL)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6a0ce3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "IOCTL",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                { "IOCTL", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.SetPollingFrequency
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::UnityEngineInternal::Input::NativeInputSystem::SetPollingFrequency)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngineInternal::Input::NativeInputSystem::SetPollingFrequency)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x6a0ce98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "SetPollingFrequency",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "SetPollingFrequency", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.Update
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType)>(&::UnityEngineInternal::Input::NativeInputSystem::Update)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType)>(&::UnityEngineInternal::Input::NativeInputSystem::Update)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6a0ced0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                                                           { "Update", {}, { ::i2c::type_of<::UnityEngineInternal::Input::NativeInputUpdateType>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.get_normalizeScrollWheelDelta
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_normalizeScrollWheelDelta)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_normalizeScrollWheelDelta)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6a0cf0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "get_normalizeScrollWheelDelta",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_normalizeScrollWheelDelta", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.set_normalizeScrollWheelDelta
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngineInternal::Input::NativeInputSystem::set_normalizeScrollWheelDelta)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngineInternal::Input::NativeInputSystem::set_normalizeScrollWheelDelta)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6a0cf34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "set_normalizeScrollWheelDelta",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "set_normalizeScrollWheelDelta", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.GetScrollWheelDeltaPerTick
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::GetScrollWheelDeltaPerTick)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::GetScrollWheelDeltaPerTick)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6a0cf70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "GetScrollWheelDeltaPerTick",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "GetScrollWheelDeltaPerTick", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngineInternal::Input::NativeInputSystem::setStaticF_onUpdate(::UnityEngineInternal::Input::NativeUpdateCallback*  value)  {
-::cordl_internals::setStaticField<::UnityEngineInternal::Input::NativeUpdateCallback*, "onUpdate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get>(std::forward<::UnityEngineInternal::Input::NativeUpdateCallback*>(value));
+inline void UnityEngineInternal::Input::NativeInputSystem::setStaticF_onUpdate(::UnityEngineInternal::Input::NativeUpdateCallback* value) {
+  ::cordl_internals::setStaticField<::UnityEngineInternal::Input::NativeUpdateCallback*, "onUpdate", ::UnityEngineInternal::Input::NativeInputSystem*>(
+      std::forward<::UnityEngineInternal::Input::NativeUpdateCallback*>(value));
 }
-inline ::UnityEngineInternal::Input::NativeUpdateCallback* UnityEngineInternal::Input::NativeInputSystem::getStaticF_onUpdate()  {
-return ::cordl_internals::getStaticField<::UnityEngineInternal::Input::NativeUpdateCallback*, "onUpdate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get>();
+inline ::UnityEngineInternal::Input::NativeUpdateCallback* UnityEngineInternal::Input::NativeInputSystem::getStaticF_onUpdate() {
+  return ::cordl_internals::getStaticField<::UnityEngineInternal::Input::NativeUpdateCallback*, "onUpdate", ::UnityEngineInternal::Input::NativeInputSystem*>();
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::setStaticF_onBeforeUpdate(::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>*  value)  {
-::cordl_internals::setStaticField<::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>*, "onBeforeUpdate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get>(std::forward<::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>*>(value));
+inline void UnityEngineInternal::Input::NativeInputSystem::setStaticF_onBeforeUpdate(::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>*, "onBeforeUpdate", ::UnityEngineInternal::Input::NativeInputSystem*>(
+      std::forward<::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>*>(value));
 }
-inline ::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>* UnityEngineInternal::Input::NativeInputSystem::getStaticF_onBeforeUpdate()  {
-return ::cordl_internals::getStaticField<::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>*, "onBeforeUpdate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get>();
+inline ::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>* UnityEngineInternal::Input::NativeInputSystem::getStaticF_onBeforeUpdate() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>*, "onBeforeUpdate", ::UnityEngineInternal::Input::NativeInputSystem*>();
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::setStaticF_onShouldRunUpdate(::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType,bool>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType,bool>*, "onShouldRunUpdate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get>(std::forward<::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType,bool>*>(value));
+inline void UnityEngineInternal::Input::NativeInputSystem::setStaticF_onShouldRunUpdate(::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, bool>*, "onShouldRunUpdate", ::UnityEngineInternal::Input::NativeInputSystem*>(
+      std::forward<::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, bool>*>(value));
 }
-inline ::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType,bool>* UnityEngineInternal::Input::NativeInputSystem::getStaticF_onShouldRunUpdate()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType,bool>*, "onShouldRunUpdate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get>();
+inline ::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, bool>* UnityEngineInternal::Input::NativeInputSystem::getStaticF_onShouldRunUpdate() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, bool>*, "onShouldRunUpdate", ::UnityEngineInternal::Input::NativeInputSystem*>();
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::setStaticF_s_OnDeviceDiscoveredCallback(::System::Action_2<int32_t,::StringW>*  value)  {
-::cordl_internals::setStaticField<::System::Action_2<int32_t,::StringW>*, "s_OnDeviceDiscoveredCallback", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get>(std::forward<::System::Action_2<int32_t,::StringW>*>(value));
+inline void UnityEngineInternal::Input::NativeInputSystem::setStaticF_s_OnDeviceDiscoveredCallback(::System::Action_2<int32_t, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Action_2<int32_t, ::StringW>*, "s_OnDeviceDiscoveredCallback", ::UnityEngineInternal::Input::NativeInputSystem*>(
+      std::forward<::System::Action_2<int32_t, ::StringW>*>(value));
 }
-inline ::System::Action_2<int32_t,::StringW>* UnityEngineInternal::Input::NativeInputSystem::getStaticF_s_OnDeviceDiscoveredCallback()  {
-return ::cordl_internals::getStaticField<::System::Action_2<int32_t,::StringW>*, "s_OnDeviceDiscoveredCallback", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get>();
+inline ::System::Action_2<int32_t, ::StringW>* UnityEngineInternal::Input::NativeInputSystem::getStaticF_s_OnDeviceDiscoveredCallback() {
+  return ::cordl_internals::getStaticField<::System::Action_2<int32_t, ::StringW>*, "s_OnDeviceDiscoveredCallback", ::UnityEngineInternal::Input::NativeInputSystem*>();
 }
-inline ::System::Action_2<int32_t,::StringW>* UnityEngineInternal::Input::NativeInputSystem::get_onDeviceDiscovered()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "get_onDeviceDiscovered",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Action_2<int32_t,::StringW>*, false>(nullptr, ___internal_method);
+inline ::System::Action_2<int32_t, ::StringW>* UnityEngineInternal::Input::NativeInputSystem::get_onDeviceDiscovered() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_onDeviceDiscovered", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Action_2<int32_t, ::StringW>*>(nullptr, ___internal_method);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::set_onDeviceDiscovered(::System::Action_2<int32_t,::StringW>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "set_onDeviceDiscovered",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<int32_t,::StringW>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void UnityEngineInternal::Input::NativeInputSystem::set_onDeviceDiscovered(::System::Action_2<int32_t, ::StringW>* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                                                         { "set_onDeviceDiscovered", {}, { ::i2c::type_of<::System::Action_2<int32_t, ::StringW>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate(::UnityEngineInternal::Input::NativeInputUpdateType  updateType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "NotifyBeforeUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, updateType);
+inline void UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                                                         { "NotifyBeforeUpdate", {}, { ::i2c::type_of<::UnityEngineInternal::Input::NativeInputUpdateType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, updateType);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate(::UnityEngineInternal::Input::NativeInputUpdateType  updateType, ::System::IntPtr  eventBuffer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "NotifyUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, updateType, eventBuffer);
+inline void UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::System::IntPtr eventBuffer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                           { "NotifyUpdate", {}, { ::i2c::type_of<::UnityEngineInternal::Input::NativeInputUpdateType>(), ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, updateType, eventBuffer);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered(int32_t  deviceId, ::StringW  deviceDescriptor)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "NotifyDeviceDiscovered",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, deviceId, deviceDescriptor);
+inline void UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered(int32_t deviceId, ::StringW deviceDescriptor) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                                                         { "NotifyDeviceDiscovered", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, deviceId, deviceDescriptor);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate(::UnityEngineInternal::Input::NativeInputUpdateType  updateType, ::ByRef<bool>  retval)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "ShouldRunUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, updateType, retval);
+inline void UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::by_ref<bool> retval) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                           { "ShouldRunUpdate", {}, { ::i2c::type_of<::UnityEngineInternal::Input::NativeInputUpdateType>(), ::i2c::type_of<::by_ref<bool>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, updateType, retval);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::set_hasDeviceDiscoveredCallback(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "set_hasDeviceDiscoveredCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void UnityEngineInternal::Input::NativeInputSystem::set_hasDeviceDiscoveredCallback(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "set_hasDeviceDiscoveredCallback", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline double_t UnityEngineInternal::Input::NativeInputSystem::get_currentTime()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "get_currentTime",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method);
+inline double_t UnityEngineInternal::Input::NativeInputSystem::get_currentTime() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_currentTime", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<double_t>(nullptr, ___internal_method);
 }
-inline double_t UnityEngineInternal::Input::NativeInputSystem::get_currentTimeOffsetToRealtimeSinceStartup()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "get_currentTimeOffsetToRealtimeSinceStartup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method);
+inline double_t UnityEngineInternal::Input::NativeInputSystem::get_currentTimeOffsetToRealtimeSinceStartup() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_currentTimeOffsetToRealtimeSinceStartup", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<double_t>(nullptr, ___internal_method);
 }
-inline int32_t UnityEngineInternal::Input::NativeInputSystem::AllocateDeviceId()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "AllocateDeviceId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t UnityEngineInternal::Input::NativeInputSystem::AllocateDeviceId() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "AllocateDeviceId", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::QueueInputEvent(::System::IntPtr  inputEvent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "QueueInputEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, inputEvent);
+inline void UnityEngineInternal::Input::NativeInputSystem::QueueInputEvent(::System::IntPtr inputEvent) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "QueueInputEvent", {}, { ::i2c::type_of<::System::IntPtr>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, inputEvent);
 }
-inline int64_t UnityEngineInternal::Input::NativeInputSystem::IOCTL(int32_t  deviceId, int32_t  code, ::System::IntPtr  data, int32_t  sizeInBytes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "IOCTL",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, deviceId, code, data, sizeInBytes);
+inline int64_t UnityEngineInternal::Input::NativeInputSystem::IOCTL(int32_t deviceId, int32_t code, ::System::IntPtr data, int32_t sizeInBytes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                           { "IOCTL", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, deviceId, code, data, sizeInBytes);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::SetPollingFrequency(float_t  hertz)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "SetPollingFrequency",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, hertz);
+inline void UnityEngineInternal::Input::NativeInputSystem::SetPollingFrequency(float_t hertz) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "SetPollingFrequency", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, hertz);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::Update(::UnityEngineInternal::Input::NativeInputUpdateType  updateType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, updateType);
+inline void UnityEngineInternal::Input::NativeInputSystem::Update(::UnityEngineInternal::Input::NativeInputUpdateType updateType) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
+                                                                                         { "Update", {}, { ::i2c::type_of<::UnityEngineInternal::Input::NativeInputUpdateType>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, updateType);
 }
-inline bool UnityEngineInternal::Input::NativeInputSystem::get_normalizeScrollWheelDelta()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "get_normalizeScrollWheelDelta",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool UnityEngineInternal::Input::NativeInputSystem::get_normalizeScrollWheelDelta() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_normalizeScrollWheelDelta", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-inline void UnityEngineInternal::Input::NativeInputSystem::set_normalizeScrollWheelDelta(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "set_normalizeScrollWheelDelta",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+inline void UnityEngineInternal::Input::NativeInputSystem::set_normalizeScrollWheelDelta(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "set_normalizeScrollWheelDelta", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline float_t UnityEngineInternal::Input::NativeInputSystem::GetScrollWheelDeltaPerTick()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
-                        "GetScrollWheelDeltaPerTick",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method);
+inline float_t UnityEngineInternal::Input::NativeInputSystem::GetScrollWheelDeltaPerTick() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "GetScrollWheelDeltaPerTick", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::UnityEngineInternal::Input::NativeInputSystem::NativeInputSystem()   {
-}
+constexpr ::UnityEngineInternal::Input::NativeInputSystem::NativeInputSystem() {}

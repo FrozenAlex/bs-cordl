@@ -4,111 +4,84 @@
 #include "System/Net/Http/zzzz__MultipartFormDataContent_def.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::MultipartFormDataContent._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)()>(&::System::Net::Http::MultipartFormDataContent::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)()>(&::System::Net::Http::MultipartFormDataContent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x5fa10ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MultipartFormDataContent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::MultipartFormDataContent.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)(::System::Net::Http::HttpContent*)>(&::System::Net::Http::MultipartFormDataContent::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)(::System::Net::Http::HttpContent*)>(
+    &::System::Net::Http::MultipartFormDataContent::Add)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5fa10f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MultipartFormDataContent*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MultipartFormDataContent*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(), { ::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(), 11 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::MultipartFormDataContent.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)(::System::Net::Http::HttpContent*, ::StringW, ::StringW)>(&::System::Net::Http::MultipartFormDataContent::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)(::System::Net::Http::HttpContent*, ::StringW, ::StringW)>(
+    &::System::Net::Http::MultipartFormDataContent::Add)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x5fa11fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MultipartFormDataContent*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(),
+                                                             { "Add", {}, { ::i2c::type_of<::System::Net::Http::HttpContent*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Http::MultipartFormDataContent.AddContentDisposition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)(::System::Net::Http::HttpContent*, ::StringW, ::StringW)>(&::System::Net::Http::MultipartFormDataContent::AddContentDisposition)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)(::System::Net::Http::HttpContent*, ::StringW, ::StringW)>(
+    &::System::Net::Http::MultipartFormDataContent::AddContentDisposition)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x5fa1118;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MultipartFormDataContent*>::get(),
-                        "AddContentDisposition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(),
+                                                { "AddContentDisposition", {}, { ::i2c::type_of<::System::Net::Http::HttpContent*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
-inline void System::Net::Http::MultipartFormDataContent::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MultipartFormDataContent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Net::Http::MultipartFormDataContent::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::Net::Http::MultipartFormDataContent::Add(::System::Net::Http::HttpContent*  content)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MultipartFormDataContent*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, content);
+inline void System::Net::Http::MultipartFormDataContent::Add(::System::Net::Http::HttpContent* content) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, content);
 }
-inline void System::Net::Http::MultipartFormDataContent::Add(::System::Net::Http::HttpContent*  content, ::StringW  name, ::StringW  fileName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MultipartFormDataContent*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, content, name, fileName);
+inline void System::Net::Http::MultipartFormDataContent::Add(::System::Net::Http::HttpContent* content, ::StringW name, ::StringW fileName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(),
+                                                           { "Add", {}, { ::i2c::type_of<::System::Net::Http::HttpContent*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, content, name, fileName);
 }
-inline void System::Net::Http::MultipartFormDataContent::AddContentDisposition(::System::Net::Http::HttpContent*  content, ::StringW  name, ::StringW  fileName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MultipartFormDataContent*>::get(),
-                        "AddContentDisposition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, content, name, fileName);
+inline void System::Net::Http::MultipartFormDataContent::AddContentDisposition(::System::Net::Http::HttpContent* content, ::StringW name, ::StringW fileName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(),
+                                              { "AddContentDisposition", {}, { ::i2c::type_of<::System::Net::Http::HttpContent*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, content, name, fileName);
 }
-inline ::System::Net::Http::MultipartFormDataContent* System::Net::Http::MultipartFormDataContent::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::MultipartFormDataContent*>());
+inline ::System::Net::Http::MultipartFormDataContent* System::Net::Http::MultipartFormDataContent::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Http::MultipartFormDataContent*>());
 }
 // Ctor Parameters []
-constexpr ::System::Net::Http::MultipartFormDataContent::MultipartFormDataContent()   {
-}
+constexpr ::System::Net::Http::MultipartFormDataContent::MultipartFormDataContent() {}

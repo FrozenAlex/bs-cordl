@@ -6,198 +6,152 @@
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelBuyInfoView.get_buyLevelButton
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(&::GlobalNamespace::StandardLevelBuyInfoView::get_buyLevelButton)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(
+    &::GlobalNamespace::StandardLevelBuyInfoView::get_buyLevelButton)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x57b8158;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        "get_buyLevelButton",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { "get_buyLevelButton", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelBuyInfoView.get_openPackButton
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(&::GlobalNamespace::StandardLevelBuyInfoView::get_openPackButton)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(
+    &::GlobalNamespace::StandardLevelBuyInfoView::get_openPackButton)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x57b8160;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        "get_openPackButton",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { "get_openPackButton", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelBuyInfoView.get_buyPackButton
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(&::GlobalNamespace::StandardLevelBuyInfoView::get_buyPackButton)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(
+    &::GlobalNamespace::StandardLevelBuyInfoView::get_buyPackButton)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x57b8168;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        "get_buyPackButton",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { "get_buyPackButton", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelBuyInfoView.RefreshView
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyInfoView::*)(::StringW, bool)>(&::GlobalNamespace::StandardLevelBuyInfoView::RefreshView)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyInfoView::*)(::StringW, bool)>(&::GlobalNamespace::StandardLevelBuyInfoView::RefreshView)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x57b8170;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        "RefreshView",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { "RefreshView", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelBuyInfoView._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(&::GlobalNamespace::StandardLevelBuyInfoView::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(&::GlobalNamespace::StandardLevelBuyInfoView::_ctor)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x57b81fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__text()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____text;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__text() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____text;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__text() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____text;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____text;
 }
-constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____text = value;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__buyLevelButton()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buyLevelButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__buyLevelButton() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buyLevelButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__buyLevelButton() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buyLevelButton;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buyLevelButton;
 }
-constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__buyLevelButton(::UnityW<::UnityEngine::UI::Button>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buyLevelButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__buyLevelButton(::UnityW<::UnityEngine::UI::Button> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____buyLevelButton = value;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__openPackButton()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____openPackButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__openPackButton() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____openPackButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__openPackButton() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____openPackButton;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____openPackButton;
 }
-constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__openPackButton(::UnityW<::UnityEngine::UI::Button>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____openPackButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__openPackButton(::UnityW<::UnityEngine::UI::Button> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____openPackButton = value;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__buyPackButton()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buyPackButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__buyPackButton() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buyPackButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__buyPackButton() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buyPackButton;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buyPackButton;
 }
-constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__buyPackButton(::UnityW<::UnityEngine::UI::Button>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buyPackButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__buyPackButton(::UnityW<::UnityEngine::UI::Button> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____buyPackButton = value;
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__steamMessageGameObject()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____steamMessageGameObject;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__steamMessageGameObject() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____steamMessageGameObject;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_get__steamMessageGameObject() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____steamMessageGameObject;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____steamMessageGameObject;
 }
-constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__steamMessageGameObject(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____steamMessageGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::StandardLevelBuyInfoView::__cordl_internal_set__steamMessageGameObject(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____steamMessageGameObject = value;
 }
-inline ::UnityW<::UnityEngine::UI::Button> GlobalNamespace::StandardLevelBuyInfoView::get_buyLevelButton()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        "get_buyLevelButton",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Button>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::UI::Button> GlobalNamespace::StandardLevelBuyInfoView::get_buyLevelButton() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { "get_buyLevelButton", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Button>>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::UI::Button> GlobalNamespace::StandardLevelBuyInfoView::get_openPackButton()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        "get_openPackButton",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Button>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::UI::Button> GlobalNamespace::StandardLevelBuyInfoView::get_openPackButton() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { "get_openPackButton", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Button>>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::UI::Button> GlobalNamespace::StandardLevelBuyInfoView::get_buyPackButton()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        "get_buyPackButton",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Button>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::UI::Button> GlobalNamespace::StandardLevelBuyInfoView::get_buyPackButton() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { "get_buyPackButton", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Button>>(this, ___internal_method);
 }
-inline void GlobalNamespace::StandardLevelBuyInfoView::RefreshView(::StringW  infoText, bool  canBuyPack)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        "RefreshView",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, infoText, canBuyPack);
+inline void GlobalNamespace::StandardLevelBuyInfoView::RefreshView(::StringW infoText, bool canBuyPack) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { "RefreshView", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, infoText, canBuyPack);
 }
-inline void GlobalNamespace::StandardLevelBuyInfoView::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::StandardLevelBuyInfoView::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyInfoView*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::StandardLevelBuyInfoView* GlobalNamespace::StandardLevelBuyInfoView::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelBuyInfoView*>());
+inline ::GlobalNamespace::StandardLevelBuyInfoView* GlobalNamespace::StandardLevelBuyInfoView::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::StandardLevelBuyInfoView*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::StandardLevelBuyInfoView::StandardLevelBuyInfoView()   {
-}
+constexpr ::GlobalNamespace::StandardLevelBuyInfoView::StandardLevelBuyInfoView() {}
